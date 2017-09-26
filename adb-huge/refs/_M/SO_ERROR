@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/asm-generic/socket.h' l='12'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='109' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='201'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='104' u='c'/>

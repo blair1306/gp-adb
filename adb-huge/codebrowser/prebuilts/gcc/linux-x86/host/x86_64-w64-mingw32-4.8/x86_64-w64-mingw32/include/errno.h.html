@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>errno.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/errno.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/errno.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='errno.h.html'>errno.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/_INC_ERRNO">_INC_ERRNO</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/_INC_ERRNO" data-ref="_M/_INC_ERRNO">_INC_ERRNO</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="crtdefs.h.html">&lt;crtdefs.h&gt;</a></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#<span data-ppcond="11">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="12">12</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="11">endif</span></u></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><u>#<span data-ppcond="15">ifndef</span> <span class="macro" data-ref="_M/_CRT_ERRNO_DEFINED">_CRT_ERRNO_DEFINED</span></u></td></tr>
+<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/_CRT_ERRNO_DEFINED" data-ref="_M/_CRT_ERRNO_DEFINED">_CRT_ERRNO_DEFINED</dfn></u></td></tr>
+<tr><th id="17">17</th><td><a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <b>extern</b> <em>int</em> *<b>__cdecl</b> <dfn class="decl" id="_errno" title='_errno' data-ref="_errno">_errno</dfn>(<em>void</em>);</td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/errno" data-ref="_M/errno">errno</dfn> (*_errno())</u></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><a class="typedef" href="_mingw.h.html#errno_t" title='errno_t' data-type='int' data-ref="errno_t">errno_t</a> <b>__cdecl</b> <dfn class="decl" id="_set_errno" title='_set_errno' data-ref="_set_errno">_set_errno</dfn>(<em>int</em> <dfn class="local col1 decl" id="1_Value" title='_Value' data-type='int' data-ref="1_Value">_Value</dfn>);</td></tr>
+<tr><th id="21">21</th><td><a class="typedef" href="_mingw.h.html#errno_t" title='errno_t' data-type='int' data-ref="errno_t">errno_t</a> <b>__cdecl</b> <dfn class="decl" id="_get_errno" title='_get_errno' data-ref="_get_errno">_get_errno</dfn>(<em>int</em> *<dfn class="local col2 decl" id="2_Value" title='_Value' data-type='int *' data-ref="2_Value">_Value</dfn>);</td></tr>
+<tr><th id="22">22</th><td><u>#<span data-ppcond="15">endif</span> /* _CRT_ERRNO_DEFINED */</u></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/EPERM" data-ref="_M/EPERM">EPERM</dfn> 1</u></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/ENOENT" data-ref="_M/ENOENT">ENOENT</dfn> 2</u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/ENOFILE" data-ref="_M/ENOFILE">ENOFILE</dfn> ENOENT</u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/ESRCH" data-ref="_M/ESRCH">ESRCH</dfn> 3</u></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/EINTR" data-ref="_M/EINTR">EINTR</dfn> 4</u></td></tr>
+<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/EIO" data-ref="_M/EIO">EIO</dfn> 5</u></td></tr>
+<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/ENXIO" data-ref="_M/ENXIO">ENXIO</dfn> 6</u></td></tr>
+<tr><th id="31">31</th><td><u>#define <dfn class="macro" id="_M/E2BIG" data-ref="_M/E2BIG">E2BIG</dfn> 7</u></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/ENOEXEC" data-ref="_M/ENOEXEC">ENOEXEC</dfn> 8</u></td></tr>
+<tr><th id="33">33</th><td><u>#define <dfn class="macro" id="_M/EBADF" data-ref="_M/EBADF">EBADF</dfn> 9</u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/ECHILD" data-ref="_M/ECHILD">ECHILD</dfn> 10</u></td></tr>
+<tr><th id="35">35</th><td><u>#define <dfn class="macro" id="_M/EAGAIN" data-ref="_M/EAGAIN">EAGAIN</dfn> 11</u></td></tr>
+<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/ENOMEM" data-ref="_M/ENOMEM">ENOMEM</dfn> 12</u></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/EACCES" data-ref="_M/EACCES">EACCES</dfn> 13</u></td></tr>
+<tr><th id="38">38</th><td><u>#define <dfn class="macro" id="_M/EFAULT" data-ref="_M/EFAULT">EFAULT</dfn> 14</u></td></tr>
+<tr><th id="39">39</th><td><u>#define <dfn class="macro" id="_M/EBUSY" data-ref="_M/EBUSY">EBUSY</dfn> 16</u></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/EEXIST" data-ref="_M/EEXIST">EEXIST</dfn> 17</u></td></tr>
+<tr><th id="41">41</th><td><u>#define <dfn class="macro" id="_M/EXDEV" data-ref="_M/EXDEV">EXDEV</dfn> 18</u></td></tr>
+<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/ENODEV" data-ref="_M/ENODEV">ENODEV</dfn> 19</u></td></tr>
+<tr><th id="43">43</th><td><u>#define <dfn class="macro" id="_M/ENOTDIR" data-ref="_M/ENOTDIR">ENOTDIR</dfn> 20</u></td></tr>
+<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/EISDIR" data-ref="_M/EISDIR">EISDIR</dfn> 21</u></td></tr>
+<tr><th id="45">45</th><td><u>#define <dfn class="macro" id="_M/ENFILE" data-ref="_M/ENFILE">ENFILE</dfn> 23</u></td></tr>
+<tr><th id="46">46</th><td><u>#define <dfn class="macro" id="_M/EMFILE" data-ref="_M/EMFILE">EMFILE</dfn> 24</u></td></tr>
+<tr><th id="47">47</th><td><u>#define <dfn class="macro" id="_M/ENOTTY" data-ref="_M/ENOTTY">ENOTTY</dfn> 25</u></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/EFBIG" data-ref="_M/EFBIG">EFBIG</dfn> 27</u></td></tr>
+<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/ENOSPC" data-ref="_M/ENOSPC">ENOSPC</dfn> 28</u></td></tr>
+<tr><th id="50">50</th><td><u>#define <dfn class="macro" id="_M/ESPIPE" data-ref="_M/ESPIPE">ESPIPE</dfn> 29</u></td></tr>
+<tr><th id="51">51</th><td><u>#define <dfn class="macro" id="_M/EROFS" data-ref="_M/EROFS">EROFS</dfn> 30</u></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/EMLINK" data-ref="_M/EMLINK">EMLINK</dfn> 31</u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/EPIPE" data-ref="_M/EPIPE">EPIPE</dfn> 32</u></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/EDOM" data-ref="_M/EDOM">EDOM</dfn> 33</u></td></tr>
+<tr><th id="55">55</th><td><u>#define <dfn class="macro" id="_M/EDEADLK" data-ref="_M/EDEADLK">EDEADLK</dfn> 36</u></td></tr>
+<tr><th id="56">56</th><td><u>#define <dfn class="macro" id="_M/ENAMETOOLONG" data-ref="_M/ENAMETOOLONG">ENAMETOOLONG</dfn> 38</u></td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/ENOLCK" data-ref="_M/ENOLCK">ENOLCK</dfn> 39</u></td></tr>
+<tr><th id="58">58</th><td><u>#define <dfn class="macro" id="_M/ENOSYS" data-ref="_M/ENOSYS">ENOSYS</dfn> 40</u></td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/ENOTEMPTY" data-ref="_M/ENOTEMPTY">ENOTEMPTY</dfn> 41</u></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><u>#<span data-ppcond="61">ifndef</span> <span class="macro" data-ref="_M/RC_INVOKED">RC_INVOKED</span></u></td></tr>
+<tr><th id="62">62</th><td><u>#<span data-ppcond="62">if</span> !defined(<span class="macro" data-ref="_M/_SECURECRT_ERRCODE_VALUES_DEFINED">_SECURECRT_ERRCODE_VALUES_DEFINED</span>)</u></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/_SECURECRT_ERRCODE_VALUES_DEFINED" data-ref="_M/_SECURECRT_ERRCODE_VALUES_DEFINED">_SECURECRT_ERRCODE_VALUES_DEFINED</dfn></u></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/EINVAL" data-ref="_M/EINVAL">EINVAL</dfn> 22</u></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/ERANGE" data-ref="_M/ERANGE">ERANGE</dfn> 34</u></td></tr>
+<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/EILSEQ" data-ref="_M/EILSEQ">EILSEQ</dfn> 42</u></td></tr>
+<tr><th id="67">67</th><td><u>#define <dfn class="macro" id="_M/STRUNCATE" data-ref="_M/STRUNCATE">STRUNCATE</dfn> 80</u></td></tr>
+<tr><th id="68">68</th><td><u>#<span data-ppcond="62">endif</span></u></td></tr>
+<tr><th id="69">69</th><td><u>#<span data-ppcond="61">endif</span></u></td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><u>#define <dfn class="macro" id="_M/EDEADLOCK" data-ref="_M/EDEADLOCK">EDEADLOCK</dfn> EDEADLK</u></td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td><i>/* Posix thread extensions.  */</i></td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td><u>#<span data-ppcond="75">ifndef</span> <span class="macro" data-ref="_M/ENOTSUP">ENOTSUP</span></u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/ENOTSUP" data-ref="_M/ENOTSUP">ENOTSUP</dfn>         129</u></td></tr>
+<tr><th id="77">77</th><td><u>#<span data-ppcond="75">endif</span></u></td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td><i>/* Extension defined as by report VC 10+ defines error-numbers.  */</i></td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td><u>#<span data-ppcond="81">ifndef</span> <span class="macro" data-ref="_M/EAFNOSUPPORT">EAFNOSUPPORT</span></u></td></tr>
+<tr><th id="82">82</th><td><u>#define <dfn class="macro" id="_M/EAFNOSUPPORT" data-ref="_M/EAFNOSUPPORT">EAFNOSUPPORT</dfn> 102</u></td></tr>
+<tr><th id="83">83</th><td><u>#<span data-ppcond="81">endif</span></u></td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td><u>#<span data-ppcond="85">ifndef</span> <span class="macro" data-ref="_M/EADDRINUSE">EADDRINUSE</span></u></td></tr>
+<tr><th id="86">86</th><td><u>#define <dfn class="macro" id="_M/EADDRINUSE" data-ref="_M/EADDRINUSE">EADDRINUSE</dfn> 100</u></td></tr>
+<tr><th id="87">87</th><td><u>#<span data-ppcond="85">endif</span></u></td></tr>
+<tr><th id="88">88</th><td></td></tr>
+<tr><th id="89">89</th><td><u>#<span data-ppcond="89">ifndef</span> <span class="macro" data-ref="_M/EADDRNOTAVAIL">EADDRNOTAVAIL</span></u></td></tr>
+<tr><th id="90">90</th><td><u>#define <dfn class="macro" id="_M/EADDRNOTAVAIL" data-ref="_M/EADDRNOTAVAIL">EADDRNOTAVAIL</dfn> 101</u></td></tr>
+<tr><th id="91">91</th><td><u>#<span data-ppcond="89">endif</span></u></td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td><u>#<span data-ppcond="93">ifndef</span> <span class="macro" data-ref="_M/EISCONN">EISCONN</span></u></td></tr>
+<tr><th id="94">94</th><td><u>#define <dfn class="macro" id="_M/EISCONN" data-ref="_M/EISCONN">EISCONN</dfn> 113</u></td></tr>
+<tr><th id="95">95</th><td><u>#<span data-ppcond="93">endif</span></u></td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td><u>#<span data-ppcond="97">ifndef</span> <span class="macro" data-ref="_M/ENOBUFS">ENOBUFS</span></u></td></tr>
+<tr><th id="98">98</th><td><u>#define <dfn class="macro" id="_M/ENOBUFS" data-ref="_M/ENOBUFS">ENOBUFS</dfn> 119</u></td></tr>
+<tr><th id="99">99</th><td><u>#<span data-ppcond="97">endif</span></u></td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td><u>#<span data-ppcond="101">ifndef</span> <span class="macro" data-ref="_M/ECONNABORTED">ECONNABORTED</span></u></td></tr>
+<tr><th id="102">102</th><td><u>#define <dfn class="macro" id="_M/ECONNABORTED" data-ref="_M/ECONNABORTED">ECONNABORTED</dfn> 106</u></td></tr>
+<tr><th id="103">103</th><td><u>#<span data-ppcond="101">endif</span></u></td></tr>
+<tr><th id="104">104</th><td></td></tr>
+<tr><th id="105">105</th><td><u>#<span data-ppcond="105">ifndef</span> <span class="macro" data-ref="_M/EALREADY">EALREADY</span></u></td></tr>
+<tr><th id="106">106</th><td><u>#define <dfn class="macro" id="_M/EALREADY" data-ref="_M/EALREADY">EALREADY</dfn> 103</u></td></tr>
+<tr><th id="107">107</th><td><u>#<span data-ppcond="105">endif</span></u></td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td><u>#<span data-ppcond="109">ifndef</span> <span class="macro" data-ref="_M/ECONNREFUSED">ECONNREFUSED</span></u></td></tr>
+<tr><th id="110">110</th><td><u>#define <dfn class="macro" id="_M/ECONNREFUSED" data-ref="_M/ECONNREFUSED">ECONNREFUSED</dfn> 107</u></td></tr>
+<tr><th id="111">111</th><td><u>#<span data-ppcond="109">endif</span></u></td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td><u>#<span data-ppcond="113">ifndef</span> <span class="macro" data-ref="_M/ECONNRESET">ECONNRESET</span></u></td></tr>
+<tr><th id="114">114</th><td><u>#define <dfn class="macro" id="_M/ECONNRESET" data-ref="_M/ECONNRESET">ECONNRESET</dfn> 108</u></td></tr>
+<tr><th id="115">115</th><td><u>#<span data-ppcond="113">endif</span></u></td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td><u>#<span data-ppcond="117">ifndef</span> <span class="macro" data-ref="_M/EDESTADDRREQ">EDESTADDRREQ</span></u></td></tr>
+<tr><th id="118">118</th><td><u>#define <dfn class="macro" id="_M/EDESTADDRREQ" data-ref="_M/EDESTADDRREQ">EDESTADDRREQ</dfn> 109</u></td></tr>
+<tr><th id="119">119</th><td><u>#<span data-ppcond="117">endif</span></u></td></tr>
+<tr><th id="120">120</th><td></td></tr>
+<tr><th id="121">121</th><td><u>#<span data-ppcond="121">ifndef</span> <span class="macro" data-ref="_M/EHOSTUNREACH">EHOSTUNREACH</span></u></td></tr>
+<tr><th id="122">122</th><td><u>#define <dfn class="macro" id="_M/EHOSTUNREACH" data-ref="_M/EHOSTUNREACH">EHOSTUNREACH</dfn> 110</u></td></tr>
+<tr><th id="123">123</th><td><u>#<span data-ppcond="121">endif</span></u></td></tr>
+<tr><th id="124">124</th><td></td></tr>
+<tr><th id="125">125</th><td><u>#<span data-ppcond="125">ifndef</span> <span class="macro" data-ref="_M/EMSGSIZE">EMSGSIZE</span></u></td></tr>
+<tr><th id="126">126</th><td><u>#define <dfn class="macro" id="_M/EMSGSIZE" data-ref="_M/EMSGSIZE">EMSGSIZE</dfn> 115</u></td></tr>
+<tr><th id="127">127</th><td><u>#<span data-ppcond="125">endif</span></u></td></tr>
+<tr><th id="128">128</th><td></td></tr>
+<tr><th id="129">129</th><td><u>#<span data-ppcond="129">ifndef</span> <span class="macro" data-ref="_M/ENETDOWN">ENETDOWN</span></u></td></tr>
+<tr><th id="130">130</th><td><u>#define <dfn class="macro" id="_M/ENETDOWN" data-ref="_M/ENETDOWN">ENETDOWN</dfn> 116</u></td></tr>
+<tr><th id="131">131</th><td><u>#<span data-ppcond="129">endif</span></u></td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td><u>#<span data-ppcond="133">ifndef</span> <span class="macro" data-ref="_M/ENETRESET">ENETRESET</span></u></td></tr>
+<tr><th id="134">134</th><td><u>#define <dfn class="macro" id="_M/ENETRESET" data-ref="_M/ENETRESET">ENETRESET</dfn> 117</u></td></tr>
+<tr><th id="135">135</th><td><u>#<span data-ppcond="133">endif</span></u></td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td><u>#<span data-ppcond="137">ifndef</span> <span class="macro" data-ref="_M/ENETUNREACH">ENETUNREACH</span></u></td></tr>
+<tr><th id="138">138</th><td><u>#define <dfn class="macro" id="_M/ENETUNREACH" data-ref="_M/ENETUNREACH">ENETUNREACH</dfn> 118</u></td></tr>
+<tr><th id="139">139</th><td><u>#<span data-ppcond="137">endif</span></u></td></tr>
+<tr><th id="140">140</th><td></td></tr>
+<tr><th id="141">141</th><td><u>#<span data-ppcond="141">ifndef</span> <span class="macro" data-ref="_M/ENOPROTOOPT">ENOPROTOOPT</span></u></td></tr>
+<tr><th id="142">142</th><td><u>#define <dfn class="macro" id="_M/ENOPROTOOPT" data-ref="_M/ENOPROTOOPT">ENOPROTOOPT</dfn> 123</u></td></tr>
+<tr><th id="143">143</th><td><u>#<span data-ppcond="141">endif</span></u></td></tr>
+<tr><th id="144">144</th><td></td></tr>
+<tr><th id="145">145</th><td><u>#<span data-ppcond="145">ifndef</span> <span class="macro" data-ref="_M/ENOTSOCK">ENOTSOCK</span></u></td></tr>
+<tr><th id="146">146</th><td><u>#define <dfn class="macro" id="_M/ENOTSOCK" data-ref="_M/ENOTSOCK">ENOTSOCK</dfn> 128</u></td></tr>
+<tr><th id="147">147</th><td><u>#<span data-ppcond="145">endif</span></u></td></tr>
+<tr><th id="148">148</th><td></td></tr>
+<tr><th id="149">149</th><td><u>#<span data-ppcond="149">ifndef</span> <span class="macro" data-ref="_M/ENOTCONN">ENOTCONN</span></u></td></tr>
+<tr><th id="150">150</th><td><u>#define <dfn class="macro" id="_M/ENOTCONN" data-ref="_M/ENOTCONN">ENOTCONN</dfn> 126</u></td></tr>
+<tr><th id="151">151</th><td><u>#<span data-ppcond="149">endif</span></u></td></tr>
+<tr><th id="152">152</th><td></td></tr>
+<tr><th id="153">153</th><td><u>#<span data-ppcond="153">ifndef</span> <span class="macro" data-ref="_M/ECANCELED">ECANCELED</span></u></td></tr>
+<tr><th id="154">154</th><td><u>#define <dfn class="macro" id="_M/ECANCELED" data-ref="_M/ECANCELED">ECANCELED</dfn> 105</u></td></tr>
+<tr><th id="155">155</th><td><u>#<span data-ppcond="153">endif</span></u></td></tr>
+<tr><th id="156">156</th><td></td></tr>
+<tr><th id="157">157</th><td><u>#<span data-ppcond="157">ifndef</span> <span class="macro" data-ref="_M/EINPROGRESS">EINPROGRESS</span></u></td></tr>
+<tr><th id="158">158</th><td><u>#define <dfn class="macro" id="_M/EINPROGRESS" data-ref="_M/EINPROGRESS">EINPROGRESS</dfn> 112</u></td></tr>
+<tr><th id="159">159</th><td><u>#<span data-ppcond="157">endif</span></u></td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td><u>#<span data-ppcond="161">ifndef</span> <span class="macro" data-ref="_M/EOPNOTSUPP">EOPNOTSUPP</span></u></td></tr>
+<tr><th id="162">162</th><td><u>#define <dfn class="macro" id="_M/EOPNOTSUPP" data-ref="_M/EOPNOTSUPP">EOPNOTSUPP</dfn> 130</u></td></tr>
+<tr><th id="163">163</th><td><u>#<span data-ppcond="161">endif</span></u></td></tr>
+<tr><th id="164">164</th><td></td></tr>
+<tr><th id="165">165</th><td><u>#<span data-ppcond="165">ifndef</span> <span class="macro" data-ref="_M/EWOULDBLOCK">EWOULDBLOCK</span></u></td></tr>
+<tr><th id="166">166</th><td><u>#define <dfn class="macro" id="_M/EWOULDBLOCK" data-ref="_M/EWOULDBLOCK">EWOULDBLOCK</dfn> 140</u></td></tr>
+<tr><th id="167">167</th><td><u>#<span data-ppcond="165">endif</span></u></td></tr>
+<tr><th id="168">168</th><td></td></tr>
+<tr><th id="169">169</th><td><u>#<span data-ppcond="169">ifndef</span> <span class="macro" data-ref="_M/EOWNERDEAD">EOWNERDEAD</span></u></td></tr>
+<tr><th id="170">170</th><td><u>#define <dfn class="macro" id="_M/EOWNERDEAD" data-ref="_M/EOWNERDEAD">EOWNERDEAD</dfn> 133</u></td></tr>
+<tr><th id="171">171</th><td><u>#<span data-ppcond="169">endif</span></u></td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td><u>#<span data-ppcond="173">ifndef</span> <span class="macro" data-ref="_M/EPROTO">EPROTO</span></u></td></tr>
+<tr><th id="174">174</th><td><u>#define <dfn class="macro" id="_M/EPROTO" data-ref="_M/EPROTO">EPROTO</dfn> 134</u></td></tr>
+<tr><th id="175">175</th><td><u>#<span data-ppcond="173">endif</span></u></td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td><u>#<span data-ppcond="177">ifndef</span> <span class="macro" data-ref="_M/EPROTONOSUPPORT">EPROTONOSUPPORT</span></u></td></tr>
+<tr><th id="178">178</th><td><u>#define <dfn class="macro" id="_M/EPROTONOSUPPORT" data-ref="_M/EPROTONOSUPPORT">EPROTONOSUPPORT</dfn> 135</u></td></tr>
+<tr><th id="179">179</th><td><u>#<span data-ppcond="177">endif</span></u></td></tr>
+<tr><th id="180">180</th><td></td></tr>
+<tr><th id="181">181</th><td><i>/* Defined as WSAETIMEDOUT.  */</i></td></tr>
+<tr><th id="182">182</th><td><u>#<span data-ppcond="182">ifndef</span> <span class="macro" data-ref="_M/ETIMEDOUT">ETIMEDOUT</span></u></td></tr>
+<tr><th id="183">183</th><td><u>#define <dfn class="macro" id="_M/ETIMEDOUT" data-ref="_M/ETIMEDOUT">ETIMEDOUT</dfn> 138</u></td></tr>
+<tr><th id="184">184</th><td><u>#<span data-ppcond="182">endif</span></u></td></tr>
+<tr><th id="185">185</th><td></td></tr>
+<tr><th id="186">186</th><td><u>#<span data-ppcond="186">ifndef</span> <span class="macro" data-ref="_M/ELOOP">ELOOP</span></u></td></tr>
+<tr><th id="187">187</th><td><u>#define <dfn class="macro" id="_M/ELOOP" data-ref="_M/ELOOP">ELOOP</dfn> 114</u></td></tr>
+<tr><th id="188">188</th><td><u>#<span data-ppcond="186">endif</span></u></td></tr>
+<tr><th id="189">189</th><td></td></tr>
+<tr><th id="190">190</th><td><u>#<span data-ppcond="190">ifndef</span> <span class="macro" data-ref="_M/EPROTOTYPE">EPROTOTYPE</span></u></td></tr>
+<tr><th id="191">191</th><td><u>#define <dfn class="macro" id="_M/EPROTOTYPE" data-ref="_M/EPROTOTYPE">EPROTOTYPE</dfn> 136</u></td></tr>
+<tr><th id="192">192</th><td><u>#<span data-ppcond="190">endif</span></u></td></tr>
+<tr><th id="193">193</th><td></td></tr>
+<tr><th id="194">194</th><td><u>#<span data-ppcond="194">ifndef</span> <span class="macro" data-ref="_M/EOVERFLOW">EOVERFLOW</span></u></td></tr>
+<tr><th id="195">195</th><td><u>#define <dfn class="macro" id="_M/EOVERFLOW" data-ref="_M/EOVERFLOW">EOVERFLOW</dfn> 132</u></td></tr>
+<tr><th id="196">196</th><td><u>#<span data-ppcond="194">endif</span></u></td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td><u>#<span data-ppcond="198">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="199">199</th><td>}</td></tr>
+<tr><th id="200">200</th><td><u>#<span data-ppcond="198">endif</span></u></td></tr>
+<tr><th id="201">201</th><td><u>#<span data-ppcond="6">endif</span></u></td></tr>
+<tr><th id="202">202</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

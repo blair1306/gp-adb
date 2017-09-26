@@ -1,0 +1,20 @@
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='56' u='r' c='_ZN10usb_handleD1Ev'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='56' u='r' c='_ZN10usb_handleD1Ev'/>
+<dec f='codebrowser/system/core/adb/usb_linux.cpp' l='60' type='int'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='313' u='r' c='_ZL14usb_bulk_writeP10usb_handlePKvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='352' u='r' c='_ZL13usb_bulk_readP10usb_handlePvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='360' u='r' c='_ZL13usb_bulk_readP10usb_handlePvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='432' u='r' c='_Z8usb_readP10usb_handlePvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='436' u='r' c='_Z8usb_readP10usb_handlePvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='459' u='r' c='_Z8usb_kickP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='477' u='r' c='_Z8usb_kickP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='478' u='r' c='_Z8usb_kickP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='494' u='r' c='_Z9usb_closeP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='531' u='w' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='532' u='r' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='534' u='w' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='535' u='r' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='543' u='r' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='546' u='r' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='547' u='r' c='_ZL15register_devicePKcS0_hhiij'/>
+<offset>192</offset>

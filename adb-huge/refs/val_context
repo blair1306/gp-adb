@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winreg.h' l='53' ll='57'/>
+<size>12</size>
+<mbr r='val_context::valuelen' o='0' t='int'/>
+<mbr r='val_context::value_context' o='32' t='LPVOID'/>
+<mbr r='val_context::val_buff_ptr' o='64' t='LPVOID'/>

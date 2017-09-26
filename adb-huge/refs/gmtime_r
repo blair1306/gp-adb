@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='243' type='struct tm * gmtime_r(const time_t *restrict __timer, struct tm *restrict __tp)'/>
+<use f='codebrowser/external/boringssl/src/crypto/time_support.c' l='76' u='c' c='OPENSSL_gmtime'/>

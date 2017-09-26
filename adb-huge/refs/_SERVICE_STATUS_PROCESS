@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsvc.h' l='164' ll='174'/>
+<size>36</size>
+<mbr r='_SERVICE_STATUS_PROCESS::dwServiceType' o='0' t='DWORD'/>
+<mbr r='_SERVICE_STATUS_PROCESS::dwCurrentState' o='32' t='DWORD'/>
+<mbr r='_SERVICE_STATUS_PROCESS::dwControlsAccepted' o='64' t='DWORD'/>
+<mbr r='_SERVICE_STATUS_PROCESS::dwWin32ExitCode' o='96' t='DWORD'/>
+<mbr r='_SERVICE_STATUS_PROCESS::dwServiceSpecificExitCode' o='128' t='DWORD'/>
+<mbr r='_SERVICE_STATUS_PROCESS::dwCheckPoint' o='160' t='DWORD'/>
+<mbr r='_SERVICE_STATUS_PROCESS::dwWaitHint' o='192' t='DWORD'/>
+<mbr r='_SERVICE_STATUS_PROCESS::dwProcessId' o='224' t='DWORD'/>
+<mbr r='_SERVICE_STATUS_PROCESS::dwServiceFlags' o='256' t='DWORD'/>

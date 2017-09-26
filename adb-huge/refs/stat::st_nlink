@@ -1,0 +1,7 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stat.h' l='61' type='__nlink_t'/>
+<offset>128</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stat.h' l='61'>/* Link count.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_stat64.h' l='38' type='short'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/stat.h' l='213' u='w' c='fstat'/>
+<offset>64</offset>
+<use f='codebrowser/system/core/libcutils/ashmem-host.c' l='86' u='r' c='ashmem_get_size_region'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ktmtypes.h' l='109' ll='116'/>
+<size>32</size>
+<mbr r='_TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT::EnlistmentId' o='0' t='GUID'/>
+<mbr r='_TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT::UOW' o='128' t='GUID'/>

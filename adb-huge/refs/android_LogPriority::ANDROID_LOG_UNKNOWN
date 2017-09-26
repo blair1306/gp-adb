@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/include/android/log.h' l='80' type='0'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='593' u='r' c='logWritev'/>

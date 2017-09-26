@@ -1,0 +1,10 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/dirent.h' l='151' type='int closedir(DIR * __dirp)'/>
+<use f='codebrowser/external/boringssl/src/crypto/directory_posix.c' l='98' u='c' c='OPENSSL_DIR_end'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/dirent.h' l='146'>/* Close the directory stream DIRP.
+   Return 0 if successful, -1 if not.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='602' u='a' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='122' u='a' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='131' u='a' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>

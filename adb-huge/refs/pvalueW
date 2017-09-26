@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winreg.h' l='68' ll='73'/>
+<size>16</size>
+<mbr r='pvalueW::pv_valuename' o='0' t='LPWSTR'/>
+<mbr r='pvalueW::pv_valuelen' o='32' t='int'/>
+<mbr r='pvalueW::pv_value_context' o='64' t='LPVOID'/>
+<mbr r='pvalueW::pv_type' o='96' t='DWORD'/>

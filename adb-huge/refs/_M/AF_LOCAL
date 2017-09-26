@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='119'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='112' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='157' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_local_server_unix.c' l='102' u='c'/>

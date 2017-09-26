@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/prctl.h' l='108'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/prctl.h' l='105'>/*
+ * Tune up process memory map specifics.
+ */</doc>

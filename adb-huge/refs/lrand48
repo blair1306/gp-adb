@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='399' type='long lrand48()'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='398'>/* Return non-negative, long integer in [0,2^31).  */</doc>

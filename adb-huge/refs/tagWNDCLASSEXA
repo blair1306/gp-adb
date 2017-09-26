@@ -1,0 +1,14 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='756' ll='769'/>
+<size>48</size>
+<mbr r='tagWNDCLASSEXA::cbSize' o='0' t='UINT'/>
+<mbr r='tagWNDCLASSEXA::style' o='32' t='UINT'/>
+<mbr r='tagWNDCLASSEXA::lpfnWndProc' o='64' t='WNDPROC'/>
+<mbr r='tagWNDCLASSEXA::cbClsExtra' o='96' t='int'/>
+<mbr r='tagWNDCLASSEXA::cbWndExtra' o='128' t='int'/>
+<mbr r='tagWNDCLASSEXA::hInstance' o='160' t='HINSTANCE'/>
+<mbr r='tagWNDCLASSEXA::hIcon' o='192' t='HICON'/>
+<mbr r='tagWNDCLASSEXA::hCursor' o='224' t='HCURSOR'/>
+<mbr r='tagWNDCLASSEXA::hbrBackground' o='256' t='HBRUSH'/>
+<mbr r='tagWNDCLASSEXA::lpszMenuName' o='288' t='LPCSTR'/>
+<mbr r='tagWNDCLASSEXA::lpszClassName' o='320' t='LPCSTR'/>
+<mbr r='tagWNDCLASSEXA::hIconSm' o='352' t='HICON'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/adb_auth.h' l='47' type='int adb_auth_verify(void * token, void * sig, int siglen)'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='356' u='c' c='_Z13handle_packetP7apacketP10atransport'/>

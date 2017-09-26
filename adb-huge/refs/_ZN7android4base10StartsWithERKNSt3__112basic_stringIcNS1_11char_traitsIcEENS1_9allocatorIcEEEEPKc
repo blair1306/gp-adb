@@ -1,0 +1,11 @@
+<dec f='codebrowser/system/core/base/include/android-base/strings.h' l='60' type='bool android::base::StartsWith(const std::string &amp; s, const char * prefix)'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='921' u='c' c='_Z22handle_forward_requestPKc13TransportTypeS0_i'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='926' u='c' c='_Z22handle_forward_requestPKc13TransportTypeS0_i'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='505' u='c' c='_Z22host_service_to_socketPKcS0_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='516' u='c' c='_Z22host_service_to_socketPKcS0_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='519' u='c' c='_Z22host_service_to_socketPKcS0_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='522' u='c' c='_Z22host_service_to_socketPKcS0_'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='846' u='c' c='_ZNK10atransport13MatchesTargetERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='847' u='c' c='_ZNK10atransport13MatchesTargetERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/base/logging.cpp' l='263' u='c' c='_ZN7android4base11InitLoggingEPPc'/>
+<def f='codebrowser/system/core/base/strings.cpp' l='89' ll='91' type='bool android::base::StartsWith(const std::string &amp; s, const char * prefix)'/>

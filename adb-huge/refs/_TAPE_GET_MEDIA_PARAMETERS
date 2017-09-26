@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6567' ll='6573'/>
+<size>28</size>
+<mbr r='_TAPE_GET_MEDIA_PARAMETERS::Capacity' o='0' t='LARGE_INTEGER'/>
+<mbr r='_TAPE_GET_MEDIA_PARAMETERS::Remaining' o='64' t='LARGE_INTEGER'/>
+<mbr r='_TAPE_GET_MEDIA_PARAMETERS::BlockSize' o='128' t='DWORD'/>
+<mbr r='_TAPE_GET_MEDIA_PARAMETERS::PartitionCount' o='160' t='DWORD'/>
+<mbr r='_TAPE_GET_MEDIA_PARAMETERS::WriteProtected' o='192' t='BOOLEAN'/>

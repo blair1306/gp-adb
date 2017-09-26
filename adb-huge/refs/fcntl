@@ -1,0 +1,15 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/fcntl.h' l='110' type='int fcntl(int __fd, int __cmd)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/fcntl.h' l='105'>/* Do the file control operation described by CMD on FD.
+   The remaining arguments are interpreted depending on CMD.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='90' u='c' c='bio_socket_nbio'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='99' u='c' c='bio_socket_nbio'/>
+<use f='codebrowser/external/boringssl/src/crypto/rand/urandom.c' l='84' u='c' c='init_once'/>
+<use f='codebrowser/external/boringssl/src/crypto/rand/urandom.c' l='92' u='c' c='init_once'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='510' u='c' c='_ZL13close_on_execi'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='220' u='c' c='_Z19set_file_block_modeib'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='226' u='c' c='_Z19set_file_block_modeib'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='33' u='c' c='toggle_O_NONBLOCK'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='34' u='c' c='toggle_O_NONBLOCK'/>

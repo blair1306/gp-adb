@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='798' type='int pthread_mutexattr_getpshared(const pthread_mutexattr_t *restrict __attr, int *restrict __pshared)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='797'>/* Get the process-shared flag of the mutex attribute ATTR.  */</doc>

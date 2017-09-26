@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/swab.h' l='148' ll='155' type='__u16 __swab16p(const __u16 * p)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/swab.h' l='222' u='c' c='__swab16s'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/byteorder/little_endian.h' l='85' u='c' c='__cpu_to_be16p'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/byteorder/little_endian.h' l='89' u='c' c='__be16_to_cpup'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/swab.h' l='144'>/**
+ * __swab16p - return a byteswapped 16-bit value from a pointer
+ * @p: pointer to a naturally-aligned 16-bit value
+ */</doc>

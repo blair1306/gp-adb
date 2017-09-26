@@ -1,0 +1,622 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>adb_api.h source code [codebrowser/development/host/windows/usb/api/adb_api.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="_AdbEndpointInformation,_AdbEndpointType,_AdbInterfaceInfo,_AdbOpenAccessType,_AdbOpenSharingMode "/>
+<link rel="stylesheet" href="../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/development/host/windows/usb/api/adb_api.h'; var root_path = '../../../../../..'; var data_path = '../../../../../../../data';</script>
+<script src='../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../..'>codebrowser</a>/<a href='../../../..'>development</a>/<a href='../../..'>host</a>/<a href='../..'>windows</a>/<a href='..'>usb</a>/<a href='./'>api</a>/<a href='adb_api.h.html'>adb_api.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (C) 2006 The Android Open Source Project</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Licensed under the Apache License, Version 2.0 (the "License");</i></td></tr>
+<tr><th id="5">5</th><td><i> * you may not use this file except in compliance with the License.</i></td></tr>
+<tr><th id="6">6</th><td><i> * You may obtain a copy of the License at</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> *      <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></i></td></tr>
+<tr><th id="9">9</th><td><i> *</i></td></tr>
+<tr><th id="10">10</th><td><i> * Unless required by applicable law or agreed to in writing, software</i></td></tr>
+<tr><th id="11">11</th><td><i> * distributed under the License is distributed on an "AS IS" BASIS,</i></td></tr>
+<tr><th id="12">12</th><td><i> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</i></td></tr>
+<tr><th id="13">13</th><td><i> * See the License for the specific language governing permissions and</i></td></tr>
+<tr><th id="14">14</th><td><i> * limitations under the License.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#<span data-ppcond="17">ifndef</span> <span class="macro" data-ref="_M/ANDROID_USB_API_ADBWINAPI_H__">ANDROID_USB_API_ADBWINAPI_H__</span></u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/ANDROID_USB_API_ADBWINAPI_H__" data-ref="_M/ANDROID_USB_API_ADBWINAPI_H__">ANDROID_USB_API_ADBWINAPI_H__</dfn></u></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><u>#include <a href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windows.h.html">&lt;windows.h&gt;</a></u></td></tr>
+<tr><th id="21">21</th><td><u>#include <a href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/usb100.h.html">&lt;usb100.h&gt;</a></u></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><i class="doc">/**<span class="command"> \file</span></i></td></tr>
+<tr><th id="24">24</th><td><i class="doc">  This file consists of declarations of routines exported by the API as well</i></td></tr>
+<tr><th id="25">25</th><td><i class="doc">  as types, structures, and constants definitions used in the API.</i></td></tr>
+<tr><th id="26">26</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="27">27</th><td><i class="doc"></i></td></tr>
+<tr><th id="28">28</th><td><i class="doc">// Enables compillation for "straight" C</i></td></tr>
+<tr><th id="29">29</th><td><u>#<span data-ppcond="29">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="30">30</th><td>  <u>#define <dfn class="macro" id="_M/EXTERN_C" data-ref="_M/EXTERN_C">EXTERN_C</dfn>    extern "C"</u></td></tr>
+<tr><th id="31">31</th><td><u>#<span data-ppcond="29">else</span></u></td></tr>
+<tr><th id="32">32</th><td>  <u>#define EXTERN_C    extern</u></td></tr>
+<tr><th id="33">33</th><td>  <b>typedef</b> <em>int</em> <em>bool</em>;</td></tr>
+<tr><th id="34">34</th><td>  <u>#define true  1</u></td></tr>
+<tr><th id="35">35</th><td>  <u>#define false 0</u></td></tr>
+<tr><th id="36">36</th><td><u>#<span data-ppcond="29">endif</span></u></td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><i class="doc">/** <span class="command">\brief</span> Enumerates ADB endpoint types.</i></td></tr>
+<tr><th id="39">39</th><td><i class="doc"></i></td></tr>
+<tr><th id="40">40</th><td><i class="doc">  This enum is taken from WDF_USB_PIPE_TYPE enum found in WDK.</i></td></tr>
+<tr><th id="41">41</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="42">42</th><td><b>typedef</b> <b>enum</b> <dfn class="type def" id="_AdbEndpointType" title='_AdbEndpointType' data-ref="_AdbEndpointType"><a class="type" href="#_AdbEndpointType" title='_AdbEndpointType' data-ref="_AdbEndpointType">_AdbEndpointType</a></dfn> {</td></tr>
+<tr><th id="43">43</th><td>  <i class="doc">/// Unknown (invalid, or not initialized) endpoint type.</i></td></tr>
+<tr><th id="44">44</th><td>  <dfn class="enum" id="_AdbEndpointType::AdbEndpointTypeInvalid" title='_AdbEndpointType::AdbEndpointTypeInvalid' data-ref="_AdbEndpointType::AdbEndpointTypeInvalid">AdbEndpointTypeInvalid</dfn> = <var>0</var>,</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td>  <i class="doc">/// Endpoint is device control pipe.</i></td></tr>
+<tr><th id="47">47</th><td>  <dfn class="enum" id="_AdbEndpointType::AdbEndpointTypeControl" title='_AdbEndpointType::AdbEndpointTypeControl' data-ref="_AdbEndpointType::AdbEndpointTypeControl">AdbEndpointTypeControl</dfn>,</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td>  <i class="doc">/// Endpoint is isochronous r/w pipe.</i></td></tr>
+<tr><th id="50">50</th><td>  <dfn class="enum" id="_AdbEndpointType::AdbEndpointTypeIsochronous" title='_AdbEndpointType::AdbEndpointTypeIsochronous' data-ref="_AdbEndpointType::AdbEndpointTypeIsochronous">AdbEndpointTypeIsochronous</dfn>,</td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td>  <i class="doc">/// Endpoint is a bulk r/w pipe.</i></td></tr>
+<tr><th id="53">53</th><td>  <dfn class="enum" id="_AdbEndpointType::AdbEndpointTypeBulk" title='_AdbEndpointType::AdbEndpointTypeBulk' data-ref="_AdbEndpointType::AdbEndpointTypeBulk">AdbEndpointTypeBulk</dfn>,</td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td>  <i class="doc">/// Endpoint is an interrupt r/w pipe.</i></td></tr>
+<tr><th id="56">56</th><td>  <dfn class="enum" id="_AdbEndpointType::AdbEndpointTypeInterrupt" title='_AdbEndpointType::AdbEndpointTypeInterrupt' data-ref="_AdbEndpointType::AdbEndpointTypeInterrupt">AdbEndpointTypeInterrupt</dfn>,</td></tr>
+<tr><th id="57">57</th><td>} <dfn class="typedef" id="AdbEndpointType" title='AdbEndpointType' data-type='enum _AdbEndpointType' data-ref="AdbEndpointType">AdbEndpointType</dfn>;</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td><i class="doc">/** <span class="command">\brief</span> Endpoint desriptor.</i></td></tr>
+<tr><th id="60">60</th><td><i class="doc"></i></td></tr>
+<tr><th id="61">61</th><td><i class="doc">  This structure is based on WDF_USB_PIPE_INFORMATION structure found in WDK.</i></td></tr>
+<tr><th id="62">62</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="63">63</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_AdbEndpointInformation" title='_AdbEndpointInformation' data-ref="_AdbEndpointInformation"><a class="type" href="#_AdbEndpointInformation" title='_AdbEndpointInformation' data-ref="_AdbEndpointInformation">_AdbEndpointInformation</a></dfn> {</td></tr>
+<tr><th id="64">64</th><td>  <i class="doc">/// Maximum packet size this endpoint is capable of.</i></td></tr>
+<tr><th id="65">65</th><td>  <em>unsigned</em> <em>long</em> <dfn class="decl" id="_AdbEndpointInformation::max_packet_size" title='_AdbEndpointInformation::max_packet_size' data-ref="_AdbEndpointInformation::max_packet_size">max_packet_size</dfn>;</td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td>  <i class="doc">/// Maximum size of one transfer which should be sent to the host controller.</i></td></tr>
+<tr><th id="68">68</th><td>  <em>unsigned</em> <em>long</em> <dfn class="decl" id="_AdbEndpointInformation::max_transfer_size" title='_AdbEndpointInformation::max_transfer_size' data-ref="_AdbEndpointInformation::max_transfer_size">max_transfer_size</dfn>;</td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td>  <i class="doc">/// ADB endpoint type.</i></td></tr>
+<tr><th id="71">71</th><td>  <a class="typedef" href="#AdbEndpointType" title='AdbEndpointType' data-type='enum _AdbEndpointType' data-ref="AdbEndpointType">AdbEndpointType</a> <dfn class="decl" id="_AdbEndpointInformation::endpoint_type" title='_AdbEndpointInformation::endpoint_type' data-ref="_AdbEndpointInformation::endpoint_type">endpoint_type</dfn>;</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td>  <i class="doc">/// Raw endpoint address on the device as described by its descriptor.</i></td></tr>
+<tr><th id="74">74</th><td>  <em>unsigned</em> <em>char</em> <dfn class="decl" id="_AdbEndpointInformation::endpoint_address" title='_AdbEndpointInformation::endpoint_address' data-ref="_AdbEndpointInformation::endpoint_address">endpoint_address</dfn>;</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td>  <i class="doc">/// Polling interval.</i></td></tr>
+<tr><th id="77">77</th><td>  <em>unsigned</em> <em>char</em> <dfn class="decl" id="_AdbEndpointInformation::polling_interval" title='_AdbEndpointInformation::polling_interval' data-ref="_AdbEndpointInformation::polling_interval">polling_interval</dfn>;</td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td>  <i class="doc">/// Which alternate setting this structure is relevant for.</i></td></tr>
+<tr><th id="80">80</th><td>  <em>unsigned</em> <em>char</em> <dfn class="decl" id="_AdbEndpointInformation::setting_index" title='_AdbEndpointInformation::setting_index' data-ref="_AdbEndpointInformation::setting_index">setting_index</dfn>;</td></tr>
+<tr><th id="81">81</th><td>} <dfn class="typedef" id="AdbEndpointInformation" title='AdbEndpointInformation' data-type='struct _AdbEndpointInformation' data-ref="AdbEndpointInformation">AdbEndpointInformation</dfn>;</td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td><i class="doc">/// Shortcut to default write bulk endpoint in zero-based endpoint index API.</i></td></tr>
+<tr><th id="84">84</th><td><u>#define <dfn class="macro" id="_M/ADB_QUERY_BULK_WRITE_ENDPOINT_INDEX" data-ref="_M/ADB_QUERY_BULK_WRITE_ENDPOINT_INDEX">ADB_QUERY_BULK_WRITE_ENDPOINT_INDEX</dfn>  0xFC</u></td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><i class="doc">/// Shortcut to default read bulk endpoint in zero-based endpoint index API.</i></td></tr>
+<tr><th id="87">87</th><td><u>#define <dfn class="macro" id="_M/ADB_QUERY_BULK_READ_ENDPOINT_INDEX" data-ref="_M/ADB_QUERY_BULK_READ_ENDPOINT_INDEX">ADB_QUERY_BULK_READ_ENDPOINT_INDEX</dfn>  0xFE</u></td></tr>
+<tr><th id="88">88</th><td></td></tr>
+<tr><th id="89">89</th><td><i>// {F72FE0D4-CBCB-407d-8814-9ED673D0DD6B}</i></td></tr>
+<tr><th id="90">90</th><td><i>/// Our USB class id that driver uses to register our device.</i></td></tr>
+<tr><th id="91">91</th><td><u>#define <dfn class="macro" id="_M/ANDROID_USB_CLASS_ID" data-ref="_M/ANDROID_USB_CLASS_ID">ANDROID_USB_CLASS_ID</dfn> \</u></td></tr>
+<tr><th id="92">92</th><td><u>{0xf72fe0d4, 0xcbcb, 0x407d, {0x88, 0x14, 0x9e, 0xd6, 0x73, 0xd0, 0xdd, 0x6b}};</u></td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><i>// The following ifdef block is the standard way of creating macros which make</i></td></tr>
+<tr><th id="95">95</th><td><i>// exporting  from a DLL simpler. All files within this DLL are compiled with</i></td></tr>
+<tr><th id="96">96</th><td><i>// the ADBWIN_EXPORTS symbol defined on the command line. this symbol should</i></td></tr>
+<tr><th id="97">97</th><td><i>// not be defined on any project that uses this DLL. This way any other project</i></td></tr>
+<tr><th id="98">98</th><td><i>// whose source files include this file see ADBWIN_API functions as being</i></td></tr>
+<tr><th id="99">99</th><td><i>// imported from a DLL, whereas this DLL sees symbols defined with this macro</i></td></tr>
+<tr><th id="100">100</th><td><i>// as being exported.</i></td></tr>
+<tr><th id="101">101</th><td><u>#<span data-ppcond="101">ifdef</span> <span class="macro" data-ref="_M/ADBWIN_EXPORTS">ADBWIN_EXPORTS</span></u></td></tr>
+<tr><th id="102">102</th><td><u>#define ADBWIN_API EXTERN_C __declspec(dllexport)</u></td></tr>
+<tr><th id="103">103</th><td><u>#define ADBWIN_API_CLASS     __declspec(dllexport)</u></td></tr>
+<tr><th id="104">104</th><td><u>#<span data-ppcond="101">else</span></u></td></tr>
+<tr><th id="105">105</th><td><u>#define <dfn class="macro" id="_M/ADBWIN_API" data-ref="_M/ADBWIN_API">ADBWIN_API</dfn> EXTERN_C <span class='error' title="unknown type name &apos;__declspec&apos;">__declspec</span>(<dfn class="tu decl" id="dllimport" title='dllimport' data-type='int' data-ref="dllimport">dllimport</dfn>)</u></td></tr>
+<tr><th id="106">106</th><td><u>#define <dfn class="macro" id="_M/ADBWIN_API_CLASS" data-ref="_M/ADBWIN_API_CLASS">ADBWIN_API_CLASS</dfn>     __declspec(dllimport)</u></td></tr>
+<tr><th id="107">107</th><td><u>#<span data-ppcond="101">endif</span></u></td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td><i class="doc">/** <span class="command">\brief</span> Handle to an API object.</i></td></tr>
+<tr><th id="110">110</th><td><i class="doc"></i></td></tr>
+<tr><th id="111">111</th><td><i class="doc">  To access USB interface and its components clients must first obtain a</i></td></tr>
+<tr><th id="112">112</th><td><i class="doc">  handle to the required object. API Objects that are represented by a</i></td></tr>
+<tr><th id="113">113</th><td><i class="doc">  handle are:</i></td></tr>
+<tr><th id="114">114</th><td><i class="doc">  1. Interface enumerator that provides access to a list of interfaces that</i></td></tr>
+<tr><th id="115">115</th><td><i class="doc">     match certain criterias that were specified when interface enumerator</i></td></tr>
+<tr><th id="116">116</th><td><i class="doc">     has been created. This handle is created in AdbEnumInterfaces routine.</i></td></tr>
+<tr><th id="117">117</th><td><i class="doc">  2. Interface that is the major object this API deals with. In Windows</i></td></tr>
+<tr><th id="118">118</th><td><i class="doc">     model of the USB stack each USB device (that is physical device,</i></td></tr>
+<tr><th id="119">119</th><td><i class="doc">     attached to a USB port) exposes one or more interfaces that become the</i></td></tr>
+<tr><th id="120">120</th><td><i class="doc">     major entities through which that device gets accessed. Each of these</i></td></tr>
+<tr><th id="121">121</th><td><i class="doc">     interfaces are represented as Windows Device Objects on the USB stack.</i></td></tr>
+<tr><th id="122">122</th><td><i class="doc">     So, to this extent, at least as this API is concerned, terms "interface"</i></td></tr>
+<tr><th id="123">123</th><td><i class="doc">     and "device" are interchangeable, since each interface is represented by</i></td></tr>
+<tr><th id="124">124</th><td><i class="doc">     a device object on the Windows USB stack. This handle is created in</i></td></tr>
+<tr><th id="125">125</th><td><i class="doc">     either AdbCreateInterface or AdbCreateInterfaceByName routines.</i></td></tr>
+<tr><th id="126">126</th><td><i class="doc">  3. Endpoint object (also called a pipe) represents an endpoint on interface</i></td></tr>
+<tr><th id="127">127</th><td><i class="doc">     through which all I/O operations are performed. This handle is created in</i></td></tr>
+<tr><th id="128">128</th><td><i class="doc">     one of these routines: AdbOpenEndpoint, AdbOpenDefaultBulkReadEndpoint,</i></td></tr>
+<tr><th id="129">129</th><td><i class="doc">     or AdbOpenDefaultBulkWriteEndpoint.</i></td></tr>
+<tr><th id="130">130</th><td><i class="doc">  4. I/O completion object that tracks completion information of asynchronous</i></td></tr>
+<tr><th id="131">131</th><td><i class="doc">     I/O performed on an endpoint. When an endpoint object gets opened through</i></td></tr>
+<tr><th id="132">132</th><td><i class="doc">     this API it is opened for asynchronous (or overlapped) I/O. And each time</i></td></tr>
+<tr><th id="133">133</th><td><i class="doc">     an asynchronous I/O is performed by this API an I/O completion object is</i></td></tr>
+<tr><th id="134">134</th><td><i class="doc">     created to track the result of that I/O when it gets completed. Clients</i></td></tr>
+<tr><th id="135">135</th><td><i class="doc">     of the API can then use a handle to I/O completion object to query for</i></td></tr>
+<tr><th id="136">136</th><td><i class="doc">     the status and result of asynchronous I/O as well as wait for this I/O</i></td></tr>
+<tr><th id="137">137</th><td><i class="doc">     completion. This handle is created in one of these routines:</i></td></tr>
+<tr><th id="138">138</th><td><i class="doc">     AdbReadEndpointAsync, or AdbWriteEndpointAsync.</i></td></tr>
+<tr><th id="139">139</th><td><i class="doc">  After object is no longer needed by the client, its handle must be closed</i></td></tr>
+<tr><th id="140">140</th><td><i class="doc">  using AdbCloseHandle routine.</i></td></tr>
+<tr><th id="141">141</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="142">142</th><td><b>typedef</b> <em>void</em>* <dfn class="typedef" id="ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</dfn>;</td></tr>
+<tr><th id="143">143</th><td></td></tr>
+<tr><th id="144">144</th><td><i class="doc">/** <span class="command">\brief</span> Defines access type with which an I/O object (endpoint)</i></td></tr>
+<tr><th id="145">145</th><td><i class="doc">  should be opened.</i></td></tr>
+<tr><th id="146">146</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="147">147</th><td><b>typedef</b> <b>enum</b> <dfn class="type def" id="_AdbOpenAccessType" title='_AdbOpenAccessType' data-ref="_AdbOpenAccessType"><a class="type" href="#_AdbOpenAccessType" title='_AdbOpenAccessType' data-ref="_AdbOpenAccessType">_AdbOpenAccessType</a></dfn> {</td></tr>
+<tr><th id="148">148</th><td>  <i class="doc">/// Opens for read and write access.</i></td></tr>
+<tr><th id="149">149</th><td>  <dfn class="enum" id="_AdbOpenAccessType::AdbOpenAccessTypeReadWrite" title='_AdbOpenAccessType::AdbOpenAccessTypeReadWrite' data-ref="_AdbOpenAccessType::AdbOpenAccessTypeReadWrite">AdbOpenAccessTypeReadWrite</dfn>,</td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td>  <i class="doc">/// Opens for read only access.</i></td></tr>
+<tr><th id="152">152</th><td>  <dfn class="enum" id="_AdbOpenAccessType::AdbOpenAccessTypeRead" title='_AdbOpenAccessType::AdbOpenAccessTypeRead' data-ref="_AdbOpenAccessType::AdbOpenAccessTypeRead">AdbOpenAccessTypeRead</dfn>,</td></tr>
+<tr><th id="153">153</th><td></td></tr>
+<tr><th id="154">154</th><td>  <i class="doc">/// Opens for write only access.</i></td></tr>
+<tr><th id="155">155</th><td>  <dfn class="enum" id="_AdbOpenAccessType::AdbOpenAccessTypeWrite" title='_AdbOpenAccessType::AdbOpenAccessTypeWrite' data-ref="_AdbOpenAccessType::AdbOpenAccessTypeWrite">AdbOpenAccessTypeWrite</dfn>,</td></tr>
+<tr><th id="156">156</th><td></td></tr>
+<tr><th id="157">157</th><td>  <i class="doc">/// Opens for querying information.</i></td></tr>
+<tr><th id="158">158</th><td>  <dfn class="enum" id="_AdbOpenAccessType::AdbOpenAccessTypeQueryInfo" title='_AdbOpenAccessType::AdbOpenAccessTypeQueryInfo' data-ref="_AdbOpenAccessType::AdbOpenAccessTypeQueryInfo">AdbOpenAccessTypeQueryInfo</dfn>,</td></tr>
+<tr><th id="159">159</th><td>} <dfn class="typedef" id="AdbOpenAccessType" title='AdbOpenAccessType' data-type='enum _AdbOpenAccessType' data-ref="AdbOpenAccessType">AdbOpenAccessType</dfn>;</td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td><i class="doc">/** <span class="command">\brief</span> Defines sharing mode with which an I/O object (endpoint)</i></td></tr>
+<tr><th id="162">162</th><td><i class="doc">  should be opened.</i></td></tr>
+<tr><th id="163">163</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="164">164</th><td><b>typedef</b> <b>enum</b> <dfn class="type def" id="_AdbOpenSharingMode" title='_AdbOpenSharingMode' data-ref="_AdbOpenSharingMode"><a class="type" href="#_AdbOpenSharingMode" title='_AdbOpenSharingMode' data-ref="_AdbOpenSharingMode">_AdbOpenSharingMode</a></dfn> {</td></tr>
+<tr><th id="165">165</th><td>  <i class="doc">/// Shares read and write.</i></td></tr>
+<tr><th id="166">166</th><td>  <dfn class="enum" id="_AdbOpenSharingMode::AdbOpenSharingModeReadWrite" title='_AdbOpenSharingMode::AdbOpenSharingModeReadWrite' data-ref="_AdbOpenSharingMode::AdbOpenSharingModeReadWrite">AdbOpenSharingModeReadWrite</dfn>,</td></tr>
+<tr><th id="167">167</th><td></td></tr>
+<tr><th id="168">168</th><td>  <i class="doc">/// Shares only read.</i></td></tr>
+<tr><th id="169">169</th><td>  <dfn class="enum" id="_AdbOpenSharingMode::AdbOpenSharingModeRead" title='_AdbOpenSharingMode::AdbOpenSharingModeRead' data-ref="_AdbOpenSharingMode::AdbOpenSharingModeRead">AdbOpenSharingModeRead</dfn>,</td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td>  <i class="doc">/// Shares only write.</i></td></tr>
+<tr><th id="172">172</th><td>  <dfn class="enum" id="_AdbOpenSharingMode::AdbOpenSharingModeWrite" title='_AdbOpenSharingMode::AdbOpenSharingModeWrite' data-ref="_AdbOpenSharingMode::AdbOpenSharingModeWrite">AdbOpenSharingModeWrite</dfn>,</td></tr>
+<tr><th id="173">173</th><td></td></tr>
+<tr><th id="174">174</th><td>  <i class="doc">/// Opens exclusive.</i></td></tr>
+<tr><th id="175">175</th><td>  <dfn class="enum" id="_AdbOpenSharingMode::AdbOpenSharingModeExclusive" title='_AdbOpenSharingMode::AdbOpenSharingModeExclusive' data-ref="_AdbOpenSharingMode::AdbOpenSharingModeExclusive">AdbOpenSharingModeExclusive</dfn>,</td></tr>
+<tr><th id="176">176</th><td>} <dfn class="typedef" id="AdbOpenSharingMode" title='AdbOpenSharingMode' data-type='enum _AdbOpenSharingMode' data-ref="AdbOpenSharingMode">AdbOpenSharingMode</dfn>;</td></tr>
+<tr><th id="177">177</th><td></td></tr>
+<tr><th id="178">178</th><td><i class="doc">/** <span class="command">\brief</span> Provides information about an interface.</i></td></tr>
+<tr><th id="179">179</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="180">180</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_AdbInterfaceInfo" title='_AdbInterfaceInfo' data-ref="_AdbInterfaceInfo"><a class="type" href="#_AdbInterfaceInfo" title='_AdbInterfaceInfo' data-ref="_AdbInterfaceInfo">_AdbInterfaceInfo</a></dfn> {</td></tr>
+<tr><th id="181">181</th><td>  <i class="doc">/// Inteface's class id (see SP_DEVICE_INTERFACE_DATA for details)</i></td></tr>
+<tr><th id="182">182</th><td>  <a class="typedef" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/guiddef.h.html#GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</a>          <dfn class="decl" id="_AdbInterfaceInfo::class_id" title='_AdbInterfaceInfo::class_id' data-ref="_AdbInterfaceInfo::class_id">class_id</dfn>;</td></tr>
+<tr><th id="183">183</th><td></td></tr>
+<tr><th id="184">184</th><td>  <i class="doc">/// Interface flags (see SP_DEVICE_INTERFACE_DATA for details)</i></td></tr>
+<tr><th id="185">185</th><td>  <em>unsigned</em> <em>long</em> <dfn class="decl" id="_AdbInterfaceInfo::flags" title='_AdbInterfaceInfo::flags' data-ref="_AdbInterfaceInfo::flags">flags</dfn>;</td></tr>
+<tr><th id="186">186</th><td></td></tr>
+<tr><th id="187">187</th><td>  <i class="doc">/// Device name for the interface (see SP_DEVICE_INTERFACE_DETAIL_DATA</i></td></tr>
+<tr><th id="188">188</th><td><i class="doc">  /// for details)</i></td></tr>
+<tr><th id="189">189</th><td>  <em>wchar_t</em>       <dfn class="decl" id="_AdbInterfaceInfo::device_name" title='_AdbInterfaceInfo::device_name' data-ref="_AdbInterfaceInfo::device_name">device_name</dfn>[<var>1</var>];</td></tr>
+<tr><th id="190">190</th><td>} <dfn class="typedef" id="AdbInterfaceInfo" title='AdbInterfaceInfo' data-type='struct _AdbInterfaceInfo' data-ref="AdbInterfaceInfo">AdbInterfaceInfo</dfn>;</td></tr>
+<tr><th id="191">191</th><td></td></tr>
+<tr><th id="192">192</th><td><i class="doc">/** <span class="command">\brief</span> Creates USB interface enumerator</i></td></tr>
+<tr><th id="193">193</th><td><i class="doc"></i></td></tr>
+<tr><th id="194">194</th><td><i class="doc">  This routine enumerates all USB interfaces that match provided class ID.</i></td></tr>
+<tr><th id="195">195</th><td><i class="doc">  This routine uses SetupDiGetClassDevs SDK routine to enumerate devices that</i></td></tr>
+<tr><th id="196">196</th><td><i class="doc">  match class ID and then SetupDiEnumDeviceInterfaces SDK routine is called</i></td></tr>
+<tr><th id="197">197</th><td><i class="doc">  to enumerate interfaces on the devices.</i></td></tr>
+<tr><th id="198">198</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">class_id</span> Device class ID, assigned by the driver.</i></td></tr>
+<tr><th id="199">199</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">exclude_not_present</span> If true enumation will include only those</i></td></tr>
+<tr><th id="200">200</th><td><i class="doc">         devices that are currently present.</i></td></tr>
+<tr><th id="201">201</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">exclude_removed</span> If true interfaces with SPINT_REMOVED flag set</i></td></tr>
+<tr><th id="202">202</th><td><i class="doc">         will be not included in the enumeration.</i></td></tr>
+<tr><th id="203">203</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">active_only</span> If true only active interfaces (with flag</i></td></tr>
+<tr><th id="204">204</th><td><i class="doc">           SPINT_ACTIVE set) will be included in the enumeration.</i></td></tr>
+<tr><th id="205">205</th><td><i class="doc">  <span class="command">@return</span> Handle to the enumerator object or NULL on failure. If NULL is</i></td></tr>
+<tr><th id="206">206</th><td><i class="doc">          returned GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="207">207</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="208">208</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <b>__cdecl</b> <dfn class="decl" id="_Z17AdbEnumInterfaces5_GUIDbbb" title='AdbEnumInterfaces' data-ref="_Z17AdbEnumInterfaces5_GUIDbbb">AdbEnumInterfaces</dfn>(<a class="typedef" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/guiddef.h.html#GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</a> <dfn class="local col1 decl" id="1class_id" title='class_id' data-type='GUID' data-ref="1class_id">class_id</dfn>,</td></tr>
+<tr><th id="209">209</th><td>                                          <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <dfn class="local col2 decl" id="2exclude_not_present" title='exclude_not_present' data-type='bool' data-ref="2exclude_not_present">exclude_not_present</dfn>,</td></tr>
+<tr><th id="210">210</th><td>                                          <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <dfn class="local col3 decl" id="3exclude_removed" title='exclude_removed' data-type='bool' data-ref="3exclude_removed">exclude_removed</dfn>,</td></tr>
+<tr><th id="211">211</th><td>                                          <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <dfn class="local col4 decl" id="4active_only" title='active_only' data-type='bool' data-ref="4active_only">active_only</dfn>);</td></tr>
+<tr><th id="212">212</th><td></td></tr>
+<tr><th id="213">213</th><td><i class="doc">/** <span class="command">\brief</span> Gets next interface information</i></td></tr>
+<tr><th id="214">214</th><td><i class="doc"></i></td></tr>
+<tr><th id="215">215</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_handle</span> Handle to interface enumerator object obtained via</i></td></tr>
+<tr><th id="216">216</th><td><i class="doc">         AdbEnumInterfaces call.</i></td></tr>
+<tr><th id="217">217</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">info</span> Upon successful completion will receive interface</i></td></tr>
+<tr><th id="218">218</th><td><i class="doc">         information. Can be NULL. If it is NULL, upon return from this</i></td></tr>
+<tr><th id="219">219</th><td><i class="doc">         routine size parameter will contain memory size required for the</i></td></tr>
+<tr><th id="220">220</th><td><i class="doc">         next entry.</i></td></tr>
+<tr><th id="221">221</th><td><i class="doc">  <span class="command">@param</span>[in,out] <span class="arg">size</span> On the way in provides size of the memory buffer</i></td></tr>
+<tr><th id="222">222</th><td><i class="doc">         addressed by info parameter. On the way out (only if buffer was not</i></td></tr>
+<tr><th id="223">223</th><td><i class="doc">         big enough) will provide memory size required for the next entry.</i></td></tr>
+<tr><th id="224">224</th><td><i class="doc">  <span class="command">@return</span> true on success, false on error. If false is returned</i></td></tr>
+<tr><th id="225">225</th><td><i class="doc">          GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="226">226</th><td><i class="doc">          ERROR_INSUFFICIENT_BUFFER indicates that buffer provided in info</i></td></tr>
+<tr><th id="227">227</th><td><i class="doc">          parameter was not big enough and size parameter contains memory size</i></td></tr>
+<tr><th id="228">228</th><td><i class="doc">          required for the next entry. ERROR_NO_MORE_ITEMS indicates that</i></td></tr>
+<tr><th id="229">229</th><td><i class="doc">          enumeration is over and there are no more entries to return.</i></td></tr>
+<tr><th id="230">230</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="231">231</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z16AdbNextInterfacePvP17_AdbInterfaceInfoPm" title='AdbNextInterface' data-ref="_Z16AdbNextInterfacePvP17_AdbInterfaceInfoPm">AdbNextInterface</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col5 decl" id="5adb_handle" title='adb_handle' data-type='ADBAPIHANDLE' data-ref="5adb_handle">adb_handle</dfn>,</td></tr>
+<tr><th id="232">232</th><td>                                 <a class="typedef" href="#AdbInterfaceInfo" title='AdbInterfaceInfo' data-type='struct _AdbInterfaceInfo' data-ref="AdbInterfaceInfo">AdbInterfaceInfo</a>* <dfn class="local col6 decl" id="6info" title='info' data-type='AdbInterfaceInfo *' data-ref="6info">info</dfn>,</td></tr>
+<tr><th id="233">233</th><td>                                 <em>unsigned</em> <em>long</em>* <dfn class="local col7 decl" id="7size" title='size' data-type='unsigned long *' data-ref="7size">size</dfn>);</td></tr>
+<tr><th id="234">234</th><td></td></tr>
+<tr><th id="235">235</th><td><i class="doc">/** <span class="command">\brief</span> Resets enumerator so next call to AdbNextInterface will start</i></td></tr>
+<tr><th id="236">236</th><td><i class="doc">  from the beginning.</i></td></tr>
+<tr><th id="237">237</th><td><i class="doc"></i></td></tr>
+<tr><th id="238">238</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_handle</span> Handle to interface enumerator object obtained via</i></td></tr>
+<tr><th id="239">239</th><td><i class="doc">         AdbEnumInterfaces call.</i></td></tr>
+<tr><th id="240">240</th><td><i class="doc">  <span class="command">@return</span> true on success, false on error. If false is returned GetLastError()</i></td></tr>
+<tr><th id="241">241</th><td><i class="doc">          provides extended error information.</i></td></tr>
+<tr><th id="242">242</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="243">243</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z21AdbResetInterfaceEnumPv" title='AdbResetInterfaceEnum' data-ref="_Z21AdbResetInterfaceEnumPv">AdbResetInterfaceEnum</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col8 decl" id="8adb_handle" title='adb_handle' data-type='ADBAPIHANDLE' data-ref="8adb_handle">adb_handle</dfn>);</td></tr>
+<tr><th id="244">244</th><td></td></tr>
+<tr><th id="245">245</th><td><i class="doc">/** <span class="command">\brief</span> Creates USB interface object</i></td></tr>
+<tr><th id="246">246</th><td><i class="doc"></i></td></tr>
+<tr><th id="247">247</th><td><i class="doc">  This routine creates an object that represents a USB interface.</i></td></tr>
+<tr><th id="248">248</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">interface_name</span> Name of the interface.</i></td></tr>
+<tr><th id="249">249</th><td><i class="doc">  <span class="command">@return</span> Handle to the interface object or NULL on failure. If NULL is</i></td></tr>
+<tr><th id="250">250</th><td><i class="doc">          returned GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="251">251</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="252">252</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <b>__cdecl</b> <dfn class="decl" id="_Z24AdbCreateInterfaceByNamePKw" title='AdbCreateInterfaceByName' data-ref="_Z24AdbCreateInterfaceByNamePKw">AdbCreateInterfaceByName</dfn>(<em>const</em> <em>wchar_t</em>* <dfn class="local col9 decl" id="9interface_name" title='interface_name' data-type='const wchar_t *' data-ref="9interface_name">interface_name</dfn>);</td></tr>
+<tr><th id="253">253</th><td></td></tr>
+<tr><th id="254">254</th><td><i class="doc">/** <span class="command">\brief</span> Creates USB interface object based on vendor, product and</i></td></tr>
+<tr><th id="255">255</th><td><i class="doc">  interface IDs.</i></td></tr>
+<tr><th id="256">256</th><td><i class="doc"></i></td></tr>
+<tr><th id="257">257</th><td><i class="doc">  This routine creates and object that represents a USB interface on our</i></td></tr>
+<tr><th id="258">258</th><td><i class="doc">  device. It uses AdbCreateInterfaceByName to actually do the create.</i></td></tr>
+<tr><th id="259">259</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">class_id</span> Device class ID, assigned by the driver.</i></td></tr>
+<tr><th id="260">260</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">vendor_id</span> Device vendor ID</i></td></tr>
+<tr><th id="261">261</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">product_id</span> Device product ID</i></td></tr>
+<tr><th id="262">262</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">interface_id</span> Device interface ID. This parameter is optional.</i></td></tr>
+<tr><th id="263">263</th><td><i class="doc">         Value 0xFF indicates that interface should be addressed by vendor</i></td></tr>
+<tr><th id="264">264</th><td><i class="doc">         and product IDs only.</i></td></tr>
+<tr><th id="265">265</th><td><i class="doc">  <span class="command">@return</span> Handle to the interface object or NULL on failure. If NULL is</i></td></tr>
+<tr><th id="266">266</th><td><i class="doc">          returned GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="267">267</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="268">268</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <b>__cdecl</b> <dfn class="decl" id="_Z18AdbCreateInterface5_GUIDtth" title='AdbCreateInterface' data-ref="_Z18AdbCreateInterface5_GUIDtth">AdbCreateInterface</dfn>(<a class="typedef" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/guiddef.h.html#GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</a> <dfn class="local col0 decl" id="10class_id" title='class_id' data-type='GUID' data-ref="10class_id">class_id</dfn>,</td></tr>
+<tr><th id="269">269</th><td>                                           <em>unsigned</em> <em>short</em> <dfn class="local col1 decl" id="11vendor_id" title='vendor_id' data-type='unsigned short' data-ref="11vendor_id">vendor_id</dfn>,</td></tr>
+<tr><th id="270">270</th><td>                                           <em>unsigned</em> <em>short</em> <dfn class="local col2 decl" id="12product_id" title='product_id' data-type='unsigned short' data-ref="12product_id">product_id</dfn>,</td></tr>
+<tr><th id="271">271</th><td>                                           <em>unsigned</em> <em>char</em> <dfn class="local col3 decl" id="13interface_id" title='interface_id' data-type='unsigned char' data-ref="13interface_id">interface_id</dfn>);</td></tr>
+<tr><th id="272">272</th><td></td></tr>
+<tr><th id="273">273</th><td><i class="doc">/** <span class="command">\brief</span> Gets interface name.</i></td></tr>
+<tr><th id="274">274</th><td><i class="doc"></i></td></tr>
+<tr><th id="275">275</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_interface</span> A handle to interface object created with </i></td></tr>
+<tr><th id="276">276</th><td><i class="doc">         AdbCreateInterface call.</i></td></tr>
+<tr><th id="277">277</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">buffer</span> Buffer for the name. Can be NULL in which case</i></td></tr>
+<tr><th id="278">278</th><td><i class="doc">         buffer_char_size will contain number of characters required for</i></td></tr>
+<tr><th id="279">279</th><td><i class="doc">         the name.</i></td></tr>
+<tr><th id="280">280</th><td><i class="doc">  <span class="command">@param</span>[in,out] <span class="arg">buffer_char_size</span> On the way in supplies size (in characters)</i></td></tr>
+<tr><th id="281">281</th><td><i class="doc">         of the buffer. On the way out, if method failed and GetLastError</i></td></tr>
+<tr><th id="282">282</th><td><i class="doc">         reports ERROR_INSUFFICIENT_BUFFER, will contain number of characters</i></td></tr>
+<tr><th id="283">283</th><td><i class="doc">         required for the name.</i></td></tr>
+<tr><th id="284">284</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">ansi</span> If true the name will be returned as single character</i></td></tr>
+<tr><th id="285">285</th><td><i class="doc">         string. Otherwise name will be returned as wide character string.</i></td></tr>
+<tr><th id="286">286</th><td><i class="doc">  <span class="command">@return</span> true on success, false on failure. If false is returned</i></td></tr>
+<tr><th id="287">287</th><td><i class="doc">          GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="288">288</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="289">289</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z19AdbGetInterfaceNamePvS_Pmb" title='AdbGetInterfaceName' data-ref="_Z19AdbGetInterfaceNamePvS_Pmb">AdbGetInterfaceName</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col4 decl" id="14adb_interface" title='adb_interface' data-type='ADBAPIHANDLE' data-ref="14adb_interface">adb_interface</dfn>,</td></tr>
+<tr><th id="290">290</th><td>                                    <em>void</em>* <dfn class="local col5 decl" id="15buffer" title='buffer' data-type='void *' data-ref="15buffer">buffer</dfn>,</td></tr>
+<tr><th id="291">291</th><td>                                    <em>unsigned</em> <em>long</em>* <dfn class="local col6 decl" id="16buffer_char_size" title='buffer_char_size' data-type='unsigned long *' data-ref="16buffer_char_size">buffer_char_size</dfn>,</td></tr>
+<tr><th id="292">292</th><td>                                    <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <dfn class="local col7 decl" id="17ansi" title='ansi' data-type='bool' data-ref="17ansi">ansi</dfn>);</td></tr>
+<tr><th id="293">293</th><td></td></tr>
+<tr><th id="294">294</th><td><i class="doc">/** <span class="command">\brief</span> Gets serial number for interface's device.</i></td></tr>
+<tr><th id="295">295</th><td><i class="doc"></i></td></tr>
+<tr><th id="296">296</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_interface</span> A handle to interface object created with </i></td></tr>
+<tr><th id="297">297</th><td><i class="doc">         AdbCreateInterface call.</i></td></tr>
+<tr><th id="298">298</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">buffer</span> Buffer for the serail number string. Can be NULL in which</i></td></tr>
+<tr><th id="299">299</th><td><i class="doc">         case buffer_char_size will contain number of characters required for</i></td></tr>
+<tr><th id="300">300</th><td><i class="doc">         the string.</i></td></tr>
+<tr><th id="301">301</th><td><i class="doc">  <span class="command">@param</span>[in,out] <span class="arg">buffer_char_size</span> On the way in supplies size (in characters)</i></td></tr>
+<tr><th id="302">302</th><td><i class="doc">         of the buffer. On the way out, if method failed and GetLastError</i></td></tr>
+<tr><th id="303">303</th><td><i class="doc">         reports ERROR_INSUFFICIENT_BUFFER, will contain number of characters</i></td></tr>
+<tr><th id="304">304</th><td><i class="doc">         required for the name.</i></td></tr>
+<tr><th id="305">305</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">ansi</span> If true the name will be returned as single character</i></td></tr>
+<tr><th id="306">306</th><td><i class="doc">         string. Otherwise name will be returned as wide character string.</i></td></tr>
+<tr><th id="307">307</th><td><i class="doc">  <span class="command">@return</span> true on success, false on failure. If false is returned</i></td></tr>
+<tr><th id="308">308</th><td><i class="doc">          GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="309">309</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="310">310</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z18AdbGetSerialNumberPvS_Pmb" title='AdbGetSerialNumber' data-ref="_Z18AdbGetSerialNumberPvS_Pmb">AdbGetSerialNumber</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col8 decl" id="18adb_interface" title='adb_interface' data-type='ADBAPIHANDLE' data-ref="18adb_interface">adb_interface</dfn>,</td></tr>
+<tr><th id="311">311</th><td>                                   <em>void</em>* <dfn class="local col9 decl" id="19buffer" title='buffer' data-type='void *' data-ref="19buffer">buffer</dfn>,</td></tr>
+<tr><th id="312">312</th><td>                                   <em>unsigned</em> <em>long</em>* <dfn class="local col0 decl" id="20buffer_char_size" title='buffer_char_size' data-type='unsigned long *' data-ref="20buffer_char_size">buffer_char_size</dfn>,</td></tr>
+<tr><th id="313">313</th><td>                                   <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <dfn class="local col1 decl" id="21ansi" title='ansi' data-type='bool' data-ref="21ansi">ansi</dfn>);</td></tr>
+<tr><th id="314">314</th><td></td></tr>
+<tr><th id="315">315</th><td><i class="doc">/** <span class="command">\brief</span> Gets device descriptor for the USB device associated with</i></td></tr>
+<tr><th id="316">316</th><td><i class="doc">  the given interface.</i></td></tr>
+<tr><th id="317">317</th><td><i class="doc"></i></td></tr>
+<tr><th id="318">318</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_interface</span> A handle to interface object created with </i></td></tr>
+<tr><th id="319">319</th><td><i class="doc">         AdbCreateInterface call.</i></td></tr>
+<tr><th id="320">320</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">desc</span> Upon successful completion will have usb device</i></td></tr>
+<tr><th id="321">321</th><td><i class="doc">         descriptor.</i></td></tr>
+<tr><th id="322">322</th><td><i class="doc">  <span class="command">@return</span> true on success, false on failure. If false is returned</i></td></tr>
+<tr><th id="323">323</th><td><i class="doc">          GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="324">324</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="325">325</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z25AdbGetUsbDeviceDescriptorPvP22_USB_DEVICE_DESCRIPTOR" title='AdbGetUsbDeviceDescriptor' data-ref="_Z25AdbGetUsbDeviceDescriptorPvP22_USB_DEVICE_DESCRIPTOR">AdbGetUsbDeviceDescriptor</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col2 decl" id="22adb_interface" title='adb_interface' data-type='ADBAPIHANDLE' data-ref="22adb_interface">adb_interface</dfn>,</td></tr>
+<tr><th id="326">326</th><td>                                          <a class="typedef" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/usb100.h.html#USB_DEVICE_DESCRIPTOR" title='USB_DEVICE_DESCRIPTOR' data-type='struct _USB_DEVICE_DESCRIPTOR' data-ref="USB_DEVICE_DESCRIPTOR">USB_DEVICE_DESCRIPTOR</a>* <dfn class="local col3 decl" id="23desc" title='desc' data-type='USB_DEVICE_DESCRIPTOR *' data-ref="23desc">desc</dfn>);</td></tr>
+<tr><th id="327">327</th><td></td></tr>
+<tr><th id="328">328</th><td><i class="doc">/** <span class="command">\brief</span> Gets descriptor for the selected USB device configuration.</i></td></tr>
+<tr><th id="329">329</th><td><i class="doc"></i></td></tr>
+<tr><th id="330">330</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_interface</span> A handle to interface object created with </i></td></tr>
+<tr><th id="331">331</th><td><i class="doc">         AdbCreateInterface call.</i></td></tr>
+<tr><th id="332">332</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">desc</span> Upon successful completion will have usb device</i></td></tr>
+<tr><th id="333">333</th><td><i class="doc">         configuration descriptor.</i></td></tr>
+<tr><th id="334">334</th><td><i class="doc">  <span class="command">@return</span> true on success, false on failure. If false is returned</i></td></tr>
+<tr><th id="335">335</th><td><i class="doc">          GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="336">336</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="337">337</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z32AdbGetUsbConfigurationDescriptorPvP29_USB_CONFIGURATION_DESCRIPTOR" title='AdbGetUsbConfigurationDescriptor' data-ref="_Z32AdbGetUsbConfigurationDescriptorPvP29_USB_CONFIGURATION_DESCRIPTOR">AdbGetUsbConfigurationDescriptor</dfn>(</td></tr>
+<tr><th id="338">338</th><td>                    <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col4 decl" id="24adb_interface" title='adb_interface' data-type='ADBAPIHANDLE' data-ref="24adb_interface">adb_interface</dfn>,</td></tr>
+<tr><th id="339">339</th><td>                    <a class="typedef" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/usb100.h.html#USB_CONFIGURATION_DESCRIPTOR" title='USB_CONFIGURATION_DESCRIPTOR' data-type='struct _USB_CONFIGURATION_DESCRIPTOR' data-ref="USB_CONFIGURATION_DESCRIPTOR">USB_CONFIGURATION_DESCRIPTOR</a>* <dfn class="local col5 decl" id="25desc" title='desc' data-type='USB_CONFIGURATION_DESCRIPTOR *' data-ref="25desc">desc</dfn>);</td></tr>
+<tr><th id="340">340</th><td></td></tr>
+<tr><th id="341">341</th><td><i class="doc">/** <span class="command">\brief</span> Gets descriptor for the given interface.</i></td></tr>
+<tr><th id="342">342</th><td><i class="doc"></i></td></tr>
+<tr><th id="343">343</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_interface</span> A handle to interface object created with </i></td></tr>
+<tr><th id="344">344</th><td><i class="doc">         AdbCreateInterface call.</i></td></tr>
+<tr><th id="345">345</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">desc</span> Upon successful completion will have usb device</i></td></tr>
+<tr><th id="346">346</th><td><i class="doc">         configuration descriptor.</i></td></tr>
+<tr><th id="347">347</th><td><i class="doc">  <span class="command">@return</span> true on success, false on failure. If false is returned</i></td></tr>
+<tr><th id="348">348</th><td><i class="doc">          GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="349">349</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="350">350</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z28AdbGetUsbInterfaceDescriptorPvP25_USB_INTERFACE_DESCRIPTOR" title='AdbGetUsbInterfaceDescriptor' data-ref="_Z28AdbGetUsbInterfaceDescriptorPvP25_USB_INTERFACE_DESCRIPTOR">AdbGetUsbInterfaceDescriptor</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col6 decl" id="26adb_interface" title='adb_interface' data-type='ADBAPIHANDLE' data-ref="26adb_interface">adb_interface</dfn>,</td></tr>
+<tr><th id="351">351</th><td>                                             <a class="typedef" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/usb100.h.html#USB_INTERFACE_DESCRIPTOR" title='USB_INTERFACE_DESCRIPTOR' data-type='struct _USB_INTERFACE_DESCRIPTOR' data-ref="USB_INTERFACE_DESCRIPTOR">USB_INTERFACE_DESCRIPTOR</a>* <dfn class="local col7 decl" id="27desc" title='desc' data-type='USB_INTERFACE_DESCRIPTOR *' data-ref="27desc">desc</dfn>);</td></tr>
+<tr><th id="352">352</th><td></td></tr>
+<tr><th id="353">353</th><td><i class="doc">/** <span class="command">\brief</span> Gets information about an endpoint on the given interface.</i></td></tr>
+<tr><th id="354">354</th><td><i class="doc"></i></td></tr>
+<tr><th id="355">355</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_interface</span> A handle to interface object created with </i></td></tr>
+<tr><th id="356">356</th><td><i class="doc">         AdbCreateInterface call.</i></td></tr>
+<tr><th id="357">357</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">endpoint_index</span> Zero-based endpoint index. There are two</i></td></tr>
+<tr><th id="358">358</th><td><i class="doc">         shortcuts for this parameter: ADB_QUERY_BULK_WRITE_ENDPOINT_INDEX</i></td></tr>
+<tr><th id="359">359</th><td><i class="doc">         and ADB_QUERY_BULK_READ_ENDPOINT_INDEX that provide information</i></td></tr>
+<tr><th id="360">360</th><td><i class="doc">         about bulk write and bulk read endpoints respectively.</i></td></tr>
+<tr><th id="361">361</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">info</span> Upon successful completion will have endpoint information.</i></td></tr>
+<tr><th id="362">362</th><td><i class="doc">  <span class="command">@return</span> true on success, false on failure. If false is returned</i></td></tr>
+<tr><th id="363">363</th><td><i class="doc">          GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="364">364</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="365">365</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z25AdbGetEndpointInformationPvhP23_AdbEndpointInformation" title='AdbGetEndpointInformation' data-ref="_Z25AdbGetEndpointInformationPvhP23_AdbEndpointInformation">AdbGetEndpointInformation</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col8 decl" id="28adb_interface" title='adb_interface' data-type='ADBAPIHANDLE' data-ref="28adb_interface">adb_interface</dfn>,</td></tr>
+<tr><th id="366">366</th><td>                                          <em>unsigned</em> <em>char</em> <dfn class="local col9 decl" id="29endpoint_index" title='endpoint_index' data-type='unsigned char' data-ref="29endpoint_index">endpoint_index</dfn>,</td></tr>
+<tr><th id="367">367</th><td>                                          <a class="typedef" href="#AdbEndpointInformation" title='AdbEndpointInformation' data-type='struct _AdbEndpointInformation' data-ref="AdbEndpointInformation">AdbEndpointInformation</a>* <dfn class="local col0 decl" id="30info" title='info' data-type='AdbEndpointInformation *' data-ref="30info">info</dfn>);</td></tr>
+<tr><th id="368">368</th><td></td></tr>
+<tr><th id="369">369</th><td><i class="doc">/** <span class="command">\brief</span> Gets information about default bulk read endpoint on the given</i></td></tr>
+<tr><th id="370">370</th><td><i class="doc">  interface.</i></td></tr>
+<tr><th id="371">371</th><td><i class="doc"></i></td></tr>
+<tr><th id="372">372</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_interface</span> A handle to interface object created with </i></td></tr>
+<tr><th id="373">373</th><td><i class="doc">         AdbCreateInterface call.</i></td></tr>
+<tr><th id="374">374</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">info</span> Upon successful completion will have endpoint information.</i></td></tr>
+<tr><th id="375">375</th><td><i class="doc">  <span class="command">@return</span> true on success, false on failure. If false is returned</i></td></tr>
+<tr><th id="376">376</th><td><i class="doc">          GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="377">377</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="378">378</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z40AdbGetDefaultBulkReadEndpointInformationPvP23_AdbEndpointInformation" title='AdbGetDefaultBulkReadEndpointInformation' data-ref="_Z40AdbGetDefaultBulkReadEndpointInformationPvP23_AdbEndpointInformation">AdbGetDefaultBulkReadEndpointInformation</dfn>(</td></tr>
+<tr><th id="379">379</th><td>                    <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col1 decl" id="31adb_interface" title='adb_interface' data-type='ADBAPIHANDLE' data-ref="31adb_interface">adb_interface</dfn>,</td></tr>
+<tr><th id="380">380</th><td>                    <a class="typedef" href="#AdbEndpointInformation" title='AdbEndpointInformation' data-type='struct _AdbEndpointInformation' data-ref="AdbEndpointInformation">AdbEndpointInformation</a>* <dfn class="local col2 decl" id="32info" title='info' data-type='AdbEndpointInformation *' data-ref="32info">info</dfn>);</td></tr>
+<tr><th id="381">381</th><td></td></tr>
+<tr><th id="382">382</th><td><i class="doc">/** <span class="command">\brief</span> Gets information about default bulk write endpoint on the given</i></td></tr>
+<tr><th id="383">383</th><td><i class="doc">  interface.</i></td></tr>
+<tr><th id="384">384</th><td><i class="doc"></i></td></tr>
+<tr><th id="385">385</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_interface</span> A handle to interface object created with </i></td></tr>
+<tr><th id="386">386</th><td><i class="doc">         AdbCreateInterface call.</i></td></tr>
+<tr><th id="387">387</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">info</span> Upon successful completion will have endpoint information.</i></td></tr>
+<tr><th id="388">388</th><td><i class="doc">  <span class="command">@return</span> true on success, false on failure. If false is returned</i></td></tr>
+<tr><th id="389">389</th><td><i class="doc">          GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="390">390</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="391">391</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z41AdbGetDefaultBulkWriteEndpointInformationPvP23_AdbEndpointInformation" title='AdbGetDefaultBulkWriteEndpointInformation' data-ref="_Z41AdbGetDefaultBulkWriteEndpointInformationPvP23_AdbEndpointInformation">AdbGetDefaultBulkWriteEndpointInformation</dfn>(</td></tr>
+<tr><th id="392">392</th><td>                    <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col3 decl" id="33adb_interface" title='adb_interface' data-type='ADBAPIHANDLE' data-ref="33adb_interface">adb_interface</dfn>,</td></tr>
+<tr><th id="393">393</th><td>                    <a class="typedef" href="#AdbEndpointInformation" title='AdbEndpointInformation' data-type='struct _AdbEndpointInformation' data-ref="AdbEndpointInformation">AdbEndpointInformation</a>* <dfn class="local col4 decl" id="34info" title='info' data-type='AdbEndpointInformation *' data-ref="34info">info</dfn>);</td></tr>
+<tr><th id="394">394</th><td></td></tr>
+<tr><th id="395">395</th><td><i class="doc">/** <span class="command">\brief</span> Opens an endpoint on the given interface.</i></td></tr>
+<tr><th id="396">396</th><td><i class="doc"></i></td></tr>
+<tr><th id="397">397</th><td><i class="doc">  Endpoints are always opened for overlapped I/O.</i></td></tr>
+<tr><th id="398">398</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_interface</span> A handle to interface object created with </i></td></tr>
+<tr><th id="399">399</th><td><i class="doc">         AdbCreateInterface call.</i></td></tr>
+<tr><th id="400">400</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">endpoint_index</span> Zero-based endpoint index. There are two</i></td></tr>
+<tr><th id="401">401</th><td><i class="doc">         shortcuts for this parameter: ADB_QUERY_BULK_WRITE_ENDPOINT_INDEX</i></td></tr>
+<tr><th id="402">402</th><td><i class="doc">         and ADB_QUERY_BULK_READ_ENDPOINT_INDEX that provide information</i></td></tr>
+<tr><th id="403">403</th><td><i class="doc">         about bulk write and bulk read endpoints respectively.</i></td></tr>
+<tr><th id="404">404</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">access_type</span> Desired access type. In the current implementation</i></td></tr>
+<tr><th id="405">405</th><td><i class="doc">         this parameter has no effect on the way endpoint is opened. It's</i></td></tr>
+<tr><th id="406">406</th><td><i class="doc">         always read / write access.</i></td></tr>
+<tr><th id="407">407</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">sharing_mode</span> Desired share mode. In the current implementation</i></td></tr>
+<tr><th id="408">408</th><td><i class="doc">         this parameter has no effect on the way endpoint is opened. It's</i></td></tr>
+<tr><th id="409">409</th><td><i class="doc">         always shared for read / write.</i></td></tr>
+<tr><th id="410">410</th><td><i class="doc">  <span class="command">@return</span> Handle to the opened endpoint object or NULL on failure. If NULL is</i></td></tr>
+<tr><th id="411">411</th><td><i class="doc">          returned GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="412">412</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="413">413</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <b>__cdecl</b> <dfn class="decl" id="_Z15AdbOpenEndpointPvh18_AdbOpenAccessType19_AdbOpenSharingMode" title='AdbOpenEndpoint' data-ref="_Z15AdbOpenEndpointPvh18_AdbOpenAccessType19_AdbOpenSharingMode">AdbOpenEndpoint</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col5 decl" id="35adb_interface" title='adb_interface' data-type='ADBAPIHANDLE' data-ref="35adb_interface">adb_interface</dfn>,</td></tr>
+<tr><th id="414">414</th><td>                                        <em>unsigned</em> <em>char</em> <dfn class="local col6 decl" id="36endpoint_index" title='endpoint_index' data-type='unsigned char' data-ref="36endpoint_index">endpoint_index</dfn>,</td></tr>
+<tr><th id="415">415</th><td>                                        <a class="typedef" href="#AdbOpenAccessType" title='AdbOpenAccessType' data-type='enum _AdbOpenAccessType' data-ref="AdbOpenAccessType">AdbOpenAccessType</a> <dfn class="local col7 decl" id="37access_type" title='access_type' data-type='AdbOpenAccessType' data-ref="37access_type">access_type</dfn>,</td></tr>
+<tr><th id="416">416</th><td>                                        <a class="typedef" href="#AdbOpenSharingMode" title='AdbOpenSharingMode' data-type='enum _AdbOpenSharingMode' data-ref="AdbOpenSharingMode">AdbOpenSharingMode</a> <dfn class="local col8 decl" id="38sharing_mode" title='sharing_mode' data-type='AdbOpenSharingMode' data-ref="38sharing_mode">sharing_mode</dfn>);</td></tr>
+<tr><th id="417">417</th><td></td></tr>
+<tr><th id="418">418</th><td><i class="doc">/** <span class="command">\brief</span> Opens default bulk read endpoint on the given interface.</i></td></tr>
+<tr><th id="419">419</th><td><i class="doc"></i></td></tr>
+<tr><th id="420">420</th><td><i class="doc">  Endpoints are always opened for overlapped I/O.</i></td></tr>
+<tr><th id="421">421</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_interface</span> A handle to interface object created with </i></td></tr>
+<tr><th id="422">422</th><td><i class="doc">         AdbCreateInterface call.</i></td></tr>
+<tr><th id="423">423</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">access_type</span> Desired access type. In the current implementation</i></td></tr>
+<tr><th id="424">424</th><td><i class="doc">         this parameter has no effect on the way endpoint is opened. It's</i></td></tr>
+<tr><th id="425">425</th><td><i class="doc">         always read / write access.</i></td></tr>
+<tr><th id="426">426</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">sharing_mode</span> Desired share mode. In the current implementation</i></td></tr>
+<tr><th id="427">427</th><td><i class="doc">         this parameter has no effect on the way endpoint is opened. It's</i></td></tr>
+<tr><th id="428">428</th><td><i class="doc">         always shared for read / write.</i></td></tr>
+<tr><th id="429">429</th><td><i class="doc">  <span class="command">@return</span> Handle to the opened endpoint object or NULL on failure. If NULL is</i></td></tr>
+<tr><th id="430">430</th><td><i class="doc">          returned GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="431">431</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="432">432</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <b>__cdecl</b> <dfn class="decl" id="_Z30AdbOpenDefaultBulkReadEndpointPv18_AdbOpenAccessType19_AdbOpenSharingMode" title='AdbOpenDefaultBulkReadEndpoint' data-ref="_Z30AdbOpenDefaultBulkReadEndpointPv18_AdbOpenAccessType19_AdbOpenSharingMode">AdbOpenDefaultBulkReadEndpoint</dfn>(</td></tr>
+<tr><th id="433">433</th><td>                            <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col9 decl" id="39adb_interface" title='adb_interface' data-type='ADBAPIHANDLE' data-ref="39adb_interface">adb_interface</dfn>,</td></tr>
+<tr><th id="434">434</th><td>                            <a class="typedef" href="#AdbOpenAccessType" title='AdbOpenAccessType' data-type='enum _AdbOpenAccessType' data-ref="AdbOpenAccessType">AdbOpenAccessType</a> <dfn class="local col0 decl" id="40access_type" title='access_type' data-type='AdbOpenAccessType' data-ref="40access_type">access_type</dfn>,</td></tr>
+<tr><th id="435">435</th><td>                            <a class="typedef" href="#AdbOpenSharingMode" title='AdbOpenSharingMode' data-type='enum _AdbOpenSharingMode' data-ref="AdbOpenSharingMode">AdbOpenSharingMode</a> <dfn class="local col1 decl" id="41sharing_mode" title='sharing_mode' data-type='AdbOpenSharingMode' data-ref="41sharing_mode">sharing_mode</dfn>);</td></tr>
+<tr><th id="436">436</th><td></td></tr>
+<tr><th id="437">437</th><td><i class="doc">/** <span class="command">\brief</span> Opens default bulk write endpoint on the given interface.</i></td></tr>
+<tr><th id="438">438</th><td><i class="doc"></i></td></tr>
+<tr><th id="439">439</th><td><i class="doc">  Endpoints are always opened for overlapped I/O.</i></td></tr>
+<tr><th id="440">440</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_interface</span> A handle to interface object created with </i></td></tr>
+<tr><th id="441">441</th><td><i class="doc">         AdbCreateInterface call.</i></td></tr>
+<tr><th id="442">442</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">access_type</span> Desired access type. In the current implementation</i></td></tr>
+<tr><th id="443">443</th><td><i class="doc">         this parameter has no effect on the way endpoint is opened. It's</i></td></tr>
+<tr><th id="444">444</th><td><i class="doc">         always read / write access.</i></td></tr>
+<tr><th id="445">445</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">sharing_mode</span> Desired share mode. In the current implementation</i></td></tr>
+<tr><th id="446">446</th><td><i class="doc">         this parameter has no effect on the way endpoint is opened. It's</i></td></tr>
+<tr><th id="447">447</th><td><i class="doc">         always shared for read / write.</i></td></tr>
+<tr><th id="448">448</th><td><i class="doc">  <span class="command">@return</span> Handle to the opened endpoint object or NULL on failure. If NULL is</i></td></tr>
+<tr><th id="449">449</th><td><i class="doc">          returned GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="450">450</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="451">451</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <b>__cdecl</b> <dfn class="decl" id="_Z31AdbOpenDefaultBulkWriteEndpointPv18_AdbOpenAccessType19_AdbOpenSharingMode" title='AdbOpenDefaultBulkWriteEndpoint' data-ref="_Z31AdbOpenDefaultBulkWriteEndpointPv18_AdbOpenAccessType19_AdbOpenSharingMode">AdbOpenDefaultBulkWriteEndpoint</dfn>(</td></tr>
+<tr><th id="452">452</th><td>                            <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col2 decl" id="42adb_interface" title='adb_interface' data-type='ADBAPIHANDLE' data-ref="42adb_interface">adb_interface</dfn>,</td></tr>
+<tr><th id="453">453</th><td>                            <a class="typedef" href="#AdbOpenAccessType" title='AdbOpenAccessType' data-type='enum _AdbOpenAccessType' data-ref="AdbOpenAccessType">AdbOpenAccessType</a> <dfn class="local col3 decl" id="43access_type" title='access_type' data-type='AdbOpenAccessType' data-ref="43access_type">access_type</dfn>,</td></tr>
+<tr><th id="454">454</th><td>                            <a class="typedef" href="#AdbOpenSharingMode" title='AdbOpenSharingMode' data-type='enum _AdbOpenSharingMode' data-ref="AdbOpenSharingMode">AdbOpenSharingMode</a> <dfn class="local col4 decl" id="44sharing_mode" title='sharing_mode' data-type='AdbOpenSharingMode' data-ref="44sharing_mode">sharing_mode</dfn>);</td></tr>
+<tr><th id="455">455</th><td></td></tr>
+<tr><th id="456">456</th><td><i class="doc">/** <span class="command">\brief</span> Gets handle to interface object for the given endpoint</i></td></tr>
+<tr><th id="457">457</th><td><i class="doc"></i></td></tr>
+<tr><th id="458">458</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_endpoint</span> A handle to opened endpoint object, obtained via one</i></td></tr>
+<tr><th id="459">459</th><td><i class="doc">         of the AdbOpenXxxEndpoint calls.</i></td></tr>
+<tr><th id="460">460</th><td><i class="doc">  <span class="command">@return</span> Handle to the interface for this endpoint or NULL on failure. If NULL</i></td></tr>
+<tr><th id="461">461</th><td><i class="doc">          is returned GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="462">462</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="463">463</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <b>__cdecl</b> <dfn class="decl" id="_Z23AdbGetEndpointInterfacePv" title='AdbGetEndpointInterface' data-ref="_Z23AdbGetEndpointInterfacePv">AdbGetEndpointInterface</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col5 decl" id="45adb_endpoint" title='adb_endpoint' data-type='ADBAPIHANDLE' data-ref="45adb_endpoint">adb_endpoint</dfn>);</td></tr>
+<tr><th id="464">464</th><td></td></tr>
+<tr><th id="465">465</th><td><i class="doc">/** <span class="command">\brief</span> Gets information about the given endpoint.</i></td></tr>
+<tr><th id="466">466</th><td><i class="doc"></i></td></tr>
+<tr><th id="467">467</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_endpoint</span> A handle to opened endpoint object, obtained via one</i></td></tr>
+<tr><th id="468">468</th><td><i class="doc">         of the AdbOpenXxxEndpoint calls.</i></td></tr>
+<tr><th id="469">469</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">info</span> Upon successful completion will have endpoint information.</i></td></tr>
+<tr><th id="470">470</th><td><i class="doc">  <span class="command">@return</span> true on success, false on failure. If false is returned</i></td></tr>
+<tr><th id="471">471</th><td><i class="doc">          GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="472">472</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="473">473</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z27AdbQueryInformationEndpointPvP23_AdbEndpointInformation" title='AdbQueryInformationEndpoint' data-ref="_Z27AdbQueryInformationEndpointPvP23_AdbEndpointInformation">AdbQueryInformationEndpoint</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col6 decl" id="46adb_endpoint" title='adb_endpoint' data-type='ADBAPIHANDLE' data-ref="46adb_endpoint">adb_endpoint</dfn>,</td></tr>
+<tr><th id="474">474</th><td>                                            <a class="typedef" href="#AdbEndpointInformation" title='AdbEndpointInformation' data-type='struct _AdbEndpointInformation' data-ref="AdbEndpointInformation">AdbEndpointInformation</a>* <dfn class="local col7 decl" id="47info" title='info' data-type='AdbEndpointInformation *' data-ref="47info">info</dfn>);</td></tr>
+<tr><th id="475">475</th><td></td></tr>
+<tr><th id="476">476</th><td><i class="doc">/** <span class="command">\brief</span> Asynchronously reads from the given endpoint.</i></td></tr>
+<tr><th id="477">477</th><td><i class="doc"></i></td></tr>
+<tr><th id="478">478</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_endpoint</span> A handle to opened endpoint object, obtained via one</i></td></tr>
+<tr><th id="479">479</th><td><i class="doc">         of the AdbOpenXxxEndpoint calls.</i></td></tr>
+<tr><th id="480">480</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">buffer</span> Pointer to the buffer that receives the data.</i></td></tr>
+<tr><th id="481">481</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">bytes_to_read</span> Number of bytes to be read.</i></td></tr>
+<tr><th id="482">482</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">bytes_read</span> Number of bytes read. Can be NULL.</i></td></tr>
+<tr><th id="483">483</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">event_handle</span> Event handle that should be signaled when async I/O</i></td></tr>
+<tr><th id="484">484</th><td><i class="doc">         completes. Can be NULL. If it's not NULL this handle will be used to</i></td></tr>
+<tr><th id="485">485</th><td><i class="doc">         initialize OVERLAPPED structure for this I/O.</i></td></tr>
+<tr><th id="486">486</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">time_out</span> A timeout (in milliseconds) required for this I/O to</i></td></tr>
+<tr><th id="487">487</th><td><i class="doc">         complete. Zero value for this parameter means that there is no</i></td></tr>
+<tr><th id="488">488</th><td><i class="doc">         timeout for this I/O.</i></td></tr>
+<tr><th id="489">489</th><td><i class="doc">  <span class="command">@return</span> A handle to IO completion object or NULL on failure. If NULL is</i></td></tr>
+<tr><th id="490">490</th><td><i class="doc">          returned GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="491">491</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="492">492</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <b>__cdecl</b> <dfn class="decl" id="_Z20AdbReadEndpointAsyncPvS_mPmmS_" title='AdbReadEndpointAsync' data-ref="_Z20AdbReadEndpointAsyncPvS_mPmmS_">AdbReadEndpointAsync</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col8 decl" id="48adb_endpoint" title='adb_endpoint' data-type='ADBAPIHANDLE' data-ref="48adb_endpoint">adb_endpoint</dfn>,</td></tr>
+<tr><th id="493">493</th><td>                                             <em>void</em>* <dfn class="local col9 decl" id="49buffer" title='buffer' data-type='void *' data-ref="49buffer">buffer</dfn>,</td></tr>
+<tr><th id="494">494</th><td>                                             <em>unsigned</em> <em>long</em> <dfn class="local col0 decl" id="50bytes_to_read" title='bytes_to_read' data-type='unsigned long' data-ref="50bytes_to_read">bytes_to_read</dfn>,</td></tr>
+<tr><th id="495">495</th><td>                                             <em>unsigned</em> <em>long</em>* <dfn class="local col1 decl" id="51bytes_read" title='bytes_read' data-type='unsigned long *' data-ref="51bytes_read">bytes_read</dfn>,</td></tr>
+<tr><th id="496">496</th><td>                                             <em>unsigned</em> <em>long</em> <dfn class="local col2 decl" id="52time_out" title='time_out' data-type='unsigned long' data-ref="52time_out">time_out</dfn>,</td></tr>
+<tr><th id="497">497</th><td>                                             <a class="typedef" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h.html#HANDLE" title='HANDLE' data-type='void *' data-ref="HANDLE">HANDLE</a> <dfn class="local col3 decl" id="53event_handle" title='event_handle' data-type='HANDLE' data-ref="53event_handle">event_handle</dfn>);</td></tr>
+<tr><th id="498">498</th><td></td></tr>
+<tr><th id="499">499</th><td><i class="doc">/** <span class="command">\brief</span> Asynchronously writes to the given endpoint.</i></td></tr>
+<tr><th id="500">500</th><td><i class="doc"></i></td></tr>
+<tr><th id="501">501</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_endpoint</span> A handle to opened endpoint object, obtained via one</i></td></tr>
+<tr><th id="502">502</th><td><i class="doc">         of the AdbOpenXxxEndpoint calls.</i></td></tr>
+<tr><th id="503">503</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">buffer</span> Pointer to the buffer containing the data to be written.</i></td></tr>
+<tr><th id="504">504</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">bytes_to_write</span> Number of bytes to be written.</i></td></tr>
+<tr><th id="505">505</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">bytes_written</span> Number of bytes written. Can be NULL.</i></td></tr>
+<tr><th id="506">506</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">event_handle</span> Event handle that should be signaled when async I/O</i></td></tr>
+<tr><th id="507">507</th><td><i class="doc">         completes. Can be NULL. If it's not NULL this handle will be used to</i></td></tr>
+<tr><th id="508">508</th><td><i class="doc">         initialize OVERLAPPED structure for this I/O.</i></td></tr>
+<tr><th id="509">509</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">time_out</span> A timeout (in milliseconds) required for this I/O to</i></td></tr>
+<tr><th id="510">510</th><td><i class="doc">         complete. Zero value for this parameter means that there is no</i></td></tr>
+<tr><th id="511">511</th><td><i class="doc">         timeout for this I/O.</i></td></tr>
+<tr><th id="512">512</th><td><i class="doc">  <span class="command">@return</span> A handle to IO completion object or NULL on failure. If NULL is</i></td></tr>
+<tr><th id="513">513</th><td><i class="doc">          returned GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="514">514</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="515">515</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <b>__cdecl</b> <dfn class="decl" id="_Z21AdbWriteEndpointAsyncPvS_mPmmS_" title='AdbWriteEndpointAsync' data-ref="_Z21AdbWriteEndpointAsyncPvS_mPmmS_">AdbWriteEndpointAsync</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col4 decl" id="54adb_endpoint" title='adb_endpoint' data-type='ADBAPIHANDLE' data-ref="54adb_endpoint">adb_endpoint</dfn>,</td></tr>
+<tr><th id="516">516</th><td>                                              <em>void</em>* <dfn class="local col5 decl" id="55buffer" title='buffer' data-type='void *' data-ref="55buffer">buffer</dfn>,</td></tr>
+<tr><th id="517">517</th><td>                                              <em>unsigned</em> <em>long</em> <dfn class="local col6 decl" id="56bytes_to_write" title='bytes_to_write' data-type='unsigned long' data-ref="56bytes_to_write">bytes_to_write</dfn>,</td></tr>
+<tr><th id="518">518</th><td>                                              <em>unsigned</em> <em>long</em>* <dfn class="local col7 decl" id="57bytes_written" title='bytes_written' data-type='unsigned long *' data-ref="57bytes_written">bytes_written</dfn>,</td></tr>
+<tr><th id="519">519</th><td>                                              <em>unsigned</em> <em>long</em> <dfn class="local col8 decl" id="58time_out" title='time_out' data-type='unsigned long' data-ref="58time_out">time_out</dfn>,</td></tr>
+<tr><th id="520">520</th><td>                                              <a class="typedef" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h.html#HANDLE" title='HANDLE' data-type='void *' data-ref="HANDLE">HANDLE</a> <dfn class="local col9 decl" id="59event_handle" title='event_handle' data-type='HANDLE' data-ref="59event_handle">event_handle</dfn>);</td></tr>
+<tr><th id="521">521</th><td></td></tr>
+<tr><th id="522">522</th><td><i class="doc">/** <span class="command">\brief</span> Synchronously reads from the given endpoint.</i></td></tr>
+<tr><th id="523">523</th><td><i class="doc"></i></td></tr>
+<tr><th id="524">524</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_endpoint</span> A handle to opened endpoint object, obtained via one</i></td></tr>
+<tr><th id="525">525</th><td><i class="doc">         of the AdbOpenXxxEndpoint calls.</i></td></tr>
+<tr><th id="526">526</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">buffer</span> Pointer to the buffer that receives the data.</i></td></tr>
+<tr><th id="527">527</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">bytes_to_read</span> Number of bytes to be read.</i></td></tr>
+<tr><th id="528">528</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">bytes_read</span> Number of bytes read. Can be NULL.</i></td></tr>
+<tr><th id="529">529</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">time_out</span> A timeout (in milliseconds) required for this I/O to</i></td></tr>
+<tr><th id="530">530</th><td><i class="doc">         complete. Zero value for this parameter means that there is no</i></td></tr>
+<tr><th id="531">531</th><td><i class="doc">         timeout for this I/O.</i></td></tr>
+<tr><th id="532">532</th><td><i class="doc">  <span class="command">@return</span> true on success and false on failure. If false is</i></td></tr>
+<tr><th id="533">533</th><td><i class="doc">          returned GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="534">534</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="535">535</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z19AdbReadEndpointSyncPvS_mPmm" title='AdbReadEndpointSync' data-ref="_Z19AdbReadEndpointSyncPvS_mPmm">AdbReadEndpointSync</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col0 decl" id="60adb_endpoint" title='adb_endpoint' data-type='ADBAPIHANDLE' data-ref="60adb_endpoint">adb_endpoint</dfn>,</td></tr>
+<tr><th id="536">536</th><td>                                    <em>void</em>* <dfn class="local col1 decl" id="61buffer" title='buffer' data-type='void *' data-ref="61buffer">buffer</dfn>,</td></tr>
+<tr><th id="537">537</th><td>                                    <em>unsigned</em> <em>long</em> <dfn class="local col2 decl" id="62bytes_to_read" title='bytes_to_read' data-type='unsigned long' data-ref="62bytes_to_read">bytes_to_read</dfn>,</td></tr>
+<tr><th id="538">538</th><td>                                    <em>unsigned</em> <em>long</em>* <dfn class="local col3 decl" id="63bytes_read" title='bytes_read' data-type='unsigned long *' data-ref="63bytes_read">bytes_read</dfn>,</td></tr>
+<tr><th id="539">539</th><td>                                    <em>unsigned</em> <em>long</em> <dfn class="local col4 decl" id="64time_out" title='time_out' data-type='unsigned long' data-ref="64time_out">time_out</dfn>);</td></tr>
+<tr><th id="540">540</th><td></td></tr>
+<tr><th id="541">541</th><td><i class="doc">/** <span class="command">\brief</span> Synchronously writes to the given endpoint.</i></td></tr>
+<tr><th id="542">542</th><td><i class="doc"></i></td></tr>
+<tr><th id="543">543</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_endpoint</span> A handle to opened endpoint object, obtained via one</i></td></tr>
+<tr><th id="544">544</th><td><i class="doc">         of the AdbOpenXxxEndpoint calls.</i></td></tr>
+<tr><th id="545">545</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">buffer</span> Pointer to the buffer containing the data to be written.</i></td></tr>
+<tr><th id="546">546</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">bytes_to_write</span> Number of bytes to be written.</i></td></tr>
+<tr><th id="547">547</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">bytes_written</span> Number of bytes written. Can be NULL.</i></td></tr>
+<tr><th id="548">548</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">time_out</span> A timeout (in milliseconds) required for this I/O to</i></td></tr>
+<tr><th id="549">549</th><td><i class="doc">         complete. Zero value for this parameter means that there is no</i></td></tr>
+<tr><th id="550">550</th><td><i class="doc">         timeout for this I/O.</i></td></tr>
+<tr><th id="551">551</th><td><i class="doc">  <span class="command">@return</span> true on success and false on failure. If false is</i></td></tr>
+<tr><th id="552">552</th><td><i class="doc">          returned GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="553">553</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="554">554</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z20AdbWriteEndpointSyncPvS_mPmm" title='AdbWriteEndpointSync' data-ref="_Z20AdbWriteEndpointSyncPvS_mPmm">AdbWriteEndpointSync</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col5 decl" id="65adb_endpoint" title='adb_endpoint' data-type='ADBAPIHANDLE' data-ref="65adb_endpoint">adb_endpoint</dfn>,</td></tr>
+<tr><th id="555">555</th><td>                                     <em>void</em>* <dfn class="local col6 decl" id="66buffer" title='buffer' data-type='void *' data-ref="66buffer">buffer</dfn>,</td></tr>
+<tr><th id="556">556</th><td>                                     <em>unsigned</em> <em>long</em> <dfn class="local col7 decl" id="67bytes_to_write" title='bytes_to_write' data-type='unsigned long' data-ref="67bytes_to_write">bytes_to_write</dfn>,</td></tr>
+<tr><th id="557">557</th><td>                                     <em>unsigned</em> <em>long</em>* <dfn class="local col8 decl" id="68bytes_written" title='bytes_written' data-type='unsigned long *' data-ref="68bytes_written">bytes_written</dfn>,</td></tr>
+<tr><th id="558">558</th><td>                                     <em>unsigned</em> <em>long</em> <dfn class="local col9 decl" id="69time_out" title='time_out' data-type='unsigned long' data-ref="69time_out">time_out</dfn>);</td></tr>
+<tr><th id="559">559</th><td></td></tr>
+<tr><th id="560">560</th><td><i class="doc">/** <span class="command">\brief</span> Gets overlapped I/O result for async I/O performed on the</i></td></tr>
+<tr><th id="561">561</th><td><i class="doc">  given endpoint.</i></td></tr>
+<tr><th id="562">562</th><td><i class="doc"></i></td></tr>
+<tr><th id="563">563</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_io_completion</span> A handle to an I/O completion object returned</i></td></tr>
+<tr><th id="564">564</th><td><i class="doc">         from AdbRead/WriteAsync routines.</i></td></tr>
+<tr><th id="565">565</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">ovl_data</span> Buffer for the copy of this object's OVERLAPPED</i></td></tr>
+<tr><th id="566">566</th><td><i class="doc">         structure. Can be NULL.</i></td></tr>
+<tr><th id="567">567</th><td><i class="doc">  <span class="command">@param</span>[out] <span class="arg">bytes_transferred</span> Pointer to a variable that receives the</i></td></tr>
+<tr><th id="568">568</th><td><i class="doc">         number of bytes that were actually transferred by a read or write</i></td></tr>
+<tr><th id="569">569</th><td><i class="doc">         operation. See SDK doc on GetOvelappedResult for more information.</i></td></tr>
+<tr><th id="570">570</th><td><i class="doc">         Unlike regular GetOvelappedResult call this parameter can be NULL.</i></td></tr>
+<tr><th id="571">571</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">wait</span> If this parameter is true, the method does not return</i></td></tr>
+<tr><th id="572">572</th><td><i class="doc">         until the operation has been completed. If this parameter is false</i></td></tr>
+<tr><th id="573">573</th><td><i class="doc">         and the operation is still pending, the method returns false and</i></td></tr>
+<tr><th id="574">574</th><td><i class="doc">         the GetLastError function returns ERROR_IO_INCOMPLETE.</i></td></tr>
+<tr><th id="575">575</th><td><i class="doc">  <span class="command">@return</span> true if I/O has been completed or false on failure or if request</i></td></tr>
+<tr><th id="576">576</th><td><i class="doc">         is not yet completed. If false is returned GetLastError() provides</i></td></tr>
+<tr><th id="577">577</th><td><i class="doc">         extended error information. If GetLastError returns</i></td></tr>
+<tr><th id="578">578</th><td><i class="doc">         ERROR_IO_INCOMPLETE it means that I/O is not yet completed.</i></td></tr>
+<tr><th id="579">579</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="580">580</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z23AdbGetOvelappedIoResultPvP11_OVERLAPPEDPmb" title='AdbGetOvelappedIoResult' data-ref="_Z23AdbGetOvelappedIoResultPvP11_OVERLAPPEDPmb">AdbGetOvelappedIoResult</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col0 decl" id="70adb_io_completion" title='adb_io_completion' data-type='ADBAPIHANDLE' data-ref="70adb_io_completion">adb_io_completion</dfn>,</td></tr>
+<tr><th id="581">581</th><td>                                        <a class="typedef" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h.html#LPOVERLAPPED" title='LPOVERLAPPED' data-type='struct _OVERLAPPED *' data-ref="LPOVERLAPPED">LPOVERLAPPED</a> <dfn class="local col1 decl" id="71overlapped" title='overlapped' data-type='LPOVERLAPPED' data-ref="71overlapped">overlapped</dfn>,</td></tr>
+<tr><th id="582">582</th><td>                                        <em>unsigned</em> <em>long</em>* <dfn class="local col2 decl" id="72bytes_transferred" title='bytes_transferred' data-type='unsigned long *' data-ref="72bytes_transferred">bytes_transferred</dfn>,</td></tr>
+<tr><th id="583">583</th><td>                                        <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <dfn class="local col3 decl" id="73wait" title='wait' data-type='bool' data-ref="73wait">wait</dfn>);</td></tr>
+<tr><th id="584">584</th><td></td></tr>
+<tr><th id="585">585</th><td><i class="doc">/** <span class="command">\brief</span> Checks if overlapped I/O has been completed.</i></td></tr>
+<tr><th id="586">586</th><td><i class="doc"></i></td></tr>
+<tr><th id="587">587</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_io_completion</span> A handle to an I/O completion object returned</i></td></tr>
+<tr><th id="588">588</th><td><i class="doc">         from AdbRead/WriteAsync routines.</i></td></tr>
+<tr><th id="589">589</th><td><i class="doc">  <span class="command">@return</span> true if I/O has been completed or false if it's still</i></td></tr>
+<tr><th id="590">590</th><td><i class="doc">          incomplete. Regardless of the returned value, caller should</i></td></tr>
+<tr><th id="591">591</th><td><i class="doc">          check GetLastError to validate that handle was OK.</i></td></tr>
+<tr><th id="592">592</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="593">593</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z26AdbHasOvelappedIoComplatedPv" title='AdbHasOvelappedIoComplated' data-ref="_Z26AdbHasOvelappedIoComplatedPv">AdbHasOvelappedIoComplated</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col4 decl" id="74adb_io_completion" title='adb_io_completion' data-type='ADBAPIHANDLE' data-ref="74adb_io_completion">adb_io_completion</dfn>);</td></tr>
+<tr><th id="594">594</th><td></td></tr>
+<tr><th id="595">595</th><td><i class="doc">/** <span class="command">\brief</span> Closes handle previously opened with one of the API calls</i></td></tr>
+<tr><th id="596">596</th><td><i class="doc"></i></td></tr>
+<tr><th id="597">597</th><td><i class="doc">  <span class="command">@param</span>[in] <span class="arg">adb_handle</span> ADB handle previously opened with one of the API calls</i></td></tr>
+<tr><th id="598">598</th><td><i class="doc">  <span class="command">@return</span> true on success or false on failure. If false is returned</i></td></tr>
+<tr><th id="599">599</th><td><i class="doc">          GetLastError() provides extended error information.</i></td></tr>
+<tr><th id="600">600</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="601">601</th><td><a class="macro" href="#105" title="extern &quot;C&quot; __declspec(dllimport)" data-ref="_M/ADBWIN_API">ADBWIN_API</a><span class='error' title="expected &apos;;&apos; after top level declarator"></span> <a class="macro" href="../../../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h.html#41" title="bool" data-ref="_M/bool"><em>bool</em></a> <b>__cdecl</b> <dfn class="decl" id="_Z14AdbCloseHandlePv" title='AdbCloseHandle' data-ref="_Z14AdbCloseHandlePv">AdbCloseHandle</dfn>(<a class="typedef" href="#ADBAPIHANDLE" title='ADBAPIHANDLE' data-type='void *' data-ref="ADBAPIHANDLE">ADBAPIHANDLE</a> <dfn class="local col5 decl" id="75adb_handle" title='adb_handle' data-type='ADBAPIHANDLE' data-ref="75adb_handle">adb_handle</dfn>);</td></tr>
+<tr><th id="602">602</th><td></td></tr>
+<tr><th id="603">603</th><td><u>#<span data-ppcond="17">endif</span>  // ANDROID_USB_API_ADBWINAPI_H__</u></td></tr>
+<tr><th id="604">604</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../system/core/adb/usb_windows.cpp.html'>codebrowser/system/core/adb/usb_windows.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

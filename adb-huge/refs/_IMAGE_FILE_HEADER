@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4434' ll='4442'/>
+<size>20</size>
+<mbr r='_IMAGE_FILE_HEADER::Machine' o='0' t='WORD'/>
+<mbr r='_IMAGE_FILE_HEADER::NumberOfSections' o='16' t='WORD'/>
+<mbr r='_IMAGE_FILE_HEADER::TimeDateStamp' o='32' t='DWORD'/>
+<mbr r='_IMAGE_FILE_HEADER::PointerToSymbolTable' o='64' t='DWORD'/>
+<mbr r='_IMAGE_FILE_HEADER::NumberOfSymbols' o='96' t='DWORD'/>
+<mbr r='_IMAGE_FILE_HEADER::SizeOfOptionalHeader' o='128' t='WORD'/>
+<mbr r='_IMAGE_FILE_HEADER::Characteristics' o='144' t='WORD'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/development/host/windows/usb/api/adb_api.h' l='42' ll='57'/>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='38'>/** \brief Enumerates ADB endpoint types.
+
+  This enum is taken from WDF_USB_PIPE_TYPE enum found in WDK.
+*/</doc>

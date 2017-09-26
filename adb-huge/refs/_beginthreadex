@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/process.h' l='31' type='uintptr_t _beginthreadex(void * _Security, unsigned int _StackSize, unsigned int (*)(void *) __attribute__((stdcall)) _StartAddress, void * _ArgList, unsigned int _InitFlag, unsigned int * _ThrdAddr)'/>

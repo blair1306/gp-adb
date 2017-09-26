@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/adb_trace.cpp' l='82' ll='89' type='std::string get_trace_setting_from_env()'/>
+<use f='codebrowser/system/core/adb/adb_trace.cpp' l='101' u='c' c='_Z17get_trace_settingv'/>

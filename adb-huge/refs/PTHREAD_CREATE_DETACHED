@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='38' type='1'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='729' macro='1' u='r'/>

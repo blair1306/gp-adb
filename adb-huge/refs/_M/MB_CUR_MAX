@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='139'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='138'>/* Maximum length of a multibyte character in the current locale.  */</doc>
+<use f='codebrowser/external/libcxx/include/locale' l='250' u='c'/>
+<use f='codebrowser/external/libcxx/include/locale' l='253' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='99'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ctype.h' l='187' u='a'/>

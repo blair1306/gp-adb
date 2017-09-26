@@ -1,0 +1,14 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/mcx.h' l='32' ll='45'/>
+<size>48</size>
+<mbr r='_MODEMSETTINGS::dwActualSize' o='0' t='DWORD'/>
+<mbr r='_MODEMSETTINGS::dwRequiredSize' o='32' t='DWORD'/>
+<mbr r='_MODEMSETTINGS::dwDevSpecificOffset' o='64' t='DWORD'/>
+<mbr r='_MODEMSETTINGS::dwDevSpecificSize' o='96' t='DWORD'/>
+<mbr r='_MODEMSETTINGS::dwCallSetupFailTimer' o='128' t='DWORD'/>
+<mbr r='_MODEMSETTINGS::dwInactivityTimeout' o='160' t='DWORD'/>
+<mbr r='_MODEMSETTINGS::dwSpeakerVolume' o='192' t='DWORD'/>
+<mbr r='_MODEMSETTINGS::dwSpeakerMode' o='224' t='DWORD'/>
+<mbr r='_MODEMSETTINGS::dwPreferredModemOptions' o='256' t='DWORD'/>
+<mbr r='_MODEMSETTINGS::dwNegotiatedModemOptions' o='288' t='DWORD'/>
+<mbr r='_MODEMSETTINGS::dwNegotiatedDCERate' o='320' t='DWORD'/>
+<mbr r='_MODEMSETTINGS::abVariablePortion' o='352' t='BYTE [1]'/>

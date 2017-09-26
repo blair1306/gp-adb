@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='164' type='struct timespec'/>
+<offset>128</offset>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/types.h' l='96' type='struct timespec'/>
+<offset>96</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/types.h' l='96'>/* Timer expiration */</doc>

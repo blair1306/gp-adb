@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='229' type='int adb_commandline(int argc, const char ** argv)'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='174' u='c' c='main'/>
+<def f='codebrowser/system/core/adb/commandline.cpp' l='1402' ll='1912' type='int adb_commandline(int argc, const char ** argv)'/>

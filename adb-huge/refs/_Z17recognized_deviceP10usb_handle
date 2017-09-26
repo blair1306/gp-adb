@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/usb_windows.cpp' l='89' type='int recognized_device(usb_handle * handle)'/>
+<def f='codebrowser/system/core/adb/usb_windows.cpp' l='530' ll='578' type='int recognized_device(usb_handle * handle)'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='603' u='c' c='_Z12find_devicesv'/>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='88'>/// Checks if interface (device) matches certain criteria</doc>

@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='285' type='int _wfindnext32(intptr_t _FindHandle, struct _wfinddata32_t * _FindData)'/>

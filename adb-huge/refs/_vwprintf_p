@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='837' type='int _vwprintf_p(const wchar_t *__restrict _Format, va_list _ArgList)'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/stdio_s.h' l='143' type='int _vwprintf_p(const wchar_t * _Format, va_list _ArgList)'/>

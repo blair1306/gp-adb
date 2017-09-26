@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='2053' type='LONG InterlockedDecrement(volatile LONG * )'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='2065' ll='2072' macro='1' type='LONG InterlockedDecrement(volatile LONG * Addend)'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='1018' type='LONG InterlockedDecrement(volatile LONG * lpAddend)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='4056' u='c' c='_Z20InterlockedDecrementPVj'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='4060' u='c' c='_Z20InterlockedDecrementPVm'/>

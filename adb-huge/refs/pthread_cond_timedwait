@@ -1,0 +1,9 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='984' type='int pthread_cond_timedwait(pthread_cond_t *restrict __cond, pthread_mutex_t *restrict __mutex, const struct timespec *restrict __abstime)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='977'>/* Wait for condition variable COND to be signaled or broadcast until
+   ABSTIME.  MUTEX is assumed to be locked before.  ABSTIME is an
+   absolute time specification; zero is the beginning of the epoch
+   (00:00:00 GMT, January 1, 1970).
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/external/libcxx/src/condition_variable.cpp' l='74' u='c' c='_ZNSt3__118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILl1ELl1000000000EEEEEEE'/>

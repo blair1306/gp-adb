@@ -1,0 +1,2 @@
+<use f='codebrowser/system/core/adb/commandline.cpp' l='444' u='c' c='_ZL23send_window_size_changeiRNSt3__110unique_ptrI13ShellProtocolNS_14default_deleteIS1_EEEE'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='108' u='c' c='_ZN11LinePrinter5PrintENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS_8LineTypeE'/>

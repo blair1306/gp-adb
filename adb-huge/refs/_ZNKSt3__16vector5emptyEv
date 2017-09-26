@@ -1,0 +1,6 @@
+<def f='codebrowser/external/libcxx/include/vector' l='645' ll='647' macro='1' type='bool std::__1::vector::empty() const'/>
+<use f='codebrowser/external/libcxx/include/random' l='5980' u='c' c='_ZNSt3__121discrete_distribution10param_type6__initEv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='610' u='c' c='_ZL18ShellServiceStringbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1758' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1767' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='855' u='c' c='_ZL17remote_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>

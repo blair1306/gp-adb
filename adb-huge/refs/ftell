@@ -1,0 +1,7 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='751' type='long ftell(FILE * __stream)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='747'>/* Return the current position of STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/file.c' l='231' u='c' c='file_ctrl'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='473' type='long ftell(FILE * _File)'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/un.h' l='33' type='char [108]'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='59' u='r' c='socket_make_sockaddr_un'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='68' u='w' c='socket_make_sockaddr_un'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='69' u='r' c='socket_make_sockaddr_un'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='93' u='r' c='socket_make_sockaddr_un'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='94' u='r' c='socket_make_sockaddr_un'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='105' u='r' c='socket_make_sockaddr_un'/>
+<offset>16</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/un.h' l='33'>/* Path name.  */</doc>
+<use f='codebrowser/system/core/libcutils/socket_local_server_unix.c' l='76' u='r' c='socket_local_server_bind'/>

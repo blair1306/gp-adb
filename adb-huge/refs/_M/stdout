@@ -1,0 +1,26 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='174'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdio.h' l='82' u='c'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdio.h' l='108' u='c'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdio2.h' l='118' u='c'/>
+<use f='codebrowser/external/libcxx/src/iostream.cpp' l='53' u='c'/>
+<use f='codebrowser/external/libcxx/src/iostream.cpp' l='54' u='c'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1005' u='c'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='190' u='c'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='201' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='292' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='312' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='402' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='403' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='832' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='878' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='946' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1106' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1238' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1890' u='c'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='65' u='c'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='114' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='116'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='910' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2595' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2614' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2642' u='c'/>

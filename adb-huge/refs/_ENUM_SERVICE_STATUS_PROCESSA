@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsvc.h' l='191' ll='195'/>
+<size>44</size>
+<mbr r='_ENUM_SERVICE_STATUS_PROCESSA::lpServiceName' o='0' t='LPSTR'/>
+<mbr r='_ENUM_SERVICE_STATUS_PROCESSA::lpDisplayName' o='32' t='LPSTR'/>
+<mbr r='_ENUM_SERVICE_STATUS_PROCESSA::ServiceStatusProcess' o='64' t='SERVICE_STATUS_PROCESS'/>

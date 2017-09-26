@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='535' type='int dup2(int __fd, int __fd2)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='534'>/* Duplicate FD to FD2, closing FD2 and making it open on the same file.  */</doc>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='52' u='c' c='_Z11close_stdinv'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='81' u='c' c='_ZL20setup_daemon_loggingv'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='84' u='c' c='_ZL20setup_daemon_loggingv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1008' u='c' c='_ZL3pppiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1009' u='c' c='_ZL3pppiPPKc'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='316' type='int dup2(int _FileHandleSrc, int _FileHandleDst)'/>

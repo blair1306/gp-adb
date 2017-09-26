@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/adb/usb_linux.cpp' l='71' type='bool'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='317' u='w' c='_ZL14usb_bulk_writeP10usb_handlePKvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='325' u='r' c='_ZL14usb_bulk_writeP10usb_handlePKvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='395' u='w' c='_ZL13usb_bulk_readP10usb_handlePvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='482' u='w' c='_Z8usb_kickP10usb_handle'/>
+<offset>1224</offset>

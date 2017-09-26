@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/include/mincrypt/rsa.h' l='44' type='uint32_t [64]'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='101' u='w' c='_ZL19RSA_to_RSAPublicKeyP6rsa_stP12RSAPublicKey'/>
+<offset>2112</offset>
+<doc f='codebrowser/system/core/include/mincrypt/rsa.h' l='44'>/* R^2 as little endian array */</doc>

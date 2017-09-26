@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/file_sync_service.h' l='31'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='189' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='231' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='545' u='c'/>

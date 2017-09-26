@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/qos.h' l='57' ll='60'/>
+<size>12</size>
+<mbr r='_QOS_SD_MODE::ObjectHdr' o='0' t='QOS_OBJECT_HDR'/>
+<mbr r='_QOS_SD_MODE::ShapeDiscardMode' o='64' t='ULONG'/>

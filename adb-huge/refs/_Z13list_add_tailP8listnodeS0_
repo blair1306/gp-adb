@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/include/cutils/list.h' l='58' ll='64' type='void list_add_tail(struct listnode * head, struct listnode * item)'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='295' u='c' c='_ZL8read_keyPKcP8listnode'/>

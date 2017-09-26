@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1071' type='int pthread_barrierattr_destroy(pthread_barrierattr_t * __attr)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1070'>/* Destroy previously dynamically initialized barrier attribute ATTR.  */</doc>

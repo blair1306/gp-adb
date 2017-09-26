@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='431' type='int _wctomb_l(char * _MbCh, wchar_t _WCh, _locale_t _Locale)'/>

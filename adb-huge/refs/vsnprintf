@@ -1,0 +1,12 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='391' type='int vsnprintf(char *restrict __s, size_t __maxlen, const char *restrict __format, struct __va_list_tag * __arg)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdio2.h' l='74' ll='80' macro='1' type='int vsnprintf(char *restrict __s, size_t __n, const char *restrict __fmt, struct __va_list_tag * __ap)'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/printf.c' l='76' u='c' c='BIO_printf'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/printf.c' l='106' u='c' c='BIO_printf'/>
+<use f='codebrowser/external/boringssl/src/crypto/mem.c' l='199' u='c' c='BIO_vsnprintf'/>
+<use f='codebrowser/external/libcxx/include/locale' l='379' u='c' c='_ZNSt3__112__snprintf_lEPcmP15__locale_structPKcz'/>
+<use f='codebrowser/system/core/base/stringprintf.cpp' l='35' u='c' c='_ZN7android4base13StringAppendVEPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPKcP13__va_list_tag'/>
+<use f='codebrowser/system/core/base/stringprintf.cpp' l='58' u='c' c='_ZN7android4base13StringAppendVEPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPKcP13__va_list_tag'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='400' u='c' c='__android_log_vprint'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='412' u='c' c='__android_log_print'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='426' u='c' c='__android_log_buf_print'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='440' u='c' c='__android_log_assert'/>

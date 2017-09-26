@@ -1,0 +1,22 @@
+<dec f='codebrowser/system/core/adb/adb_client.h' l='27' type='int adb_connect(const std::string &amp; service, std::string * _Nonnull error)'/>
+<def f='codebrowser/system/core/adb/adb_client.cpp' l='180' ll='268' type='int adb_connect(const std::string &amp; service, std::string * _Nonnull error)'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='273' u='c' c='_Z11adb_commandRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='292' u='c' c='_Z9adb_queryRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_S8_'/>
+<doc f='codebrowser/system/core/adb/adb_client.h' l='25'>// Connect to adb, connect to the named service, and return a valid fd for
+// interacting with that service upon success or a negative number on failure.</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='636' u='c' c='_ZL11RemoteShellbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEcS7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='802' u='c' c='_ZL19adb_download_bufferPKcS0_PKvjb'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='889' u='c' c='_ZL17adb_sideload_hostPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='980' u='c' c='_ZL3pppiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1079' u='c' c='_ZL8adb_rootPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1147' u='c' c='_ZL18send_shell_command13TransportTypePKcRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEb'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1230' u='c' c='_ZL6backupiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1258' u='c' c='_ZL7restoreiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1369' u='c' c='_ZL19adb_connect_commandRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1632' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1863' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1970' u='c' c='_ZL11install_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2030' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2076' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2103' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='108' u='c' c='_ZN14SyncConnectionC1Ev'/>

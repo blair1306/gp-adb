@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/adb_trace.cpp' l='99' ll='105' type='std::string get_trace_setting()'/>
+<use f='codebrowser/system/core/adb/adb_trace.cpp' l='114' u='c' c='_ZL16setup_trace_maskv'/>

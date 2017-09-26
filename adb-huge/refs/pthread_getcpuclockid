@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1112' type='int pthread_getcpuclockid(pthread_t __thread_id, __clockid_t * __clock_id)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1111'>/* Get ID of CPU-time clock for thread THREAD_ID.  */</doc>

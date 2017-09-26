@@ -1,0 +1,4 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='787' ll='798' type='int adb_socketpair(int * sv)'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='245' u='c' c='_ZL21create_service_threadPFviPvES_'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='536' u='c' c='_ZL27transport_registration_funcijPv'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='573' u='c' c='_Z27init_transport_registrationv'/>

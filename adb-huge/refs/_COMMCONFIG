@@ -1,0 +1,10 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='399' ll='408'/>
+<size>52</size>
+<mbr r='_COMMCONFIG::dwSize' o='0' t='DWORD'/>
+<mbr r='_COMMCONFIG::wVersion' o='32' t='WORD'/>
+<mbr r='_COMMCONFIG::wReserved' o='48' t='WORD'/>
+<mbr r='_COMMCONFIG::dcb' o='64' t='DCB'/>
+<mbr r='_COMMCONFIG::dwProviderSubType' o='288' t='DWORD'/>
+<mbr r='_COMMCONFIG::dwProviderOffset' o='320' t='DWORD'/>
+<mbr r='_COMMCONFIG::dwProviderSize' o='352' t='DWORD'/>
+<mbr r='_COMMCONFIG::wcProviderData' o='384' t='WCHAR [1]'/>

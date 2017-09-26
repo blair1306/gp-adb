@@ -1,0 +1,10 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/asm-generic/errno-base.h' l='15'/>
+<use f='codebrowser/external/boringssl/src/crypto/directory_posix.c' l='73' u='c'/>
+<use f='codebrowser/external/libcxx/include/cerrno' l='357' u='a'/>
+<use f='codebrowser/external/libcxx/include/system_error' l='316' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/errno.h' l='36'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2358' u='c'/>
+<use f='codebrowser/system/core/libcutils/hashmap.c' l='208' u='c'/>
+<use f='codebrowser/system/core/libcutils/hashmap.c' l='271' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='238' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_write.c' l='36' u='c'/>

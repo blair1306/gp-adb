@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/fcntl.h' l='43'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='95' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='97' u='c'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='225' u='c'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='225' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='34' u='c'/>

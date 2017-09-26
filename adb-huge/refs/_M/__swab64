@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/swab.h' l='117'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/swab.h' l='179' u='c'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/swab.h' l='113'>/**
+ * __swab64 - return a byteswapped 64-bit value
+ * @x: value to byteswap
+ */</doc>

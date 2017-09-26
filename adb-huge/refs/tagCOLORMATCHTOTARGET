@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='4095' ll='4102'/>
+<size>28</size>
+<mbr r='tagCOLORMATCHTOTARGET::emr' o='0' t='EMR'/>
+<mbr r='tagCOLORMATCHTOTARGET::dwAction' o='64' t='DWORD'/>
+<mbr r='tagCOLORMATCHTOTARGET::dwFlags' o='96' t='DWORD'/>
+<mbr r='tagCOLORMATCHTOTARGET::cbName' o='128' t='DWORD'/>
+<mbr r='tagCOLORMATCHTOTARGET::cbData' o='160' t='DWORD'/>
+<mbr r='tagCOLORMATCHTOTARGET::Data' o='192' t='BYTE [1]'/>

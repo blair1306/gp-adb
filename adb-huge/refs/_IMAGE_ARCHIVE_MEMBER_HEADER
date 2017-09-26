@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5292' ll='5300'/>
+<size>60</size>
+<mbr r='_IMAGE_ARCHIVE_MEMBER_HEADER::Name' o='0' t='BYTE [16]'/>
+<mbr r='_IMAGE_ARCHIVE_MEMBER_HEADER::Date' o='128' t='BYTE [12]'/>
+<mbr r='_IMAGE_ARCHIVE_MEMBER_HEADER::UserID' o='224' t='BYTE [6]'/>
+<mbr r='_IMAGE_ARCHIVE_MEMBER_HEADER::GroupID' o='272' t='BYTE [6]'/>
+<mbr r='_IMAGE_ARCHIVE_MEMBER_HEADER::Mode' o='320' t='BYTE [8]'/>
+<mbr r='_IMAGE_ARCHIVE_MEMBER_HEADER::Size' o='384' t='BYTE [10]'/>
+<mbr r='_IMAGE_ARCHIVE_MEMBER_HEADER::EndHeader' o='464' t='BYTE [2]'/>

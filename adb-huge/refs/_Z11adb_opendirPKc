@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2326' ll='2336' type='int * adb_opendir(const char * path)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2325'>// Version of opendir() that takes a UTF-8 path.</doc>

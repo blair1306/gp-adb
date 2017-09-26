@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/ioctl-types.h' l='31' type='unsigned short'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='470' u='r' c='_ZL23send_window_size_changeiRNSt3__110unique_ptrI13ShellProtocolNS_14default_deleteIS1_EEEE'/>
+<offset>16</offset>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='109' u='r' c='_ZN11LinePrinter5PrintENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS_8LineTypeE'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='110' u='r' c='_ZN11LinePrinter5PrintENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS_8LineTypeE'/>

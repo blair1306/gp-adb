@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='105' ll='111'/>
+<size>8</size>
+<mbr r='_CHAR_INFO::Char' o='0' t='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h:106:5)'/>
+<mbr r='_CHAR_INFO::Attributes' o='32' t='WORD'/>

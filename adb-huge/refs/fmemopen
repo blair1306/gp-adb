@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='320' type='FILE * fmemopen(void * __s, size_t __len, const char * __modes)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='319'>/* Create a new stream that refers to a memory buffer.  */</doc>

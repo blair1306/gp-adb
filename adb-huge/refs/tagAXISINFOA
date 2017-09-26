@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2958' ll='2962'/>
+<size>24</size>
+<mbr r='tagAXISINFOA::axMinValue' o='0' t='LONG'/>
+<mbr r='tagAXISINFOA::axMaxValue' o='32' t='LONG'/>
+<mbr r='tagAXISINFOA::axAxisName' o='64' t='BYTE [16]'/>

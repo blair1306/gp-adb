@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4042' ll='4050'/>
+<size>28</size>
+<mbr r='_REPARSE_GUID_DATA_BUFFER::ReparseTag' o='0' t='DWORD'/>
+<mbr r='_REPARSE_GUID_DATA_BUFFER::ReparseDataLength' o='32' t='WORD'/>
+<mbr r='_REPARSE_GUID_DATA_BUFFER::Reserved' o='48' t='WORD'/>
+<mbr r='_REPARSE_GUID_DATA_BUFFER::ReparseGuid' o='64' t='GUID'/>
+<mbr r='_REPARSE_GUID_DATA_BUFFER::GenericReparseBuffer' o='192' t='struct (anonymous struct at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h:4047:7)'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='785' type='div_t div(int __numer, int __denom)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='784'>/* GCC may have built-ins for these someday.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='358' type='div_t div(int _Numerator, int _Denominator)'/>

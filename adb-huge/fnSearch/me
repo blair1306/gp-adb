@@ -1,0 +1,5 @@
+memcpy|memcpy
+memmove|memmove
+memset|memset
+METHOD_ref|METHOD_ref
+METHOD_unref|METHOD_unref

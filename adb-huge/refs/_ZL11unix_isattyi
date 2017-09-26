@@ -1,0 +1,4 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='633' ll='635' type='int unix_isatty(int fd)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='771' u='c' c='_ZL9adb_shelliPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='776' u='c' c='_ZL9adb_shelliPPKc'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='49' u='c' c='_ZN11LinePrinterC1Ev'/>

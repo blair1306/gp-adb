@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='871' type='size_t mbstowcs(wchar_t *restrict __pwcs, const char *restrict __s, size_t __n)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdlib.h' l='113' ll='128' macro='1' type='size_t mbstowcs(wchar_t *restrict __dst, const char *restrict __src, size_t __len)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='870'>/* Convert a multibyte string to a wide char string.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='379' type='size_t mbstowcs(wchar_t *__restrict _Dest, const char *__restrict _Source, size_t _MaxCount)'/>

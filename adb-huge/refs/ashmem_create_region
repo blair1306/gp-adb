@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/include/cutils/ashmem.h' l='19' type='int ashmem_create_region(const char * name, size_t size)'/>
+<def f='codebrowser/system/core/libcutils/ashmem-host.c' l='41' ll='56' type='int ashmem_create_region(const char * ignored, size_t size)'/>

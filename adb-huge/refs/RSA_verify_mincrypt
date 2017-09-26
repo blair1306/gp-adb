@@ -1,0 +1,1 @@
+<dec f='codebrowser/system/core/include/mincrypt/rsa.h' l='48' macro='1' type='int RSA_verify_mincrypt(const RSAPublicKey * key, const uint8_t * signature, const int len, const uint8_t * hash, const int hash_len)'/>

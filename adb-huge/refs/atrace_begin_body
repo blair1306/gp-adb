@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/include/cutils/trace.h' l='178' type='void atrace_begin_body(const char * )'/>
+<use f='codebrowser/system/core/include/cutils/trace.h' l='179' u='c' c='atrace_begin'/>
+<def f='codebrowser/system/core/libcutils/trace-host.c' l='31' type='void atrace_begin_body(const char * name)'/>

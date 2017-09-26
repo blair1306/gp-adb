@@ -1,0 +1,14 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='755' type='void * bsearch(const void * __key, const void * __base, size_t __nmemb, size_t __size, __compar_fn_t __compar)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='753'>/* Do a binary search for KEY in BASE, which consists of NMEMB elements
+   of SIZE bytes each, using COMPAR to perform the comparisons.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/a_strnid.c' l='201' u='c' c='ASN1_STRING_TABLE_get'/>
+<use f='codebrowser/external/boringssl/src/crypto/err/err.c' l='457' u='c' c='err_string_lookup'/>
+<use f='codebrowser/external/boringssl/src/crypto/obj/obj.c' l='209' u='c' c='OBJ_obj2nid'/>
+<use f='codebrowser/external/boringssl/src/crypto/obj/obj.c' l='252' u='c' c='OBJ_sn2nid'/>
+<use f='codebrowser/external/boringssl/src/crypto/obj/obj.c' l='286' u='c' c='OBJ_ln2nid'/>
+<use f='codebrowser/external/boringssl/src/crypto/obj/obj_xref.c' l='77' u='c' c='OBJ_find_sigid_algs'/>
+<use f='codebrowser/external/boringssl/src/crypto/obj/obj_xref.c' l='113' u='c' c='OBJ_find_sigid_by_algs'/>
+<use f='codebrowser/external/boringssl/src/crypto/stack/stack.c' l='261' u='c' c='sk_find'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_lib.c' l='109' u='c' c='X509V3_EXT_get_nid'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_purp.c' l='333' u='c' c='X509_supported_extension'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='352' type='void * bsearch(const void * _Key, const void * _Base, size_t _NumOfElements, size_t _SizeOfElements, int (*)(const void *, const void *) __attribute__((cdecl)) _PtFuncCompare)'/>

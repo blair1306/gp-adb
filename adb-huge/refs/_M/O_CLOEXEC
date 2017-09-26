@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/fcntl.h' l='52'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='152' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='531' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='534' u='c'/>
+<use f='codebrowser/system/core/base/file.cpp' l='52' u='c'/>
+<use f='codebrowser/system/core/base/file.cpp' l='86' u='c'/>
+<use f='codebrowser/system/core/base/file.cpp' l='113' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='215' u='c'/>

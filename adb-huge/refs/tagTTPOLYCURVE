@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2496' ll='2500'/>
+<size>12</size>
+<mbr r='tagTTPOLYCURVE::wType' o='0' t='WORD'/>
+<mbr r='tagTTPOLYCURVE::cpfx' o='16' t='WORD'/>
+<mbr r='tagTTPOLYCURVE::apfx' o='32' t='POINTFX [1]'/>

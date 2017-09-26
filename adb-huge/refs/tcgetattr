@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/termios.h' l='67' type='int tcgetattr(int __fd, struct termios * __termios_p)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='265' u='c' c='_ZL14stdin_raw_initv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='268' u='c' c='_ZL14stdin_raw_initv'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/termios.h' l='66'>/* Put the state of FD into *TERMIOS_P.  */</doc>

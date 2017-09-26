@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string3.h' l='127' type='char * __stpncpy_alias(char * __dest, const char * __src, size_t __n)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string3.h' l='137' u='c' c='stpncpy'/>

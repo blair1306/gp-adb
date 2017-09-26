@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='2595' ll='2603'/>
+<size>28</size>
+<mbr r='tagMENUINFO::cbSize' o='0' t='DWORD'/>
+<mbr r='tagMENUINFO::fMask' o='32' t='DWORD'/>
+<mbr r='tagMENUINFO::dwStyle' o='64' t='DWORD'/>
+<mbr r='tagMENUINFO::cyMax' o='96' t='UINT'/>
+<mbr r='tagMENUINFO::hbrBack' o='128' t='HBRUSH'/>
+<mbr r='tagMENUINFO::dwContextHelpID' o='160' t='DWORD'/>
+<mbr r='tagMENUINFO::dwMenuData' o='192' t='ULONG_PTR'/>

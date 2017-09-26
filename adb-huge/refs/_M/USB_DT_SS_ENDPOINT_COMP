@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='228'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='224' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='231' u='c'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='227'>/* From the USB 3.0 spec */</doc>

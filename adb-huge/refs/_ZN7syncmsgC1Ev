@@ -1,0 +1,6 @@
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='258' u='c' c='_ZN14SyncConnection13SendLargeFileEPKcS1_S1_j'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='266' u='c' c='_ZN14SyncConnection8CopyDoneEPKcS1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='410' u='c' c='_ZN14SyncConnection10WriteOrDieEPKcS1_PKvm'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='440' u='c' c='_ZL7sync_lsR14SyncConnectionPKcNSt3__18functionIFvjjjS2_EEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='459' u='c' c='_ZL16sync_finish_statR14SyncConnectionPjS1_S1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='536' u='c' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>

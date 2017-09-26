@@ -1,0 +1,2 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/swab.h' l='77' ll='84' type='__u32 __fswahw32(__u32 val)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/swab.h' l='131' u='c' c='__swahw32p'/>

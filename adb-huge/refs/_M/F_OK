@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='285'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/fcntl.h' l='94'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='173'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='171'>/* Some defines for _access nAccessMode (MS doesn&apos;t define them, but
+  * it doesn&apos;t seem to hurt to add them). */</doc>

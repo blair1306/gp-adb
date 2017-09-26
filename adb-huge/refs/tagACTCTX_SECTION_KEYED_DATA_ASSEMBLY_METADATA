@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='2710' ll='2716'/>
+<size>20</size>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_ASSEMBLY_METADATA::lpInformation' o='0' t='PVOID'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_ASSEMBLY_METADATA::lpSectionBase' o='32' t='PVOID'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_ASSEMBLY_METADATA::ulSectionLength' o='64' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_ASSEMBLY_METADATA::lpSectionGlobalDataBase' o='96' t='PVOID'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_ASSEMBLY_METADATA::ulSectionGlobalDataLength' o='128' t='ULONG'/>

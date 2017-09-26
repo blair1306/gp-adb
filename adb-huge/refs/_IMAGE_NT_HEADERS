@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4611' ll='4615'/>
+<size>248</size>
+<mbr r='_IMAGE_NT_HEADERS::Signature' o='0' t='DWORD'/>
+<mbr r='_IMAGE_NT_HEADERS::FileHeader' o='32' t='IMAGE_FILE_HEADER'/>
+<mbr r='_IMAGE_NT_HEADERS::OptionalHeader' o='192' t='IMAGE_OPTIONAL_HEADER32'/>

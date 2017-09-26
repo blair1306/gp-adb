@@ -1,0 +1,13 @@
+<dec f='codebrowser/external/libcxx/include/string' l='1143' type='basic_string&lt;_CharT, _Traits, _Allocator&gt; std::__1::operator+(const basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp; __x, const _CharT * __y)'/>
+<def f='codebrowser/external/libcxx/include/string' l='3986' ll='3995' type='basic_string&lt;_CharT, _Traits, _Allocator&gt; std::__1::operator+(const basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp; __lhs, const _CharT * __rhs)'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='53' u='c' c='_ZNSt3__112_GLOBAL__N_130throw_from_string_out_of_rangeERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='59' u='c' c='_ZNSt3__112_GLOBAL__N_129throw_from_string_invalid_argERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1727' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1730' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1734' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1738' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1742' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='616' u='c' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='70' u='c' c='_ZN11LinePrinter5PrintENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS_8LineTypeE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='129' u='c' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='147' u='c' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>

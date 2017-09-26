@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/include/cutils/trace.h' l='112' type='void atrace_set_tracing_enabled(_Bool enabled)'/>
+<def f='codebrowser/system/core/libcutils/trace-host.c' l='28' type='void atrace_set_tracing_enabled(_Bool enabled)'/>
+<doc f='codebrowser/system/core/include/cutils/trace.h' l='108'>/**
+ * Set whether tracing is enabled for the current process.  This is used to
+ * prevent tracing within the Zygote process.
+ */</doc>

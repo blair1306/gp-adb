@@ -1,0 +1,6 @@
+<dec f='codebrowser/external/compiler-rt/lib/builtins/int_types.h' l='121' type='float'/>
+<dec f='codebrowser/external/compiler-rt/lib/builtins/int_types.h' l='127' type='double'/>
+<dec f='codebrowser/external/compiler-rt/lib/builtins/int_types.h' l='144' type='long double'/>
+<offset>0</offset>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='77' type='float'/>
+<offset>0</offset>

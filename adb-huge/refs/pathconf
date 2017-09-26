@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='613' type='long pathconf(const char * __path, int __name)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='612'>/* Get file-specific configuration information about PATH.  */</doc>

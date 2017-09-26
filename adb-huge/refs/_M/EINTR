@@ -1,0 +1,14 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/asm-generic/errno-base.h' l='7'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/fd.c' l='87' u='a'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/fd.c' l='88' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/rand/urandom.c' l='77' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/rand/urandom.c' l='167' u='c'/>
+<use f='codebrowser/external/libcxx/include/cerrno' l='309' u='a'/>
+<use f='codebrowser/external/libcxx/include/system_error' l='278' u='c'/>
+<use f='codebrowser/external/libcxx/src/random.cpp' l='81' u='c'/>
+<use f='codebrowser/external/libcxx/src/thread.cpp' l='128' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='532' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/errno.h' l='28'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1376' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='375' u='c'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='532' u='c'/>

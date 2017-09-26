@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='187' type='struct _pthread_cleanup_buffer *'/>
+<offset>192</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='187'>/* Chaining of cleanup functions.  */</doc>

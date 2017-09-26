@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/siginfo.h' l='51' ll='108'/>
+<size>128</size>
+<mbr r='siginfo::si_signo' o='0' t='int'/>
+<mbr r='siginfo::si_errno' o='32' t='int'/>
+<mbr r='siginfo::si_code' o='64' t='int'/>
+<mbr r='siginfo::_sifields' o='128' t='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/siginfo.h:58:5)'/>

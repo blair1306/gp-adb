@@ -1,0 +1,9 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='65' type='char *'/>
+<offset>128</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='60'>/* Each element is the number of digits in each group;
+     elements with higher indices are farther left.
+     An element with value CHAR_MAX means that no further grouping is done.
+     An element with value 0 means that the previous element is used
+     for all groups farther left.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4344' u='r' c='_ZNSt3__115numpunct_bynameIcE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4387' u='r' c='_ZNSt3__115numpunct_bynameIwE6__initEPKc'/>

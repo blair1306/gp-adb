@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/mathcalls.h' l='101' type='double exp(double __x)'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='810' u='c' c='_ZNSt3__13expET_'/>
+<use f='codebrowser/external/libcxx/include/random' l='4583' u='c' c='_ZNSt3__120poisson_distribution10param_typeC1Ed'/>
+<use f='codebrowser/external/libcxx/include/random' l='4682' u='c' c='_ZNSt3__120poisson_distributionclERT_RKNS0_10param_typeE'/>
+<use f='codebrowser/external/libcxx/include/random' l='4683' u='c' c='_ZNSt3__120poisson_distributionclERT_RKNS0_10param_typeE'/>
+<use f='codebrowser/external/libcxx/include/random' l='4688' u='c' c='_ZNSt3__120poisson_distributionclERT_RKNS0_10param_typeE'/>

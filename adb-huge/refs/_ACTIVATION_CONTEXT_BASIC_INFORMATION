@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='2751' ll='2754'/>
+<size>8</size>
+<mbr r='_ACTIVATION_CONTEXT_BASIC_INFORMATION::hActCtx' o='0' t='HANDLE'/>
+<mbr r='_ACTIVATION_CONTEXT_BASIC_INFORMATION::dwFlags' o='32' t='DWORD'/>

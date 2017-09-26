@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='817' type='int pthread_mutexattr_settype(pthread_mutexattr_t * __attr, int __kind)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='814'>/* Set the mutex kind attribute in *ATTR to KIND (either PTHREAD_MUTEX_NORMAL,
+   PTHREAD_MUTEX_RECURSIVE, PTHREAD_MUTEX_ERRORCHECK, or
+   PTHREAD_MUTEX_DEFAULT).  */</doc>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='59' u='c' c='_ZNSt3__115recursive_mutexC1Ev'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='277' type='void endservent()'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='273'>/* Close service data base files and clear `stay open&apos; flag.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>

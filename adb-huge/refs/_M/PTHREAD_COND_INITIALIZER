@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='178'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='177'>/* Conditional variable handling.  */</doc>
+<use f='codebrowser/external/libcxx/include/__mutex_base' l='273' u='c'/>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='221' u='c'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_guard.cpp' l='67' u='c'/>

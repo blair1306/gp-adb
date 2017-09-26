@@ -1,0 +1,9 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='222' type='void usb_kick(usb_handle * h)'/>
+<use f='codebrowser/system/core/adb/transport_usb.cpp' l='80' u='c' c='_ZL11remote_kickP10atransport'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='104' u='c' c='_ZL25kick_disconnected_devicesv'/>
+<def f='codebrowser/system/core/adb/usb_linux.cpp' l='457' ll='488' type='void usb_kick(usb_handle * h)'/>
+<dec f='codebrowser/system/core/adb/usb_windows.cpp' l='118' type='void usb_kick(usb_handle * handle)'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='408' u='c' c='_Z9usb_writeP10usb_handlePKvi'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='449' u='c' c='_Z8usb_readP10usb_handlePvi'/>
+<def f='codebrowser/system/core/adb/usb_windows.cpp' l='493' ll='504' type='void usb_kick(usb_handle * handle)'/>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='117'>/// Cleans up (but don&apos;t close) opened usb handle</doc>

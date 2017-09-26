@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='354' type='char * __strtok_r(char *restrict __s, const char *restrict __delim, char **restrict __save_ptr)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='352'>/* Divide S into tokens separated by characters in DELIM.  Information
+   passed between calls are stored in SAVE_PTR.  */</doc>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='164' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='197' macro='1' u='c'/>

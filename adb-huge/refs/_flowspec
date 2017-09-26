@@ -1,0 +1,10 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/qos.h' l='32' ll='41'/>
+<size>32</size>
+<mbr r='_flowspec::TokenRate' o='0' t='ULONG'/>
+<mbr r='_flowspec::TokenBucketSize' o='32' t='ULONG'/>
+<mbr r='_flowspec::PeakBandwidth' o='64' t='ULONG'/>
+<mbr r='_flowspec::Latency' o='96' t='ULONG'/>
+<mbr r='_flowspec::DelayVariation' o='128' t='ULONG'/>
+<mbr r='_flowspec::ServiceType' o='160' t='SERVICETYPE'/>
+<mbr r='_flowspec::MaxSduSize' o='192' t='ULONG'/>
+<mbr r='_flowspec::MinimumPolicedSize' o='224' t='ULONG'/>

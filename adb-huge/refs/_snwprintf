@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='802' type='int _snwprintf(wchar_t *__restrict _Dest, size_t _Count, const wchar_t *__restrict _Format)'/>

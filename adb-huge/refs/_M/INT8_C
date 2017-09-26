@@ -1,0 +1,17 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdint.h' l='290'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdint.h' l='289'>/* Signed.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdint.h' l='193'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdint.h' l='178'>/* 7.18.4.1  Macros for minimum-width integer constants
+
+    Accoding to Douglas Gwyn &lt;gwyn@arl.mil&gt;:
+	&quot;This spec was changed in ISO/IEC 9899:1999 TC1; in ISO/IEC
+	9899:1999 as initially published, the expansion was required
+	to be an integer constant of precisely matching type, which
+	is impossible to accomplish for the shorter types on most
+	platforms, because C99 provides no standard way to designate
+	an integer constant with width less than that of type int.
+	TC1 changed this to require just an integer constant
+	*expression* with *promoted* type.&quot;
+
+	The trick used here is from Clive D W Feather.
+*/</doc>

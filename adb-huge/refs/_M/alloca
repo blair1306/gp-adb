@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/alloca.h' l='36'/>
+<use f='codebrowser/external/boringssl/src/crypto/bn/exponentiation.c' l='951' u='a'/>
+<use f='codebrowser/external/boringssl/src/crypto/bn/exponentiation.c' l='953' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/bn/exponentiation.c' l='966' u='a'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='998' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/malloc.h' l='183'/>

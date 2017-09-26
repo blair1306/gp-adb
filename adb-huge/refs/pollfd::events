@@ -1,0 +1,17 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/poll.h' l='43' type='short'/>
+<offset>32</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/poll.h' l='43'>/* Types of events poller cares about.  */</doc>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='65' u='w' c='_ZN8PollNodeC1EP7fdevent'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='177' u='w' c='_ZL14fdevent_updateP7fdeventj'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='179' u='w' c='_ZL14fdevent_updateP7fdeventj'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='183' u='w' c='_ZL14fdevent_updateP7fdeventj'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='185' u='w' c='_ZL14fdevent_updateP7fdeventj'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='224' u='r' c='_ZL12dump_pollfdsRKNSt3__16vectorI6pollfdNS_9allocatorIS1_EEEE'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='227' u='r' c='_ZL12dump_pollfdsRKNSt3__16vectorI6pollfdNS_9allocatorIS1_EEEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='134' u='w' c='_ZN14SyncConnection13ReceivedErrorEPKcS1_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='377' u='w' c='_ZL14wait_for_stateiPv'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='1148' type='short'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='678' u='w' c='_ZL8adb_pollP6pollfdji'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='678' u='r' c='_ZL8adb_pollP6pollfdji'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='678' u='r' c='_ZL8adb_pollP6pollfdji'/>
+<offset>32</offset>

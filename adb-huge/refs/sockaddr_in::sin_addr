@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/in.h' l='229' type='struct in_addr'/>
+<offset>32</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/in.h' l='229'>/* Internet address.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h' l='78' type='struct in_addr'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='908' u='m' c='_ZL15_network_serveriimPi'/>
+<offset>32</offset>
+<use f='codebrowser/system/core/libcutils/socket_loopback_client_unix.c' l='44' u='m' c='socket_loopback_client'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='43' u='m' c='socket_loopback_server'/>

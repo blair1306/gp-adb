@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/usb100.h' l='170' ll='178'/>
+<size>71</size>
+<mbr r='_USB_HUB_DESCRIPTOR::bDescriptorLength' o='0' t='UCHAR'/>
+<mbr r='_USB_HUB_DESCRIPTOR::bDescriptorType' o='8' t='UCHAR'/>
+<mbr r='_USB_HUB_DESCRIPTOR::bNumberOfPorts' o='16' t='UCHAR'/>
+<mbr r='_USB_HUB_DESCRIPTOR::wHubCharacteristics' o='24' t='USHORT'/>
+<mbr r='_USB_HUB_DESCRIPTOR::bPowerOnToPowerGood' o='40' t='UCHAR'/>
+<mbr r='_USB_HUB_DESCRIPTOR::bHubControlCurrent' o='48' t='UCHAR'/>
+<mbr r='_USB_HUB_DESCRIPTOR::bRemoveAndPowerMask' o='56' t='UCHAR [64]'/>

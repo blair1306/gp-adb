@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/resource.h' l='59' type='5'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/resource.h' l='55'>/* Largest resident set size, in bytes.
+     This affects swapping; processes that are exceeding their
+     resident set size will be more likely to have physical memory
+     taken from them.  */</doc>

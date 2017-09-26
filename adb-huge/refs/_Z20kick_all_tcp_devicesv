@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/adb/transport.h' l='153' type='void kick_all_tcp_devices()'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1075' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<def f='codebrowser/system/core/adb/transport.cpp' l='992' ll='1005' type='void kick_all_tcp_devices()'/>

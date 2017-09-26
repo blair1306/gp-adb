@@ -1,0 +1,11 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='73' type='char *'/>
+<offset>320</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='73'>/* Decimal point character.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5915' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5916' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5963' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5964' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6028' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6029' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6111' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6112' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>

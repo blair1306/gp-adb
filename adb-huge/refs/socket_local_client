@@ -1,0 +1,10 @@
+<dec f='codebrowser/system/core/include/cutils/sockets.h' l='115' type='int socket_local_client(const char * name, int namespaceId, int type)'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='292' u='c' c='_Z13service_to_fdPKcPK10atransport'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='295' u='c' c='_Z13service_to_fdPKcPK10atransport'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='298' u='c' c='_Z13service_to_fdPKcPK10atransport'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='301' u='c' c='_Z13service_to_fdPKcPK10atransport'/>
+<def f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='153' ll='166' type='int socket_local_client(const char * name, int namespaceId, int type)'/>
+<doc f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='149'>/** 
+ * connect to peer named &quot;name&quot;
+ * returns fd or -1 on error
+ */</doc>

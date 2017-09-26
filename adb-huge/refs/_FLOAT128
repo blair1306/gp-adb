@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='302' ll='305'/>
+<size>16</size>
+<mbr r='_FLOAT128::LowPart' o='0' t='long long'/>
+<mbr r='_FLOAT128::HighPart' o='64' t='long long'/>

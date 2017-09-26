@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='570' ll='576'/>
+<size>20</size>
+<mbr r='tagKBDLLHOOKSTRUCT::vkCode' o='0' t='DWORD'/>
+<mbr r='tagKBDLLHOOKSTRUCT::scanCode' o='32' t='DWORD'/>
+<mbr r='tagKBDLLHOOKSTRUCT::flags' o='64' t='DWORD'/>
+<mbr r='tagKBDLLHOOKSTRUCT::time' o='96' t='DWORD'/>
+<mbr r='tagKBDLLHOOKSTRUCT::dwExtraInfo' o='128' t='ULONG_PTR'/>

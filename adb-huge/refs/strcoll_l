@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='165' type='int strcoll_l(const char * __s1, const char * __s2, __locale_t __l)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='164'>/* Compare the collated forms of S1 and S2 using rules from L.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='690' u='c' c='_ZNKSt3__114collate_bynameIcE10do_compareEPKcS3_S3_S3_'/>

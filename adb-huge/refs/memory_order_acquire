@@ -1,0 +1,5 @@
+<dec f='codebrowser/bionic/libc/include/stdatomic.h' l='287' type='2'/>
+<use f='codebrowser/system/core/include/cutils/atomic.h' l='135' u='r' c='android_atomic_acquire_load'/>
+<use f='codebrowser/system/core/include/cutils/atomic.h' l='197' u='r' c='android_atomic_acquire_cas'/>
+<use f='codebrowser/system/core/include/cutils/atomic.h' l='198' u='r' c='android_atomic_acquire_cas'/>
+<use f='codebrowser/system/core/include/cutils/trace.h' l='142' u='r' c='atrace_init'/>

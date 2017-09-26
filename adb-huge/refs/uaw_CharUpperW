@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stralign.h' l='44' type='LPUWSTR uaw_CharUpperW(LPUWSTR String)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stralign.h' l='58' u='c' c='ua_CharUpperW'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stralign.h' l='43'>/* TODO: This method seems to be not present for amd64.  */</doc>

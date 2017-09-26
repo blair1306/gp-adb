@@ -1,0 +1,7 @@
+<dec f='codebrowser/system/core/adb/line_printer.h' l='33' type='void LinePrinter::Print(std::string to_print, LinePrinter::LineType type)'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='346' u='c' c='_ZN14SyncConnection6PrintfEPKcz'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='357' u='c' c='_ZN14SyncConnection5ErrorEPKcz'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='368' u='c' c='_ZN14SyncConnection7WarningEPKcz'/>
+<doc f='codebrowser/system/core/adb/line_printer.h' l='31'>/// Outputs the given line. INFO output will be overwritten.
+  /// WARNING and ERROR appear on a line to themselves.</doc>
+<def f='codebrowser/system/core/adb/line_printer.cpp' l='68' ll='123' type='void LinePrinter::Print(string to_print, LinePrinter::LineType type)'/>

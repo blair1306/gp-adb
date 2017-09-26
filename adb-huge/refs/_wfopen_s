@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/stdio_s.h' l='134' type='errno_t _wfopen_s(FILE ** _File, const wchar_t * _Filename, const wchar_t * _Mode)'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/stdio_s.h' l='172' type='errno_t _wfopen_s(FILE ** _File, const wchar_t * _Filename, const wchar_t * _Mode)'/>

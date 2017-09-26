@@ -1,0 +1,22 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/mcx.h' l='9' ll='30'/>
+<size>80</size>
+<mbr r='_MODEMDEVCAPS::dwActualSize' o='0' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwRequiredSize' o='32' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwDevSpecificOffset' o='64' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwDevSpecificSize' o='96' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwModemProviderVersion' o='128' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwModemManufacturerOffset' o='160' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwModemManufacturerSize' o='192' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwModemModelOffset' o='224' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwModemModelSize' o='256' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwModemVersionOffset' o='288' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwModemVersionSize' o='320' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwDialOptions' o='352' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwCallSetupFailTimer' o='384' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwInactivityTimeout' o='416' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwSpeakerVolume' o='448' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwSpeakerMode' o='480' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwModemOptions' o='512' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwMaxDTERate' o='544' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::dwMaxDCERate' o='576' t='DWORD'/>
+<mbr r='_MODEMDEVCAPS::abVariablePortion' o='608' t='BYTE [1]'/>

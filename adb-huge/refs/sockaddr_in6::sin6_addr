@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/in.h' l='244' type='struct in6_addr'/>
+<offset>64</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/in.h' l='244'>/* IPv6 address */</doc>
+<use f='codebrowser/system/core/libcutils/socket_inaddr_any_server_unix.c' l='41' u='w' c='socket_inaddr_any_server'/>

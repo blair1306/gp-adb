@@ -1,0 +1,4 @@
+<def f='codebrowser/system/core/adb/transport_local.cpp' l='367' ll='376' type='int get_available_local_transport_index_locked()'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='381' u='c' c='_Z35get_available_local_transport_indexv'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='408' u='c' c='_Z21init_socket_transportP10atransportiii'/>
+<doc f='codebrowser/system/core/adb/transport_local.cpp' l='366'>/* Only call this function if you already hold local_transports_lock. */</doc>

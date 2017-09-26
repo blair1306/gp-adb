@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/liblog/logger.h' l='152' type='uid_t __android_log_uid()'/>
+<def f='codebrowser/system/core/liblog/logger_lock.c' l='29' ll='41' macro='1' type='uid_t __android_log_uid()'/>

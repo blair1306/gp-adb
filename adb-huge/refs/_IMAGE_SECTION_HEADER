@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4685' ll='4699'/>
+<size>40</size>
+<mbr r='_IMAGE_SECTION_HEADER::Name' o='0' t='BYTE [8]'/>
+<mbr r='_IMAGE_SECTION_HEADER::Misc' o='64' t='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h:4687:7)'/>
+<mbr r='_IMAGE_SECTION_HEADER::VirtualAddress' o='96' t='DWORD'/>
+<mbr r='_IMAGE_SECTION_HEADER::SizeOfRawData' o='128' t='DWORD'/>
+<mbr r='_IMAGE_SECTION_HEADER::PointerToRawData' o='160' t='DWORD'/>
+<mbr r='_IMAGE_SECTION_HEADER::PointerToRelocations' o='192' t='DWORD'/>
+<mbr r='_IMAGE_SECTION_HEADER::PointerToLinenumbers' o='224' t='DWORD'/>
+<mbr r='_IMAGE_SECTION_HEADER::NumberOfRelocations' o='256' t='WORD'/>
+<mbr r='_IMAGE_SECTION_HEADER::NumberOfLinenumbers' o='272' t='WORD'/>
+<mbr r='_IMAGE_SECTION_HEADER::Characteristics' o='288' t='DWORD'/>

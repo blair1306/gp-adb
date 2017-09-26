@@ -1,0 +1,9 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='204' type='int listen(int __fd, int __n)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='201'>/* Prepare to accept connections on socket FD.
+   N connection requests will be queued before further requests are refused.
+   Returns 0 on success, -1 for errors.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='978' type='int listen(SOCKET s, int backlog)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='947' u='c' c='_ZL15_network_serveriimPi'/>
+<use f='codebrowser/system/core/libcutils/socket_inaddr_any_server_unix.c' l='57' u='c' c='socket_inaddr_any_server'/>
+<use f='codebrowser/system/core/libcutils/socket_local_server_unix.c' l='115' u='c' c='socket_local_server'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='59' u='c' c='socket_loopback_server'/>

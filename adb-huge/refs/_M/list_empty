@@ -1,0 +1,5 @@
+<dec f='codebrowser/system/core/include/cutils/list.h' l='80'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='403' u='c'/>
+<use f='codebrowser/system/core/liblog/config_write.c' l='33' u='c'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='123' u='c'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='333' u='c'/>

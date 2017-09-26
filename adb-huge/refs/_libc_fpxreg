@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/ucontext.h' l='94' ll='99'/>
+<size>16</size>
+<mbr r='_libc_fpxreg::significand' o='0' t='unsigned short [4]'/>
+<mbr r='_libc_fpxreg::exponent' o='64' t='unsigned short'/>
+<mbr r='_libc_fpxreg::padding' o='80' t='unsigned short [3]'/>

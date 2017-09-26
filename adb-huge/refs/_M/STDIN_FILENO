@@ -1,0 +1,19 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='211'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='210'>/* Standard file descriptors.  */</doc>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='52' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='265' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='268' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='276' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='280' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='368' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='388' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='410' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='647' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='771' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='776' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1008' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1639' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/unistd.h' l='23'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='59'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2107' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2154' u='c'/>

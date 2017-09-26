@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='186' ll='191'/>
+<size>16</size>
+<mbr r='_PROCESS_INFORMATION::hProcess' o='0' t='HANDLE'/>
+<mbr r='_PROCESS_INFORMATION::hThread' o='32' t='HANDLE'/>
+<mbr r='_PROCESS_INFORMATION::dwProcessId' o='64' t='DWORD'/>
+<mbr r='_PROCESS_INFORMATION::dwThreadId' o='96' t='DWORD'/>

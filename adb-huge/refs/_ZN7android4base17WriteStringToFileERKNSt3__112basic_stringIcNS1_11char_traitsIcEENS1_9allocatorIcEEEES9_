@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/base/include/android-base/file.h' l='33' type='bool android::base::WriteStringToFile(const std::string &amp; content, const std::string &amp; path)'/>
+<def f='codebrowser/system/core/base/file.cpp' l='112' ll='122' type='bool android::base::WriteStringToFile(const std::string &amp; content, const std::string &amp; path)'/>

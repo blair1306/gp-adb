@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3852' ll='3862'/>
+<size>48</size>
+<mbr r='_MEMORY_BASIC_INFORMATION64::BaseAddress' o='0' t='ULONGLONG'/>
+<mbr r='_MEMORY_BASIC_INFORMATION64::AllocationBase' o='64' t='ULONGLONG'/>
+<mbr r='_MEMORY_BASIC_INFORMATION64::AllocationProtect' o='128' t='DWORD'/>
+<mbr r='_MEMORY_BASIC_INFORMATION64::__alignment1' o='160' t='DWORD'/>
+<mbr r='_MEMORY_BASIC_INFORMATION64::RegionSize' o='192' t='ULONGLONG'/>
+<mbr r='_MEMORY_BASIC_INFORMATION64::State' o='256' t='DWORD'/>
+<mbr r='_MEMORY_BASIC_INFORMATION64::Protect' o='288' t='DWORD'/>
+<mbr r='_MEMORY_BASIC_INFORMATION64::Type' o='320' t='DWORD'/>
+<mbr r='_MEMORY_BASIC_INFORMATION64::__alignment2' o='352' t='DWORD'/>

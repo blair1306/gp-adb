@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usbdevice_fs.h' l='61' ll='64'/>
+<size>16</size>
+<mbr r='usbdevfs_disconnectsignal::signr' o='0' t='unsigned int'/>
+<mbr r='usbdevfs_disconnectsignal::context' o='64' t='void *'/>

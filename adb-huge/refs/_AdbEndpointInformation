@@ -1,0 +1,12 @@
+<def f='codebrowser/development/host/windows/usb/api/adb_api.h' l='63' ll='81'/>
+<size>16</size>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='59'>/** \brief Endpoint desriptor.
+
+  This structure is based on WDF_USB_PIPE_INFORMATION structure found in WDK.
+*/</doc>
+<mbr r='_AdbEndpointInformation::max_packet_size' o='0' t='unsigned long'/>
+<mbr r='_AdbEndpointInformation::max_transfer_size' o='32' t='unsigned long'/>
+<mbr r='_AdbEndpointInformation::endpoint_type' o='64' t='AdbEndpointType'/>
+<mbr r='_AdbEndpointInformation::endpoint_address' o='96' t='unsigned char'/>
+<mbr r='_AdbEndpointInformation::polling_interval' o='104' t='unsigned char'/>
+<mbr r='_AdbEndpointInformation::setting_index' o='112' t='unsigned char'/>

@@ -1,0 +1,13 @@
+<def f='codebrowser/external/libcxx/include/string' l='4052' ll='4057' type='basic_string&lt;_CharT, _Traits, _Allocator&gt; std::__1::operator+(basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp;&amp; __lhs, const _CharT * __rhs)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='601' u='c' c='_ZL18ShellServiceStringbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1172' u='c' c='_ZL6logcat13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1734' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1738' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1738' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1738' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1742' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1742' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1742' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='40' u='c' c='_Z11ElideMiddleRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEm'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='129' u='c' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='147' u='c' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>

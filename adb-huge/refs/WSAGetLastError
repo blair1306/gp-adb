@@ -1,0 +1,13 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='1003' type='int WSAGetLastError()'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='691' u='c' c='_ZL8adb_pollP6pollfdji'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='730' u='c' c='_ZL16_fh_socket_closeP6FHRec_'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='747' u='c' c='_ZL15_fh_socket_readP6FHRec_Pvi'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='763' u='c' c='_ZL16_fh_socket_writeP6FHRec_PKvi'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='914' u='c' c='_ZL15_network_serveriimPi'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='928' u='c' c='_ZL15_network_serveriimPi'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='938' u='c' c='_ZL15_network_serveriimPi'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='948' u='c' c='_ZL15_network_serveriimPi'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1122' u='c' c='_Z15adb_getsocknameiP8sockaddrPi'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1143' u='c' c='_ZL12adb_shutdowni'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1221' u='c' c='_Z19set_file_block_modeib'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1248' u='c' c='_Z17set_tcp_keepaliveii'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='112' type='int isalnum(int )'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ctype.h' l='116' type='int isalnum(int _C)'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='648' u='c' c='_ZL10qual_matchPKcS0_S0_b'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='886' u='c' c='_ZL21append_transport_infoPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPKcS8_b'/>

@@ -1,0 +1,28 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stat.h' l='62' type='__mode_t'/>
+<offset>192</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stat.h' l='62'>/* File mode.  */</doc>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='67' u='r' c='_Z16directory_existsRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='158' u='r' c='_Z6mkdirsRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1940' u='r' c='_ZL11install_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2006' u='r' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2175' u='r' c='_ZL18install_app_legacy13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='625' u='r' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='626' u='r' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='629' u='r' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='630' u='r' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='755' u='r' c='_Z12do_sync_pushRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='776' u='r' c='_Z12do_sync_pushRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='777' u='r' c='_Z12do_sync_pushRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='793' u='r' c='_Z12do_sync_pushRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='956' u='r' c='_Z12do_sync_pullRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_b'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_stat64.h' l='37' type='unsigned short'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/stat.h' l='212' u='w' c='fstat'/>
+<offset>48</offset>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='266' u='r' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/base/file.cpp' l='156' u='r' c='_ZN7android4base18RemoveFileIfExistsERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_'/>
+<use f='codebrowser/system/core/base/file.cpp' l='156' u='r' c='_ZN7android4base18RemoveFileIfExistsERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_'/>
+<use f='codebrowser/system/core/libcutils/ashmem-host.c' l='86' u='r' c='ashmem_get_size_region'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='53' u='r' c='fs_prepare_dir'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='57' u='r' c='fs_prepare_dir'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='201' u='r' c='fs_mkdirs'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='206' u='r' c='fs_mkdirs'/>

@@ -1,0 +1,14 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3547' ll='3560'/>
+<size>52</size>
+<mbr r='_QUOTA_LIMITS_EX::PagedPoolLimit' o='0' t='SIZE_T'/>
+<mbr r='_QUOTA_LIMITS_EX::NonPagedPoolLimit' o='32' t='SIZE_T'/>
+<mbr r='_QUOTA_LIMITS_EX::MinimumWorkingSetSize' o='64' t='SIZE_T'/>
+<mbr r='_QUOTA_LIMITS_EX::MaximumWorkingSetSize' o='96' t='SIZE_T'/>
+<mbr r='_QUOTA_LIMITS_EX::PagefileLimit' o='128' t='SIZE_T'/>
+<mbr r='_QUOTA_LIMITS_EX::TimeLimit' o='160' t='LARGE_INTEGER'/>
+<mbr r='_QUOTA_LIMITS_EX::WorkingSetLimit' o='224' t='SIZE_T'/>
+<mbr r='_QUOTA_LIMITS_EX::Reserved2' o='256' t='SIZE_T'/>
+<mbr r='_QUOTA_LIMITS_EX::Reserved3' o='288' t='SIZE_T'/>
+<mbr r='_QUOTA_LIMITS_EX::Reserved4' o='320' t='SIZE_T'/>
+<mbr r='_QUOTA_LIMITS_EX::Flags' o='352' t='DWORD'/>
+<mbr r='_QUOTA_LIMITS_EX::CpuRateLimit' o='384' t='RATE_QUOTA_LIMIT'/>

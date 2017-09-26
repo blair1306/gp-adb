@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5420' ll='5427'/>
+<size>16</size>
+<mbr r='_IMAGE_RESOURCE_DIRECTORY::Characteristics' o='0' t='DWORD'/>
+<mbr r='_IMAGE_RESOURCE_DIRECTORY::TimeDateStamp' o='32' t='DWORD'/>
+<mbr r='_IMAGE_RESOURCE_DIRECTORY::MajorVersion' o='64' t='WORD'/>
+<mbr r='_IMAGE_RESOURCE_DIRECTORY::MinorVersion' o='80' t='WORD'/>
+<mbr r='_IMAGE_RESOURCE_DIRECTORY::NumberOfNamedEntries' o='96' t='WORD'/>
+<mbr r='_IMAGE_RESOURCE_DIRECTORY::NumberOfIdEntries' o='112' t='WORD'/>

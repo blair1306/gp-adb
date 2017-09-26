@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/liblog/logger.h' l='74' type='int (*)(struct android_log_logger_list *, struct android_log_transport_context *)'/>
+<offset>448</offset>
+<doc f='codebrowser/system/core/liblog/logger.h' l='73'>/* Assumption is only called if not ANDROID_LOG_NONBLOCK */</doc>

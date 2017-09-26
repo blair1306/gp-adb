@@ -1,0 +1,10 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='365' type='__u8'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='414' u='r' c='_ZL16usb_endpoint_numPK23usb_endpoint_descriptor'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='437' u='r' c='_ZL19usb_endpoint_dir_inPK23usb_endpoint_descriptor'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='449' u='r' c='_ZL20usb_endpoint_dir_outPK23usb_endpoint_descriptor'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='257' u='r' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='258' u='r' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='259' u='r' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='261' u='r' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='262' u='r' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<offset>16</offset>

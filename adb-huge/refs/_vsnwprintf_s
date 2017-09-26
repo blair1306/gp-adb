@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/stdio_s.h' l='114' type='int _vsnwprintf_s(wchar_t * _DstBuf, size_t _DstSizeInWords, size_t _MaxCount, const wchar_t * _Format, va_list _ArgList)'/>

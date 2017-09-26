@@ -1,0 +1,9 @@
+<dec f='codebrowser/system/core/include/cutils/sockets.h' l='39'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h' l='16'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='713' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='718' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='733' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='859' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='913' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1018' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1069' u='c'/>

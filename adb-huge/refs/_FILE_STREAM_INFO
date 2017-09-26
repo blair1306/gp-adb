@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='3224' ll='3230'/>
+<size>28</size>
+<mbr r='_FILE_STREAM_INFO::NextEntryOffset' o='0' t='DWORD'/>
+<mbr r='_FILE_STREAM_INFO::StreamNameLength' o='32' t='DWORD'/>
+<mbr r='_FILE_STREAM_INFO::StreamSize' o='64' t='LARGE_INTEGER'/>
+<mbr r='_FILE_STREAM_INFO::StreamAllocationSize' o='128' t='LARGE_INTEGER'/>
+<mbr r='_FILE_STREAM_INFO::StreamName' o='192' t='WCHAR [1]'/>

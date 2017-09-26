@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/usb100.h' l='119' type='USHORT'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='559' u='r' c='_Z17recognized_deviceP10usb_handle'/>
+<offset>80</offset>

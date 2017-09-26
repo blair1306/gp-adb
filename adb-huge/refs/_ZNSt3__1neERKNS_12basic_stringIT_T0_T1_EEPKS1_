@@ -1,0 +1,10 @@
+<def f='codebrowser/external/libcxx/include/string' l='3823' ll='3829' type='bool std::__1::operator!=(const basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp; __lhs, const _CharT * __rhs)'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='582' u='c' c='_ZNSt3__16locale6globalERKS0_'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='604' u='c' c='_ZNKSt3__16localeeqERKS0_'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='230' u='c' c='_Z11adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1822' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1823' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1823' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1823' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1823' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='49' u='c' c='_ZN11LinePrinterC1Ev'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='494' type='int pthread_setcanceltype(int __type, int * __oldtype)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='492'>/* Set cancellation state of current thread to TYPE, returning the old
+   type in *OLDTYPE if OLDTYPE is not NULL.  */</doc>

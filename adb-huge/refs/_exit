@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='604' type='void _exit(int __status)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='603'>/* Terminate program execution with the low-order 8 bits of STATUS.  */</doc>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='421' u='c' c='_ZN14SyncConnection10WriteOrDieEPKcS1_PKvm'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/process.h' l='37' type='void _exit(int _Code)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/process.h' l='44' u='c' c='_Exit'/>

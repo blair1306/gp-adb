@@ -1,0 +1,10 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='232' type='int shutdown(int __fd, int __how)'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/connect.c' l='335' u='c' c='conn_close_socket'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='226'>/* Shut down all or part of the connection open on socket FD.
+   HOW determines what to shut down:
+     SHUT_RD   = No more receptions;
+     SHUT_WR   = No more transmissions;
+     SHUT_RDWR = No more receptions or transmissions.
+   Returns 0 on success, -1 for errors.  */</doc>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='567' u='c' c='_ZL12adb_shutdowni'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='571' u='c' c='_ZL12adb_shutdownii'/>

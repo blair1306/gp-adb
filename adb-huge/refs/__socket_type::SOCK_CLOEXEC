@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='65' type='524288'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='62'>/* Flags to be ORed into the type parameter of socket and socketpair and
+     used for the flags parameter of paccept.  */</doc>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='65'>/* Atomically set close-on-exec flag for the
+				   new descriptor(s).  */</doc>

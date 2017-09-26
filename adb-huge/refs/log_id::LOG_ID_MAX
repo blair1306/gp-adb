@@ -1,0 +1,10 @@
+<dec f='codebrowser/system/core/include/log/log.h' l='545' type='7'/>
+<use f='codebrowser/system/core/liblog/config_write.c' l='30' u='r' c='__android_log_add_transport'/>
+<use f='codebrowser/system/core/liblog/fake_writer.c' l='33'/>
+<use f='codebrowser/system/core/liblog/fake_writer.c' l='48' u='r' c='fakeOpen'/>
+<use f='codebrowser/system/core/liblog/fake_writer.c' l='59' u='r' c='fakeClose'/>
+<use f='codebrowser/system/core/liblog/fake_writer.c' l='71' u='r' c='fakeWrite'/>
+<use f='codebrowser/system/core/liblog/logger_name.c' l='25'/>
+<use f='codebrowser/system/core/liblog/logger_name.c' l='37' u='r' c='android_log_id_to_name'/>
+<use f='codebrowser/system/core/liblog/logger_name.c' l='58' u='r' c='android_name_to_log_id'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='108' u='r' c='__android_log_cache_available'/>

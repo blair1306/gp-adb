@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='276'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='271'>/*
+ * Device and/or Interface Class codes
+ * as found in bDeviceClass or bInterfaceClass
+ * and defined by www.usb.org documents
+ */</doc>

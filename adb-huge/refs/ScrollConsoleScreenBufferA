@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='237' type='WINBOOL ScrollConsoleScreenBufferA(HANDLE hConsoleOutput, const SMALL_RECT * lpScrollRectangle, const SMALL_RECT * lpClipRectangle, COORD dwDestinationOrigin, const CHAR_INFO * lpFill)'/>

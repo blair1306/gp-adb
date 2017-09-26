@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2021' ll='2028'/>
+<size>424</size>
+<mbr r='_DISPLAY_DEVICEA::cb' o='0' t='DWORD'/>
+<mbr r='_DISPLAY_DEVICEA::DeviceName' o='32' t='CHAR [32]'/>
+<mbr r='_DISPLAY_DEVICEA::DeviceString' o='288' t='CHAR [128]'/>
+<mbr r='_DISPLAY_DEVICEA::StateFlags' o='1312' t='DWORD'/>
+<mbr r='_DISPLAY_DEVICEA::DeviceID' o='1344' t='CHAR [128]'/>
+<mbr r='_DISPLAY_DEVICEA::DeviceKey' o='2368' t='CHAR [128]'/>

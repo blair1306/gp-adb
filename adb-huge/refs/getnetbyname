@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='225' type='struct netent * getnetbyname(const char * __name)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='221'>/* Return entry from network data base for network with NAME.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>

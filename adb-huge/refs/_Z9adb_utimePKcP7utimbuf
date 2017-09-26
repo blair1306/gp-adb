@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2410' ll='2420' type='int adb_utime(const char * path, struct utimbuf * u)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2409'>// Version of utime() that takes a UTF-8 path.</doc>

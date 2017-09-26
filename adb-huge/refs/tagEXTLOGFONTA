@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='1356' ll='1367'/>
+<size>192</size>
+<mbr r='tagEXTLOGFONTA::elfLogFont' o='0' t='LOGFONTA'/>
+<mbr r='tagEXTLOGFONTA::elfFullName' o='480' t='BYTE [64]'/>
+<mbr r='tagEXTLOGFONTA::elfStyle' o='992' t='BYTE [32]'/>
+<mbr r='tagEXTLOGFONTA::elfVersion' o='1248' t='DWORD'/>
+<mbr r='tagEXTLOGFONTA::elfStyleSize' o='1280' t='DWORD'/>
+<mbr r='tagEXTLOGFONTA::elfMatch' o='1312' t='DWORD'/>
+<mbr r='tagEXTLOGFONTA::elfReserved' o='1344' t='DWORD'/>
+<mbr r='tagEXTLOGFONTA::elfVendorId' o='1376' t='BYTE [4]'/>
+<mbr r='tagEXTLOGFONTA::elfCulture' o='1408' t='DWORD'/>
+<mbr r='tagEXTLOGFONTA::elfPanose' o='1440' t='PANOSE'/>

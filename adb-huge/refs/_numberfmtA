@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnls.h' l='513' ll='520'/>
+<size>24</size>
+<mbr r='_numberfmtA::NumDigits' o='0' t='UINT'/>
+<mbr r='_numberfmtA::LeadingZero' o='32' t='UINT'/>
+<mbr r='_numberfmtA::Grouping' o='64' t='UINT'/>
+<mbr r='_numberfmtA::lpDecimalSep' o='96' t='LPSTR'/>
+<mbr r='_numberfmtA::lpThousandSep' o='128' t='LPSTR'/>
+<mbr r='_numberfmtA::NegativeOrder' o='160' t='UINT'/>

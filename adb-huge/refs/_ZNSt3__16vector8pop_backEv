@@ -1,0 +1,4 @@
+<dec f='codebrowser/external/libcxx/include/vector' l='693' type='void std::__1::vector::pop_back()'/>
+<def f='codebrowser/external/libcxx/include/vector' l='1652' ll='1659' type='void std::__1::vector::pop_back()'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1363' u='c' c='_ZL20parse_push_pull_argsPPKciPNSt3__16vectorIS0_NS2_9allocatorIS0_EEEES1_Pb'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='857' u='c' c='_ZL17remote_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>

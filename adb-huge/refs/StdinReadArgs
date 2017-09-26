@@ -1,0 +1,3 @@
+<def f='codebrowser/system/core/adb/commandline.cpp' l='475' ll='480'/>
+<size>32</size>
+<doc f='codebrowser/system/core/adb/commandline.cpp' l='474'>// Used to pass multiple values to the stdin read thread.</doc>

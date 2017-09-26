@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6466' ll='6471'/>
+<size>20</size>
+<mbr r='_TAPE_SET_POSITION::Method' o='0' t='DWORD'/>
+<mbr r='_TAPE_SET_POSITION::Partition' o='32' t='DWORD'/>
+<mbr r='_TAPE_SET_POSITION::Offset' o='64' t='LARGE_INTEGER'/>
+<mbr r='_TAPE_SET_POSITION::Immediate' o='128' t='BOOLEAN'/>

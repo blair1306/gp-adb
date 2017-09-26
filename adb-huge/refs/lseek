@@ -1,0 +1,9 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='335' type='__off_t lseek(int __fd, __off_t __offset, int __whence)'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/fd.c' l='189' u='c' c='fd_ctrl'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/fd.c' l='196' u='c' c='fd_ctrl'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='608' u='c' c='_ZL9adb_lseekiii'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='321' type='long lseek(int _FileHandle, long _Offset, int _Origin)'/>
+<use f='codebrowser/system/core/libcutils/load_file.c' l='32' u='c' c='load_file'/>
+<use f='codebrowser/system/core/libcutils/load_file.c' l='35' u='c' c='load_file'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='83' u='c' c='android_openEventTagMap'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='84' u='c' c='android_openEventTagMap'/>

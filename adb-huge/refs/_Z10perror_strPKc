@@ -1,0 +1,7 @@
+<dec f='codebrowser/system/core/adb/adb_utils.h' l='40' type='std::string perror_str(const char * msg)'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='98' u='c' c='_ZL23switch_socket_transportiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='116' u='c' c='_Z10adb_statusiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='166' u='c' c='_Z12_adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='45' u='c' c='_Z18ReadProtocolStringiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_'/>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='53' u='c' c='_Z18ReadProtocolStringiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_'/>
+<def f='codebrowser/system/core/adb/adb_utils.cpp' l='213' ll='215' type='std::string perror_str(const char * msg)'/>

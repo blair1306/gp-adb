@@ -1,0 +1,2 @@
+<dec f='codebrowser/external/libcxxabi/include/cxxabi.h' l='81' type='void __cxa_guard_abort(uint64_t * )'/>
+<def f='codebrowser/external/libcxxabi/src/cxa_guard.cpp' l='242' ll='251' type='void __cxa_guard_abort(guard_type * guard_object)'/>

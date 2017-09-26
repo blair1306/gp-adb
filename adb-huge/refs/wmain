@@ -1,0 +1,4 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2717' ll='2721' type='int wmain(int argc, wchar_t ** argv)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2714'>// Link with -municode to cause this wmain() to be used as the program
+// entrypoint. It will convert the args from UTF-16 to UTF-8 and call the
+// regular main() with UTF-8 args.</doc>

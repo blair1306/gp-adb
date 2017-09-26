@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='216' type='int fstat(int __fd, struct stat * __buf)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='468' ll='472' macro='1' type='int fstat(int __fd, struct stat * __statbuf)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='214'>/* Get file attributes for the file, device, pipe, or socket
+   that file descriptor FD is open on and put them in BUF.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/stat.h' l='165' type='int fstat(int _Desc, struct stat * _Stat)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/stat.h' l='200' ll='222' macro='1' type='int fstat(int _Desc, struct stat * _Stat)'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='266' u='c' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/libcutils/ashmem-host.c' l='76' u='c' c='ashmem_get_size_region'/>

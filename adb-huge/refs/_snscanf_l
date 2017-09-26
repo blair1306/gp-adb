@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='533' type='int _snscanf_l(const char *__restrict input, size_t length, const char *__restrict format, _locale_t locale)'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/stdio_s.h' l='36' type='int _snscanf_l(const char * _Src, size_t _MaxCount, const char * _Format, _locale_t _Locale)'/>

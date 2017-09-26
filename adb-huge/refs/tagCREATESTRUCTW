@@ -1,0 +1,14 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='1621' ll='1634'/>
+<size>48</size>
+<mbr r='tagCREATESTRUCTW::lpCreateParams' o='0' t='LPVOID'/>
+<mbr r='tagCREATESTRUCTW::hInstance' o='32' t='HINSTANCE'/>
+<mbr r='tagCREATESTRUCTW::hMenu' o='64' t='HMENU'/>
+<mbr r='tagCREATESTRUCTW::hwndParent' o='96' t='HWND'/>
+<mbr r='tagCREATESTRUCTW::cy' o='128' t='int'/>
+<mbr r='tagCREATESTRUCTW::cx' o='160' t='int'/>
+<mbr r='tagCREATESTRUCTW::y' o='192' t='int'/>
+<mbr r='tagCREATESTRUCTW::x' o='224' t='int'/>
+<mbr r='tagCREATESTRUCTW::style' o='256' t='LONG'/>
+<mbr r='tagCREATESTRUCTW::lpszName' o='288' t='LPCWSTR'/>
+<mbr r='tagCREATESTRUCTW::lpszClass' o='320' t='LPCWSTR'/>
+<mbr r='tagCREATESTRUCTW::dwExStyle' o='352' t='DWORD'/>

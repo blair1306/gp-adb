@@ -1,0 +1,3 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='620' ll='629' type='int adb_creat(const char * path, int mode)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1215' u='c' c='_ZL6backupiPPKc'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='528' u='c' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>

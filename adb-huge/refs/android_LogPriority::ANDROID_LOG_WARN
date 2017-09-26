@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/include/android/log.h' l='85' type='5'/>
+<use f='codebrowser/system/core/libcutils/dlmalloc_stubs.c' l='29' macro='1' u='r'/>
+<use f='codebrowser/system/core/libcutils/dlmalloc_stubs.c' l='34' macro='1' u='r'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='244' u='r' c='configureInitialState'/>

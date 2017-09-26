@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/adb/file_sync_service.h' l='72' type='bool do_sync_sync(const std::string &amp; lpath, const std::string &amp; rpath, bool list_only)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1834' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1837' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1840' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1843' u='c' c='_Z15adb_commandlineiPPKc'/>
+<def f='codebrowser/system/core/adb/file_sync_client.cpp' l='1039' ll='1044' macro='1' type='bool do_sync_sync(const std::string &amp; lpath, const std::string &amp; rpath, bool list_only)'/>

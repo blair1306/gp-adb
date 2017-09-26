@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='277' type='int sigwait(const sigset_t *__restrict __set, int *__restrict __sig)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='273'>/* Select any of pending signals from SET or wait for any to arrive.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='145' type='struct hostent * gethostbyname(const char * __name)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='141'>/* Return entry from host data base for host with NAME.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='994' type='struct hostent * gethostbyname(const char * name)'/>

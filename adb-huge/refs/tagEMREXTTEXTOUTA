@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3821' ll='3828'/>
+<size>76</size>
+<mbr r='tagEMREXTTEXTOUTA::emr' o='0' t='EMR'/>
+<mbr r='tagEMREXTTEXTOUTA::rclBounds' o='64' t='RECTL'/>
+<mbr r='tagEMREXTTEXTOUTA::iGraphicsMode' o='192' t='DWORD'/>
+<mbr r='tagEMREXTTEXTOUTA::exScale' o='224' t='FLOAT'/>
+<mbr r='tagEMREXTTEXTOUTA::eyScale' o='256' t='FLOAT'/>
+<mbr r='tagEMREXTTEXTOUTA::emrtext' o='288' t='EMRTEXT'/>

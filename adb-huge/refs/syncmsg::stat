@@ -1,0 +1,8 @@
+<dec f='codebrowser/system/core/adb/file_sync_service.h' l='48' type='struct (anonymous struct at /home/jon/workspace/android/system/core/adb/file_sync_service.h:43:5)'/>
+<offset>0</offset>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='460' u='a' c='_ZL16sync_finish_statR14SyncConnectionPjS1_S1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='460' u='r' c='_ZL16sync_finish_statR14SyncConnectionPjS1_S1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='460' u='m' c='_ZL16sync_finish_statR14SyncConnectionPjS1_S1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='464' u='m' c='_ZL16sync_finish_statR14SyncConnectionPjS1_S1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='465' u='m' c='_ZL16sync_finish_statR14SyncConnectionPjS1_S1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='466' u='m' c='_ZL16sync_finish_statR14SyncConnectionPjS1_S1_'/>

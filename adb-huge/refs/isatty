@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='802' type='int isatty(int __fd)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='800'>/* Return 1 if FD is a valid descriptor associated
+   with a terminal, zero if not.  */</doc>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='634' u='c' c='_ZL11unix_isattyi'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='319' type='int isatty(int _FileHandle)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1312' u='c' c='_ZL19_get_console_handleiPm'/>

@@ -1,0 +1,8 @@
+wcstoimax|wcstoimax
+wcstombs|wcstombs
+wcstoumax|wcstoumax
+wctomb|wctomb
+_Z8wcscat_sRAT__wPKw|wcscat_s
+_Z8wcscpy_sRAT__wPKw|wcscpy_s
+_Z6wcstodPKwPPw|wcstod
+_Z6wcstofPKwPPw|wcstof

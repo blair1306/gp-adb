@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='461' type='int usleep(__useconds_t __useconds)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='456'>/* Sleep USECONDS microseconds, or until a signal arrives that is not blocked
+   or ignored.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='812' u='c' c='_ZL12adb_sleep_msi'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/unistd.h' l='40' type='int usleep(useconds_t )'/>

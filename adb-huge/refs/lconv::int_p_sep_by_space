@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='100' type='char'/>
+<offset>712</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='99'>/* 1 iff a space separates int_curr_symbol from a positive value.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6004' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6187' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>

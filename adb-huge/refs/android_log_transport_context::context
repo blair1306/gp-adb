@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/liblog/logger.h' l='116' type='union android_log_context'/>
+<offset>128</offset>
+<doc f='codebrowser/system/core/liblog/logger.h' l='116'>/* zero init per-transport context */</doc>

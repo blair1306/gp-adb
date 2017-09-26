@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='365' type='struct protoent * getprotobynumber(int __proto)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='361'>/* Return entry from protocol data base which number is PROTO.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='998' type='struct protoent * getprotobynumber(int number)'/>

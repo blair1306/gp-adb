@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsvc.h' l='235' ll='245'/>
+<size>36</size>
+<mbr r='_QUERY_SERVICE_CONFIGW::dwServiceType' o='0' t='DWORD'/>
+<mbr r='_QUERY_SERVICE_CONFIGW::dwStartType' o='32' t='DWORD'/>
+<mbr r='_QUERY_SERVICE_CONFIGW::dwErrorControl' o='64' t='DWORD'/>
+<mbr r='_QUERY_SERVICE_CONFIGW::lpBinaryPathName' o='96' t='LPWSTR'/>
+<mbr r='_QUERY_SERVICE_CONFIGW::lpLoadOrderGroup' o='128' t='LPWSTR'/>
+<mbr r='_QUERY_SERVICE_CONFIGW::dwTagId' o='160' t='DWORD'/>
+<mbr r='_QUERY_SERVICE_CONFIGW::lpDependencies' o='192' t='LPWSTR'/>
+<mbr r='_QUERY_SERVICE_CONFIGW::lpServiceStartName' o='224' t='LPWSTR'/>
+<mbr r='_QUERY_SERVICE_CONFIGW::lpDisplayName' o='256' t='LPWSTR'/>

@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsvc.h' l='401' ll='409'/>
+<size>60</size>
+<mbr r='_SERVICE_NOTIFYW::dwVersion' o='0' t='DWORD'/>
+<mbr r='_SERVICE_NOTIFYW::pfnNotifyCallback' o='32' t='PFN_SC_NOTIFY_CALLBACK'/>
+<mbr r='_SERVICE_NOTIFYW::pContext' o='64' t='PVOID'/>
+<mbr r='_SERVICE_NOTIFYW::dwNotificationStatus' o='96' t='DWORD'/>
+<mbr r='_SERVICE_NOTIFYW::ServiceStatus' o='128' t='SERVICE_STATUS_PROCESS'/>
+<mbr r='_SERVICE_NOTIFYW::dwNotificationTriggered' o='416' t='DWORD'/>
+<mbr r='_SERVICE_NOTIFYW::pszServiceNames' o='448' t='LPWSTR'/>

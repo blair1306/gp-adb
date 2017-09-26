@@ -1,0 +1,7 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='810' ll='813' type='void adb_sleep_ms(int mseconds)'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='361' u='c' c='_Z13handle_packetP7apacketP10atransport'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='204' u='c' c='_Z11adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='249' u='c' c='_Z11adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='107' u='c' c='_Z14WriteFdExactlyiPKvm'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1113' u='c' c='_ZL8adb_rootPKc'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='181' u='c' c='_ZL18device_poll_threadPv'/>

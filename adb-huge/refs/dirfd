@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/dirent.h' l='225' type='int dirfd(DIR * __dirp)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/dirent.h' l='224'>/* Return the file descriptor used by DIRP.  */</doc>

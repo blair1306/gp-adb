@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='599' ll='614'/>
+<size>96</size>
+<mbr r='_DEBUG_EVENT::dwDebugEventCode' o='0' t='DWORD'/>
+<mbr r='_DEBUG_EVENT::dwProcessId' o='32' t='DWORD'/>
+<mbr r='_DEBUG_EVENT::dwThreadId' o='64' t='DWORD'/>
+<mbr r='_DEBUG_EVENT::u' o='96' t='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h:603:5)'/>

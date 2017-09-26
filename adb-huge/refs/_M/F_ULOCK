@@ -1,0 +1,11 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='1099'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='1092'>/* `lockf&apos; is a simpler interface to the locking facilities of `fcntl&apos;.
+   LEN is always relative to the current file position.
+   The CMD argument is one of the following.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/fcntl.h' l='188'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/fcntl.h' l='184'>/* `lockf&apos; is a simpler interface to the locking facilities of `fcntl&apos;.
+   LEN is always relative to the current file position.
+   The CMD argument is one of the following.  */</doc>

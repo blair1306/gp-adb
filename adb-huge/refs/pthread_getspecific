@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1103' type='void * pthread_getspecific(pthread_key_t __key)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1102'>/* Return current value of the thread-specific data slot identified by KEY.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/thread_pthread.c' l='126' u='c' c='CRYPTO_get_thread_local'/>
+<use f='codebrowser/external/boringssl/src/crypto/thread_pthread.c' l='141' u='c' c='CRYPTO_set_thread_local'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_exception_storage.cpp' l='98' u='c' c='__cxa_get_globals_fast'/>
+<use f='codebrowser/system/core/libcutils/threads.c' l='54' u='c' c='thread_store_get'/>

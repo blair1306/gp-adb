@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='2874' ll='2878'/>
+<size>4</size>
+<mbr r='_ACE_HEADER::AceType' o='0' t='BYTE'/>
+<mbr r='_ACE_HEADER::AceFlags' o='8' t='BYTE'/>
+<mbr r='_ACE_HEADER::AceSize' o='16' t='WORD'/>

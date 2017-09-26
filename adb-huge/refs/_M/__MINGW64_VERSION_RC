@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_mac.h' l='22'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_mac.h' l='16'>/* This macro holds an monotonic increasing value, which indicates
+   a specific fix/patch is present on trunk.  This value isn&apos;t related to
+   minor/major version-macros.  It is increased on demand, if a big
+   fix was applied to trunk.  This macro gets just increased on trunk.  For
+   other branches its value won&apos;t be modified.  */</doc>

@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='420' type='double _strtod_l(const char *__restrict _Str, char **__restrict _EndPtr, _locale_t _Locale)'/>

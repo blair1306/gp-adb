@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='241' ll='244'/>
+<size>2</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='240'>/* All standard descriptors have these 2 fields at the beginning */</doc>
+<mbr r='usb_descriptor_header::bLength' o='0' t='__u8'/>
+<mbr r='usb_descriptor_header::bDescriptorType' o='8' t='__u8'/>

@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='4084' ll='4091'/>
+<size>1132</size>
+<mbr r='tagEMRCREATECOLORSPACEW::emr' o='0' t='EMR'/>
+<mbr r='tagEMRCREATECOLORSPACEW::ihCS' o='64' t='DWORD'/>
+<mbr r='tagEMRCREATECOLORSPACEW::lcs' o='96' t='LOGCOLORSPACEW'/>
+<mbr r='tagEMRCREATECOLORSPACEW::dwFlags' o='8960' t='DWORD'/>
+<mbr r='tagEMRCREATECOLORSPACEW::cbData' o='8992' t='DWORD'/>
+<mbr r='tagEMRCREATECOLORSPACEW::Data' o='9024' t='BYTE [1]'/>

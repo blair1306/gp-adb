@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5106' ll='5113'/>
+<size>32</size>
+<mbr r='tagMENUBARINFO::cbSize' o='0' t='DWORD'/>
+<mbr r='tagMENUBARINFO::rcBar' o='32' t='RECT'/>
+<mbr r='tagMENUBARINFO::hMenu' o='160' t='HMENU'/>
+<mbr r='tagMENUBARINFO::hwndMenu' o='192' t='HWND'/>
+<mbr r='tagMENUBARINFO::fBarFocused' o='224' t='WINBOOL'/>
+<mbr r='tagMENUBARINFO::fFocused' o='225' t='WINBOOL'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='65' type='unsigned long'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='566' u='r' c='_Z17recognized_deviceP10usb_handle'/>
+<offset>0</offset>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='64'>/// Maximum packet size this endpoint is capable of.</doc>

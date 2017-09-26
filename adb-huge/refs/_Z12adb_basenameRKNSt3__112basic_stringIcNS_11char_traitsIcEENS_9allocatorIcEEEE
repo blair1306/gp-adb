@@ -1,0 +1,12 @@
+<dec f='codebrowser/system/core/adb/adb_utils.h' l='31' type='std::string adb_basename(const std::string &amp; path)'/>
+<doc f='codebrowser/system/core/adb/adb_utils.h' l='29'>// Like the regular basename and dirname, but thread-safe on all
+// platforms and capable of correctly handling exotic Windows paths.</doc>
+<def f='codebrowser/system/core/adb/adb_utils.cpp' l='91' ll='112' type='std::string adb_basename(const std::string &amp; path)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2066' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2193' u='c' c='_ZL18install_app_legacy13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='648' u='c' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='770' u='c' c='_Z12do_sync_pushRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='789' u='c' c='_Z12do_sync_pushRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='816' u='c' c='_ZL17remote_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='1004' u='c' c='_Z12do_sync_pullRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_b'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='1020' u='c' c='_Z12do_sync_pullRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_b'/>

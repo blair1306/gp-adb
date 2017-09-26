@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='795' ll='802'/>
+<size>136</size>
+<mbr r='_OFSTRUCT::cBytes' o='0' t='BYTE'/>
+<mbr r='_OFSTRUCT::fFixedDisk' o='8' t='BYTE'/>
+<mbr r='_OFSTRUCT::nErrCode' o='16' t='WORD'/>
+<mbr r='_OFSTRUCT::Reserved1' o='32' t='WORD'/>
+<mbr r='_OFSTRUCT::Reserved2' o='48' t='WORD'/>
+<mbr r='_OFSTRUCT::szPathName' o='64' t='CHAR [128]'/>

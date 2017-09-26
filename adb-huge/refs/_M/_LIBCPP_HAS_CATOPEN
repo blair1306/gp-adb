@@ -1,0 +1,5 @@
+<dec f='codebrowser/external/libcxx/include/__config' l='670'/>
+<use f='codebrowser/external/libcxx/include/locale' l='202' u='a'/>
+<use f='codebrowser/external/libcxx/include/locale' l='3683' u='a'/>
+<use f='codebrowser/external/libcxx/include/locale' l='3698' u='a'/>
+<use f='codebrowser/external/libcxx/include/locale' l='3720' u='a'/>

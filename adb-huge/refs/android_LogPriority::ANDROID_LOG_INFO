@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/include/android/log.h' l='84' type='4'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='375' macro='1' u='r'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='197' u='r' c='configureInitialState'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='243' u='r' c='configureInitialState'/>

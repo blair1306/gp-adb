@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4236' ll='4246'/>
+<size>20</size>
+<mbr r='_PROCESSOR_POWER_POLICY_INFO::TimeCheck' o='0' t='DWORD'/>
+<mbr r='_PROCESSOR_POWER_POLICY_INFO::DemoteLimit' o='32' t='DWORD'/>
+<mbr r='_PROCESSOR_POWER_POLICY_INFO::PromoteLimit' o='64' t='DWORD'/>
+<mbr r='_PROCESSOR_POWER_POLICY_INFO::DemotePercent' o='96' t='BYTE'/>
+<mbr r='_PROCESSOR_POWER_POLICY_INFO::PromotePercent' o='104' t='BYTE'/>
+<mbr r='_PROCESSOR_POWER_POLICY_INFO::Spare' o='112' t='BYTE [2]'/>
+<mbr r='_PROCESSOR_POWER_POLICY_INFO::AllowDemotion' o='128' t='DWORD'/>
+<mbr r='_PROCESSOR_POWER_POLICY_INFO::AllowPromotion' o='129' t='DWORD'/>
+<mbr r='_PROCESSOR_POWER_POLICY_INFO::Reserved' o='130' t='DWORD'/>

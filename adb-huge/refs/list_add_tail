@@ -1,0 +1,2 @@
+<use f='codebrowser/system/core/liblog/config_write.c' l='35' u='c' c='__android_log_add_transport'/>
+<use f='codebrowser/system/core/liblog/config_write.c' l='46' u='c' c='__android_log_add_transport'/>

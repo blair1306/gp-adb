@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/adb/sysdeps.h' l='480'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='76' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1319' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1321' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1323' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1325' u='c'/>

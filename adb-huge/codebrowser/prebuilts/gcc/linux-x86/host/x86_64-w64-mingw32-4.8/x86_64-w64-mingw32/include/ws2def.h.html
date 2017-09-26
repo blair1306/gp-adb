@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ws2def.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ws2def.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="_SCOPE_ID,_SCOPE_LEVEL "/>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ws2def.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='ws2def.h.html'>ws2def.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER within this package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/_WS2DEF_">_WS2DEF_</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/_WS2DEF_" data-ref="_M/_WS2DEF_">_WS2DEF_</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="_mingw.h.html">&lt;_mingw.h&gt;</a></u></td></tr>
+<tr><th id="10">10</th><td><u>#include <a href="winapifamily.h.html">&lt;winapifamily.h&gt;</a></u></td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td><u>#<span data-ppcond="12">if</span> <a class="macro" href="winapifamily.h.html#20" title="(((0x1 | 0x2) &amp; 0x1) == 0x1)" data-ref="_M/WINAPI_FAMILY_PARTITION">WINAPI_FAMILY_PARTITION</a>(<a class="macro" href="winapifamily.h.html#9" title="0x1" data-ref="_M/WINAPI_PARTITION_DESKTOP">WINAPI_PARTITION_DESKTOP</a>)</u></td></tr>
+<tr><th id="13">13</th><td></td></tr>
+<tr><th id="14">14</th><td><i>/* FIXME FIXME FIXME FIXME FIXME: Much more data need moving here.</i></td></tr>
+<tr><th id="15">15</th><td><i> * This holds only SCOPE_LEVEL and SCOPE_ID so that compilations</i></td></tr>
+<tr><th id="16">16</th><td><i> * do not fail.</i></td></tr>
+<tr><th id="17">17</th><td><i> */</i></td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><b>typedef</b> <b>enum</b> <dfn class="type def" id="_SCOPE_LEVEL" title='_SCOPE_LEVEL' data-ref="_SCOPE_LEVEL"><a class="type" href="#_SCOPE_LEVEL" title='_SCOPE_LEVEL' data-ref="_SCOPE_LEVEL">_SCOPE_LEVEL</a></dfn> {</td></tr>
+<tr><th id="20">20</th><td>  <dfn class="enum" id="_SCOPE_LEVEL::ScopeLevelInterface" title='_SCOPE_LEVEL::ScopeLevelInterface' data-ref="_SCOPE_LEVEL::ScopeLevelInterface">ScopeLevelInterface</dfn> = <var>1</var>,</td></tr>
+<tr><th id="21">21</th><td>  <dfn class="enum" id="_SCOPE_LEVEL::ScopeLevelLink" title='_SCOPE_LEVEL::ScopeLevelLink' data-ref="_SCOPE_LEVEL::ScopeLevelLink">ScopeLevelLink</dfn>      = <var>2</var>,</td></tr>
+<tr><th id="22">22</th><td>  <dfn class="enum" id="_SCOPE_LEVEL::ScopeLevelSubnet" title='_SCOPE_LEVEL::ScopeLevelSubnet' data-ref="_SCOPE_LEVEL::ScopeLevelSubnet">ScopeLevelSubnet</dfn>    = <var>3</var>,</td></tr>
+<tr><th id="23">23</th><td>  <dfn class="enum" id="_SCOPE_LEVEL::ScopeLevelAdmin" title='_SCOPE_LEVEL::ScopeLevelAdmin' data-ref="_SCOPE_LEVEL::ScopeLevelAdmin">ScopeLevelAdmin</dfn>     = <var>4</var>,</td></tr>
+<tr><th id="24">24</th><td>  <dfn class="enum" id="_SCOPE_LEVEL::ScopeLevelSite" title='_SCOPE_LEVEL::ScopeLevelSite' data-ref="_SCOPE_LEVEL::ScopeLevelSite">ScopeLevelSite</dfn>      = <var>5</var>,</td></tr>
+<tr><th id="25">25</th><td>  <dfn class="enum" id="_SCOPE_LEVEL::ScopeLevelOrganization" title='_SCOPE_LEVEL::ScopeLevelOrganization' data-ref="_SCOPE_LEVEL::ScopeLevelOrganization">ScopeLevelOrganization</dfn> = <var>8</var>,</td></tr>
+<tr><th id="26">26</th><td>  <dfn class="enum" id="_SCOPE_LEVEL::ScopeLevelGlobal" title='_SCOPE_LEVEL::ScopeLevelGlobal' data-ref="_SCOPE_LEVEL::ScopeLevelGlobal">ScopeLevelGlobal</dfn>   = <var>14</var>,</td></tr>
+<tr><th id="27">27</th><td>  <dfn class="enum" id="_SCOPE_LEVEL::ScopeLevelCount" title='_SCOPE_LEVEL::ScopeLevelCount' data-ref="_SCOPE_LEVEL::ScopeLevelCount">ScopeLevelCount</dfn>    = <var>16</var></td></tr>
+<tr><th id="28">28</th><td>} <dfn class="typedef" id="SCOPE_LEVEL" title='SCOPE_LEVEL' data-type='enum _SCOPE_LEVEL' data-ref="SCOPE_LEVEL">SCOPE_LEVEL</dfn>;</td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_SCOPE_ID" title='_SCOPE_ID' data-ref="_SCOPE_ID"><a class="type" href="#_SCOPE_ID" title='_SCOPE_ID' data-ref="_SCOPE_ID"><a class="type" href="#_SCOPE_ID" title='_SCOPE_ID' data-ref="_SCOPE_ID">_SCOPE_ID</a></a></dfn> {</td></tr>
+<tr><th id="31">31</th><td>  <a class="macro" href="_mingw_mac.h.html#146" title="__extension__" data-ref="_M/__C89_NAMELESS">__C89_NAMELESS</a> <b>union</b> {</td></tr>
+<tr><th id="32">32</th><td>    <a class="macro" href="_mingw_mac.h.html#146" title="__extension__" data-ref="_M/__C89_NAMELESS">__C89_NAMELESS</a> <b>struct</b> {</td></tr>
+<tr><th id="33">33</th><td>	<a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a>	<dfn class="decl" id="_SCOPE_ID::(anonymousunion)::(anonymous)::Zone" title='_SCOPE_ID::(anonymous union)::(anonymous struct)::Zone' data-ref="_SCOPE_ID::(anonymousunion)::(anonymous)::Zone">Zone</dfn> : <var>28</var>;</td></tr>
+<tr><th id="34">34</th><td>	<a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a>	<dfn class="decl" id="_SCOPE_ID::(anonymousunion)::(anonymous)::Level" title='_SCOPE_ID::(anonymous union)::(anonymous struct)::Level' data-ref="_SCOPE_ID::(anonymousunion)::(anonymous)::Level">Level</dfn> : <var>4</var>;</td></tr>
+<tr><th id="35">35</th><td>    };</td></tr>
+<tr><th id="36">36</th><td>    <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_SCOPE_ID::(anonymous)::Value" title='_SCOPE_ID::(anonymous union)::Value' data-ref="_SCOPE_ID::(anonymous)::Value">Value</dfn>;</td></tr>
+<tr><th id="37">37</th><td>  };</td></tr>
+<tr><th id="38">38</th><td>} <dfn class="typedef" id="SCOPE_ID" title='SCOPE_ID' data-type='struct _SCOPE_ID' data-ref="SCOPE_ID">SCOPE_ID</dfn>, *<dfn class="typedef" id="PSCOPE_ID" title='PSCOPE_ID' data-type='struct _SCOPE_ID *' data-ref="PSCOPE_ID">PSCOPE_ID</dfn>;</td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><u>#<span data-ppcond="12">endif</span> /* WINAPI_PARTITION_DESKTOP.  */</u></td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><u>#<span data-ppcond="6">endif</span> /* _WS2DEF_ */</u></td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

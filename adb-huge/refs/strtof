@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='173' type='float strtof(const char *restrict __nptr, char **restrict __endptr)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='172'>/* Likewise for `float&apos; and `long double&apos; sizes of floating-point numbers.  */</doc>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='210' u='r' c='_ZNSt3__112_GLOBAL__N_18as_floatERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERKT0_Pm'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='331' u='c' c='str_parms_get_float'/>

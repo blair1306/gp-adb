@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2911' ll='2917'/>
+<size>24</size>
+<mbr r='tagGLYPHSET::cbThis' o='0' t='DWORD'/>
+<mbr r='tagGLYPHSET::flAccel' o='32' t='DWORD'/>
+<mbr r='tagGLYPHSET::cGlyphsSupported' o='64' t='DWORD'/>
+<mbr r='tagGLYPHSET::cRanges' o='96' t='DWORD'/>
+<mbr r='tagGLYPHSET::ranges' o='128' t='WCRANGE [1]'/>

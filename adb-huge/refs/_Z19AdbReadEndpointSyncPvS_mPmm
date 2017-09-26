@@ -1,0 +1,2 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='535' type='bool AdbReadEndpointSync(ADBAPIHANDLE adb_endpoint, void * buffer, unsigned long bytes_to_read, unsigned long * bytes_read, unsigned long time_out)'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='429' u='c' c='_Z8usb_readP10usb_handlePvi'/>

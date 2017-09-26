@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='310' type='struct cmsghdr * __cmsg_nxthdr(struct msghdr * __mhdr, struct cmsghdr * __cmsg)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='316' ll='332' macro='1' type='struct cmsghdr * __cmsg_nxthdr(struct msghdr * __mhdr, struct cmsghdr * __cmsg)'/>

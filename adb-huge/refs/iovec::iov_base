@@ -1,0 +1,28 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/uio.h' l='46' type='void *'/>
+<offset>0</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/uio.h' l='46'>/* Pointer to data.  */</doc>
+<use f='codebrowser/system/core/libcutils/sockets_unix.cpp' l='74' u='w' c='socket_send_buffers'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='487' u='w' c='showLog'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='497' u='w' c='showLog'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='504' u='w' c='showLog'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='585' u='r' c='logWritev'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='586' u='r' c='logWritev'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='587' u='r' c='logWritev'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='385' u='w' c='__android_log_buf_write'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='387' u='w' c='__android_log_buf_write'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='389' u='w' c='__android_log_buf_write'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='463' u='w' c='__android_log_bwrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='465' u='w' c='__android_log_bwrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='477' u='w' c='__android_log_security_bwrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='479' u='w' c='__android_log_security_bwrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='495' u='w' c='__android_log_btwrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='497' u='w' c='__android_log_btwrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='499' u='w' c='__android_log_btwrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='515' u='w' c='__android_log_bswrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='517' u='w' c='__android_log_bswrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='519' u='w' c='__android_log_bswrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='521' u='w' c='__android_log_bswrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='538' u='w' c='__android_log_security_bswrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='540' u='w' c='__android_log_security_bswrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='542' u='w' c='__android_log_security_bswrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='544' u='w' c='__android_log_security_bswrite'/>

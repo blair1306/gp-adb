@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='376'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='219' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='228' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='236' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='238' u='c'/>

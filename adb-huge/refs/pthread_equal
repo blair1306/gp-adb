@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='270' type='int pthread_equal(pthread_t __thread1, pthread_t __thread2)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1136' ll='1140' macro='1' type='int pthread_equal(pthread_t __thread1, pthread_t __thread2)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='269'>/* Compare two thread identifiers.  */</doc>
+<use f='codebrowser/external/libcxx/include/mutex' l='291' u='c' c='_ZNSt3__121recursive_timed_mutex14try_lock_untilERKNS_6chrono10time_pointIT_T0_EE'/>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='170' u='c' c='_ZNSt3__121recursive_timed_mutex4lockEv'/>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='188' u='c' c='_ZNSt3__121recursive_timed_mutex8try_lockEv'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='377' ll='381'/>
+<size>72</size>
+<mbr r='_QualityOfService::SendingFlowspec' o='0' t='FLOWSPEC'/>
+<mbr r='_QualityOfService::ReceivingFlowspec' o='256' t='FLOWSPEC'/>
+<mbr r='_QualityOfService::ProviderSpecific' o='512' t='WSABUF'/>

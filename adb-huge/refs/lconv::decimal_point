@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='58' type='char *'/>
+<offset>0</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='56'>/* Numeric (non-monetary) information.  */</doc>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='58'>/* Decimal point character.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4340' u='r' c='_ZNSt3__115numpunct_bynameIcE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4341' u='r' c='_ZNSt3__115numpunct_bynameIcE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4383' u='r' c='_ZNSt3__115numpunct_bynameIwE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4384' u='r' c='_ZNSt3__115numpunct_bynameIwE6__initEPKc'/>

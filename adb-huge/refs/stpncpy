@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='579' type='char * stpncpy(char *restrict __dest, const char *restrict __src, size_t __n)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string3.h' l='131' ll='138' macro='1' type='char * stpncpy(char * __dest, const char * __src, size_t __n)'/>

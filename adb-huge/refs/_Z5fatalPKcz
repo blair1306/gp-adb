@@ -1,0 +1,24 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='147' type='void fatal(const char * fmt)'/>
+<def f='codebrowser/system/core/adb/adb.cpp' l='65' ll='73' type='void fatal(const char * fmt)'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='89' u='c' c='_Z11get_apacketv'/>
+<doc f='codebrowser/system/core/adb/adb.h' l='145'>// These use the system (v)fprintf, not the adb prefixed ones defined in sysdeps.h, so they
+// shouldn&apos;t be tagged with ADB_FORMAT_ARCHETYPE.</doc>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='268' u='c' c='_Z16install_listenerRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPKcP10atransportiPS5_'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='79' u='c' c='_ZL20setup_daemon_loggingv'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='82' u='c' c='_ZL20setup_daemon_loggingv'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='85' u='c' c='_ZL20setup_daemon_loggingv'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='121' u='c' c='_Z15adb_server_mainiii'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='134' u='c' c='_Z15adb_server_mainiii'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='358' u='c' c='_ZL12copy_to_fileii'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='253' u='c' c='_ZL21create_service_threadPFviPvES_'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='420' u='c' c='_Z19create_local_socketi'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='539' u='c' c='_Z20create_remote_socketjP10atransport'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='542' u='c' c='_Z20create_remote_socketjP10atransport'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='561' u='c' c='_Z17connect_to_remoteP7asocketPKc'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='872' u='c' c='_ZL19create_smart_socketv'/>
+<dec f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='45' type='void fatal(const char * fmt)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1361' u='c' c='_ZL21_get_key_event_recordPvP13_INPUT_RECORD'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1365' u='c' c='_ZL21_get_key_event_recordPvP13_INPUT_RECORD'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1383' u='c' c='_ZL21_get_key_event_recordPvP13_INPUT_RECORD'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2741' u='c' c='_ZL17_ensure_env_setupv'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='402' u='c' c='_Z21create_device_trackerv'/>

@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>vadefs.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/vadefs.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/vadefs.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='vadefs.h.html'>vadefs.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/_INC_VADEFS">_INC_VADEFS</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/_INC_VADEFS" data-ref="_M/_INC_VADEFS">_INC_VADEFS</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="_mingw.h.html">&lt;_mingw.h&gt;</a></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#<span data-ppcond="11">ifndef</span> <span class="macro" data-ref="_M/__WIDL__">__WIDL__</span></u></td></tr>
+<tr><th id="12">12</th><td><u>#pragma pack(push,<a class="macro" href="_mingw.h.html#280" title="8" data-ref="_M/_CRT_PACKING">_CRT_PACKING</a>)</u></td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="11">endif</span></u></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><u>#<span data-ppcond="15">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="16">16</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="17">17</th><td><u>#<span data-ppcond="15">endif</span></u></td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><u>#<span data-ppcond="19">if</span> defined (<span class="macro" data-ref="_M/__GNUC__">__GNUC__</span>)</u></td></tr>
+<tr><th id="20">20</th><td><u>#<span data-ppcond="20">ifndef</span> <span class="macro" data-ref="_M/__GNUC_VA_LIST">__GNUC_VA_LIST</span></u></td></tr>
+<tr><th id="21">21</th><td><u>#define <dfn class="macro" id="_M/__GNUC_VA_LIST" data-ref="_M/__GNUC_VA_LIST">__GNUC_VA_LIST</dfn></u></td></tr>
+<tr><th id="22">22</th><td>  <b>typedef</b> <span class='typedef' title='__builtin_va_list' data-type='char *' data-ref="__builtin_va_list">__builtin_va_list</span> <dfn class="typedef" id="__gnuc_va_list" title='__gnuc_va_list' data-type='__builtin_va_list' data-ref="__gnuc_va_list">__gnuc_va_list</dfn>;</td></tr>
+<tr><th id="23">23</th><td><u>#<span data-ppcond="20">endif</span></u></td></tr>
+<tr><th id="24">24</th><td><u>#<span data-ppcond="19">endif</span> /* __GNUC__ */</u></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><u>#<span data-ppcond="26">ifndef</span> <span class="macro" data-ref="_M/_VA_LIST_DEFINED">_VA_LIST_DEFINED</span>	/* if stdargs.h didn't define it */</u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/_VA_LIST_DEFINED" data-ref="_M/_VA_LIST_DEFINED">_VA_LIST_DEFINED</dfn></u></td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="28">if</span> defined(<span class="macro" data-ref="_M/__GNUC__">__GNUC__</span>)</u></td></tr>
+<tr><th id="29">29</th><td>  <b>typedef</b> <a class="typedef" href="#__gnuc_va_list" title='__gnuc_va_list' data-type='__builtin_va_list' data-ref="__gnuc_va_list">__gnuc_va_list</a> <dfn class="typedef" id="va_list" title='va_list' data-type='__gnuc_va_list' data-ref="va_list">va_list</dfn>;</td></tr>
+<tr><th id="30">30</th><td><u>#<span data-ppcond="28">elif</span> defined(_MSC_VER)</u></td></tr>
+<tr><th id="31">31</th><td>  <b>typedef</b> <em>char</em> *  va_list;</td></tr>
+<tr><th id="32">32</th><td><u>#elif !defined(__WIDL__)</u></td></tr>
+<tr><th id="33">33</th><td><u>#error VARARGS not implemented for this compiler</u></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="28">endif</span></u></td></tr>
+<tr><th id="35">35</th><td><u>#<span data-ppcond="26">endif</span> /* _VA_LIST_DEFINED */</u></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><u>#<span data-ppcond="37">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="38">38</th><td><u>#define <dfn class="macro" id="_M/_ADDRESSOF" data-ref="_M/_ADDRESSOF">_ADDRESSOF</dfn>(v) (&amp;reinterpret_cast&lt;const char &amp;&gt;(v))</u></td></tr>
+<tr><th id="39">39</th><td><u>#<span data-ppcond="37">else</span></u></td></tr>
+<tr><th id="40">40</th><td><u>#define _ADDRESSOF(v) (&amp;(v))</u></td></tr>
+<tr><th id="41">41</th><td><u>#<span data-ppcond="37">endif</span></u></td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><u>#<span data-ppcond="43">if</span> defined (<span class="macro" data-ref="_M/__GNUC__">__GNUC__</span>)</u></td></tr>
+<tr><th id="44">44</th><td><i>/* Use GCC builtins */</i></td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><u>#define <dfn class="macro" id="_M/_crt_va_start" data-ref="_M/_crt_va_start">_crt_va_start</dfn>(v,l)	__builtin_va_start(v,l)</u></td></tr>
+<tr><th id="47">47</th><td><u>#define <dfn class="macro" id="_M/_crt_va_arg" data-ref="_M/_crt_va_arg">_crt_va_arg</dfn>(v,l)	__builtin_va_arg(v,l)</u></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/_crt_va_end" data-ref="_M/_crt_va_end">_crt_va_end</dfn>(v)		__builtin_va_end(v)</u></td></tr>
+<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/_crt_va_copy" data-ref="_M/_crt_va_copy">_crt_va_copy</dfn>(d,s)	__builtin_va_copy(d,s)</u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#<span data-ppcond="43">elif</span> defined(_MSC_VER)</u></td></tr>
+<tr><th id="52">52</th><td><i>/* MSVC specific */</i></td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td><u>#if defined(_M_IA64)</u></td></tr>
+<tr><th id="55">55</th><td><u>#define _VA_ALIGN 8</u></td></tr>
+<tr><th id="56">56</th><td><u>#define _SLOTSIZEOF(t) ((sizeof(t) + _VA_ALIGN - 1) &amp; ~(_VA_ALIGN - 1))</u></td></tr>
+<tr><th id="57">57</th><td><u>#define _VA_STRUCT_ALIGN 16</u></td></tr>
+<tr><th id="58">58</th><td><u>#define _ALIGNOF(ap) ((((ap)+_VA_STRUCT_ALIGN - 1) &amp; ~(_VA_STRUCT_ALIGN -1)) - (ap))</u></td></tr>
+<tr><th id="59">59</th><td><u>#define _APALIGN(t,ap) (__alignof(t) &gt; 8 ? _ALIGNOF((uintptr_t) ap) : 0)</u></td></tr>
+<tr><th id="60">60</th><td><u>#else</u></td></tr>
+<tr><th id="61">61</th><td><u>#define _SLOTSIZEOF(t) (sizeof(t))</u></td></tr>
+<tr><th id="62">62</th><td><u>#define _APALIGN(t,ap) (__alignof(t))</u></td></tr>
+<tr><th id="63">63</th><td><u>#endif</u></td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td><u>#if defined(_M_IX86)</u></td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td><u>#define _INTSIZEOF(n) ((sizeof(n) + sizeof(int) - 1) &amp; ~(sizeof(int) - 1))</u></td></tr>
+<tr><th id="68">68</th><td><u>#define _crt_va_start(v,l)	((v) = (va_list)_ADDRESSOF(l) + _INTSIZEOF(l))</u></td></tr>
+<tr><th id="69">69</th><td><u>#define _crt_va_arg(v,l)	(*(l *)(((v) += _INTSIZEOF(l)) - _INTSIZEOF(l)))</u></td></tr>
+<tr><th id="70">70</th><td><u>#define _crt_va_end(v)		((v) = (va_list)0)</u></td></tr>
+<tr><th id="71">71</th><td><u>#define _crt_va_copy(d,s)	((d) = (s))</u></td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td><u>#elif defined(_M_AMD64)</u></td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td><u>#define _PTRSIZEOF(n) ((sizeof(n) + sizeof(void*) - 1) &amp; ~(sizeof(void*) - 1))</u></td></tr>
+<tr><th id="76">76</th><td><u>#define _ISSTRUCT(t)  ((sizeof(t) &gt; sizeof(void*)) || (sizeof(t) &amp; (sizeof(t) - 1)) != 0)</u></td></tr>
+<tr><th id="77">77</th><td><u>#define _crt_va_start(v,l)	((v) = (va_list)_ADDRESSOF(l) + _PTRSIZEOF(l))</u></td></tr>
+<tr><th id="78">78</th><td><u>#define _crt_va_arg(v,t)	_ISSTRUCT(t) ?						\</u></td></tr>
+<tr><th id="79">79</th><td><u>				 (**(t**)(((v) += sizeof(void*)) - sizeof(void*))) :	\</u></td></tr>
+<tr><th id="80">80</th><td><u>				 ( *(t *)(((v) += sizeof(void*)) - sizeof(void*)))</u></td></tr>
+<tr><th id="81">81</th><td><u>#define _crt_va_end(v)		((v) = (va_list)0)</u></td></tr>
+<tr><th id="82">82</th><td><u>#define _crt_va_copy(d,s)	((d) = (s))</u></td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><u>#elif defined(_M_IA64)</u></td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><u>#error VARARGS not implemented for IA64</u></td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td><u>#else</u></td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td><u>#error VARARGS not implemented for this TARGET</u></td></tr>
+<tr><th id="91">91</th><td></td></tr>
+<tr><th id="92">92</th><td><u>#endif /* cpu ifdefs */</u></td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><u>#<span data-ppcond="43">endif</span> /* compiler ifdefs */</u></td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><u>#<span data-ppcond="96">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="97">97</th><td>}</td></tr>
+<tr><th id="98">98</th><td><u>#<span data-ppcond="96">endif</span></u></td></tr>
+<tr><th id="99">99</th><td></td></tr>
+<tr><th id="100">100</th><td><u>#<span data-ppcond="100">ifndef</span> <span class="macro" data-ref="_M/__WIDL__">__WIDL__</span></u></td></tr>
+<tr><th id="101">101</th><td><u>#pragma pack(pop)</u></td></tr>
+<tr><th id="102">102</th><td><u>#<span data-ppcond="100">endif</span></u></td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td><u>#<span data-ppcond="6">endif</span> /* _INC_VADEFS */</u></td></tr>
+<tr><th id="105">105</th><td></td></tr>
+<tr><th id="106">106</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

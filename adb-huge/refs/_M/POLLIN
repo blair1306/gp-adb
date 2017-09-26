@@ -1,0 +1,11 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/poll.h' l='26'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/poll.h' l='23'>/* Event types that can be polled for.  These bits may be set in `events&apos;
+   to indicate the interesting event types; they will appear in `revents&apos;
+   to indicate the status of the file descriptor.  */</doc>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='177' u='c'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='179' u='c'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='224' u='c'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='252' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='134' u='c'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='377' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='1135'/>

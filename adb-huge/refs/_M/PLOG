@@ -1,0 +1,9 @@
+<dec f='codebrowser/system/core/base/include/android-base/logging.h' l='136'/>
+<doc f='codebrowser/system/core/base/include/android-base/logging.h' l='134'>// A variant of LOG that also logs the current errno value. To be used when
+// library calls fail.</doc>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='222' u='c'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='227' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='681' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1162' u='c'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='244' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1063' u='c'/>

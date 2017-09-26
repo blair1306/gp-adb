@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='91' type='size_t _strxfrm_l(char *__restrict _Dst, const char *__restrict _Src, size_t _MaxCount, _locale_t _Locale)'/>

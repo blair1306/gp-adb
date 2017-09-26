@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='569' type='char * __stpcpy(char *restrict __dest, const char *restrict __src)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='568'>/* Copy SRC to DEST, returning the address of the terminating &apos;\0&apos; in DEST.  */</doc>

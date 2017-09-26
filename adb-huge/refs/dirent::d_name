@@ -1,0 +1,11 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/dirent.h' l='34' type='char [256]'/>
+<use f='codebrowser/external/boringssl/src/crypto/directory_posix.c' l='93' u='r' c='OPENSSL_DIR_read'/>
+<offset>152</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/dirent.h' l='34'>/* We must not include limits.h! */</doc>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='611' u='r' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='616' u='r' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='625' u='r' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='127' u='r' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='129' u='r' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='145' u='r' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='147' u='r' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='166' type='ssize_t recvfrom(int __fd, void *restrict __buf, size_t __n, int __flags, struct sockaddr *restrict __addr, socklen_t *restrict __addr_len)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket2.h' l='64' ll='78' macro='1' type='ssize_t recvfrom(int __fd, void *restrict __buf, size_t __n, int __flags, struct sockaddr *restrict __addr, socklen_t *restrict __addr_len)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='159'>/* Read N bytes into BUF through socket FD.
+   If ADDR is not NULL, fill in *ADDR_LEN bytes of it with tha address of
+   the sender, and store the actual size of the address in *ADDR_LEN.
+   Returns the number of bytes read or -1 for errors.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='984' type='int recvfrom(SOCKET s, char * buf, int len, int flags, struct sockaddr * from, int * fromlen)'/>

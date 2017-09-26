@@ -1,0 +1,16 @@
+<dec f='codebrowser/system/core/adb/usb_windows.cpp' l='51' type='ADBAPIHANDLE'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='283' u='w' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='284' u='r' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='292' u='r' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='303' u='r' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='314' u='r' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='331' u='r' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='477' u='r' c='_Z18usb_cleanup_handleP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='478' u='r' c='_Z18usb_cleanup_handleP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='483' u='w' c='_Z18usb_cleanup_handleP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='537' u='r' c='_Z17recognized_deviceP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='547' u='r' c='_Z17recognized_deviceP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='565' u='r' c='_Z17recognized_deviceP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='614' u='r' c='_Z12find_devicesv'/>
+<offset>64</offset>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='50'>/// Handle to USB interface</doc>

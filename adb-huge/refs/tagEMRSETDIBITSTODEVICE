@@ -1,0 +1,17 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3930' ll='3946'/>
+<size>76</size>
+<mbr r='tagEMRSETDIBITSTODEVICE::emr' o='0' t='EMR'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::rclBounds' o='64' t='RECTL'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::xDest' o='192' t='LONG'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::yDest' o='224' t='LONG'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::xSrc' o='256' t='LONG'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::ySrc' o='288' t='LONG'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::cxSrc' o='320' t='LONG'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::cySrc' o='352' t='LONG'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::offBmiSrc' o='384' t='DWORD'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::cbBmiSrc' o='416' t='DWORD'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::offBitsSrc' o='448' t='DWORD'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::cbBitsSrc' o='480' t='DWORD'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::iUsageSrc' o='512' t='DWORD'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::iStartScan' o='544' t='DWORD'/>
+<mbr r='tagEMRSETDIBITSTODEVICE::cScans' o='576' t='DWORD'/>

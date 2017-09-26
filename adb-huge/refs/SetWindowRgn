@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='2865' type='int SetWindowRgn(HWND hWnd, HRGN hRgn, WINBOOL bRedraw)'/>

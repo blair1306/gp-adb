@@ -1,0 +1,7 @@
+_ZNSt12experimental15fundamentals_v13any4swapERS1_|std::experimental::fundamentals_v1::any::swap
+_ZNSt12experimental15fundamentals_v14swapERNS0_3anyES2_|std::experimental::fundamentals_v1::swap
+_ZNSt12experimental15fundamentals_v18optional4swapERNS0_8optionalIT_EE|std::experimental::fundamentals_v1::optional::swap
+_ZNSt12experimental15fundamentals_v14swapERNS0_8optionalIT_EES4_|std::experimental::fundamentals_v1::swap
+_Z8swprintfPwjPKwz|swprintf
+_Z10swprintf_sRAT__wPKwz|swprintf_s
+swscanf|swscanf

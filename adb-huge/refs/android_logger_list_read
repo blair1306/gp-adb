@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/include/log/logger.h' l='191' type='int android_logger_list_read(struct logger_list * logger_list, struct log_msg * log_msg)'/>
+<doc f='codebrowser/system/core/include/log/logger.h' l='190'>/* In the purest sense, the following two are orthogonal interfaces */</doc>

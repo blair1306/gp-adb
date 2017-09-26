@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/fcntl.h' l='41'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/fcntl.h' l='41'/>
+<use f='codebrowser/system/core/base/file.cpp' l='86' u='c'/>
+<use f='codebrowser/system/core/base/file.cpp' l='113' u='c'/>

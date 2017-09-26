@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/string_s.h' l='63' type='errno_t memcpy_s(void * _dest, size_t _numberOfElements, const void * _src, size_t _count)'/>

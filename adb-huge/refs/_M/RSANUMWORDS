@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/include/mincrypt/rsa.h' l='38'/>
+<use f='codebrowser/system/core/include/mincrypt/rsa.h' l='43' u='c'/>
+<use f='codebrowser/system/core/include/mincrypt/rsa.h' l='44' u='c'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='92' u='c'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='97' u='c'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='99' u='c'/>

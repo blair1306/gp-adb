@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='148' type='int atoi(const char * __nptr)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='283' ll='287' macro='1' type='int atoi(const char * __nptr)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='147'>/* Convert a string to an integer.  */</doc>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1132' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='115' u='c' c='_ZL16local_name_to_fdPKcPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='275' u='c' c='_Z13service_to_fdPKcPK10atransport'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='346' type='int atoi(const char * _Str)'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='299' u='c' c='configureInitialState'/>

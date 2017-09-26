@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h' l='58' ll='61'/>
+<size>4</size>
+<mbr r='sockproto::sp_family' o='0' t='u_short'/>
+<mbr r='sockproto::sp_protocol' o='16' t='u_short'/>

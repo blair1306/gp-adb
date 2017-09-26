@@ -1,0 +1,7 @@
+_ZN8ScopedFdD1Ev|ScopedFd::~ScopedFd
+_ZN13ShellProtocolD1Ev|ShellProtocol::~ShellProtocol
+_Z11_snprintf_sRAT__cjPKcz|_snprintf_s
+_Z12_snwprintf_sRAT__wjPKcz|_snwprintf_s
+_Z12_splitpath_sPKcRAT__cRAT0__cRAT1__cRAT2__c|_splitpath_s
+_stat64i32|_stat64i32
+_ZN7android4base17ScopedLogSeverityD1Ev|android::base::ScopedLogSeverity::~ScopedLogSeverity

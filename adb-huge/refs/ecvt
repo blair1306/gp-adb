@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='808' type='char * ecvt(double __value, int __ndigit, int *restrict __decpt, int *restrict __sign)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='805'>/* Convert VALUE to a string with NDIGIT digits and return a pointer to
+   this.  Set *DECPT with the position of the decimal character and *SIGN
+   with the sign of the number.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='607' type='char * ecvt(double _Val, int _NumOfDigits, int * _PtDec, int * _PtSign)'/>

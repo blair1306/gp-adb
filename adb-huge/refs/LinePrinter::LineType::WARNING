@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/adb/line_printer.h' l='29' type='1'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='368' u='r' c='_ZN14SyncConnection7WarningEPKcz'/>

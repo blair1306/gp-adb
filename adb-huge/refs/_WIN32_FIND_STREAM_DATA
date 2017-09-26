@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='2254' ll='2257'/>
+<size>1192</size>
+<mbr r='_WIN32_FIND_STREAM_DATA::StreamSize' o='0' t='LARGE_INTEGER'/>
+<mbr r='_WIN32_FIND_STREAM_DATA::cStreamName' o='64' t='WCHAR [296]'/>

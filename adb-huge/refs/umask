@@ -1,0 +1,9 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='314' type='__mode_t umask(__mode_t __mask)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='312'>/* Set the file creation mask of the current process to MASK,
+   and return the old creation mask.  */</doc>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='241' u='c' c='_ZL12generate_keyPKc'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='246' u='c' c='_ZL12generate_keyPKc'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='250' u='c' c='_ZL12generate_keyPKc'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='872' u='c' c='_ZL17set_time_and_modeRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElj'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='873' u='c' c='_ZL17set_time_and_modeRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElj'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='328' type='int umask(int _Mode)'/>

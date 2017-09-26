@@ -1,0 +1,8 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='463' type='ADBAPIHANDLE AdbGetEndpointInterface(ADBAPIHANDLE adb_endpoint)'/>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='456'>/** \brief Gets handle to interface object for the given endpoint
+
+  @param[in] adb_endpoint A handle to opened endpoint object, obtained via one
+         of the AdbOpenXxxEndpoint calls.
+  @return Handle to the interface for this endpoint or NULL on failure. If NULL
+          is returned GetLastError() provides extended error information.
+*/</doc>

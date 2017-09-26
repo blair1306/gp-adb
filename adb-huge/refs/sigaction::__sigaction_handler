@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sigaction.h' l='36' type='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sigaction.h:29:5)'/>
+<offset>0</offset>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='665' macro='1' u='m'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='590' macro='1' u='m'/>

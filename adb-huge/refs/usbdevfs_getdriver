@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usbdevice_fs.h' l='68' ll='71'/>
+<size>260</size>
+<mbr r='usbdevfs_getdriver::interface' o='0' t='unsigned int'/>
+<mbr r='usbdevfs_getdriver::driver' o='32' t='char [256]'/>

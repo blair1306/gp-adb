@@ -1,0 +1,2 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='350' type='bool AdbGetUsbInterfaceDescriptor(ADBAPIHANDLE adb_interface, USB_INTERFACE_DESCRIPTOR * desc)'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='547' u='c' c='_Z17recognized_deviceP10usb_handle'/>

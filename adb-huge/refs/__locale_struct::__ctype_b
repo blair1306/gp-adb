@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/xlocale.h' l='34' type='const unsigned short *'/>
+<offset>832</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/xlocale.h' l='33'>/* To increase the speed of this solution we add some special members.  */</doc>
+<use f='codebrowser/external/libcxx/include/locale' l='1300' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/include/locale' l='1306' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1113' u='r' c='_ZNSt3__15ctypeIcE13classic_tableEv'/>

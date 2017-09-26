@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/langinfo.h' l='240' type='196608'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/langinfo.h' l='237'>/* LC_COLLATE category: text sorting.
+     This information is accessed by the strcoll and strxfrm functions.
+     These `nl_langinfo&apos; names are used only internally.  */</doc>

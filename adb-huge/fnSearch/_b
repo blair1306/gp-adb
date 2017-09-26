@@ -1,0 +1,7 @@
+_ZNSt12experimental19bad_optional_accessD1Ev|std::experimental::bad_optional_access::~bad_optional_access
+_ZNSt9bad_allocD1Ev|std::bad_alloc::~bad_alloc
+_ZNSt16bad_array_lengthD1Ev|std::bad_array_length::~bad_array_length
+_ZNSt20bad_array_new_lengthD1Ev|std::bad_array_new_length::~bad_array_new_length
+_ZNSt13bad_exceptionD1Ev|std::bad_exception::~bad_exception
+_ZNSt8bad_castD1Ev|std::bad_cast::~bad_cast
+_ZNSt10bad_typeidD1Ev|std::bad_typeid::~bad_typeid

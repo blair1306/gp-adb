@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket2.h' l='52' type='ssize_t __recvfrom_alias(int __fd, void *restrict __buf, size_t __n, int __flags, struct sockaddr *restrict __addr, socklen_t *restrict __addr_len)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket2.h' l='77' u='c' c='recvfrom'/>

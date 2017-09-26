@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='594' ll='599'/>
+<ovr f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='602' c='tagMOUSEHOOKSTRUCTEX'/>
+<size>20</size>
+<mbr r='tagMOUSEHOOKSTRUCT::pt' o='0' t='POINT'/>
+<mbr r='tagMOUSEHOOKSTRUCT::hwnd' o='64' t='HWND'/>
+<mbr r='tagMOUSEHOOKSTRUCT::wHitTestCode' o='96' t='UINT'/>
+<mbr r='tagMOUSEHOOKSTRUCT::dwExtraInfo' o='128' t='ULONG_PTR'/>

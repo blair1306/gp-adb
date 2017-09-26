@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='586' ll='592'/>
+<size>20</size>
+<mbr r='tagDEBUGHOOKINFO::idThread' o='0' t='DWORD'/>
+<mbr r='tagDEBUGHOOKINFO::idThreadInstaller' o='32' t='DWORD'/>
+<mbr r='tagDEBUGHOOKINFO::lParam' o='64' t='LPARAM'/>
+<mbr r='tagDEBUGHOOKINFO::wParam' o='96' t='WPARAM'/>
+<mbr r='tagDEBUGHOOKINFO::code' o='128' t='int'/>

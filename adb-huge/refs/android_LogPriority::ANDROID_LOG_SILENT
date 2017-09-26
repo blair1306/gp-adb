@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/include/android/log.h' l='88' type='8'/>
+<doc f='codebrowser/system/core/include/android/log.h' l='88'>/* only for SetMinPriority(); must be last */</doc>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='235' u='r' c='configureInitialState'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='247' u='r' c='configureInitialState'/>

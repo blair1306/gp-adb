@@ -1,0 +1,17 @@
+<dec f='codebrowser/system/core/adb/usb_windows.cpp' l='48' type='usb_handle *'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='72' u='w'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='128' u='r' c='_Z19known_device_lockedPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='128' u='r' c='_Z19known_device_lockedPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='165' u='w' c='_Z19register_new_deviceP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='167' u='w' c='_Z19register_new_deviceP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='168' u='r' c='_Z19register_new_deviceP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='279' u='w' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='513' u='r' c='_Z9usb_closeP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='514' u='r' c='_Z9usb_closeP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='515' u='w' c='_Z9usb_closeP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='515' u='r' c='_Z9usb_closeP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='517' u='w' c='_Z9usb_closeP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='655' u='r' c='_ZL12kick_devicesv'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='655' u='r' c='_ZL12kick_devicesv'/>
+<offset>32</offset>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='47'>/// Next entry in the list of opened usb handles</doc>

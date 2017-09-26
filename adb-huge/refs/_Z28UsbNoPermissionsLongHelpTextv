@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/diagnose_usb.h' l='25' type='std::string UsbNoPermissionsLongHelpText()'/>
+<def f='codebrowser/system/core/adb/diagnose_usb.cpp' l='73' ll='83' type='std::string UsbNoPermissionsLongHelpText()'/>
+<doc f='codebrowser/system/core/adb/diagnose_usb.cpp' l='72'>// Long help text can span multiple lines and should provide more detailed information.</doc>
+<use f='codebrowser/system/core/adb/transport.cpp' l='676' u='c' c='_Z21acquire_one_transport13TransportTypePKcPbPNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE'/>

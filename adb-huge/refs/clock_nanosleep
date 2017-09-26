@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='347' type='int clock_nanosleep(clockid_t __clock_id, int __flags, const struct timespec * __req, struct timespec * __rem)'/>

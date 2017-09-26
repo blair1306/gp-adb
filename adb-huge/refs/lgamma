@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/mathcalls.h' l='253' type='double lgamma(double )'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='1344' u='c' c='_ZNSt3__16lgammaET_'/>

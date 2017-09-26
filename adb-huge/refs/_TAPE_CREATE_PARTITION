@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6583' ll='6587'/>
+<size>12</size>
+<mbr r='_TAPE_CREATE_PARTITION::Method' o='0' t='DWORD'/>
+<mbr r='_TAPE_CREATE_PARTITION::Count' o='32' t='DWORD'/>
+<mbr r='_TAPE_CREATE_PARTITION::Size' o='64' t='DWORD'/>

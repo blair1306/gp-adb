@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/liblog/logger.h' l='93' type='ssize_t (*)(struct android_log_logger_list *, struct android_log_transport_context *, char *, size_t)'/>
+<offset>896</offset>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1095' type='int pthread_key_create(pthread_key_t * __key, void (*)(void *) __destr_function)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1089'>/* Create a key value identifying a location in the thread-specific
+   data area.  Each thread maintains a distinct thread-specific data
+   area.  DESTR_FUNCTION, if non-NULL, is called with the value
+   associated to that key when the key is destroyed.
+   DESTR_FUNCTION is not called if the value associated is NULL when
+   the key is destroyed.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/thread_pthread.c' l='117' u='c' c='thread_local_init'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_exception_storage.cpp' l='67' u='c' c='__cxxabiv1::(anonymousnamespace)::construct_'/>
+<use f='codebrowser/system/core/libcutils/threads.c' l='63' u='c' c='thread_store_set'/>

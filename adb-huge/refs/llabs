@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='776' type='long long llabs(long long __x)'/>
+<use f='codebrowser/external/libcxx/include/cstdlib' l='169' u='c' c='_ZNSt3__13absEx'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='630' type='long long llabs(long long )'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='632' macro='1' type='long long llabs(long long _j)'/>

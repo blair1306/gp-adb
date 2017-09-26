@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='422' ll='426'/>
+<size>8</size>
+<mbr r='tagWTSSESSION_NOTIFICATION::cbSize' o='0' t='DWORD'/>
+<mbr r='tagWTSSESSION_NOTIFICATION::dwSessionId' o='32' t='DWORD'/>

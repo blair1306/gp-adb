@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='926' type='int pthread_rwlockattr_getpshared(const pthread_rwlockattr_t *restrict __attr, int *restrict __pshared)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='925'>/* Return current setting of process-shared attribute of ATTR in PSHARED.  */</doc>

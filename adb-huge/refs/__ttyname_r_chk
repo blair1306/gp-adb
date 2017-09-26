@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/unistd.h' l='280' type='int __ttyname_r_chk(int __fd, char * __buf, size_t __buflen, size_t __nreal)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/unistd.h' l='297' u='c' c='ttyname_r'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/wctype.h' l='240' type='int iswcntrl_l(wint_t __wc, __locale_t __locale)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/wctype.h' l='239'>/* Test for any control wide character.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1273' u='c' c='_ZNKSt3__112ctype_bynameIwE5do_isEtw'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1302' u='c' c='_ZNKSt3__112ctype_bynameIwE5do_isEPKwS3_Pt'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1341' u='c' c='_ZNKSt3__112ctype_bynameIwE10do_scan_isEtPKwS3_'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1366' u='c' c='_ZNKSt3__112ctype_bynameIwE11do_scan_notEtPKwS3_'/>

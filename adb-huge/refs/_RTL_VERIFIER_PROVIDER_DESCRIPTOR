@@ -1,0 +1,13 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6026' ll='6038'/>
+<size>44</size>
+<mbr r='_RTL_VERIFIER_PROVIDER_DESCRIPTOR::Length' o='0' t='DWORD'/>
+<mbr r='_RTL_VERIFIER_PROVIDER_DESCRIPTOR::ProviderDlls' o='32' t='PRTL_VERIFIER_DLL_DESCRIPTOR'/>
+<mbr r='_RTL_VERIFIER_PROVIDER_DESCRIPTOR::ProviderDllLoadCallback' o='64' t='RTL_VERIFIER_DLL_LOAD_CALLBACK'/>
+<mbr r='_RTL_VERIFIER_PROVIDER_DESCRIPTOR::ProviderDllUnloadCallback' o='96' t='RTL_VERIFIER_DLL_UNLOAD_CALLBACK'/>
+<mbr r='_RTL_VERIFIER_PROVIDER_DESCRIPTOR::VerifierImage' o='128' t='PWSTR'/>
+<mbr r='_RTL_VERIFIER_PROVIDER_DESCRIPTOR::VerifierFlags' o='160' t='DWORD'/>
+<mbr r='_RTL_VERIFIER_PROVIDER_DESCRIPTOR::VerifierDebug' o='192' t='DWORD'/>
+<mbr r='_RTL_VERIFIER_PROVIDER_DESCRIPTOR::RtlpGetStackTraceAddress' o='224' t='PVOID'/>
+<mbr r='_RTL_VERIFIER_PROVIDER_DESCRIPTOR::RtlpDebugPageHeapCreate' o='256' t='PVOID'/>
+<mbr r='_RTL_VERIFIER_PROVIDER_DESCRIPTOR::RtlpDebugPageHeapDestroy' o='288' t='PVOID'/>
+<mbr r='_RTL_VERIFIER_PROVIDER_DESCRIPTOR::ProviderNtdllHeapFreeCallback' o='320' t='RTL_VERIFIER_NTDLLHEAPFREE_CALLBACK'/>

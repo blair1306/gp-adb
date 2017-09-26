@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/crtdefs.h' l='166' ll='170'/>
+<size>6</size>
+<mbr r='tagLC_ID::wLanguage' o='0' t='unsigned short'/>
+<mbr r='tagLC_ID::wCountry' o='16' t='unsigned short'/>
+<mbr r='tagLC_ID::wCodePage' o='32' t='unsigned short'/>

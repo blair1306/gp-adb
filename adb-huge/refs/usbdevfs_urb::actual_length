@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usbdevice_fs.h' l='103' type='int'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='330' u='r' c='_ZL14usb_bulk_writeP10usb_handlePKvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='382' u='r' c='_ZL13usb_bulk_readP10usb_handlePvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='391' u='r' c='_ZL13usb_bulk_readP10usb_handlePvi'/>
+<offset>224</offset>

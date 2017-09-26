@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='479' type='int fchown(int __fd, __uid_t __owner, __gid_t __group)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='478'>/* Change the owner and group of the file that FD is open on.  */</doc>
+<use f='codebrowser/system/core/base/file.cpp' l='99' u='c' c='_ZN7android4base17WriteStringToFileERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_jjj'/>

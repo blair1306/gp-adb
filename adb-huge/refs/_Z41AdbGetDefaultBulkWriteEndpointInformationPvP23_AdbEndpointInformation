@@ -1,0 +1,1 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='391' type='bool AdbGetDefaultBulkWriteEndpointInformation(ADBAPIHANDLE adb_interface, AdbEndpointInformation * info)'/>

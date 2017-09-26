@@ -1,0 +1,24 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/asm-generic/errno-base.h' l='8'/>
+<use f='codebrowser/external/libcxx/include/cerrno' l='317' u='a'/>
+<use f='codebrowser/external/libcxx/include/system_error' l='281' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/errno.h' l='29'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='328' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='341' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='365' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1356' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2537' u='c'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='372' u='c'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='383' u='c'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='396' u='c'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='433' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='117' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='126' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='154' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='159' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='190' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='195' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='216' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='228' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='257' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='262' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='317' u='c'/>

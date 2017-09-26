@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/include/cutils/ashmem.h' l='23' type='int ashmem_get_size_region(int fd)'/>
+<def f='codebrowser/system/core/libcutils/ashmem-host.c' l='73' ll='92' type='int ashmem_get_size_region(int fd)'/>

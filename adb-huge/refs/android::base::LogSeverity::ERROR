@@ -1,0 +1,20 @@
+<dec f='codebrowser/system/core/base/include/android-base/logging.h' l='43' type='4'/>
+<use f='codebrowser/system/core/adb/adb_trace.cpp' l='140' u='r' c='_ZL16setup_trace_maskv'/>
+<use f='codebrowser/system/core/adb/adb_trace.cpp' l='140' u='r' c='_ZL16setup_trace_maskv'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='222' u='r' c='_Z19set_file_block_modeib'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='222' u='r' c='_Z19set_file_block_modeib'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='227' u='r' c='_Z19set_file_block_modeib'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='227' u='r' c='_Z19set_file_block_modeib'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='299' u='r' c='_ZL13read_and_dumpib'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='299' u='r' c='_ZL13read_and_dumpib'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='644' u='r' c='_ZL11RemoteShellbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEcS7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='644' u='r' c='_ZL11RemoteShellbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEcS7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='681' u='r' c='_ZL11RemoteShellbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEcS7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='681' u='r' c='_ZL11RemoteShellbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEcS7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1162' u='r' c='_ZL18send_shell_command13TransportTypePKcRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEb'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1162' u='r' c='_ZL18send_shell_command13TransportTypePKcRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEb'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='148' u='r' c='_Z15fdevent_installP7fdeventiPFvijPvES1_'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='148' u='r' c='_Z15fdevent_installP7fdeventiPFvijPvES1_'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='244' u='r' c='_ZL15fdevent_processv'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='244' u='r' c='_ZL15fdevent_processv'/>
+<use f='codebrowser/system/core/base/logging.cpp' l='278' u='r' c='_ZN7android4base11InitLoggingEPPc'/>

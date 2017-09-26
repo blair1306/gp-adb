@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/adb/transport.h' l='172' type='asocket * create_device_tracker()'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='504' u='c' c='_Z22host_service_to_socketPKcS0_'/>
+<def f='codebrowser/system/core/adb/transport.cpp' l='398' ll='415' type='asocket * create_device_tracker()'/>

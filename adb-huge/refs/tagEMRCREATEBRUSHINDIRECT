@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3995' ll='3999'/>
+<size>24</size>
+<mbr r='tagEMRCREATEBRUSHINDIRECT::emr' o='0' t='EMR'/>
+<mbr r='tagEMRCREATEBRUSHINDIRECT::ihBrush' o='64' t='DWORD'/>
+<mbr r='tagEMRCREATEBRUSHINDIRECT::lb' o='96' t='LOGBRUSH32'/>

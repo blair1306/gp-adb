@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='576' type='struct sockaddr *'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='66' u='r' c='bio_ip_and_port_to_socket_and_addr'/>
+<offset>192</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='576'>/* Socket address for socket.  */</doc>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='67' u='r' c='socket_network_client_timeout'/>

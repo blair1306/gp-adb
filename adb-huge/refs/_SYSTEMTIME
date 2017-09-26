@@ -1,0 +1,10 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='203' ll='212'/>
+<size>16</size>
+<mbr r='_SYSTEMTIME::wYear' o='0' t='WORD'/>
+<mbr r='_SYSTEMTIME::wMonth' o='16' t='WORD'/>
+<mbr r='_SYSTEMTIME::wDayOfWeek' o='32' t='WORD'/>
+<mbr r='_SYSTEMTIME::wDay' o='48' t='WORD'/>
+<mbr r='_SYSTEMTIME::wHour' o='64' t='WORD'/>
+<mbr r='_SYSTEMTIME::wMinute' o='80' t='WORD'/>
+<mbr r='_SYSTEMTIME::wSecond' o='96' t='WORD'/>
+<mbr r='_SYSTEMTIME::wMilliseconds' o='112' t='WORD'/>

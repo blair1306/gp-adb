@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='855' type='int fileno(FILE * __stream)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='854'>/* Return the system file descriptor for STREAM.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='951' type='int fileno(FILE * _File)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1337' u='c' c='_ZL19_get_console_handleP6_iobuf'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='527' u='c' c='showLog'/>

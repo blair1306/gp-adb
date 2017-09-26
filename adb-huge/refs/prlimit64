@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/resource.h' l='262' type='int prlimit64(__pid_t __pid, enum __rlimit_resource __resource, const struct rlimit64 * __new_limit, struct rlimit64 * __old_limit)'/>

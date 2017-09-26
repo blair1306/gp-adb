@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='120' type='int isspace(int )'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ctype.h' l='112' type='int isspace(int _C)'/>
+<use f='codebrowser/system/core/base/strings.cpp' l='60' u='c' c='_ZN7android4base4TrimERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/base/strings.cpp' l='68' u='c' c='_ZN7android4base4TrimERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE'/>

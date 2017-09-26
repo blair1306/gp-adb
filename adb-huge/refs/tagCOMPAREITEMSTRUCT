@@ -1,0 +1,10 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='1717' ll='1726'/>
+<size>32</size>
+<mbr r='tagCOMPAREITEMSTRUCT::CtlType' o='0' t='UINT'/>
+<mbr r='tagCOMPAREITEMSTRUCT::CtlID' o='32' t='UINT'/>
+<mbr r='tagCOMPAREITEMSTRUCT::hwndItem' o='64' t='HWND'/>
+<mbr r='tagCOMPAREITEMSTRUCT::itemID1' o='96' t='UINT'/>
+<mbr r='tagCOMPAREITEMSTRUCT::itemData1' o='128' t='ULONG_PTR'/>
+<mbr r='tagCOMPAREITEMSTRUCT::itemID2' o='160' t='UINT'/>
+<mbr r='tagCOMPAREITEMSTRUCT::itemData2' o='192' t='ULONG_PTR'/>
+<mbr r='tagCOMPAREITEMSTRUCT::dwLocaleId' o='224' t='DWORD'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='71' type='char *'/>
+<offset>192</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='69'>/* First three chars are a currency symbol from ISO 4217.
+     Fourth char is the separator.  Fifth char is &apos;\0&apos;.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5972' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6122' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='620' type='int mkstemp(char * __template)'/>
+<use f='codebrowser/system/core/base/test_utils.cpp' l='89' u='c' c='_ZN13TemporaryFile4initERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/libcutils/ashmem-host.c' l='45' u='c' c='ashmem_create_region'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='116' u='c' c='fs_write_atomic_int'/>

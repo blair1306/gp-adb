@@ -1,0 +1,26 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='363' type='int printf(const char *restrict __format)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='359'>/* Write formatted output to stdout.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/system/core/adb/adb.cpp' l='448' u='c' c='_Z13handle_packetP7apacketP10atransport'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='236' u='c' c='_Z11adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='831' u='c' c='_ZL19adb_download_bufferPKcS0_PKvjb'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='836' u='c' c='_ZL19adb_download_bufferPKcS0_PKvjb'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='877' u='c' c='_ZL17adb_sideload_hostPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='881' u='c' c='_ZL17adb_sideload_hostPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='893' u='c' c='_ZL17adb_sideload_hostPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='945' u='c' c='_ZL17adb_sideload_hostPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='951' u='c' c='_ZL17adb_sideload_hostPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1237' u='c' c='_ZL6backupiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1265' u='c' c='_ZL7restoreiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1386' u='c' c='_ZL17adb_query_commandRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1592' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1904' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1920' u='c' c='_ZL13uninstall_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2137' u='c' c='_ZL20uninstall_app_legacy13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='590' u='c' c='_Z10do_sync_lsPKc'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='77' u='c' c='_ZN11LinePrinter5PrintENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS_8LineTypeE'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='113' u='c' c='_ZN11LinePrinter5PrintENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS_8LineTypeE'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='246' u='c' c='_ZL21create_service_threadPFviPvES_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='263' u='c' c='_ZL21create_service_threadPFviPvES_'/>

@@ -1,0 +1,1 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/stdio_s.h' l='138' macro='1' type='errno_t _wtmpnam_s(wchar_t (&amp;)[__size] _DstBuf)'/>

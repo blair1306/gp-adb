@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='119' type='int getsockname(int __fd, struct sockaddr *restrict __addr, socklen_t *restrict __len)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='118'>/* Put the local address of FD into *ADDR and its length in *LEN.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='970' type='int getsockname(SOCKET s, struct sockaddr * name, int * namelen)'/>
+<use f='codebrowser/system/core/libcutils/sockets.cpp' l='42' u='c' c='socket_get_local_port'/>

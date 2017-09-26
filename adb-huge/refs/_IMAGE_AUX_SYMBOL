@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4859' ll='4891'/>
+<size>18</size>
+<mbr r='_IMAGE_AUX_SYMBOL::Sym' o='0' t='struct (anonymous struct at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h:4860:7)'/>
+<mbr r='_IMAGE_AUX_SYMBOL::File' o='0' t='struct (anonymous struct at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h:4880:7)'/>
+<mbr r='_IMAGE_AUX_SYMBOL::Section' o='0' t='struct (anonymous struct at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h:4883:7)'/>

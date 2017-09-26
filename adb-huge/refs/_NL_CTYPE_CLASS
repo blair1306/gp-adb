@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/langinfo.h' l='264' type='0'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/langinfo.h' l='261'>/* LC_CTYPE category: character classification.
+     This information is accessed by the functions in &lt;ctype.h&gt;.
+     These `nl_langinfo&apos; names are used only internally.  */</doc>

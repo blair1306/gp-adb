@@ -1,0 +1,8 @@
+<dec f='codebrowser/system/core/include/cutils/trace.h' l='106' type='void atrace_set_debuggable(_Bool debuggable)'/>
+<def f='codebrowser/system/core/libcutils/trace-host.c' l='27' type='void atrace_set_debuggable(_Bool debuggable)'/>
+<doc f='codebrowser/system/core/include/cutils/trace.h' l='100'>/**
+ * Set whether the process is debuggable.  By default the process is not
+ * considered debuggable.  If the process is not debuggable then application-
+ * level tracing is not allowed unless the ro.debuggable system property is
+ * set to &apos;1&apos;.
+ */</doc>

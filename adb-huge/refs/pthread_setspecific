@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1106' type='int pthread_setspecific(pthread_key_t __key, const void * __pointer)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1105'>/* Store POINTER in the thread-specific data slot identified by KEY. */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/thread_pthread.c' l='149' u='c' c='CRYPTO_set_thread_local'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_exception_storage.cpp' l='62' u='c' c='__cxxabiv1::(anonymousnamespace)::destruct_'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_exception_storage.cpp' l='83' u='c' c='__cxa_get_globals'/>
+<use f='codebrowser/system/core/libcutils/threads.c' l='71' u='c' c='thread_store_set'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='20' ll='25'/>
+<size>8</size>
+<mbr r='_SMALL_RECT::Left' o='0' t='SHORT'/>
+<mbr r='_SMALL_RECT::Top' o='16' t='SHORT'/>
+<mbr r='_SMALL_RECT::Right' o='32' t='SHORT'/>
+<mbr r='_SMALL_RECT::Bottom' o='48' t='SHORT'/>

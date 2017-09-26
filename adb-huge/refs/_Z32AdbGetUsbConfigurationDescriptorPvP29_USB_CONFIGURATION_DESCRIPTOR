@@ -1,0 +1,1 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='337' type='bool AdbGetUsbConfigurationDescriptor(ADBAPIHANDLE adb_interface, USB_CONFIGURATION_DESCRIPTOR * desc)'/>

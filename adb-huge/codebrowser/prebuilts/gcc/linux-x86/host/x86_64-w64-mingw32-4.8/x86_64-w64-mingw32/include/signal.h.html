@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>signal.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/signal.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/signal.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='signal.h.html'>signal.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/_INC_SIGNAL">_INC_SIGNAL</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/_INC_SIGNAL" data-ref="_M/_INC_SIGNAL">_INC_SIGNAL</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="crtdefs.h.html">&lt;crtdefs.h&gt;</a></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#<span data-ppcond="11">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="12">12</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="11">endif</span></u></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><u>#<span data-ppcond="15">ifndef</span> <span class="macro" data-ref="_M/_SIG_ATOMIC_T_DEFINED">_SIG_ATOMIC_T_DEFINED</span></u></td></tr>
+<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/_SIG_ATOMIC_T_DEFINED" data-ref="_M/_SIG_ATOMIC_T_DEFINED">_SIG_ATOMIC_T_DEFINED</dfn></u></td></tr>
+<tr><th id="17">17</th><td>  <b>typedef</b> <em>int</em> <dfn class="typedef" id="sig_atomic_t" title='sig_atomic_t' data-type='int' data-ref="sig_atomic_t">sig_atomic_t</dfn>;</td></tr>
+<tr><th id="18">18</th><td><u>#<span data-ppcond="15">endif</span></u></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/NSIG" data-ref="_M/NSIG">NSIG</dfn> 23</u></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/SIGINT" data-ref="_M/SIGINT">SIGINT</dfn> 2</u></td></tr>
+<tr><th id="23">23</th><td><u>#define <dfn class="macro" id="_M/SIGILL" data-ref="_M/SIGILL">SIGILL</dfn> 4</u></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/SIGABRT_COMPAT" data-ref="_M/SIGABRT_COMPAT">SIGABRT_COMPAT</dfn> 6</u></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/SIGFPE" data-ref="_M/SIGFPE">SIGFPE</dfn> 8</u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SIGSEGV" data-ref="_M/SIGSEGV">SIGSEGV</dfn> 11</u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/SIGTERM" data-ref="_M/SIGTERM">SIGTERM</dfn> 15</u></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/SIGBREAK" data-ref="_M/SIGBREAK">SIGBREAK</dfn> 21</u></td></tr>
+<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/SIGABRT" data-ref="_M/SIGABRT">SIGABRT</dfn> 22       /* used by abort, replace SIGIOT in the future */</u></td></tr>
+<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/SIGABRT2" data-ref="_M/SIGABRT2">SIGABRT2</dfn> 22</u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><u>#<span data-ppcond="32">ifdef</span> <span class="macro" data-ref="_M/_POSIX">_POSIX</span></u></td></tr>
+<tr><th id="33">33</th><td><u>#define	SIGHUP	1	/* hangup */</u></td></tr>
+<tr><th id="34">34</th><td><u>#define	SIGQUIT	3	/* quit */</u></td></tr>
+<tr><th id="35">35</th><td><u>#define	SIGTRAP	5	/* trace trap (not reset when caught) */</u></td></tr>
+<tr><th id="36">36</th><td><u>#define SIGIOT  6       /* IOT instruction */</u></td></tr>
+<tr><th id="37">37</th><td><u>#define	SIGEMT	7	/* EMT instruction */</u></td></tr>
+<tr><th id="38">38</th><td><u>#define	SIGKILL	9	/* kill (cannot be caught or ignored) */</u></td></tr>
+<tr><th id="39">39</th><td><u>#define	SIGBUS	10	/* bus error */</u></td></tr>
+<tr><th id="40">40</th><td><u>#define	SIGSYS	12	/* bad argument to system call */</u></td></tr>
+<tr><th id="41">41</th><td><u>#define	SIGPIPE	13	/* write on a pipe with no one to read it */</u></td></tr>
+<tr><th id="42">42</th><td><u>#ifdef __USE_MINGW_ALARM</u></td></tr>
+<tr><th id="43">43</th><td><u>#define	SIGALRM	14	/* alarm clock */</u></td></tr>
+<tr><th id="44">44</th><td><u>#endif</u></td></tr>
+<tr><th id="45">45</th><td><u>#<span data-ppcond="32">endif</span></u></td></tr>
+<tr><th id="46">46</th><td></td></tr>
+<tr><th id="47">47</th><td>  <b>typedef</b>	<em>void</em> (*<dfn class="typedef" id="__p_sig_fn_t" title='__p_sig_fn_t' data-type='void (*)(int)' data-ref="__p_sig_fn_t">__p_sig_fn_t</dfn>)(<em>int</em>);</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/SIG_DFL" data-ref="_M/SIG_DFL">SIG_DFL</dfn> (__p_sig_fn_t)0</u></td></tr>
+<tr><th id="50">50</th><td><u>#define <dfn class="macro" id="_M/SIG_IGN" data-ref="_M/SIG_IGN">SIG_IGN</dfn> (__p_sig_fn_t)1</u></td></tr>
+<tr><th id="51">51</th><td><u>#define <dfn class="macro" id="_M/SIG_GET" data-ref="_M/SIG_GET">SIG_GET</dfn> (__p_sig_fn_t)2</u></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/SIG_SGE" data-ref="_M/SIG_SGE">SIG_SGE</dfn> (__p_sig_fn_t)3</u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/SIG_ACK" data-ref="_M/SIG_ACK">SIG_ACK</dfn> (__p_sig_fn_t)4</u></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/SIG_ERR" data-ref="_M/SIG_ERR">SIG_ERR</dfn> (__p_sig_fn_t)-1</u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td>  <b>extern</b> <em>void</em> **<b>__cdecl</b> <dfn class="decl" id="__pxcptinfoptrs" title='__pxcptinfoptrs' data-ref="__pxcptinfoptrs">__pxcptinfoptrs</dfn>(<em>void</em>);</td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/_pxcptinfoptrs" data-ref="_M/_pxcptinfoptrs">_pxcptinfoptrs</dfn> (*__pxcptinfoptrs())</u></td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td>  <a class="typedef" href="#__p_sig_fn_t" title='__p_sig_fn_t' data-type='void (*)(int)' data-ref="__p_sig_fn_t">__p_sig_fn_t</a> <b>__cdecl</b> <dfn class="decl" id="signal" title='signal' data-ref="signal">signal</dfn>(<em>int</em> <dfn class="local col5 decl" id="2155_SigNum" title='_SigNum' data-type='int' data-ref="2155_SigNum">_SigNum</dfn>,<a class="typedef" href="#__p_sig_fn_t" title='__p_sig_fn_t' data-type='void (*)(int)' data-ref="__p_sig_fn_t">__p_sig_fn_t</a> <dfn class="local col6 decl" id="2156_Func" title='_Func' data-type='__p_sig_fn_t' data-ref="2156_Func">_Func</dfn>);</td></tr>
+<tr><th id="60">60</th><td>  <em>int</em> <b>__cdecl</b> <dfn class="decl" id="raise" title='raise' data-ref="raise">raise</dfn>(<em>int</em> <dfn class="local col7 decl" id="2157_SigNum" title='_SigNum' data-type='int' data-ref="2157_SigNum">_SigNum</dfn>);</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td><u>#<span data-ppcond="62">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="63">63</th><td>}</td></tr>
+<tr><th id="64">64</th><td><u>#<span data-ppcond="62">endif</span></u></td></tr>
+<tr><th id="65">65</th><td><u>#<span data-ppcond="6">endif</span></u></td></tr>
+<tr><th id="66">66</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

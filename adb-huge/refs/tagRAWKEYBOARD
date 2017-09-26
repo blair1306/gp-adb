@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5233' ll='5240'/>
+<size>16</size>
+<mbr r='tagRAWKEYBOARD::MakeCode' o='0' t='USHORT'/>
+<mbr r='tagRAWKEYBOARD::Flags' o='16' t='USHORT'/>
+<mbr r='tagRAWKEYBOARD::Reserved' o='32' t='USHORT'/>
+<mbr r='tagRAWKEYBOARD::VKey' o='48' t='USHORT'/>
+<mbr r='tagRAWKEYBOARD::Message' o='64' t='UINT'/>
+<mbr r='tagRAWKEYBOARD::ExtraInformation' o='96' t='ULONG'/>

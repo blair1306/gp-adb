@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/mathcalls.h' l='298' type='int ilogb(double __x)'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='1330' u='c' c='_ZNSt3__15ilogbET_'/>

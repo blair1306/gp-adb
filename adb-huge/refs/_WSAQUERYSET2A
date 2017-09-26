@@ -1,0 +1,16 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='1099' ll='1114'/>
+<size>56</size>
+<mbr r='_WSAQUERYSET2A::dwSize' o='0' t='DWORD'/>
+<mbr r='_WSAQUERYSET2A::lpszServiceInstanceName' o='32' t='LPSTR'/>
+<mbr r='_WSAQUERYSET2A::lpVersion' o='64' t='LPWSAVERSION'/>
+<mbr r='_WSAQUERYSET2A::lpszComment' o='96' t='LPSTR'/>
+<mbr r='_WSAQUERYSET2A::dwNameSpace' o='128' t='DWORD'/>
+<mbr r='_WSAQUERYSET2A::lpNSProviderId' o='160' t='LPGUID'/>
+<mbr r='_WSAQUERYSET2A::lpszContext' o='192' t='LPSTR'/>
+<mbr r='_WSAQUERYSET2A::dwNumberOfProtocols' o='224' t='DWORD'/>
+<mbr r='_WSAQUERYSET2A::lpafpProtocols' o='256' t='LPAFPROTOCOLS'/>
+<mbr r='_WSAQUERYSET2A::lpszQueryString' o='288' t='LPSTR'/>
+<mbr r='_WSAQUERYSET2A::dwNumberOfCsAddrs' o='320' t='DWORD'/>
+<mbr r='_WSAQUERYSET2A::lpcsaBuffer' o='352' t='LPCSADDR_INFO'/>
+<mbr r='_WSAQUERYSET2A::dwOutputFlags' o='384' t='DWORD'/>
+<mbr r='_WSAQUERYSET2A::lpBlob' o='416' t='LPBLOB'/>

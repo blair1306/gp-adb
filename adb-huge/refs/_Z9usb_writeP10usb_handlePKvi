@@ -1,0 +1,7 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='219' type='int usb_write(usb_handle * h, const void * data, int len)'/>
+<use f='codebrowser/system/core/adb/transport_usb.cpp' l='59' u='c' c='_ZL12remote_writeP7apacketP10atransport'/>
+<use f='codebrowser/system/core/adb/transport_usb.cpp' l='64' u='c' c='_ZL12remote_writeP7apacketP10atransport'/>
+<def f='codebrowser/system/core/adb/usb_linux.cpp' l='402' ll='421' type='int usb_write(usb_handle * h, const void * _data, int len)'/>
+<dec f='codebrowser/system/core/adb/usb_windows.cpp' l='109' type='int usb_write(usb_handle * handle, const void * data, int len)'/>
+<def f='codebrowser/system/core/adb/usb_windows.cpp' l='352' ll='414' type='int usb_write(usb_handle * handle, const void * data, int len)'/>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='108'>/// Writes data to the opened usb handle</doc>

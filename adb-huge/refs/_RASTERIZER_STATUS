@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2575' ll='2579'/>
+<size>6</size>
+<mbr r='_RASTERIZER_STATUS::nSize' o='0' t='short'/>
+<mbr r='_RASTERIZER_STATUS::wFlags' o='16' t='short'/>
+<mbr r='_RASTERIZER_STATUS::nLanguageID' o='32' t='short'/>

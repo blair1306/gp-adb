@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stralign.h' l='48' type='PUWSTR uaw_wcschr(PCUWSTR String, WCHAR Character)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stralign.h' l='117' u='c' c='ua_wcschr'/>

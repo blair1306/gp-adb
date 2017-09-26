@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2302' ll='2323' type='int adb_stat(const char * path, struct adb_stat * s)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2301'>// Version of stat() that takes a UTF-8 path.</doc>

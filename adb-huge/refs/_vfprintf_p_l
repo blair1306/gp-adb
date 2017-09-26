@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/stdio_s.h' l='68' type='int _vfprintf_p_l(FILE * _File, const char * _Format, _locale_t _Locale, va_list _ArgList)'/>

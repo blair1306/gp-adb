@@ -1,0 +1,9 @@
+<dec f='codebrowser/system/core/base/include/android-base/stringprintf.h' l='48' type='void android::base::StringAppendV(std::string * dst, const char * format, __va_list_tag * ap)'/>
+<doc f='codebrowser/system/core/base/include/android-base/stringprintf.h' l='47'>// Appends a printf-like formatting of the arguments to &apos;dst&apos;.</doc>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='137' u='c' c='_Z10WriteFdFmtiPKcz'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='343' u='c' c='_ZN14SyncConnection6PrintfEPKcz'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='354' u='c' c='_ZN14SyncConnection5ErrorEPKcz'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='365' u='c' c='_ZN14SyncConnection7WarningEPKcz'/>
+<def f='codebrowser/system/core/base/stringprintf.cpp' l='26' ll='66' type='void android::base::StringAppendV(std::string * dst, const char * format, __va_list_tag * ap)'/>
+<use f='codebrowser/system/core/base/stringprintf.cpp' l='72' u='c' c='_ZN7android4base12StringPrintfEPKcz'/>
+<use f='codebrowser/system/core/base/stringprintf.cpp' l='80' u='c' c='_ZN7android4base13StringAppendFEPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPKcz'/>

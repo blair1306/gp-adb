@@ -1,0 +1,7 @@
+<dec f='codebrowser/system/core/adb/transport.h' l='84' type='int'/>
+<offset>1408</offset>
+<doc f='codebrowser/system/core/adb/transport.h' l='84'>// Use for emulators (local transport)</doc>
+<use f='codebrowser/system/core/adb/transport.cpp' l='996' u='r' c='_Z20kick_all_tcp_devicesv'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='351' u='r' c='_Z42find_emulator_transport_by_adb_port_lockedi'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='399' u='w' c='_Z21init_socket_transportP10atransportiii'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='405' u='w' c='_Z21init_socket_transportP10atransportiii'/>

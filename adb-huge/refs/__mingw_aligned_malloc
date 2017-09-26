@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/malloc.h' l='103' type='void * __mingw_aligned_malloc(size_t _Size, size_t _Alignment)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/malloc.h' l='102'>/* Users should really use MS provided versions */</doc>

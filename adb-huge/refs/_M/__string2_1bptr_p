@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='93'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='90'>/* Dereferencing a pointer arg to run sizeof on it fails for the void
+   pointer case, so we use this instead.
+   Note that __x is evaluated twice. */</doc>

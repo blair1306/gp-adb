@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='964' macro='1' type='SOCKET ___xxx_accept(SOCKET s, struct sockaddr * addr, int * addrlen)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='963'>/* these 46 functions have the same prototypes as in winsock2 */</doc>

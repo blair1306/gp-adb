@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5688' ll='5702'/>
+<size>20</size>
+<mbr r='IMPORT_OBJECT_HEADER::Sig1' o='0' t='WORD'/>
+<mbr r='IMPORT_OBJECT_HEADER::Sig2' o='16' t='WORD'/>
+<mbr r='IMPORT_OBJECT_HEADER::Version' o='32' t='WORD'/>
+<mbr r='IMPORT_OBJECT_HEADER::Machine' o='48' t='WORD'/>
+<mbr r='IMPORT_OBJECT_HEADER::TimeDateStamp' o='64' t='DWORD'/>
+<mbr r='IMPORT_OBJECT_HEADER::SizeOfData' o='96' t='DWORD'/>
+<mbr r='IMPORT_OBJECT_HEADER::Type' o='144' t='WORD'/>
+<mbr r='IMPORT_OBJECT_HEADER::NameType' o='146' t='WORD'/>
+<mbr r='IMPORT_OBJECT_HEADER::Reserved' o='149' t='WORD'/>

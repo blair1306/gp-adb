@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2376' ll='2378' type='int adb_closedir(int * dir)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2375'>// Version of closedir() to go with our version of adb_opendir().</doc>

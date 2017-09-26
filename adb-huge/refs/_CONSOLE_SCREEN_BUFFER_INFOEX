@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='316' ll='326'/>
+<size>96</size>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFOEX::cbSize' o='0' t='ULONG'/>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFOEX::dwSize' o='32' t='COORD'/>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFOEX::dwCursorPosition' o='64' t='COORD'/>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFOEX::wAttributes' o='96' t='WORD'/>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFOEX::srWindow' o='112' t='SMALL_RECT'/>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFOEX::dwMaximumWindowSize' o='176' t='COORD'/>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFOEX::wPopupAttributes' o='208' t='WORD'/>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFOEX::bFullscreenSupported' o='224' t='BOOL'/>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFOEX::ColorTable' o='256' t='COLORREF [16]'/>

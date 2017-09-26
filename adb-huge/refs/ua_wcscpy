@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stralign.h' l='111' type='PUWSTR ua_wcscpy(PUWSTR Destination, PCUWSTR Source)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stralign.h' l='134' ll='138' macro='1' type='PUWSTR ua_wcscpy(PUWSTR Destination, PCUWSTR Source)'/>

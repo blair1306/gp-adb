@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/adb_auth.h' l='48' type='void adb_auth_confirm_key(unsigned char * data, size_t len, atransport * t)'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='365' u='c' c='_Z13handle_packetP7apacketP10atransport'/>

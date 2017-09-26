@@ -1,0 +1,5 @@
+<dec f='codebrowser/system/core/adb/adb_io.h' l='34' type='bool ReadProtocolString(int fd, std::string * s, std::string * error)'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='130' u='c' c='_Z10adb_statusiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='213' u='c' c='_Z11adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='298' u='c' c='_Z9adb_queryRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_S8_'/>
+<def f='codebrowser/system/core/adb/adb_io.cpp' l='42' ll='58' macro='1' type='bool ReadProtocolString(int fd, std::string * s, std::string * error)'/>

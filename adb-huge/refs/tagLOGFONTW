@@ -1,0 +1,16 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='1058' ll='1073'/>
+<size>156</size>
+<mbr r='tagLOGFONTW::lfHeight' o='0' t='LONG'/>
+<mbr r='tagLOGFONTW::lfWidth' o='32' t='LONG'/>
+<mbr r='tagLOGFONTW::lfEscapement' o='64' t='LONG'/>
+<mbr r='tagLOGFONTW::lfOrientation' o='96' t='LONG'/>
+<mbr r='tagLOGFONTW::lfWeight' o='128' t='LONG'/>
+<mbr r='tagLOGFONTW::lfItalic' o='160' t='BYTE'/>
+<mbr r='tagLOGFONTW::lfUnderline' o='168' t='BYTE'/>
+<mbr r='tagLOGFONTW::lfStrikeOut' o='176' t='BYTE'/>
+<mbr r='tagLOGFONTW::lfCharSet' o='184' t='BYTE'/>
+<mbr r='tagLOGFONTW::lfOutPrecision' o='192' t='BYTE'/>
+<mbr r='tagLOGFONTW::lfClipPrecision' o='200' t='BYTE'/>
+<mbr r='tagLOGFONTW::lfQuality' o='208' t='BYTE'/>
+<mbr r='tagLOGFONTW::lfPitchAndFamily' o='216' t='BYTE'/>
+<mbr r='tagLOGFONTW::lfFaceName' o='224' t='WCHAR [32]'/>

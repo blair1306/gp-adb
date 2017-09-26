@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='2466' ll='2474'/>
+<size>152</size>
+<mbr r='_EXCEPTION_RECORD64::ExceptionCode' o='0' t='DWORD'/>
+<mbr r='_EXCEPTION_RECORD64::ExceptionFlags' o='32' t='DWORD'/>
+<mbr r='_EXCEPTION_RECORD64::ExceptionRecord' o='64' t='DWORD64'/>
+<mbr r='_EXCEPTION_RECORD64::ExceptionAddress' o='128' t='DWORD64'/>
+<mbr r='_EXCEPTION_RECORD64::NumberParameters' o='192' t='DWORD'/>
+<mbr r='_EXCEPTION_RECORD64::__unusedAlignment' o='224' t='DWORD'/>
+<mbr r='_EXCEPTION_RECORD64::ExceptionInformation' o='256' t='DWORD64 [15]'/>

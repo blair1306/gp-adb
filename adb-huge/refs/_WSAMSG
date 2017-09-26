@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='827' ll='834'/>
+<size>28</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='824'>/* FIXME: WSAMSG originally lived in mswsock.h,
+ * newer SDKs moved it into a new ws2def.h. for
+ * now we keep it here. */</doc>
+<mbr r='_WSAMSG::name' o='0' t='LPSOCKADDR'/>
+<mbr r='_WSAMSG::namelen' o='32' t='INT'/>
+<mbr r='_WSAMSG::lpBuffers' o='64' t='LPWSABUF'/>
+<mbr r='_WSAMSG::dwBufferCount' o='96' t='DWORD'/>
+<mbr r='_WSAMSG::Control' o='128' t='WSABUF'/>
+<mbr r='_WSAMSG::dwFlags' o='192' t='DWORD'/>

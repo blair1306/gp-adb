@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2332' ll='2336'/>
+<size>12</size>
+<mbr r='_ABC::abcA' o='0' t='int'/>
+<mbr r='_ABC::abcB' o='32' t='UINT'/>
+<mbr r='_ABC::abcC' o='64' t='int'/>

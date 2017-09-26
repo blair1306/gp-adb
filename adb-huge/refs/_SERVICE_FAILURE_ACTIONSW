@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsvc.h' l='130' ll='136'/>
+<size>20</size>
+<mbr r='_SERVICE_FAILURE_ACTIONSW::dwResetPeriod' o='0' t='DWORD'/>
+<mbr r='_SERVICE_FAILURE_ACTIONSW::lpRebootMsg' o='32' t='LPWSTR'/>
+<mbr r='_SERVICE_FAILURE_ACTIONSW::lpCommand' o='64' t='LPWSTR'/>
+<mbr r='_SERVICE_FAILURE_ACTIONSW::cActions' o='96' t='DWORD'/>
+<mbr r='_SERVICE_FAILURE_ACTIONSW::lpsaActions' o='128' t='SC_ACTION *'/>

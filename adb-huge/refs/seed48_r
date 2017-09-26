@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='456' type='int seed48_r(unsigned short * __seed16v, struct drand48_data * __buffer)'/>

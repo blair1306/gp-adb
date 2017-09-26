@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/adb/adb_io.h' l='70' type='bool WriteFdExactly(int fd, const char * s)'/>
+<def f='codebrowser/system/core/adb/adb_io.cpp' l='124' ll='126' macro='1' type='bool WriteFdExactly(int fd, const char * str)'/>

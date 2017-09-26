@@ -1,0 +1,14 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5723' ll='5736'/>
+<size>72</size>
+<mbr r='IMAGE_COR20_HEADER::cb' o='0' t='DWORD'/>
+<mbr r='IMAGE_COR20_HEADER::MajorRuntimeVersion' o='32' t='WORD'/>
+<mbr r='IMAGE_COR20_HEADER::MinorRuntimeVersion' o='48' t='WORD'/>
+<mbr r='IMAGE_COR20_HEADER::MetaData' o='64' t='IMAGE_DATA_DIRECTORY'/>
+<mbr r='IMAGE_COR20_HEADER::Flags' o='128' t='DWORD'/>
+<mbr r='IMAGE_COR20_HEADER::EntryPointToken' o='160' t='DWORD'/>
+<mbr r='IMAGE_COR20_HEADER::Resources' o='192' t='IMAGE_DATA_DIRECTORY'/>
+<mbr r='IMAGE_COR20_HEADER::StrongNameSignature' o='256' t='IMAGE_DATA_DIRECTORY'/>
+<mbr r='IMAGE_COR20_HEADER::CodeManagerTable' o='320' t='IMAGE_DATA_DIRECTORY'/>
+<mbr r='IMAGE_COR20_HEADER::VTableFixups' o='384' t='IMAGE_DATA_DIRECTORY'/>
+<mbr r='IMAGE_COR20_HEADER::ExportAddressTableJumps' o='448' t='IMAGE_DATA_DIRECTORY'/>
+<mbr r='IMAGE_COR20_HEADER::ManagedNativeHeader' o='512' t='IMAGE_DATA_DIRECTORY'/>

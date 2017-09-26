@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5613' ll='5619'/>
+<size>16</size>
+<mbr r='_IMAGE_DEBUG_MISC::DataType' o='0' t='DWORD'/>
+<mbr r='_IMAGE_DEBUG_MISC::Length' o='32' t='DWORD'/>
+<mbr r='_IMAGE_DEBUG_MISC::Unicode' o='64' t='BOOLEAN'/>
+<mbr r='_IMAGE_DEBUG_MISC::Reserved' o='72' t='BYTE [3]'/>
+<mbr r='_IMAGE_DEBUG_MISC::Data' o='96' t='BYTE [1]'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='667' ll='670'/>
+<size>12</size>
+<mbr r='_SOCKET_ADDRESS_LIST::iAddressCount' o='0' t='INT'/>
+<mbr r='_SOCKET_ADDRESS_LIST::Address' o='32' t='SOCKET_ADDRESS [1]'/>

@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='193' ll='198'/>
+<size>128</size>
+<mbr r='sockaddr_storage::ss_family' o='0' t='sa_family_t'/>
+<mbr r='sockaddr_storage::__ss_align' o='64' t='unsigned long'/>
+<mbr r='sockaddr_storage::__ss_padding' o='128' t='char [112]'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='260' ll='266'/>
+<size>128</size>
+<mbr r='sockaddr_storage::ss_family' o='0' t='short'/>
+<mbr r='sockaddr_storage::__ss_pad1' o='16' t='char [6]'/>
+<mbr r='sockaddr_storage::__ss_align' o='64' t='long long'/>
+<mbr r='sockaddr_storage::__ss_pad2' o='128' t='char [112]'/>

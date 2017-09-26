@@ -1,0 +1,10 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='1303' type='char * __strdup(const char * __string)'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='157' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='158' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='177' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='179' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='181' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='182' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='225' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='230' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='369' macro='1' u='c'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='669' ll='672'/>
+<size>44</size>
+<mbr r='tagBITMAPINFO::bmiHeader' o='0' t='BITMAPINFOHEADER'/>
+<mbr r='tagBITMAPINFO::bmiColors' o='320' t='RGBQUAD [1]'/>

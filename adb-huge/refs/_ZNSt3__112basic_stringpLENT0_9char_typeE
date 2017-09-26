@@ -1,0 +1,5 @@
+<def f='codebrowser/external/libcxx/include/string' l='1468' macro='1' type='basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp; std::__1::basic_string::operator+=(value_type __c)'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='882' u='c' c='_ZL21append_transport_infoPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPKcS8_b'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='899' u='c' c='_ZL16append_transportPK10atransportPNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEb'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='910' u='c' c='_ZL16append_transportPK10atransportPNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEb'/>
+<use f='codebrowser/system/core/base/logging.cpp' l='387' u='c' c='_ZN7android4base10LogMessageD1Ev'/>

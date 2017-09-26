@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5283' ll='5287'/>
+<size>12</size>
+<mbr r='tagRID_DEVICE_INFO_MOUSE::dwId' o='0' t='DWORD'/>
+<mbr r='tagRID_DEVICE_INFO_MOUSE::dwNumberOfButtons' o='32' t='DWORD'/>
+<mbr r='tagRID_DEVICE_INFO_MOUSE::dwSampleRate' o='64' t='DWORD'/>

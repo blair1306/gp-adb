@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='790' type='int pthread_mutexattr_init(pthread_mutexattr_t * __attr)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='788'>/* Initialize mutex attribute object ATTR with default attributes
+   (kind is PTHREAD_MUTEX_TIMED_NP).  */</doc>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='56' u='c' c='_ZNSt3__115recursive_mutexC1Ev'/>

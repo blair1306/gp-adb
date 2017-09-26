@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1017' type='int pthread_condattr_setclock(pthread_condattr_t * __attr, __clockid_t __clock_id)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1016'>/* Set the clock selected for the conditon variable attribute ATTR.  */</doc>

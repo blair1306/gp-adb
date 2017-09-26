@@ -1,0 +1,19 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='413' type='ADBAPIHANDLE AdbOpenEndpoint(ADBAPIHANDLE adb_interface, unsigned char endpoint_index, AdbOpenAccessType access_type, AdbOpenSharingMode sharing_mode)'/>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='395'>/** \brief Opens an endpoint on the given interface.
+
+  Endpoints are always opened for overlapped I/O.
+  @param[in] adb_interface A handle to interface object created with 
+         AdbCreateInterface call.
+  @param[in] endpoint_index Zero-based endpoint index. There are two
+         shortcuts for this parameter: ADB_QUERY_BULK_WRITE_ENDPOINT_INDEX
+         and ADB_QUERY_BULK_READ_ENDPOINT_INDEX that provide information
+         about bulk write and bulk read endpoints respectively.
+  @param[in] access_type Desired access type. In the current implementation
+         this parameter has no effect on the way endpoint is opened. It&apos;s
+         always read / write access.
+  @param[in] sharing_mode Desired share mode. In the current implementation
+         this parameter has no effect on the way endpoint is opened. It&apos;s
+         always shared for read / write.
+  @return Handle to the opened endpoint object or NULL on failure. If NULL is
+          returned GetLastError() provides extended error information.
+*/</doc>

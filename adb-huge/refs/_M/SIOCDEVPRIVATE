@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/ioctls.h' l='103'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/ioctls.h' l='98'>/* These 16 ioctls are available to devices via the do_ioctl() device
+   vector.  Each device should include this file and redefine these
+   names as their own. Because these are device dependent it is a good
+   idea _NOT_ to issue them to random objects and hope.  */</doc>

@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/string_s.h' l='57' type='errno_t _wcsnset_s_l(wchar_t * _Str, size_t _SizeInChars, unsigned int _Val, size_t _Count, _locale_t _Locale)'/>

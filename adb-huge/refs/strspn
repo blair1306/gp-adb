@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='288' type='unsigned long strspn(const char * __s, const char * __accept)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='286'>/* Return the length of the initial segment of S which
+   consists entirely of characters in ACCEPT.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='85' type='size_t strspn(const char * _Str, const char * _Control)'/>

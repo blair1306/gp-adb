@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>errors_windows.cpp source code [codebrowser/system/core/base/errors_windows.cpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/system/core/base/errors_windows.cpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>system</a>/<a href='..'>core</a>/<a href='./'>base</a>/<a href='errors_windows.cpp.html'>errors_windows.cpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (C) 2016 The Android Open Source Project</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Licensed under the Apache License, Version 2.0 (the "License");</i></td></tr>
+<tr><th id="5">5</th><td><i> * you may not use this file except in compliance with the License.</i></td></tr>
+<tr><th id="6">6</th><td><i> * You may obtain a copy of the License at</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> *      <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></i></td></tr>
+<tr><th id="9">9</th><td><i> *</i></td></tr>
+<tr><th id="10">10</th><td><i> * Unless required by applicable law or agreed to in writing, software</i></td></tr>
+<tr><th id="11">11</th><td><i> * distributed under the License is distributed on an "AS IS" BASIS,</i></td></tr>
+<tr><th id="12">12</th><td><i> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</i></td></tr>
+<tr><th id="13">13</th><td><i> * See the License for the specific language governing permissions and</i></td></tr>
+<tr><th id="14">14</th><td><i> * limitations under the License.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#include <a href="include/android-base/errors.h.html">"android-base/errors.h"</a></u></td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><u>#include <a href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windows.h.html">&lt;windows.h&gt;</a></u></td></tr>
+<tr><th id="20">20</th><td></td></tr>
+<tr><th id="21">21</th><td><u>#include <a href="include/android-base/stringprintf.h.html">"android-base/stringprintf.h"</a></u></td></tr>
+<tr><th id="22">22</th><td><u>#include <a href="include/android-base/strings.h.html">"android-base/strings.h"</a></u></td></tr>
+<tr><th id="23">23</th><td><u>#include <a href="include/android-base/utf8.h.html">"android-base/utf8.h"</a></u></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><i>// A Windows error code is a DWORD. It's simpler to use an int error code for</i></td></tr>
+<tr><th id="26">26</th><td><i>// both Unix and Windows if possible, but if this fails we'll need a different</i></td></tr>
+<tr><th id="27">27</th><td><i>// function signature for each.</i></td></tr>
+<tr><th id="28">28</th><td><b>static_assert</b>(<b>sizeof</b>(<em>int</em>) &gt;= <b>sizeof</b>(<a class="typedef" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a>),</td></tr>
+<tr><th id="29">29</th><td>              <q>"Windows system error codes are too large to fit in an int."</q>);</td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><b>namespace</b> <span class="namespace">android</span> {</td></tr>
+<tr><th id="32">32</th><td><b>namespace</b> <span class="namespace">base</span> {</td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><em>static</em> <b>constexpr</b> <a class="typedef" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="tu decl def" id="android::base::kErrorMessageBufferSize" title='android::base::kErrorMessageBufferSize' data-type='const DWORD' data-ref="android::base::kErrorMessageBufferSize">kErrorMessageBufferSize</dfn> = <var>256</var>;</td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::string SystemErrorCodeToString(<em>int</em> int_error_code) {</td></tr>
+<tr><th id="37">37</th><td>  WCHAR msgbuf[kErrorMessageBufferSize];</td></tr>
+<tr><th id="38">38</th><td>  DWORD error_code = int_error_code;</td></tr>
+<tr><th id="39">39</th><td>  DWORD flags = <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h.html#1568" title="0x1000" data-ref="_M/FORMAT_MESSAGE_FROM_SYSTEM">FORMAT_MESSAGE_FROM_SYSTEM</a> | <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h.html#1565" title="0x200" data-ref="_M/FORMAT_MESSAGE_IGNORE_INSERTS">FORMAT_MESSAGE_IGNORE_INSERTS</a>;</td></tr>
+<tr><th id="40">40</th><td>  DWORD len = FormatMessageW(flags, <b>nullptr</b>, error_code, <var>0</var>, msgbuf,</td></tr>
+<tr><th id="41">41</th><td>                             kErrorMessageBufferSize, <b>nullptr</b>);</td></tr>
+<tr><th id="42">42</th><td>  <b>if</b> (len == <var>0</var>) {</td></tr>
+<tr><th id="43">43</th><td>    <b>return</b> android::base::StringPrintf(</td></tr>
+<tr><th id="44">44</th><td>        <q>"Error %lu while retrieving message for error %lu"</q>, GetLastError(),</td></tr>
+<tr><th id="45">45</th><td>        error_code);</td></tr>
+<tr><th id="46">46</th><td>  }</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td>  <i>// Convert UTF-16 to UTF-8.</i></td></tr>
+<tr><th id="49">49</th><td>  <span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::string msg;</td></tr>
+<tr><th id="50">50</th><td>  <b>if</b> (!android::base::<span class='error' title="no member named &apos;WideToUTF8&apos; in namespace &apos;android::base&apos;">WideToUTF8</span>(msgbuf, &amp;msg)) {</td></tr>
+<tr><th id="51">51</th><td>    <b>return</b> android::base::StringPrintf(</td></tr>
+<tr><th id="52">52</th><td>        <q>"Error %lu while converting message for error %lu from UTF-16 to UTF-8"</q>,</td></tr>
+<tr><th id="53">53</th><td>        GetLastError(), error_code);</td></tr>
+<tr><th id="54">54</th><td>  }</td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td>  <i>// Messages returned by the system end with line breaks.</i></td></tr>
+<tr><th id="57">57</th><td>  msg = android::base::Trim(msg);</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td>  <i>// There are many Windows error messages compared to POSIX, so include the</i></td></tr>
+<tr><th id="60">60</th><td><i>  // numeric error code for easier, quicker, accurate identification. Use</i></td></tr>
+<tr><th id="61">61</th><td><i>  // decimal instead of hex because there are decimal ranges like 10000-11999</i></td></tr>
+<tr><th id="62">62</th><td><i>  // for Winsock.</i></td></tr>
+<tr><th id="63">63</th><td>  android::base::StringAppendF(&amp;msg, <q>" (%lu)"</q>, error_code);</td></tr>
+<tr><th id="64">64</th><td>  <b>return</b> msg;</td></tr>
+<tr><th id="65">65</th><td>}</td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td>}  <i>// namespace base</i></td></tr>
+<tr><th id="68">68</th><td>}  <i>// namespace android</i></td></tr>
+<tr><th id="69">69</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

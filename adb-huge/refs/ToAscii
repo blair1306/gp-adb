@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='2251' type='int ToAscii(UINT uVirtKey, UINT uScanCode, const BYTE * lpKeyState, LPWORD lpChar, UINT uFlags)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1454' u='c' c='_ZL27_get_char_ignoring_modifierPcPK17_KEY_EVENT_RECORDmt'/>

@@ -1,0 +1,25 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='170' type='struct _IO_FILE *'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdio.h' l='82' macro='1' u='r'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdio.h' l='108' macro='1' u='r'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdio.h' l='108' macro='1' u='r'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdio.h' l='108' macro='1' u='r'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdio.h' l='108' macro='1' u='r'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdio2.h' l='118' macro='1' u='r'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='170'>/* Standard output stream.  */</doc>
+<use f='codebrowser/external/libcxx/src/iostream.cpp' l='53' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/iostream.cpp' l='54' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1005' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='190' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='201' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='292' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='312' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='402' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='403' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='832' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='878' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='946' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1106' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1238' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1890' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='65' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='114' macro='1' u='r'/>

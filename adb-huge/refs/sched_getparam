@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/sched.h' l='55' type='int sched_getparam(__pid_t __pid, struct sched_param * __param)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/sched.h' l='54'>/* Retrieve scheduling parameters for a particular process.  */</doc>

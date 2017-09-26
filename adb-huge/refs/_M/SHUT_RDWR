@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='61'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='567' u='c'/>

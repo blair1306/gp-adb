@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usbdevice_fs.h' l='49' ll='54'/>
+<size>24</size>
+<mbr r='usbdevfs_bulktransfer::ep' o='0' t='unsigned int'/>
+<mbr r='usbdevfs_bulktransfer::len' o='32' t='unsigned int'/>
+<mbr r='usbdevfs_bulktransfer::timeout' o='64' t='unsigned int'/>
+<mbr r='usbdevfs_bulktransfer::data' o='128' t='void *'/>

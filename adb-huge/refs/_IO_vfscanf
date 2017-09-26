@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/libio.h' l='492' type='int _IO_vfscanf(_IO_FILE *restrict , const char *restrict , struct __va_list_tag * , int *restrict )'/>

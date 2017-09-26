@@ -1,0 +1,15 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4535' ll='4549'/>
+<size>56</size>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::Magic' o='0' t='WORD'/>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::MajorLinkerVersion' o='16' t='BYTE'/>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::MinorLinkerVersion' o='24' t='BYTE'/>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::SizeOfCode' o='32' t='DWORD'/>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::SizeOfInitializedData' o='64' t='DWORD'/>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::SizeOfUninitializedData' o='96' t='DWORD'/>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::AddressOfEntryPoint' o='128' t='DWORD'/>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::BaseOfCode' o='160' t='DWORD'/>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::BaseOfData' o='192' t='DWORD'/>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::BaseOfBss' o='224' t='DWORD'/>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::GprMask' o='256' t='DWORD'/>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::CprMask' o='288' t='DWORD [4]'/>
+<mbr r='_IMAGE_ROM_OPTIONAL_HEADER::GpValue' o='416' t='DWORD'/>

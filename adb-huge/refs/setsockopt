@@ -1,0 +1,10 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='197' type='int setsockopt(int __fd, int __level, int __optname, const void * __optval, socklen_t __optlen)'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/connect.c' l='222' u='c' c='conn_state'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='194'>/* Set socket FD&apos;s option OPTNAME at protocol level LEVEL
+   to *OPTVAL (which is OPTLEN bytes long).
+   Returns 0 on success, -1 for errors.  */</doc>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='776' u='c' c='_ZL14adb_setsockoptiiiPKvj'/>
+<use f='codebrowser/system/core/libcutils/socket_inaddr_any_server_unix.c' l='47' u='c' c='socket_inaddr_any_server'/>
+<use f='codebrowser/system/core/libcutils/socket_local_server_unix.c' l='80' u='c' c='socket_local_server_bind'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='49' u='c' c='socket_loopback_server'/>
+<use f='codebrowser/system/core/libcutils/sockets_unix.cpp' l='59' u='c' c='socket_set_receive_timeout'/>

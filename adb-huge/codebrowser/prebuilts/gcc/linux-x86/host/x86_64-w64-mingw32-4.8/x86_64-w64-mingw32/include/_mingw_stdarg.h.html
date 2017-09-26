@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>_mingw_stdarg.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_stdarg.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_stdarg.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='_mingw_stdarg.h.html'>_mingw_stdarg.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><u>#<span data-ppcond="7">ifndef</span> <span class="macro" data-ref="_M/_INC_STDARG">_INC_STDARG</span></u></td></tr>
+<tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/_INC_STDARG" data-ref="_M/_INC_STDARG">_INC_STDARG</dfn></u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><u>#<span data-ppcond="10">ifndef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="11">11</th><td><u>#error Only Win32 target is supported!</u></td></tr>
+<tr><th id="12">12</th><td><u>#<span data-ppcond="10">endif</span></u></td></tr>
+<tr><th id="13">13</th><td></td></tr>
+<tr><th id="14">14</th><td><u>#include <a href="vadefs.h.html">&lt;vadefs.h&gt;</a></u></td></tr>
+<tr><th id="15">15</th><td></td></tr>
+<tr><th id="16">16</th><td><u>#<span data-ppcond="16">ifndef</span> <a class="macro" href="stdarg.h.html#52" data-ref="_M/va_start">va_start</a></u></td></tr>
+<tr><th id="17">17</th><td><u>#define va_start _crt_va_start</u></td></tr>
+<tr><th id="18">18</th><td><u>#<span data-ppcond="16">endif</span></u></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><u>#<span data-ppcond="20">ifndef</span> <a class="macro" href="stdarg.h.html#54" data-ref="_M/va_arg">va_arg</a></u></td></tr>
+<tr><th id="21">21</th><td><u>#define va_arg _crt_va_arg</u></td></tr>
+<tr><th id="22">22</th><td><u>#<span data-ppcond="20">endif</span></u></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><u>#<span data-ppcond="24">ifndef</span> <a class="macro" href="stdarg.h.html#53" data-ref="_M/va_end">va_end</a></u></td></tr>
+<tr><th id="25">25</th><td><u>#define va_end _crt_va_end</u></td></tr>
+<tr><th id="26">26</th><td><u>#<span data-ppcond="24">endif</span></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="28">ifndef</span> <a class="macro" href="stdarg.h.html#58" data-ref="_M/__va_copy">__va_copy</a></u></td></tr>
+<tr><th id="29">29</th><td><u>#define __va_copy _crt_va_copy</u></td></tr>
+<tr><th id="30">30</th><td><u>#<span data-ppcond="28">endif</span></u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><u>#<span data-ppcond="32">if</span> !defined(<a class="macro" href="stdarg.h.html#56" data-ref="_M/va_copy">va_copy</a>) &amp;&amp; \</u></td></tr>
+<tr><th id="33">33</th><td><u>   (!defined(<span class="macro" data-ref="_M/__STRICT_ANSI__">__STRICT_ANSI__</span>) || __STDC_VERSION__ + 0 &gt;= 199900L || defined(<span class="macro" data-ref="_M/__GXX_EXPERIMENTAL_CXX0X__">__GXX_EXPERIMENTAL_CXX0X__</span>))</u></td></tr>
+<tr><th id="34">34</th><td><u>#define va_copy _crt_va_copy</u></td></tr>
+<tr><th id="35">35</th><td><u>#<span data-ppcond="32">endif</span></u></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><u>#<span data-ppcond="7">endif</span> /* not _INC_STDARG */</u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

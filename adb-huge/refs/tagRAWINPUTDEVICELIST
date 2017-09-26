@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5394' ll='5397'/>
+<size>8</size>
+<mbr r='tagRAWINPUTDEVICELIST::hDevice' o='0' t='HANDLE'/>
+<mbr r='tagRAWINPUTDEVICELIST::dwType' o='32' t='DWORD'/>

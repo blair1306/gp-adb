@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='2572' ll='2575'/>
+<size>20</size>
+<mbr r='tagTPMPARAMS::cbSize' o='0' t='UINT'/>
+<mbr r='tagTPMPARAMS::rcExclude' o='32' t='RECT'/>

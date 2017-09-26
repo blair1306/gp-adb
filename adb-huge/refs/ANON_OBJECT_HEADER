@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4673' ll='4681'/>
+<size>32</size>
+<mbr r='ANON_OBJECT_HEADER::Sig1' o='0' t='WORD'/>
+<mbr r='ANON_OBJECT_HEADER::Sig2' o='16' t='WORD'/>
+<mbr r='ANON_OBJECT_HEADER::Version' o='32' t='WORD'/>
+<mbr r='ANON_OBJECT_HEADER::Machine' o='48' t='WORD'/>
+<mbr r='ANON_OBJECT_HEADER::TimeDateStamp' o='64' t='DWORD'/>
+<mbr r='ANON_OBJECT_HEADER::ClassID' o='96' t='CLSID'/>
+<mbr r='ANON_OBJECT_HEADER::SizeOfData' o='224' t='DWORD'/>

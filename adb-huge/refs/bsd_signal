@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='118' type='__sighandler_t bsd_signal(int __sig, __sighandler_t __handler)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='116'>/* The X/Open definition of `signal&apos; conflicts with the BSD version.
+   So they defined another function `bsd_signal&apos;.  */</doc>

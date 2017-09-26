@@ -1,0 +1,40 @@
+<dec f='codebrowser/system/core/include/android/log.h' l='99' type='int __android_log_print(int prio, const char * tag, const char * fmt)'/>
+<use f='codebrowser/system/core/base/file.cpp' l='89' macro='1' u='c'/>
+<use f='codebrowser/system/core/base/file.cpp' l='96' macro='1' u='c'/>
+<use f='codebrowser/system/core/base/file.cpp' l='100' macro='1' u='c'/>
+<use f='codebrowser/system/core/base/file.cpp' l='104' macro='1' u='c'/>
+<doc f='codebrowser/system/core/include/android/log.h' l='96'>/*
+ * Send a formatted string to the log, used like printf(fmt,...)
+ */</doc>
+<use f='codebrowser/system/core/libcutils/dlmalloc_stubs.c' l='29' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/dlmalloc_stubs.c' l='34' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='47' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='54' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='66' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='73' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='77' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='87' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='93' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='97' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='112' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='118' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='125' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='129' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='133' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='138' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='160' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='166' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='178' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='190' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='196' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='202' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='207' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='216' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='225' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='230' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='235' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='241' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='162' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='201' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='375' macro='1' u='c'/>
+<def f='codebrowser/system/core/liblog/logger_write.c' l='405' ll='416' macro='1' type='int __android_log_print(int prio, const char * tag, const char * fmt)'/>

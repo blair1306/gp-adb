@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='203'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='170' u='c'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='200'>/*
+ * Descriptor types ... USB 2.0 spec table 9.5
+ */</doc>

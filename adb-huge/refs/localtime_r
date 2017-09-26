@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='248' type='struct tm * localtime_r(const time_t *restrict __timer, struct tm *restrict __tp)'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='386' u='c' c='showLog'/>

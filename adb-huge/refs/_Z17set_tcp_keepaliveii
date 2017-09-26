@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/sysdeps.h' l='846' type='bool set_tcp_keepalive(int fd, int interval_sec)'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='425' u='c' c='_ZL14connect_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<def f='codebrowser/system/core/adb/sysdeps_unix.cpp' l='19' ll='58' macro='1' type='bool set_tcp_keepalive(int fd, int interval_sec)'/>
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1231' ll='1256' macro='1' type='bool set_tcp_keepalive(int fd, int interval_sec)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/adb_client.h' l='32' type='bool adb_command(const std::string &amp; service)'/>
+<def f='codebrowser/system/core/adb/adb_client.cpp' l='271' ll='288' macro='1' type='bool adb_command(const std::string &amp; service)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1072' u='c' c='_ZL15wait_for_devicePKc13TransportTypeS0_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1745' u='c' c='_Z15adb_commandlineiPPKc'/>

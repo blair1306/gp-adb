@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='54' type='4096'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='54'>/* Hexadecimal numeric.  */</doc>
+<use f='codebrowser/external/libcxx/include/__locale' l='342'/>
+<use f='codebrowser/external/libcxx/include/locale' l='1300' macro='1' u='r'/>

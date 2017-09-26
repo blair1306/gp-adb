@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h' l='21' ll='25'/>
+<size>260</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h' l='17'>/* fd_set may have been defined by the newlib &lt;sys/types.h&gt;
+ * if  __USE_W32_SOCKETS not defined.
+ */</doc>
+<mbr r='fd_set::fd_count' o='0' t='u_int'/>
+<mbr r='fd_set::fd_array' o='32' t='SOCKET [64]'/>

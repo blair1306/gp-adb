@@ -1,0 +1,4 @@
+<def f='codebrowser/development/host/windows/usb/api/adb_api.h' l='164' ll='176'/>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='161'>/** \brief Defines sharing mode with which an I/O object (endpoint)
+  should be opened.
+*/</doc>

@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6439' ll='6443'/>
+<size>12</size>
+<mbr r='_TAPE_WRITE_MARKS::Type' o='0' t='DWORD'/>
+<mbr r='_TAPE_WRITE_MARKS::Count' o='32' t='DWORD'/>
+<mbr r='_TAPE_WRITE_MARKS::Immediate' o='64' t='BOOLEAN'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='267' type='pthread_t pthread_self()'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='266'>/* Obtain the identifier of the current thread.  */</doc>
+<use f='codebrowser/external/libcxx/include/mutex' l='289' u='c' c='_ZNSt3__121recursive_timed_mutex14try_lock_untilERKNS_6chrono10time_pointIT_T0_EE'/>
+<use f='codebrowser/external/libcxx/include/thread' l='259' u='c' c='_ZNSt3__111this_thread6get_idEv'/>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='168' u='c' c='_ZNSt3__121recursive_timed_mutex4lockEv'/>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='186' u='c' c='_ZNSt3__121recursive_timed_mutex8try_lockEv'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='770' u='c' c='_ZL18adb_thread_setnameRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='359' u='c' c='_ZL13usb_bulk_readP10usb_handlePvi'/>

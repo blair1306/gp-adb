@@ -1,0 +1,2 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='87'/>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='86'>/// Shortcut to default read bulk endpoint in zero-based endpoint index API.</doc>

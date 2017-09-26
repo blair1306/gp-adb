@@ -1,0 +1,14 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='712' type='size_t fwrite(const void *restrict __ptr, size_t __size, size_t __n, FILE *restrict __s)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='708'>/* Write chunks of generic data to STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/file.c' l='207' u='c' c='file_write'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/a_strex.c' l='93' u='c' c='send_fp_chars'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='205' u='c' c='_ZL20write_public_keyfileP6rsa_stPKc'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='206' u='c' c='_ZL20write_public_keyfileP6rsa_stPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='333' u='c' c='_ZL13read_and_dumpib'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='402' u='c' c='_ZL12copy_to_fileii'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='65' u='c' c='_ZL3OutRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='487' type='size_t fwrite(const void *__restrict _Str, size_t _Size, size_t _Count, FILE *__restrict _File)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2679' u='c' c='_Z10adb_fwritePKvjjP6_iobuf'/>

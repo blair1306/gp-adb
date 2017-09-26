@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3697' ll='3701'/>
+<size>36</size>
+<mbr r='tagEMRMODIFYWORLDTRANSFORM::emr' o='0' t='EMR'/>
+<mbr r='tagEMRMODIFYWORLDTRANSFORM::xform' o='64' t='XFORM'/>
+<mbr r='tagEMRMODIFYWORLDTRANSFORM::iMode' o='256' t='DWORD'/>

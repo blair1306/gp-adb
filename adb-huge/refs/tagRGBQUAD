@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='477' ll='482'/>
+<size>4</size>
+<mbr r='tagRGBQUAD::rgbBlue' o='0' t='BYTE'/>
+<mbr r='tagRGBQUAD::rgbGreen' o='8' t='BYTE'/>
+<mbr r='tagRGBQUAD::rgbRed' o='16' t='BYTE'/>
+<mbr r='tagRGBQUAD::rgbReserved' o='24' t='BYTE'/>

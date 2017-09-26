@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/libio.h' l='462' type='int _IO_getc(_IO_FILE * __fp)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdio.h' l='47' u='c' c='getchar'/>
+<use f='codebrowser/external/libcxx/include/cstdio' l='112' macro='1' u='c'/>

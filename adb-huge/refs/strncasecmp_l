@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/strings.h' l='133' type='int strncasecmp_l(const char * __s1, const char * __s2, size_t __n, __locale_t __loc)'/>

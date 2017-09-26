@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='585' type='int execlp(const char * __file, const char * __arg)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='582'>/* Execute FILE, searching in the `PATH&apos; environment variable if
+   it contains no slashes, with all arguments after FILE until a
+   NULL pointer and environment from `environ&apos;.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/process.h' l='147' type='int execlp(const char * _Filename, const char * _ArgList)'/>

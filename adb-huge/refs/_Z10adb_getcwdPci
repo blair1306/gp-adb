@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2797' ll='2836' type='char * adb_getcwd(char * buf, int size)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2796'>// Version of getcwd() that returns the current working directory in UTF-8.</doc>

@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnls.h' l='754' ll='760'/>
+<size>32</size>
+<mbr r='_nlsversioninfoex::dwNLSVersionInfoSize' o='0' t='DWORD'/>
+<mbr r='_nlsversioninfoex::dwNLSVersion' o='32' t='DWORD'/>
+<mbr r='_nlsversioninfoex::dwDefinedVersion' o='64' t='DWORD'/>
+<mbr r='_nlsversioninfoex::dwEffectiveId' o='96' t='DWORD'/>
+<mbr r='_nlsversioninfoex::guidCustomVersion' o='128' t='GUID'/>

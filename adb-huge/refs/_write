@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='212' type='int _write(int _FileHandle, const void * _Buf, unsigned int _MaxCharCount)'/>

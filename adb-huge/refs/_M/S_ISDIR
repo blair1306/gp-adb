@@ -1,0 +1,15 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='131'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='67' u='c'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='158' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='91' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='626' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='728' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='755' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='807' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='826' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='898' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='956' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='986' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/stat.h' l='155'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='53' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='206' u='c'/>

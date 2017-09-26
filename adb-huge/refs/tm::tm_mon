@@ -1,0 +1,15 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='139' type='int'/>
+<offset>128</offset>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/a_gentm.c' l='113' u='w' c='asn1_generalizedtime_to_tm'/>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/a_gentm.c' l='251' u='r' c='ASN1_GENERALIZEDTIME_adj'/>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/a_utctm.c' l='142' u='w' c='asn1_utctime_to_tm'/>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/a_utctm.c' l='269' u='r' c='ASN1_UTCTIME_adj'/>
+<use f='codebrowser/external/boringssl/src/crypto/time_support.c' l='127' u='r' c='julian_adj'/>
+<use f='codebrowser/external/boringssl/src/crypto/time_support.c' l='164' u='w' c='OPENSSL_gmtime_adj'/>
+<use f='codebrowser/external/libcxx/include/locale' l='2376' u='a' c='_ZNKSt3__18time_get16do_get_monthnameET0_S1_RNS_8ios_baseERjP2tm'/>
+<use f='codebrowser/external/libcxx/include/locale' l='2410' u='a' c='_ZNKSt3__18time_get6do_getET0_S1_RNS_8ios_baseERjP2tmcc'/>
+<use f='codebrowser/external/libcxx/include/locale' l='2444' u='a' c='_ZNKSt3__18time_get6do_getET0_S1_RNS_8ios_baseERjP2tmcc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4821' u='w' c='_ZNSt3__118__time_get_storage9__analyzeEcRKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4969' u='w' c='_ZNSt3__118__time_get_storage9__analyzeEcRKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5132' u='w' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5192' u='w' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>

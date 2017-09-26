@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2338' ll='2342'/>
+<size>12</size>
+<mbr r='_ABCFLOAT::abcfA' o='0' t='FLOAT'/>
+<mbr r='_ABCFLOAT::abcfB' o='32' t='FLOAT'/>
+<mbr r='_ABCFLOAT::abcfC' o='64' t='FLOAT'/>

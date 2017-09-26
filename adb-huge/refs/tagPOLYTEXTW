@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2436' ll='2444'/>
+<size>40</size>
+<mbr r='tagPOLYTEXTW::x' o='0' t='int'/>
+<mbr r='tagPOLYTEXTW::y' o='32' t='int'/>
+<mbr r='tagPOLYTEXTW::n' o='64' t='UINT'/>
+<mbr r='tagPOLYTEXTW::lpstr' o='96' t='LPCWSTR'/>
+<mbr r='tagPOLYTEXTW::uiFlags' o='128' t='UINT'/>
+<mbr r='tagPOLYTEXTW::rcl' o='160' t='RECT'/>
+<mbr r='tagPOLYTEXTW::pdx' o='288' t='int *'/>

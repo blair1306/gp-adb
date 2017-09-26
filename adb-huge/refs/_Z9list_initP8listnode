@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/include/cutils/list.h' l='52' ll='56' type='void list_init(struct listnode * node)'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='466' u='c' c='_Z13adb_auth_initv'/>

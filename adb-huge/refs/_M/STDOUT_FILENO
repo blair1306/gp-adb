@@ -1,0 +1,9 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='212'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='81' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='401' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1009' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1107' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1269' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1641' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/unistd.h' l='24'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='60'/>

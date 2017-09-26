@@ -1,0 +1,276 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>mcx.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/mcx.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="_MODEMDEVCAPS,_MODEMSETTINGS "/>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/mcx.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='mcx.h.html'>mcx.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/_MCX_H_">_MCX_H_</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/_MCX_H_" data-ref="_M/_MCX_H_">_MCX_H_</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_MODEMDEVCAPS" title='_MODEMDEVCAPS' data-ref="_MODEMDEVCAPS"><a class="type" href="#_MODEMDEVCAPS" title='_MODEMDEVCAPS' data-ref="_MODEMDEVCAPS"><a class="type" href="#_MODEMDEVCAPS" title='_MODEMDEVCAPS' data-ref="_MODEMDEVCAPS"><a class="type" href="#_MODEMDEVCAPS" title='_MODEMDEVCAPS' data-ref="_MODEMDEVCAPS">_MODEMDEVCAPS</a></a></a></dfn> {</td></tr>
+<tr><th id="10">10</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwActualSize" title='_MODEMDEVCAPS::dwActualSize' data-ref="_MODEMDEVCAPS::dwActualSize">dwActualSize</dfn>;</td></tr>
+<tr><th id="11">11</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwRequiredSize" title='_MODEMDEVCAPS::dwRequiredSize' data-ref="_MODEMDEVCAPS::dwRequiredSize">dwRequiredSize</dfn>;</td></tr>
+<tr><th id="12">12</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwDevSpecificOffset" title='_MODEMDEVCAPS::dwDevSpecificOffset' data-ref="_MODEMDEVCAPS::dwDevSpecificOffset">dwDevSpecificOffset</dfn>;</td></tr>
+<tr><th id="13">13</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwDevSpecificSize" title='_MODEMDEVCAPS::dwDevSpecificSize' data-ref="_MODEMDEVCAPS::dwDevSpecificSize">dwDevSpecificSize</dfn>;</td></tr>
+<tr><th id="14">14</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwModemProviderVersion" title='_MODEMDEVCAPS::dwModemProviderVersion' data-ref="_MODEMDEVCAPS::dwModemProviderVersion">dwModemProviderVersion</dfn>;</td></tr>
+<tr><th id="15">15</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwModemManufacturerOffset" title='_MODEMDEVCAPS::dwModemManufacturerOffset' data-ref="_MODEMDEVCAPS::dwModemManufacturerOffset">dwModemManufacturerOffset</dfn>;</td></tr>
+<tr><th id="16">16</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwModemManufacturerSize" title='_MODEMDEVCAPS::dwModemManufacturerSize' data-ref="_MODEMDEVCAPS::dwModemManufacturerSize">dwModemManufacturerSize</dfn>;</td></tr>
+<tr><th id="17">17</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwModemModelOffset" title='_MODEMDEVCAPS::dwModemModelOffset' data-ref="_MODEMDEVCAPS::dwModemModelOffset">dwModemModelOffset</dfn>;</td></tr>
+<tr><th id="18">18</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwModemModelSize" title='_MODEMDEVCAPS::dwModemModelSize' data-ref="_MODEMDEVCAPS::dwModemModelSize">dwModemModelSize</dfn>;</td></tr>
+<tr><th id="19">19</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwModemVersionOffset" title='_MODEMDEVCAPS::dwModemVersionOffset' data-ref="_MODEMDEVCAPS::dwModemVersionOffset">dwModemVersionOffset</dfn>;</td></tr>
+<tr><th id="20">20</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwModemVersionSize" title='_MODEMDEVCAPS::dwModemVersionSize' data-ref="_MODEMDEVCAPS::dwModemVersionSize">dwModemVersionSize</dfn>;</td></tr>
+<tr><th id="21">21</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwDialOptions" title='_MODEMDEVCAPS::dwDialOptions' data-ref="_MODEMDEVCAPS::dwDialOptions">dwDialOptions</dfn>;</td></tr>
+<tr><th id="22">22</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwCallSetupFailTimer" title='_MODEMDEVCAPS::dwCallSetupFailTimer' data-ref="_MODEMDEVCAPS::dwCallSetupFailTimer">dwCallSetupFailTimer</dfn>;</td></tr>
+<tr><th id="23">23</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwInactivityTimeout" title='_MODEMDEVCAPS::dwInactivityTimeout' data-ref="_MODEMDEVCAPS::dwInactivityTimeout">dwInactivityTimeout</dfn>;</td></tr>
+<tr><th id="24">24</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwSpeakerVolume" title='_MODEMDEVCAPS::dwSpeakerVolume' data-ref="_MODEMDEVCAPS::dwSpeakerVolume">dwSpeakerVolume</dfn>;</td></tr>
+<tr><th id="25">25</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwSpeakerMode" title='_MODEMDEVCAPS::dwSpeakerMode' data-ref="_MODEMDEVCAPS::dwSpeakerMode">dwSpeakerMode</dfn>;</td></tr>
+<tr><th id="26">26</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwModemOptions" title='_MODEMDEVCAPS::dwModemOptions' data-ref="_MODEMDEVCAPS::dwModemOptions">dwModemOptions</dfn>;</td></tr>
+<tr><th id="27">27</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwMaxDTERate" title='_MODEMDEVCAPS::dwMaxDTERate' data-ref="_MODEMDEVCAPS::dwMaxDTERate">dwMaxDTERate</dfn>;</td></tr>
+<tr><th id="28">28</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMDEVCAPS::dwMaxDCERate" title='_MODEMDEVCAPS::dwMaxDCERate' data-ref="_MODEMDEVCAPS::dwMaxDCERate">dwMaxDCERate</dfn>;</td></tr>
+<tr><th id="29">29</th><td>  <a class="typedef" href="windef.h.html#BYTE" title='BYTE' data-type='unsigned char' data-ref="BYTE">BYTE</a> <dfn class="decl" id="_MODEMDEVCAPS::abVariablePortion" title='_MODEMDEVCAPS::abVariablePortion' data-ref="_MODEMDEVCAPS::abVariablePortion">abVariablePortion</dfn>[<var>1</var>];</td></tr>
+<tr><th id="30">30</th><td>} <dfn class="typedef" id="MODEMDEVCAPS" title='MODEMDEVCAPS' data-type='struct _MODEMDEVCAPS' data-ref="MODEMDEVCAPS">MODEMDEVCAPS</dfn>,*<dfn class="typedef" id="PMODEMDEVCAPS" title='PMODEMDEVCAPS' data-type='struct _MODEMDEVCAPS *' data-ref="PMODEMDEVCAPS">PMODEMDEVCAPS</dfn>,*<dfn class="typedef" id="LPMODEMDEVCAPS" title='LPMODEMDEVCAPS' data-type='struct _MODEMDEVCAPS *' data-ref="LPMODEMDEVCAPS">LPMODEMDEVCAPS</dfn>;</td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_MODEMSETTINGS" title='_MODEMSETTINGS' data-ref="_MODEMSETTINGS"><a class="type" href="#_MODEMSETTINGS" title='_MODEMSETTINGS' data-ref="_MODEMSETTINGS"><a class="type" href="#_MODEMSETTINGS" title='_MODEMSETTINGS' data-ref="_MODEMSETTINGS"><a class="type" href="#_MODEMSETTINGS" title='_MODEMSETTINGS' data-ref="_MODEMSETTINGS">_MODEMSETTINGS</a></a></a></dfn> {</td></tr>
+<tr><th id="33">33</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMSETTINGS::dwActualSize" title='_MODEMSETTINGS::dwActualSize' data-ref="_MODEMSETTINGS::dwActualSize">dwActualSize</dfn>;</td></tr>
+<tr><th id="34">34</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMSETTINGS::dwRequiredSize" title='_MODEMSETTINGS::dwRequiredSize' data-ref="_MODEMSETTINGS::dwRequiredSize">dwRequiredSize</dfn>;</td></tr>
+<tr><th id="35">35</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMSETTINGS::dwDevSpecificOffset" title='_MODEMSETTINGS::dwDevSpecificOffset' data-ref="_MODEMSETTINGS::dwDevSpecificOffset">dwDevSpecificOffset</dfn>;</td></tr>
+<tr><th id="36">36</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMSETTINGS::dwDevSpecificSize" title='_MODEMSETTINGS::dwDevSpecificSize' data-ref="_MODEMSETTINGS::dwDevSpecificSize">dwDevSpecificSize</dfn>;</td></tr>
+<tr><th id="37">37</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMSETTINGS::dwCallSetupFailTimer" title='_MODEMSETTINGS::dwCallSetupFailTimer' data-ref="_MODEMSETTINGS::dwCallSetupFailTimer">dwCallSetupFailTimer</dfn>;</td></tr>
+<tr><th id="38">38</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMSETTINGS::dwInactivityTimeout" title='_MODEMSETTINGS::dwInactivityTimeout' data-ref="_MODEMSETTINGS::dwInactivityTimeout">dwInactivityTimeout</dfn>;</td></tr>
+<tr><th id="39">39</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMSETTINGS::dwSpeakerVolume" title='_MODEMSETTINGS::dwSpeakerVolume' data-ref="_MODEMSETTINGS::dwSpeakerVolume">dwSpeakerVolume</dfn>;</td></tr>
+<tr><th id="40">40</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMSETTINGS::dwSpeakerMode" title='_MODEMSETTINGS::dwSpeakerMode' data-ref="_MODEMSETTINGS::dwSpeakerMode">dwSpeakerMode</dfn>;</td></tr>
+<tr><th id="41">41</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMSETTINGS::dwPreferredModemOptions" title='_MODEMSETTINGS::dwPreferredModemOptions' data-ref="_MODEMSETTINGS::dwPreferredModemOptions">dwPreferredModemOptions</dfn>;</td></tr>
+<tr><th id="42">42</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMSETTINGS::dwNegotiatedModemOptions" title='_MODEMSETTINGS::dwNegotiatedModemOptions' data-ref="_MODEMSETTINGS::dwNegotiatedModemOptions">dwNegotiatedModemOptions</dfn>;</td></tr>
+<tr><th id="43">43</th><td>  <a class="typedef" href="windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_MODEMSETTINGS::dwNegotiatedDCERate" title='_MODEMSETTINGS::dwNegotiatedDCERate' data-ref="_MODEMSETTINGS::dwNegotiatedDCERate">dwNegotiatedDCERate</dfn>;</td></tr>
+<tr><th id="44">44</th><td>  <a class="typedef" href="windef.h.html#BYTE" title='BYTE' data-type='unsigned char' data-ref="BYTE">BYTE</a> <dfn class="decl" id="_MODEMSETTINGS::abVariablePortion" title='_MODEMSETTINGS::abVariablePortion' data-ref="_MODEMSETTINGS::abVariablePortion">abVariablePortion</dfn> [<var>1</var>];</td></tr>
+<tr><th id="45">45</th><td>} <dfn class="typedef" id="MODEMSETTINGS" title='MODEMSETTINGS' data-type='struct _MODEMSETTINGS' data-ref="MODEMSETTINGS">MODEMSETTINGS</dfn>,*<dfn class="typedef" id="PMODEMSETTINGS" title='PMODEMSETTINGS' data-type='struct _MODEMSETTINGS *' data-ref="PMODEMSETTINGS">PMODEMSETTINGS</dfn>,*<dfn class="typedef" id="LPMODEMSETTINGS" title='LPMODEMSETTINGS' data-type='struct _MODEMSETTINGS *' data-ref="LPMODEMSETTINGS">LPMODEMSETTINGS</dfn>;</td></tr>
+<tr><th id="46">46</th><td></td></tr>
+<tr><th id="47">47</th><td><u>#define <dfn class="macro" id="_M/DIALOPTION_BILLING" data-ref="_M/DIALOPTION_BILLING">DIALOPTION_BILLING</dfn> 0x00000040</u></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/DIALOPTION_QUIET" data-ref="_M/DIALOPTION_QUIET">DIALOPTION_QUIET</dfn> 0x00000080</u></td></tr>
+<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/DIALOPTION_DIALTONE" data-ref="_M/DIALOPTION_DIALTONE">DIALOPTION_DIALTONE</dfn> 0x00000100</u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#define <dfn class="macro" id="_M/MDMVOLFLAG_LOW" data-ref="_M/MDMVOLFLAG_LOW">MDMVOLFLAG_LOW</dfn> 0x00000001</u></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/MDMVOLFLAG_MEDIUM" data-ref="_M/MDMVOLFLAG_MEDIUM">MDMVOLFLAG_MEDIUM</dfn> 0x00000002</u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/MDMVOLFLAG_HIGH" data-ref="_M/MDMVOLFLAG_HIGH">MDMVOLFLAG_HIGH</dfn> 0x00000004</u></td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td><u>#define <dfn class="macro" id="_M/MDMVOL_LOW" data-ref="_M/MDMVOL_LOW">MDMVOL_LOW</dfn> 0x00000000</u></td></tr>
+<tr><th id="56">56</th><td><u>#define <dfn class="macro" id="_M/MDMVOL_MEDIUM" data-ref="_M/MDMVOL_MEDIUM">MDMVOL_MEDIUM</dfn> 0x00000001</u></td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/MDMVOL_HIGH" data-ref="_M/MDMVOL_HIGH">MDMVOL_HIGH</dfn> 0x00000002</u></td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/MDMSPKRFLAG_OFF" data-ref="_M/MDMSPKRFLAG_OFF">MDMSPKRFLAG_OFF</dfn> 0x00000001</u></td></tr>
+<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/MDMSPKRFLAG_DIAL" data-ref="_M/MDMSPKRFLAG_DIAL">MDMSPKRFLAG_DIAL</dfn> 0x00000002</u></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/MDMSPKRFLAG_ON" data-ref="_M/MDMSPKRFLAG_ON">MDMSPKRFLAG_ON</dfn> 0x00000004</u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/MDMSPKRFLAG_CALLSETUP" data-ref="_M/MDMSPKRFLAG_CALLSETUP">MDMSPKRFLAG_CALLSETUP</dfn> 0x00000008</u></td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/MDMSPKR_OFF" data-ref="_M/MDMSPKR_OFF">MDMSPKR_OFF</dfn> 0x00000000</u></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/MDMSPKR_DIAL" data-ref="_M/MDMSPKR_DIAL">MDMSPKR_DIAL</dfn> 0x00000001</u></td></tr>
+<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/MDMSPKR_ON" data-ref="_M/MDMSPKR_ON">MDMSPKR_ON</dfn> 0x00000002</u></td></tr>
+<tr><th id="67">67</th><td><u>#define <dfn class="macro" id="_M/MDMSPKR_CALLSETUP" data-ref="_M/MDMSPKR_CALLSETUP">MDMSPKR_CALLSETUP</dfn> 0x00000003</u></td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td><u>#define <dfn class="macro" id="_M/MDM_COMPRESSION" data-ref="_M/MDM_COMPRESSION">MDM_COMPRESSION</dfn> 0x00000001</u></td></tr>
+<tr><th id="70">70</th><td><u>#define <dfn class="macro" id="_M/MDM_ERROR_CONTROL" data-ref="_M/MDM_ERROR_CONTROL">MDM_ERROR_CONTROL</dfn> 0x00000002</u></td></tr>
+<tr><th id="71">71</th><td><u>#define <dfn class="macro" id="_M/MDM_FORCED_EC" data-ref="_M/MDM_FORCED_EC">MDM_FORCED_EC</dfn> 0x00000004</u></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/MDM_CELLULAR" data-ref="_M/MDM_CELLULAR">MDM_CELLULAR</dfn> 0x00000008</u></td></tr>
+<tr><th id="73">73</th><td><u>#define <dfn class="macro" id="_M/MDM_FLOWCONTROL_HARD" data-ref="_M/MDM_FLOWCONTROL_HARD">MDM_FLOWCONTROL_HARD</dfn> 0x00000010</u></td></tr>
+<tr><th id="74">74</th><td><u>#define <dfn class="macro" id="_M/MDM_FLOWCONTROL_SOFT" data-ref="_M/MDM_FLOWCONTROL_SOFT">MDM_FLOWCONTROL_SOFT</dfn> 0x00000020</u></td></tr>
+<tr><th id="75">75</th><td><u>#define <dfn class="macro" id="_M/MDM_CCITT_OVERRIDE" data-ref="_M/MDM_CCITT_OVERRIDE">MDM_CCITT_OVERRIDE</dfn> 0x00000040</u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/MDM_SPEED_ADJUST" data-ref="_M/MDM_SPEED_ADJUST">MDM_SPEED_ADJUST</dfn> 0x00000080</u></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/MDM_TONE_DIAL" data-ref="_M/MDM_TONE_DIAL">MDM_TONE_DIAL</dfn> 0x00000100</u></td></tr>
+<tr><th id="78">78</th><td><u>#define <dfn class="macro" id="_M/MDM_BLIND_DIAL" data-ref="_M/MDM_BLIND_DIAL">MDM_BLIND_DIAL</dfn> 0x00000200</u></td></tr>
+<tr><th id="79">79</th><td><u>#define <dfn class="macro" id="_M/MDM_V23_OVERRIDE" data-ref="_M/MDM_V23_OVERRIDE">MDM_V23_OVERRIDE</dfn> 0x00000400</u></td></tr>
+<tr><th id="80">80</th><td><u>#define <dfn class="macro" id="_M/MDM_DIAGNOSTICS" data-ref="_M/MDM_DIAGNOSTICS">MDM_DIAGNOSTICS</dfn> 0x00000800</u></td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_BEARERMODE" data-ref="_M/MDM_MASK_BEARERMODE">MDM_MASK_BEARERMODE</dfn> 0x0000f000</u></td></tr>
+<tr><th id="83">83</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_BEARERMODE" data-ref="_M/MDM_SHIFT_BEARERMODE">MDM_SHIFT_BEARERMODE</dfn> 12</u></td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_PROTOCOLID" data-ref="_M/MDM_MASK_PROTOCOLID">MDM_MASK_PROTOCOLID</dfn> 0x000f0000</u></td></tr>
+<tr><th id="86">86</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_PROTOCOLID" data-ref="_M/MDM_SHIFT_PROTOCOLID">MDM_SHIFT_PROTOCOLID</dfn> 16</u></td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_PROTOCOLDATA" data-ref="_M/MDM_MASK_PROTOCOLDATA">MDM_MASK_PROTOCOLDATA</dfn> 0x0ff00000</u></td></tr>
+<tr><th id="89">89</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_PROTOCOLDATA" data-ref="_M/MDM_SHIFT_PROTOCOLDATA">MDM_SHIFT_PROTOCOLDATA</dfn> 20</u></td></tr>
+<tr><th id="90">90</th><td></td></tr>
+<tr><th id="91">91</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_PROTOCOLINFO" data-ref="_M/MDM_MASK_PROTOCOLINFO">MDM_MASK_PROTOCOLINFO</dfn> (MDM_MASK_PROTOCOLID|MDM_MASK_PROTOCOLDATA)</u></td></tr>
+<tr><th id="92">92</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_PROTOCOLINFO" data-ref="_M/MDM_SHIFT_PROTOCOLINFO">MDM_SHIFT_PROTOCOLINFO</dfn> MDM_SHIFT_PROTOCOLID</u></td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_EXTENDEDINFO" data-ref="_M/MDM_MASK_EXTENDEDINFO">MDM_MASK_EXTENDEDINFO</dfn> (MDM_MASK_BEARERMODE|MDM_MASK_PROTOCOLINFO)</u></td></tr>
+<tr><th id="95">95</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_EXTENDEDINFO" data-ref="_M/MDM_SHIFT_EXTENDEDINFO">MDM_SHIFT_EXTENDEDINFO</dfn> MDM_SHIFT_BEARERMODE</u></td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td><u>#define <dfn class="macro" id="_M/MDM_GET_BEARERMODE" data-ref="_M/MDM_GET_BEARERMODE">MDM_GET_BEARERMODE</dfn>(_dwOptions) (((_dwOptions)&amp;MDM_MASK_BEARERMODE) &gt;&gt; MDM_SHIFT_BEARERMODE)</u></td></tr>
+<tr><th id="98">98</th><td><u>#define <dfn class="macro" id="_M/MDM_SET_BEARERMODE" data-ref="_M/MDM_SET_BEARERMODE">MDM_SET_BEARERMODE</dfn>(_dwOptions,_bm) (((_dwOptions) &amp;= ~MDM_MASK_BEARERMODE),((_dwOptions) |= (((_bm)&lt;&lt;MDM_SHIFT_BEARERMODE)&amp;MDM_MASK_BEARERMODE)))</u></td></tr>
+<tr><th id="99">99</th><td><u>#define <dfn class="macro" id="_M/MDM_GET_PROTOCOLID" data-ref="_M/MDM_GET_PROTOCOLID">MDM_GET_PROTOCOLID</dfn>(_dwOptions) (((_dwOptions)&amp;MDM_MASK_PROTOCOLID) &gt;&gt; MDM_SHIFT_PROTOCOLID)</u></td></tr>
+<tr><th id="100">100</th><td><u>#define <dfn class="macro" id="_M/MDM_SET_PROTOCOLID" data-ref="_M/MDM_SET_PROTOCOLID">MDM_SET_PROTOCOLID</dfn>(_dwOptions,_prot) (((_dwOptions) &amp;= ~MDM_MASK_PROTOCOLID),((_dwOptions) |= (((_prot)&lt;&lt;MDM_SHIFT_PROTOCOLID)&amp;MDM_MASK_PROTOCOLID)))</u></td></tr>
+<tr><th id="101">101</th><td><u>#define <dfn class="macro" id="_M/MDM_GET_PROTOCOLDATA" data-ref="_M/MDM_GET_PROTOCOLDATA">MDM_GET_PROTOCOLDATA</dfn>(_dwOptions) (((_dwOptions)&amp;MDM_MASK_PROTOCOLDATA) &gt;&gt; MDM_SHIFT_PROTOCOLDATA)</u></td></tr>
+<tr><th id="102">102</th><td><u>#define <dfn class="macro" id="_M/MDM_SET_PROTOCOLDATA" data-ref="_M/MDM_SET_PROTOCOLDATA">MDM_SET_PROTOCOLDATA</dfn>(_dwOptions,_pd) (((_dwOptions) &amp;= ~MDM_MASK_PROTOCOLDATA),((_dwOptions) |= (((_pd)&lt;&lt;MDM_SHIFT_PROTOCOLDATA)&amp;MDM_MASK_PROTOCOLDATA)))</u></td></tr>
+<tr><th id="103">103</th><td><u>#define <dfn class="macro" id="_M/MDM_GET_PROTOCOLINFO" data-ref="_M/MDM_GET_PROTOCOLINFO">MDM_GET_PROTOCOLINFO</dfn>(_dwOptions) ((_dwOptions)&amp;MDM_MASK_PROTOCOLINFO)</u></td></tr>
+<tr><th id="104">104</th><td><u>#define <dfn class="macro" id="_M/MDM_SET_PROTOCOLINFO" data-ref="_M/MDM_SET_PROTOCOLINFO">MDM_SET_PROTOCOLINFO</dfn>(_dwOptions,_pinfo) (((_dwOptions) &amp;= ~MDM_MASK_PROTOCOLINFO),((_dwOptions) |= ((_pinfo)&amp;MDM_MASK_PROTOCOLINFO)))</u></td></tr>
+<tr><th id="105">105</th><td><u>#define <dfn class="macro" id="_M/MDM_GEN_PROTOCOLINFO" data-ref="_M/MDM_GEN_PROTOCOLINFO">MDM_GEN_PROTOCOLINFO</dfn>(_pid,_pdata) ((((_pid)&lt;&lt;MDM_SHIFT_PROTOCOLID)&amp;MDM_MASK_PROTOCOLID) |(((_pdata)&lt;&lt;MDM_SHIFT_PROTOCOLDATA)&amp;MDM_MASK_PROTOCOLDATA))</u></td></tr>
+<tr><th id="106">106</th><td><u>#define <dfn class="macro" id="_M/MDM_GET_EXTENDEDINFO" data-ref="_M/MDM_GET_EXTENDEDINFO">MDM_GET_EXTENDEDINFO</dfn>(_dwOptions) ((_dwOptions)&amp;MDM_MASK_EXTENDEDINFO)</u></td></tr>
+<tr><th id="107">107</th><td><u>#define <dfn class="macro" id="_M/MDM_SET_EXTENDEDINFO" data-ref="_M/MDM_SET_EXTENDEDINFO">MDM_SET_EXTENDEDINFO</dfn>(_dwOptions,_extinfo) (((_dwOptions) &amp;= ~MDM_MASK_EXTENDEDINFO),((_dwOptions) |= ((_extinfo) &amp; MDM_MASK_EXTENDEDINFO)))</u></td></tr>
+<tr><th id="108">108</th><td><u>#define <dfn class="macro" id="_M/MDM_GEN_EXTENDEDINFO" data-ref="_M/MDM_GEN_EXTENDEDINFO">MDM_GEN_EXTENDEDINFO</dfn>(_bearermode,_pinfo) (((_pinfo)&amp;MDM_MASK_PROTOCOLINFO) |(((_bearermode)&lt;&lt;MDM_SHIFT_BEARERMODE)&amp;MDM_MASK_BEARERMODE))</u></td></tr>
+<tr><th id="109">109</th><td></td></tr>
+<tr><th id="110">110</th><td><u>#define <dfn class="macro" id="_M/MDM_BEARERMODE_ANALOG" data-ref="_M/MDM_BEARERMODE_ANALOG">MDM_BEARERMODE_ANALOG</dfn> 0x0</u></td></tr>
+<tr><th id="111">111</th><td><u>#define <dfn class="macro" id="_M/MDM_BEARERMODE_ISDN" data-ref="_M/MDM_BEARERMODE_ISDN">MDM_BEARERMODE_ISDN</dfn> 0x1</u></td></tr>
+<tr><th id="112">112</th><td><u>#define <dfn class="macro" id="_M/MDM_BEARERMODE_GSM" data-ref="_M/MDM_BEARERMODE_GSM">MDM_BEARERMODE_GSM</dfn> 0x2</u></td></tr>
+<tr><th id="113">113</th><td></td></tr>
+<tr><th id="114">114</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOLID_DEFAULT" data-ref="_M/MDM_PROTOCOLID_DEFAULT">MDM_PROTOCOLID_DEFAULT</dfn> 0x0</u></td></tr>
+<tr><th id="115">115</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOLID_HDLCPPP" data-ref="_M/MDM_PROTOCOLID_HDLCPPP">MDM_PROTOCOLID_HDLCPPP</dfn> 0x1</u></td></tr>
+<tr><th id="116">116</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOLID_V128" data-ref="_M/MDM_PROTOCOLID_V128">MDM_PROTOCOLID_V128</dfn> 0x2</u></td></tr>
+<tr><th id="117">117</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOLID_X75" data-ref="_M/MDM_PROTOCOLID_X75">MDM_PROTOCOLID_X75</dfn> 0x3</u></td></tr>
+<tr><th id="118">118</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOLID_V110" data-ref="_M/MDM_PROTOCOLID_V110">MDM_PROTOCOLID_V110</dfn> 0x4</u></td></tr>
+<tr><th id="119">119</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOLID_V120" data-ref="_M/MDM_PROTOCOLID_V120">MDM_PROTOCOLID_V120</dfn> 0x5</u></td></tr>
+<tr><th id="120">120</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOLID_AUTO" data-ref="_M/MDM_PROTOCOLID_AUTO">MDM_PROTOCOLID_AUTO</dfn> 0x6</u></td></tr>
+<tr><th id="121">121</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOLID_ANALOG" data-ref="_M/MDM_PROTOCOLID_ANALOG">MDM_PROTOCOLID_ANALOG</dfn> 0x7</u></td></tr>
+<tr><th id="122">122</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOLID_GPRS" data-ref="_M/MDM_PROTOCOLID_GPRS">MDM_PROTOCOLID_GPRS</dfn> 0x8</u></td></tr>
+<tr><th id="123">123</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOLID_PIAFS" data-ref="_M/MDM_PROTOCOLID_PIAFS">MDM_PROTOCOLID_PIAFS</dfn> 0x9</u></td></tr>
+<tr><th id="124">124</th><td></td></tr>
+<tr><th id="125">125</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_HDLCPPP_SPEED" data-ref="_M/MDM_SHIFT_HDLCPPP_SPEED">MDM_SHIFT_HDLCPPP_SPEED</dfn> 0x0</u></td></tr>
+<tr><th id="126">126</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_HDLCPPP_SPEED" data-ref="_M/MDM_MASK_HDLCPPP_SPEED">MDM_MASK_HDLCPPP_SPEED</dfn> 0x7</u></td></tr>
+<tr><th id="127">127</th><td></td></tr>
+<tr><th id="128">128</th><td><u>#define <dfn class="macro" id="_M/MDM_HDLCPPP_SPEED_DEFAULT" data-ref="_M/MDM_HDLCPPP_SPEED_DEFAULT">MDM_HDLCPPP_SPEED_DEFAULT</dfn> 0x0</u></td></tr>
+<tr><th id="129">129</th><td><u>#define <dfn class="macro" id="_M/MDM_HDLCPPP_SPEED_64K" data-ref="_M/MDM_HDLCPPP_SPEED_64K">MDM_HDLCPPP_SPEED_64K</dfn> 0x1</u></td></tr>
+<tr><th id="130">130</th><td><u>#define <dfn class="macro" id="_M/MDM_HDLCPPP_SPEED_56K" data-ref="_M/MDM_HDLCPPP_SPEED_56K">MDM_HDLCPPP_SPEED_56K</dfn> 0x2</u></td></tr>
+<tr><th id="131">131</th><td></td></tr>
+<tr><th id="132">132</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_HDLCPPP_AUTH" data-ref="_M/MDM_SHIFT_HDLCPPP_AUTH">MDM_SHIFT_HDLCPPP_AUTH</dfn> 0x3</u></td></tr>
+<tr><th id="133">133</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_HDLCPPP_AUTH" data-ref="_M/MDM_MASK_HDLCPPP_AUTH">MDM_MASK_HDLCPPP_AUTH</dfn> (0x7&lt;&lt;3)</u></td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td><u>#define <dfn class="macro" id="_M/MDM_HDLCPPP_AUTH_DEFAULT" data-ref="_M/MDM_HDLCPPP_AUTH_DEFAULT">MDM_HDLCPPP_AUTH_DEFAULT</dfn> 0x0</u></td></tr>
+<tr><th id="136">136</th><td><u>#define <dfn class="macro" id="_M/MDM_HDLCPPP_AUTH_NONE" data-ref="_M/MDM_HDLCPPP_AUTH_NONE">MDM_HDLCPPP_AUTH_NONE</dfn> 0x1</u></td></tr>
+<tr><th id="137">137</th><td><u>#define <dfn class="macro" id="_M/MDM_HDLCPPP_AUTH_PAP" data-ref="_M/MDM_HDLCPPP_AUTH_PAP">MDM_HDLCPPP_AUTH_PAP</dfn> 0x2</u></td></tr>
+<tr><th id="138">138</th><td><u>#define <dfn class="macro" id="_M/MDM_HDLCPPP_AUTH_CHAP" data-ref="_M/MDM_HDLCPPP_AUTH_CHAP">MDM_HDLCPPP_AUTH_CHAP</dfn> 0x3</u></td></tr>
+<tr><th id="139">139</th><td><u>#define <dfn class="macro" id="_M/MDM_HDLCPPP_AUTH_MSCHAP" data-ref="_M/MDM_HDLCPPP_AUTH_MSCHAP">MDM_HDLCPPP_AUTH_MSCHAP</dfn> 0x4</u></td></tr>
+<tr><th id="140">140</th><td></td></tr>
+<tr><th id="141">141</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_HDLCPPP_ML" data-ref="_M/MDM_SHIFT_HDLCPPP_ML">MDM_SHIFT_HDLCPPP_ML</dfn> 0x6</u></td></tr>
+<tr><th id="142">142</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_HDLCPPP_ML" data-ref="_M/MDM_MASK_HDLCPPP_ML">MDM_MASK_HDLCPPP_ML</dfn> (0x3&lt;&lt;6)</u></td></tr>
+<tr><th id="143">143</th><td></td></tr>
+<tr><th id="144">144</th><td><u>#define <dfn class="macro" id="_M/MDM_HDLCPPP_ML_DEFAULT" data-ref="_M/MDM_HDLCPPP_ML_DEFAULT">MDM_HDLCPPP_ML_DEFAULT</dfn> 0x0</u></td></tr>
+<tr><th id="145">145</th><td><u>#define <dfn class="macro" id="_M/MDM_HDLCPPP_ML_NONE" data-ref="_M/MDM_HDLCPPP_ML_NONE">MDM_HDLCPPP_ML_NONE</dfn> 0x1</u></td></tr>
+<tr><th id="146">146</th><td><u>#define <dfn class="macro" id="_M/MDM_HDLCPPP_ML_2" data-ref="_M/MDM_HDLCPPP_ML_2">MDM_HDLCPPP_ML_2</dfn> 0x2</u></td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td><u>#define <dfn class="macro" id="_M/MDM_GEN_HDLCPPP_PROTOCOL_DATA" data-ref="_M/MDM_GEN_HDLCPPP_PROTOCOL_DATA">MDM_GEN_HDLCPPP_PROTOCOL_DATA</dfn>(_speed,_auth,_ml) ((((_speed)&lt;&lt;MDM_SHIFT_HDLCPPP_SPEED)&amp;MDM_MASK_HDLCPPP_SPEED) |(((_auth)&lt;&lt;MDM_SHIFT_HDLCPPP_AUTH)&amp;MDM_MASK_HDLCPPP_AUTH) |(((_ml)&lt;&lt;MDM_SHIFT_HDLCPPP_ML)&amp;MDM_MASK_HDLCPPP_ML))</u></td></tr>
+<tr><th id="149">149</th><td></td></tr>
+<tr><th id="150">150</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_HDLCPPP_64K" data-ref="_M/MDM_PROTOCOL_HDLCPPP_64K">MDM_PROTOCOL_HDLCPPP_64K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_HDLCPPP,MDM_GEN_HDLCPPP_PROTOCOL_DATA (MDM_HDLCPPP_SPEED_64K,MDM_HDLCPPP_AUTH_DEFAULT,MDM_HDLCPPP_ML_DEFAULT))</u></td></tr>
+<tr><th id="151">151</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_HDLCPPP_56K" data-ref="_M/MDM_PROTOCOL_HDLCPPP_56K">MDM_PROTOCOL_HDLCPPP_56K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_HDLCPPP,MDM_GEN_HDLCPPP_PROTOCOL_DATA (MDM_HDLCPPP_SPEED_56K,MDM_HDLCPPP_AUTH_DEFAULT,MDM_HDLCPPP_ML_DEFAULT))</u></td></tr>
+<tr><th id="152">152</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_HDLCPPP_112K" data-ref="_M/MDM_PROTOCOL_HDLCPPP_112K">MDM_PROTOCOL_HDLCPPP_112K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_HDLCPPP,MDM_GEN_HDLCPPP_PROTOCOL_DATA (MDM_HDLCPPP_SPEED_56K,MDM_HDLCPPP_AUTH_DEFAULT,MDM_HDLCPPP_ML_2))</u></td></tr>
+<tr><th id="153">153</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_HDLCPPP_112K_PAP" data-ref="_M/MDM_PROTOCOL_HDLCPPP_112K_PAP">MDM_PROTOCOL_HDLCPPP_112K_PAP</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_HDLCPPP,MDM_GEN_HDLCPPP_PROTOCOL_DATA (MDM_HDLCPPP_SPEED_56K,MDM_HDLCPPP_AUTH_PAP,MDM_HDLCPPP_ML_2))</u></td></tr>
+<tr><th id="154">154</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_HDLCPPP_112K_CHAP" data-ref="_M/MDM_PROTOCOL_HDLCPPP_112K_CHAP">MDM_PROTOCOL_HDLCPPP_112K_CHAP</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_HDLCPPP,MDM_GEN_HDLCPPP_PROTOCOL_DATA (MDM_HDLCPPP_SPEED_56K,MDM_HDLCPPP_AUTH_CHAP,MDM_HDLCPPP_ML_2))</u></td></tr>
+<tr><th id="155">155</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_HDLCPPP_112K_MSCHAP" data-ref="_M/MDM_PROTOCOL_HDLCPPP_112K_MSCHAP">MDM_PROTOCOL_HDLCPPP_112K_MSCHAP</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_HDLCPPP,MDM_GEN_HDLCPPP_PROTOCOL_DATA (MDM_HDLCPPP_SPEED_56K,MDM_HDLCPPP_AUTH_MSCHAP,MDM_HDLCPPP_ML_2))</u></td></tr>
+<tr><th id="156">156</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_HDLCPPP_128K" data-ref="_M/MDM_PROTOCOL_HDLCPPP_128K">MDM_PROTOCOL_HDLCPPP_128K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_HDLCPPP,MDM_GEN_HDLCPPP_PROTOCOL_DATA (MDM_HDLCPPP_SPEED_64K,MDM_HDLCPPP_AUTH_DEFAULT,MDM_HDLCPPP_ML_2))</u></td></tr>
+<tr><th id="157">157</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_HDLCPPP_128K_PAP" data-ref="_M/MDM_PROTOCOL_HDLCPPP_128K_PAP">MDM_PROTOCOL_HDLCPPP_128K_PAP</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_HDLCPPP,MDM_GEN_HDLCPPP_PROTOCOL_DATA (MDM_HDLCPPP_SPEED_64K,MDM_HDLCPPP_AUTH_PAP,MDM_HDLCPPP_ML_2))</u></td></tr>
+<tr><th id="158">158</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_HDLCPPP_128K_CHAP" data-ref="_M/MDM_PROTOCOL_HDLCPPP_128K_CHAP">MDM_PROTOCOL_HDLCPPP_128K_CHAP</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_HDLCPPP,MDM_GEN_HDLCPPP_PROTOCOL_DATA (MDM_HDLCPPP_SPEED_64K,MDM_HDLCPPP_AUTH_CHAP,MDM_HDLCPPP_ML_2))</u></td></tr>
+<tr><th id="159">159</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_HDLCPPP_128K_MSCHAP" data-ref="_M/MDM_PROTOCOL_HDLCPPP_128K_MSCHAP">MDM_PROTOCOL_HDLCPPP_128K_MSCHAP</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_HDLCPPP,MDM_GEN_HDLCPPP_PROTOCOL_DATA (MDM_HDLCPPP_SPEED_64K,MDM_HDLCPPP_AUTH_MSCHAP,MDM_HDLCPPP_ML_2))</u></td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_V120_SPEED" data-ref="_M/MDM_SHIFT_V120_SPEED">MDM_SHIFT_V120_SPEED</dfn> 0x0</u></td></tr>
+<tr><th id="162">162</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_V120_SPEED" data-ref="_M/MDM_MASK_V120_SPEED">MDM_MASK_V120_SPEED</dfn> 0x7</u></td></tr>
+<tr><th id="163">163</th><td></td></tr>
+<tr><th id="164">164</th><td><u>#define <dfn class="macro" id="_M/MDM_V120_SPEED_DEFAULT" data-ref="_M/MDM_V120_SPEED_DEFAULT">MDM_V120_SPEED_DEFAULT</dfn> 0x0</u></td></tr>
+<tr><th id="165">165</th><td><u>#define <dfn class="macro" id="_M/MDM_V120_SPEED_64K" data-ref="_M/MDM_V120_SPEED_64K">MDM_V120_SPEED_64K</dfn> 0x1</u></td></tr>
+<tr><th id="166">166</th><td><u>#define <dfn class="macro" id="_M/MDM_V120_SPEED_56K" data-ref="_M/MDM_V120_SPEED_56K">MDM_V120_SPEED_56K</dfn> 0x2</u></td></tr>
+<tr><th id="167">167</th><td></td></tr>
+<tr><th id="168">168</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_V120_ML" data-ref="_M/MDM_SHIFT_V120_ML">MDM_SHIFT_V120_ML</dfn> 0x6</u></td></tr>
+<tr><th id="169">169</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_V120_ML" data-ref="_M/MDM_MASK_V120_ML">MDM_MASK_V120_ML</dfn> (0x3&lt;&lt;6)</u></td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td><u>#define <dfn class="macro" id="_M/MDM_V120_ML_DEFAULT" data-ref="_M/MDM_V120_ML_DEFAULT">MDM_V120_ML_DEFAULT</dfn> 0x0</u></td></tr>
+<tr><th id="172">172</th><td><u>#define <dfn class="macro" id="_M/MDM_V120_ML_NONE" data-ref="_M/MDM_V120_ML_NONE">MDM_V120_ML_NONE</dfn> 0x1</u></td></tr>
+<tr><th id="173">173</th><td><u>#define <dfn class="macro" id="_M/MDM_V120_ML_2" data-ref="_M/MDM_V120_ML_2">MDM_V120_ML_2</dfn> 0x2</u></td></tr>
+<tr><th id="174">174</th><td></td></tr>
+<tr><th id="175">175</th><td><u>#define <dfn class="macro" id="_M/MDM_GEN_V120_PROTOCOL_DATA" data-ref="_M/MDM_GEN_V120_PROTOCOL_DATA">MDM_GEN_V120_PROTOCOL_DATA</dfn>(_speed,_ml) ((((_speed)&lt;&lt;MDM_SHIFT_V120_SPEED)&amp;MDM_MASK_V120_SPEED) |(((_ml)&lt;&lt;MDM_SHIFT_V120_ML)&amp;MDM_MASK_V120_ML))</u></td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V120_64K" data-ref="_M/MDM_PROTOCOL_V120_64K">MDM_PROTOCOL_V120_64K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V120,MDM_GEN_V120_PROTOCOL_DATA (MDM_V120_SPEED_64K,MDM_V120_ML_NONE))</u></td></tr>
+<tr><th id="178">178</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V120_56K" data-ref="_M/MDM_PROTOCOL_V120_56K">MDM_PROTOCOL_V120_56K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V120,MDM_GEN_V120_PROTOCOL_DATA (MDM_V120_SPEED_56K,MDM_V120_ML_NONE))</u></td></tr>
+<tr><th id="179">179</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V120_112K" data-ref="_M/MDM_PROTOCOL_V120_112K">MDM_PROTOCOL_V120_112K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V120,MDM_GEN_V120_PROTOCOL_DATA (MDM_V120_SPEED_56K,MDM_V120_ML_2))</u></td></tr>
+<tr><th id="180">180</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V120_128K" data-ref="_M/MDM_PROTOCOL_V120_128K">MDM_PROTOCOL_V120_128K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V120,MDM_GEN_V120_PROTOCOL_DATA (MDM_V120_SPEED_64K,MDM_V120_ML_2))</u></td></tr>
+<tr><th id="181">181</th><td></td></tr>
+<tr><th id="182">182</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_X75_DATA" data-ref="_M/MDM_SHIFT_X75_DATA">MDM_SHIFT_X75_DATA</dfn> 0x0</u></td></tr>
+<tr><th id="183">183</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_X75_DATA" data-ref="_M/MDM_MASK_X75_DATA">MDM_MASK_X75_DATA</dfn> 0x7</u></td></tr>
+<tr><th id="184">184</th><td></td></tr>
+<tr><th id="185">185</th><td><u>#define <dfn class="macro" id="_M/MDM_X75_DATA_DEFAULT" data-ref="_M/MDM_X75_DATA_DEFAULT">MDM_X75_DATA_DEFAULT</dfn> 0x0</u></td></tr>
+<tr><th id="186">186</th><td><u>#define <dfn class="macro" id="_M/MDM_X75_DATA_64K" data-ref="_M/MDM_X75_DATA_64K">MDM_X75_DATA_64K</dfn> 0x1</u></td></tr>
+<tr><th id="187">187</th><td><u>#define <dfn class="macro" id="_M/MDM_X75_DATA_128K" data-ref="_M/MDM_X75_DATA_128K">MDM_X75_DATA_128K</dfn> 0x2</u></td></tr>
+<tr><th id="188">188</th><td><u>#define <dfn class="macro" id="_M/MDM_X75_DATA_T_70" data-ref="_M/MDM_X75_DATA_T_70">MDM_X75_DATA_T_70</dfn> 0x3</u></td></tr>
+<tr><th id="189">189</th><td><u>#define <dfn class="macro" id="_M/MDM_X75_DATA_BTX" data-ref="_M/MDM_X75_DATA_BTX">MDM_X75_DATA_BTX</dfn> 0x4</u></td></tr>
+<tr><th id="190">190</th><td></td></tr>
+<tr><th id="191">191</th><td><u>#define <dfn class="macro" id="_M/MDM_GEN_X75_PROTOCOL_DATA" data-ref="_M/MDM_GEN_X75_PROTOCOL_DATA">MDM_GEN_X75_PROTOCOL_DATA</dfn>(_data) (((_data)&lt;&lt;MDM_SHIFT_X75_DATA)&amp;MDM_MASK_X75_DATA)</u></td></tr>
+<tr><th id="192">192</th><td></td></tr>
+<tr><th id="193">193</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_X75_64K" data-ref="_M/MDM_PROTOCOL_X75_64K">MDM_PROTOCOL_X75_64K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_X75,MDM_GEN_X75_PROTOCOL_DATA (MDM_X75_DATA_64K))</u></td></tr>
+<tr><th id="194">194</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_X75_128K" data-ref="_M/MDM_PROTOCOL_X75_128K">MDM_PROTOCOL_X75_128K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_X75,MDM_GEN_X75_PROTOCOL_DATA (MDM_X75_DATA_128K))</u></td></tr>
+<tr><th id="195">195</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_X75_T_70" data-ref="_M/MDM_PROTOCOL_X75_T_70">MDM_PROTOCOL_X75_T_70</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_X75,MDM_GEN_X75_PROTOCOL_DATA (MDM_X75_DATA_T_70))</u></td></tr>
+<tr><th id="196">196</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_X75_BTX" data-ref="_M/MDM_PROTOCOL_X75_BTX">MDM_PROTOCOL_X75_BTX</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_X75,MDM_GEN_X75_PROTOCOL_DATA (MDM_X75_DATA_BTX))</u></td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_V110_SPEED" data-ref="_M/MDM_SHIFT_V110_SPEED">MDM_SHIFT_V110_SPEED</dfn> 0x0</u></td></tr>
+<tr><th id="199">199</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_V110_SPEED" data-ref="_M/MDM_MASK_V110_SPEED">MDM_MASK_V110_SPEED</dfn> 0xf</u></td></tr>
+<tr><th id="200">200</th><td></td></tr>
+<tr><th id="201">201</th><td><u>#define <dfn class="macro" id="_M/MDM_V110_SPEED_DEFAULT" data-ref="_M/MDM_V110_SPEED_DEFAULT">MDM_V110_SPEED_DEFAULT</dfn> 0x0</u></td></tr>
+<tr><th id="202">202</th><td><u>#define <dfn class="macro" id="_M/MDM_V110_SPEED_1DOT2K" data-ref="_M/MDM_V110_SPEED_1DOT2K">MDM_V110_SPEED_1DOT2K</dfn> 0x1</u></td></tr>
+<tr><th id="203">203</th><td><u>#define <dfn class="macro" id="_M/MDM_V110_SPEED_2DOT4K" data-ref="_M/MDM_V110_SPEED_2DOT4K">MDM_V110_SPEED_2DOT4K</dfn> 0x2</u></td></tr>
+<tr><th id="204">204</th><td><u>#define <dfn class="macro" id="_M/MDM_V110_SPEED_4DOT8K" data-ref="_M/MDM_V110_SPEED_4DOT8K">MDM_V110_SPEED_4DOT8K</dfn> 0x3</u></td></tr>
+<tr><th id="205">205</th><td><u>#define <dfn class="macro" id="_M/MDM_V110_SPEED_9DOT6K" data-ref="_M/MDM_V110_SPEED_9DOT6K">MDM_V110_SPEED_9DOT6K</dfn> 0x4</u></td></tr>
+<tr><th id="206">206</th><td><u>#define <dfn class="macro" id="_M/MDM_V110_SPEED_12DOT0K" data-ref="_M/MDM_V110_SPEED_12DOT0K">MDM_V110_SPEED_12DOT0K</dfn> 0x5</u></td></tr>
+<tr><th id="207">207</th><td><u>#define <dfn class="macro" id="_M/MDM_V110_SPEED_14DOT4K" data-ref="_M/MDM_V110_SPEED_14DOT4K">MDM_V110_SPEED_14DOT4K</dfn> 0x6</u></td></tr>
+<tr><th id="208">208</th><td><u>#define <dfn class="macro" id="_M/MDM_V110_SPEED_19DOT2K" data-ref="_M/MDM_V110_SPEED_19DOT2K">MDM_V110_SPEED_19DOT2K</dfn> 0x7</u></td></tr>
+<tr><th id="209">209</th><td><u>#define <dfn class="macro" id="_M/MDM_V110_SPEED_28DOT8K" data-ref="_M/MDM_V110_SPEED_28DOT8K">MDM_V110_SPEED_28DOT8K</dfn> 0x8</u></td></tr>
+<tr><th id="210">210</th><td><u>#define <dfn class="macro" id="_M/MDM_V110_SPEED_38DOT4K" data-ref="_M/MDM_V110_SPEED_38DOT4K">MDM_V110_SPEED_38DOT4K</dfn> 0x9</u></td></tr>
+<tr><th id="211">211</th><td><u>#define <dfn class="macro" id="_M/MDM_V110_SPEED_57DOT6K" data-ref="_M/MDM_V110_SPEED_57DOT6K">MDM_V110_SPEED_57DOT6K</dfn> 0xA</u></td></tr>
+<tr><th id="212">212</th><td></td></tr>
+<tr><th id="213">213</th><td><u>#define <dfn class="macro" id="_M/MDM_GEN_V110_PROTOCOL_DATA" data-ref="_M/MDM_GEN_V110_PROTOCOL_DATA">MDM_GEN_V110_PROTOCOL_DATA</dfn>(_data) (((_data)&lt;&lt;MDM_SHIFT_V110_SPEED)&amp;MDM_MASK_V110_SPEED)</u></td></tr>
+<tr><th id="214">214</th><td></td></tr>
+<tr><th id="215">215</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V110_1DOT2K" data-ref="_M/MDM_PROTOCOL_V110_1DOT2K">MDM_PROTOCOL_V110_1DOT2K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V110,MDM_GEN_V110_PROTOCOL_DATA (MDM_V110_SPEED_1DOT2K))</u></td></tr>
+<tr><th id="216">216</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V110_2DOT4K" data-ref="_M/MDM_PROTOCOL_V110_2DOT4K">MDM_PROTOCOL_V110_2DOT4K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V110,MDM_GEN_V110_PROTOCOL_DATA (MDM_V110_SPEED_2DOT4K))</u></td></tr>
+<tr><th id="217">217</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V110_4DOT8K" data-ref="_M/MDM_PROTOCOL_V110_4DOT8K">MDM_PROTOCOL_V110_4DOT8K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V110,MDM_GEN_V110_PROTOCOL_DATA (MDM_V110_SPEED_4DOT8K))</u></td></tr>
+<tr><th id="218">218</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V110_9DOT6K" data-ref="_M/MDM_PROTOCOL_V110_9DOT6K">MDM_PROTOCOL_V110_9DOT6K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V110,MDM_GEN_V110_PROTOCOL_DATA (MDM_V110_SPEED_9DOT6K))</u></td></tr>
+<tr><th id="219">219</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V110_12DOT0K" data-ref="_M/MDM_PROTOCOL_V110_12DOT0K">MDM_PROTOCOL_V110_12DOT0K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V110,MDM_GEN_V110_PROTOCOL_DATA (MDM_V110_SPEED_12DOT0K))</u></td></tr>
+<tr><th id="220">220</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V110_14DOT4K" data-ref="_M/MDM_PROTOCOL_V110_14DOT4K">MDM_PROTOCOL_V110_14DOT4K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V110,MDM_GEN_V110_PROTOCOL_DATA (MDM_V110_SPEED_14DOT4K))</u></td></tr>
+<tr><th id="221">221</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V110_19DOT2K" data-ref="_M/MDM_PROTOCOL_V110_19DOT2K">MDM_PROTOCOL_V110_19DOT2K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V110,MDM_GEN_V110_PROTOCOL_DATA (MDM_V110_SPEED_19DOT2K))</u></td></tr>
+<tr><th id="222">222</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V110_28DOT8K" data-ref="_M/MDM_PROTOCOL_V110_28DOT8K">MDM_PROTOCOL_V110_28DOT8K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V110,MDM_GEN_V110_PROTOCOL_DATA (MDM_V110_SPEED_28DOT8K))</u></td></tr>
+<tr><th id="223">223</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V110_38DOT4K" data-ref="_M/MDM_PROTOCOL_V110_38DOT4K">MDM_PROTOCOL_V110_38DOT4K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V110,MDM_GEN_V110_PROTOCOL_DATA (MDM_V110_SPEED_38DOT4K))</u></td></tr>
+<tr><th id="224">224</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_V110_57DOT6K" data-ref="_M/MDM_PROTOCOL_V110_57DOT6K">MDM_PROTOCOL_V110_57DOT6K</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_V110,MDM_GEN_V110_PROTOCOL_DATA (MDM_V110_SPEED_57DOT6K))</u></td></tr>
+<tr><th id="225">225</th><td></td></tr>
+<tr><th id="226">226</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_AUTO_SPEED" data-ref="_M/MDM_SHIFT_AUTO_SPEED">MDM_SHIFT_AUTO_SPEED</dfn> 0x0</u></td></tr>
+<tr><th id="227">227</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_AUTO_SPEED" data-ref="_M/MDM_MASK_AUTO_SPEED">MDM_MASK_AUTO_SPEED</dfn> 0x7</u></td></tr>
+<tr><th id="228">228</th><td><u>#define <dfn class="macro" id="_M/MDM_AUTO_SPEED_DEFAULT" data-ref="_M/MDM_AUTO_SPEED_DEFAULT">MDM_AUTO_SPEED_DEFAULT</dfn> 0x0</u></td></tr>
+<tr><th id="229">229</th><td></td></tr>
+<tr><th id="230">230</th><td><u>#define <dfn class="macro" id="_M/MDM_SHIFT_AUTO_ML" data-ref="_M/MDM_SHIFT_AUTO_ML">MDM_SHIFT_AUTO_ML</dfn> 0x6</u></td></tr>
+<tr><th id="231">231</th><td><u>#define <dfn class="macro" id="_M/MDM_MASK_AUTO_ML" data-ref="_M/MDM_MASK_AUTO_ML">MDM_MASK_AUTO_ML</dfn> (0x3&lt;&lt;6)</u></td></tr>
+<tr><th id="232">232</th><td><u>#define <dfn class="macro" id="_M/MDM_AUTO_ML_DEFAULT" data-ref="_M/MDM_AUTO_ML_DEFAULT">MDM_AUTO_ML_DEFAULT</dfn> 0x0</u></td></tr>
+<tr><th id="233">233</th><td><u>#define <dfn class="macro" id="_M/MDM_AUTO_ML_NONE" data-ref="_M/MDM_AUTO_ML_NONE">MDM_AUTO_ML_NONE</dfn> 0x1</u></td></tr>
+<tr><th id="234">234</th><td><u>#define <dfn class="macro" id="_M/MDM_AUTO_ML_2" data-ref="_M/MDM_AUTO_ML_2">MDM_AUTO_ML_2</dfn> 0x2</u></td></tr>
+<tr><th id="235">235</th><td></td></tr>
+<tr><th id="236">236</th><td><u>#define <dfn class="macro" id="_M/MDM_GEN_AUTO_PROTOCOL_DATA" data-ref="_M/MDM_GEN_AUTO_PROTOCOL_DATA">MDM_GEN_AUTO_PROTOCOL_DATA</dfn>(_speed,_ml) ((((_speed)&lt;&lt;MDM_SHIFT_AUTO_SPEED)&amp;MDM_MASK_AUTO_SPEED) |(((_ml)&lt;&lt;MDM_SHIFT_AUTO_ML)&amp;MDM_MASK_AUTO_ML))</u></td></tr>
+<tr><th id="237">237</th><td></td></tr>
+<tr><th id="238">238</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_AUTO_1CH" data-ref="_M/MDM_PROTOCOL_AUTO_1CH">MDM_PROTOCOL_AUTO_1CH</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_AUTO,MDM_GEN_AUTO_PROTOCOL_DATA (MDM_AUTO_SPEED_DEFAULT,MDM_AUTO_ML_NONE))</u></td></tr>
+<tr><th id="239">239</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_AUTO_2CH" data-ref="_M/MDM_PROTOCOL_AUTO_2CH">MDM_PROTOCOL_AUTO_2CH</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_AUTO,MDM_GEN_AUTO_PROTOCOL_DATA (MDM_AUTO_SPEED_DEFAULT,MDM_AUTO_ML_2))</u></td></tr>
+<tr><th id="240">240</th><td></td></tr>
+<tr><th id="241">241</th><td><u>#define <dfn class="macro" id="_M/MDM_ANALOG_RLP_ON" data-ref="_M/MDM_ANALOG_RLP_ON">MDM_ANALOG_RLP_ON</dfn> 0x0</u></td></tr>
+<tr><th id="242">242</th><td><u>#define <dfn class="macro" id="_M/MDM_ANALOG_RLP_OFF" data-ref="_M/MDM_ANALOG_RLP_OFF">MDM_ANALOG_RLP_OFF</dfn> 0x1</u></td></tr>
+<tr><th id="243">243</th><td><u>#define <dfn class="macro" id="_M/MDM_ANALOG_V34" data-ref="_M/MDM_ANALOG_V34">MDM_ANALOG_V34</dfn> 0x2</u></td></tr>
+<tr><th id="244">244</th><td></td></tr>
+<tr><th id="245">245</th><td><u>#define <dfn class="macro" id="_M/MDM_GEN_ANALOG_PROTOCOL_DATA" data-ref="_M/MDM_GEN_ANALOG_PROTOCOL_DATA">MDM_GEN_ANALOG_PROTOCOL_DATA</dfn>(_rlp) (_rlp)</u></td></tr>
+<tr><th id="246">246</th><td></td></tr>
+<tr><th id="247">247</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_ANALOG_RLP" data-ref="_M/MDM_PROTOCOL_ANALOG_RLP">MDM_PROTOCOL_ANALOG_RLP</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_ANALOG,MDM_GEN_ANALOG_PROTOCOL_DATA (MDM_ANALOG_RLP_ON))</u></td></tr>
+<tr><th id="248">248</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_ANALOG_NRLP" data-ref="_M/MDM_PROTOCOL_ANALOG_NRLP">MDM_PROTOCOL_ANALOG_NRLP</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_ANALOG,MDM_GEN_ANALOG_PROTOCOL_DATA (MDM_ANALOG_RLP_OFF))</u></td></tr>
+<tr><th id="249">249</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_ANALOG_V34" data-ref="_M/MDM_PROTOCOL_ANALOG_V34">MDM_PROTOCOL_ANALOG_V34</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_ANALOG,MDM_GEN_ANALOG_PROTOCOL_DATA (MDM_ANALOG_V34))</u></td></tr>
+<tr><th id="250">250</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_GPRS" data-ref="_M/MDM_PROTOCOL_GPRS">MDM_PROTOCOL_GPRS</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_GPRS,0)</u></td></tr>
+<tr><th id="251">251</th><td></td></tr>
+<tr><th id="252">252</th><td><u>#define <dfn class="macro" id="_M/MDM_PIAFS_INCOMING" data-ref="_M/MDM_PIAFS_INCOMING">MDM_PIAFS_INCOMING</dfn> 0</u></td></tr>
+<tr><th id="253">253</th><td><u>#define <dfn class="macro" id="_M/MDM_PIAFS_OUTGOING" data-ref="_M/MDM_PIAFS_OUTGOING">MDM_PIAFS_OUTGOING</dfn> 1</u></td></tr>
+<tr><th id="254">254</th><td></td></tr>
+<tr><th id="255">255</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_PIAFS_INCOMING" data-ref="_M/MDM_PROTOCOL_PIAFS_INCOMING">MDM_PROTOCOL_PIAFS_INCOMING</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_PIAFS,MDM_PIAFS_INCOMING)</u></td></tr>
+<tr><th id="256">256</th><td><u>#define <dfn class="macro" id="_M/MDM_PROTOCOL_PIAFS_OUTGOING" data-ref="_M/MDM_PROTOCOL_PIAFS_OUTGOING">MDM_PROTOCOL_PIAFS_OUTGOING</dfn> MDM_GEN_PROTOCOLINFO(MDM_PROTOCOLID_PIAFS,MDM_PIAFS_OUTGOING)</u></td></tr>
+<tr><th id="257">257</th><td><u>#<span data-ppcond="6">endif</span></u></td></tr>
+<tr><th id="258">258</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

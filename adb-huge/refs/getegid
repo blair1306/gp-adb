@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='707' type='__gid_t getegid()'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='706'>/* Get the effective group ID of the calling process.  */</doc>
+<use f='codebrowser/system/core/adb/diagnose_usb.cpp' l='49' u='c' c='_ZL14GetUdevProblemv'/>

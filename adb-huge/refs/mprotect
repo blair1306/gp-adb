@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/mman.h' l='82' type='int mprotect(void * __addr, size_t __len, int __prot)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/mman.h' l='79'>/* Change the memory protection of the region starting at ADDR and
+   extending LEN bytes to PROT.  Returns 0 if successful, -1 for errors
+   (and sets errno).  */</doc>

@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='697' ll='700'/>
+<size>24</size>
+<mbr r='tagFONTSIGNATURE::fsUsb' o='0' t='DWORD [4]'/>
+<mbr r='tagFONTSIGNATURE::fsCsb' o='128' t='DWORD [2]'/>

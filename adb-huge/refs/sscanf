@@ -1,0 +1,10 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='439' type='int sscanf(const char *restrict __s, const char *restrict __format)'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='454' type='int sscanf(const char *restrict __s, const char *restrict __format)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='438'>/* Read formatted input from S.  */</doc>
+<use f='codebrowser/external/libcxx/include/locale' l='3245' u='c' c='_ZNKSt3__19money_get6do_getET0_S1_bRNS_8ios_baseERjRe'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='221' u='c' c='_Z11adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1035' u='c' c='_ZL28check_wait_for_device_syntaxPKc'/>
+<use f='codebrowser/system/core/adb/console.cpp' l='36' u='c' c='_ZL29adb_get_emulator_console_portPKc'/>
+<use f='codebrowser/system/core/adb/console.cpp' l='52' u='c' c='_ZL29adb_get_emulator_console_portPKc'/>
+<use f='codebrowser/system/core/base/parsenetaddress.cpp' l='65' u='c' c='_ZN7android4base15ParseNetAddressERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_PiSA_SA_'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='96' u='c' c='fs_read_atomic_int'/>

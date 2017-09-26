@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sigaction.h' l='77'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sigaction.h' l='76'>/* Values for the HOW argument to `sigprocmask&apos;.  */</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='493' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='675' u='c'/>

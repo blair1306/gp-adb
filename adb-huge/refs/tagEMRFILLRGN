@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3797' ll='3803'/>
+<size>36</size>
+<mbr r='tagEMRFILLRGN::emr' o='0' t='EMR'/>
+<mbr r='tagEMRFILLRGN::rclBounds' o='64' t='RECTL'/>
+<mbr r='tagEMRFILLRGN::cbRgnData' o='192' t='DWORD'/>
+<mbr r='tagEMRFILLRGN::ihBrush' o='224' t='DWORD'/>
+<mbr r='tagEMRFILLRGN::RgnData' o='256' t='BYTE [1]'/>

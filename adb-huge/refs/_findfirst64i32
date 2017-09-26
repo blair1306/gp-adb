@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='220' type='intptr_t _findfirst64i32(const char * _Filename, struct _finddata64i32_t * _FindData)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='222' ll='237' macro='1' type='intptr_t _findfirst64i32(const char * _Filename, struct _finddata64i32_t * _FindData)'/>

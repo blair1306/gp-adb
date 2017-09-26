@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/langinfo.h' l='357' type='262144'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/langinfo.h' l='354'>/* LC_MONETARY category: formatting of monetary quantities.
+     These items each correspond to a member of `struct lconv&apos;,
+     defined in &lt;locale.h&gt;.  */</doc>

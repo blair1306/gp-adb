@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3321' ll='3324'/>
+<size>16</size>
+<mbr r='_TOKEN_SOURCE::SourceName' o='0' t='CHAR [8]'/>
+<mbr r='_TOKEN_SOURCE::SourceIdentifier' o='64' t='LUID'/>

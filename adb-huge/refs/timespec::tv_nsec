@@ -1,0 +1,14 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='123' type='long'/>
+<offset>64</offset>
+<use f='codebrowser/external/libcxx/src/chrono.cpp' l='43' u='r' c='_ZNSt3__16chrono12system_clock3nowEv'/>
+<use f='codebrowser/external/libcxx/src/chrono.cpp' l='80' u='r' c='_ZNSt3__16chrono12steady_clock3nowEv'/>
+<use f='codebrowser/external/libcxx/src/condition_variable.cpp' l='67' u='w' c='_ZNSt3__118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILl1ELl1000000000EEEEEEE'/>
+<use f='codebrowser/external/libcxx/src/condition_variable.cpp' l='67' u='r' c='_ZNSt3__118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILl1ELl1000000000EEEEEEE'/>
+<use f='codebrowser/external/libcxx/src/condition_variable.cpp' l='72' u='w' c='_ZNSt3__118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILl1ELl1000000000EEEEEEE'/>
+<use f='codebrowser/external/libcxx/src/thread.cpp' l='120' u='w' c='_ZNSt3__111this_thread9sleep_forERKNS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE'/>
+<use f='codebrowser/external/libcxx/src/thread.cpp' l='120' u='r' c='_ZNSt3__111this_thread9sleep_forERKNS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE'/>
+<use f='codebrowser/external/libcxx/src/thread.cpp' l='125' u='w' c='_ZNSt3__111this_thread9sleep_forERKNS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/types.h' l='91' type='long'/>
+<offset>64</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/types.h' l='91'>/* Nanoseconds */</doc>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='298' u='w' c='__write_to_log_daemon'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/alloca.h' l='33' type='void * alloca(size_t __size)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/alloca.h' l='32'>/* Allocate a block that will be freed when the calling function exits.  */</doc>

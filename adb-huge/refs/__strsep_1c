@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='1222' type='char * __strsep_1c(char ** __s, char __reject)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='1223' ll='1230' macro='1' type='char * __strsep_1c(char ** __s, char __reject)'/>

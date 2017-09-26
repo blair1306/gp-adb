@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5298' ll='5304'/>
+<size>16</size>
+<mbr r='tagRID_DEVICE_INFO_HID::dwVendorId' o='0' t='DWORD'/>
+<mbr r='tagRID_DEVICE_INFO_HID::dwProductId' o='32' t='DWORD'/>
+<mbr r='tagRID_DEVICE_INFO_HID::dwVersionNumber' o='64' t='DWORD'/>
+<mbr r='tagRID_DEVICE_INFO_HID::usUsagePage' o='96' t='USHORT'/>
+<mbr r='tagRID_DEVICE_INFO_HID::usUsage' o='112' t='USHORT'/>

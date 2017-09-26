@@ -1,0 +1,22 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/features.h' l='340'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/features.h' l='338'>/* Major and minor version number of the GNU C library package.  Use
+   these macros to test for features in specific releases.  */</doc>
+<use f='codebrowser/external/libcxx/include/cstring' l='97' u='a'/>
+<use f='codebrowser/external/libcxx/include/__locale' l='37' u='a'/>
+<use f='codebrowser/external/libcxx/include/__locale' l='332' u='a'/>
+<use f='codebrowser/external/libcxx/include/__locale' l='631' u='a'/>
+<use f='codebrowser/external/libcxx/include/locale' l='239' u='a'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='818' u='a'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='831' u='a'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='845' u='a'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='858' u='a'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='927' u='a'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='944' u='a'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='961' u='a'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='977' u='a'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1112' u='a'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1138' u='a'/>
+<use f='codebrowser/system/core/base/logging.cpp' l='28' u='a'/>
+<use f='codebrowser/system/core/base/logging.cpp' l='94' u='a'/>
+<use f='codebrowser/system/core/include/cutils/memory.h' l='33' u='a'/>
+<use f='codebrowser/system/core/libcutils/strlcpy.c' l='19' u='a'/>

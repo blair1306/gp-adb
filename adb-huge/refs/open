@@ -1,0 +1,18 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/fcntl.h' l='119' type='int open(const char * __file, int __oflag)'/>
+<use f='codebrowser/external/boringssl/src/crypto/rand/urandom.c' l='76' u='c' c='init_once'/>
+<use f='codebrowser/external/libcxx/src/random.cpp' l='57' u='c' c='_ZNSt3__113random_deviceC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='526' u='c' c='_ZL9unix_openPKciz'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='535' u='c' c='_ZL9unix_openPKciz'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='543' u='c' c='_ZL13adb_open_modePKcii'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='556' u='c' c='_ZL8adb_openPKci'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='323' type='int open(const char * _Filename, int _OpenFlag)'/>
+<use f='codebrowser/system/core/base/file.cpp' l='52' u='c' c='_ZN7android4base16ReadFileToStringERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_'/>
+<use f='codebrowser/system/core/base/file.cpp' l='87' u='c' c='_ZN7android4base17WriteStringToFileERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_jjj'/>
+<use f='codebrowser/system/core/base/file.cpp' l='114' u='c' c='_ZN7android4base17WriteStringToFileERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='85' u='c' c='fs_read_atomic_int'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='165' u='c' c='fs_mkdirs'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='175' u='c' c='fs_config_open'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='180' u='c' c='fs_config_open'/>
+<use f='codebrowser/system/core/libcutils/load_file.c' l='29' u='c' c='load_file'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='76' u='c' c='android_openEventTagMap'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='671' u='r' c='setRedirects'/>

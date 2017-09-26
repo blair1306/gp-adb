@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>excpt.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/excpt.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/excpt.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='excpt.h.html'>excpt.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/_INC_EXCPT">_INC_EXCPT</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/_INC_EXCPT" data-ref="_M/_INC_EXCPT">_INC_EXCPT</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="crtdefs.h.html">&lt;crtdefs.h&gt;</a></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#pragma pack(push,<a class="macro" href="_mingw.h.html#280" title="8" data-ref="_M/_CRT_PACKING">_CRT_PACKING</a>)</u></td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="13">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="14">14</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="15">15</th><td><u>#<span data-ppcond="13">endif</span></u></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td>  <b>struct</b> <a class="type" href="winnt.h.html#_EXCEPTION_POINTERS" title='_EXCEPTION_POINTERS' data-ref="_EXCEPTION_POINTERS" id="_EXCEPTION_POINTERS">_EXCEPTION_POINTERS</a>;</td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><u>#<span data-ppcond="19">ifndef</span> <span class="macro" data-ref="_M/EXCEPTION_DISPOSITION">EXCEPTION_DISPOSITION</span></u></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/EXCEPTION_DISPOSITION" data-ref="_M/EXCEPTION_DISPOSITION">EXCEPTION_DISPOSITION</dfn>   int</u></td></tr>
+<tr><th id="21">21</th><td><u>#<span data-ppcond="19">endif</span></u></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/ExceptionContinueExecution" data-ref="_M/ExceptionContinueExecution">ExceptionContinueExecution</dfn> 0</u></td></tr>
+<tr><th id="23">23</th><td><u>#define <dfn class="macro" id="_M/ExceptionContinueSearch" data-ref="_M/ExceptionContinueSearch">ExceptionContinueSearch</dfn> 1</u></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/ExceptionNestedException" data-ref="_M/ExceptionNestedException">ExceptionNestedException</dfn> 2</u></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/ExceptionCollidedUnwind" data-ref="_M/ExceptionCollidedUnwind">ExceptionCollidedUnwind</dfn> 3</u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/ExceptionExecuteHandler" data-ref="_M/ExceptionExecuteHandler">ExceptionExecuteHandler</dfn> 4</u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="28">if</span> (defined(<span class="macro" data-ref="_M/_X86_">_X86_</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/__x86_64">__x86_64</span>))</u></td></tr>
+<tr><th id="29">29</th><td>  <b>struct</b> _EXCEPTION_RECORD;</td></tr>
+<tr><th id="30">30</th><td>  <b>struct</b> _CONTEXT;</td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td>  EXCEPTION_DISPOSITION <b>__cdecl</b> _except_handler(<b>struct</b> _EXCEPTION_RECORD *_ExceptionRecord,<em>void</em> *_EstablisherFrame,<b>struct</b> _CONTEXT *_ContextRecord,<em>void</em> *_DispatcherContext);</td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="28">elif</span> defined(<span class="macro" data-ref="_M/__ia64__">__ia64__</span>)</u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td>  <b>typedef</b> <b>struct</b> _EXCEPTION_POINTERS *Exception_info_ptr;</td></tr>
+<tr><th id="36">36</th><td>  <b>struct</b> _EXCEPTION_RECORD;</td></tr>
+<tr><th id="37">37</th><td>  <b>struct</b> _CONTEXT;</td></tr>
+<tr><th id="38">38</th><td>  <b>struct</b> _DISPATCHER_CONTEXT;</td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td>  __MINGW_EXTENSION _CRTIMP EXCEPTION_DISPOSITION <b>__cdecl</b> __C_specific_handler (<b>struct</b> _EXCEPTION_RECORD *_ExceptionRecord,<em>unsigned</em> __int64 _MemoryStackFp,<em>unsigned</em> __int64 _BackingStoreFp,<b>struct</b> _CONTEXT *_ContextRecord,<b>struct</b> _DISPATCHER_CONTEXT *_DispatcherContext,<em>unsigned</em> __int64 _GlobalPointer);</td></tr>
+<tr><th id="41">41</th><td><u>#<span data-ppcond="28">elif</span> defined(<span class="macro" data-ref="_M/__x86_64">__x86_64</span>)</u></td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td>  <b>struct</b> _EXCEPTION_RECORD;</td></tr>
+<tr><th id="44">44</th><td>  <b>struct</b> _CONTEXT;</td></tr>
+<tr><th id="45">45</th><td><u>#<span data-ppcond="28">endif</span></u></td></tr>
+<tr><th id="46">46</th><td></td></tr>
+<tr><th id="47">47</th><td><u>#define <dfn class="macro" id="_M/GetExceptionCode" data-ref="_M/GetExceptionCode">GetExceptionCode</dfn> _exception_code</u></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/exception_code" data-ref="_M/exception_code">exception_code</dfn> _exception_code</u></td></tr>
+<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/GetExceptionInformation" data-ref="_M/GetExceptionInformation">GetExceptionInformation</dfn> (struct _EXCEPTION_POINTERS *)_exception_info</u></td></tr>
+<tr><th id="50">50</th><td><u>#define <dfn class="macro" id="_M/exception_info" data-ref="_M/exception_info">exception_info</dfn> (struct _EXCEPTION_POINTERS *)_exception_info</u></td></tr>
+<tr><th id="51">51</th><td><u>#define <dfn class="macro" id="_M/AbnormalTermination" data-ref="_M/AbnormalTermination">AbnormalTermination</dfn> _abnormal_termination</u></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/abnormal_termination" data-ref="_M/abnormal_termination">abnormal_termination</dfn> _abnormal_termination</u></td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td>  <em>unsigned</em> <em>long</em> <b>__cdecl</b> <dfn class="decl" id="_exception_code" title='_exception_code' data-ref="_exception_code">_exception_code</dfn>(<em>void</em>);</td></tr>
+<tr><th id="55">55</th><td>  <em>void</em> *<b>__cdecl</b> <dfn class="decl" id="_exception_info" title='_exception_info' data-ref="_exception_info">_exception_info</dfn>(<em>void</em>);</td></tr>
+<tr><th id="56">56</th><td>  <em>int</em> <b>__cdecl</b> <dfn class="decl" id="_abnormal_termination" title='_abnormal_termination' data-ref="_abnormal_termination">_abnormal_termination</dfn>(<em>void</em>);</td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td><u>#define <dfn class="macro" id="_M/EXCEPTION_EXECUTE_HANDLER" data-ref="_M/EXCEPTION_EXECUTE_HANDLER">EXCEPTION_EXECUTE_HANDLER</dfn> 1</u></td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/EXCEPTION_CONTINUE_SEARCH" data-ref="_M/EXCEPTION_CONTINUE_SEARCH">EXCEPTION_CONTINUE_SEARCH</dfn> 0</u></td></tr>
+<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/EXCEPTION_CONTINUE_EXECUTION" data-ref="_M/EXCEPTION_CONTINUE_EXECUTION">EXCEPTION_CONTINUE_EXECUTION</dfn> -1</u></td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td>  <i>/* CRT stuff */</i></td></tr>
+<tr><th id="63">63</th><td>  <b>typedef</b> <em>void</em> (<b>__cdecl</b> * <dfn class="typedef" id="_PHNDLR" title='_PHNDLR' data-type='void (*)(int) __attribute__((cdecl))' data-ref="_PHNDLR">_PHNDLR</dfn>)(<em>int</em>);</td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td>  <b>struct</b> <dfn class="type def" id="_XCPT_ACTION" title='_XCPT_ACTION' data-ref="_XCPT_ACTION">_XCPT_ACTION</dfn> {</td></tr>
+<tr><th id="66">66</th><td>    <em>unsigned</em> <em>long</em> <dfn class="decl" id="_XCPT_ACTION::XcptNum" title='_XCPT_ACTION::XcptNum' data-ref="_XCPT_ACTION::XcptNum">XcptNum</dfn>;</td></tr>
+<tr><th id="67">67</th><td>    <em>int</em> <dfn class="decl" id="_XCPT_ACTION::SigNum" title='_XCPT_ACTION::SigNum' data-ref="_XCPT_ACTION::SigNum">SigNum</dfn>;</td></tr>
+<tr><th id="68">68</th><td>    <a class="typedef" href="#_PHNDLR" title='_PHNDLR' data-type='void (*)(int) __attribute__((cdecl))' data-ref="_PHNDLR">_PHNDLR</a> <dfn class="decl" id="_XCPT_ACTION::XcptAction" title='_XCPT_ACTION::XcptAction' data-ref="_XCPT_ACTION::XcptAction">XcptAction</dfn>;</td></tr>
+<tr><th id="69">69</th><td>  };</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td>  <b>extern</b> <b>struct</b> <a class="type" href="#_XCPT_ACTION" title='_XCPT_ACTION' data-ref="_XCPT_ACTION">_XCPT_ACTION</a> <dfn class="decl" id="_XcptActTab" title='_XcptActTab' data-ref="_XcptActTab">_XcptActTab</dfn>[];</td></tr>
+<tr><th id="72">72</th><td>  <b>extern</b> <em>int</em> <dfn class="decl" id="_XcptActTabCount" title='_XcptActTabCount' data-ref="_XcptActTabCount">_XcptActTabCount</dfn>;</td></tr>
+<tr><th id="73">73</th><td>  <b>extern</b> <em>int</em> <dfn class="decl" id="_XcptActTabSize" title='_XcptActTabSize' data-ref="_XcptActTabSize">_XcptActTabSize</dfn>;</td></tr>
+<tr><th id="74">74</th><td>  <b>extern</b> <em>int</em> <dfn class="decl" id="_First_FPE_Indx" title='_First_FPE_Indx' data-ref="_First_FPE_Indx">_First_FPE_Indx</dfn>;</td></tr>
+<tr><th id="75">75</th><td>  <b>extern</b> <em>int</em> <dfn class="decl" id="_Num_FPE" title='_Num_FPE' data-ref="_Num_FPE">_Num_FPE</dfn>;</td></tr>
+<tr><th id="76">76</th><td></td></tr>
+<tr><th id="77">77</th><td>  <em>int</em> <b>__cdecl</b> <dfn class="decl" id="__CppXcptFilter" title='__CppXcptFilter' data-ref="__CppXcptFilter">__CppXcptFilter</dfn>(<em>unsigned</em> <em>long</em> <dfn class="local col0 decl" id="2200_ExceptionNum" title='_ExceptionNum' data-type='unsigned long' data-ref="2200_ExceptionNum">_ExceptionNum</dfn>,<b>struct</b> <a class="type" href="winnt.h.html#_EXCEPTION_POINTERS" title='_EXCEPTION_POINTERS' data-ref="_EXCEPTION_POINTERS">_EXCEPTION_POINTERS</a> * <dfn class="local col1 decl" id="2201_ExceptionPtr" title='_ExceptionPtr' data-type='struct _EXCEPTION_POINTERS *' data-ref="2201_ExceptionPtr">_ExceptionPtr</dfn>);</td></tr>
+<tr><th id="78">78</th><td>  <em>int</em> <b>__cdecl</b> <dfn class="decl" id="_XcptFilter" title='_XcptFilter' data-ref="_XcptFilter">_XcptFilter</dfn>(<em>unsigned</em> <em>long</em> <dfn class="local col2 decl" id="2202_ExceptionNum" title='_ExceptionNum' data-type='unsigned long' data-ref="2202_ExceptionNum">_ExceptionNum</dfn>,<b>struct</b> <a class="type" href="winnt.h.html#_EXCEPTION_POINTERS" title='_EXCEPTION_POINTERS' data-ref="_EXCEPTION_POINTERS">_EXCEPTION_POINTERS</a> * <dfn class="local col3 decl" id="2203_ExceptionPtr" title='_ExceptionPtr' data-type='struct _EXCEPTION_POINTERS *' data-ref="2203_ExceptionPtr">_ExceptionPtr</dfn>);</td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td>  <i>/*</i></td></tr>
+<tr><th id="81">81</th><td><i>  * The type of function that is expected as an exception handler to be</i></td></tr>
+<tr><th id="82">82</th><td><i>  * installed with __try1.</i></td></tr>
+<tr><th id="83">83</th><td><i>  */</i></td></tr>
+<tr><th id="84">84</th><td>  <b>typedef</b> <a class="macro" href="#20" title="int" data-ref="_M/EXCEPTION_DISPOSITION">EXCEPTION_DISPOSITION</a> (*<dfn class="typedef" id="PEXCEPTION_HANDLER" title='PEXCEPTION_HANDLER' data-type='int (*)(struct _EXCEPTION_RECORD *, void *, struct _CONTEXT *, void *)' data-ref="PEXCEPTION_HANDLER">PEXCEPTION_HANDLER</dfn>)(<b>struct</b> <a class="type" href="winnt.h.html#_EXCEPTION_RECORD" title='_EXCEPTION_RECORD' data-ref="_EXCEPTION_RECORD" id="_EXCEPTION_RECORD"><a class="type" href="winnt.h.html#_EXCEPTION_RECORD" title='_EXCEPTION_RECORD' data-ref="_EXCEPTION_RECORD">_EXCEPTION_RECORD</a></a>*, <em>void</em>*, <b>struct</b> <dfn class="type" id="_CONTEXT" title='_CONTEXT' data-ref="_CONTEXT"><a class="type" href="#_CONTEXT" title='_CONTEXT' data-ref="_CONTEXT">_CONTEXT</a></dfn>*, <em>void</em>*);</td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><u>#<span data-ppcond="86">ifndef</span> <span class="macro" data-ref="_M/HAVE_NO_SEH">HAVE_NO_SEH</span></u></td></tr>
+<tr><th id="87">87</th><td>  <i>/*</i></td></tr>
+<tr><th id="88">88</th><td><i>  * This is not entirely necessary, but it is the structure installed by</i></td></tr>
+<tr><th id="89">89</th><td><i>  * the __try1 primitive below.</i></td></tr>
+<tr><th id="90">90</th><td><i>  */</i></td></tr>
+<tr><th id="91">91</th><td>  <b>typedef</b> <b>struct</b> <dfn class="type def" id="_EXCEPTION_REGISTRATION" title='_EXCEPTION_REGISTRATION' data-ref="_EXCEPTION_REGISTRATION"><a class="type" href="#_EXCEPTION_REGISTRATION" title='_EXCEPTION_REGISTRATION' data-ref="_EXCEPTION_REGISTRATION"><a class="type" href="#_EXCEPTION_REGISTRATION" title='_EXCEPTION_REGISTRATION' data-ref="_EXCEPTION_REGISTRATION">_EXCEPTION_REGISTRATION</a></a></dfn> {</td></tr>
+<tr><th id="92">92</th><td>    <b>struct</b> <a class="type" href="#_EXCEPTION_REGISTRATION" title='_EXCEPTION_REGISTRATION' data-ref="_EXCEPTION_REGISTRATION">_EXCEPTION_REGISTRATION</a> *<dfn class="decl" id="_EXCEPTION_REGISTRATION::prev" title='_EXCEPTION_REGISTRATION::prev' data-ref="_EXCEPTION_REGISTRATION::prev">prev</dfn>;</td></tr>
+<tr><th id="93">93</th><td>    <a class="macro" href="#20" title="int" data-ref="_M/EXCEPTION_DISPOSITION">EXCEPTION_DISPOSITION</a> (*<dfn class="decl" id="_EXCEPTION_REGISTRATION::handler" title='_EXCEPTION_REGISTRATION::handler' data-ref="_EXCEPTION_REGISTRATION::handler">handler</dfn>)(<b>struct</b> <a class="type" href="winnt.h.html#_EXCEPTION_RECORD" title='_EXCEPTION_RECORD' data-ref="_EXCEPTION_RECORD">_EXCEPTION_RECORD</a>*, <em>void</em>*, <b>struct</b> <a class="type" href="#_CONTEXT" title='_CONTEXT' data-ref="_CONTEXT">_CONTEXT</a>*, <em>void</em>*);</td></tr>
+<tr><th id="94">94</th><td>  } <dfn class="typedef" id="EXCEPTION_REGISTRATION" title='EXCEPTION_REGISTRATION' data-type='struct _EXCEPTION_REGISTRATION' data-ref="EXCEPTION_REGISTRATION">EXCEPTION_REGISTRATION</dfn>, *<dfn class="typedef" id="PEXCEPTION_REGISTRATION" title='PEXCEPTION_REGISTRATION' data-type='struct _EXCEPTION_REGISTRATION *' data-ref="PEXCEPTION_REGISTRATION">PEXCEPTION_REGISTRATION</dfn>;</td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td>  <b>typedef</b> <a class="typedef" href="#EXCEPTION_REGISTRATION" title='EXCEPTION_REGISTRATION' data-type='struct _EXCEPTION_REGISTRATION' data-ref="EXCEPTION_REGISTRATION">EXCEPTION_REGISTRATION</a> <dfn class="typedef" id="EXCEPTION_REGISTRATION_RECORD" title='EXCEPTION_REGISTRATION_RECORD' data-type='EXCEPTION_REGISTRATION' data-ref="EXCEPTION_REGISTRATION_RECORD">EXCEPTION_REGISTRATION_RECORD</dfn>;</td></tr>
+<tr><th id="97">97</th><td>  <b>typedef</b> <a class="typedef" href="#PEXCEPTION_REGISTRATION" title='PEXCEPTION_REGISTRATION' data-type='struct _EXCEPTION_REGISTRATION *' data-ref="PEXCEPTION_REGISTRATION">PEXCEPTION_REGISTRATION</a> <dfn class="typedef" id="PEXCEPTION_REGISTRATION_RECORD" title='PEXCEPTION_REGISTRATION_RECORD' data-type='PEXCEPTION_REGISTRATION' data-ref="PEXCEPTION_REGISTRATION_RECORD">PEXCEPTION_REGISTRATION_RECORD</dfn>;</td></tr>
+<tr><th id="98">98</th><td><u>#<span data-ppcond="86">endif</span></u></td></tr>
+<tr><th id="99">99</th><td></td></tr>
+<tr><th id="100">100</th><td><u>#<span data-ppcond="100">if</span> (defined(<span class="macro" data-ref="_M/_X86_">_X86_</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/__x86_64">__x86_64</span>))</u></td></tr>
+<tr><th id="101">101</th><td><u>#define __try1(pHandler) \</u></td></tr>
+<tr><th id="102">102</th><td><u>  __asm__ __volatile__ ("pushl %0;pushl %%fs:0;movl %%esp,%%fs:0;" : : "g" (pHandler));</u></td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td><u>#define	__except1	\</u></td></tr>
+<tr><th id="105">105</th><td><u>  __asm__ __volatile__ ("movl (%%esp),%%eax;movl %%eax,%%fs:0;addl $8,%%esp;" \</u></td></tr>
+<tr><th id="106">106</th><td><u>  : : : "%eax");</u></td></tr>
+<tr><th id="107">107</th><td><u>#<span data-ppcond="100">elif</span> defined(<span class="macro" data-ref="_M/__x86_64">__x86_64</span>)</u></td></tr>
+<tr><th id="108">108</th><td><u>#define __try1(pHandler) \</u></td></tr>
+<tr><th id="109">109</th><td><u>    __asm__ __volatile__ ("\t.l_startw:\n" \</u></td></tr>
+<tr><th id="110">110</th><td><u>    "\t.seh_handler __C_specific_handler, @except\n" \</u></td></tr>
+<tr><th id="111">111</th><td><u>    "\t.seh_handlerdata\n" \</u></td></tr>
+<tr><th id="112">112</th><td><u>    "\t.long 1\n" \</u></td></tr>
+<tr><th id="113">113</th><td><u>    "\t.rva .l_startw, .l_endw, " __MINGW64_STRINGIFY(__MINGW_USYMBOL(pHandler)) " ,.l_endw\n" \</u></td></tr>
+<tr><th id="114">114</th><td><u>    "\t.text" \</u></td></tr>
+<tr><th id="115">115</th><td><u>    );</u></td></tr>
+<tr><th id="116">116</th><td><u>#define __except1 \</u></td></tr>
+<tr><th id="117">117</th><td><u>    asm ("\tnop\n" \</u></td></tr>
+<tr><th id="118">118</th><td><u>    "\t.l_endw: nop\n");</u></td></tr>
+<tr><th id="119">119</th><td><u>#<span data-ppcond="100">else</span></u></td></tr>
+<tr><th id="120">120</th><td><u>#define <dfn class="macro" id="_M/__try1" data-ref="_M/__try1">__try1</dfn>(pHandler)</u></td></tr>
+<tr><th id="121">121</th><td><u>#define <dfn class="macro" id="_M/__except1" data-ref="_M/__except1">__except1</dfn></u></td></tr>
+<tr><th id="122">122</th><td><u>#<span data-ppcond="100">endif</span></u></td></tr>
+<tr><th id="123">123</th><td></td></tr>
+<tr><th id="124">124</th><td><u>#<span data-ppcond="124">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="125">125</th><td>}</td></tr>
+<tr><th id="126">126</th><td><u>#<span data-ppcond="124">endif</span></u></td></tr>
+<tr><th id="127">127</th><td></td></tr>
+<tr><th id="128">128</th><td><u>#pragma pack(pop)</u></td></tr>
+<tr><th id="129">129</th><td><u>#<span data-ppcond="6">endif</span></u></td></tr>
+<tr><th id="130">130</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2980' ll='2984'/>
+<size>1160</size>
+<mbr r='tagAXESLISTW::axlReserved' o='0' t='DWORD'/>
+<mbr r='tagAXESLISTW::axlNumAxes' o='32' t='DWORD'/>
+<mbr r='tagAXESLISTW::axlAxisInfo' o='64' t='AXISINFOW [16]'/>

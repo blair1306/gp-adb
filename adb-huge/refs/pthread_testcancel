@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='502' type='void pthread_testcancel()'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='499'>/* Test for pending cancellation for the current thread and terminate
+   the thread as per pthread_exit(PTHREAD_CANCELED) if it has been
+   cancelled.  */</doc>

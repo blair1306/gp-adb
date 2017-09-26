@@ -1,0 +1,2 @@
+<def f='codebrowser/external/libcxx/include/unordered_map' l='819' ll='826' macro='1' type='void std::__1::unordered_map::unordered_map&lt;_Key, _Tp, _Hash, _Pred, _Alloc&gt;()'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='72' u='c'/>

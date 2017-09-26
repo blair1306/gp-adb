@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6305' ll='6310'/>
+<size>1032</size>
+<mbr r='_EVENTSFORLOGFILE::ulSize' o='0' t='DWORD'/>
+<mbr r='_EVENTSFORLOGFILE::szLogicalLogFile' o='32' t='WCHAR [256]'/>
+<mbr r='_EVENTSFORLOGFILE::ulNumRecords' o='8224' t='DWORD'/>
+<mbr r='_EVENTSFORLOGFILE::pEventLogRecords' o='8256' t='EVENTLOGRECORD []'/>

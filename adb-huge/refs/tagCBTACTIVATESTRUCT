@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='416' ll='420'/>
+<size>8</size>
+<mbr r='tagCBTACTIVATESTRUCT::fMouse' o='0' t='WINBOOL'/>
+<mbr r='tagCBTACTIVATESTRUCT::hWndActive' o='32' t='HWND'/>

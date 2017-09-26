@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsvc.h' l='117' ll='120'/>
+<size>8</size>
+<mbr r='_SC_ACTION::Type' o='0' t='SC_ACTION_TYPE'/>
+<mbr r='_SC_ACTION::Delay' o='32' t='DWORD'/>

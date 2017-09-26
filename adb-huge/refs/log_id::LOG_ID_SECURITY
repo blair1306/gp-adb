@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/include/log/log.h' l='541' type='5'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='308' u='r' c='android_log_write_list'/>
+<use f='codebrowser/system/core/liblog/logger_name.c' l='31' u='r'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='111' u='r' c='__android_log_cache_available'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='482' c='__android_log_security_bwrite'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='547' c='__android_log_security_bswrite'/>

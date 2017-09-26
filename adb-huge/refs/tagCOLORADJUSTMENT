@@ -1,0 +1,14 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3265' ll='3278'/>
+<size>24</size>
+<mbr r='tagCOLORADJUSTMENT::caSize' o='0' t='WORD'/>
+<mbr r='tagCOLORADJUSTMENT::caFlags' o='16' t='WORD'/>
+<mbr r='tagCOLORADJUSTMENT::caIlluminantIndex' o='32' t='WORD'/>
+<mbr r='tagCOLORADJUSTMENT::caRedGamma' o='48' t='WORD'/>
+<mbr r='tagCOLORADJUSTMENT::caGreenGamma' o='64' t='WORD'/>
+<mbr r='tagCOLORADJUSTMENT::caBlueGamma' o='80' t='WORD'/>
+<mbr r='tagCOLORADJUSTMENT::caReferenceBlack' o='96' t='WORD'/>
+<mbr r='tagCOLORADJUSTMENT::caReferenceWhite' o='112' t='WORD'/>
+<mbr r='tagCOLORADJUSTMENT::caContrast' o='128' t='SHORT'/>
+<mbr r='tagCOLORADJUSTMENT::caBrightness' o='144' t='SHORT'/>
+<mbr r='tagCOLORADJUSTMENT::caColorfulness' o='160' t='SHORT'/>
+<mbr r='tagCOLORADJUSTMENT::caRedGreenTint' o='176' t='SHORT'/>

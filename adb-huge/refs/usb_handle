@@ -1,0 +1,35 @@
+<def f='codebrowser/system/core/adb/usb_linux.cpp' l='54' ll='82'/>
+<size>264</size>
+<fun r='_ZN10usb_handleD1Ev'/>
+<mbr r='usb_handle::path' o='0' t='std::string'/>
+<mbr r='usb_handle::fd' o='192' t='int'/>
+<mbr r='usb_handle::ep_in' o='224' t='unsigned char'/>
+<mbr r='usb_handle::ep_out' o='232' t='unsigned char'/>
+<mbr r='usb_handle::zero_mask' o='256' t='unsigned int'/>
+<mbr r='usb_handle::writeable' o='288' t='unsigned int'/>
+<mbr r='usb_handle::urb_in' o='320' t='usbdevfs_urb'/>
+<mbr r='usb_handle::urb_out' o='768' t='usbdevfs_urb'/>
+<mbr r='usb_handle::urb_in_busy' o='1216' t='bool'/>
+<mbr r='usb_handle::urb_out_busy' o='1224' t='bool'/>
+<mbr r='usb_handle::dead' o='1232' t='bool'/>
+<mbr r='usb_handle::cv' o='1280' t='std::condition_variable'/>
+<mbr r='usb_handle::mutex' o='1664' t='std::mutex'/>
+<mbr r='usb_handle::mark' o='1984' t='bool'/>
+<mbr r='usb_handle::reaper_thread' o='2048' t='pthread_t'/>
+<def f='codebrowser/system/core/adb/usb_windows.cpp' l='43' ll='64'/>
+<size>28</size>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='35'>/** Structure usb_handle describes our connection to the usb device via
+  AdbWinApi.dll. This structure is returned from usb_open() routine and
+  is expected in each subsequent call that is accessing the device.
+
+  Most members are protected by usb_lock, except for adb_{read,write}_pipe which
+  rely on AdbWinApi.dll&apos;s handle validation and AdbCloseHandle(endpoint)&apos;s
+  ability to break a thread out of pipe IO.
+*/</doc>
+<mbr r='usb_handle::prev' o='0' t='usb_handle *'/>
+<mbr r='usb_handle::next' o='32' t='usb_handle *'/>
+<mbr r='usb_handle::adb_interface' o='64' t='ADBAPIHANDLE'/>
+<mbr r='usb_handle::adb_read_pipe' o='96' t='ADBAPIHANDLE'/>
+<mbr r='usb_handle::adb_write_pipe' o='128' t='ADBAPIHANDLE'/>
+<mbr r='usb_handle::interface_name' o='160' t='wchar_t *'/>
+<mbr r='usb_handle::zero_mask' o='192' t='unsigned int'/>

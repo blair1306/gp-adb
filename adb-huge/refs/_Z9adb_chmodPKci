@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2423' ll='2430' type='int adb_chmod(const char * path, int mode)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2422'>// Version of chmod() that takes a UTF-8 path.</doc>

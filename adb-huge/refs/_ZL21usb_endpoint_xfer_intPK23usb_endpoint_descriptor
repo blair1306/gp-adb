@@ -1,0 +1,10 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='485' ll='490' type='int usb_endpoint_xfer_int(const struct usb_endpoint_descriptor * epd)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='542' u='c' c='_ZL22usb_endpoint_is_int_inPK23usb_endpoint_descriptor'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='555' u='c' c='_ZL23usb_endpoint_is_int_outPK23usb_endpoint_descriptor'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='478'>/**
+ * usb_endpoint_xfer_int - check if the endpoint has interrupt transfer type
+ * @epd: endpoint to be checked
+ *
+ * Returns true if the endpoint is of type interrupt, otherwise it returns
+ * false.
+ */</doc>

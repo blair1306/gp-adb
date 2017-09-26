@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/limits.h' l='33'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/limits.h' l='30'>/* Maximum length of any multibyte character in any locale.
+   We define this value here since the gcc header does not define
+   the correct value.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1591' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1696' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1719' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/limits.h' l='30'/>

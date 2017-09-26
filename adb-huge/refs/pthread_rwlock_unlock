@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='911' type='int pthread_rwlock_unlock(pthread_rwlock_t * __rwlock)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='910'>/* Unlock RWLOCK.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/thread_pthread.c' l='50' u='c' c='CRYPTO_MUTEX_unlock'/>
+<use f='codebrowser/external/boringssl/src/crypto/thread_pthread.c' l='72' u='c' c='CRYPTO_STATIC_MUTEX_unlock'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='949' ll='952'/>
+<size>108</size>
+<mbr r='tagNEWTEXTMETRICEXW::ntmTm' o='0' t='NEWTEXTMETRICW'/>
+<mbr r='tagNEWTEXTMETRICEXW::ntmFontSig' o='672' t='FONTSIGNATURE'/>

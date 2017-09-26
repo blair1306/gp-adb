@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/usb100.h' l='147' ll='157'/>
+<size>9</size>
+<mbr r='_USB_INTERFACE_DESCRIPTOR::bLength' o='0' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_DESCRIPTOR::bDescriptorType' o='8' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_DESCRIPTOR::bInterfaceNumber' o='16' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_DESCRIPTOR::bAlternateSetting' o='24' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_DESCRIPTOR::bNumEndpoints' o='32' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_DESCRIPTOR::bInterfaceClass' o='40' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_DESCRIPTOR::bInterfaceSubClass' o='48' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_DESCRIPTOR::bInterfaceProtocol' o='56' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_DESCRIPTOR::iInterface' o='64' t='UCHAR'/>

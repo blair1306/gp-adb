@@ -1,0 +1,35 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='198' type='__locale_t uselocale(__locale_t __dataset)'/>
+<use f='codebrowser/external/libcxx/include/locale' l='232' u='a'/>
+<use f='codebrowser/external/libcxx/include/locale' l='252' u='c' c='_ZNSt3__114__mb_cur_max_lEP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='252' u='a' c='_ZNSt3__114__mb_cur_max_lEP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='263' u='c' c='_ZNSt3__19__btowc_lEiP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='263' u='a' c='_ZNSt3__19__btowc_lEiP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='274' u='c' c='_ZNSt3__19__wctob_lEjP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='274' u='a' c='_ZNSt3__19__wctob_lEjP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='286' u='c' c='_ZNSt3__114__wcsnrtombs_lEPcPPKwmmP11__mbstate_tP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='286' u='a' c='_ZNSt3__114__wcsnrtombs_lEPcPPKwmmP11__mbstate_tP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='297' u='c' c='_ZNSt3__111__wcrtomb_lEPcwP11__mbstate_tP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='297' u='a' c='_ZNSt3__111__wcrtomb_lEPcwP11__mbstate_tP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='309' u='c' c='_ZNSt3__114__mbsnrtowcs_lEPwPPKcmmP11__mbstate_tP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='309' u='a' c='_ZNSt3__114__mbsnrtowcs_lEPwPPKcmmP11__mbstate_tP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='321' u='c' c='_ZNSt3__111__mbrtowc_lEPwPKcmP11__mbstate_tP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='321' u='a' c='_ZNSt3__111__mbrtowc_lEPwPKcmP11__mbstate_tP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='332' u='c' c='_ZNSt3__110__mbtowc_lEPwPKcmP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='332' u='a' c='_ZNSt3__110__mbtowc_lEPwPKcmP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='343' u='c' c='_ZNSt3__110__mbrlen_lEPKcmP11__mbstate_tP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='343' u='a' c='_ZNSt3__110__mbrlen_lEPKcmP11__mbstate_tP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='354' u='c' c='_ZNSt3__114__localeconv_lEP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='354' u='a' c='_ZNSt3__114__localeconv_lEP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='366' u='c' c='_ZNSt3__113__mbsrtowcs_lEPwPPKcmP11__mbstate_tP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='366' u='a' c='_ZNSt3__113__mbsrtowcs_lEPwPPKcmP11__mbstate_tP15__locale_struct'/>
+<use f='codebrowser/external/libcxx/include/locale' l='378' u='c' c='_ZNSt3__112__snprintf_lEPcmP15__locale_structPKcz'/>
+<use f='codebrowser/external/libcxx/include/locale' l='378' u='a' c='_ZNSt3__112__snprintf_lEPcmP15__locale_structPKcz'/>
+<use f='codebrowser/external/libcxx/include/locale' l='392' u='c' c='_ZNSt3__112__asprintf_lEPPcP15__locale_structPKcz'/>
+<use f='codebrowser/external/libcxx/include/locale' l='392' u='a' c='_ZNSt3__112__asprintf_lEPPcP15__locale_structPKcz'/>
+<use f='codebrowser/external/libcxx/include/locale' l='406' u='c' c='_ZNSt3__110__sscanf_lEPKcP15__locale_structS1_z'/>
+<use f='codebrowser/external/libcxx/include/locale' l='406' u='a' c='_ZNSt3__110__sscanf_lEPKcP15__locale_structS1_z'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='193'>/* Switch the current thread&apos;s locale to DATASET.
+   If DATASET is null, instead just return the current setting.
+   The special value LC_GLOBAL_LOCALE is the initial setting
+   for all threads and can also be installed any time, meaning
+   the thread uses the global settings controlled by `setlocale&apos;.  */</doc>

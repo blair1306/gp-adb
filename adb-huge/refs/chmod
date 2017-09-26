@@ -1,0 +1,7 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='286' type='int chmod(const char * __file, __mode_t __mode)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='284'>/* Set file access permissions for FILE to MODE.
+   If FILE is a symbolic link, this affects its target instead.  */</doc>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='874' u='c' c='_ZL17set_time_and_modeRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElj'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='270' type='int chmod(const char * , int )'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='311' type='int chmod(const char * _Filename, int _AccessMode)'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='72' u='c' c='fs_prepare_dir'/>

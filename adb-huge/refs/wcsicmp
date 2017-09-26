@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='161' type='int wcsicmp(const wchar_t * _Str1, const wchar_t * _Str2)'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='131' u='c' c='_Z19known_device_lockedPKw'/>

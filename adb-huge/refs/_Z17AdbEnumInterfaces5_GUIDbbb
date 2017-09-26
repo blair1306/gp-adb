@@ -1,0 +1,18 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='208' type='ADBAPIHANDLE AdbEnumInterfaces(GUID class_id, bool exclude_not_present, bool exclude_removed, bool active_only)'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='588' u='c' c='_Z12find_devicesv'/>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='192'>/** \brief Creates USB interface enumerator
+
+  This routine enumerates all USB interfaces that match provided class ID.
+  This routine uses SetupDiGetClassDevs SDK routine to enumerate devices that
+  match class ID and then SetupDiEnumDeviceInterfaces SDK routine is called
+  to enumerate interfaces on the devices.
+  @param[in] class_id Device class ID, assigned by the driver.
+  @param[in] exclude_not_present If true enumation will include only those
+         devices that are currently present.
+  @param[in] exclude_removed If true interfaces with SPINT_REMOVED flag set
+         will be not included in the enumeration.
+  @param[in] active_only If true only active interfaces (with flag
+           SPINT_ACTIVE set) will be included in the enumeration.
+  @return Handle to the enumerator object or NULL on failure. If NULL is
+          returned GetLastError() provides extended error information.
+*/</doc>

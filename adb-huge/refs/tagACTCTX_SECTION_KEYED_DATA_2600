@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='2695' ll='2706'/>
+<size>40</size>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_2600::cbSize' o='0' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_2600::ulDataFormatVersion' o='32' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_2600::lpData' o='64' t='PVOID'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_2600::ulLength' o='96' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_2600::lpSectionGlobalData' o='128' t='PVOID'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_2600::ulSectionGlobalDataLength' o='160' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_2600::lpSectionBase' o='192' t='PVOID'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_2600::ulSectionTotalLength' o='224' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_2600::hActCtx' o='256' t='HANDLE'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA_2600::ulAssemblyRosterIndex' o='288' t='ULONG'/>

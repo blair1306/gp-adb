@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/fcntl.h' l='130'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/fcntl.h' l='129'>/* For F_[GET|SET]FD.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/rand/urandom.c' l='91' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='510' u='c'/>

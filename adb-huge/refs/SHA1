@@ -1,0 +1,2 @@
+<dec f='codebrowser/external/boringssl/src/include/openssl/sha.h' l='94' type='uint8_t * SHA1(const uint8_t * data, size_t len, uint8_t * out)'/>
+<def f='codebrowser/external/boringssl/src/crypto/sha/sha1.c' l='80' ll='95' type='uint8_t * SHA1(const uint8_t * data, size_t len, uint8_t * out)'/>

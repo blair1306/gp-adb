@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3756' ll='3762'/>
+<size>40</size>
+<mbr r='tagEMRPOLYDRAW::emr' o='0' t='EMR'/>
+<mbr r='tagEMRPOLYDRAW::rclBounds' o='64' t='RECTL'/>
+<mbr r='tagEMRPOLYDRAW::cptl' o='192' t='DWORD'/>
+<mbr r='tagEMRPOLYDRAW::aptl' o='224' t='POINTL [1]'/>
+<mbr r='tagEMRPOLYDRAW::abTypes' o='288' t='BYTE [1]'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/time.h' l='133' type='int setitimer(__itimer_which_t __which, const struct itimerval *restrict __new, struct itimerval *restrict __old)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/time.h' l='130'>/* Set the timer WHICH to *NEW.  If OLD is not NULL,
+   set *OLD to the old value of timer WHICH.
+   Returns 0 on success, -1 on errors.  */</doc>

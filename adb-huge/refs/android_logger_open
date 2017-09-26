@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/include/log/logger.h' l='195' type='struct logger * android_logger_open(struct logger_list * logger_list, log_id_t id)'/>
+<doc f='codebrowser/system/core/include/log/logger.h' l='194'>/* Multiple log_id_t opens */</doc>

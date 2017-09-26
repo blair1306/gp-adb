@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='328' ll='333'/>
+<size>24</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='327'>/* Description of data base entry for a single service.  */</doc>
+<mbr r='protoent::p_name' o='0' t='char *'/>
+<mbr r='protoent::p_aliases' o='64' t='char **'/>
+<mbr r='protoent::p_proto' o='128' t='int'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h' l='52' ll='56'/>
+<size>12</size>
+<mbr r='protoent::p_name' o='0' t='char *'/>
+<mbr r='protoent::p_aliases' o='32' t='char **'/>
+<mbr r='protoent::p_proto' o='64' t='short'/>

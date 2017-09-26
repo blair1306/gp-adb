@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/transport.h' l='34' type='FeatureSet StringToFeatureSet(const std::string &amp; features_string)'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='325' u='c' c='_Z19adb_get_feature_setPNSt3__113unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEEPS6_'/>
+<def f='codebrowser/system/core/adb/transport.cpp' l='799' ll='807' type='FeatureSet StringToFeatureSet(const std::string &amp; features_string)'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='819' u='c' c='_ZN10atransport11SetFeaturesERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE'/>

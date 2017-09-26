@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2641' ll='2643' type='int adb_putchar(int ch)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2640'>// Version of putchar() that takes UTF-8 and can write Unicode to a Windows console.</doc>

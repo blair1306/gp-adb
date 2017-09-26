@@ -1,0 +1,10 @@
+<dec f='codebrowser/system/core/adb/file_sync_service.h' l='55' type='struct (anonymous struct at /home/jon/workspace/android/system/core/adb/file_sync_service.h:49:5)'/>
+<offset>0</offset>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='441' u='a' c='_ZL7sync_lsR14SyncConnectionPKcNSt3__18functionIFvjjjS2_EEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='441' u='r' c='_ZL7sync_lsR14SyncConnectionPKcNSt3__18functionIFvjjjS2_EEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='443' u='m' c='_ZL7sync_lsR14SyncConnectionPKcNSt3__18functionIFvjjjS2_EEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='444' u='m' c='_ZL7sync_lsR14SyncConnectionPKcNSt3__18functionIFvjjjS2_EEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='446' u='m' c='_ZL7sync_lsR14SyncConnectionPKcNSt3__18functionIFvjjjS2_EEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='453' u='m' c='_ZL7sync_lsR14SyncConnectionPKcNSt3__18functionIFvjjjS2_EEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='453' u='m' c='_ZL7sync_lsR14SyncConnectionPKcNSt3__18functionIFvjjjS2_EEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='453' u='m' c='_ZL7sync_lsR14SyncConnectionPKcNSt3__18functionIFvjjjS2_EEE'/>

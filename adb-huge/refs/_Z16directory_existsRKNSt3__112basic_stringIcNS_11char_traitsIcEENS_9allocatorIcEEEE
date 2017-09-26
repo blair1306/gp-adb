@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/adb/adb_utils.h' l='27' type='bool directory_exists(const std::string &amp; path)'/>
+<def f='codebrowser/system/core/adb/adb_utils.cpp' l='65' ll='68' macro='1' type='bool directory_exists(const std::string &amp; path)'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='183' u='c' c='_Z6mkdirsRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1327' u='c' c='_ZL21find_product_out_pathRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1836' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1839' u='c' c='_Z15adb_commandlineiPPKc'/>

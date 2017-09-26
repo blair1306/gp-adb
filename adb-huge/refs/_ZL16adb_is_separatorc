@@ -1,0 +1,4 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='483' ll='485' type='bool adb_is_separator(char c)'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='55' u='c' c='_ZL26ensure_trailing_separatorsRNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='966' u='c' c='_Z12do_sync_pullRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_b'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='1001' u='c' c='_Z12do_sync_pullRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_b'/>

@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3591' ll='3601'/>
+<size>44</size>
+<mbr r='_JOBOBJECT_BASIC_LIMIT_INFORMATION::PerProcessUserTimeLimit' o='0' t='LARGE_INTEGER'/>
+<mbr r='_JOBOBJECT_BASIC_LIMIT_INFORMATION::PerJobUserTimeLimit' o='64' t='LARGE_INTEGER'/>
+<mbr r='_JOBOBJECT_BASIC_LIMIT_INFORMATION::LimitFlags' o='128' t='DWORD'/>
+<mbr r='_JOBOBJECT_BASIC_LIMIT_INFORMATION::MinimumWorkingSetSize' o='160' t='SIZE_T'/>
+<mbr r='_JOBOBJECT_BASIC_LIMIT_INFORMATION::MaximumWorkingSetSize' o='192' t='SIZE_T'/>
+<mbr r='_JOBOBJECT_BASIC_LIMIT_INFORMATION::ActiveProcessLimit' o='224' t='DWORD'/>
+<mbr r='_JOBOBJECT_BASIC_LIMIT_INFORMATION::Affinity' o='256' t='ULONG_PTR'/>
+<mbr r='_JOBOBJECT_BASIC_LIMIT_INFORMATION::PriorityClass' o='288' t='DWORD'/>
+<mbr r='_JOBOBJECT_BASIC_LIMIT_INFORMATION::SchedulingClass' o='320' t='DWORD'/>

@@ -1,0 +1,45 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='354' type='int close(int __fd)'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/connect.c' l='112' u='c' c='closesocket'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='350'>/* Close the file descriptor FD.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/fd.c' l='146' u='c' c='fd_free'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket.c' l='78' u='c' c='closesocket'/>
+<use f='codebrowser/external/libcxx/src/random.cpp' l='65' u='c' c='_ZNSt3__113random_deviceD1Ev'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='580' u='c' c='_Z9adb_closei'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='313' type='int close(int _FileHandle)'/>
+<use f='codebrowser/system/core/base/file.cpp' l='57' u='c' c='_ZN7android4base16ReadFileToStringERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_'/>
+<use f='codebrowser/system/core/base/file.cpp' l='107' u='c' c='_ZN7android4base17WriteStringToFileERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_jjj'/>
+<use f='codebrowser/system/core/base/file.cpp' l='120' u='c' c='_ZN7android4base17WriteStringToFileERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_'/>
+<use f='codebrowser/system/core/base/test_utils.cpp' l='82' u='c' c='_ZN13TemporaryFileD1Ev'/>
+<use f='codebrowser/system/core/libcutils/ashmem-host.c' l='51' u='c' c='ashmem_create_region'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='100' u='c' c='fs_read_atomic_int'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='104' u='c' c='fs_read_atomic_int'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='132' u='c' c='fs_write_atomic_int'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='145' u='c' c='fs_write_atomic_int'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='221' u='c' c='fs_mkdirs'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='231' u='c' c='fs_mkdirs'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='246' u='c' c='fs_config'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='255' u='c' c='fs_config'/>
+<use f='codebrowser/system/core/libcutils/load_file.c' l='41' u='c' c='load_file'/>
+<use f='codebrowser/system/core/libcutils/load_file.c' l='48' u='c' c='load_file'/>
+<use f='codebrowser/system/core/libcutils/native_handle.c' l='65' u='c' c='native_handle_close'/>
+<use f='codebrowser/system/core/libcutils/socket_inaddr_any_server_unix.c' l='50' u='c' c='socket_inaddr_any_server'/>
+<use f='codebrowser/system/core/libcutils/socket_inaddr_any_server_unix.c' l='60' u='c' c='socket_inaddr_any_server'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='161' u='c' c='socket_local_client'/>
+<use f='codebrowser/system/core/libcutils/socket_local_server_unix.c' l='108' u='c' c='socket_local_server'/>
+<use f='codebrowser/system/core/libcutils/socket_local_server_unix.c' l='118' u='c' c='socket_local_server'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_client_unix.c' l='50' u='c' c='socket_loopback_client'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='52' u='c' c='socket_loopback_server'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='62' u='c' c='socket_loopback_server'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='35' u='c' c='toggle_O_NONBLOCK'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='79' u='c' c='socket_network_client_timeout'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='92' u='c' c='socket_network_client_timeout'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='97' u='c' c='socket_network_client_timeout'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='105' u='c' c='socket_network_client_timeout'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='109' u='c' c='socket_network_client_timeout'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='115' u='c' c='socket_network_client_timeout'/>
+<use f='codebrowser/system/core/libcutils/sockets_unix.cpp' l='52' u='c' c='socket_close'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='107' u='c' c='android_openEventTagMap'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='672' u='r' c='setRedirects'/>

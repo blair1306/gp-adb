@@ -1,0 +1,4 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='804' ll='806' type='int adb_poll(adb_pollfd * fds, size_t nfds, int timeout)'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='242' u='c' c='_ZL15fdevent_processv'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='135' u='c' c='_ZN14SyncConnection13ReceivedErrorEPKcS1_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='378' u='c' c='_ZL14wait_for_stateiPv'/>

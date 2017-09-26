@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/adb/mutex_list.h' l='16' type='adb_mutex_t'/>
+<def f='codebrowser/system/core/adb/usb_windows.cpp' l='76' macro='1' type='adb_mutex_t'/>

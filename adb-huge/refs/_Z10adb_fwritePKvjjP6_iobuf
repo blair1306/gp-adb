@@ -1,0 +1,3 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2667' ll='2682' type='size_t adb_fwrite(const void * ptr, size_t size, size_t nmemb, FILE * stream)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2665'>// Version of fwrite() that takes UTF-8 and can write Unicode to a
+// Windows console.</doc>

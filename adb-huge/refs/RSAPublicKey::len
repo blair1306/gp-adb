@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/include/mincrypt/rsa.h' l='41' type='int'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='97' u='w' c='_ZL19RSA_to_RSAPublicKeyP6rsa_stP12RSAPublicKey'/>
+<offset>0</offset>
+<doc f='codebrowser/system/core/include/mincrypt/rsa.h' l='41'>/* Length of n[] in number of uint32_t */</doc>

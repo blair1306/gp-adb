@@ -1,0 +1,4 @@
+ptsname_r|ptsname_r
+pthread_equal|pthread_equal
+_Z10Ptr64ToPtrPKv|Ptr64ToPtr
+_Z10PtrToPtr64PKv|PtrToPtr64

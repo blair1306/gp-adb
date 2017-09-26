@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/uio.h' l='44' ll='48'/>
+<size>16</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/uio.h' l='43'>/* Structure for scatter/gather I/O.  */</doc>
+<mbr r='iovec::iov_base' o='0' t='void *'/>
+<mbr r='iovec::iov_len' o='64' t='size_t'/>

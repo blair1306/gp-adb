@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>_wsa_errnos.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h'; var root_path = '../../../../../../../../..'; var data_path = '../../../../../../../../../../data';</script>
+<script src='../../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../../..'>codebrowser</a>/<a href='../../../../../../..'>prebuilts</a>/<a href='../../../../../..'>gcc</a>/<a href='../../../../..'>linux-x86</a>/<a href='../../../..'>host</a>/<a href='../../..'>x86_64-w64-mingw32-4.8</a>/<a href='../..'>x86_64-w64-mingw32</a>/<a href='..'>include</a>/<a href='./'>psdk_inc</a>/<a href='_wsa_errnos.h.html'>_wsa_errnos.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><u>#<span data-ppcond="7">ifndef</span> <a class="macro" href="../winerror.h.html#1616" data-ref="_M/WSABASEERR">WSABASEERR</a></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#define WSABASEERR		10000</u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#define WSAEINTR		(WSABASEERR + 4   )</u></td></tr>
+<tr><th id="12">12</th><td><u>#define WSAEBADF		(WSABASEERR + 9   )</u></td></tr>
+<tr><th id="13">13</th><td><u>#define WSAEACCES		(WSABASEERR + 13  )</u></td></tr>
+<tr><th id="14">14</th><td><u>#define WSAEFAULT		(WSABASEERR + 14  )</u></td></tr>
+<tr><th id="15">15</th><td><u>#define WSAEINVAL		(WSABASEERR + 22  )</u></td></tr>
+<tr><th id="16">16</th><td><u>#define WSAEMFILE		(WSABASEERR + 24  )</u></td></tr>
+<tr><th id="17">17</th><td></td></tr>
+<tr><th id="18">18</th><td><u>#define WSAEWOULDBLOCK		(WSABASEERR + 35  )</u></td></tr>
+<tr><th id="19">19</th><td><u>#define WSAEINPROGRESS		(WSABASEERR + 36  )</u></td></tr>
+<tr><th id="20">20</th><td><u>#define WSAEALREADY		(WSABASEERR + 37  )</u></td></tr>
+<tr><th id="21">21</th><td><u>#define WSAENOTSOCK		(WSABASEERR + 38  )</u></td></tr>
+<tr><th id="22">22</th><td><u>#define WSAEDESTADDRREQ		(WSABASEERR + 39  )</u></td></tr>
+<tr><th id="23">23</th><td><u>#define WSAEMSGSIZE		(WSABASEERR + 40  )</u></td></tr>
+<tr><th id="24">24</th><td><u>#define WSAEPROTOTYPE		(WSABASEERR + 41  )</u></td></tr>
+<tr><th id="25">25</th><td><u>#define WSAENOPROTOOPT		(WSABASEERR + 42  )</u></td></tr>
+<tr><th id="26">26</th><td><u>#define WSAEPROTONOSUPPORT	(WSABASEERR + 43  )</u></td></tr>
+<tr><th id="27">27</th><td><u>#define WSAESOCKTNOSUPPORT	(WSABASEERR + 44  )</u></td></tr>
+<tr><th id="28">28</th><td><u>#define WSAEOPNOTSUPP		(WSABASEERR + 45  )</u></td></tr>
+<tr><th id="29">29</th><td><u>#define WSAEPFNOSUPPORT		(WSABASEERR + 46  )</u></td></tr>
+<tr><th id="30">30</th><td><u>#define WSAEAFNOSUPPORT		(WSABASEERR + 47  )</u></td></tr>
+<tr><th id="31">31</th><td><u>#define WSAEADDRINUSE		(WSABASEERR + 48  )</u></td></tr>
+<tr><th id="32">32</th><td><u>#define WSAEADDRNOTAVAIL	(WSABASEERR + 49  )</u></td></tr>
+<tr><th id="33">33</th><td><u>#define WSAENETDOWN		(WSABASEERR + 50  )</u></td></tr>
+<tr><th id="34">34</th><td><u>#define WSAENETUNREACH		(WSABASEERR + 51  )</u></td></tr>
+<tr><th id="35">35</th><td><u>#define WSAENETRESET		(WSABASEERR + 52  )</u></td></tr>
+<tr><th id="36">36</th><td><u>#define WSAECONNABORTED		(WSABASEERR + 53  )</u></td></tr>
+<tr><th id="37">37</th><td><u>#define WSAECONNRESET		(WSABASEERR + 54  )</u></td></tr>
+<tr><th id="38">38</th><td><u>#define WSAENOBUFS		(WSABASEERR + 55  )</u></td></tr>
+<tr><th id="39">39</th><td><u>#define WSAEISCONN		(WSABASEERR + 56  )</u></td></tr>
+<tr><th id="40">40</th><td><u>#define WSAENOTCONN		(WSABASEERR + 57  )</u></td></tr>
+<tr><th id="41">41</th><td><u>#define WSAESHUTDOWN		(WSABASEERR + 58  )</u></td></tr>
+<tr><th id="42">42</th><td><u>#define WSAETOOMANYREFS		(WSABASEERR + 59  )</u></td></tr>
+<tr><th id="43">43</th><td><u>#define WSAETIMEDOUT		(WSABASEERR + 60  )</u></td></tr>
+<tr><th id="44">44</th><td><u>#define WSAECONNREFUSED		(WSABASEERR + 61  )</u></td></tr>
+<tr><th id="45">45</th><td><u>#define WSAELOOP		(WSABASEERR + 62  )</u></td></tr>
+<tr><th id="46">46</th><td><u>#define WSAENAMETOOLONG		(WSABASEERR + 63  )</u></td></tr>
+<tr><th id="47">47</th><td><u>#define WSAEHOSTDOWN		(WSABASEERR + 64  )</u></td></tr>
+<tr><th id="48">48</th><td><u>#define WSAEHOSTUNREACH		(WSABASEERR + 65  )</u></td></tr>
+<tr><th id="49">49</th><td><u>#define WSAENOTEMPTY		(WSABASEERR + 66  )</u></td></tr>
+<tr><th id="50">50</th><td><u>#define WSAEPROCLIM		(WSABASEERR + 67  )</u></td></tr>
+<tr><th id="51">51</th><td><u>#define WSAEUSERS		(WSABASEERR + 68  )</u></td></tr>
+<tr><th id="52">52</th><td><u>#define WSAEDQUOT		(WSABASEERR + 69  )</u></td></tr>
+<tr><th id="53">53</th><td><u>#define WSAESTALE		(WSABASEERR + 70  )</u></td></tr>
+<tr><th id="54">54</th><td><u>#define WSAEREMOTE		(WSABASEERR + 71  )</u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><u>#define WSASYSNOTREADY		(WSABASEERR + 91  )</u></td></tr>
+<tr><th id="57">57</th><td><u>#define WSAVERNOTSUPPORTED	(WSABASEERR + 92  )</u></td></tr>
+<tr><th id="58">58</th><td><u>#define WSANOTINITIALISED	(WSABASEERR + 93  )</u></td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td><u>#define WSAEDISCON		(WSABASEERR + 101 )</u></td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td><u>#ifndef WSAHOST_NOT_FOUND</u></td></tr>
+<tr><th id="63">63</th><td><u>#define WSAHOST_NOT_FOUND	(WSABASEERR + 1001)</u></td></tr>
+<tr><th id="64">64</th><td><u>#endif</u></td></tr>
+<tr><th id="65">65</th><td><u>#ifndef WSATRY_AGAIN</u></td></tr>
+<tr><th id="66">66</th><td><u>#define WSATRY_AGAIN		(WSABASEERR + 1002)</u></td></tr>
+<tr><th id="67">67</th><td><u>#endif</u></td></tr>
+<tr><th id="68">68</th><td><u>#ifndef WSANO_RECOVERY</u></td></tr>
+<tr><th id="69">69</th><td><u>#define WSANO_RECOVERY		(WSABASEERR + 1003)</u></td></tr>
+<tr><th id="70">70</th><td><u>#endif</u></td></tr>
+<tr><th id="71">71</th><td><u>#ifndef WSANO_DATA</u></td></tr>
+<tr><th id="72">72</th><td><u>#define WSANO_DATA		(WSABASEERR + 1004)</u></td></tr>
+<tr><th id="73">73</th><td><u>#endif</u></td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td><u>#<span data-ppcond="7">endif</span>	/* WSABASEERR */</u></td></tr>
+<tr><th id="76">76</th><td></td></tr>
+<tr><th id="77">77</th><td><u>#<span data-ppcond="77">ifdef</span> <a class="macro" href="../winsock2.h.html#8" data-ref="_M/_WINSOCK2API_">_WINSOCK2API_</a></u></td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td><u>#<span data-ppcond="79">ifndef</span> <a class="macro" href="../winerror.h.html#1664" data-ref="_M/WSAENOMORE">WSAENOMORE</a></u></td></tr>
+<tr><th id="80">80</th><td><u>#define WSAENOMORE		(WSABASEERR + 102)</u></td></tr>
+<tr><th id="81">81</th><td><u>#<span data-ppcond="79">endif</span></u></td></tr>
+<tr><th id="82">82</th><td><u>#<span data-ppcond="82">ifndef</span> <a class="macro" href="../winerror.h.html#1665" data-ref="_M/WSAECANCELLED">WSAECANCELLED</a></u></td></tr>
+<tr><th id="83">83</th><td><u>#define WSAECANCELLED		(WSABASEERR + 103)</u></td></tr>
+<tr><th id="84">84</th><td><u>#<span data-ppcond="82">endif</span></u></td></tr>
+<tr><th id="85">85</th><td><u>#<span data-ppcond="85">ifndef</span> <a class="macro" href="../winerror.h.html#1666" data-ref="_M/WSAEINVALIDPROCTABLE">WSAEINVALIDPROCTABLE</a></u></td></tr>
+<tr><th id="86">86</th><td><u>#define WSAEINVALIDPROCTABLE	(WSABASEERR + 104)</u></td></tr>
+<tr><th id="87">87</th><td><u>#<span data-ppcond="85">endif</span></u></td></tr>
+<tr><th id="88">88</th><td><u>#<span data-ppcond="88">ifndef</span> <a class="macro" href="../winerror.h.html#1667" data-ref="_M/WSAEINVALIDPROVIDER">WSAEINVALIDPROVIDER</a></u></td></tr>
+<tr><th id="89">89</th><td><u>#define WSAEINVALIDPROVIDER	(WSABASEERR + 105)</u></td></tr>
+<tr><th id="90">90</th><td><u>#<span data-ppcond="88">endif</span></u></td></tr>
+<tr><th id="91">91</th><td><u>#<span data-ppcond="91">ifndef</span> <a class="macro" href="../winerror.h.html#1668" data-ref="_M/WSAEPROVIDERFAILEDINIT">WSAEPROVIDERFAILEDINIT</a></u></td></tr>
+<tr><th id="92">92</th><td><u>#define WSAEPROVIDERFAILEDINIT	(WSABASEERR + 106)</u></td></tr>
+<tr><th id="93">93</th><td><u>#<span data-ppcond="91">endif</span></u></td></tr>
+<tr><th id="94">94</th><td><u>#<span data-ppcond="94">ifndef</span> <a class="macro" href="../winerror.h.html#1669" data-ref="_M/WSASYSCALLFAILURE">WSASYSCALLFAILURE</a></u></td></tr>
+<tr><th id="95">95</th><td><u>#define WSASYSCALLFAILURE	(WSABASEERR + 107)</u></td></tr>
+<tr><th id="96">96</th><td><u>#<span data-ppcond="94">endif</span></u></td></tr>
+<tr><th id="97">97</th><td><u>#<span data-ppcond="97">ifndef</span> <a class="macro" href="../winerror.h.html#1670" data-ref="_M/WSASERVICE_NOT_FOUND">WSASERVICE_NOT_FOUND</a></u></td></tr>
+<tr><th id="98">98</th><td><u>#define WSASERVICE_NOT_FOUND	(WSABASEERR + 108)</u></td></tr>
+<tr><th id="99">99</th><td><u>#<span data-ppcond="97">endif</span></u></td></tr>
+<tr><th id="100">100</th><td><u>#<span data-ppcond="100">ifndef</span> <a class="macro" href="../winerror.h.html#1671" data-ref="_M/WSATYPE_NOT_FOUND">WSATYPE_NOT_FOUND</a></u></td></tr>
+<tr><th id="101">101</th><td><u>#define WSATYPE_NOT_FOUND	(WSABASEERR + 109)</u></td></tr>
+<tr><th id="102">102</th><td><u>#<span data-ppcond="100">endif</span></u></td></tr>
+<tr><th id="103">103</th><td><u>#<span data-ppcond="103">ifndef</span> <a class="macro" href="../winerror.h.html#1672" data-ref="_M/WSA_E_NO_MORE">WSA_E_NO_MORE</a></u></td></tr>
+<tr><th id="104">104</th><td><u>#define WSA_E_NO_MORE		(WSABASEERR + 110)</u></td></tr>
+<tr><th id="105">105</th><td><u>#<span data-ppcond="103">endif</span></u></td></tr>
+<tr><th id="106">106</th><td><u>#<span data-ppcond="106">ifndef</span> <a class="macro" href="../winerror.h.html#1673" data-ref="_M/WSA_E_CANCELLED">WSA_E_CANCELLED</a></u></td></tr>
+<tr><th id="107">107</th><td><u>#define WSA_E_CANCELLED		(WSABASEERR + 111)</u></td></tr>
+<tr><th id="108">108</th><td><u>#<span data-ppcond="106">endif</span></u></td></tr>
+<tr><th id="109">109</th><td><u>#<span data-ppcond="109">ifndef</span> <a class="macro" href="../winerror.h.html#1674" data-ref="_M/WSAEREFUSED">WSAEREFUSED</a></u></td></tr>
+<tr><th id="110">110</th><td><u>#define WSAEREFUSED		(WSABASEERR + 112)</u></td></tr>
+<tr><th id="111">111</th><td><u>#<span data-ppcond="109">endif</span></u></td></tr>
+<tr><th id="112">112</th><td><u>#<span data-ppcond="112">ifndef</span> <a class="macro" href="../winerror.h.html#1688" data-ref="_M/WSA_QOS_RECEIVERS">WSA_QOS_RECEIVERS</a></u></td></tr>
+<tr><th id="113">113</th><td><u>#define WSA_QOS_RECEIVERS	(WSABASEERR + 1005)</u></td></tr>
+<tr><th id="114">114</th><td><u>#<span data-ppcond="112">endif</span></u></td></tr>
+<tr><th id="115">115</th><td><u>#<span data-ppcond="115">ifndef</span> <a class="macro" href="../winerror.h.html#1691" data-ref="_M/WSA_QOS_SENDERS">WSA_QOS_SENDERS</a></u></td></tr>
+<tr><th id="116">116</th><td><u>#define WSA_QOS_SENDERS		(WSABASEERR + 1006)</u></td></tr>
+<tr><th id="117">117</th><td><u>#<span data-ppcond="115">endif</span></u></td></tr>
+<tr><th id="118">118</th><td><u>#<span data-ppcond="118">ifndef</span> <a class="macro" href="../winerror.h.html#1694" data-ref="_M/WSA_QOS_NO_SENDERS">WSA_QOS_NO_SENDERS</a></u></td></tr>
+<tr><th id="119">119</th><td><u>#define WSA_QOS_NO_SENDERS	(WSABASEERR + 1007)</u></td></tr>
+<tr><th id="120">120</th><td><u>#define WSA_QOS_NO_RECEIVERS	(WSABASEERR + 1008)</u></td></tr>
+<tr><th id="121">121</th><td><u>#define WSA_QOS_REQUEST_CONFIRMED (WSABASEERR + 1009)</u></td></tr>
+<tr><th id="122">122</th><td><u>#define WSA_QOS_ADMISSION_FAILURE (WSABASEERR + 1010)</u></td></tr>
+<tr><th id="123">123</th><td><u>#define WSA_QOS_POLICY_FAILURE	(WSABASEERR + 1011)</u></td></tr>
+<tr><th id="124">124</th><td><u>#define WSA_QOS_BAD_STYLE	(WSABASEERR + 1012)</u></td></tr>
+<tr><th id="125">125</th><td><u>#define WSA_QOS_BAD_OBJECT	(WSABASEERR + 1013)</u></td></tr>
+<tr><th id="126">126</th><td><u>#define WSA_QOS_TRAFFIC_CTRL_ERROR (WSABASEERR + 1014)</u></td></tr>
+<tr><th id="127">127</th><td><u>#define WSA_QOS_GENERIC_ERROR	(WSABASEERR + 1015)</u></td></tr>
+<tr><th id="128">128</th><td><u>#define WSA_QOS_ESERVICETYPE	(WSABASEERR + 1016)</u></td></tr>
+<tr><th id="129">129</th><td><u>#define WSA_QOS_EFLOWSPEC	(WSABASEERR + 1017)</u></td></tr>
+<tr><th id="130">130</th><td><u>#define WSA_QOS_EPROVSPECBUF	(WSABASEERR + 1018)</u></td></tr>
+<tr><th id="131">131</th><td><u>#<span data-ppcond="118">endif</span></u></td></tr>
+<tr><th id="132">132</th><td><u>#<span data-ppcond="132">ifndef</span> <a class="macro" href="../winerror.h.html#1730" data-ref="_M/WSA_QOS_EFILTERSTYLE">WSA_QOS_EFILTERSTYLE</a></u></td></tr>
+<tr><th id="133">133</th><td><u>#define WSA_QOS_EFILTERSTYLE	(WSABASEERR + 1019)</u></td></tr>
+<tr><th id="134">134</th><td><u>#<span data-ppcond="132">endif</span></u></td></tr>
+<tr><th id="135">135</th><td><u>#<span data-ppcond="135">ifndef</span> <a class="macro" href="../winerror.h.html#1733" data-ref="_M/WSA_QOS_EFILTERTYPE">WSA_QOS_EFILTERTYPE</a></u></td></tr>
+<tr><th id="136">136</th><td><u>#define WSA_QOS_EFILTERTYPE	(WSABASEERR + 1020)</u></td></tr>
+<tr><th id="137">137</th><td><u>#<span data-ppcond="135">endif</span></u></td></tr>
+<tr><th id="138">138</th><td><u>#<span data-ppcond="138">ifndef</span> <a class="macro" href="../winerror.h.html#1736" data-ref="_M/WSA_QOS_EFILTERCOUNT">WSA_QOS_EFILTERCOUNT</a></u></td></tr>
+<tr><th id="139">139</th><td><u>#define WSA_QOS_EFILTERCOUNT	(WSABASEERR + 1021)</u></td></tr>
+<tr><th id="140">140</th><td><u>#<span data-ppcond="138">endif</span></u></td></tr>
+<tr><th id="141">141</th><td><u>#<span data-ppcond="141">ifndef</span> <a class="macro" href="../winerror.h.html#1739" data-ref="_M/WSA_QOS_EOBJLENGTH">WSA_QOS_EOBJLENGTH</a></u></td></tr>
+<tr><th id="142">142</th><td><u>#define WSA_QOS_EOBJLENGTH	(WSABASEERR + 1022)</u></td></tr>
+<tr><th id="143">143</th><td><u>#<span data-ppcond="141">endif</span></u></td></tr>
+<tr><th id="144">144</th><td><u>#<span data-ppcond="144">ifndef</span> <a class="macro" href="../winerror.h.html#1742" data-ref="_M/WSA_QOS_EFLOWCOUNT">WSA_QOS_EFLOWCOUNT</a></u></td></tr>
+<tr><th id="145">145</th><td><u>#define WSA_QOS_EFLOWCOUNT	(WSABASEERR + 1023)</u></td></tr>
+<tr><th id="146">146</th><td><u>#<span data-ppcond="144">endif</span></u></td></tr>
+<tr><th id="147">147</th><td><u>#<span data-ppcond="147">ifndef</span> <a class="macro" href="../winerror.h.html#1745" data-ref="_M/WSA_QOS_EUNKNOWNPSOBJ">WSA_QOS_EUNKNOWNPSOBJ</a></u></td></tr>
+<tr><th id="148">148</th><td><u>#define WSA_QOS_EUNKNOWNPSOBJ	(WSABASEERR + 1024)</u></td></tr>
+<tr><th id="149">149</th><td><u>#<span data-ppcond="147">endif</span></u></td></tr>
+<tr><th id="150">150</th><td><u>#<span data-ppcond="150">ifndef</span> <a class="macro" href="../winerror.h.html#1751" data-ref="_M/WSA_QOS_EPOLICYOBJ">WSA_QOS_EPOLICYOBJ</a></u></td></tr>
+<tr><th id="151">151</th><td><u>#define WSA_QOS_EPOLICYOBJ	(WSABASEERR + 1025)</u></td></tr>
+<tr><th id="152">152</th><td><u>#<span data-ppcond="150">endif</span></u></td></tr>
+<tr><th id="153">153</th><td><u>#<span data-ppcond="153">ifndef</span> <a class="macro" href="../winerror.h.html#1754" data-ref="_M/WSA_QOS_EFLOWDESC">WSA_QOS_EFLOWDESC</a></u></td></tr>
+<tr><th id="154">154</th><td><u>#define WSA_QOS_EFLOWDESC	(WSABASEERR + 1026)</u></td></tr>
+<tr><th id="155">155</th><td><u>#<span data-ppcond="153">endif</span></u></td></tr>
+<tr><th id="156">156</th><td><u>#<span data-ppcond="156">ifndef</span> <a class="macro" href="../winerror.h.html#1757" data-ref="_M/WSA_QOS_EPSFLOWSPEC">WSA_QOS_EPSFLOWSPEC</a></u></td></tr>
+<tr><th id="157">157</th><td><u>#define WSA_QOS_EPSFLOWSPEC	(WSABASEERR + 1027)</u></td></tr>
+<tr><th id="158">158</th><td><u>#<span data-ppcond="156">endif</span></u></td></tr>
+<tr><th id="159">159</th><td><u>#<span data-ppcond="159">ifndef</span> <a class="macro" href="../winerror.h.html#1760" data-ref="_M/WSA_QOS_EPSFILTERSPEC">WSA_QOS_EPSFILTERSPEC</a></u></td></tr>
+<tr><th id="160">160</th><td><u>#define WSA_QOS_EPSFILTERSPEC	(WSABASEERR + 1028)</u></td></tr>
+<tr><th id="161">161</th><td><u>#<span data-ppcond="159">endif</span></u></td></tr>
+<tr><th id="162">162</th><td><u>#<span data-ppcond="162">ifndef</span> <a class="macro" href="../winerror.h.html#1763" data-ref="_M/WSA_QOS_ESDMODEOBJ">WSA_QOS_ESDMODEOBJ</a></u></td></tr>
+<tr><th id="163">163</th><td><u>#define WSA_QOS_ESDMODEOBJ	(WSABASEERR + 1029)</u></td></tr>
+<tr><th id="164">164</th><td><u>#<span data-ppcond="162">endif</span></u></td></tr>
+<tr><th id="165">165</th><td><u>#<span data-ppcond="165">ifndef</span> <a class="macro" href="../winerror.h.html#1766" data-ref="_M/WSA_QOS_ESHAPERATEOBJ">WSA_QOS_ESHAPERATEOBJ</a></u></td></tr>
+<tr><th id="166">166</th><td><u>#define WSA_QOS_ESHAPERATEOBJ	(WSABASEERR + 1030)</u></td></tr>
+<tr><th id="167">167</th><td><u>#<span data-ppcond="165">endif</span></u></td></tr>
+<tr><th id="168">168</th><td><u>#<span data-ppcond="168">ifndef</span> <a class="macro" href="../winerror.h.html#1769" data-ref="_M/WSA_QOS_RESERVED_PETYPE">WSA_QOS_RESERVED_PETYPE</a></u></td></tr>
+<tr><th id="169">169</th><td><u>#define WSA_QOS_RESERVED_PETYPE	(WSABASEERR + 1031)</u></td></tr>
+<tr><th id="170">170</th><td><u>#<span data-ppcond="168">endif</span></u></td></tr>
+<tr><th id="171">171</th><td></td></tr>
+<tr><th id="172">172</th><td><u>#<span data-ppcond="77">endif</span>	/* _WINSOCK2API_ */</u></td></tr>
+<tr><th id="173">173</th><td></td></tr>
+<tr><th id="174">174</th><td><u>#<span data-ppcond="174">ifndef</span> <span class="macro" data-ref="_M/__WSA_ERR_MACROS_DEFINED">__WSA_ERR_MACROS_DEFINED</span></u></td></tr>
+<tr><th id="175">175</th><td><u>#define <dfn class="macro" id="_M/__WSA_ERR_MACROS_DEFINED" data-ref="_M/__WSA_ERR_MACROS_DEFINED">__WSA_ERR_MACROS_DEFINED</dfn></u></td></tr>
+<tr><th id="176">176</th><td><u>#define <dfn class="macro" id="_M/h_errno" data-ref="_M/h_errno">h_errno</dfn>		WSAGetLastError()</u></td></tr>
+<tr><th id="177">177</th><td><u>#define <dfn class="macro" id="_M/HOST_NOT_FOUND" data-ref="_M/HOST_NOT_FOUND">HOST_NOT_FOUND</dfn>	WSAHOST_NOT_FOUND</u></td></tr>
+<tr><th id="178">178</th><td><u>#define <dfn class="macro" id="_M/TRY_AGAIN" data-ref="_M/TRY_AGAIN">TRY_AGAIN</dfn>	WSATRY_AGAIN</u></td></tr>
+<tr><th id="179">179</th><td><u>#define <dfn class="macro" id="_M/NO_RECOVERY" data-ref="_M/NO_RECOVERY">NO_RECOVERY</dfn>	WSANO_RECOVERY</u></td></tr>
+<tr><th id="180">180</th><td><u>#define <dfn class="macro" id="_M/NO_DATA" data-ref="_M/NO_DATA">NO_DATA</dfn>		WSANO_DATA</u></td></tr>
+<tr><th id="181">181</th><td></td></tr>
+<tr><th id="182">182</th><td><u>#define <dfn class="macro" id="_M/WSANO_ADDRESS" data-ref="_M/WSANO_ADDRESS">WSANO_ADDRESS</dfn>	WSANO_DATA</u></td></tr>
+<tr><th id="183">183</th><td><u>#define <dfn class="macro" id="_M/NO_ADDRESS" data-ref="_M/NO_ADDRESS">NO_ADDRESS</dfn>	WSANO_ADDRESS</u></td></tr>
+<tr><th id="184">184</th><td><u>#<span data-ppcond="174">endif</span>	/* __WSA_ERR_MACROS_DEFINED */</u></td></tr>
+<tr><th id="185">185</th><td></td></tr>
+<tr><th id="186">186</th><td><u>#<span data-ppcond="186">if</span> 0</u></td></tr>
+<tr><th id="187">187</th><td><u>#define EWOULDBLOCK	WSAEWOULDBLOCK</u></td></tr>
+<tr><th id="188">188</th><td><u>#define EINPROGRESS	WSAEINPROGRESS</u></td></tr>
+<tr><th id="189">189</th><td><u>#define EALREADY	WSAEALREADY</u></td></tr>
+<tr><th id="190">190</th><td><u>#define ENOTSOCK	WSAENOTSOCK</u></td></tr>
+<tr><th id="191">191</th><td><u>#define EDESTADDRREQ	WSAEDESTADDRREQ</u></td></tr>
+<tr><th id="192">192</th><td><u>#define EMSGSIZE	WSAEMSGSIZE</u></td></tr>
+<tr><th id="193">193</th><td><u>#define EPROTOTYPE	WSAEPROTOTYPE</u></td></tr>
+<tr><th id="194">194</th><td><u>#define ENOPROTOOPT	WSAENOPROTOOPT</u></td></tr>
+<tr><th id="195">195</th><td><u>#define EPROTONOSUPPORT	WSAEPROTONOSUPPORT</u></td></tr>
+<tr><th id="196">196</th><td><u>#define ESOCKTNOSUPPORT	WSAESOCKTNOSUPPORT</u></td></tr>
+<tr><th id="197">197</th><td><u>#define EOPNOTSUPP	WSAEOPNOTSUPP</u></td></tr>
+<tr><th id="198">198</th><td><u>#define EPFNOSUPPORT	WSAEPFNOSUPPORT</u></td></tr>
+<tr><th id="199">199</th><td><u>#define EAFNOSUPPORT	WSAEAFNOSUPPORT</u></td></tr>
+<tr><th id="200">200</th><td><u>#define EADDRINUSE	WSAEADDRINUSE</u></td></tr>
+<tr><th id="201">201</th><td><u>#define EADDRNOTAVAIL	WSAEADDRNOTAVAIL</u></td></tr>
+<tr><th id="202">202</th><td><u>#define ENETDOWN	WSAENETDOWN</u></td></tr>
+<tr><th id="203">203</th><td><u>#define ENETUNREACH	WSAENETUNREACH</u></td></tr>
+<tr><th id="204">204</th><td><u>#define ENETRESET	WSAENETRESET</u></td></tr>
+<tr><th id="205">205</th><td><u>#define ECONNABORTED	WSAECONNABORTED</u></td></tr>
+<tr><th id="206">206</th><td><u>#define ECONNRESET	WSAECONNRESET</u></td></tr>
+<tr><th id="207">207</th><td><u>#define ENOBUFS		WSAENOBUFS</u></td></tr>
+<tr><th id="208">208</th><td><u>#define EISCONN		WSAEISCONN</u></td></tr>
+<tr><th id="209">209</th><td><u>#define ENOTCONN	WSAENOTCONN</u></td></tr>
+<tr><th id="210">210</th><td><u>#define ESHUTDOWN	WSAESHUTDOWN</u></td></tr>
+<tr><th id="211">211</th><td><u>#define ETOOMANYREFS	WSAETOOMANYREFS</u></td></tr>
+<tr><th id="212">212</th><td><u>#define ETIMEDOUT	WSAETIMEDOUT</u></td></tr>
+<tr><th id="213">213</th><td><u>#define ECONNREFUSED	WSAECONNREFUSED</u></td></tr>
+<tr><th id="214">214</th><td><u>#define ELOOP		WSAELOOP</u></td></tr>
+<tr><th id="215">215</th><td><u>#define ENAMETOOLONG	WSAENAMETOOLONG</u></td></tr>
+<tr><th id="216">216</th><td><u>#define EHOSTDOWN	WSAEHOSTDOWN</u></td></tr>
+<tr><th id="217">217</th><td><u>#define EHOSTUNREACH	WSAEHOSTUNREACH</u></td></tr>
+<tr><th id="218">218</th><td><u>#define ENOTEMPTY	WSAENOTEMPTY</u></td></tr>
+<tr><th id="219">219</th><td><u>#define EPROCLIM	WSAEPROCLIM</u></td></tr>
+<tr><th id="220">220</th><td><u>#define EUSERS		WSAEUSERS</u></td></tr>
+<tr><th id="221">221</th><td><u>#define EDQUOT		WSAEDQUOT</u></td></tr>
+<tr><th id="222">222</th><td><u>#define ESTALE		WSAESTALE</u></td></tr>
+<tr><th id="223">223</th><td><u>#define EREMOTE		WSAEREMOTE</u></td></tr>
+<tr><th id="224">224</th><td><u>#<span data-ppcond="186">endif</span>	/* #if 0 */</u></td></tr>
+<tr><th id="225">225</th><td></td></tr>
+<tr><th id="226">226</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

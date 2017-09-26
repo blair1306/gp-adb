@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3985' ll='3993'/>
+<size>56</size>
+<mbr r='tagEMREXTCREATEPEN::emr' o='0' t='EMR'/>
+<mbr r='tagEMREXTCREATEPEN::ihPen' o='64' t='DWORD'/>
+<mbr r='tagEMREXTCREATEPEN::offBmi' o='96' t='DWORD'/>
+<mbr r='tagEMREXTCREATEPEN::cbBmi' o='128' t='DWORD'/>
+<mbr r='tagEMREXTCREATEPEN::offBits' o='160' t='DWORD'/>
+<mbr r='tagEMREXTCREATEPEN::cbBits' o='192' t='DWORD'/>
+<mbr r='tagEMREXTCREATEPEN::elp' o='224' t='EXTLOGPEN'/>

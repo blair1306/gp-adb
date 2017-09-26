@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/line_printer.cpp' l='34' ll='44' type='string ElideMiddle(const string &amp; str, size_t width)'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='110' u='c' c='_ZN11LinePrinter5PrintENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS_8LineTypeE'/>

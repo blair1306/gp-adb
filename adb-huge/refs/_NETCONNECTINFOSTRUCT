@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnetwk.h' l='335' ll='341'/>
+<size>20</size>
+<mbr r='_NETCONNECTINFOSTRUCT::cbStructure' o='0' t='DWORD'/>
+<mbr r='_NETCONNECTINFOSTRUCT::dwFlags' o='32' t='DWORD'/>
+<mbr r='_NETCONNECTINFOSTRUCT::dwSpeed' o='64' t='DWORD'/>
+<mbr r='_NETCONNECTINFOSTRUCT::dwDelay' o='96' t='DWORD'/>
+<mbr r='_NETCONNECTINFOSTRUCT::dwOptDataSize' o='128' t='DWORD'/>

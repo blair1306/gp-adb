@@ -1,0 +1,11 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='74' type='char *'/>
+<offset>384</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='74'>/* Thousands separator.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5919' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5920' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5967' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5968' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6032' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6033' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6115' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6116' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='588' ll='592'/>
+<size>8</size>
+<mbr r='_OUTPUT_DEBUG_STRING_INFO::lpDebugStringData' o='0' t='LPSTR'/>
+<mbr r='_OUTPUT_DEBUG_STRING_INFO::fUnicode' o='32' t='WORD'/>
+<mbr r='_OUTPUT_DEBUG_STRING_INFO::nDebugStringLength' o='48' t='WORD'/>

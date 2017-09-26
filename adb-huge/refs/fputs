@@ -1,0 +1,12 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='686' type='int fputs(const char *restrict __s, FILE *restrict __stream)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='682'>/* Write a string to STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/err/err.c' l='580' u='c' c='print_errors_to_file'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1988' u='c' c='_ZL11install_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2050' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2092' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2112' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2116' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='453' type='int fputs(const char *__restrict _Str, FILE *__restrict _File)'/>

@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='3407' ll='3413'/>
+<size>20</size>
+<mbr r='_ICONINFO::fIcon' o='0' t='WINBOOL'/>
+<mbr r='_ICONINFO::xHotspot' o='32' t='DWORD'/>
+<mbr r='_ICONINFO::yHotspot' o='64' t='DWORD'/>
+<mbr r='_ICONINFO::hbmMask' o='96' t='HBITMAP'/>
+<mbr r='_ICONINFO::hbmColor' o='128' t='HBITMAP'/>

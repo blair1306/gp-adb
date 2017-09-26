@@ -1,0 +1,18 @@
+<dec f='codebrowser/system/core/adb/adb_io.h' l='42' type='bool ReadFdExactly(int fd, void * buf, size_t len)'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='115' u='c' c='_Z10adb_statusiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='44' u='c' c='_Z18ReadProtocolStringiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_'/>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='52' u='c' c='_Z18ReadProtocolStringiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_'/>
+<def f='codebrowser/system/core/adb/adb_io.cpp' l='68' ll='93' macro='1' type='bool ReadFdExactly(int fd, void * buf, size_t len)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='902' u='c' c='_ZL17adb_sideload_hostPKc'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='267' u='c' c='_ZN14SyncConnection8CopyDoneEPKcS1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='289' u='c' c='_ZN14SyncConnection17ReportCopyFailureEPKcS1_RK7syncmsg'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='411' u='c' c='_ZN14SyncConnection10WriteOrDieEPKcS1_PKvm'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='441' u='c' c='_ZL7sync_lsR14SyncConnectionPKcNSt3__18functionIFvjjjS2_EEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='450' u='c' c='_ZL7sync_lsR14SyncConnectionPKcNSt3__18functionIFvjjjS2_EEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='460' u='c' c='_ZL16sync_finish_statR14SyncConnectionPjS1_S1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='537' u='c' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='560' u='c' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/shell_service_protocol.cpp' l='35' u='c' c='_ZN13ShellProtocol4ReadEv'/>
+<use f='codebrowser/system/core/adb/shell_service_protocol.cpp' l='46' u='c' c='_ZN13ShellProtocol4ReadEv'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='53' u='c' c='_ZL11remote_readP7apacketP10atransport'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='63' u='c' c='_ZL11remote_readP7apacketP10atransport'/>

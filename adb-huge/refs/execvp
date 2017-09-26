@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='579' type='int execvp(const char * __file, char *const * __argv)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='577'>/* Execute FILE, searching in the `PATH&apos; environment variable if it contains
+   no slashes, with arguments ARGV and environment from `environ&apos;.  */</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1013' u='c' c='_ZL3pppiPPKc'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/process.h' l='167' type='int execvp(const char * _Filename, char *const * _ArgList)'/>

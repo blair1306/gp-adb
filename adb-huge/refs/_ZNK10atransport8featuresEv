@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/transport.h' l='97' ll='99' type='const FeatureSet &amp; atransport::features() const'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1064' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>

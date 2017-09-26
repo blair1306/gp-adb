@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3622' ll='3628'/>
+<size>20</size>
+<mbr r='_JOBOBJECT_SECURITY_LIMIT_INFORMATION::SecurityLimitFlags' o='0' t='DWORD'/>
+<mbr r='_JOBOBJECT_SECURITY_LIMIT_INFORMATION::JobToken' o='32' t='HANDLE'/>
+<mbr r='_JOBOBJECT_SECURITY_LIMIT_INFORMATION::SidsToDisable' o='64' t='PTOKEN_GROUPS'/>
+<mbr r='_JOBOBJECT_SECURITY_LIMIT_INFORMATION::PrivilegesToDelete' o='96' t='PTOKEN_PRIVILEGES'/>
+<mbr r='_JOBOBJECT_SECURITY_LIMIT_INFORMATION::RestrictedSids' o='128' t='PTOKEN_GROUPS'/>

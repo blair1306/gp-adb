@@ -1,0 +1,5 @@
+<dec f='codebrowser/system/core/include/log/event_tag_map.h' l='44' type='const char * android_lookupEventTag(const EventTagMap * map, int tag)'/>
+<def f='codebrowser/system/core/liblog/event_tag_map.c' l='128' ll='154' macro='1' type='const char * android_lookupEventTag(const EventTagMap * map, int tag)'/>
+<doc f='codebrowser/system/core/include/log/event_tag_map.h' l='41'>/*
+ * Look up a tag by index.  Returns the tag string, or NULL if not found.
+ */</doc>

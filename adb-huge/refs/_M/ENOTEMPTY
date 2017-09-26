@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/asm-generic/errno.h' l='10'/>
+<use f='codebrowser/external/libcxx/include/cerrno' l='285' u='a'/>
+<use f='codebrowser/external/libcxx/include/system_error' l='268' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/errno.h' l='59'/>

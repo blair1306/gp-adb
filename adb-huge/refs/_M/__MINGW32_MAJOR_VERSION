@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_mac.h' l='31'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_mac.h' l='27'>/* mingw.org&apos;s version macros: these make gcc to define
+   MINGW32_SUPPORTS_MT_EH and to use the _CRT_MT global
+   and the __mingwthr_key_dtor() function from the MinGW
+   CRT in its private gthr-win32.h header. */</doc>

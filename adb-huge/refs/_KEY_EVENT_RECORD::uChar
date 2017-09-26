@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='35' type='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h:32:5)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1431' u='m' c='_ZL27_get_char_ignoring_modifierPcPK17_KEY_EVENT_RECORDmt'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1464' u='m' c='_ZL27_get_char_ignoring_modifierPcPK17_KEY_EVENT_RECORDmt'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1567' u='m' c='_ZL34_normalize_altgr_control_key_statePK17_KEY_EVENT_RECORD'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1766' u='m' c='_ZL13_console_readPvS_j'/>
+<offset>96</offset>

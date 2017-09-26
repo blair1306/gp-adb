@@ -1,0 +1,12 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='175' type='char * strdup(const char * __s)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='174'>/* Duplicate S, returning an identical malloc&apos;d string.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/mem.c' l='150' u='c' c='OPENSSL_strdup'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='234' u='c' c='_ZL14qual_overwritePPcRKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='203' u='c' c='_Z16install_listenerRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPKcP10atransportiPS5_'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='226' u='c' c='_Z16install_listenerRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPKcP10atransportiPS5_'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='231' u='c' c='_Z16install_listenerRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPKcP10atransportiPS5_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='544' u='c' c='_Z22host_service_to_socketPKcS0_'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='94' type='char * strdup(const char * _Src)'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='969' u='c' c='_Z25register_socket_transportiPKcii'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='1017' u='c' c='_Z22register_usb_transportP10usb_handlePKcS2_j'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='1021' u='c' c='_Z22register_usb_transportP10usb_handlePKcS2_j'/>

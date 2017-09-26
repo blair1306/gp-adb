@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/wctype.h' l='142' type='int iswpunct(wint_t __wc)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/wctype.h' l='139'>/* Test for any printing wide character that is one of a
+   locale-specific et of wide characters for which neither `iswspace&apos;
+   nor `iswalnum&apos; is true.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ctype.h' l='155' type='int iswpunct(wint_t _C)'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='585' type='int setenv(const char * __name, const char * __value, int __replace)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='583'>/* Set NAME to VALUE in the environment.
+   If REPLACE is nonzero, overwrite an existing value.  */</doc>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/wctype.h' l='172' type='wctype_t wctype(const char * __property)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/wctype.h' l='170'>/* Construct value that describes a class of wide characters identified
+   by the string argument PROPERTY.  */</doc>

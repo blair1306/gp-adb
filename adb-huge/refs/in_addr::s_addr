@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/in.h' l='144' type='in_addr_t'/>
+<offset>0</offset>
+<use f='codebrowser/system/core/libcutils/socket_loopback_client_unix.c' l='44' u='w' c='socket_loopback_client'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='43' u='w' c='socket_loopback_server'/>

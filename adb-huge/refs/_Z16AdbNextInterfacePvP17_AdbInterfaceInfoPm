@@ -1,0 +1,2 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='231' type='bool AdbNextInterface(ADBAPIHANDLE adb_handle, AdbInterfaceInfo * info, unsigned long * size)'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='596' u='c' c='_Z12find_devicesv'/>

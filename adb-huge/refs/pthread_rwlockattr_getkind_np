@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='937' type='int pthread_rwlockattr_getkind_np(const pthread_rwlockattr_t *restrict __attr, int *restrict __pref)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='936'>/* Return current setting of reader/writer preference.  */</doc>

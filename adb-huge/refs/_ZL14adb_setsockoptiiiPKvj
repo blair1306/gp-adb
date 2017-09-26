@@ -1,0 +1,9 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='774' ll='777' type='int adb_setsockopt(int fd, int level, int optname, const void * optval, socklen_t optlen)'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='840' u='c' c='_ZL17disable_tcp_naglei'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='44' u='c' c='_ZL22ss_listener_event_funcijPv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='809' u='c' c='_ZL19adb_download_bufferPKcS0_PKvjb'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='898' u='c' c='_ZL17adb_sideload_hostPKc'/>
+<use f='codebrowser/system/core/adb/sysdeps_unix.cpp' l='21' u='c' c='_Z17set_tcp_keepaliveii'/>
+<use f='codebrowser/system/core/adb/sysdeps_unix.cpp' l='31' u='c' c='_Z17set_tcp_keepaliveii'/>
+<use f='codebrowser/system/core/adb/sysdeps_unix.cpp' l='42' u='c' c='_Z17set_tcp_keepaliveii'/>
+<use f='codebrowser/system/core/adb/sysdeps_unix.cpp' l='52' u='c' c='_Z17set_tcp_keepaliveii'/>

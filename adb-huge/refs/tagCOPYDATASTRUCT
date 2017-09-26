@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='986' ll='990'/>
+<size>12</size>
+<mbr r='tagCOPYDATASTRUCT::dwData' o='0' t='ULONG_PTR'/>
+<mbr r='tagCOPYDATASTRUCT::cbData' o='32' t='DWORD'/>
+<mbr r='tagCOPYDATASTRUCT::lpData' o='64' t='PVOID'/>

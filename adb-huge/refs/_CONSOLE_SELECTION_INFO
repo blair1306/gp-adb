@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='149' ll='153'/>
+<size>16</size>
+<mbr r='_CONSOLE_SELECTION_INFO::dwFlags' o='0' t='DWORD'/>
+<mbr r='_CONSOLE_SELECTION_INFO::dwSelectionAnchor' o='32' t='COORD'/>
+<mbr r='_CONSOLE_SELECTION_INFO::srSelection' o='64' t='SMALL_RECT'/>

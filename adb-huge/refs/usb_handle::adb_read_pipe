@@ -1,0 +1,9 @@
+<dec f='codebrowser/system/core/adb/usb_windows.cpp' l='54' type='ADBAPIHANDLE'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='291' u='w' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='295' u='r' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='429' u='r' c='_Z8usb_readP10usb_handlePvi'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='475' u='r' c='_Z18usb_cleanup_handleP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='476' u='r' c='_Z18usb_cleanup_handleP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='482' u='w' c='_Z18usb_cleanup_handleP10usb_handle'/>
+<offset>96</offset>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='53'>/// Handle to USB read pipe (endpoint)</doc>

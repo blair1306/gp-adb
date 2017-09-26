@@ -1,0 +1,12 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='367' type='ssize_t write(int __fd, const void * __buf, size_t __n)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='363'>/* Write N bytes of BUF to FD.  Return the number written, or -1.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/fd.c' l='168' u='c' c='fd_write'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='601' u='c' c='_ZL9adb_writeiPKvm'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='329' type='int write(int _Filehandle, const void * _Buf, unsigned int _MaxCharCount)'/>
+<use f='codebrowser/system/core/base/file.cpp' l='65' u='c' c='_ZN7android4base15WriteStringToFdERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEi'/>
+<use f='codebrowser/system/core/base/file.cpp' l='140' u='c' c='_ZN7android4base10WriteFullyEiPKvm'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='128' u='c' c='fs_write_atomic_int'/>
+<use f='codebrowser/system/core/include/cutils/trace.h' l='192' u='c' c='atrace_end'/>

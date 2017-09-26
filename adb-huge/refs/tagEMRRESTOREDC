@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3591' ll='3594'/>
+<size>12</size>
+<mbr r='tagEMRRESTOREDC::emr' o='0' t='EMR'/>
+<mbr r='tagEMRRESTOREDC::iRelative' o='64' t='LONG'/>

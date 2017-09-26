@@ -1,0 +1,6 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='189' type='wchar_t [1]'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='598' u='r' c='_Z12find_devicesv'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='600' u='r' c='_Z12find_devicesv'/>
+<offset>160</offset>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='187'>/// Device name for the interface (see SP_DEVICE_INTERFACE_DETAIL_DATA
+  /// for details)</doc>

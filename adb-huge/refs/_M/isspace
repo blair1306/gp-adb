@@ -1,0 +1,17 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='207'/>
+<use f='codebrowser/external/boringssl/src/crypto/conf/conf.c' l='750' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/conf/conf.c' l='764' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x_name.c' l='443' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x_name.c' l='452' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x_name.c' l='470' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x_name.c' l='483' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_conf.c' l='233' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_conf.c' l='256' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='360' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='363' u='c'/>
+<use f='codebrowser/system/core/libcutils/config_utils.c' l='140' u='c'/>
+<use f='codebrowser/system/core/libcutils/config_utils.c' l='193' u='c'/>
+<use f='codebrowser/system/core/libcutils/config_utils.c' l='200' u='c'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='211' u='c'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='215' u='c'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='253' u='c'/>

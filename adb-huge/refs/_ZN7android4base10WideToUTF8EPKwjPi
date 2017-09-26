@@ -1,0 +1,1 @@
+<def f='codebrowser/system/core/base/utf8.cpp' l='42' ll='83' type='bool android::base::WideToUTF8(const wchar_t * utf16, const size_t size, int * utf8)'/>

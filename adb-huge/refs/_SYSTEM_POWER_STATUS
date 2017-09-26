@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='2579' ll='2586'/>
+<size>12</size>
+<mbr r='_SYSTEM_POWER_STATUS::ACLineStatus' o='0' t='BYTE'/>
+<mbr r='_SYSTEM_POWER_STATUS::BatteryFlag' o='8' t='BYTE'/>
+<mbr r='_SYSTEM_POWER_STATUS::BatteryLifePercent' o='16' t='BYTE'/>
+<mbr r='_SYSTEM_POWER_STATUS::Reserved1' o='24' t='BYTE'/>
+<mbr r='_SYSTEM_POWER_STATUS::BatteryLifeTime' o='32' t='DWORD'/>
+<mbr r='_SYSTEM_POWER_STATUS::BatteryFullLifeTime' o='64' t='DWORD'/>

@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6559' ll='6565'/>
+<size>8</size>
+<mbr r='_TAPE_SET_DRIVE_PARAMETERS::ECC' o='0' t='BOOLEAN'/>
+<mbr r='_TAPE_SET_DRIVE_PARAMETERS::Compression' o='8' t='BOOLEAN'/>
+<mbr r='_TAPE_SET_DRIVE_PARAMETERS::DataPadding' o='16' t='BOOLEAN'/>
+<mbr r='_TAPE_SET_DRIVE_PARAMETERS::ReportSetmarks' o='24' t='BOOLEAN'/>
+<mbr r='_TAPE_SET_DRIVE_PARAMETERS::EOTWarningZoneSize' o='32' t='DWORD'/>

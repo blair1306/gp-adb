@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4248' ll='4256'/>
+<size>76</size>
+<mbr r='_PROCESSOR_POWER_POLICY::Revision' o='0' t='DWORD'/>
+<mbr r='_PROCESSOR_POWER_POLICY::DynamicThrottle' o='32' t='BYTE'/>
+<mbr r='_PROCESSOR_POWER_POLICY::Spare' o='40' t='BYTE [3]'/>
+<mbr r='_PROCESSOR_POWER_POLICY::DisableCStates' o='64' t='DWORD'/>
+<mbr r='_PROCESSOR_POWER_POLICY::Reserved' o='65' t='DWORD'/>
+<mbr r='_PROCESSOR_POWER_POLICY::PolicyCount' o='96' t='DWORD'/>
+<mbr r='_PROCESSOR_POWER_POLICY::Policy' o='128' t='PROCESSOR_POWER_POLICY_INFO [3]'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='646' ll='648' type='int network_loopback_client(int port, int type, std::string * error)'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='153' u='c' c='_Z12_adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/console.cpp' l='76' u='c' c='_ZL18connect_to_consolePKc'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='279' u='c' c='_Z13service_to_fdPKcPK10atransport'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='107' u='c' c='_Z29local_connect_arbitrary_portsiiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>

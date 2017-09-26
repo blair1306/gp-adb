@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3709' ll='3714'/>
+<size>24</size>
+<mbr r='tagEMREXTFLOODFILL::emr' o='0' t='EMR'/>
+<mbr r='tagEMREXTFLOODFILL::ptlStart' o='64' t='POINTL'/>
+<mbr r='tagEMREXTFLOODFILL::crColor' o='128' t='COLORREF'/>
+<mbr r='tagEMREXTFLOODFILL::iMode' o='160' t='DWORD'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5070' ll='5075'/>
+<size>20</size>
+<mbr r='tagCURSORINFO::cbSize' o='0' t='DWORD'/>
+<mbr r='tagCURSORINFO::flags' o='32' t='DWORD'/>
+<mbr r='tagCURSORINFO::hCursor' o='64' t='HCURSOR'/>
+<mbr r='tagCURSORINFO::ptScreenPos' o='96' t='POINT'/>

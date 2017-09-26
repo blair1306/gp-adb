@@ -1,0 +1,27 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='1718' ll='1765'/>
+<size>352</size>
+<mbr r='_devicemodeW::dmDeviceName' o='0' t='WCHAR [32]'/>
+<mbr r='_devicemodeW::dmSpecVersion' o='1024' t='WORD'/>
+<mbr r='_devicemodeW::dmDriverVersion' o='1040' t='WORD'/>
+<mbr r='_devicemodeW::dmSize' o='1056' t='WORD'/>
+<mbr r='_devicemodeW::dmDriverExtra' o='1072' t='WORD'/>
+<mbr r='_devicemodeW::dmFields' o='1088' t='DWORD'/>
+<mbr r='_devicemodeW::dmColor' o='1248' t='short'/>
+<mbr r='_devicemodeW::dmDuplex' o='1264' t='short'/>
+<mbr r='_devicemodeW::dmYResolution' o='1280' t='short'/>
+<mbr r='_devicemodeW::dmTTOption' o='1296' t='short'/>
+<mbr r='_devicemodeW::dmCollate' o='1312' t='short'/>
+<mbr r='_devicemodeW::dmFormName' o='1344' t='WCHAR [32]'/>
+<mbr r='_devicemodeW::dmLogPixels' o='2368' t='WORD'/>
+<mbr r='_devicemodeW::dmBitsPerPel' o='2400' t='DWORD'/>
+<mbr r='_devicemodeW::dmPelsWidth' o='2432' t='DWORD'/>
+<mbr r='_devicemodeW::dmPelsHeight' o='2464' t='DWORD'/>
+<mbr r='_devicemodeW::dmDisplayFrequency' o='2528' t='DWORD'/>
+<mbr r='_devicemodeW::dmICMMethod' o='2560' t='DWORD'/>
+<mbr r='_devicemodeW::dmICMIntent' o='2592' t='DWORD'/>
+<mbr r='_devicemodeW::dmMediaType' o='2624' t='DWORD'/>
+<mbr r='_devicemodeW::dmDitherType' o='2656' t='DWORD'/>
+<mbr r='_devicemodeW::dmReserved1' o='2688' t='DWORD'/>
+<mbr r='_devicemodeW::dmReserved2' o='2720' t='DWORD'/>
+<mbr r='_devicemodeW::dmPanningWidth' o='2752' t='DWORD'/>
+<mbr r='_devicemodeW::dmPanningHeight' o='2784' t='DWORD'/>

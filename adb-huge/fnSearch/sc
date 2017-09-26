@@ -1,0 +1,9 @@
+_ZN8ScopedFd7ReleaseEv|ScopedFd::Release
+_ZN8ScopedFd5ResetEi|ScopedFd::Reset
+_ZN8ScopedFdC1Ev|ScopedFd::ScopedFd
+_ZNK8ScopedFd2fdEv|ScopedFd::fd
+_ZNK8ScopedFd5validEv|ScopedFd::valid
+_ZN8ScopedFdD1Ev|ScopedFd::~ScopedFd
+_Z5scanfPKcz|scanf
+_ZN7android4base17ScopedLogSeverityC1ENS0_11LogSeverityE|android::base::ScopedLogSeverity::ScopedLogSeverity
+_ZN7android4base17ScopedLogSeverityD1Ev|android::base::ScopedLogSeverity::~ScopedLogSeverity

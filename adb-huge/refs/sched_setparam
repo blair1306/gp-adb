@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/sched.h' l='51' type='int sched_setparam(__pid_t __pid, const struct sched_param * __param)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/sched.h' l='50'>/* Set scheduling parameters for a process.  */</doc>

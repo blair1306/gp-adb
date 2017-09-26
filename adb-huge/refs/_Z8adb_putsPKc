@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2646' ll='2651' type='int adb_puts(const char * buf)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2645'>// Version of puts() that takes UTF-8 and can write Unicode to a Windows console.</doc>

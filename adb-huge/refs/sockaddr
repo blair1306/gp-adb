@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='180' ll='184'/>
+<size>16</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='179'>/* Structure describing a generic socket address.  */</doc>
+<mbr r='sockaddr::sa_family' o='0' t='sa_family_t'/>
+<mbr r='sockaddr::sa_data' o='16' t='char [14]'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h' l='70' ll='73'/>
+<size>16</size>
+<mbr r='sockaddr::sa_family' o='0' t='u_short'/>
+<mbr r='sockaddr::sa_data' o='16' t='char [14]'/>

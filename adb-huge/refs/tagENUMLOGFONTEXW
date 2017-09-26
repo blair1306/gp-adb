@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='1106' ll='1111'/>
+<size>668</size>
+<mbr r='tagENUMLOGFONTEXW::elfLogFont' o='0' t='LOGFONTW'/>
+<mbr r='tagENUMLOGFONTEXW::elfFullName' o='1248' t='WCHAR [64]'/>
+<mbr r='tagENUMLOGFONTEXW::elfStyle' o='3296' t='WCHAR [32]'/>
+<mbr r='tagENUMLOGFONTEXW::elfScript' o='4320' t='WCHAR [32]'/>

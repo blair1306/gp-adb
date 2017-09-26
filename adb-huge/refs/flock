@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/fcntl.h' l='168' ll='180'/>
+<size>32</size>
+<mbr r='flock::l_type' o='0' t='short'/>
+<mbr r='flock::l_whence' o='16' t='short'/>
+<mbr r='flock::l_start' o='64' t='__off_t'/>
+<mbr r='flock::l_len' o='128' t='__off_t'/>
+<mbr r='flock::l_pid' o='192' t='__pid_t'/>

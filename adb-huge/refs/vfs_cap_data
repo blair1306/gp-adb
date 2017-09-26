@@ -1,0 +1,4 @@
+<def f='codebrowser/system/core/include/private/android_filesystem_capability.h' l='62' ll='68'/>
+<size>20</size>
+<mbr r='vfs_cap_data::magic_etc' o='0' t='uint32_t'/>
+<mbr r='vfs_cap_data::data' o='32' t='struct (anonymous struct at /home/jon/workspace/android/system/core/include/private/android_filesystem_capability.h:64:2) [2]'/>

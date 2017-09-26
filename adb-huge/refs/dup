@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='532' type='int dup(int __fd)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='531'>/* Duplicate FD, returning a new file descriptor on the same file.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/rand/urandom.c' l='102' u='c' c='RAND_set_urandom_fd'/>
+<use f='codebrowser/external/boringssl/src/crypto/rand/urandom.c' l='119' u='c' c='RAND_enable_fork_unsafe_buffering'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='315' type='int dup(int _FileHandle)'/>

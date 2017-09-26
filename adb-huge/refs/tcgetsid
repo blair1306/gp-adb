@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/termios.h' l='100' type='__pid_t tcgetsid(int __fd)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/termios.h' l='99'>/* Get process group ID for session leader for controlling terminal FD.  */</doc>

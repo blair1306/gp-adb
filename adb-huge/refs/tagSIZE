@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windef.h' l='259' ll='262'/>
+<size>8</size>
+<mbr r='tagSIZE::cx' o='0' t='LONG'/>
+<mbr r='tagSIZE::cy' o='32' t='LONG'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5408' ll='5412'/>
+<size>8</size>
+<mbr r='_IMAGE_BOUND_IMPORT_DESCRIPTOR::TimeDateStamp' o='0' t='DWORD'/>
+<mbr r='_IMAGE_BOUND_IMPORT_DESCRIPTOR::OffsetModuleName' o='32' t='WORD'/>
+<mbr r='_IMAGE_BOUND_IMPORT_DESCRIPTOR::NumberOfModuleForwarderRefs' o='48' t='WORD'/>

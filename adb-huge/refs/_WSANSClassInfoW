@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='774' ll='780'/>
+<size>20</size>
+<mbr r='_WSANSClassInfoW::lpszName' o='0' t='LPWSTR'/>
+<mbr r='_WSANSClassInfoW::dwNameSpace' o='32' t='DWORD'/>
+<mbr r='_WSANSClassInfoW::dwValueType' o='64' t='DWORD'/>
+<mbr r='_WSANSClassInfoW::dwValueSize' o='96' t='DWORD'/>
+<mbr r='_WSANSClassInfoW::lpValue' o='128' t='LPVOID'/>

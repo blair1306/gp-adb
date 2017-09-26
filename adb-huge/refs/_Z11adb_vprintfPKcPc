@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2594' ll='2596' type='int adb_vprintf(const char * format, va_list ap)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2593'>// Version of vprintf() that takes UTF-8 and can write Unicode to a Windows console.</doc>

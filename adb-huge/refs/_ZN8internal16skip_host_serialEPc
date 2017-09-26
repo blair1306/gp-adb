@@ -1,0 +1,10 @@
+<dec f='codebrowser/system/core/adb/socket.h' l='121' type='char * internal::skip_host_serial(char * service)'/>
+<def f='codebrowser/system/core/adb/sockets.cpp' l='637' ll='670' type='char * internal::skip_host_serial(char * service)'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='732' u='c' c='_ZL20smart_socket_enqueueP7asocketP7apacket'/>
+<doc f='codebrowser/system/core/adb/sockets.cpp' l='630'>// Returns the position in |service| following the target serial parameter. Serial format can be
+// any of:
+//   * [tcp:|udp:]&lt;serial&gt;[:&lt;port&gt;]:&lt;command&gt;
+//   * &lt;prefix&gt;:&lt;serial&gt;:&lt;command&gt;
+// Where &lt;port&gt; must be a base-10 number and &lt;prefix&gt; may be any of {usb,product,model,device}.
+//
+// The returned pointer will point to the &apos;:&apos; just before &lt;command&gt;, or nullptr if not found.</doc>

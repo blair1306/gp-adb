@@ -1,0 +1,28 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='567' type='char * getenv(const char * __name)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='566'>/* Return the value of envariable NAME, or NULL if it doesn&apos;t exist.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/cpu-intel.c' l='239' u='c' c='OPENSSL_cpuid_setup'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/by_dir.c' l='134' u='c' c='dir_ctrl'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/by_file.c' l='101' u='c' c='by_file_ctrl'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x509_vfy.c' l='544' u='c' c='check_chain_extensions'/>
+<use f='codebrowser/system/core/include/cutils/sockets.h' l='63' u='c' c='_Z26android_get_control_socketPKc'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='124' u='c' c='_ZL13get_user_infoPcm'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='125' u='c' c='_ZL13get_user_infoPcm'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='139' u='c' c='_ZL13get_user_infoPcm'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='140' u='c' c='_ZL13get_user_infoPcm'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='321' u='c' c='_ZL20get_user_keyfilepathPcm'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='368' u='c' c='_ZL15get_vendor_keysP8listnode'/>
+<use f='codebrowser/system/core/adb/adb_trace.cpp' l='83' u='c' c='_Z26get_trace_setting_from_envv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='599' u='c' c='_ZL18ShellServiceStringbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1169' u='c' c='_ZL6logcat13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1312' u='c' c='_ZL21find_product_out_pathRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1420' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1427' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1534' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='48' u='c' c='_ZN11LinePrinterC1Ev'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='359' type='char * getenv(const char * _VarName)'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='725' u='c' c='_Z21acquire_one_transport13TransportTypePKcPbPNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='101' u='c' c='_Z29local_connect_arbitrary_portsiiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/base/logging.cpp' l='254' u='c' c='_ZN7android4base11InitLoggingEPPc'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='202' u='c' c='configureInitialState'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='279' u='c' c='configureInitialState'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='668' u='c' c='setRedirects'/>

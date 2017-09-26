@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3641' ll='3645'/>
+<size>16</size>
+<mbr r='tagEMRGDICOMMENT::emr' o='0' t='EMR'/>
+<mbr r='tagEMRGDICOMMENT::cbData' o='64' t='DWORD'/>
+<mbr r='tagEMRGDICOMMENT::Data' o='96' t='BYTE [1]'/>

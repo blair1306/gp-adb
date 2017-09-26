@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/imm.h' l='124' ll='130'/>
+<size>36</size>
+<mbr r='tagIMECHARPOSITION::dwSize' o='0' t='DWORD'/>
+<mbr r='tagIMECHARPOSITION::dwCharPos' o='32' t='DWORD'/>
+<mbr r='tagIMECHARPOSITION::pt' o='64' t='POINT'/>
+<mbr r='tagIMECHARPOSITION::cLineHeight' o='128' t='UINT'/>
+<mbr r='tagIMECHARPOSITION::rcDocument' o='160' t='RECT'/>

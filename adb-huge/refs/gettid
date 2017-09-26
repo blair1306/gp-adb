@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/include/cutils/threads.h' l='40' type='pid_t gettid()'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='833' u='c' c='_ZL13adb_thread_idv'/>
+<doc f='codebrowser/system/core/include/cutils/threads.h' l='38'>/***********************************************************************/</doc>
+<def f='codebrowser/system/core/libcutils/threads.c' l='36' ll='44' type='pid_t gettid()'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/liblog/log_portability.h' l='40'/>
+<doc f='codebrowser/system/core/liblog/log_portability.h' l='39'>/* Declare this library function visible but private */</doc>

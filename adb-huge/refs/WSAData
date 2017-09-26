@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h' l='13' ll='29'/>
+<size>400</size>
+<mbr r='WSAData::wVersion' o='0' t='WORD'/>
+<mbr r='WSAData::wHighVersion' o='16' t='WORD'/>
+<mbr r='WSAData::szDescription' o='32' t='char [257]'/>
+<mbr r='WSAData::szSystemStatus' o='2088' t='char [129]'/>
+<mbr r='WSAData::iMaxSockets' o='3120' t='unsigned short'/>
+<mbr r='WSAData::iMaxUdpDg' o='3136' t='unsigned short'/>
+<mbr r='WSAData::lpVendorInfo' o='3168' t='char *'/>

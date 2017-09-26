@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='121' type='wchar_t * wcscpy(wchar_t *__restrict _Dest, const wchar_t *__restrict _Source)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stralign.h' l='136' u='c' c='ua_wcscpy'/>

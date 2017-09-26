@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='612' ll='617'/>
+<size>16</size>
+<mbr r='tagHARDWAREHOOKSTRUCT::hwnd' o='0' t='HWND'/>
+<mbr r='tagHARDWAREHOOKSTRUCT::message' o='32' t='UINT'/>
+<mbr r='tagHARDWAREHOOKSTRUCT::wParam' o='64' t='WPARAM'/>
+<mbr r='tagHARDWAREHOOKSTRUCT::lParam' o='96' t='LPARAM'/>

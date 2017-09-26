@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6691' ll='6695'/>
+<size>12</size>
+<mbr r='_ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION::ulFlags' o='0' t='ULONG'/>
+<mbr r='_ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION::RunLevel' o='32' t='ACTCTX_REQUESTED_RUN_LEVEL_INFORMATION'/>
+<mbr r='_ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION::UiAccess' o='64' t='ULONG'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='4057' ll='4062'/>
+<size>20</size>
+<mbr r='tagEMREXTESCAPE::emr' o='0' t='EMR'/>
+<mbr r='tagEMREXTESCAPE::iEscape' o='64' t='INT'/>
+<mbr r='tagEMREXTESCAPE::cbEscData' o='96' t='INT'/>
+<mbr r='tagEMREXTESCAPE::EscData' o='128' t='BYTE [1]'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/system/core/adb/transport.h' l='37' type='bool CanUseFeature(const FeatureSet &amp; feature_set, const std::string &amp; feature)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='705' u='c' c='_ZL9adb_shelliPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='754' u='c' c='_ZL9adb_shelliPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='763' u='c' c='_ZL9adb_shelliPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1136' u='c' c='_ZL18send_shell_command13TransportTypePKcRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEb'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1779' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1797' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1903' u='c' c='_Z15adb_commandlineiPPKc'/>
+<def f='codebrowser/system/core/adb/transport.cpp' l='809' ll='812' macro='1' type='bool CanUseFeature(const FeatureSet &amp; feature_set, const std::string &amp; feature)'/>

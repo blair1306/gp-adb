@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='27' ll='37'/>
+<size>20</size>
+<mbr r='_KEY_EVENT_RECORD::bKeyDown' o='0' t='WINBOOL'/>
+<mbr r='_KEY_EVENT_RECORD::wRepeatCount' o='32' t='WORD'/>
+<mbr r='_KEY_EVENT_RECORD::wVirtualKeyCode' o='48' t='WORD'/>
+<mbr r='_KEY_EVENT_RECORD::wVirtualScanCode' o='64' t='WORD'/>
+<mbr r='_KEY_EVENT_RECORD::uChar' o='96' t='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h:32:5)'/>
+<mbr r='_KEY_EVENT_RECORD::dwControlKeyState' o='128' t='DWORD'/>

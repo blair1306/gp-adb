@@ -1,0 +1,7 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/in.h' l='227' macro='1' type='sa_family_t'/>
+<offset>0</offset>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h' l='76' type='short'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='906' u='w' c='_ZL15_network_serveriimPi'/>
+<offset>0</offset>
+<use f='codebrowser/system/core/libcutils/socket_loopback_client_unix.c' l='42' u='w' c='socket_loopback_client'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='41' u='w' c='socket_loopback_server'/>

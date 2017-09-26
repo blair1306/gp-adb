@@ -1,0 +1,7 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/asm-generic/errno.h' l='88'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/fd.c' l='96' u='a'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/fd.c' l='97' u='c'/>
+<use f='codebrowser/external/libcxx/include/cerrno' l='187' u='a'/>
+<use f='codebrowser/external/libcxx/include/system_error' l='319' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/errno.h' l='158'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='78' u='c'/>

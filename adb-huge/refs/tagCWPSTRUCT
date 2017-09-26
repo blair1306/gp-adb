@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='548' ll='553'/>
+<size>16</size>
+<mbr r='tagCWPSTRUCT::lParam' o='0' t='LPARAM'/>
+<mbr r='tagCWPSTRUCT::wParam' o='32' t='WPARAM'/>
+<mbr r='tagCWPSTRUCT::message' o='64' t='UINT'/>
+<mbr r='tagCWPSTRUCT::hwnd' o='96' t='HWND'/>

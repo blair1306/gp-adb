@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/math.h' l='254'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='434' u='a'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='441' u='c'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='444' u='w'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/math.h' l='253'>/* Return nonzero value if X is neither zero, subnormal, Inf, nor NaN.  */</doc>

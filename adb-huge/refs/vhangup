@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='929' type='int vhangup()'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='926'>/* Revoke access permissions to all processes currently communicating
+   with the control terminal, and then send a SIGHUP signal to the process
+   group of the control terminal.  */</doc>

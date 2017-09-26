@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3752' ll='3758'/>
+<size>12</size>
+<mbr r='_CACHE_DESCRIPTOR::Level' o='0' t='BYTE'/>
+<mbr r='_CACHE_DESCRIPTOR::Associativity' o='8' t='BYTE'/>
+<mbr r='_CACHE_DESCRIPTOR::LineSize' o='16' t='WORD'/>
+<mbr r='_CACHE_DESCRIPTOR::Size' o='32' t='DWORD'/>
+<mbr r='_CACHE_DESCRIPTOR::Type' o='64' t='PROCESSOR_CACHE_TYPE'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='118' type='int isprint(int )'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='207' u='c' c='_Z8dump_hexPKvm'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ctype.h' l='118' type='int isprint(int _C)'/>

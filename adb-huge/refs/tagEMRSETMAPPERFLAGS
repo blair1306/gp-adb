@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3602' ll='3605'/>
+<size>12</size>
+<mbr r='tagEMRSETMAPPERFLAGS::emr' o='0' t='EMR'/>
+<mbr r='tagEMRSETMAPPERFLAGS::dwFlags' o='64' t='DWORD'/>

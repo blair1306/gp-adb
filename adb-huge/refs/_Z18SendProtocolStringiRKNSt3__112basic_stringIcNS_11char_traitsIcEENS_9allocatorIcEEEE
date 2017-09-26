@@ -1,0 +1,8 @@
+<dec f='codebrowser/system/core/adb/adb_io.h' l='31' type='bool SendProtocolString(int fd, const std::string &amp; s)'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='903' u='c' c='_Z22handle_forward_requestPKc13TransportTypeS0_i'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='996' u='c' c='_ZL8SendOkayiRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='97' u='c' c='_ZL23switch_socket_transportiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='165' u='c' c='_Z12_adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<def f='codebrowser/system/core/adb/adb_io.cpp' l='30' ll='40' macro='1' type='bool SendProtocolString(int fd, const std::string &amp; s)'/>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='65' u='c' c='_Z8SendFailiRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='496' u='c' c='_ZL15connect_serviceiPv'/>

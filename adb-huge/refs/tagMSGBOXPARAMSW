@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='3033' ll='3044'/>
+<size>40</size>
+<mbr r='tagMSGBOXPARAMSW::cbSize' o='0' t='UINT'/>
+<mbr r='tagMSGBOXPARAMSW::hwndOwner' o='32' t='HWND'/>
+<mbr r='tagMSGBOXPARAMSW::hInstance' o='64' t='HINSTANCE'/>
+<mbr r='tagMSGBOXPARAMSW::lpszText' o='96' t='LPCWSTR'/>
+<mbr r='tagMSGBOXPARAMSW::lpszCaption' o='128' t='LPCWSTR'/>
+<mbr r='tagMSGBOXPARAMSW::dwStyle' o='160' t='DWORD'/>
+<mbr r='tagMSGBOXPARAMSW::lpszIcon' o='192' t='LPCWSTR'/>
+<mbr r='tagMSGBOXPARAMSW::dwContextHelpId' o='224' t='DWORD_PTR'/>
+<mbr r='tagMSGBOXPARAMSW::lpfnMsgBoxCallback' o='256' t='MSGBOXCALLBACK'/>
+<mbr r='tagMSGBOXPARAMSW::dwLanguageId' o='288' t='DWORD'/>

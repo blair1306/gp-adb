@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/math.h' l='222'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='338' u='a'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='345' u='c'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='348' u='w'/>

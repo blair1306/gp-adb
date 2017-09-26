@@ -1,0 +1,10 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3580' ll='3589'/>
+<size>48</size>
+<mbr r='_JOBOBJECT_BASIC_ACCOUNTING_INFORMATION::TotalUserTime' o='0' t='LARGE_INTEGER'/>
+<mbr r='_JOBOBJECT_BASIC_ACCOUNTING_INFORMATION::TotalKernelTime' o='64' t='LARGE_INTEGER'/>
+<mbr r='_JOBOBJECT_BASIC_ACCOUNTING_INFORMATION::ThisPeriodTotalUserTime' o='128' t='LARGE_INTEGER'/>
+<mbr r='_JOBOBJECT_BASIC_ACCOUNTING_INFORMATION::ThisPeriodTotalKernelTime' o='192' t='LARGE_INTEGER'/>
+<mbr r='_JOBOBJECT_BASIC_ACCOUNTING_INFORMATION::TotalPageFaultCount' o='256' t='DWORD'/>
+<mbr r='_JOBOBJECT_BASIC_ACCOUNTING_INFORMATION::TotalProcesses' o='288' t='DWORD'/>
+<mbr r='_JOBOBJECT_BASIC_ACCOUNTING_INFORMATION::ActiveProcesses' o='320' t='DWORD'/>
+<mbr r='_JOBOBJECT_BASIC_ACCOUNTING_INFORMATION::TotalTerminatedProcesses' o='352' t='DWORD'/>

@@ -1,0 +1,23 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3906' ll='3928'/>
+<size>140</size>
+<mbr r='tagEMRPLGBLT::emr' o='0' t='EMR'/>
+<mbr r='tagEMRPLGBLT::rclBounds' o='64' t='RECTL'/>
+<mbr r='tagEMRPLGBLT::aptlDest' o='192' t='POINTL [3]'/>
+<mbr r='tagEMRPLGBLT::xSrc' o='384' t='LONG'/>
+<mbr r='tagEMRPLGBLT::ySrc' o='416' t='LONG'/>
+<mbr r='tagEMRPLGBLT::cxSrc' o='448' t='LONG'/>
+<mbr r='tagEMRPLGBLT::cySrc' o='480' t='LONG'/>
+<mbr r='tagEMRPLGBLT::xformSrc' o='512' t='XFORM'/>
+<mbr r='tagEMRPLGBLT::crBkColorSrc' o='704' t='COLORREF'/>
+<mbr r='tagEMRPLGBLT::iUsageSrc' o='736' t='DWORD'/>
+<mbr r='tagEMRPLGBLT::offBmiSrc' o='768' t='DWORD'/>
+<mbr r='tagEMRPLGBLT::cbBmiSrc' o='800' t='DWORD'/>
+<mbr r='tagEMRPLGBLT::offBitsSrc' o='832' t='DWORD'/>
+<mbr r='tagEMRPLGBLT::cbBitsSrc' o='864' t='DWORD'/>
+<mbr r='tagEMRPLGBLT::xMask' o='896' t='LONG'/>
+<mbr r='tagEMRPLGBLT::yMask' o='928' t='LONG'/>
+<mbr r='tagEMRPLGBLT::iUsageMask' o='960' t='DWORD'/>
+<mbr r='tagEMRPLGBLT::offBmiMask' o='992' t='DWORD'/>
+<mbr r='tagEMRPLGBLT::cbBmiMask' o='1024' t='DWORD'/>
+<mbr r='tagEMRPLGBLT::offBitsMask' o='1056' t='DWORD'/>
+<mbr r='tagEMRPLGBLT::cbBitsMask' o='1088' t='DWORD'/>

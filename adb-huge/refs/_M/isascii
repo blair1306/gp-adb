@@ -1,0 +1,23 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='235'/>
+<use f='codebrowser/external/libcxx/include/__locale' l='545' u='c'/>
+<use f='codebrowser/external/libcxx/include/__locale' l='552' u='c'/>
+<use f='codebrowser/external/libcxx/include/__locale' l='560' u='c'/>
+<use f='codebrowser/external/libcxx/include/__locale' l='569' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='783' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='790' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='799' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='808' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='819' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='832' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='846' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='859' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='884' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='893' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='928' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='945' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='962' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='978' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1002' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1011' u='c'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1290' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ctype.h' l='268'/>

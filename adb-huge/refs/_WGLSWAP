@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='4288' ll='4291'/>
+<size>8</size>
+<mbr r='_WGLSWAP::hdc' o='0' t='HDC'/>
+<mbr r='_WGLSWAP::uiFlags' o='32' t='UINT'/>

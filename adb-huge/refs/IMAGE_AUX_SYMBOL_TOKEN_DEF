@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4902' ll='4907'/>
+<size>18</size>
+<mbr r='IMAGE_AUX_SYMBOL_TOKEN_DEF::bAuxType' o='0' t='BYTE'/>
+<mbr r='IMAGE_AUX_SYMBOL_TOKEN_DEF::bReserved' o='8' t='BYTE'/>
+<mbr r='IMAGE_AUX_SYMBOL_TOKEN_DEF::SymbolTableIndex' o='16' t='DWORD'/>
+<mbr r='IMAGE_AUX_SYMBOL_TOKEN_DEF::rgbReserved' o='48' t='BYTE [12]'/>

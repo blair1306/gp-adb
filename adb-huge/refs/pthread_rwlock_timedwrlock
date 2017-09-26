@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='905' type='int pthread_rwlock_timedwrlock(pthread_rwlock_t *restrict __rwlock, const struct timespec *restrict __abstime)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='904'>/* Try to acquire write lock for RWLOCK or return after specfied time.  */</doc>

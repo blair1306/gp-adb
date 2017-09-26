@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>malloc.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/malloc.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/malloc.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='malloc.h.html'>malloc.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/_MALLOC_H_">_MALLOC_H_</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/_MALLOC_H_" data-ref="_M/_MALLOC_H_">_MALLOC_H_</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="crtdefs.h.html">&lt;crtdefs.h&gt;</a></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#pragma pack(push,<a class="macro" href="_mingw.h.html#280" title="8" data-ref="_M/_CRT_PACKING">_CRT_PACKING</a>)</u></td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="13">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="14">14</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="15">15</th><td><u>#<span data-ppcond="13">endif</span></u></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#<span data-ppcond="17">ifdef</span> <span class="macro" data-ref="_M/_WIN64">_WIN64</span></u></td></tr>
+<tr><th id="18">18</th><td><u>#define _HEAP_MAXREQ 0xFFFFFFFFFFFFFFE0</u></td></tr>
+<tr><th id="19">19</th><td><u>#<span data-ppcond="17">else</span></u></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/_HEAP_MAXREQ" data-ref="_M/_HEAP_MAXREQ">_HEAP_MAXREQ</dfn> 0xFFFFFFE0</u></td></tr>
+<tr><th id="21">21</th><td><u>#<span data-ppcond="17">endif</span></u></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><u>#<span data-ppcond="23">ifndef</span> <span class="macro" data-ref="_M/_STATIC_ASSERT">_STATIC_ASSERT</span></u></td></tr>
+<tr><th id="24">24</th><td><u>#<span data-ppcond="24">if</span> defined(<span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span>)</u></td></tr>
+<tr><th id="25">25</th><td><u>#define _STATIC_ASSERT(expr) typedef char __static_assert_t[(expr)]</u></td></tr>
+<tr><th id="26">26</th><td><u>#<span data-ppcond="24">else</span></u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/_STATIC_ASSERT" data-ref="_M/_STATIC_ASSERT">_STATIC_ASSERT</dfn>(expr) extern void __static_assert_t(int [(expr)?1:-1])</u></td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="24">endif</span></u></td></tr>
+<tr><th id="29">29</th><td><u>#<span data-ppcond="23">endif</span></u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><i>/* Return codes for _heapwalk()  */</i></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/_HEAPEMPTY" data-ref="_M/_HEAPEMPTY">_HEAPEMPTY</dfn> (-1)</u></td></tr>
+<tr><th id="33">33</th><td><u>#define <dfn class="macro" id="_M/_HEAPOK" data-ref="_M/_HEAPOK">_HEAPOK</dfn> (-2)</u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/_HEAPBADBEGIN" data-ref="_M/_HEAPBADBEGIN">_HEAPBADBEGIN</dfn> (-3)</u></td></tr>
+<tr><th id="35">35</th><td><u>#define <dfn class="macro" id="_M/_HEAPBADNODE" data-ref="_M/_HEAPBADNODE">_HEAPBADNODE</dfn> (-4)</u></td></tr>
+<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/_HEAPEND" data-ref="_M/_HEAPEND">_HEAPEND</dfn> (-5)</u></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/_HEAPBADPTR" data-ref="_M/_HEAPBADPTR">_HEAPBADPTR</dfn> (-6)</u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><i>/* Values for _heapinfo.useflag */</i></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/_FREEENTRY" data-ref="_M/_FREEENTRY">_FREEENTRY</dfn> 0</u></td></tr>
+<tr><th id="41">41</th><td><u>#define <dfn class="macro" id="_M/_USEDENTRY" data-ref="_M/_USEDENTRY">_USEDENTRY</dfn> 1</u></td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><u>#<span data-ppcond="43">ifndef</span> <span class="macro" data-ref="_M/_HEAPINFO_DEFINED">_HEAPINFO_DEFINED</span></u></td></tr>
+<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/_HEAPINFO_DEFINED" data-ref="_M/_HEAPINFO_DEFINED">_HEAPINFO_DEFINED</dfn></u></td></tr>
+<tr><th id="45">45</th><td> <i>/* The structure used to walk through the heap with _heapwalk.  */</i></td></tr>
+<tr><th id="46">46</th><td>  <b>typedef</b> <b>struct</b> <dfn class="type def" id="_heapinfo" title='_heapinfo' data-ref="_heapinfo"><a class="type" href="#_heapinfo" title='_heapinfo' data-ref="_heapinfo">_heapinfo</a></dfn> {</td></tr>
+<tr><th id="47">47</th><td>    <em>int</em> *<dfn class="decl" id="_heapinfo::_pentry" title='_heapinfo::_pentry' data-ref="_heapinfo::_pentry">_pentry</dfn>;</td></tr>
+<tr><th id="48">48</th><td>    <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="decl" id="_heapinfo::_size" title='_heapinfo::_size' data-ref="_heapinfo::_size">_size</dfn>;</td></tr>
+<tr><th id="49">49</th><td>    <em>int</em> <dfn class="decl" id="_heapinfo::_useflag" title='_heapinfo::_useflag' data-ref="_heapinfo::_useflag">_useflag</dfn>;</td></tr>
+<tr><th id="50">50</th><td>  } <dfn class="typedef" id="_HEAPINFO" title='_HEAPINFO' data-type='struct _heapinfo' data-ref="_HEAPINFO">_HEAPINFO</dfn>;</td></tr>
+<tr><th id="51">51</th><td><u>#<span data-ppcond="43">endif</span></u></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td>  <b>extern</b> <em>unsigned</em> <em>int</em> <dfn class="decl" id="_amblksiz" title='_amblksiz' data-ref="_amblksiz">_amblksiz</dfn>;</td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td><i>/* Make sure that X86intrin.h doesn't produce here collisions.  */</i></td></tr>
+<tr><th id="56">56</th><td><u>#<span data-ppcond="56">if</span> (!defined (<span class="macro" data-ref="_M/_XMMINTRIN_H_INCLUDED">_XMMINTRIN_H_INCLUDED</span>) &amp;&amp; !defined (<span class="macro" data-ref="_M/_MM_MALLOC_H_INCLUDED">_MM_MALLOC_H_INCLUDED</span>)) || defined(<span class="macro" data-ref="_M/_aligned_malloc">_aligned_malloc</span>)</u></td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/__DO_ALIGN_DEFINES" data-ref="_M/__DO_ALIGN_DEFINES">__DO_ALIGN_DEFINES</dfn></u></td></tr>
+<tr><th id="58">58</th><td><u>#<span data-ppcond="56">endif</span></u></td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td><u>#<span data-ppcond="60">ifndef</span> <span class="macro" data-ref="_M/_MM_MALLOC_H_INCLUDED">_MM_MALLOC_H_INCLUDED</span></u></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/_MM_MALLOC_H_INCLUDED" data-ref="_M/_MM_MALLOC_H_INCLUDED">_MM_MALLOC_H_INCLUDED</dfn></u></td></tr>
+<tr><th id="62">62</th><td><u>#<span data-ppcond="60">endif</span></u></td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td><u>#<span data-ppcond="64">ifdef</span> <a class="macro" href="#57" data-ref="_M/__DO_ALIGN_DEFINES">__DO_ALIGN_DEFINES</a></u></td></tr>
+<tr><th id="65">65</th><td><u>#pragma push_macro("_aligned_free")</u></td></tr>
+<tr><th id="66">66</th><td><u>#pragma push_macro("_aligned_malloc")</u></td></tr>
+<tr><th id="67">67</th><td><u>#undef <span class="macro" data-ref="_M/_aligned_free">_aligned_free</span></u></td></tr>
+<tr><th id="68">68</th><td><u>#undef <span class="macro" data-ref="_M/_aligned_malloc">_aligned_malloc</span></u></td></tr>
+<tr><th id="69">69</th><td><u>#<span data-ppcond="64">endif</span></u></td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><u>#define <dfn class="macro" id="_M/_mm_free" data-ref="_M/_mm_free">_mm_free</dfn>(a) _aligned_free(a)</u></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/_mm_malloc" data-ref="_M/_mm_malloc">_mm_malloc</dfn>(a,b) _aligned_malloc(a,b)</u></td></tr>
+<tr><th id="73">73</th><td></td></tr>
+<tr><th id="74">74</th><td><u>#<span data-ppcond="74">ifndef</span> <a class="macro" href="stdlib.h.html#436" data-ref="_M/_CRT_ALLOCATION_DEFINED">_CRT_ALLOCATION_DEFINED</a></u></td></tr>
+<tr><th id="75">75</th><td><u>#define _CRT_ALLOCATION_DEFINED</u></td></tr>
+<tr><th id="76">76</th><td>  <em>void</em> *<b>__cdecl</b> calloc(size_t _NumOfElements,size_t _SizeOfElements);</td></tr>
+<tr><th id="77">77</th><td>  <em>void</em> <b>__cdecl</b> free(<em>void</em> *_Memory);</td></tr>
+<tr><th id="78">78</th><td>  <em>void</em> *<b>__cdecl</b> malloc(size_t _Size);</td></tr>
+<tr><th id="79">79</th><td>  <em>void</em> *<b>__cdecl</b> realloc(<em>void</em> *_Memory,size_t _NewSize);</td></tr>
+<tr><th id="80">80</th><td>  _CRTIMP <em>void</em> *<b>__cdecl</b> _recalloc(<em>void</em> *_Memory,size_t _Count,size_t _Size);</td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td><u>#ifdef __DO_ALIGN_DEFINES</u></td></tr>
+<tr><th id="83">83</th><td>  _CRTIMP <em>void</em> <b>__cdecl</b> _aligned_free(<em>void</em> *_Memory);</td></tr>
+<tr><th id="84">84</th><td>  _CRTIMP <em>void</em> *<b>__cdecl</b> _aligned_malloc(size_t _Size,size_t _Alignment);</td></tr>
+<tr><th id="85">85</th><td><u>#endif</u></td></tr>
+<tr><th id="86">86</th><td></td></tr>
+<tr><th id="87">87</th><td>  _CRTIMP <em>void</em> *<b>__cdecl</b> _aligned_offset_malloc(size_t _Size,size_t _Alignment,size_t _Offset);</td></tr>
+<tr><th id="88">88</th><td>  _CRTIMP <em>void</em> *<b>__cdecl</b> _aligned_realloc(<em>void</em> *_Memory,size_t _Size,size_t _Alignment);</td></tr>
+<tr><th id="89">89</th><td>  _CRTIMP <em>void</em> *<b>__cdecl</b> _aligned_recalloc(<em>void</em> *_Memory,size_t _Count,size_t _Size,size_t _Alignment);</td></tr>
+<tr><th id="90">90</th><td>  _CRTIMP <em>void</em> *<b>__cdecl</b> _aligned_offset_realloc(<em>void</em> *_Memory,size_t _Size,size_t _Alignment,size_t _Offset);</td></tr>
+<tr><th id="91">91</th><td>  _CRTIMP <em>void</em> *<b>__cdecl</b> _aligned_offset_recalloc(<em>void</em> *_Memory,size_t _Count,size_t _Size,size_t _Alignment,size_t _Offset);</td></tr>
+<tr><th id="92">92</th><td><u>#<span data-ppcond="74">endif</span></u></td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><u>#<span data-ppcond="94">ifdef</span> <a class="macro" href="#57" data-ref="_M/__DO_ALIGN_DEFINES">__DO_ALIGN_DEFINES</a></u></td></tr>
+<tr><th id="95">95</th><td><u>#undef <a class="macro" href="#57" data-ref="_M/__DO_ALIGN_DEFINES">__DO_ALIGN_DEFINES</a></u></td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td><u>#pragma pop_macro("_aligned_malloc")</u></td></tr>
+<tr><th id="98">98</th><td><u>#pragma pop_macro("_aligned_free")</u></td></tr>
+<tr><th id="99">99</th><td></td></tr>
+<tr><th id="100">100</th><td><u>#<span data-ppcond="94">endif</span></u></td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td><i>/* Users should really use MS provided versions */</i></td></tr>
+<tr><th id="103">103</th><td><em>void</em> * <dfn class="decl" id="__mingw_aligned_malloc" title='__mingw_aligned_malloc' data-ref="__mingw_aligned_malloc">__mingw_aligned_malloc</dfn> (<a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col8 decl" id="2128_Size" title='_Size' data-type='size_t' data-ref="2128_Size">_Size</dfn>, <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col9 decl" id="2129_Alignment" title='_Alignment' data-type='size_t' data-ref="2129_Alignment">_Alignment</dfn>);</td></tr>
+<tr><th id="104">104</th><td><em>void</em> <dfn class="decl" id="__mingw_aligned_free" title='__mingw_aligned_free' data-ref="__mingw_aligned_free">__mingw_aligned_free</dfn> (<em>void</em> *<dfn class="local col0 decl" id="2130_Memory" title='_Memory' data-type='void *' data-ref="2130_Memory">_Memory</dfn>);</td></tr>
+<tr><th id="105">105</th><td><em>void</em> * <dfn class="decl" id="__mingw_aligned_offset_realloc" title='__mingw_aligned_offset_realloc' data-ref="__mingw_aligned_offset_realloc">__mingw_aligned_offset_realloc</dfn> (<em>void</em> *<dfn class="local col1 decl" id="2131_Memory" title='_Memory' data-type='void *' data-ref="2131_Memory">_Memory</dfn>, <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col2 decl" id="2132_Size" title='_Size' data-type='size_t' data-ref="2132_Size">_Size</dfn>, <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col3 decl" id="2133_Alignment" title='_Alignment' data-type='size_t' data-ref="2133_Alignment">_Alignment</dfn>, <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col4 decl" id="2134_Offset" title='_Offset' data-type='size_t' data-ref="2134_Offset">_Offset</dfn>);</td></tr>
+<tr><th id="106">106</th><td><em>void</em> * <dfn class="decl" id="__mingw_aligned_realloc" title='__mingw_aligned_realloc' data-ref="__mingw_aligned_realloc">__mingw_aligned_realloc</dfn> (<em>void</em> *<dfn class="local col5 decl" id="2135_Memory" title='_Memory' data-type='void *' data-ref="2135_Memory">_Memory</dfn>, <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col6 decl" id="2136_Size" title='_Size' data-type='size_t' data-ref="2136_Size">_Size</dfn>, <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col7 decl" id="2137_Offset" title='_Offset' data-type='size_t' data-ref="2137_Offset">_Offset</dfn>);</td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td><u>#define <dfn class="macro" id="_M/_MAX_WAIT_MALLOC_CRT" data-ref="_M/_MAX_WAIT_MALLOC_CRT">_MAX_WAIT_MALLOC_CRT</dfn> 60000</u></td></tr>
+<tr><th id="109">109</th><td></td></tr>
+<tr><th id="110">110</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <em>int</em> <b>__cdecl</b> <dfn class="decl" id="_resetstkoflw" title='_resetstkoflw' data-ref="_resetstkoflw">_resetstkoflw</dfn> (<em>void</em>);</td></tr>
+<tr><th id="111">111</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <em>unsigned</em> <em>long</em> <b>__cdecl</b> <dfn class="decl" id="_set_malloc_crt_max_wait" title='_set_malloc_crt_max_wait' data-ref="_set_malloc_crt_max_wait">_set_malloc_crt_max_wait</dfn>(<em>unsigned</em> <em>long</em> <dfn class="local col8 decl" id="2138_NewValue" title='_NewValue' data-type='unsigned long' data-ref="2138_NewValue">_NewValue</dfn>);</td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <em>void</em> *<b>__cdecl</b> <dfn class="decl" id="_expand" title='_expand' data-ref="_expand">_expand</dfn>(<em>void</em> *<dfn class="local col9 decl" id="2139_Memory" title='_Memory' data-type='void *' data-ref="2139_Memory">_Memory</dfn>,<a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col0 decl" id="2140_NewSize" title='_NewSize' data-type='size_t' data-ref="2140_NewSize">_NewSize</dfn>);</td></tr>
+<tr><th id="114">114</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <b>__cdecl</b> <dfn class="decl" id="_msize" title='_msize' data-ref="_msize">_msize</dfn>(<em>void</em> *<dfn class="local col1 decl" id="2141_Memory" title='_Memory' data-type='void *' data-ref="2141_Memory">_Memory</dfn>);</td></tr>
+<tr><th id="115">115</th><td><u>#<span data-ppcond="115">ifdef</span> <span class="macro" data-ref="_M/__GNUC__">__GNUC__</span></u></td></tr>
+<tr><th id="116">116</th><td><u>#undef <span class="macro" data-ref="_M/_alloca">_alloca</span></u></td></tr>
+<tr><th id="117">117</th><td><u>#define <dfn class="macro" id="_M/_alloca" data-ref="_M/_alloca">_alloca</dfn>(x) __builtin_alloca((x))</u></td></tr>
+<tr><th id="118">118</th><td><u>#<span data-ppcond="115">else</span></u></td></tr>
+<tr><th id="119">119</th><td>  <em>void</em> *<b>__cdecl</b> _alloca(size_t _Size) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;</td></tr>
+<tr><th id="120">120</th><td><u>#<span data-ppcond="115">endif</span></u></td></tr>
+<tr><th id="121">121</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <b>__cdecl</b> <dfn class="decl" id="_get_sbh_threshold" title='_get_sbh_threshold' data-ref="_get_sbh_threshold">_get_sbh_threshold</dfn>(<em>void</em>);</td></tr>
+<tr><th id="122">122</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <em>int</em> <b>__cdecl</b> <dfn class="decl" id="_set_sbh_threshold" title='_set_sbh_threshold' data-ref="_set_sbh_threshold">_set_sbh_threshold</dfn>(<a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col2 decl" id="2142_NewValue" title='_NewValue' data-type='size_t' data-ref="2142_NewValue">_NewValue</dfn>);</td></tr>
+<tr><th id="123">123</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <a class="typedef" href="_mingw.h.html#errno_t" title='errno_t' data-type='int' data-ref="errno_t">errno_t</a> <b>__cdecl</b> <dfn class="decl" id="_set_amblksiz" title='_set_amblksiz' data-ref="_set_amblksiz">_set_amblksiz</dfn>(<a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col3 decl" id="2143_Value" title='_Value' data-type='size_t' data-ref="2143_Value">_Value</dfn>);</td></tr>
+<tr><th id="124">124</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <a class="typedef" href="_mingw.h.html#errno_t" title='errno_t' data-type='int' data-ref="errno_t">errno_t</a> <b>__cdecl</b> <dfn class="decl" id="_get_amblksiz" title='_get_amblksiz' data-ref="_get_amblksiz">_get_amblksiz</dfn>(<a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> *<dfn class="local col4 decl" id="2144_Value" title='_Value' data-type='size_t *' data-ref="2144_Value">_Value</dfn>);</td></tr>
+<tr><th id="125">125</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <em>int</em> <b>__cdecl</b> <dfn class="decl" id="_heapadd" title='_heapadd' data-ref="_heapadd">_heapadd</dfn>(<em>void</em> *<dfn class="local col5 decl" id="2145_Memory" title='_Memory' data-type='void *' data-ref="2145_Memory">_Memory</dfn>,<a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col6 decl" id="2146_Size" title='_Size' data-type='size_t' data-ref="2146_Size">_Size</dfn>);</td></tr>
+<tr><th id="126">126</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <em>int</em> <b>__cdecl</b> <dfn class="decl" id="_heapchk" title='_heapchk' data-ref="_heapchk">_heapchk</dfn>(<em>void</em>);</td></tr>
+<tr><th id="127">127</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <em>int</em> <b>__cdecl</b> <dfn class="decl" id="_heapmin" title='_heapmin' data-ref="_heapmin">_heapmin</dfn>(<em>void</em>);</td></tr>
+<tr><th id="128">128</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <em>int</em> <b>__cdecl</b> <dfn class="decl" id="_heapset" title='_heapset' data-ref="_heapset">_heapset</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col7 decl" id="2147_Fill" title='_Fill' data-type='unsigned int' data-ref="2147_Fill">_Fill</dfn>);</td></tr>
+<tr><th id="129">129</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <em>int</em> <b>__cdecl</b> <dfn class="decl" id="_heapwalk" title='_heapwalk' data-ref="_heapwalk">_heapwalk</dfn>(<a class="typedef" href="#_HEAPINFO" title='_HEAPINFO' data-type='struct _heapinfo' data-ref="_HEAPINFO">_HEAPINFO</a> *<dfn class="local col8 decl" id="2148_EntryInfo" title='_EntryInfo' data-type='_HEAPINFO *' data-ref="2148_EntryInfo">_EntryInfo</dfn>);</td></tr>
+<tr><th id="130">130</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <b>__cdecl</b> <dfn class="decl" id="_heapused" title='_heapused' data-ref="_heapused">_heapused</dfn>(<a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> *<dfn class="local col9 decl" id="2149_Used" title='_Used' data-type='size_t *' data-ref="2149_Used">_Used</dfn>,<a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> *<dfn class="local col0 decl" id="2150_Commit" title='_Commit' data-type='size_t *' data-ref="2150_Commit">_Commit</dfn>);</td></tr>
+<tr><th id="131">131</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <a class="typedef" href="_mingw.h.html#intptr_t" title='intptr_t' data-type='int' data-ref="intptr_t">intptr_t</a> <b>__cdecl</b> <dfn class="decl" id="_get_heap_handle" title='_get_heap_handle' data-ref="_get_heap_handle">_get_heap_handle</dfn>(<em>void</em>);</td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td><u>#define <dfn class="macro" id="_M/_ALLOCA_S_THRESHOLD" data-ref="_M/_ALLOCA_S_THRESHOLD">_ALLOCA_S_THRESHOLD</dfn> 1024</u></td></tr>
+<tr><th id="134">134</th><td><u>#define <dfn class="macro" id="_M/_ALLOCA_S_STACK_MARKER" data-ref="_M/_ALLOCA_S_STACK_MARKER">_ALLOCA_S_STACK_MARKER</dfn> 0xCCCC</u></td></tr>
+<tr><th id="135">135</th><td><u>#define <dfn class="macro" id="_M/_ALLOCA_S_HEAP_MARKER" data-ref="_M/_ALLOCA_S_HEAP_MARKER">_ALLOCA_S_HEAP_MARKER</dfn> 0xDDDD</u></td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td><u>#<span data-ppcond="137">if</span>(defined(<span class="macro" data-ref="_M/_X86_">_X86_</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/__x86_64">__x86_64</span>))</u></td></tr>
+<tr><th id="138">138</th><td><u>#define _ALLOCA_S_MARKER_SIZE 8</u></td></tr>
+<tr><th id="139">139</th><td><u>#<span data-ppcond="137">elif</span> defined(<span class="macro" data-ref="_M/__ia64__">__ia64__</span>) || defined(<span class="macro" data-ref="_M/__x86_64">__x86_64</span>)</u></td></tr>
+<tr><th id="140">140</th><td><u>#define _ALLOCA_S_MARKER_SIZE 16</u></td></tr>
+<tr><th id="141">141</th><td><u>#<span data-ppcond="137">endif</span></u></td></tr>
+<tr><th id="142">142</th><td></td></tr>
+<tr><th id="143">143</th><td><u>#<span data-ppcond="143">if</span> !defined(<span class="macro" data-ref="_M/RC_INVOKED">RC_INVOKED</span>)</u></td></tr>
+<tr><th id="144">144</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *<dfn class="decl def" id="_Z12_MarkAllocaSPvj" title='_MarkAllocaS' data-ref="_Z12_MarkAllocaSPvj">_MarkAllocaS</dfn>(<em>void</em> *<dfn class="local col1 decl" id="2151_Ptr" title='_Ptr' data-type='void *' data-ref="2151_Ptr">_Ptr</dfn>,<em>unsigned</em> <em>int</em> <dfn class="local col2 decl" id="2152_Marker" title='_Marker' data-type='unsigned int' data-ref="2152_Marker">_Marker</dfn>) {</td></tr>
+<tr><th id="145">145</th><td>    <b>if</b>(<a class="local col1 ref" href="#2151_Ptr" title='_Ptr' data-ref="2151_Ptr">_Ptr</a>) {</td></tr>
+<tr><th id="146">146</th><td>      *((<em>unsigned</em> <em>int</em>*)<a class="local col1 ref" href="#2151_Ptr" title='_Ptr' data-ref="2151_Ptr">_Ptr</a>) = <a class="local col2 ref" href="#2152_Marker" title='_Marker' data-ref="2152_Marker">_Marker</a>;</td></tr>
+<tr><th id="147">147</th><td>      _Ptr = (<em>char</em>*)_Ptr + <span class='error' title="use of undeclared identifier &apos;_ALLOCA_S_MARKER_SIZE&apos;">_ALLOCA_S_MARKER_SIZE</span>;</td></tr>
+<tr><th id="148">148</th><td>    }</td></tr>
+<tr><th id="149">149</th><td>    <b>return</b> <a class="local col1 ref" href="#2151_Ptr" title='_Ptr' data-ref="2151_Ptr">_Ptr</a>;</td></tr>
+<tr><th id="150">150</th><td>  }</td></tr>
+<tr><th id="151">151</th><td><u>#<span data-ppcond="143">endif</span></u></td></tr>
+<tr><th id="152">152</th><td></td></tr>
+<tr><th id="153">153</th><td><u>#undef <span class="macro" data-ref="_M/_malloca">_malloca</span></u></td></tr>
+<tr><th id="154">154</th><td><u>#define <dfn class="macro" id="_M/_malloca" data-ref="_M/_malloca">_malloca</dfn>(size) \</u></td></tr>
+<tr><th id="155">155</th><td><u>  ((((size) + _ALLOCA_S_MARKER_SIZE) &lt;= _ALLOCA_S_THRESHOLD) ? \</u></td></tr>
+<tr><th id="156">156</th><td><u>    _MarkAllocaS(_alloca((size) + _ALLOCA_S_MARKER_SIZE),_ALLOCA_S_STACK_MARKER) : \</u></td></tr>
+<tr><th id="157">157</th><td><u>    _MarkAllocaS(malloc((size) + _ALLOCA_S_MARKER_SIZE),_ALLOCA_S_HEAP_MARKER))</u></td></tr>
+<tr><th id="158">158</th><td><u>#undef <span class="macro" data-ref="_M/_FREEA_INLINE">_FREEA_INLINE</span></u></td></tr>
+<tr><th id="159">159</th><td><u>#define <dfn class="macro" id="_M/_FREEA_INLINE" data-ref="_M/_FREEA_INLINE">_FREEA_INLINE</dfn></u></td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td><u>#<span data-ppcond="161">ifndef</span> <span class="macro" data-ref="_M/RC_INVOKED">RC_INVOKED</span></u></td></tr>
+<tr><th id="162">162</th><td><u>#undef <span class="macro" data-ref="_M/_freea">_freea</span></u></td></tr>
+<tr><th id="163">163</th><td>  <em>static</em> <b>__inline</b> <em>void</em> <b>__cdecl</b> <dfn class="decl def" id="_Z6_freeaPv" title='_freea' data-ref="_Z6_freeaPv">_freea</dfn>(<em>void</em> *<dfn class="local col3 decl" id="2153_Memory" title='_Memory' data-type='void *' data-ref="2153_Memory">_Memory</dfn>) {</td></tr>
+<tr><th id="164">164</th><td>    <em>unsigned</em> <em>int</em> <dfn class="local col4 decl" id="2154_Marker" title='_Marker' data-type='unsigned int' data-ref="2154_Marker">_Marker</dfn>;</td></tr>
+<tr><th id="165">165</th><td>    <b>if</b>(<a class="local col3 ref" href="#2153_Memory" title='_Memory' data-ref="2153_Memory">_Memory</a>) {</td></tr>
+<tr><th id="166">166</th><td>      _Memory = (<em>char</em>*)_Memory - <span class='error' title="use of undeclared identifier &apos;_ALLOCA_S_MARKER_SIZE&apos;">_ALLOCA_S_MARKER_SIZE</span>;</td></tr>
+<tr><th id="167">167</th><td>      <a class="local col4 ref" href="#2154_Marker" title='_Marker' data-ref="2154_Marker">_Marker</a> = *(<em>unsigned</em> <em>int</em> *)<a class="local col3 ref" href="#2153_Memory" title='_Memory' data-ref="2153_Memory">_Memory</a>;</td></tr>
+<tr><th id="168">168</th><td>      <b>if</b>(<a class="local col4 ref" href="#2154_Marker" title='_Marker' data-ref="2154_Marker">_Marker</a>==<a class="macro" href="#135" title="0xDDDD" data-ref="_M/_ALLOCA_S_HEAP_MARKER">_ALLOCA_S_HEAP_MARKER</a>) {</td></tr>
+<tr><th id="169">169</th><td>	<a class="ref" href="stdlib.h.html#free" title='free' data-ref="free">free</a>(<a class="local col3 ref" href="#2153_Memory" title='_Memory' data-ref="2153_Memory">_Memory</a>);</td></tr>
+<tr><th id="170">170</th><td>      }</td></tr>
+<tr><th id="171">171</th><td><u>#<span data-ppcond="171">ifdef</span> <span class="macro" data-ref="_M/_ASSERTE">_ASSERTE</span></u></td></tr>
+<tr><th id="172">172</th><td>      <b>else</b> <b>if</b>(_Marker!=_ALLOCA_S_STACK_MARKER) {</td></tr>
+<tr><th id="173">173</th><td>	_ASSERTE((<q>"Corrupted pointer passed to _freea"</q>,<var>0</var>));</td></tr>
+<tr><th id="174">174</th><td>      }</td></tr>
+<tr><th id="175">175</th><td><u>#<span data-ppcond="171">endif</span></u></td></tr>
+<tr><th id="176">176</th><td>    }</td></tr>
+<tr><th id="177">177</th><td>  }</td></tr>
+<tr><th id="178">178</th><td><u>#<span data-ppcond="161">endif</span> /* RC_INVOKED */</u></td></tr>
+<tr><th id="179">179</th><td></td></tr>
+<tr><th id="180">180</th><td><u>#<span data-ppcond="180">ifndef</span>	<span class="macro" data-ref="_M/NO_OLDNAMES">NO_OLDNAMES</span></u></td></tr>
+<tr><th id="181">181</th><td><u>#undef <span class="macro" data-ref="_M/alloca">alloca</span></u></td></tr>
+<tr><th id="182">182</th><td><u>#<span data-ppcond="182">ifdef</span> <span class="macro" data-ref="_M/__GNUC__">__GNUC__</span></u></td></tr>
+<tr><th id="183">183</th><td><u>#define <dfn class="macro" id="_M/alloca" data-ref="_M/alloca">alloca</dfn>(x) __builtin_alloca((x))</u></td></tr>
+<tr><th id="184">184</th><td><u>#<span data-ppcond="182">else</span></u></td></tr>
+<tr><th id="185">185</th><td><u>#define alloca _alloca</u></td></tr>
+<tr><th id="186">186</th><td><u>#<span data-ppcond="182">endif</span></u></td></tr>
+<tr><th id="187">187</th><td><u>#<span data-ppcond="180">endif</span></u></td></tr>
+<tr><th id="188">188</th><td></td></tr>
+<tr><th id="189">189</th><td><u>#<span data-ppcond="189">ifdef</span> <span class="macro" data-ref="_M/HEAPHOOK">HEAPHOOK</span></u></td></tr>
+<tr><th id="190">190</th><td><u>#ifndef _HEAPHOOK_DEFINED</u></td></tr>
+<tr><th id="191">191</th><td><u>#define _HEAPHOOK_DEFINED</u></td></tr>
+<tr><th id="192">192</th><td>  <b>typedef</b> <em>int</em> (<b>__cdecl</b> *_HEAPHOOK)(<em>int</em>,size_t,<em>void</em> *,<em>void</em> **);</td></tr>
+<tr><th id="193">193</th><td><u>#endif</u></td></tr>
+<tr><th id="194">194</th><td></td></tr>
+<tr><th id="195">195</th><td>  _CRTIMP _HEAPHOOK <b>__cdecl</b> _setheaphook(_HEAPHOOK _NewHook);</td></tr>
+<tr><th id="196">196</th><td></td></tr>
+<tr><th id="197">197</th><td><u>#define _HEAP_MALLOC 1</u></td></tr>
+<tr><th id="198">198</th><td><u>#define _HEAP_CALLOC 2</u></td></tr>
+<tr><th id="199">199</th><td><u>#define _HEAP_FREE 3</u></td></tr>
+<tr><th id="200">200</th><td><u>#define _HEAP_REALLOC 4</u></td></tr>
+<tr><th id="201">201</th><td><u>#define _HEAP_MSIZE 5</u></td></tr>
+<tr><th id="202">202</th><td><u>#define _HEAP_EXPAND 6</u></td></tr>
+<tr><th id="203">203</th><td><u>#<span data-ppcond="189">endif</span></u></td></tr>
+<tr><th id="204">204</th><td></td></tr>
+<tr><th id="205">205</th><td><u>#<span data-ppcond="205">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="206">206</th><td>}</td></tr>
+<tr><th id="207">207</th><td><u>#<span data-ppcond="205">endif</span></u></td></tr>
+<tr><th id="208">208</th><td></td></tr>
+<tr><th id="209">209</th><td><u>#pragma pack(pop)</u></td></tr>
+<tr><th id="210">210</th><td></td></tr>
+<tr><th id="211">211</th><td><u>#<span data-ppcond="6">endif</span> /* _MALLOC_H_ */</u></td></tr>
+<tr><th id="212">212</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

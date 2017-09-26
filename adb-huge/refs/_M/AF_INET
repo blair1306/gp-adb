@@ -1,0 +1,11 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='122'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='220'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='854' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='858' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='906' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='912' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1173' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_client_unix.c' l='42' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_client_unix.c' l='46' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='41' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='45' u='c'/>

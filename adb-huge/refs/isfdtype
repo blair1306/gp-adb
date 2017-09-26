@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='245' type='int isfdtype(int __fd, int __fdtype)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='242'>/* FDTYPE is S_IFSOCK or another S_IF* macro defined in &lt;sys/stat.h&gt;;
+   returns 1 if FD is open on an object of the indicated type, 0 if not,
+   or -1 for errors (setting errno).  */</doc>

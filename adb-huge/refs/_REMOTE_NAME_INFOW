@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnetwk.h' l='221' ll='225'/>
+<size>12</size>
+<mbr r='_REMOTE_NAME_INFOW::lpUniversalName' o='0' t='LPWSTR'/>
+<mbr r='_REMOTE_NAME_INFOW::lpConnectionName' o='32' t='LPWSTR'/>
+<mbr r='_REMOTE_NAME_INFOW::lpRemainingPath' o='64' t='LPWSTR'/>

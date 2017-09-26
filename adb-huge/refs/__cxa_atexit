@@ -1,0 +1,2 @@
+<dec f='codebrowser/external/libcxxabi/include/cxxabi.h' l='148' type='int __cxa_atexit(void (*)(void *) f, void * p, void * d)'/>
+<doc f='codebrowser/external/libcxxabi/include/cxxabi.h' l='147'>// 3.3.5.3 Runtime API</doc>

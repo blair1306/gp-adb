@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='786' ll='791'/>
+<size>16</size>
+<mbr r='_WSAServiceClassInfoA::lpServiceClassId' o='0' t='LPGUID'/>
+<mbr r='_WSAServiceClassInfoA::lpszServiceClassName' o='32' t='LPSTR'/>
+<mbr r='_WSAServiceClassInfoA::dwCount' o='64' t='DWORD'/>
+<mbr r='_WSAServiceClassInfoA::lpClassInfos' o='96' t='LPWSANSCLASSINFOA'/>

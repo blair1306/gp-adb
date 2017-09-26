@@ -1,0 +1,4 @@
+<def f='codebrowser/system/core/adb/services.h' l='21' type='const char [4]'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='632' u='r' c='_ZL11RemoteShellbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEcS7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='782' u='r' c='_ZL9adb_shelliPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='785' u='r' c='_ZL9adb_shelliPPKc'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/nl_types.h' l='47' type='char * catgets(nl_catd __catalog, int __set, int __number, const char * __string)'/>
+<use f='codebrowser/external/libcxx/include/locale' l='3706' u='c' c='_ZNKSt3__18messages6do_getEliiRKNS_12basic_stringIT_NS_11char_traitsIS2_EENS_9allocatorIS2_EEEE'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/nl_types.h' l='45'>/* Return translation with NUMBER in SET of CATALOG; if not found
+   return STRING.  */</doc>

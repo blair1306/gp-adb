@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='4171' ll='4179'/>
+<size>32</size>
+<mbr r='tagHELPWININFOW::wStructSize' o='0' t='int'/>
+<mbr r='tagHELPWININFOW::x' o='32' t='int'/>
+<mbr r='tagHELPWININFOW::y' o='64' t='int'/>
+<mbr r='tagHELPWININFOW::dx' o='96' t='int'/>
+<mbr r='tagHELPWININFOW::dy' o='128' t='int'/>
+<mbr r='tagHELPWININFOW::wMax' o='160' t='int'/>
+<mbr r='tagHELPWININFOW::rgchMember' o='192' t='WCHAR [2]'/>

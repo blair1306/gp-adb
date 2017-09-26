@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5891' ll='5898'/>
+<size>148</size>
+<mbr r='_OSVERSIONINFOA::dwOSVersionInfoSize' o='0' t='DWORD'/>
+<mbr r='_OSVERSIONINFOA::dwMajorVersion' o='32' t='DWORD'/>
+<mbr r='_OSVERSIONINFOA::dwMinorVersion' o='64' t='DWORD'/>
+<mbr r='_OSVERSIONINFOA::dwBuildNumber' o='96' t='DWORD'/>
+<mbr r='_OSVERSIONINFOA::dwPlatformId' o='128' t='DWORD'/>
+<mbr r='_OSVERSIONINFOA::szCSDVersion' o='160' t='CHAR [128]'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/system/core/adb/transport.h' l='83' type='char *'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1115' u='r' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1115' u='r' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<offset>1344</offset>
+<use f='codebrowser/system/core/adb/transport.cpp' l='522' u='r' c='_ZL27transport_registration_funcijPv'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='523' u='r' c='_ZL27transport_registration_funcijPv'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='868' u='r' c='_ZNK10atransport13MatchesTargetERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='868' u='r' c='_ZNK10atransport13MatchesTargetERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='905' u='r' c='_ZL16append_transportPK10atransportPNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEb'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='1021' u='w' c='_Z22register_usb_transportP10usb_handlePKcS2_j'/>

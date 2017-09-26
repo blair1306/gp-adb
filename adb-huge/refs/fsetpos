@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='800' type='int fsetpos(FILE * __stream, const fpos_t * __pos)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='796'>/* Set STREAM&apos;s position.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='457' type='int fsetpos(FILE * _File, const fpos_t * _Pos)'/>

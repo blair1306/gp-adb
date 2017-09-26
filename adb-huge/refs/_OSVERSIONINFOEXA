@@ -1,0 +1,13 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5913' ll='5925'/>
+<size>156</size>
+<mbr r='_OSVERSIONINFOEXA::dwOSVersionInfoSize' o='0' t='DWORD'/>
+<mbr r='_OSVERSIONINFOEXA::dwMajorVersion' o='32' t='DWORD'/>
+<mbr r='_OSVERSIONINFOEXA::dwMinorVersion' o='64' t='DWORD'/>
+<mbr r='_OSVERSIONINFOEXA::dwBuildNumber' o='96' t='DWORD'/>
+<mbr r='_OSVERSIONINFOEXA::dwPlatformId' o='128' t='DWORD'/>
+<mbr r='_OSVERSIONINFOEXA::szCSDVersion' o='160' t='CHAR [128]'/>
+<mbr r='_OSVERSIONINFOEXA::wServicePackMajor' o='1184' t='WORD'/>
+<mbr r='_OSVERSIONINFOEXA::wServicePackMinor' o='1200' t='WORD'/>
+<mbr r='_OSVERSIONINFOEXA::wSuiteMask' o='1216' t='WORD'/>
+<mbr r='_OSVERSIONINFOEXA::wProductType' o='1232' t='BYTE'/>
+<mbr r='_OSVERSIONINFOEXA::wReserved' o='1240' t='BYTE'/>

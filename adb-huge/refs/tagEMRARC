@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3727' ll='3732'/>
+<size>40</size>
+<mbr r='tagEMRARC::emr' o='0' t='EMR'/>
+<mbr r='tagEMRARC::rclBox' o='64' t='RECTL'/>
+<mbr r='tagEMRARC::ptlStart' o='192' t='POINTL'/>
+<mbr r='tagEMRARC::ptlEnd' o='256' t='POINTL'/>

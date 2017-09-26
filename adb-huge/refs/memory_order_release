@@ -1,0 +1,8 @@
+<dec f='codebrowser/bionic/libc/include/stdatomic.h' l='288' type='3'/>
+<use f='codebrowser/system/core/include/cutils/atomic.h' l='86' u='r' c='android_atomic_inc'/>
+<use f='codebrowser/system/core/include/cutils/atomic.h' l='93' u='r' c='android_atomic_dec'/>
+<use f='codebrowser/system/core/include/cutils/atomic.h' l='100' u='r' c='android_atomic_add'/>
+<use f='codebrowser/system/core/include/cutils/atomic.h' l='107' u='r' c='android_atomic_and'/>
+<use f='codebrowser/system/core/include/cutils/atomic.h' l='114' u='r' c='android_atomic_or'/>
+<use f='codebrowser/system/core/include/cutils/atomic.h' l='175' c='android_atomic_release_store'/>
+<use f='codebrowser/system/core/include/cutils/atomic.h' l='208' u='r' c='android_atomic_release_cas'/>

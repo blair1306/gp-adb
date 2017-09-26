@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>utf8.cpp source code [codebrowser/system/core/base/utf8.cpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/system/core/base/utf8.cpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>system</a>/<a href='..'>core</a>/<a href='./'>base</a>/<a href='utf8.cpp.html'>utf8.cpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (C) 2015 The Android Open Source Project</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Licensed under the Apache License, Version 2.0 (the "License");</i></td></tr>
+<tr><th id="5">5</th><td><i> * you may not use this file except in compliance with the License.</i></td></tr>
+<tr><th id="6">6</th><td><i> * You may obtain a copy of the License at</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> *      <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></i></td></tr>
+<tr><th id="9">9</th><td><i> *</i></td></tr>
+<tr><th id="10">10</th><td><i> * Unless required by applicable law or agreed to in writing, software</i></td></tr>
+<tr><th id="11">11</th><td><i> * distributed under the License is distributed on an "AS IS" BASIS,</i></td></tr>
+<tr><th id="12">12</th><td><i> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</i></td></tr>
+<tr><th id="13">13</th><td><i> * See the License for the specific language governing permissions and</i></td></tr>
+<tr><th id="14">14</th><td><i> * limitations under the License.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#include <a href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windows.h.html">&lt;windows.h&gt;</a></u></td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><u>#include <a href="include/android-base/utf8.h.html">"android-base/utf8.h"</a></u></td></tr>
+<tr><th id="20">20</th><td></td></tr>
+<tr><th id="21">21</th><td><u>#include <a href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/fcntl.h.html">&lt;fcntl.h&gt;</a></u></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><u>#include <span class='error' title="&apos;string&apos; file not found">&lt;</span>string&gt;</u></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#include <a href="include/android-base/logging.h.html">"android-base/logging.h"</a></u></td></tr>
+<tr><th id="26">26</th><td></td></tr>
+<tr><th id="27">27</th><td><b>namespace</b> <span class="namespace">android</span> {</td></tr>
+<tr><th id="28">28</th><td><b>namespace</b> <span class="namespace">base</span> {</td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><i  data-doc="_ZN7android4baseL21SetErrnoFromLastErrorEv">// Helper to set errno based on GetLastError() after WideCharToMultiByte()/MultiByteToWideChar().</i></td></tr>
+<tr><th id="31">31</th><td><em>static</em> <em>void</em> <dfn class="tu decl def" id="_ZN7android4baseL21SetErrnoFromLastErrorEv" title='android::base::SetErrnoFromLastError' data-type='void android::base::SetErrnoFromLastError()' data-ref="_ZN7android4baseL21SetErrnoFromLastErrorEv">SetErrnoFromLastError</dfn>() {</td></tr>
+<tr><th id="32">32</th><td>  <b>switch</b> (<a class="ref" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h.html#GetLastError" title='GetLastError' data-ref="GetLastError">GetLastError</a>()) {</td></tr>
+<tr><th id="33">33</th><td>    <b>case</b> <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winerror.h.html#318" title="1113l" data-ref="_M/ERROR_NO_UNICODE_TRANSLATION">ERROR_NO_UNICODE_TRANSLATION</a>:</td></tr>
+<tr><th id="34">34</th><td>      <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stddef.h.html#19" title="(*_errno())" data-ref="_M/errno">errno</a> = <span class='error' title="use of undeclared identifier &apos;EILSEQ&apos;">EILSEQ</span>;</td></tr>
+<tr><th id="35">35</th><td>      <b>break</b>;</td></tr>
+<tr><th id="36">36</th><td>    <b>default</b>:</td></tr>
+<tr><th id="37">37</th><td>      <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stddef.h.html#19" title="(*_errno())" data-ref="_M/errno">errno</a> = <span class='error' title="use of undeclared identifier &apos;EINVAL&apos;">EINVAL</span>;</td></tr>
+<tr><th id="38">38</th><td>      <b>break</b>;</td></tr>
+<tr><th id="39">39</th><td>  }</td></tr>
+<tr><th id="40">40</th><td>}</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><em>bool</em> <dfn class="decl def" id="_ZN7android4base10WideToUTF8EPKwjPi" title='android::base::WideToUTF8' data-ref="_ZN7android4base10WideToUTF8EPKwjPi">WideToUTF8</dfn>(<em>const</em> <em>wchar_t</em>* <dfn class="local col1 decl" id="1utf16" title='utf16' data-type='const wchar_t *' data-ref="1utf16">utf16</dfn>, <em>const</em> <a class="typedef" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col2 decl" id="2size" title='size' data-type='const size_t' data-ref="2size">size</dfn>, <span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::string* <dfn class="local col3 decl" id="3utf8" title='utf8' data-type='int *' data-ref="3utf8">utf8</dfn>) {</td></tr>
+<tr><th id="43">43</th><td>  utf8-&gt;clear();</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td>  <b>if</b> (<a class="local col2 ref" href="#2size" title='size' data-ref="2size">size</a> == <var>0</var>) {</td></tr>
+<tr><th id="46">46</th><td>    <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="47">47</th><td>  }</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td>  <i>// TODO: Consider using std::wstring_convert once libcxx is supported on</i></td></tr>
+<tr><th id="50">50</th><td><i>  // Windows.</i></td></tr>
+<tr><th id="51">51</th><td><i></i></td></tr>
+<tr><th id="52">52</th><td><i>  // Only Vista or later has this flag that causes WideCharToMultiByte() to</i></td></tr>
+<tr><th id="53">53</th><td><i>  // return an error on invalid characters.</i></td></tr>
+<tr><th id="54">54</th><td>  <em>const</em> <a class="typedef" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="local col4 decl" id="4flags" title='flags' data-type='const DWORD' data-ref="4flags">flags</dfn> =</td></tr>
+<tr><th id="55">55</th><td><u>#<span data-ppcond="55">if</span> (<span class="macro" title="0x0600" data-ref="_M/WINVER">WINVER</span> &gt;= 0x0600)</u></td></tr>
+<tr><th id="56">56</th><td>    <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnls.h.html#30" title="0x00000080" data-ref="_M/WC_ERR_INVALID_CHARS">WC_ERR_INVALID_CHARS</a>;</td></tr>
+<tr><th id="57">57</th><td><u>#<span data-ppcond="55">else</span></u></td></tr>
+<tr><th id="58">58</th><td>    <var>0</var>;</td></tr>
+<tr><th id="59">59</th><td><u>#<span data-ppcond="55">endif</span></u></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td>  <em>const</em> <em>int</em> <dfn class="local col5 decl" id="5chars_required" title='chars_required' data-type='const int' data-ref="5chars_required">chars_required</dfn> = <a class="ref" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnls.h.html#WideCharToMultiByte" title='WideCharToMultiByte' data-ref="WideCharToMultiByte">WideCharToMultiByte</a>(<a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnls.h.html#133" title="65001" data-ref="_M/CP_UTF8">CP_UTF8</a>, <a class="local col4 ref" href="#4flags" title='flags' data-ref="4flags">flags</a>, <a class="local col1 ref" href="#1utf16" title='utf16' data-ref="1utf16">utf16</a>, <a class="local col2 ref" href="#2size" title='size' data-ref="2size">size</a>,</td></tr>
+<tr><th id="62">62</th><td>                                                 <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stddef.h.html#396" title="__null" data-ref="_M/NULL">NULL</a>, <var>0</var>, <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stddef.h.html#396" title="__null" data-ref="_M/NULL">NULL</a>, <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stddef.h.html#396" title="__null" data-ref="_M/NULL">NULL</a>);</td></tr>
+<tr><th id="63">63</th><td>  <b>if</b> (<a class="local col5 ref" href="#5chars_required" title='chars_required' data-ref="5chars_required">chars_required</a> &lt;= <var>0</var>) {</td></tr>
+<tr><th id="64">64</th><td>    <a class="tu ref" href="#_ZN7android4baseL21SetErrnoFromLastErrorEv" title='android::base::SetErrnoFromLastError' data-use='c' data-ref="_ZN7android4baseL21SetErrnoFromLastErrorEv">SetErrnoFromLastError</a>();</td></tr>
+<tr><th id="65">65</th><td>    <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="66">66</th><td>  }</td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td>  <i>// This could potentially throw a std::bad_alloc exception.</i></td></tr>
+<tr><th id="69">69</th><td>  utf8-&gt;resize(chars_required);</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td>  <em>const</em> <em>int</em> <dfn class="local col6 decl" id="6result" title='result' data-type='const int' data-ref="6result">result</dfn> = WideCharToMultiByte(<a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnls.h.html#133" title="65001" data-ref="_M/CP_UTF8">CP_UTF8</a>, flags, utf16, size,</td></tr>
+<tr><th id="72">72</th><td>                                         &amp;(*utf8)[<var>0</var>], chars_required, <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stddef.h.html#396" title="__null" data-ref="_M/NULL">NULL</a>,</td></tr>
+<tr><th id="73">73</th><td>                                         <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stddef.h.html#396" title="__null" data-ref="_M/NULL">NULL</a>);</td></tr>
+<tr><th id="74">74</th><td>  <b>if</b> (<a class="local col6 ref" href="#6result" title='result' data-ref="6result">result</a> != <a class="local col5 ref" href="#5chars_required" title='chars_required' data-ref="5chars_required">chars_required</a>) {</td></tr>
+<tr><th id="75">75</th><td>    <a class="tu ref" href="#_ZN7android4baseL21SetErrnoFromLastErrorEv" title='android::base::SetErrnoFromLastError' data-use='c' data-ref="_ZN7android4baseL21SetErrnoFromLastErrorEv">SetErrnoFromLastError</a>();</td></tr>
+<tr><th id="76">76</th><td>    <a class="macro" href="include/android-base/logging.h.html#190" title="for (auto _values = ::android::base::MakeEagerEvaluator(result, chars_required); __builtin_expect((!(_values.lhs &lt;= _values.rhs)), false); ) ::android::base::LogMessage(&quot;/home/jon/workspace/android/system/core/base/utf8.cpp&quot;, 76, ::android::base::DEFAULT, ::android::base::FATAL, -1).stream() &lt;&lt; &quot;Check failed: &quot; &lt;&lt; &quot;result&quot; &lt;&lt; &quot; &quot; &lt;&lt; &quot;&lt;=&quot; &lt;&lt; &quot; &quot; &lt;&lt; &quot;chars_required&quot; &lt;&lt; &quot; (&quot; &quot;result&quot; &quot;=&quot; &lt;&lt; _values.lhs &lt;&lt; &quot;, &quot; &quot;chars_required&quot; &quot;=&quot; &lt;&lt; _values.rhs &lt;&lt; &quot;) &quot;" data-ref="_M/CHECK_LE">CHECK_LE</a>(result, chars_required) &lt;&lt; <q>"WideCharToMultiByte wrote "</q> &lt;&lt; result</td></tr>
+<tr><th id="77">77</th><td>        &lt;&lt; <q>" chars to buffer of "</q> &lt;&lt; chars_required &lt;&lt; <q>" chars"</q>;</td></tr>
+<tr><th id="78">78</th><td>    utf8-&gt;clear();</td></tr>
+<tr><th id="79">79</th><td>    <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="80">80</th><td>  }</td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td>  <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="83">83</th><td>}</td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td><em>bool</em> WideToUTF8(<em>const</em> <em>wchar_t</em>* utf16, <span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::string* utf8) {</td></tr>
+<tr><th id="86">86</th><td>  <i>// Compute string length of NULL-terminated string with wcslen().</i></td></tr>
+<tr><th id="87">87</th><td>  <b>return</b> WideToUTF8(utf16, wcslen(utf16), utf8);</td></tr>
+<tr><th id="88">88</th><td>}</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td><em>bool</em> WideToUTF8(<em>const</em> <span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::wstring&amp; utf16, <span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::string* utf8) {</td></tr>
+<tr><th id="91">91</th><td>  <i>// Use the stored length of the string which allows embedded NULL characters</i></td></tr>
+<tr><th id="92">92</th><td><i>  // to be converted.</i></td></tr>
+<tr><th id="93">93</th><td>  <b>return</b> WideToUTF8(utf16.c_str(), utf16.length(), utf8);</td></tr>
+<tr><th id="94">94</th><td>}</td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><i  data-doc="_ZN7android4baseL19UTF8ToWideWithFlagsEPKcjPim">// Internal helper function that takes MultiByteToWideChar() flags.</i></td></tr>
+<tr><th id="97">97</th><td><em>static</em> <em>bool</em> <dfn class="tu decl def" id="_ZN7android4baseL19UTF8ToWideWithFlagsEPKcjPim" title='android::base::UTF8ToWideWithFlags' data-type='bool android::base::UTF8ToWideWithFlags(const char * utf8, const size_t size, int * utf16, const DWORD flags)' data-ref="_ZN7android4baseL19UTF8ToWideWithFlagsEPKcjPim">UTF8ToWideWithFlags</dfn>(<em>const</em> <em>char</em>* <dfn class="local col7 decl" id="7utf8" title='utf8' data-type='const char *' data-ref="7utf8">utf8</dfn>, <em>const</em> <a class="typedef" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col8 decl" id="8size" title='size' data-type='const size_t' data-ref="8size">size</dfn>, <span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::wstring* <dfn class="local col9 decl" id="9utf16" title='utf16' data-type='int *' data-ref="9utf16">utf16</dfn>,</td></tr>
+<tr><th id="98">98</th><td>                                <em>const</em> <a class="typedef" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windef.h.html#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="local col0 decl" id="10flags" title='flags' data-type='const DWORD' data-ref="10flags">flags</dfn>) {</td></tr>
+<tr><th id="99">99</th><td>  utf16-&gt;clear();</td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td>  <b>if</b> (<a class="local col8 ref" href="#8size" title='size' data-ref="8size">size</a> == <var>0</var>) {</td></tr>
+<tr><th id="102">102</th><td>    <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="103">103</th><td>  }</td></tr>
+<tr><th id="104">104</th><td></td></tr>
+<tr><th id="105">105</th><td>  <i>// TODO: Consider using std::wstring_convert once libcxx is supported on</i></td></tr>
+<tr><th id="106">106</th><td><i>  // Windows.</i></td></tr>
+<tr><th id="107">107</th><td>  <em>const</em> <em>int</em> <dfn class="local col1 decl" id="11chars_required" title='chars_required' data-type='const int' data-ref="11chars_required">chars_required</dfn> = <a class="ref" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnls.h.html#MultiByteToWideChar" title='MultiByteToWideChar' data-ref="MultiByteToWideChar">MultiByteToWideChar</a>(<a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnls.h.html#133" title="65001" data-ref="_M/CP_UTF8">CP_UTF8</a>, <a class="local col0 ref" href="#10flags" title='flags' data-ref="10flags">flags</a>, <a class="local col7 ref" href="#7utf8" title='utf8' data-ref="7utf8">utf8</a>, <a class="local col8 ref" href="#8size" title='size' data-ref="8size">size</a>,</td></tr>
+<tr><th id="108">108</th><td>                                                 <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stddef.h.html#396" title="__null" data-ref="_M/NULL">NULL</a>, <var>0</var>);</td></tr>
+<tr><th id="109">109</th><td>  <b>if</b> (<a class="local col1 ref" href="#11chars_required" title='chars_required' data-ref="11chars_required">chars_required</a> &lt;= <var>0</var>) {</td></tr>
+<tr><th id="110">110</th><td>    <a class="tu ref" href="#_ZN7android4baseL21SetErrnoFromLastErrorEv" title='android::base::SetErrnoFromLastError' data-use='c' data-ref="_ZN7android4baseL21SetErrnoFromLastErrorEv">SetErrnoFromLastError</a>();</td></tr>
+<tr><th id="111">111</th><td>    <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="112">112</th><td>  }</td></tr>
+<tr><th id="113">113</th><td></td></tr>
+<tr><th id="114">114</th><td>  <i>// This could potentially throw a std::bad_alloc exception.</i></td></tr>
+<tr><th id="115">115</th><td>  utf16-&gt;resize(chars_required);</td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td>  <em>const</em> <em>int</em> <dfn class="local col2 decl" id="12result" title='result' data-type='const int' data-ref="12result">result</dfn> = MultiByteToWideChar(<a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnls.h.html#133" title="65001" data-ref="_M/CP_UTF8">CP_UTF8</a>, flags, utf8, size,</td></tr>
+<tr><th id="118">118</th><td>                                         &amp;(*utf16)[<var>0</var>], chars_required);</td></tr>
+<tr><th id="119">119</th><td>  <b>if</b> (<a class="local col2 ref" href="#12result" title='result' data-ref="12result">result</a> != <a class="local col1 ref" href="#11chars_required" title='chars_required' data-ref="11chars_required">chars_required</a>) {</td></tr>
+<tr><th id="120">120</th><td>    <a class="tu ref" href="#_ZN7android4baseL21SetErrnoFromLastErrorEv" title='android::base::SetErrnoFromLastError' data-use='c' data-ref="_ZN7android4baseL21SetErrnoFromLastErrorEv">SetErrnoFromLastError</a>();</td></tr>
+<tr><th id="121">121</th><td>    <a class="macro" href="include/android-base/logging.h.html#190" title="for (auto _values = ::android::base::MakeEagerEvaluator(result, chars_required); __builtin_expect((!(_values.lhs &lt;= _values.rhs)), false); ) ::android::base::LogMessage(&quot;/home/jon/workspace/android/system/core/base/utf8.cpp&quot;, 121, ::android::base::DEFAULT, ::android::base::FATAL, -1).stream() &lt;&lt; &quot;Check failed: &quot; &lt;&lt; &quot;result&quot; &lt;&lt; &quot; &quot; &lt;&lt; &quot;&lt;=&quot; &lt;&lt; &quot; &quot; &lt;&lt; &quot;chars_required&quot; &lt;&lt; &quot; (&quot; &quot;result&quot; &quot;=&quot; &lt;&lt; _values.lhs &lt;&lt; &quot;, &quot; &quot;chars_required&quot; &quot;=&quot; &lt;&lt; _values.rhs &lt;&lt; &quot;) &quot;" data-ref="_M/CHECK_LE">CHECK_LE</a>(result, chars_required) &lt;&lt; <q>"MultiByteToWideChar wrote "</q> &lt;&lt; result</td></tr>
+<tr><th id="122">122</th><td>        &lt;&lt; <q>" chars to buffer of "</q> &lt;&lt; chars_required &lt;&lt; <q>" chars"</q>;</td></tr>
+<tr><th id="123">123</th><td>    utf16-&gt;clear();</td></tr>
+<tr><th id="124">124</th><td>    <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="125">125</th><td>  }</td></tr>
+<tr><th id="126">126</th><td></td></tr>
+<tr><th id="127">127</th><td>  <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="128">128</th><td>}</td></tr>
+<tr><th id="129">129</th><td></td></tr>
+<tr><th id="130">130</th><td><em>bool</em> <dfn class="decl def" id="_ZN7android4base10UTF8ToWideEPKcjPi" title='android::base::UTF8ToWide' data-ref="_ZN7android4base10UTF8ToWideEPKcjPi">UTF8ToWide</dfn>(<em>const</em> <em>char</em>* <dfn class="local col3 decl" id="13utf8" title='utf8' data-type='const char *' data-ref="13utf8">utf8</dfn>, <em>const</em> <a class="typedef" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col4 decl" id="14size" title='size' data-type='const size_t' data-ref="14size">size</dfn>, <span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::wstring* <dfn class="local col5 decl" id="15utf16" title='utf16' data-type='int *' data-ref="15utf16">utf16</dfn>) {</td></tr>
+<tr><th id="131">131</th><td>  <i>// If strictly interpreting as UTF-8 succeeds, return success.</i></td></tr>
+<tr><th id="132">132</th><td>  <b>if</b> (UTF8ToWideWithFlags(utf8, size, utf16, <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnls.h.html#23" title="0x00000008" data-ref="_M/MB_ERR_INVALID_CHARS">MB_ERR_INVALID_CHARS</a>)) {</td></tr>
+<tr><th id="133">133</th><td>    <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="134">134</th><td>  }</td></tr>
+<tr><th id="135">135</th><td></td></tr>
+<tr><th id="136">136</th><td>  <em>const</em> <em>int</em> <dfn class="local col6 decl" id="16saved_errno" title='saved_errno' data-type='const int' data-ref="16saved_errno">saved_errno</dfn> = <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stddef.h.html#19" title="(*_errno())" data-ref="_M/errno">errno</a>;</td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td>  <i>// Fallback to non-strict interpretation, allowing invalid characters and</i></td></tr>
+<tr><th id="139">139</th><td><i>  // converting as best as possible, and return false to signify a problem.</i></td></tr>
+<tr><th id="140">140</th><td>  (<em>void</em>)UTF8ToWideWithFlags(utf8, size, utf16, <var>0</var>);</td></tr>
+<tr><th id="141">141</th><td>  <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stddef.h.html#19" title="(*_errno())" data-ref="_M/errno">errno</a> = <a class="local col6 ref" href="#16saved_errno" title='saved_errno' data-ref="16saved_errno">saved_errno</a>;</td></tr>
+<tr><th id="142">142</th><td>  <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="143">143</th><td>}</td></tr>
+<tr><th id="144">144</th><td></td></tr>
+<tr><th id="145">145</th><td><em>bool</em> UTF8ToWide(<em>const</em> <em>char</em>* utf8, <span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::wstring* utf16) {</td></tr>
+<tr><th id="146">146</th><td>  <i>// Compute string length of NULL-terminated string with strlen().</i></td></tr>
+<tr><th id="147">147</th><td>  <b>return</b> UTF8ToWide(utf8, strlen(utf8), utf16);</td></tr>
+<tr><th id="148">148</th><td>}</td></tr>
+<tr><th id="149">149</th><td></td></tr>
+<tr><th id="150">150</th><td><em>bool</em> UTF8ToWide(<em>const</em> <span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::string&amp; utf8, <span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::wstring* utf16) {</td></tr>
+<tr><th id="151">151</th><td>  <i>// Use the stored length of the string which allows embedded NULL characters</i></td></tr>
+<tr><th id="152">152</th><td><i>  // to be converted.</i></td></tr>
+<tr><th id="153">153</th><td>  <b>return</b> UTF8ToWide(utf8.c_str(), utf8.length(), utf16);</td></tr>
+<tr><th id="154">154</th><td>}</td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td><i>// Versions of standard library APIs that support UTF-8 strings.</i></td></tr>
+<tr><th id="157">157</th><td><b>namespace</b> <span class="namespace">utf8</span> {</td></tr>
+<tr><th id="158">158</th><td></td></tr>
+<tr><th id="159">159</th><td><em>int</em> <span class='error' title="declaration conflicts with target of using declaration already in scope">open</span>(<em>const</em> <em>char</em>* name, <em>int</em> flags, ...) {</td></tr>
+<tr><th id="160">160</th><td>  <span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::wstring name_utf16;</td></tr>
+<tr><th id="161">161</th><td>  <b>if</b> (!UTF8ToWide(name, &amp;name_utf16)) {</td></tr>
+<tr><th id="162">162</th><td>    <b>return</b> -<var>1</var>;</td></tr>
+<tr><th id="163">163</th><td>  }</td></tr>
+<tr><th id="164">164</th><td></td></tr>
+<tr><th id="165">165</th><td>  <em>int</em> mode = <var>0</var>;</td></tr>
+<tr><th id="166">166</th><td>  <b>if</b> ((flags &amp; <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/fcntl.h.html#40" title="0x0100" data-ref="_M/O_CREAT">O_CREAT</a>) != <var>0</var>) {</td></tr>
+<tr><th id="167">167</th><td>    va_list args;</td></tr>
+<tr><th id="168">168</th><td>    <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdarg.h.html#52" title="__builtin_va_start(args,flags)" data-ref="_M/va_start">va_start</a>(args, flags);</td></tr>
+<tr><th id="169">169</th><td>    mode = <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdarg.h.html#54" title="__builtin_va_arg(args,int)" data-ref="_M/va_arg">va_arg</a>(args, <em>int</em>);</td></tr>
+<tr><th id="170">170</th><td>    <a class="macro" href="../../../prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdarg.h.html#53" title="__builtin_va_end(args)" data-ref="_M/va_end">va_end</a>(args);</td></tr>
+<tr><th id="171">171</th><td>  }</td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td>  <b>return</b> _wopen(name_utf16.c_str(), flags, mode);</td></tr>
+<tr><th id="174">174</th><td>}</td></tr>
+<tr><th id="175">175</th><td></td></tr>
+<tr><th id="176">176</th><td><em>int</em> <span class='error' title="declaration conflicts with target of using declaration already in scope">unlink</span>(<em>const</em> <em>char</em>* name) {</td></tr>
+<tr><th id="177">177</th><td>  <span class='error' title="use of undeclared identifier &apos;std&apos;">std</span>::wstring name_utf16;</td></tr>
+<tr><th id="178">178</th><td>  <b>if</b> (!UTF8ToWide(name, &amp;name_utf16)) {</td></tr>
+<tr><th id="179">179</th><td>    <b>return</b> -<var>1</var>;</td></tr>
+<tr><th id="180">180</th><td>  }</td></tr>
+<tr><th id="181">181</th><td></td></tr>
+<tr><th id="182">182</th><td>  <b>return</b> _wunlink(name_utf16.c_str());</td></tr>
+<tr><th id="183">183</th><td>}</td></tr>
+<tr><th id="184">184</th><td></td></tr>
+<tr><th id="185">185</th><td>}  <i>// namespace utf8</i></td></tr>
+<tr><th id="186">186</th><td>}  <i>// namespace base</i></td></tr>
+<tr><th id="187">187</th><td>}  <i>// namespace android</i></td></tr>
+<tr><th id="188">188</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

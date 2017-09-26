@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3014' ll='3018'/>
+<size>1268</size>
+<mbr r='tagENUMTEXTMETRICW::etmNewTextMetricEx' o='0' t='NEWTEXTMETRICEXW'/>
+<mbr r='tagENUMTEXTMETRICW::etmAxesList' o='864' t='AXESLISTW'/>

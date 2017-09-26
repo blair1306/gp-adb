@@ -1,0 +1,27 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6744' ll='6770'/>
+<size>716</size>
+<mbr r='_WOW64_CONTEXT::ContextFlags' o='0' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Dr0' o='32' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Dr1' o='64' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Dr2' o='96' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Dr3' o='128' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Dr6' o='160' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Dr7' o='192' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::FloatSave' o='224' t='WOW64_FLOATING_SAVE_AREA'/>
+<mbr r='_WOW64_CONTEXT::SegGs' o='1120' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::SegFs' o='1152' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::SegEs' o='1184' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::SegDs' o='1216' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Edi' o='1248' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Esi' o='1280' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Ebx' o='1312' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Edx' o='1344' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Ecx' o='1376' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Eax' o='1408' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Ebp' o='1440' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Eip' o='1472' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::SegCs' o='1504' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::EFlags' o='1536' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::Esp' o='1568' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::SegSs' o='1600' t='DWORD'/>
+<mbr r='_WOW64_CONTEXT::ExtendedRegisters' o='1632' t='BYTE [512]'/>

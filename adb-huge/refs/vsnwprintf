@@ -1,0 +1,2 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='728' ll='733' macro='1' type='int vsnwprintf(wchar_t * __stream, size_t __n, const wchar_t * __format, __builtin_va_list __local_argv)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/swprintf.inl' l='25' u='c' c='_Z9vswprintfPwjPKwPc'/>

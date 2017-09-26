@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ktmtypes.h' l='147' ll='158'/>
+<size>300</size>
+<mbr r='_KCRM_TRANSACTION_BLOB::UOW' o='0' t='::UOW'/>
+<mbr r='_KCRM_TRANSACTION_BLOB::TmIdentity' o='128' t='GUID'/>
+<mbr r='_KCRM_TRANSACTION_BLOB::IsolationLevel' o='256' t='ULONG'/>
+<mbr r='_KCRM_TRANSACTION_BLOB::IsolationFlags' o='288' t='ULONG'/>
+<mbr r='_KCRM_TRANSACTION_BLOB::Timeout' o='320' t='ULONG'/>
+<mbr r='_KCRM_TRANSACTION_BLOB::Description' o='352' t='WCHAR [64]'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='45' ll='49'/>
+<size>16</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='43'>/* This is the 4.3 BSD `struct sockaddr&apos; format, which is used as wire
+   format in the grotty old 4.3 `talk&apos; protocol.  */</doc>
+<mbr r='osockaddr::sa_family' o='0' t='unsigned short'/>
+<mbr r='osockaddr::sa_data' o='16' t='unsigned char [14]'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/external/libcxx/include/unordered_map' l='1156' type='mapped_type &amp; std::__1::unordered_map::operator[](key_type &amp;&amp; __k)'/>
+<def f='codebrowser/external/libcxx/include/unordered_map' l='1543' ll='1554' type='_Tp &amp; std::__1::unordered_map::operator[](key_type &amp;&amp; __k)'/>

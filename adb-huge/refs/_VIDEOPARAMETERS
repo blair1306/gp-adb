@@ -1,0 +1,25 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/tvout.h' l='11' ll='35'/>
+<size>356</size>
+<mbr r='_VIDEOPARAMETERS::Guid' o='0' t='GUID'/>
+<mbr r='_VIDEOPARAMETERS::dwOffset' o='128' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwCommand' o='160' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwFlags' o='192' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwMode' o='224' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwTVStandard' o='256' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwAvailableModes' o='288' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwAvailableTVStandard' o='320' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwFlickerFilter' o='352' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwOverScanX' o='384' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwOverScanY' o='416' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwMaxUnscaledX' o='448' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwMaxUnscaledY' o='480' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwPositionX' o='512' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwPositionY' o='544' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwBrightness' o='576' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwContrast' o='608' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwCPType' o='640' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwCPCommand' o='672' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwCPStandard' o='704' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::dwCPKey' o='736' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::bCP_APSTriggerBits' o='768' t='ULONG'/>
+<mbr r='_VIDEOPARAMETERS::bOEMCopyProtection' o='800' t='UCHAR [256]'/>

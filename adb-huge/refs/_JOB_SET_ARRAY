@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3463' ll='3467'/>
+<size>12</size>
+<mbr r='_JOB_SET_ARRAY::JobHandle' o='0' t='HANDLE'/>
+<mbr r='_JOB_SET_ARRAY::MemberLevel' o='32' t='DWORD'/>
+<mbr r='_JOB_SET_ARRAY::Flags' o='64' t='DWORD'/>

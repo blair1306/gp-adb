@@ -1,0 +1,1 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/guiddef.h' l='164' type='int operator!=(const GUID &amp; guidOne, const GUID &amp; guidOther)'/>

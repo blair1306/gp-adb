@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='729' ll='733'/>
+<size>8</size>
+<mbr r='tagMETARECORD::rdSize' o='0' t='DWORD'/>
+<mbr r='tagMETARECORD::rdFunction' o='32' t='WORD'/>
+<mbr r='tagMETARECORD::rdParm' o='48' t='WORD [1]'/>

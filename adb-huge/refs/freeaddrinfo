@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='670' type='void freeaddrinfo(struct addrinfo * __ai)'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='80' u='c' c='bio_ip_and_port_to_socket_and_addr'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='669'>/* Free `addrinfo&apos; structure AI including associated storage.  */</doc>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='69' u='c' c='socket_network_client_timeout'/>

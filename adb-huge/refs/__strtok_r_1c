@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='1172' type='char * __strtok_r_1c(char * __s, char __sep, char ** __nextp)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='1173' ll='1194' macro='1' type='char * __strtok_r_1c(char * __s, char __sep, char ** __nextp)'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='164' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='197' macro='1' u='c'/>

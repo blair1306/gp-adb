@@ -1,0 +1,1 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='663' ll='668' macro='1' type='int vwscanf(const wchar_t * __format, __builtin_va_list __local_argv)'/>

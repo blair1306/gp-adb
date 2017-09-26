@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/services.h' l='22' type='const char [3]'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='597' u='r' c='_ZL18ShellServiceStringbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_'/>

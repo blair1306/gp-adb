@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/asm-generic/errno.h' l='35'/>
+<use f='codebrowser/external/libcxx/include/cerrno' l='215' u='a'/>
+<use f='codebrowser/external/libcxx/include/system_error' l='332' u='a'/>
+<use f='codebrowser/external/libcxx/include/system_error' l='333' u='c'/>

@@ -1,0 +1,20 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/crtdefs.h' l='175' ll='199'/>
+<size>216</size>
+<mbr r='threadlocaleinfostruct::refcount' o='0' t='int'/>
+<mbr r='threadlocaleinfostruct::lc_codepage' o='32' t='unsigned int'/>
+<mbr r='threadlocaleinfostruct::lc_collate_cp' o='64' t='unsigned int'/>
+<mbr r='threadlocaleinfostruct::lc_handle' o='96' t='unsigned long [6]'/>
+<mbr r='threadlocaleinfostruct::lc_id' o='288' t='LC_ID [6]'/>
+<mbr r='threadlocaleinfostruct::lc_category' o='576' t='struct (anonymous struct at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/crtdefs.h:181:3) [6]'/>
+<mbr r='threadlocaleinfostruct::lc_clike' o='1344' t='int'/>
+<mbr r='threadlocaleinfostruct::mb_cur_max' o='1376' t='int'/>
+<mbr r='threadlocaleinfostruct::lconv_intl_refcount' o='1408' t='int *'/>
+<mbr r='threadlocaleinfostruct::lconv_num_refcount' o='1440' t='int *'/>
+<mbr r='threadlocaleinfostruct::lconv_mon_refcount' o='1472' t='int *'/>
+<mbr r='threadlocaleinfostruct::lconv' o='1504' t='struct lconv *'/>
+<mbr r='threadlocaleinfostruct::ctype1_refcount' o='1536' t='int *'/>
+<mbr r='threadlocaleinfostruct::ctype1' o='1568' t='unsigned short *'/>
+<mbr r='threadlocaleinfostruct::pctype' o='1600' t='const unsigned short *'/>
+<mbr r='threadlocaleinfostruct::pclmap' o='1632' t='const unsigned char *'/>
+<mbr r='threadlocaleinfostruct::pcumap' o='1664' t='const unsigned char *'/>
+<mbr r='threadlocaleinfostruct::lc_time_curr' o='1696' t='struct __lc_time_data *'/>

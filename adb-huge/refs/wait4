@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/wait.h' l='175' type='__pid_t wait4(__pid_t __pid, void * __stat_loc, int __options, struct rusage * __usage)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/wait.h' l='174'>/* PID is like waitpid.  Other args are like wait3.  */</doc>

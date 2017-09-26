@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/mathcalls.h' l='130' type='double expm1(double __x)'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='1195' u='c' c='_ZNSt3__15expm1ET_'/>

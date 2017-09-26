@@ -1,0 +1,32 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='473' type='void * calloc(size_t __nmemb, size_t __size)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='472'>/* Allocate NMEMB elements of SIZE bytes each, all initialized to 0.  */</doc>
+<use f='codebrowser/external/libcxx/src/debug.cpp' l='153' u='c' c='_ZNSt3__111__libcpp_db10__insert_cEPv'/>
+<use f='codebrowser/external/libcxx/src/debug.cpp' l='502' u='c' c='_ZNSt3__111__libcpp_db17__insert_iteratorEPv'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_exception_storage.cpp' l='80' u='c' c='__cxa_get_globals'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='221' u='c' c='_Z16install_listenerRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPKcP10atransportiPS5_'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='419' u='c' c='_Z19create_local_socketi'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='540' u='c' c='_Z20create_remote_socketjP10atransport'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='871' u='c' c='_ZL19create_smart_socketv'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='437' type='void * calloc(size_t _NumOfElements, size_t _SizeOfElements)'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='401' u='c' c='_Z21create_device_trackerv'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='271' u='c' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/libcutils/config_utils.c' l='30' u='c' c='config_node'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='157' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='228' u='c' c='fs_config'/>
+<use f='codebrowser/system/core/libcutils/hashmap.c' l='61' u='c' c='hashmapCreate'/>
+<use f='codebrowser/system/core/libcutils/hashmap.c' l='109' u='c' c='expandIfNecessary'/>
+<use f='codebrowser/system/core/libcutils/record_stream.c' l='51' u='c' c='record_stream_new'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='76' u='c' c='str_parms_create'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='158' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='175' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='177' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='179' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='181' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='182' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='225' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='230' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='369' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='72' u='c' c='android_openEventTagMap'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='199' u='c' c='processFile'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='52' u='c' c='create_android_logger'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='76' u='c' c='create_android_log_parser'/>

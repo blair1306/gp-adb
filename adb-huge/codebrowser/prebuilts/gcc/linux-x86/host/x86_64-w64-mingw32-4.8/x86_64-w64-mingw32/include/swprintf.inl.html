@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>swprintf.inl source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/swprintf.inl] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/swprintf.inl'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='swprintf.inl.html'>swprintf.inl</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><u>#<span data-ppcond="7">ifndef</span> <span class="macro" data-ref="_M/_INC_SWPRINTF_INL">_INC_SWPRINTF_INL</span></u></td></tr>
+<tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/_INC_SWPRINTF_INL" data-ref="_M/_INC_SWPRINTF_INL">_INC_SWPRINTF_INL</dfn></u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><u>#include <a href="vadefs.h.html">&lt;vadefs.h&gt;</a></u></td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td><u>#undef <a class="macro" href="_mingw_mac.h.html#246" data-ref="_M/__mingw_ovr">__mingw_ovr</a></u></td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="13">if</span> defined (<span class="macro" data-ref="_M/__GNUC__">__GNUC__</span>)</u></td></tr>
+<tr><th id="14">14</th><td><u>#define <dfn class="macro" id="_M/__mingw_ovr" data-ref="_M/__mingw_ovr">__mingw_ovr</dfn> static __attribute__ ((__unused__)) __inline__ __cdecl</u></td></tr>
+<tr><th id="15">15</th><td><u>#<span data-ppcond="13">elif</span> defined(__cplusplus)</u></td></tr>
+<tr><th id="16">16</th><td><u>#define __mingw_ovr inline __cdecl</u></td></tr>
+<tr><th id="17">17</th><td><u>#else</u></td></tr>
+<tr><th id="18">18</th><td><u>#define __mingw_ovr static __cdecl</u></td></tr>
+<tr><th id="19">19</th><td><u>#<span data-ppcond="13">endif</span></u></td></tr>
+<tr><th id="20">20</th><td></td></tr>
+<tr><th id="21">21</th><td><a class="macro" href="#14" title="static __attribute__ ((__unused__)) __inline__ __cdecl" data-ref="_M/__mingw_ovr">__mingw_ovr</a></td></tr>
+<tr><th id="22">22</th><td><i>/* __attribute__((__format__ (gnu_wprintf, 3, 0))) */</i> <a class="macro" href="_mingw.h.html#170" title="__attribute__ ((__nonnull__ (3)))" data-ref="_M/__MINGW_ATTRIB_NONNULL">__MINGW_ATTRIB_NONNULL</a>(<var>3</var>)</td></tr>
+<tr><th id="23">23</th><td><em>int</em> <dfn class="decl def" id="_Z9vswprintfPwjPKwPc" title='vswprintf' data-ref="_Z9vswprintfPwjPKwPc">vswprintf</dfn> (<em>wchar_t</em> *<dfn class="local col3 decl" id="1133__stream" title='__stream' data-type='wchar_t *' data-ref="1133__stream">__stream</dfn>, <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col4 decl" id="1134__count" title='__count' data-type='size_t' data-ref="1134__count">__count</dfn>, <em>const</em> <em>wchar_t</em> *<dfn class="local col5 decl" id="1135__format" title='__format' data-type='const wchar_t *' data-ref="1135__format">__format</dfn>, <span class='typedef' title='__builtin_va_list' data-type='char *' data-ref="__builtin_va_list">__builtin_va_list</span> <dfn class="local col6 decl" id="1136__local_argv" title='__local_argv' data-type='__builtin_va_list' data-ref="1136__local_argv">__local_argv</dfn>)</td></tr>
+<tr><th id="24">24</th><td>{</td></tr>
+<tr><th id="25">25</th><td>  <b>return</b> <a class="ref" href="stdio.h.html#vsnwprintf" title='vsnwprintf' data-ref="vsnwprintf">vsnwprintf</a>( <a class="local col3 ref" href="#1133__stream" title='__stream' data-ref="1133__stream">__stream</a>, <a class="local col4 ref" href="#1134__count" title='__count' data-ref="1134__count">__count</a>, <a class="local col5 ref" href="#1135__format" title='__format' data-ref="1135__format">__format</a>, <a class="local col6 ref" href="#1136__local_argv" title='__local_argv' data-ref="1136__local_argv">__local_argv</a> );</td></tr>
+<tr><th id="26">26</th><td>}</td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><a class="macro" href="#14" title="static __attribute__ ((__unused__)) __inline__ __cdecl" data-ref="_M/__mingw_ovr">__mingw_ovr</a></td></tr>
+<tr><th id="29">29</th><td><i>/* __attribute__((__format__ (gnu_wprintf, 3, 4))) */</i> <a class="macro" href="_mingw.h.html#170" title="__attribute__ ((__nonnull__ (3)))" data-ref="_M/__MINGW_ATTRIB_NONNULL">__MINGW_ATTRIB_NONNULL</a>(<var>3</var>)</td></tr>
+<tr><th id="30">30</th><td><em>int</em> <dfn class="decl def" id="_Z8swprintfPwjPKwz" title='swprintf' data-ref="_Z8swprintfPwjPKwz">swprintf</dfn> (<em>wchar_t</em> *<dfn class="local col7 decl" id="1137__stream" title='__stream' data-type='wchar_t *' data-ref="1137__stream">__stream</dfn>, <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col8 decl" id="1138__count" title='__count' data-type='size_t' data-ref="1138__count">__count</dfn>, <em>const</em> <em>wchar_t</em> *<dfn class="local col9 decl" id="1139__format" title='__format' data-type='const wchar_t *' data-ref="1139__format">__format</dfn>, ...)</td></tr>
+<tr><th id="31">31</th><td>{</td></tr>
+<tr><th id="32">32</th><td>  <em>register</em> <em>int</em> <dfn class="local col0 decl" id="1140__retval" title='__retval' data-type='int' data-ref="1140__retval">__retval</dfn>;</td></tr>
+<tr><th id="33">33</th><td>  <span class='typedef' title='__builtin_va_list' data-type='char *' data-ref="__builtin_va_list">__builtin_va_list</span> <dfn class="local col1 decl" id="1141__local_argv" title='__local_argv' data-type='__builtin_va_list' data-ref="1141__local_argv">__local_argv</dfn>;</td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td>  <a class="ref" href="stdio.h.html#205" title='__builtin_va_start' data-ref="__builtin_va_start">__builtin_va_start</a>( <span class='refarg'><a class="local col1 ref" href="#1141__local_argv" title='__local_argv' data-ref="1141__local_argv">__local_argv</a></span>, <a class="local col9 ref" href="#1139__format" title='__format' data-ref="1139__format">__format</a> );</td></tr>
+<tr><th id="36">36</th><td>  <a class="local col0 ref" href="#1140__retval" title='__retval' data-ref="1140__retval">__retval</a> = <a class="ref" href="#_Z9vswprintfPwjPKwPc" title='vswprintf' data-ref="_Z9vswprintfPwjPKwPc">vswprintf</a>( <a class="local col7 ref" href="#1137__stream" title='__stream' data-ref="1137__stream">__stream</a>, <a class="local col8 ref" href="#1138__count" title='__count' data-ref="1138__count">__count</a>, <a class="local col9 ref" href="#1139__format" title='__format' data-ref="1139__format">__format</a>, <a class="local col1 ref" href="#1141__local_argv" title='__local_argv' data-ref="1141__local_argv">__local_argv</a> );</td></tr>
+<tr><th id="37">37</th><td>  <a class="ref" href="stdio.h.html#207" title='__builtin_va_end' data-ref="__builtin_va_end">__builtin_va_end</a>( <span class='refarg'><a class="local col1 ref" href="#1141__local_argv" title='__local_argv' data-ref="1141__local_argv">__local_argv</a></span> );</td></tr>
+<tr><th id="38">38</th><td>  <b>return</b> <a class="local col0 ref" href="#1140__retval" title='__retval' data-ref="1140__retval">__retval</a>;</td></tr>
+<tr><th id="39">39</th><td>}</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><u>#<span data-ppcond="41">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><b>extern</b> <q>"C++"</q> {</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><a class="macro" href="#14" title="static __attribute__ ((__unused__)) __inline__ __cdecl" data-ref="_M/__mingw_ovr">__mingw_ovr</a></td></tr>
+<tr><th id="46">46</th><td><i>/* __attribute__((__format__ (gnu_wprintf, 2, 0))) */</i> <a class="macro" href="_mingw.h.html#170" title="__attribute__ ((__nonnull__ (2)))" data-ref="_M/__MINGW_ATTRIB_NONNULL">__MINGW_ATTRIB_NONNULL</a>(<var>2</var>)</td></tr>
+<tr><th id="47">47</th><td><em>int</em> <dfn class="decl def" id="_Z9vswprintfPwPKwPc" title='vswprintf' data-ref="_Z9vswprintfPwPKwPc">vswprintf</dfn> (<em>wchar_t</em> *<dfn class="local col2 decl" id="1142__stream" title='__stream' data-type='wchar_t *' data-ref="1142__stream">__stream</dfn>, <em>const</em> <em>wchar_t</em> *<dfn class="local col3 decl" id="1143__format" title='__format' data-type='const wchar_t *' data-ref="1143__format">__format</dfn>, <span class='typedef' title='__builtin_va_list' data-type='char *' data-ref="__builtin_va_list">__builtin_va_list</span> <dfn class="local col4 decl" id="1144__local_argv" title='__local_argv' data-type='__builtin_va_list' data-ref="1144__local_argv">__local_argv</dfn>)</td></tr>
+<tr><th id="48">48</th><td>{</td></tr>
+<tr><th id="49">49</th><td><u>#<span data-ppcond="49">if</span> <span class="macro" title="1" data-ref="_M/__USE_MINGW_ANSI_STDIO">__USE_MINGW_ANSI_STDIO</span></u></td></tr>
+<tr><th id="50">50</th><td>  <b>return</b> <a class="ref" href="stdio.h.html#__mingw_vswprintf" title='__mingw_vswprintf' data-ref="__mingw_vswprintf">__mingw_vswprintf</a>( <a class="local col2 ref" href="#1142__stream" title='__stream' data-ref="1142__stream">__stream</a>, <a class="local col3 ref" href="#1143__format" title='__format' data-ref="1143__format">__format</a>, <a class="local col4 ref" href="#1144__local_argv" title='__local_argv' data-ref="1144__local_argv">__local_argv</a> );</td></tr>
+<tr><th id="51">51</th><td><u>#<span data-ppcond="49">else</span></u></td></tr>
+<tr><th id="52">52</th><td>  <b>return</b> _vswprintf( __stream, __format, __local_argv );</td></tr>
+<tr><th id="53">53</th><td><u>#<span data-ppcond="49">endif</span></u></td></tr>
+<tr><th id="54">54</th><td>}</td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><a class="macro" href="#14" title="static __attribute__ ((__unused__)) __inline__ __cdecl" data-ref="_M/__mingw_ovr">__mingw_ovr</a></td></tr>
+<tr><th id="57">57</th><td><i>/* __attribute__((__format__ (gnu_wprintf, 2, 3))) */</i> <a class="macro" href="_mingw.h.html#170" title="__attribute__ ((__nonnull__ (2)))" data-ref="_M/__MINGW_ATTRIB_NONNULL">__MINGW_ATTRIB_NONNULL</a>(<var>2</var>)</td></tr>
+<tr><th id="58">58</th><td><em>int</em> <dfn class="decl def" id="_Z8swprintfPwPKwz" title='swprintf' data-ref="_Z8swprintfPwPKwz">swprintf</dfn> (<em>wchar_t</em> *<dfn class="local col5 decl" id="1145__stream" title='__stream' data-type='wchar_t *' data-ref="1145__stream">__stream</dfn>, <em>const</em> <em>wchar_t</em> *<dfn class="local col6 decl" id="1146__format" title='__format' data-type='const wchar_t *' data-ref="1146__format">__format</dfn>, ...)</td></tr>
+<tr><th id="59">59</th><td>{</td></tr>
+<tr><th id="60">60</th><td>  <em>register</em> <em>int</em> <dfn class="local col7 decl" id="1147__retval" title='__retval' data-type='int' data-ref="1147__retval">__retval</dfn>;</td></tr>
+<tr><th id="61">61</th><td>  <span class='typedef' title='__builtin_va_list' data-type='char *' data-ref="__builtin_va_list">__builtin_va_list</span> <dfn class="local col8 decl" id="1148__local_argv" title='__local_argv' data-type='__builtin_va_list' data-ref="1148__local_argv">__local_argv</dfn>;</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td>  <a class="ref" href="stdio.h.html#205" title='__builtin_va_start' data-ref="__builtin_va_start">__builtin_va_start</a>( <span class='refarg'><a class="local col8 ref" href="#1148__local_argv" title='__local_argv' data-ref="1148__local_argv">__local_argv</a></span>, <a class="local col6 ref" href="#1146__format" title='__format' data-ref="1146__format">__format</a> );</td></tr>
+<tr><th id="64">64</th><td>  <a class="local col7 ref" href="#1147__retval" title='__retval' data-ref="1147__retval">__retval</a> = <a class="ref" href="#_Z9vswprintfPwPKwPc" title='vswprintf' data-ref="_Z9vswprintfPwPKwPc">vswprintf</a>( <a class="local col5 ref" href="#1145__stream" title='__stream' data-ref="1145__stream">__stream</a>, <a class="local col6 ref" href="#1146__format" title='__format' data-ref="1146__format">__format</a>, <a class="local col8 ref" href="#1148__local_argv" title='__local_argv' data-ref="1148__local_argv">__local_argv</a> );</td></tr>
+<tr><th id="65">65</th><td>  <a class="ref" href="stdio.h.html#207" title='__builtin_va_end' data-ref="__builtin_va_end">__builtin_va_end</a>( <span class='refarg'><a class="local col8 ref" href="#1148__local_argv" title='__local_argv' data-ref="1148__local_argv">__local_argv</a></span> );</td></tr>
+<tr><th id="66">66</th><td>  <b>return</b> <a class="local col7 ref" href="#1147__retval" title='__retval' data-ref="1147__retval">__retval</a>;</td></tr>
+<tr><th id="67">67</th><td>}</td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td>}</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><u>#<span data-ppcond="41">elif</span> defined(_CRT_NON_CONFORMING_SWPRINTFS)</u></td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td><u>#if __USE_MINGW_ANSI_STDIO</u></td></tr>
+<tr><th id="74">74</th><td><u>#define swprintf __mingw_swprintf</u></td></tr>
+<tr><th id="75">75</th><td><u>#define vswprintf __mingw_vswprintf</u></td></tr>
+<tr><th id="76">76</th><td><u>#else</u></td></tr>
+<tr><th id="77">77</th><td><u>#define swprintf _swprintf</u></td></tr>
+<tr><th id="78">78</th><td><u>#define vswprintf _vswprintf</u></td></tr>
+<tr><th id="79">79</th><td><u>#endif</u></td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td><u>#<span data-ppcond="41">endif</span> /* __cplusplus */</u></td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td><u>#<span data-ppcond="7">endif</span> /* _INC_SWPRINTF_INL */</u></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

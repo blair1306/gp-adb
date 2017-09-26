@@ -1,0 +1,20 @@
+<dec f='codebrowser/external/boringssl/src/include/openssl/sha.h' l='154'/>
+<use f='codebrowser/external/boringssl/src/include/openssl/ssl.h' l='3406' u='c'/>
+<doc f='codebrowser/external/boringssl/src/include/openssl/sha.h' l='153'>/* SHA256_DIGEST_LENGTH is the length of a SHA-256 digest. */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/cipher/e_aes.c' l='1588' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/cipher/e_aes.c' l='1613' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/cipher/e_aes.c' l='1672' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/cipher/e_aes.c' l='1706' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/cipher/e_tls.c' l='522' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/cipher/e_tls.c' l='524' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/cipher/e_tls.c' l='525' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/cipher/e_tls.c' l='564' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/cipher/e_tls.c' l='566' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/cipher/e_tls.c' l='567' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/digest/digests.c' l='170' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/dsa/dsa.c' l='138' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/dsa/dsa.c' l='139' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/dsa/dsa.c' l='140' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/dsa/dsa.c' l='140' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/sha/sha256.c' l='94' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/sha/sha256.c' l='115' u='c'/>

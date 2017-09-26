@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='94' ll='101'/>
+<size>1064</size>
+<mbr r='_wfinddata32i64_t::attrib' o='0' t='unsigned int'/>
+<mbr r='_wfinddata32i64_t::time_create' o='32' t='__time32_t'/>
+<mbr r='_wfinddata32i64_t::time_access' o='64' t='__time32_t'/>
+<mbr r='_wfinddata32i64_t::time_write' o='96' t='__time32_t'/>
+<mbr r='_wfinddata32i64_t::size' o='128' t='long long'/>
+<mbr r='_wfinddata32i64_t::name' o='192' t='wchar_t [260]'/>

@@ -1,0 +1,1 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='378' type='bool AdbGetDefaultBulkReadEndpointInformation(ADBAPIHANDLE adb_interface, AdbEndpointInformation * info)'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='664' ll='678' type='int network_connect(const std::string &amp; host, int port, int type, int timeout, std::string * error)'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='145' u='c' c='_Z12_adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='285' u='c' c='_Z13service_to_fdPKcPK10atransport'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='413' u='c' c='_ZL14connect_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='103' u='c' c='_Z29local_connect_arbitrary_portsiiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>

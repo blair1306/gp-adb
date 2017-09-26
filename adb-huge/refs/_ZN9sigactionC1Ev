@@ -1,0 +1,2 @@
+<use f='codebrowser/system/core/adb/commandline.cpp' l='663' u='c' c='_ZL11RemoteShellbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEcS7_'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='586' u='c' c='_Z8usb_initv'/>

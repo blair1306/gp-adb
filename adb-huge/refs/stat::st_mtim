@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stat.h' l='92' type='struct timespec'/>
+<offset>704</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stat.h' l='92'>/* Time of last modification.  */</doc>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='633' macro='1' u='m'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='793' macro='1' u='m'/>

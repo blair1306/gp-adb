@@ -1,0 +1,5 @@
+_Z17_fd_set_error_striPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE|_fd_set_error_str
+_findfirst64i32|_findfirst64i32
+_findnext64i32|_findnext64i32
+_Z6_freeaPv|_freea
+_fstat64i32|_fstat64i32

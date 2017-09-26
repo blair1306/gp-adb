@@ -1,0 +1,22 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/asm-generic/errno-base.h' l='12'/>
+<use f='codebrowser/external/libcxx/include/cerrno' l='269' u='a'/>
+<use f='codebrowser/external/libcxx/include/system_error' l='258' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/errno.h' l='33'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='210' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='219' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1057' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1091' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1116' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1137' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1214' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1236' u='c'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='569' u='c'/>
+<use f='codebrowser/system/core/liblog/fake_writer.c' l='72' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='93' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='108' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='151' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='187' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='213' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='254' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='277' u='c'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='314' u='c'/>

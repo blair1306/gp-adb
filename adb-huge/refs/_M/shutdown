@@ -1,0 +1,14 @@
+<dec f='codebrowser/system/core/adb/sysdeps.h' l='574'/>
+<use f='codebrowser/system/core/adb/socket.h' l='90' u='c'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='246' u='c'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='247' u='c'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='424' u='c'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='546' u='c'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='578' u='c'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='590' u='c'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='791' u='c'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='829' u='c'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='875' u='c'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='991' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='720' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1142' u='c'/>

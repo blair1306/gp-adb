@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='1032' type='LONGLONG InterlockedExchangeAdd64(volatile LONGLONG * Addend, LONGLONG Value)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='1083' ll='1089' macro='1' type='LONGLONG InterlockedExchangeAdd64(volatile LONGLONG * Addend, LONGLONG Value)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='4096' u='c' c='_Z22InterlockedExchangeAddPVyy'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='4100' u='c' c='_Z27InterlockedExchangeSubtractPVyy'/>

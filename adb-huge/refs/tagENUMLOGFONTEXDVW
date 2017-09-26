@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2995' ll='2998'/>
+<size>740</size>
+<mbr r='tagENUMLOGFONTEXDVW::elfEnumLogfontEx' o='0' t='ENUMLOGFONTEXW'/>
+<mbr r='tagENUMLOGFONTEXDVW::elfDesignVector' o='5344' t='DESIGNVECTOR'/>

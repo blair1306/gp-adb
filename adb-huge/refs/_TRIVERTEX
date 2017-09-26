@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3126' ll='3133'/>
+<size>16</size>
+<mbr r='_TRIVERTEX::x' o='0' t='LONG'/>
+<mbr r='_TRIVERTEX::y' o='32' t='LONG'/>
+<mbr r='_TRIVERTEX::Red' o='64' t='COLOR16'/>
+<mbr r='_TRIVERTEX::Green' o='80' t='COLOR16'/>
+<mbr r='_TRIVERTEX::Blue' o='96' t='COLOR16'/>
+<mbr r='_TRIVERTEX::Alpha' o='112' t='COLOR16'/>

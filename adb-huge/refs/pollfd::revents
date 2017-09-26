@@ -1,0 +1,14 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/poll.h' l='44' type='short'/>
+<offset>48</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/poll.h' l='44'>/* Types of events that actually occurred.  */</doc>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='248' u='r' c='_ZL15fdevent_processv'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='249' u='r' c='_ZL15fdevent_processv'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='252' u='r' c='_ZL15fdevent_processv'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='255' u='r' c='_ZL15fdevent_processv'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='258' u='r' c='_ZL15fdevent_processv'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='264' u='r' c='_ZL15fdevent_processv'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='382' u='r' c='_ZL14wait_for_stateiPv'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='1149' type='short'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='673' u='w' c='_ZL8adb_pollP6pollfdji'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='705' u='r' c='_ZL8adb_pollP6pollfdji'/>
+<offset>48</offset>

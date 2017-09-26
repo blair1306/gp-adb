@@ -1,0 +1,5 @@
+_Z5fatalPKcz|fatal
+_Z11fatal_errnoPKcz|fatal_errno
+fakeLogClose|fakeLogClose
+fakeLogOpen|fakeLogOpen
+fakeLogWritev|fakeLogWritev

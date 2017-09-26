@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='215' type='int local_connect_arbitrary_ports(int console_port, int adb_port, std::string * error)'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='476' u='c' c='_Z16connect_emulatorRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='90' u='c' c='_Z13local_connecti'/>
+<def f='codebrowser/system/core/adb/transport_local.cpp' l='93' ll='121' type='int local_connect_arbitrary_ports(int console_port, int adb_port, std::string * error)'/>

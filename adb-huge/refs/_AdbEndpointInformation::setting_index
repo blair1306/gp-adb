@@ -1,0 +1,3 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='80' type='unsigned char'/>
+<offset>112</offset>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='79'>/// Which alternate setting this structure is relevant for.</doc>

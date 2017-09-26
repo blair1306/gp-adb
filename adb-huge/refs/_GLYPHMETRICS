@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2465' ll='2471'/>
+<size>20</size>
+<mbr r='_GLYPHMETRICS::gmBlackBoxX' o='0' t='UINT'/>
+<mbr r='_GLYPHMETRICS::gmBlackBoxY' o='32' t='UINT'/>
+<mbr r='_GLYPHMETRICS::gmptGlyphOrigin' o='64' t='POINT'/>
+<mbr r='_GLYPHMETRICS::gmCellIncX' o='128' t='short'/>
+<mbr r='_GLYPHMETRICS::gmCellIncY' o='144' t='short'/>

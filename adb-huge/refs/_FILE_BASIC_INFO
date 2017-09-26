@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='3123' ll='3129'/>
+<size>36</size>
+<mbr r='_FILE_BASIC_INFO::CreationTime' o='0' t='LARGE_INTEGER'/>
+<mbr r='_FILE_BASIC_INFO::LastAccessTime' o='64' t='LARGE_INTEGER'/>
+<mbr r='_FILE_BASIC_INFO::LastWriteTime' o='128' t='LARGE_INTEGER'/>
+<mbr r='_FILE_BASIC_INFO::ChangeTime' o='192' t='LARGE_INTEGER'/>
+<mbr r='_FILE_BASIC_INFO::FileAttributes' o='256' t='DWORD'/>

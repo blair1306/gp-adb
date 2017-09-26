@@ -1,0 +1,11 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/math.h' l='411'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/math.h' l='434' u='a'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='458' u='a'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='465' u='c'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='468' u='w'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/math.h' l='405'>/* ISO C99 defines some macros to compare number while taking care for
+   unordered numbers.  Many FPUs provide special instructions to support
+   these operations.  Generic support in GCC for these as builtins went
+   in before 3.0.0, but not all cpus added their patterns.  We define
+   versions that use the builtins here, and &lt;bits/mathinline.h&gt; will
+   undef/redefine as appropriate for the specific GCC version in use.  */</doc>

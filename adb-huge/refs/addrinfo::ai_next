@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='578' type='struct addrinfo *'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='61' u='r' c='bio_ip_and_port_to_socket_and_addr'/>
+<offset>320</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='578'>/* Pointer to next in list.  */</doc>

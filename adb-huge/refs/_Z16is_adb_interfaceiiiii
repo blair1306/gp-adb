@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='226' type='int is_adb_interface(int vid, int pid, int usb_class, int usb_subclass, int usb_protocol)'/>
+<def f='codebrowser/system/core/adb/transport_usb.cpp' l='97' ll='100' type='int is_adb_interface(int vid, int pid, int usb_class, int usb_subclass, int usb_protocol)'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='208' u='c' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='559' u='c' c='_Z17recognized_deviceP10usb_handle'/>

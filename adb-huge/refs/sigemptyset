@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='222' type='int sigemptyset(sigset_t * __set)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='221'>/* Clear all signals from SET.  */</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='491' u='c' c='_ZL22stdin_read_thread_loopPv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='503' u='c' c='_ZL22stdin_read_thread_loopPv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='673' u='c' c='_ZL11RemoteShellbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEcS7_'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='588' u='c' c='_Z8usb_initv'/>

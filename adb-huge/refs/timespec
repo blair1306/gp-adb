@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='120' ll='124'/>
+<size>16</size>
+<mbr r='timespec::tv_sec' o='0' t='__time_t'/>
+<mbr r='timespec::tv_nsec' o='64' t='long'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/types.h' l='89' ll='92'/>
+<size>12</size>
+<mbr r='timespec::tv_sec' o='0' t='time_t'/>
+<mbr r='timespec::tv_nsec' o='64' t='long'/>

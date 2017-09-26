@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='338' type='int mknod(const char * __path, __mode_t __mode, __dev_t __dev)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='484' ll='488' macro='1' type='int mknod(const char * __path, __mode_t __mode, __dev_t __dev)'/>

@@ -1,0 +1,12 @@
+vsnprintf|vsnprintf
+vsprintf|vsprintf
+_Z6vscanfPKcPc|vscanf
+_Z9vsnprintfPcjPKcS_|vsnprintf
+_Z11vsnprintf_sRAT__cjPKcPc|vsnprintf_s
+vsnwprintf|vsnwprintf
+_Z8vsprintfPcPKcS_|vsprintf
+_Z10vsprintf_sRAT__cPKcPc|vsprintf_s
+_Z7vsscanfPKcS0_Pc|vsscanf
+_Z9vswprintfPwjPKwPc|vswprintf
+_Z11vswprintf_sRAT__wPKwPc|vswprintf_s
+vswscanf|vswscanf

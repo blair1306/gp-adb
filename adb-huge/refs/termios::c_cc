@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/termios.h' l='36' type='cc_t [32]'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='273' u='w' c='_ZL14stdin_raw_initv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='274' u='w' c='_ZL14stdin_raw_initv'/>
+<offset>136</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/termios.h' l='36'>/* control characters */</doc>

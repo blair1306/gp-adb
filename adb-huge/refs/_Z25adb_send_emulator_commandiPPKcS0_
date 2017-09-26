@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/adb/adb_client.h' l='54' type='int adb_send_emulator_command(int argc, const char * _Nonnull * _Nonnull argv, const char * _Nullable serial)'/>
+<doc f='codebrowser/system/core/adb/adb_client.h' l='51'>// Send commands to the current emulator instance. Will fail if there is not
+// exactly one emulator connected (or if you use -s &lt;serial&gt; with a &lt;serial&gt;
+// that does not designate an emulator).</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1615' u='c' c='_Z15adb_commandlineiPPKc'/>
+<def f='codebrowser/system/core/adb/console.cpp' l='85' ll='129' type='int adb_send_emulator_command(int argc, const char ** _Nonnull argv, const char * _Nullable serial)'/>

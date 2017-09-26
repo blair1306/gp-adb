@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5597' ll='5608'/>
+<size>16</size>
+<mbr r='_FPO_DATA::ulOffStart' o='0' t='DWORD'/>
+<mbr r='_FPO_DATA::cbProcSize' o='32' t='DWORD'/>
+<mbr r='_FPO_DATA::cdwLocals' o='64' t='DWORD'/>
+<mbr r='_FPO_DATA::cdwParams' o='96' t='WORD'/>
+<mbr r='_FPO_DATA::cbProlog' o='112' t='WORD'/>
+<mbr r='_FPO_DATA::cbRegs' o='120' t='WORD'/>
+<mbr r='_FPO_DATA::fHasSEH' o='123' t='WORD'/>
+<mbr r='_FPO_DATA::fUseBP' o='124' t='WORD'/>
+<mbr r='_FPO_DATA::reserved' o='125' t='WORD'/>
+<mbr r='_FPO_DATA::cbFrame' o='126' t='WORD'/>

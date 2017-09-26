@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='2606' ll='2611'/>
+<size>12</size>
+<mbr r='_SID::Revision' o='0' t='BYTE'/>
+<mbr r='_SID::SubAuthorityCount' o='8' t='BYTE'/>
+<mbr r='_SID::IdentifierAuthority' o='16' t='SID_IDENTIFIER_AUTHORITY'/>
+<mbr r='_SID::SubAuthority' o='64' t='DWORD [1]'/>

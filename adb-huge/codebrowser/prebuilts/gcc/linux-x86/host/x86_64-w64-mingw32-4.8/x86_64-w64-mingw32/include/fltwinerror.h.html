@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>fltwinerror.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/fltwinerror.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/fltwinerror.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='fltwinerror.h.html'>fltwinerror.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER within this package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/_FLT_WINERROR_">_FLT_WINERROR_</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/_FLT_WINERROR_" data-ref="_M/_FLT_WINERROR_">_FLT_WINERROR_</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#<span data-ppcond="9">if</span> <a class="macro" href="sdkddkver.h.html#147" title="0x06000000" data-ref="_M/NTDDI_VERSION">NTDDI_VERSION</a> &lt; <a class="macro" href="sdkddkver.h.html#110" title="0x06000000" data-ref="_M/NTDDI_VISTA">NTDDI_VISTA</a> || defined (<a class="macro" href="winerror.h.html#9" data-ref="_M/__IN__WINERROR_">__IN__WINERROR_</a>)</u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#define <dfn class="macro" id="_M/FILTER_HRESULT_FROM_FLT_NTSTATUS" data-ref="_M/FILTER_HRESULT_FROM_FLT_NTSTATUS">FILTER_HRESULT_FROM_FLT_NTSTATUS</dfn>(x) (NT_ASSERT((x &amp; 0xfff0000) == 0x001c0000),(HRESULT) (((x) &amp; 0x8000ffff) | (FACILITY_USERMODE_FILTER_MANAGER &lt;&lt; 16)))</u></td></tr>
+<tr><th id="12">12</th><td><u>#define <dfn class="macro" id="_M/FACILITY_USERMODE_FILTER_MANAGER" data-ref="_M/FACILITY_USERMODE_FILTER_MANAGER">FACILITY_USERMODE_FILTER_MANAGER</dfn> 0x1f</u></td></tr>
+<tr><th id="13">13</th><td></td></tr>
+<tr><th id="14">14</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_IO_COMPLETE" data-ref="_M/ERROR_FLT_IO_COMPLETE">ERROR_FLT_IO_COMPLETE</dfn>			((HRESULT)0x001f0001)</u></td></tr>
+<tr><th id="15">15</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_NO_HANDLER_DEFINED" data-ref="_M/ERROR_FLT_NO_HANDLER_DEFINED">ERROR_FLT_NO_HANDLER_DEFINED</dfn>		((HRESULT)0x801f0001)</u></td></tr>
+<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_CONTEXT_ALREADY_DEFINED" data-ref="_M/ERROR_FLT_CONTEXT_ALREADY_DEFINED">ERROR_FLT_CONTEXT_ALREADY_DEFINED</dfn>	((HRESULT)0x801f0002)</u></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_INVALID_ASYNCHRONOUS_REQUEST" data-ref="_M/ERROR_FLT_INVALID_ASYNCHRONOUS_REQUEST">ERROR_FLT_INVALID_ASYNCHRONOUS_REQUEST</dfn>	((HRESULT)0x801f0003)</u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_DISALLOW_FAST_IO" data-ref="_M/ERROR_FLT_DISALLOW_FAST_IO">ERROR_FLT_DISALLOW_FAST_IO</dfn>		((HRESULT)0x801f0004)</u></td></tr>
+<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_INVALID_NAME_REQUEST" data-ref="_M/ERROR_FLT_INVALID_NAME_REQUEST">ERROR_FLT_INVALID_NAME_REQUEST</dfn>		((HRESULT)0x801f0005)</u></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_NOT_SAFE_TO_POST_OPERATION" data-ref="_M/ERROR_FLT_NOT_SAFE_TO_POST_OPERATION">ERROR_FLT_NOT_SAFE_TO_POST_OPERATION</dfn>	((HRESULT)0x801f0006)</u></td></tr>
+<tr><th id="21">21</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_NOT_INITIALIZED" data-ref="_M/ERROR_FLT_NOT_INITIALIZED">ERROR_FLT_NOT_INITIALIZED</dfn>		((HRESULT)0x801f0007)</u></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_FILTER_NOT_READY" data-ref="_M/ERROR_FLT_FILTER_NOT_READY">ERROR_FLT_FILTER_NOT_READY</dfn>		((HRESULT)0x801f0008)</u></td></tr>
+<tr><th id="23">23</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_POST_OPERATION_CLEANUP" data-ref="_M/ERROR_FLT_POST_OPERATION_CLEANUP">ERROR_FLT_POST_OPERATION_CLEANUP</dfn>	((HRESULT)0x801f0009)</u></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_INTERNAL_ERROR" data-ref="_M/ERROR_FLT_INTERNAL_ERROR">ERROR_FLT_INTERNAL_ERROR</dfn>		((HRESULT)0x801f000a)</u></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_DELETING_OBJECT" data-ref="_M/ERROR_FLT_DELETING_OBJECT">ERROR_FLT_DELETING_OBJECT</dfn>		((HRESULT)0x801f000b)</u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_MUST_BE_NONPAGED_POOL" data-ref="_M/ERROR_FLT_MUST_BE_NONPAGED_POOL">ERROR_FLT_MUST_BE_NONPAGED_POOL</dfn>		((HRESULT)0x801f000c)</u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_DUPLICATE_ENTRY" data-ref="_M/ERROR_FLT_DUPLICATE_ENTRY">ERROR_FLT_DUPLICATE_ENTRY</dfn>		((HRESULT)0x801f000d)</u></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_CBDQ_DISABLED" data-ref="_M/ERROR_FLT_CBDQ_DISABLED">ERROR_FLT_CBDQ_DISABLED</dfn>			((HRESULT)0x801f000e)</u></td></tr>
+<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_DO_NOT_ATTACH" data-ref="_M/ERROR_FLT_DO_NOT_ATTACH">ERROR_FLT_DO_NOT_ATTACH</dfn>			((HRESULT)0x801f000f)</u></td></tr>
+<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_DO_NOT_DETACH" data-ref="_M/ERROR_FLT_DO_NOT_DETACH">ERROR_FLT_DO_NOT_DETACH</dfn>			((HRESULT)0x801f0010)</u></td></tr>
+<tr><th id="31">31</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_INSTANCE_ALTITUDE_COLLISION" data-ref="_M/ERROR_FLT_INSTANCE_ALTITUDE_COLLISION">ERROR_FLT_INSTANCE_ALTITUDE_COLLISION</dfn>	((HRESULT)0x801f0011)</u></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_INSTANCE_NAME_COLLISION" data-ref="_M/ERROR_FLT_INSTANCE_NAME_COLLISION">ERROR_FLT_INSTANCE_NAME_COLLISION</dfn>	((HRESULT)0x801f0012)</u></td></tr>
+<tr><th id="33">33</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_FILTER_NOT_FOUND" data-ref="_M/ERROR_FLT_FILTER_NOT_FOUND">ERROR_FLT_FILTER_NOT_FOUND</dfn>		((HRESULT)0x801f0013)</u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_VOLUME_NOT_FOUND" data-ref="_M/ERROR_FLT_VOLUME_NOT_FOUND">ERROR_FLT_VOLUME_NOT_FOUND</dfn>		((HRESULT)0x801f0014)</u></td></tr>
+<tr><th id="35">35</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_INSTANCE_NOT_FOUND" data-ref="_M/ERROR_FLT_INSTANCE_NOT_FOUND">ERROR_FLT_INSTANCE_NOT_FOUND</dfn>		((HRESULT)0x801f0015)</u></td></tr>
+<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_CONTEXT_ALLOCATION_NOT_FOUND" data-ref="_M/ERROR_FLT_CONTEXT_ALLOCATION_NOT_FOUND">ERROR_FLT_CONTEXT_ALLOCATION_NOT_FOUND</dfn>	((HRESULT)0x801f0016)</u></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_INVALID_CONTEXT_REGISTRATION" data-ref="_M/ERROR_FLT_INVALID_CONTEXT_REGISTRATION">ERROR_FLT_INVALID_CONTEXT_REGISTRATION</dfn>	((HRESULT)0x801f0017)</u></td></tr>
+<tr><th id="38">38</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_NAME_CACHE_MISS" data-ref="_M/ERROR_FLT_NAME_CACHE_MISS">ERROR_FLT_NAME_CACHE_MISS</dfn>		((HRESULT)0x801f0018)</u></td></tr>
+<tr><th id="39">39</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_NO_DEVICE_OBJECT" data-ref="_M/ERROR_FLT_NO_DEVICE_OBJECT">ERROR_FLT_NO_DEVICE_OBJECT</dfn>		((HRESULT)0x801f0019)</u></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_VOLUME_ALREADY_MOUNTED" data-ref="_M/ERROR_FLT_VOLUME_ALREADY_MOUNTED">ERROR_FLT_VOLUME_ALREADY_MOUNTED</dfn>	((HRESULT)0x801f001a)</u></td></tr>
+<tr><th id="41">41</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_ALREADY_ENLISTED" data-ref="_M/ERROR_FLT_ALREADY_ENLISTED">ERROR_FLT_ALREADY_ENLISTED</dfn>		((HRESULT)0x801f001b)</u></td></tr>
+<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_CONTEXT_ALREADY_LINKED" data-ref="_M/ERROR_FLT_CONTEXT_ALREADY_LINKED">ERROR_FLT_CONTEXT_ALREADY_LINKED</dfn>	((HRESULT)0x801F001c)</u></td></tr>
+<tr><th id="43">43</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_NO_WAITER_FOR_REPLY" data-ref="_M/ERROR_FLT_NO_WAITER_FOR_REPLY">ERROR_FLT_NO_WAITER_FOR_REPLY</dfn>		((HRESULT)0x801f0020)</u></td></tr>
+<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/ERROR_FLT_REGISTRATION_BUSY" data-ref="_M/ERROR_FLT_REGISTRATION_BUSY">ERROR_FLT_REGISTRATION_BUSY</dfn>		((HRESULT)0x801F0023)</u></td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><u>#<span data-ppcond="9">endif</span></u></td></tr>
+<tr><th id="47">47</th><td><u>#<span data-ppcond="6">endif</span></u></td></tr>
+<tr><th id="48">48</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

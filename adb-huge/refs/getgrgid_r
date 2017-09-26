@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/grp.h' l='146' type='int getgrgid_r(__gid_t __gid, struct group *__restrict __resultbuf, char *__restrict __buffer, size_t __buflen, struct group **__restrict __result)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/grp.h' l='142'>/* Search for an entry with a matching group ID.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>

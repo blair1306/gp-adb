@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='996' ll='1004'/>
+<size>28</size>
+<mbr r='tagEXTLOGPEN::elpPenStyle' o='0' t='DWORD'/>
+<mbr r='tagEXTLOGPEN::elpWidth' o='32' t='DWORD'/>
+<mbr r='tagEXTLOGPEN::elpBrushStyle' o='64' t='UINT'/>
+<mbr r='tagEXTLOGPEN::elpColor' o='96' t='COLORREF'/>
+<mbr r='tagEXTLOGPEN::elpHatch' o='128' t='ULONG_PTR'/>
+<mbr r='tagEXTLOGPEN::elpNumEntries' o='160' t='DWORD'/>
+<mbr r='tagEXTLOGPEN::elpStyleEntry' o='192' t='DWORD [1]'/>

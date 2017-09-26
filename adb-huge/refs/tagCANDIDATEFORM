@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/imm.h' l='33' ll='38'/>
+<size>32</size>
+<mbr r='tagCANDIDATEFORM::dwIndex' o='0' t='DWORD'/>
+<mbr r='tagCANDIDATEFORM::dwStyle' o='32' t='DWORD'/>
+<mbr r='tagCANDIDATEFORM::ptCurrentPos' o='64' t='POINT'/>
+<mbr r='tagCANDIDATEFORM::rcArea' o='128' t='RECT'/>

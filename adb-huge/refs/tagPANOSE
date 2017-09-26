@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='1235' ll='1246'/>
+<size>10</size>
+<mbr r='tagPANOSE::bFamilyType' o='0' t='BYTE'/>
+<mbr r='tagPANOSE::bSerifStyle' o='8' t='BYTE'/>
+<mbr r='tagPANOSE::bWeight' o='16' t='BYTE'/>
+<mbr r='tagPANOSE::bProportion' o='24' t='BYTE'/>
+<mbr r='tagPANOSE::bContrast' o='32' t='BYTE'/>
+<mbr r='tagPANOSE::bStrokeVariation' o='40' t='BYTE'/>
+<mbr r='tagPANOSE::bArmStyle' o='48' t='BYTE'/>
+<mbr r='tagPANOSE::bLetterform' o='56' t='BYTE'/>
+<mbr r='tagPANOSE::bMidline' o='64' t='BYTE'/>
+<mbr r='tagPANOSE::bXHeight' o='72' t='BYTE'/>

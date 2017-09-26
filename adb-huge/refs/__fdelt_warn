@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/select2.h' l='26' type='unsigned long __fdelt_warn(unsigned long __d)'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='85' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='103' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='103' macro='1' u='c'/>

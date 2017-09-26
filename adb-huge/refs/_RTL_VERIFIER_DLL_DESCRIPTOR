@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6019' ll='6024'/>
+<size>16</size>
+<mbr r='_RTL_VERIFIER_DLL_DESCRIPTOR::DllName' o='0' t='PWCHAR'/>
+<mbr r='_RTL_VERIFIER_DLL_DESCRIPTOR::DllFlags' o='32' t='DWORD'/>
+<mbr r='_RTL_VERIFIER_DLL_DESCRIPTOR::DllAddress' o='64' t='PVOID'/>
+<mbr r='_RTL_VERIFIER_DLL_DESCRIPTOR::DllThunks' o='96' t='PRTL_VERIFIER_THUNK_DESCRIPTOR'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='1661' ll='1664'/>
+<size>8</size>
+<mbr r='tagSTYLESTRUCT::styleOld' o='0' t='DWORD'/>
+<mbr r='tagSTYLESTRUCT::styleNew' o='32' t='DWORD'/>

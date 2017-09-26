@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='428' type='int drand48_r(struct drand48_data *restrict __buffer, double *restrict __result)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='427'>/* Return non-negative, double-precision floating-point value in [0.0,1.0).  */</doc>

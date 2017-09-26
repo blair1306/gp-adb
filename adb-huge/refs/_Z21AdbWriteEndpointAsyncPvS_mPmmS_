@@ -1,0 +1,17 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='515' type='ADBAPIHANDLE AdbWriteEndpointAsync(ADBAPIHANDLE adb_endpoint, void * buffer, unsigned long bytes_to_write, unsigned long * bytes_written, unsigned long time_out, HANDLE event_handle)'/>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='499'>/** \brief Asynchronously writes to the given endpoint.
+
+  @param[in] adb_endpoint A handle to opened endpoint object, obtained via one
+         of the AdbOpenXxxEndpoint calls.
+  @param[in] buffer Pointer to the buffer containing the data to be written.
+  @param[in] bytes_to_write Number of bytes to be written.
+  @param[out] bytes_written Number of bytes written. Can be NULL.
+  @param[in] event_handle Event handle that should be signaled when async I/O
+         completes. Can be NULL. If it&apos;s not NULL this handle will be used to
+         initialize OVERLAPPED structure for this I/O.
+  @param[in] time_out A timeout (in milliseconds) required for this I/O to
+         complete. Zero value for this parameter means that there is no
+         timeout for this I/O.
+  @return A handle to IO completion object or NULL on failure. If NULL is
+          returned GetLastError() provides extended error information.
+*/</doc>

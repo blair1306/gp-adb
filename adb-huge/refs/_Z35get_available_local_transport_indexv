@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='158' type='int get_available_local_transport_index()'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='468' u='c' c='_Z16connect_emulatorRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<def f='codebrowser/system/core/adb/transport_local.cpp' l='378' ll='384' type='int get_available_local_transport_index()'/>

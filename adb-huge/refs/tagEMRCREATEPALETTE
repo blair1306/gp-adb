@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3973' ll='3977'/>
+<size>20</size>
+<mbr r='tagEMRCREATEPALETTE::emr' o='0' t='EMR'/>
+<mbr r='tagEMRCREATEPALETTE::ihPal' o='64' t='DWORD'/>
+<mbr r='tagEMRCREATEPALETTE::lgpl' o='96' t='LOGPALETTE'/>

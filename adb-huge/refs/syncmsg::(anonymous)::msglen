@@ -1,0 +1,5 @@
+<dec f='codebrowser/system/core/adb/file_sync_service.h' l='62' type='uint32_t'/>
+<offset>32</offset>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='288' u='r' c='_ZN14SyncConnection17ReportCopyFailureEPKcS1_RK7syncmsg'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='289' u='r' c='_ZN14SyncConnection17ReportCopyFailureEPKcS1_RK7syncmsg'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='294' u='r' c='_ZN14SyncConnection17ReportCopyFailureEPKcS1_RK7syncmsg'/>

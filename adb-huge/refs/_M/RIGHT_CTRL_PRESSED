@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='41'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1398' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1588' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1590' u='c'/>

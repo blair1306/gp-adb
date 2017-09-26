@@ -1,0 +1,8 @@
+<dec f='codebrowser/system/core/adb/adb_client.h' l='59' type='bool adb_status(int fd, std::string * _Nonnull error)'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='104' u='c' c='_ZL23switch_socket_transportiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<def f='codebrowser/system/core/adb/adb_client.cpp' l='113' ll='132' macro='1' type='bool adb_status(int fd, std::string * _Nonnull error)'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='171' u='c' c='_Z12_adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='279' u='c' c='_Z11adb_commandRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='823' u='c' c='_ZL19adb_download_bufferPKcS0_PKvjb'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='839' u='c' c='_ZL19adb_download_bufferPKcS0_PKvjb'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='930' u='c' c='_ZL17adb_sideload_hostPKc'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3664' ll='3667'/>
+<size>24</size>
+<mbr r='tagEMRFILLPATH::emr' o='0' t='EMR'/>
+<mbr r='tagEMRFILLPATH::rclBounds' o='64' t='RECTL'/>

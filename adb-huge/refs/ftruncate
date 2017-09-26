@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='1040' type='int ftruncate(int __fd, __off_t __length)'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/unistd.h' l='48' type='int ftruncate(int , off32_t )'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/unistd.h' l='53' ll='56' macro='1' type='int ftruncate(int __fd, off32_t __length)'/>
+<use f='codebrowser/system/core/libcutils/ashmem-host.c' l='50' u='c' c='ashmem_create_region'/>
+<use f='codebrowser/system/core/libcutils/ashmem-host.c' l='50' u='c' c='ashmem_create_region'/>

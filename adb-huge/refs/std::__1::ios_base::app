@@ -1,0 +1,5 @@
+<dec f='codebrowser/external/libcxx/include/ios' l='265' type='const openmode'/>
+<def f='codebrowser/external/libcxx/src/ios.cpp' l='120' type='const ios_base::openmode'/>
+<use f='codebrowser/external/libcxx/include/strstream' l='294' u='r' c='_ZNSt3__110ostrstreamC1EPcij'/>
+<use f='codebrowser/external/libcxx/include/strstream' l='354' u='r' c='_ZNSt3__19strstreamC1EPcij'/>
+<use f='codebrowser/external/libcxx/include/sstream' l='471' u='r' c='_ZNSt3__115basic_stringbuf3strERKNS_12basic_stringIT_T0_T1_EE'/>

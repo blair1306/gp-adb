@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='124' type='size_t wcsnlen(const wchar_t * _Src, size_t _MaxCount)'/>

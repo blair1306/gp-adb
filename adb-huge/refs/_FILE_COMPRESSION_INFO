@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='3131' ll='3138'/>
+<size>16</size>
+<mbr r='_FILE_COMPRESSION_INFO::CompressedFileSize' o='0' t='LARGE_INTEGER'/>
+<mbr r='_FILE_COMPRESSION_INFO::CompressionFormat' o='64' t='WORD'/>
+<mbr r='_FILE_COMPRESSION_INFO::CompressionUnitShift' o='80' t='UCHAR'/>
+<mbr r='_FILE_COMPRESSION_INFO::ChunkShift' o='88' t='UCHAR'/>
+<mbr r='_FILE_COMPRESSION_INFO::ClusterShift' o='96' t='UCHAR'/>
+<mbr r='_FILE_COMPRESSION_INFO::Reserved' o='104' t='UCHAR [3]'/>

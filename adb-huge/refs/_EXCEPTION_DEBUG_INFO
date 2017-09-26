@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='543' ll='546'/>
+<size>84</size>
+<mbr r='_EXCEPTION_DEBUG_INFO::ExceptionRecord' o='0' t='EXCEPTION_RECORD'/>
+<mbr r='_EXCEPTION_DEBUG_INFO::dwFirstChance' o='640' t='DWORD'/>

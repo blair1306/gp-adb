@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='242' type='int sigandset(sigset_t * __set, const sigset_t * __left, const sigset_t * __right)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='241'>/* Build new signal set by combining the two inputs set using logical AND.  */</doc>

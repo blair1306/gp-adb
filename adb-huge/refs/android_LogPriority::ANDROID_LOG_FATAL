@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/include/android/log.h' l='87' type='7'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='246' u='r' c='configureInitialState'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='453' u='r' c='__android_log_assert'/>

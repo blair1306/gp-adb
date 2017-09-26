@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/adb_client.h' l='43' type='void adb_get_transport(TransportType * _Nullable type, const char * _Nullable * _Nullable serial)'/>
+<def f='codebrowser/system/core/adb/adb_client.cpp' l='53' ll='60' type='void adb_get_transport(TransportType * _Nullable type, const char ** _Nullable serial)'/>
+<doc f='codebrowser/system/core/adb/adb_client.h' l='42'>// Get the preferred transport to connect to.</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1116' u='c' c='_ZL8adb_rootPKc'/>

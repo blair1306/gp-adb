@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/grp.h' l='182' type='int setgroups(size_t __n, const __gid_t * __groups)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/grp.h' l='181'>/* Set the group set for the current user to GROUPS (N of them).  */</doc>

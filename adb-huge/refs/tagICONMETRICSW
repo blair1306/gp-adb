@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='4535' ll='4541'/>
+<size>172</size>
+<mbr r='tagICONMETRICSW::cbSize' o='0' t='UINT'/>
+<mbr r='tagICONMETRICSW::iHorzSpacing' o='32' t='int'/>
+<mbr r='tagICONMETRICSW::iVertSpacing' o='64' t='int'/>
+<mbr r='tagICONMETRICSW::iTitleWrap' o='96' t='int'/>
+<mbr r='tagICONMETRICSW::lfFont' o='128' t='LOGFONTW'/>

@@ -1,0 +1,2 @@
+<use f='codebrowser/external/libcxx/include/locale' l='393' u='c' c='_ZNSt3__112__asprintf_lEPPcP15__locale_structPKcz'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='211' ll='216' macro='1' type='int vasprintf(char ** __ret, const char * __format, __builtin_va_list __local_argv)'/>

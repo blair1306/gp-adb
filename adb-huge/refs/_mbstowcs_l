@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='380' type='size_t _mbstowcs_l(wchar_t *__restrict _Dest, const char *__restrict _Source, size_t _MaxCount, _locale_t _Locale)'/>

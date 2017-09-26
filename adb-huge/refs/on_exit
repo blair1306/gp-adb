@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='536' type='int on_exit(void (*)(int, void *) __func, void * __arg)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='534'>/* Register a function to be called with the status
+   given to `exit&apos; and the given argument.  */</doc>

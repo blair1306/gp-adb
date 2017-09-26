@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/transport.h' l='155' type='void register_usb_transport(usb_handle * h, const char * serial, const char * devpath, unsigned int writeable)'/>
+<def f='codebrowser/system/core/adb/transport.cpp' l='1009' ll='1029' type='void register_usb_transport(usb_handle * usb, const char * serial, const char * devpath, unsigned int writeable)'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='571' u='c' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='620' u='c' c='_Z12find_devicesv'/>

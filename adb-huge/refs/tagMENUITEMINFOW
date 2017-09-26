@@ -1,0 +1,14 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='2666' ll='2679'/>
+<size>48</size>
+<mbr r='tagMENUITEMINFOW::cbSize' o='0' t='UINT'/>
+<mbr r='tagMENUITEMINFOW::fMask' o='32' t='UINT'/>
+<mbr r='tagMENUITEMINFOW::fType' o='64' t='UINT'/>
+<mbr r='tagMENUITEMINFOW::fState' o='96' t='UINT'/>
+<mbr r='tagMENUITEMINFOW::wID' o='128' t='UINT'/>
+<mbr r='tagMENUITEMINFOW::hSubMenu' o='160' t='HMENU'/>
+<mbr r='tagMENUITEMINFOW::hbmpChecked' o='192' t='HBITMAP'/>
+<mbr r='tagMENUITEMINFOW::hbmpUnchecked' o='224' t='HBITMAP'/>
+<mbr r='tagMENUITEMINFOW::dwItemData' o='256' t='ULONG_PTR'/>
+<mbr r='tagMENUITEMINFOW::dwTypeData' o='288' t='LPWSTR'/>
+<mbr r='tagMENUITEMINFOW::cch' o='320' t='UINT'/>
+<mbr r='tagMENUITEMINFOW::hbmpItem' o='352' t='HBITMAP'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='968' type='int ioctlsocket(SOCKET s, long cmd, u_long * argp)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1220' u='c' c='_Z19set_file_block_modeib'/>

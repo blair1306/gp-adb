@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5977' ll='5987'/>
+<size>32</size>
+<mbr r='_RTL_CRITICAL_SECTION_DEBUG::Type' o='0' t='WORD'/>
+<mbr r='_RTL_CRITICAL_SECTION_DEBUG::CreatorBackTraceIndex' o='16' t='WORD'/>
+<mbr r='_RTL_CRITICAL_SECTION_DEBUG::CriticalSection' o='32' t='struct _RTL_CRITICAL_SECTION *'/>
+<mbr r='_RTL_CRITICAL_SECTION_DEBUG::ProcessLocksList' o='64' t='LIST_ENTRY'/>
+<mbr r='_RTL_CRITICAL_SECTION_DEBUG::EntryCount' o='128' t='DWORD'/>
+<mbr r='_RTL_CRITICAL_SECTION_DEBUG::ContentionCount' o='160' t='DWORD'/>
+<mbr r='_RTL_CRITICAL_SECTION_DEBUG::Flags' o='192' t='DWORD'/>
+<mbr r='_RTL_CRITICAL_SECTION_DEBUG::CreatorBackTraceIndexHigh' o='224' t='WORD'/>
+<mbr r='_RTL_CRITICAL_SECTION_DEBUG::SpareWORD' o='240' t='WORD'/>

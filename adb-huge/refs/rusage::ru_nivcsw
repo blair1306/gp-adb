@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/resource.h' l='223' type='long'/>
+<offset>1088</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/resource.h' l='221'>/* Number of involuntary context switches, i.e. a higher priority process
+       became runnable or the current process used up its time slice.  */</doc>

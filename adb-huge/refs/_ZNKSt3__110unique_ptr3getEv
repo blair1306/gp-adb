@@ -1,0 +1,22 @@
+<def f='codebrowser/external/libcxx/include/memory' l='2694' macro='1' type='pointer std::__1::unique_ptr::get() const'/>
+<use f='codebrowser/external/libcxx/include/locale' l='3001' u='c' c='_ZNSt3__19money_get8__do_getERT0_S1_bRKNS_6localeEjRjRbRKNS_5ctypeIT_EERNS_10unique_ptrIS9_PFvPvEEERPS9_SJ_'/>
+<use f='codebrowser/external/libcxx/include/locale' l='3151' u='c' c='_ZNSt3__19money_get8__do_getERT0_S1_bRKNS_6localeEjRjRbRKNS_5ctypeIT_EERNS_10unique_ptrIS9_PFvPvEEERPS9_SJ_'/>
+<use f='codebrowser/external/libcxx/include/locale' l='3196' u='c' c='_ZNSt3__19money_get8__do_getERT0_S1_bRKNS_6localeEjRjRbRKNS_5ctypeIT_EERNS_10unique_ptrIS9_PFvPvEEERPS9_SJ_'/>
+<use f='codebrowser/external/libcxx/include/locale' l='3199' u='c' c='_ZNSt3__19money_get8__do_getERT0_S1_bRKNS_6localeEjRjRbRKNS_5ctypeIT_EERNS_10unique_ptrIS9_PFvPvEEERPS9_SJ_'/>
+<use f='codebrowser/external/libcxx/include/locale' l='3236' u='c' c='_ZNKSt3__19money_get6do_getET0_S1_bRNS_8ios_baseERjRe'/>
+<use f='codebrowser/external/libcxx/include/locale' l='3238' u='c' c='_ZNKSt3__19money_get6do_getET0_S1_bRNS_8ios_baseERjRe'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4338' u='c' c='_ZNSt3__115numpunct_bynameIcE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4381' u='c' c='_ZNSt3__115numpunct_bynameIwE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5913' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5961' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6026' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6043' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6062' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6078' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6109' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6126' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6149' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6169' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='610' u='c' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='126' u='c' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='134' u='c' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4030' ll='4035'/>
+<size>16</size>
+<mbr r='_FILE_NOTIFY_INFORMATION::NextEntryOffset' o='0' t='DWORD'/>
+<mbr r='_FILE_NOTIFY_INFORMATION::Action' o='32' t='DWORD'/>
+<mbr r='_FILE_NOTIFY_INFORMATION::FileNameLength' o='64' t='DWORD'/>
+<mbr r='_FILE_NOTIFY_INFORMATION::FileName' o='96' t='WCHAR [1]'/>

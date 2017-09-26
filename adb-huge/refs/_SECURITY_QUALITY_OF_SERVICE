@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3389' ll='3394'/>
+<size>12</size>
+<mbr r='_SECURITY_QUALITY_OF_SERVICE::Length' o='0' t='DWORD'/>
+<mbr r='_SECURITY_QUALITY_OF_SERVICE::ImpersonationLevel' o='32' t='SECURITY_IMPERSONATION_LEVEL'/>
+<mbr r='_SECURITY_QUALITY_OF_SERVICE::ContextTrackingMode' o='64' t='SECURITY_CONTEXT_TRACKING_MODE'/>
+<mbr r='_SECURITY_QUALITY_OF_SERVICE::EffectiveOnly' o='72' t='BOOLEAN'/>

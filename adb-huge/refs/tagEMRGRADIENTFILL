@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='4133' ll='4140'/>
+<size>52</size>
+<mbr r='tagEMRGRADIENTFILL::emr' o='0' t='EMR'/>
+<mbr r='tagEMRGRADIENTFILL::rclBounds' o='64' t='RECTL'/>
+<mbr r='tagEMRGRADIENTFILL::nVer' o='192' t='DWORD'/>
+<mbr r='tagEMRGRADIENTFILL::nTri' o='224' t='DWORD'/>
+<mbr r='tagEMRGRADIENTFILL::ulMode' o='256' t='ULONG'/>
+<mbr r='tagEMRGRADIENTFILL::Ver' o='288' t='TRIVERTEX [1]'/>

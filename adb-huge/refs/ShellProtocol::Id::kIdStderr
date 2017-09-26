@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/adb/shell_service.h' l='55' type='2'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='314' c='_ZL13read_and_dumpib'/>

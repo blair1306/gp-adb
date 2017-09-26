@@ -1,0 +1,5 @@
+vfprintf|vfprintf
+_Z8vfprintfP6_iobufPKcPc|vfprintf
+_Z7vfscanfP6_iobufPKcPc|vfscanf
+vfwprintf|vfwprintf
+vfwscanf|vfwscanf

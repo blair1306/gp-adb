@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stralign.h' l='54' type='LPUWSTR ua_CharUpperW(LPUWSTR String)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stralign.h' l='56' ll='59' macro='1' type='LPUWSTR ua_CharUpperW(LPUWSTR String)'/>

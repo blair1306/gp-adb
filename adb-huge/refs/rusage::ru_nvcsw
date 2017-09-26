@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/resource.h' l='220' type='long'/>
+<offset>1024</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/resource.h' l='217'>/* Number of voluntary context switches, i.e. because the process
+       gave up the process before it had to (usually to wait for some
+       resource to be available).  */</doc>

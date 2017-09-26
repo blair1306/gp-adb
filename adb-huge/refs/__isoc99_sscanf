@@ -1,0 +1,2 @@
+<use f='codebrowser/external/boringssl/src/crypto/cpu-intel.c' l='130' u='c' c='handle_cpu_env'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='1120' u='c' c='ipv4_from_asc'/>

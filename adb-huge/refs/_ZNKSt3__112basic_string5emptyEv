@@ -1,0 +1,23 @@
+<def f='codebrowser/external/libcxx/include/string' l='1458' macro='1' type='bool std::__1::basic_string::empty() const'/>
+<use f='codebrowser/external/libcxx/include/regex' l='1197' u='c' c='_ZNKSt3__112regex_traits20__lookup_collatenameET_S1_w'/>
+<use f='codebrowser/external/libcxx/src/system_error.cpp' l='151' u='c' c='_ZNSt3__112system_error6__initERKNS_10error_codeENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='252' u='c' c='_Z12parse_bannerRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP10atransport'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='936' u='c' c='_Z22handle_forward_requestPKc13TransportTypeS0_i'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='942' u='c' c='_Z22handle_forward_requestPKc13TransportTypeS0_i'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='942' u='c' c='_Z22handle_forward_requestPKc13TransportTypeS0_i'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1074' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='136' u='c' c='_Z12_adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/adb_trace.cpp' l='115' u='c' c='_ZL16setup_trace_maskv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='69' u='c' c='_ZL12product_filePKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='604' u='c' c='_ZL18ShellServiceStringbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='633' u='c' c='_ZL11RemoteShellbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEcS7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='633' u='c' c='_ZL11RemoteShellbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEcS7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1288' u='c' c='_ZL21find_product_out_pathRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1471' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1833' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1836' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1839' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1842' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='400' u='c' c='_ZL14connect_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='800' u='c' c='_Z18StringToFeatureSetRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/base/parsenetaddress.cpp' l='59' u='c' c='_ZN7android4base15ParseNetAddressERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_PiSA_SA_'/>

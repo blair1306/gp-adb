@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/arpa/inet.h' l='74' type='int inet_aton(const char * __cp, struct in_addr * __inp)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/arpa/inet.h' l='72'>/* Convert Internet host address from numbers-and-dots notation in CP
+   into binary data and store the result in the structure INP.  */</doc>

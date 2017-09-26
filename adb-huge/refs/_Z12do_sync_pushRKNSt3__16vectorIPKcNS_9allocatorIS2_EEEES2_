@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/file_sync_service.h' l='68' type='bool do_sync_push(const std::vector&lt;const char *&gt; &amp; srcs, const char * dst)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1759' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2194' u='c' c='_ZL18install_app_legacy13TransportTypePKciPS1_'/>
+<def f='codebrowser/system/core/adb/file_sync_client.cpp' l='720' ll='797' macro='1' type='bool do_sync_push(const std::vector&lt;const char *&gt; &amp; srcs, const char * dst)'/>

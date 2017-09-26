@@ -1,0 +1,1 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/stdlib_s.h' l='49' macro='1' type='errno_t _splitpath_s(const char * _Dest, char (&amp;)[__drive_size] __drive, char (&amp;)[__dir_size] __dir, char (&amp;)[__name_size] __name, char (&amp;)[__ext_size] __ext)'/>

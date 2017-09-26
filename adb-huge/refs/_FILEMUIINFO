@@ -1,0 +1,15 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnls.h' l='738' ll='752'/>
+<size>80</size>
+<mbr r='_FILEMUIINFO::dwSize' o='0' t='DWORD'/>
+<mbr r='_FILEMUIINFO::dwVersion' o='32' t='DWORD'/>
+<mbr r='_FILEMUIINFO::dwFileType' o='64' t='DWORD'/>
+<mbr r='_FILEMUIINFO::pChecksum' o='96' t='BYTE [16]'/>
+<mbr r='_FILEMUIINFO::pServiceChecksum' o='224' t='BYTE [16]'/>
+<mbr r='_FILEMUIINFO::dwLanguageNameOffset' o='352' t='DWORD'/>
+<mbr r='_FILEMUIINFO::dwTypeIDMainSize' o='384' t='DWORD'/>
+<mbr r='_FILEMUIINFO::dwTypeIDMainOffset' o='416' t='DWORD'/>
+<mbr r='_FILEMUIINFO::dwTypeNameMainOffset' o='448' t='DWORD'/>
+<mbr r='_FILEMUIINFO::dwTypeIDMUISize' o='480' t='DWORD'/>
+<mbr r='_FILEMUIINFO::dwTypeIDMUIOffset' o='512' t='DWORD'/>
+<mbr r='_FILEMUIINFO::dwTypeNameMUIOffset' o='544' t='DWORD'/>
+<mbr r='_FILEMUIINFO::abBuffer' o='576' t='BYTE [8]'/>

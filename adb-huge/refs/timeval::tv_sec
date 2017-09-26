@@ -1,0 +1,9 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/time.h' l='33' type='__time_t'/>
+<offset>0</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/time.h' l='33'>/* Seconds.  */</doc>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='429' u='r' c='_ZN14SyncConnection13CurrentTimeMsEv'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_timeval.h' l='12' type='long'/>
+<offset>0</offset>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='89' u='w' c='socket_network_client_timeout'/>
+<use f='codebrowser/system/core/libcutils/sockets_unix.cpp' l='57' u='w' c='socket_set_receive_timeout'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='297' u='r' c='__write_to_log_daemon'/>

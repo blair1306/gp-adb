@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>io_s.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/io_s.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/io_s.h'; var root_path = '../../../../../../../../..'; var data_path = '../../../../../../../../../../data';</script>
+<script src='../../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../../..'>codebrowser</a>/<a href='../../../../../../..'>prebuilts</a>/<a href='../../../../../..'>gcc</a>/<a href='../../../../..'>linux-x86</a>/<a href='../../../..'>host</a>/<a href='../../..'>x86_64-w64-mingw32-4.8</a>/<a href='../..'>x86_64-w64-mingw32</a>/<a href='..'>include</a>/<a href='./'>sec_api</a>/<a href='io_s.h.html'>io_s.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/_INC_IO_S">_INC_IO_S</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/_INC_IO_S" data-ref="_M/_INC_IO_S">_INC_IO_S</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="../io.h.html">&lt;io.h&gt;</a></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#<span data-ppcond="11">if</span> defined(<a class="macro" href="../_mingw.h.html#10" data-ref="_M/MINGW_HAS_SECURE_API">MINGW_HAS_SECURE_API</a>)</u></td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="13">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="14">14</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="15">15</th><td><u>#<span data-ppcond="13">endif</span></u></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td>  <a class="typedef" href="../_mingw.h.html#errno_t" title='errno_t' data-type='int' data-ref="errno_t">errno_t</a> <b>__cdecl</b> <dfn class="decl" id="_access_s" title='_access_s' data-ref="_access_s">_access_s</dfn> (<em>const</em> <em>char</em> *<dfn class="local col3 decl" id="563_Filename" title='_Filename' data-type='const char *' data-ref="563_Filename">_Filename</dfn>,<em>int</em> <dfn class="local col4 decl" id="564_AccessMode" title='_AccessMode' data-type='int' data-ref="564_AccessMode">_AccessMode</dfn>);</td></tr>
+<tr><th id="18">18</th><td>  <a class="typedef" href="../_mingw.h.html#errno_t" title='errno_t' data-type='int' data-ref="errno_t">errno_t</a> <b>__cdecl</b> <dfn class="decl" id="_chsize_s" title='_chsize_s' data-ref="_chsize_s">_chsize_s</dfn> (<em>int</em> <dfn class="local col5 decl" id="565_FileHandle" title='_FileHandle' data-type='int' data-ref="565_FileHandle">_FileHandle</dfn>,<a class="macro" href="../_mingw.h.html#238" title="long long" data-ref="_M/__int64">__int64</a> <dfn class="local col6 decl" id="566_Size" title='_Size' data-type='long long' data-ref="566_Size">_Size</dfn>);</td></tr>
+<tr><th id="19">19</th><td>  <a class="typedef" href="../_mingw.h.html#errno_t" title='errno_t' data-type='int' data-ref="errno_t">errno_t</a> <b>__cdecl</b> <dfn class="decl" id="_mktemp_s" title='_mktemp_s' data-ref="_mktemp_s">_mktemp_s</dfn> (<em>char</em> *<dfn class="local col7 decl" id="567_TemplateName" title='_TemplateName' data-type='char *' data-ref="567_TemplateName">_TemplateName</dfn>,<a class="typedef" href="../_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col8 decl" id="568_Size" title='_Size' data-type='size_t' data-ref="568_Size">_Size</dfn>);</td></tr>
+<tr><th id="20">20</th><td>  <a class="typedef" href="../_mingw.h.html#errno_t" title='errno_t' data-type='int' data-ref="errno_t">errno_t</a> <b>__cdecl</b> <dfn class="decl" id="_umask_s" title='_umask_s' data-ref="_umask_s">_umask_s</dfn> (<em>int</em> <dfn class="local col9 decl" id="569_NewMode" title='_NewMode' data-type='int' data-ref="569_NewMode">_NewMode</dfn>,<em>int</em> *<dfn class="local col0 decl" id="570_OldMode" title='_OldMode' data-type='int *' data-ref="570_OldMode">_OldMode</dfn>);</td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#<span data-ppcond="22">ifndef</span> <span class="macro" data-ref="_M/_WIO_S_DEFINED">_WIO_S_DEFINED</span></u></td></tr>
+<tr><th id="23">23</th><td><u>#define <dfn class="macro" id="_M/_WIO_S_DEFINED" data-ref="_M/_WIO_S_DEFINED">_WIO_S_DEFINED</dfn></u></td></tr>
+<tr><th id="24">24</th><td>  <a class="typedef" href="../_mingw.h.html#errno_t" title='errno_t' data-type='int' data-ref="errno_t">errno_t</a> <b>__cdecl</b> <dfn class="decl" id="_waccess_s" title='_waccess_s' data-ref="_waccess_s">_waccess_s</dfn> (<em>const</em> <em>wchar_t</em> *<dfn class="local col1 decl" id="571_Filename" title='_Filename' data-type='const wchar_t *' data-ref="571_Filename">_Filename</dfn>,<em>int</em> <dfn class="local col2 decl" id="572_AccessMode" title='_AccessMode' data-type='int' data-ref="572_AccessMode">_AccessMode</dfn>);</td></tr>
+<tr><th id="25">25</th><td>  <a class="typedef" href="../_mingw.h.html#errno_t" title='errno_t' data-type='int' data-ref="errno_t">errno_t</a> <b>__cdecl</b> <dfn class="decl" id="_wmktemp_s" title='_wmktemp_s' data-ref="_wmktemp_s">_wmktemp_s</dfn> (<em>wchar_t</em> *<dfn class="local col3 decl" id="573_TemplateName" title='_TemplateName' data-type='wchar_t *' data-ref="573_TemplateName">_TemplateName</dfn>, <a class="typedef" href="../_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="local col4 decl" id="574_SizeInWords" title='_SizeInWords' data-type='size_t' data-ref="574_SizeInWords">_SizeInWords</dfn>);</td></tr>
+<tr><th id="26">26</th><td><u>#<span data-ppcond="22">endif</span></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="28">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="29">29</th><td>}</td></tr>
+<tr><th id="30">30</th><td><u>#<span data-ppcond="28">endif</span></u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><u>#<span data-ppcond="11">endif</span></u></td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="6">endif</span></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6719'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6711'>/* Field Names From (See _fields_ section)
+ * FIXME: Verify these against documentation
+ * -- These documentation describes Win32 Constants and Structures in Python --
+ * Constants - http://packages.python.org/winappdbg/winappdbg.win32.context_i386-pysrc.html
+ * WOW64_FLOATING_SAVE_AREA - http://packages.python.org/winappdbg/winappdbg.win32.context_amd64.WOW64_FLOATING_SAVE_AREA-class.html
+ * WOW64_CONTEXT - http://packages.python.org/winappdbg/winappdbg.win32.context_amd64.WOW64_CONTEXT-class.html
+ */</doc>

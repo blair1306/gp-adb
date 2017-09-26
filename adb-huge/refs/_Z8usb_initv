@@ -1,0 +1,7 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='218' type='void usb_init()'/>
+<doc f='codebrowser/system/core/adb/adb.h' l='217'>// USB host/client interface.</doc>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='114' u='c' c='_Z15adb_server_mainiii'/>
+<def f='codebrowser/system/core/adb/usb_linux.cpp' l='585' ll='596' type='void usb_init()'/>
+<dec f='codebrowser/system/core/adb/usb_windows.cpp' l='103' type='void usb_init()'/>
+<def f='codebrowser/system/core/adb/usb_windows.cpp' l='258' ll='265' type='void usb_init()'/>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='102'>/// Initializes this module</doc>

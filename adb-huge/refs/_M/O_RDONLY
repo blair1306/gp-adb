@@ -1,0 +1,18 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/fcntl.h' l='35'/>
+<use f='codebrowser/external/boringssl/src/crypto/rand/urandom.c' l='76' u='c'/>
+<use f='codebrowser/external/libcxx/src/random.cpp' l='57' u='c'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='47' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1251' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1952' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2068' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='224' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/fcntl.h' l='36'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='390' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='152' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='534' u='c'/>
+<use f='codebrowser/system/core/base/file.cpp' l='52' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='85' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='175' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='180' u='c'/>
+<use f='codebrowser/system/core/libcutils/load_file.c' l='29' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='76' u='c'/>

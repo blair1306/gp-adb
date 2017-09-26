@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='1448' type='WINBOOL WriteFile(HANDLE hFile, LPCVOID lpBuffer, DWORD nNumberOfBytesToWrite, LPDWORD lpNumberOfBytesWritten, LPOVERLAPPED lpOverlapped)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='339' u='c' c='_ZL14_fh_file_writeP6FHRec_PKvi'/>

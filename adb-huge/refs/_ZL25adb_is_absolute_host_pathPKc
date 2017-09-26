@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='827' ll='829' type='int adb_is_absolute_host_path(const char * path)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1293' u='c' c='_ZL21find_product_out_pathRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>

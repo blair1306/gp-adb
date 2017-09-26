@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3217' ll='3223'/>
+<size>84</size>
+<mbr r='tagDIBSECTION::dsBm' o='0' t='BITMAP'/>
+<mbr r='tagDIBSECTION::dsBmih' o='192' t='BITMAPINFOHEADER'/>
+<mbr r='tagDIBSECTION::dsBitfields' o='512' t='DWORD [3]'/>
+<mbr r='tagDIBSECTION::dshSection' o='608' t='HANDLE'/>
+<mbr r='tagDIBSECTION::dsOffset' o='640' t='DWORD'/>

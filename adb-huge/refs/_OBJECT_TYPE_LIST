@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3130' ll='3134'/>
+<size>8</size>
+<mbr r='_OBJECT_TYPE_LIST::Level' o='0' t='WORD'/>
+<mbr r='_OBJECT_TYPE_LIST::Sbz' o='16' t='WORD'/>
+<mbr r='_OBJECT_TYPE_LIST::ObjectType' o='32' t='GUID *'/>

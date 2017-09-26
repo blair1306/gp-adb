@@ -1,0 +1,7 @@
+<def f='codebrowser/external/libcxx/include/memory' l='2579' ll='2584' macro='1' type='void std::__1::unique_ptr::unique_ptr&lt;_Tp, _Dp&gt;(pointer __p)'/>
+<use f='codebrowser/external/libcxx/src/future.cpp' l='209' u='c' c='_ZNSt3__16futureIvE3getEv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='486' u='c' c='_ZL22stdin_read_thread_loopPv'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='364' u='c' c='_ZL14wait_for_stateiPv'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='508' u='c' c='_Z22host_service_to_socketPKcS0_'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='522' u='c' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/base/logging.cpp' l='370' u='c' c='_ZN7android4base10LogMessageC1EPKcjNS0_5LogIdENS0_11LogSeverityEi'/>

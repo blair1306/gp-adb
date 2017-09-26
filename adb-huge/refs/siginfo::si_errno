@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/siginfo.h' l='54' type='int'/>
+<offset>32</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/siginfo.h' l='54'>/* If non-zero, an errno value associated with
+				   this signal, as defined in &lt;errno.h&gt;.  */</doc>

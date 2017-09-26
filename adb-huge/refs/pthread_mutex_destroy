@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='738' type='int pthread_mutex_destroy(pthread_mutex_t * __mutex)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='737'>/* Destroy a mutex.  */</doc>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='26' u='c' c='_ZNSt3__15mutexD1Ev'/>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='74' u='c' c='_ZNSt3__115recursive_mutexC1Ev'/>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='84' u='c' c='_ZNSt3__115recursive_mutexD1Ev'/>
+<use f='codebrowser/system/core/include/cutils/threads.h' l='101' u='c' c='_Z13mutex_destroyP15pthread_mutex_t'/>

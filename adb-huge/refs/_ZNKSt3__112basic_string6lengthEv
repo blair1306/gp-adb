@@ -1,0 +1,9 @@
+<def f='codebrowser/external/libcxx/include/string' l='1445' macro='1' type='size_type std::__1::basic_string::length() const'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='763' u='c' c='_ZL18adb_thread_setnameRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='217' u='c' c='_Z12send_connectP10atransport'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='219' u='c' c='_Z12send_connectP10atransport'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='222' u='c' c='_Z12send_connectP10atransport'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='223' u='c' c='_Z12send_connectP10atransport'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='371' u='c' c='_ZL14wait_for_stateiPv'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='642' u='c' c='_ZN8internal16skip_host_serialEPc'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='643' u='c' c='_ZN8internal16skip_host_serialEPc'/>

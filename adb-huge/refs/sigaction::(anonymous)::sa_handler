@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sigaction.h' l='32' type='__sighandler_t'/>
+<offset>0</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sigaction.h' l='31'>/* Used if SA_SIGINFO is not set.  */</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='665' macro='1' u='w'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='590' macro='1' u='w'/>

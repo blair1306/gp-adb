@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/grp.h' l='113' type='struct group * getgrnam(const char * __name)'/>
+<use f='codebrowser/system/core/adb/diagnose_usb.cpp' l='37' u='c' c='_ZL14GetUdevProblemv'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/grp.h' l='109'>/* Search for an entry with a matching group name.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>

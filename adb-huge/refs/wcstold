@@ -1,0 +1,2 @@
+<use f='codebrowser/external/libcxx/src/string.cpp' l='250' u='r' c='_ZNSt3__112_GLOBAL__N_18as_floatERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERKT0_Pm'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='486' type='long double wcstold(const wchar_t *__restrict , wchar_t **__restrict )'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='302' ll='307'/>
+<size>16</size>
+<mbr r='_CONSOLE_HISTORY_INFO::cbSize' o='0' t='UINT'/>
+<mbr r='_CONSOLE_HISTORY_INFO::HistoryBufferSize' o='32' t='UINT'/>
+<mbr r='_CONSOLE_HISTORY_INFO::NumberOfHistoryBuffers' o='64' t='UINT'/>
+<mbr r='_CONSOLE_HISTORY_INFO::dwFlags' o='96' t='DWORD'/>

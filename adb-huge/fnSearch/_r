@@ -1,0 +1,2 @@
+_ZNSt11range_errorD1Ev|std::range_error::~range_error
+_ZNSt13runtime_errorD1Ev|std::runtime_error::~runtime_error

@@ -1,0 +1,3 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2783' ll='2794' type='char * adb_getenv(const char * name)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2781'>// Version of getenv() that takes a UTF-8 environment variable name and
+// retrieves a UTF-8 value. Case-insensitive to match getenv() on Windows.</doc>

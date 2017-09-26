@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windef.h' l='254' ll='257'/>
+<size>8</size>
+<mbr r='_POINTL::x' o='0' t='LONG'/>
+<mbr r='_POINTL::y' o='32' t='LONG'/>

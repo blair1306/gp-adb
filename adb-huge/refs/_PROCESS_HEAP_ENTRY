@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='1211' ll='1229'/>
+<size>28</size>
+<mbr r='_PROCESS_HEAP_ENTRY::lpData' o='0' t='PVOID'/>
+<mbr r='_PROCESS_HEAP_ENTRY::cbData' o='32' t='DWORD'/>
+<mbr r='_PROCESS_HEAP_ENTRY::cbOverhead' o='64' t='BYTE'/>
+<mbr r='_PROCESS_HEAP_ENTRY::iRegionIndex' o='72' t='BYTE'/>
+<mbr r='_PROCESS_HEAP_ENTRY::wFlags' o='80' t='WORD'/>

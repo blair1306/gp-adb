@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='1008' type='HANDLE WSAAsyncGetServByName(HWND hWnd, u_int wMsg, const char * name, const char * proto, char * buf, int buflen)'/>

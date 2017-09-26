@@ -1,0 +1,1 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='4059' ll='4061' macro='1' type='unsigned long InterlockedDecrement(volatile unsigned long * Addend)'/>

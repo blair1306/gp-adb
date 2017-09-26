@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='187' type='__locale_t duplocale(__locale_t __dataset)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='185'>/* Return a duplicate of the set of locale in DATASET.  All usage
+   counters are increased if necessary.  */</doc>

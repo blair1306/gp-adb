@@ -1,0 +1,8 @@
+<dec f='codebrowser/system/core/adb/adb_utils.h' l='32' type='std::string adb_dirname(const std::string &amp; path)'/>
+<def f='codebrowser/system/core/adb/adb_utils.cpp' l='114' ll='135' type='std::string adb_dirname(const std::string &amp; path)'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='162' u='c' c='_Z6mkdirsRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='648' u='c' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='648' u='c' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='816' u='c' c='_ZL17remote_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='816' u='c' c='_ZL17remote_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='946' u='c' c='_Z12do_sync_pullRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_b'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='664' type='int getaddrinfo(const char *restrict __name, const char *restrict __service, const struct addrinfo *restrict __req, struct addrinfo **restrict __pai)'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='52' u='c' c='bio_ip_and_port_to_socket_and_addr'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='659'>/* Translate name of a service location and/or a service name to set of
+   socket addresses.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='57' u='c' c='socket_network_client_timeout'/>

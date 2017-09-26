@@ -1,0 +1,16 @@
+<dec f='codebrowser/system/core/adb/file_sync_service.h' l='59' type='struct (anonymous struct at /home/jon/workspace/android/system/core/adb/file_sync_service.h:56:5)'/>
+<offset>0</offset>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='259' u='m' c='_ZN14SyncConnection13SendLargeFileEPKcS1_S1_j'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='260' u='m' c='_ZN14SyncConnection13SendLargeFileEPKcS1_S1_j'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='262' u='a' c='_ZN14SyncConnection13SendLargeFileEPKcS1_S1_j'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='262' u='r' c='_ZN14SyncConnection13SendLargeFileEPKcS1_S1_j'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='537' u='a' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='537' u='r' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='543' u='m' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='545' u='m' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='552' u='m' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='553' u='m' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='560' u='m' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='566' u='m' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='573' u='m' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='575' u='m' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>

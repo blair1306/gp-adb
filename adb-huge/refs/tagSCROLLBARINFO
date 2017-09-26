@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5117' ll='5125'/>
+<size>60</size>
+<mbr r='tagSCROLLBARINFO::cbSize' o='0' t='DWORD'/>
+<mbr r='tagSCROLLBARINFO::rcScrollBar' o='32' t='RECT'/>
+<mbr r='tagSCROLLBARINFO::dxyLineButton' o='160' t='int'/>
+<mbr r='tagSCROLLBARINFO::xyThumbTop' o='192' t='int'/>
+<mbr r='tagSCROLLBARINFO::xyThumbBottom' o='224' t='int'/>
+<mbr r='tagSCROLLBARINFO::reserved' o='256' t='int'/>
+<mbr r='tagSCROLLBARINFO::rgstate' o='288' t='DWORD [6]'/>

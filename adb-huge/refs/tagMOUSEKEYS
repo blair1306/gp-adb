@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='4709' ll='4717'/>
+<size>28</size>
+<mbr r='tagMOUSEKEYS::cbSize' o='0' t='UINT'/>
+<mbr r='tagMOUSEKEYS::dwFlags' o='32' t='DWORD'/>
+<mbr r='tagMOUSEKEYS::iMaxSpeed' o='64' t='DWORD'/>
+<mbr r='tagMOUSEKEYS::iTimeToMaxSpeed' o='96' t='DWORD'/>
+<mbr r='tagMOUSEKEYS::iCtrlSpeed' o='128' t='DWORD'/>
+<mbr r='tagMOUSEKEYS::dwReserved1' o='160' t='DWORD'/>
+<mbr r='tagMOUSEKEYS::dwReserved2' o='192' t='DWORD'/>

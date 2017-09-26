@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='406' type='size_t strnlen(const char * __string, size_t __maxlen)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='404'>/* Find the length of STRING, but scan at most MAXLEN characters.
+   If no &apos;\0&apos; terminator is found in that many characters, return MAXLEN.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='55' type='size_t strnlen(const char * _Str, size_t _MaxCount)'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='238' u='c' c='fs_config'/>
+<use f='codebrowser/system/core/liblog/log_event_list.c' l='221' u='c' c='android_log_write_string8_len'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/lib/gcc/x86_64-w64-mingw32/4.8.3/include/stdbool.h' l='43'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1224' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1255' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1388' u='c'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='588' u='c'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='588' u='c'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='588' u='c'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='617' u='c'/>

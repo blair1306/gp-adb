@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3603' ll='3610'/>
+<size>108</size>
+<mbr r='_JOBOBJECT_EXTENDED_LIMIT_INFORMATION::BasicLimitInformation' o='0' t='JOBOBJECT_BASIC_LIMIT_INFORMATION'/>
+<mbr r='_JOBOBJECT_EXTENDED_LIMIT_INFORMATION::IoInfo' o='352' t='IO_COUNTERS'/>
+<mbr r='_JOBOBJECT_EXTENDED_LIMIT_INFORMATION::ProcessMemoryLimit' o='736' t='SIZE_T'/>
+<mbr r='_JOBOBJECT_EXTENDED_LIMIT_INFORMATION::JobMemoryLimit' o='768' t='SIZE_T'/>
+<mbr r='_JOBOBJECT_EXTENDED_LIMIT_INFORMATION::PeakProcessMemoryUsed' o='800' t='SIZE_T'/>
+<mbr r='_JOBOBJECT_EXTENDED_LIMIT_INFORMATION::PeakJobMemoryUsed' o='832' t='SIZE_T'/>

@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5081' ll='5092'/>
+<size>60</size>
+<mbr r='tagWINDOWINFO::cbSize' o='0' t='DWORD'/>
+<mbr r='tagWINDOWINFO::rcWindow' o='32' t='RECT'/>
+<mbr r='tagWINDOWINFO::rcClient' o='160' t='RECT'/>
+<mbr r='tagWINDOWINFO::dwStyle' o='288' t='DWORD'/>
+<mbr r='tagWINDOWINFO::dwExStyle' o='320' t='DWORD'/>
+<mbr r='tagWINDOWINFO::dwWindowStatus' o='352' t='DWORD'/>
+<mbr r='tagWINDOWINFO::cxWindowBorders' o='384' t='UINT'/>
+<mbr r='tagWINDOWINFO::cyWindowBorders' o='416' t='UINT'/>
+<mbr r='tagWINDOWINFO::atomWindowType' o='448' t='ATOM'/>
+<mbr r='tagWINDOWINFO::wCreatorVersion' o='464' t='WORD'/>

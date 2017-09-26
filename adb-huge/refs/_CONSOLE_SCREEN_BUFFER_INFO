@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='131' ll='137'/>
+<size>22</size>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFO::dwSize' o='0' t='COORD'/>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFO::dwCursorPosition' o='32' t='COORD'/>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFO::wAttributes' o='64' t='WORD'/>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFO::srWindow' o='80' t='SMALL_RECT'/>
+<mbr r='_CONSOLE_SCREEN_BUFFER_INFO::dwMaximumWindowSize' o='144' t='COORD'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='1322' type='char * __strndup(const char * __string, size_t __n)'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='175' macro='1' u='c'/>

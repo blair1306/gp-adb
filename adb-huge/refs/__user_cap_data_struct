@@ -1,0 +1,5 @@
+<def f='codebrowser/system/core/include/private/android_filesystem_capability.h' l='42' ll='46'/>
+<size>12</size>
+<mbr r='__user_cap_data_struct::effective' o='0' t='uint32_t'/>
+<mbr r='__user_cap_data_struct::permitted' o='32' t='uint32_t'/>
+<mbr r='__user_cap_data_struct::inheritable' o='64' t='uint32_t'/>

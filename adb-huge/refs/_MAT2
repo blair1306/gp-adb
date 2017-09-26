@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2458' ll='2463'/>
+<size>16</size>
+<mbr r='_MAT2::eM11' o='0' t='FIXED'/>
+<mbr r='_MAT2::eM12' o='32' t='FIXED'/>
+<mbr r='_MAT2::eM21' o='64' t='FIXED'/>
+<mbr r='_MAT2::eM22' o='96' t='FIXED'/>

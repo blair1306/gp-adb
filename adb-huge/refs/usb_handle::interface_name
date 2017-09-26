@@ -1,0 +1,13 @@
+<dec f='codebrowser/system/core/adb/usb_windows.cpp' l='60' type='wchar_t *'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='130' u='r' c='_Z19known_device_lockedPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='131' u='r' c='_Z19known_device_lockedPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='159' u='r' c='_Z19register_new_deviceP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='324' u='w' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='324' u='r' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='325' u='r' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='332' u='r' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='468' u='r' c='_Z18usb_cleanup_handleP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='469' u='r' c='_Z18usb_cleanup_handleP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='480' u='w' c='_Z18usb_cleanup_handleP10usb_handle'/>
+<offset>160</offset>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='59'>/// Interface name</doc>

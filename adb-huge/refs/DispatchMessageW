@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='1737' type='LRESULT DispatchMessageW(const MSG * lpMsg)'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='248' u='c' c='_ZL26_power_notification_threadPv'/>

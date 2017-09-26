@@ -1,0 +1,1 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='247' ll='256' macro='1' type='int fscanf(FILE * __stream, const char * __format)'/>

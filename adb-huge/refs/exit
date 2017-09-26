@@ -1,0 +1,13 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='544' type='void exit(int __status)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='541'>/* Call all functions registered with `atexit&apos; and `on_exit&apos;,
+   in the reverse of the order in which they were registered,
+   perform stdio cleanup, and terminate program execution with STATUS.  */</doc>
+<use f='codebrowser/system/core/adb/adb.cpp' l='72' u='c' c='_Z5fatalPKcz'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='82' u='c' c='_Z11fatal_errnoPKcz'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1015' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='72' u='c' c='_ZL12product_filePKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='567' u='c' c='_ZL22stdin_read_thread_loopPv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1018' u='c' c='_ZL3pppiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1354' u='c' c='_ZL20parse_push_pull_argsPPKciPNSt3__16vectorIS0_NS2_9allocatorIS0_EEEES1_Pb'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='231' u='c' c='_ZL20local_socket_destroyP7asocket'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/process.h' l='36' type='void exit(int _Code)'/>

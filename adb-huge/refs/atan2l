@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/mathcalls.h' l='61' macro='1' type='long double atan2l(long double __y, long double __x)'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='729' u='c' c='_ZNSt3__15atan2Eee'/>

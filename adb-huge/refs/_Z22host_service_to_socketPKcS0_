@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='169' type='asocket * host_service_to_socket(const char * name, const char * serial)'/>
+<def f='codebrowser/system/core/adb/services.cpp' l='502' ll='549' type='asocket * host_service_to_socket(const char * name, const char * serial)'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='472' u='c' c='_ZL26create_host_service_socketPKcS0_'/>

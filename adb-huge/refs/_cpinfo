@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnls.h' l='486' ll='490'/>
+<size>20</size>
+<mbr r='_cpinfo::MaxCharSize' o='0' t='UINT'/>
+<mbr r='_cpinfo::DefaultChar' o='32' t='BYTE [2]'/>
+<mbr r='_cpinfo::LeadByte' o='48' t='BYTE [12]'/>

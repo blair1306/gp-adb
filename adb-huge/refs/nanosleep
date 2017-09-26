@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='328' type='int nanosleep(const struct timespec * __requested_time, struct timespec * __remaining)'/>
+<use f='codebrowser/external/libcxx/src/thread.cpp' l='128' u='c' c='_ZNSt3__111this_thread9sleep_forERKNS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE'/>

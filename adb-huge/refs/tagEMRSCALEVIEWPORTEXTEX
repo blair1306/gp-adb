@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3684' ll='3690'/>
+<size>24</size>
+<mbr r='tagEMRSCALEVIEWPORTEXTEX::emr' o='0' t='EMR'/>
+<mbr r='tagEMRSCALEVIEWPORTEXTEX::xNum' o='64' t='LONG'/>
+<mbr r='tagEMRSCALEVIEWPORTEXTEX::xDenom' o='96' t='LONG'/>
+<mbr r='tagEMRSCALEVIEWPORTEXTEX::yNum' o='128' t='LONG'/>
+<mbr r='tagEMRSCALEVIEWPORTEXTEX::yDenom' o='160' t='LONG'/>

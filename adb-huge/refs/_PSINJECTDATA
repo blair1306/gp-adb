@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='335' ll='339'/>
+<size>8</size>
+<mbr r='_PSINJECTDATA::DataBytes' o='0' t='DWORD'/>
+<mbr r='_PSINJECTDATA::InjectionPoint' o='32' t='WORD'/>
+<mbr r='_PSINJECTDATA::PageNumber' o='48' t='WORD'/>

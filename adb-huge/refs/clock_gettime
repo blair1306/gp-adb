@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='336' type='int clock_gettime(clockid_t __clock_id, struct timespec * __tp)'/>
+<use f='codebrowser/external/libcxx/src/chrono.cpp' l='41' u='c' c='_ZNSt3__16chrono12system_clock3nowEv'/>
+<use f='codebrowser/external/libcxx/src/chrono.cpp' l='78' u='c' c='_ZNSt3__16chrono12steady_clock3nowEv'/>

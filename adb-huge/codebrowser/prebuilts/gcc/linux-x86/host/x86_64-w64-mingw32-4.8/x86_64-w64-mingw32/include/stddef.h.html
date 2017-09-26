@@ -1,0 +1,452 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>stddef.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stddef.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stddef.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='stddef.h.html'>stddef.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><u>#include <a href="crtdefs.h.html">&lt;crtdefs.h&gt;</a></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#<span data-ppcond="9">ifndef</span> <span class="macro" data-ref="_M/_INC_STDDEF">_INC_STDDEF</span></u></td></tr>
+<tr><th id="10">10</th><td><u>#define <dfn class="macro" id="_M/_INC_STDDEF" data-ref="_M/_INC_STDDEF">_INC_STDDEF</dfn></u></td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td><u>#<span data-ppcond="12">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="13">13</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="14">14</th><td><u>#<span data-ppcond="12">endif</span></u></td></tr>
+<tr><th id="15">15</th><td></td></tr>
+<tr><th id="16">16</th><td><u>#<span data-ppcond="16">ifndef</span> <a class="macro" href="errno.h.html#16" data-ref="_M/_CRT_ERRNO_DEFINED">_CRT_ERRNO_DEFINED</a></u></td></tr>
+<tr><th id="17">17</th><td><u>#define _CRT_ERRNO_DEFINED</u></td></tr>
+<tr><th id="18">18</th><td>  _CRTIMP <b>extern</b> <em>int</em> *<b>__cdecl</b> _errno(<em>void</em>);</td></tr>
+<tr><th id="19">19</th><td><u>#define errno (*_errno())</u></td></tr>
+<tr><th id="20">20</th><td>  errno_t <b>__cdecl</b> _set_errno(<em>int</em> _Value);</td></tr>
+<tr><th id="21">21</th><td>  errno_t <b>__cdecl</b> _get_errno(<em>int</em> *_Value);</td></tr>
+<tr><th id="22">22</th><td><u>#<span data-ppcond="16">endif</span> /* _CRT_ERRNO_DEFINED */</u></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <b>extern</b> <em>unsigned</em> <em>long</em> <b>__cdecl</b> <dfn class="decl" id="__threadid" title='__threadid' data-ref="__threadid">__threadid</dfn>(<em>void</em>);</td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/_threadid" data-ref="_M/_threadid">_threadid</dfn> (__threadid())</u></td></tr>
+<tr><th id="26">26</th><td>  <a class="macro" href="_mingw.h.html#71" title="" data-ref="_M/_CRTIMP">_CRTIMP</a> <b>extern</b> <a class="typedef" href="_mingw.h.html#uintptr_t" title='uintptr_t' data-type='unsigned int' data-ref="uintptr_t">uintptr_t</a> <b>__cdecl</b> <dfn class="decl" id="__threadhandle" title='__threadhandle' data-ref="__threadhandle">__threadhandle</dfn>(<em>void</em>);</td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="28">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="29">29</th><td>}</td></tr>
+<tr><th id="30">30</th><td><u>#<span data-ppcond="28">endif</span></u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><u>#<span data-ppcond="9">endif</span> /* _INC_STDDEF */</u></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><i>/*</i></td></tr>
+<tr><th id="35">35</th><td><i> * ISO C Standard:  7.17  Common definitions  &lt;stddef.h&gt;</i></td></tr>
+<tr><th id="36">36</th><td><i> */</i></td></tr>
+<tr><th id="37">37</th><td><u>#<span data-ppcond="37">if</span> (!defined(<span class="macro" data-ref="_M/_STDDEF_H">_STDDEF_H</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/_STDDEF_H_">_STDDEF_H_</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/_ANSI_STDDEF_H">_ANSI_STDDEF_H</span>) \</u></td></tr>
+<tr><th id="38">38</th><td><u>     &amp;&amp; !defined(<span class="macro" data-ref="_M/__STDDEF_H__">__STDDEF_H__</span>)) \</u></td></tr>
+<tr><th id="39">39</th><td><u>    || defined(<span class="macro" data-ref="_M/__need_wchar_t">__need_wchar_t</span>) || defined(<span class="macro" data-ref="_M/__need_size_t">__need_size_t</span>) \</u></td></tr>
+<tr><th id="40">40</th><td><u>    || defined(<span class="macro" data-ref="_M/__need_ptrdiff_t">__need_ptrdiff_t</span>) || defined(<span class="macro" data-ref="_M/__need_NULL">__need_NULL</span>) \</u></td></tr>
+<tr><th id="41">41</th><td><u>    || defined(<span class="macro" data-ref="_M/__need_wint_t">__need_wint_t</span>)</u></td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><i>/* Any one of these symbols __need_* means that GNU libc</i></td></tr>
+<tr><th id="44">44</th><td><i>   wants us just to define one data type.  So don't define</i></td></tr>
+<tr><th id="45">45</th><td><i>   the symbols that indicate this file's entire job has been done.  */</i></td></tr>
+<tr><th id="46">46</th><td><u>#<span data-ppcond="46">if</span> (!defined(<span class="macro" data-ref="_M/__need_wchar_t">__need_wchar_t</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/__need_size_t">__need_size_t</span>)	\</u></td></tr>
+<tr><th id="47">47</th><td><u>     &amp;&amp; !defined(<span class="macro" data-ref="_M/__need_ptrdiff_t">__need_ptrdiff_t</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/__need_NULL">__need_NULL</span>)	\</u></td></tr>
+<tr><th id="48">48</th><td><u>     &amp;&amp; !defined(<span class="macro" data-ref="_M/__need_wint_t">__need_wint_t</span>))</u></td></tr>
+<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/_STDDEF_H" data-ref="_M/_STDDEF_H">_STDDEF_H</dfn></u></td></tr>
+<tr><th id="50">50</th><td><u>#define <dfn class="macro" id="_M/_STDDEF_H_" data-ref="_M/_STDDEF_H_">_STDDEF_H_</dfn></u></td></tr>
+<tr><th id="51">51</th><td><i>/* snaroff@next.com says the NeXT needs this.  */</i></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/_ANSI_STDDEF_H" data-ref="_M/_ANSI_STDDEF_H">_ANSI_STDDEF_H</dfn></u></td></tr>
+<tr><th id="53">53</th><td><i>/* Irix 5.1 needs this.  */</i></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/__STDDEF_H__" data-ref="_M/__STDDEF_H__">__STDDEF_H__</dfn></u></td></tr>
+<tr><th id="55">55</th><td><u>#<span data-ppcond="46">endif</span></u></td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td><u>#<span data-ppcond="57">ifndef</span> <span class="macro" data-ref="_M/__sys_stdtypes_h">__sys_stdtypes_h</span></u></td></tr>
+<tr><th id="58">58</th><td><i>/* In 4.3bsd-net2, machine/ansi.h defines these symbols, which are</i></td></tr>
+<tr><th id="59">59</th><td><i>   defined if the corresponding type is *not* defined.</i></td></tr>
+<tr><th id="60">60</th><td><i>   FreeBSD-2.1 defines _MACHINE_ANSI_H_ instead of _ANSI_H_ */</i></td></tr>
+<tr><th id="61">61</th><td><u>#<span data-ppcond="61">if</span> defined(<span class="macro" data-ref="_M/_ANSI_H_">_ANSI_H_</span>) || defined(<span class="macro" data-ref="_M/_MACHINE_ANSI_H_">_MACHINE_ANSI_H_</span>)</u></td></tr>
+<tr><th id="62">62</th><td><u>#if !defined(_SIZE_T_) &amp;&amp; !defined(_BSD_SIZE_T_)</u></td></tr>
+<tr><th id="63">63</th><td><u>#define _SIZE_T</u></td></tr>
+<tr><th id="64">64</th><td><u>#endif</u></td></tr>
+<tr><th id="65">65</th><td><u>#if !defined(_PTRDIFF_T_) &amp;&amp; !defined(_BSD_PTRDIFF_T_)</u></td></tr>
+<tr><th id="66">66</th><td><u>#define _PTRDIFF_T</u></td></tr>
+<tr><th id="67">67</th><td><u>#endif</u></td></tr>
+<tr><th id="68">68</th><td><i>/* On BSD/386 1.1, at least, machine/ansi.h defines _BSD_WCHAR_T_</i></td></tr>
+<tr><th id="69">69</th><td><i>   instead of _WCHAR_T_. */</i></td></tr>
+<tr><th id="70">70</th><td><u>#if !defined(_WCHAR_T_) &amp;&amp; !defined(_BSD_WCHAR_T_)</u></td></tr>
+<tr><th id="71">71</th><td><u>#ifndef _BSD_WCHAR_T_</u></td></tr>
+<tr><th id="72">72</th><td><u>#define _WCHAR_T</u></td></tr>
+<tr><th id="73">73</th><td><u>#endif</u></td></tr>
+<tr><th id="74">74</th><td><u>#endif</u></td></tr>
+<tr><th id="75">75</th><td><i>/* Undef _FOO_T_ if we are supposed to define foo_t.  */</i></td></tr>
+<tr><th id="76">76</th><td><u>#if defined (__need_ptrdiff_t) || defined (_STDDEF_H_)</u></td></tr>
+<tr><th id="77">77</th><td><u>#undef _PTRDIFF_T_</u></td></tr>
+<tr><th id="78">78</th><td><u>#undef _BSD_PTRDIFF_T_</u></td></tr>
+<tr><th id="79">79</th><td><u>#endif</u></td></tr>
+<tr><th id="80">80</th><td><u>#if defined (__need_size_t) || defined (_STDDEF_H_)</u></td></tr>
+<tr><th id="81">81</th><td><u>#undef _SIZE_T_</u></td></tr>
+<tr><th id="82">82</th><td><u>#undef _BSD_SIZE_T_</u></td></tr>
+<tr><th id="83">83</th><td><u>#endif</u></td></tr>
+<tr><th id="84">84</th><td><u>#if defined (__need_wchar_t) || defined (_STDDEF_H_)</u></td></tr>
+<tr><th id="85">85</th><td><u>#undef _WCHAR_T_</u></td></tr>
+<tr><th id="86">86</th><td><u>#undef _BSD_WCHAR_T_</u></td></tr>
+<tr><th id="87">87</th><td><u>#endif</u></td></tr>
+<tr><th id="88">88</th><td><u>#<span data-ppcond="61">endif</span> /* defined(_ANSI_H_) || defined(_MACHINE_ANSI_H_) */</u></td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td><i>/* Sequent's header files use _PTRDIFF_T_ in some conflicting way.</i></td></tr>
+<tr><th id="91">91</th><td><i>   Just ignore it.  */</i></td></tr>
+<tr><th id="92">92</th><td><u>#<span data-ppcond="92">if</span> defined (<span class="macro" data-ref="_M/__sequent__">__sequent__</span>) &amp;&amp; defined (<a class="macro" href="_mingw.h.html#422" data-ref="_M/_PTRDIFF_T_">_PTRDIFF_T_</a>)</u></td></tr>
+<tr><th id="93">93</th><td><u>#undef _PTRDIFF_T_</u></td></tr>
+<tr><th id="94">94</th><td><u>#<span data-ppcond="92">endif</span></u></td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><i>/* On VxWorks, &lt;type/vxTypesBase.h&gt; may have defined macros like</i></td></tr>
+<tr><th id="97">97</th><td><i>   _TYPE_size_t which will typedef size_t.  fixincludes patched the</i></td></tr>
+<tr><th id="98">98</th><td><i>   vxTypesBase.h so that this macro is only defined if _GCC_SIZE_T is</i></td></tr>
+<tr><th id="99">99</th><td><i>   not defined, and so that defining this macro defines _GCC_SIZE_T.</i></td></tr>
+<tr><th id="100">100</th><td><i>   If we find that the macros are still defined at this point, we must</i></td></tr>
+<tr><th id="101">101</th><td><i>   invoke them so that the type is defined as expected.  */</i></td></tr>
+<tr><th id="102">102</th><td><u>#<span data-ppcond="102">if</span> defined (<span class="macro" data-ref="_M/_TYPE_ptrdiff_t">_TYPE_ptrdiff_t</span>) &amp;&amp; (defined (<span class="macro" data-ref="_M/__need_ptrdiff_t">__need_ptrdiff_t</span>) || defined (<a class="macro" href="#50" data-ref="_M/_STDDEF_H_">_STDDEF_H_</a>))</u></td></tr>
+<tr><th id="103">103</th><td>_TYPE_ptrdiff_t;</td></tr>
+<tr><th id="104">104</th><td><u>#undef _TYPE_ptrdiff_t</u></td></tr>
+<tr><th id="105">105</th><td><u>#<span data-ppcond="102">endif</span></u></td></tr>
+<tr><th id="106">106</th><td><u>#<span data-ppcond="106">if</span> defined (<span class="macro" data-ref="_M/_TYPE_size_t">_TYPE_size_t</span>) &amp;&amp; (defined (<span class="macro" data-ref="_M/__need_size_t">__need_size_t</span>) || defined (<a class="macro" href="#50" data-ref="_M/_STDDEF_H_">_STDDEF_H_</a>))</u></td></tr>
+<tr><th id="107">107</th><td>_TYPE_size_t;</td></tr>
+<tr><th id="108">108</th><td><u>#undef _TYPE_size_t</u></td></tr>
+<tr><th id="109">109</th><td><u>#<span data-ppcond="106">endif</span></u></td></tr>
+<tr><th id="110">110</th><td><u>#<span data-ppcond="110">if</span> defined (<span class="macro" data-ref="_M/_TYPE_wchar_t">_TYPE_wchar_t</span>) &amp;&amp; (defined (<span class="macro" data-ref="_M/__need_wchar_t">__need_wchar_t</span>) || defined (<a class="macro" href="#50" data-ref="_M/_STDDEF_H_">_STDDEF_H_</a>))</u></td></tr>
+<tr><th id="111">111</th><td>_TYPE_wchar_t;</td></tr>
+<tr><th id="112">112</th><td><u>#undef _TYPE_wchar_t</u></td></tr>
+<tr><th id="113">113</th><td><u>#<span data-ppcond="110">endif</span></u></td></tr>
+<tr><th id="114">114</th><td></td></tr>
+<tr><th id="115">115</th><td><i>/* In case nobody has defined these types, but we aren't running under</i></td></tr>
+<tr><th id="116">116</th><td><i>   GCC 2.00, make sure that __PTRDIFF_TYPE__, __SIZE_TYPE__, and</i></td></tr>
+<tr><th id="117">117</th><td><i>   __WCHAR_TYPE__ have reasonable values.  This can happen if the</i></td></tr>
+<tr><th id="118">118</th><td><i>   parts of GCC is compiled by an older compiler, that actually</i></td></tr>
+<tr><th id="119">119</th><td><i>   include gstddef.h, such as collect2.  */</i></td></tr>
+<tr><th id="120">120</th><td></td></tr>
+<tr><th id="121">121</th><td><i>/* Signed type of difference of two pointers.  */</i></td></tr>
+<tr><th id="122">122</th><td></td></tr>
+<tr><th id="123">123</th><td><i>/* Define this type if we are doing the whole job,</i></td></tr>
+<tr><th id="124">124</th><td><i>   or if we want this type in particular.  */</i></td></tr>
+<tr><th id="125">125</th><td><u>#<span data-ppcond="125">if</span> defined (<a class="macro" href="#49" data-ref="_M/_STDDEF_H">_STDDEF_H</a>) || defined (<span class="macro" data-ref="_M/__need_ptrdiff_t">__need_ptrdiff_t</span>)</u></td></tr>
+<tr><th id="126">126</th><td><u>#<span data-ppcond="126">ifndef</span> <span class="macro" data-ref="_M/_PTRDIFF_T">_PTRDIFF_T</span>	/* in case &lt;sys/types.h&gt; has defined it. */</u></td></tr>
+<tr><th id="127">127</th><td><u>#<span data-ppcond="127">ifndef</span> <span class="macro" data-ref="_M/_T_PTRDIFF_">_T_PTRDIFF_</span></u></td></tr>
+<tr><th id="128">128</th><td><u>#<span data-ppcond="128">ifndef</span> <span class="macro" data-ref="_M/_T_PTRDIFF">_T_PTRDIFF</span></u></td></tr>
+<tr><th id="129">129</th><td><u>#<span data-ppcond="129">ifndef</span> <span class="macro" data-ref="_M/__PTRDIFF_T">__PTRDIFF_T</span></u></td></tr>
+<tr><th id="130">130</th><td><u>#<span data-ppcond="130">ifndef</span> <a class="macro" href="_mingw.h.html#422" data-ref="_M/_PTRDIFF_T_">_PTRDIFF_T_</a></u></td></tr>
+<tr><th id="131">131</th><td><u>#ifndef _BSD_PTRDIFF_T_</u></td></tr>
+<tr><th id="132">132</th><td><u>#ifndef ___int_ptrdiff_t_h</u></td></tr>
+<tr><th id="133">133</th><td><u>#ifndef _GCC_PTRDIFF_T</u></td></tr>
+<tr><th id="134">134</th><td><u>#define _PTRDIFF_T</u></td></tr>
+<tr><th id="135">135</th><td><u>#define _T_PTRDIFF_</u></td></tr>
+<tr><th id="136">136</th><td><u>#define _T_PTRDIFF</u></td></tr>
+<tr><th id="137">137</th><td><u>#define __PTRDIFF_T</u></td></tr>
+<tr><th id="138">138</th><td><u>#define _PTRDIFF_T_</u></td></tr>
+<tr><th id="139">139</th><td><u>#define _BSD_PTRDIFF_T_</u></td></tr>
+<tr><th id="140">140</th><td><u>#define ___int_ptrdiff_t_h</u></td></tr>
+<tr><th id="141">141</th><td><u>#define _GCC_PTRDIFF_T</u></td></tr>
+<tr><th id="142">142</th><td><u>#ifndef __PTRDIFF_TYPE__</u></td></tr>
+<tr><th id="143">143</th><td><u>#ifdef _WIN64</u></td></tr>
+<tr><th id="144">144</th><td><u>#define __PTRDIFF_TYPE__ long long int</u></td></tr>
+<tr><th id="145">145</th><td><u>#else</u></td></tr>
+<tr><th id="146">146</th><td><u>#define __PTRDIFF_TYPE__ long int</u></td></tr>
+<tr><th id="147">147</th><td><u>#endif</u></td></tr>
+<tr><th id="148">148</th><td><u>#endif</u></td></tr>
+<tr><th id="149">149</th><td><u>#ifndef _PTRDIFF_T_DEFINED</u></td></tr>
+<tr><th id="150">150</th><td><u>#define _PTRDIFF_T_DEFINED</u></td></tr>
+<tr><th id="151">151</th><td>__MINGW_EXTENSION <b>typedef</b> __PTRDIFF_TYPE__ ptrdiff_t;</td></tr>
+<tr><th id="152">152</th><td><u>#endif</u></td></tr>
+<tr><th id="153">153</th><td><u>#endif /* _GCC_PTRDIFF_T */</u></td></tr>
+<tr><th id="154">154</th><td><u>#endif /* ___int_ptrdiff_t_h */</u></td></tr>
+<tr><th id="155">155</th><td><u>#endif /* _BSD_PTRDIFF_T_ */</u></td></tr>
+<tr><th id="156">156</th><td><u>#<span data-ppcond="130">endif</span> /* _PTRDIFF_T_ */</u></td></tr>
+<tr><th id="157">157</th><td><u>#<span data-ppcond="129">endif</span> /* __PTRDIFF_T */</u></td></tr>
+<tr><th id="158">158</th><td><u>#<span data-ppcond="128">endif</span> /* _T_PTRDIFF */</u></td></tr>
+<tr><th id="159">159</th><td><u>#<span data-ppcond="127">endif</span> /* _T_PTRDIFF_ */</u></td></tr>
+<tr><th id="160">160</th><td><u>#<span data-ppcond="126">endif</span> /* _PTRDIFF_T */</u></td></tr>
+<tr><th id="161">161</th><td></td></tr>
+<tr><th id="162">162</th><td><i>/* If this symbol has done its job, get rid of it.  */</i></td></tr>
+<tr><th id="163">163</th><td><u>#undef	<span class="macro" data-ref="_M/__need_ptrdiff_t">__need_ptrdiff_t</span></u></td></tr>
+<tr><th id="164">164</th><td></td></tr>
+<tr><th id="165">165</th><td><u>#<span data-ppcond="125">endif</span> /* _STDDEF_H or __need_ptrdiff_t.  */</u></td></tr>
+<tr><th id="166">166</th><td></td></tr>
+<tr><th id="167">167</th><td><i>/* Unsigned type of `sizeof' something.  */</i></td></tr>
+<tr><th id="168">168</th><td></td></tr>
+<tr><th id="169">169</th><td><i>/* Define this type if we are doing the whole job,</i></td></tr>
+<tr><th id="170">170</th><td><i>   or if we want this type in particular.  */</i></td></tr>
+<tr><th id="171">171</th><td><u>#<span data-ppcond="171">if</span> defined (<a class="macro" href="#49" data-ref="_M/_STDDEF_H">_STDDEF_H</a>) || defined (<span class="macro" data-ref="_M/__need_size_t">__need_size_t</span>)</u></td></tr>
+<tr><th id="172">172</th><td><u>#<span data-ppcond="172">ifndef</span> <span class="macro" data-ref="_M/__size_t__">__size_t__</span>	/* BeOS */</u></td></tr>
+<tr><th id="173">173</th><td><u>#<span data-ppcond="173">ifndef</span> <span class="macro" data-ref="_M/__SIZE_T__">__SIZE_T__</span>	/* Cray Unicos/Mk */</u></td></tr>
+<tr><th id="174">174</th><td><u>#<span data-ppcond="174">ifndef</span> <span class="macro" data-ref="_M/_SIZE_T">_SIZE_T</span>	/* in case &lt;sys/types.h&gt; has defined it. */</u></td></tr>
+<tr><th id="175">175</th><td><u>#<span data-ppcond="175">ifndef</span> <span class="macro" data-ref="_M/_SYS_SIZE_T_H">_SYS_SIZE_T_H</span></u></td></tr>
+<tr><th id="176">176</th><td><u>#<span data-ppcond="176">ifndef</span> <span class="macro" data-ref="_M/_T_SIZE_">_T_SIZE_</span></u></td></tr>
+<tr><th id="177">177</th><td><u>#<span data-ppcond="177">ifndef</span> <span class="macro" data-ref="_M/_T_SIZE">_T_SIZE</span></u></td></tr>
+<tr><th id="178">178</th><td><u>#<span data-ppcond="178">ifndef</span> <span class="macro" data-ref="_M/__SIZE_T">__SIZE_T</span></u></td></tr>
+<tr><th id="179">179</th><td><u>#<span data-ppcond="179">ifndef</span> <span class="macro" data-ref="_M/_SIZE_T_">_SIZE_T_</span></u></td></tr>
+<tr><th id="180">180</th><td><u>#<span data-ppcond="180">ifndef</span> <span class="macro" data-ref="_M/_BSD_SIZE_T_">_BSD_SIZE_T_</span></u></td></tr>
+<tr><th id="181">181</th><td><u>#<span data-ppcond="181">ifndef</span> <span class="macro" data-ref="_M/_SIZE_T_DEFINED_">_SIZE_T_DEFINED_</span></u></td></tr>
+<tr><th id="182">182</th><td><u>#<span data-ppcond="182">ifndef</span> <a class="macro" href="_mingw.h.html#374" data-ref="_M/_SIZE_T_DEFINED">_SIZE_T_DEFINED</a></u></td></tr>
+<tr><th id="183">183</th><td><u>#ifndef _BSD_SIZE_T_DEFINED_	/* Darwin */</u></td></tr>
+<tr><th id="184">184</th><td><u>#ifndef _SIZE_T_DECLARED	/* FreeBSD 5 */</u></td></tr>
+<tr><th id="185">185</th><td><u>#ifndef ___int_size_t_h</u></td></tr>
+<tr><th id="186">186</th><td><u>#ifndef _GCC_SIZE_T</u></td></tr>
+<tr><th id="187">187</th><td><u>#ifndef _SIZET_</u></td></tr>
+<tr><th id="188">188</th><td><u>#ifndef __size_t</u></td></tr>
+<tr><th id="189">189</th><td><u>#define __size_t__	/* BeOS */</u></td></tr>
+<tr><th id="190">190</th><td><u>#define __SIZE_T__	/* Cray Unicos/Mk */</u></td></tr>
+<tr><th id="191">191</th><td><u>#define _SIZE_T</u></td></tr>
+<tr><th id="192">192</th><td><u>#define _SYS_SIZE_T_H</u></td></tr>
+<tr><th id="193">193</th><td><u>#define _T_SIZE_</u></td></tr>
+<tr><th id="194">194</th><td><u>#define _T_SIZE</u></td></tr>
+<tr><th id="195">195</th><td><u>#define __SIZE_T</u></td></tr>
+<tr><th id="196">196</th><td><u>#define _SIZE_T_</u></td></tr>
+<tr><th id="197">197</th><td><u>#define _BSD_SIZE_T_</u></td></tr>
+<tr><th id="198">198</th><td><u>#define _SIZE_T_DEFINED_</u></td></tr>
+<tr><th id="199">199</th><td><u>#define _SIZE_T_DEFINED</u></td></tr>
+<tr><th id="200">200</th><td><u>#define _BSD_SIZE_T_DEFINED_	/* Darwin */</u></td></tr>
+<tr><th id="201">201</th><td><u>#define _SIZE_T_DECLARED	/* FreeBSD 5 */</u></td></tr>
+<tr><th id="202">202</th><td><u>#define ___int_size_t_h</u></td></tr>
+<tr><th id="203">203</th><td><u>#define _GCC_SIZE_T</u></td></tr>
+<tr><th id="204">204</th><td><u>#define _SIZET_</u></td></tr>
+<tr><th id="205">205</th><td><u>#if defined (__FreeBSD__) &amp;&amp; (__FreeBSD__ &gt;= 5)</u></td></tr>
+<tr><th id="206">206</th><td><i>/* __size_t is a typedef on FreeBSD 5!, must not trash it. */</i></td></tr>
+<tr><th id="207">207</th><td><u>#else</u></td></tr>
+<tr><th id="208">208</th><td><u>#define __size_t</u></td></tr>
+<tr><th id="209">209</th><td><u>#endif</u></td></tr>
+<tr><th id="210">210</th><td><u>#ifndef __SIZE_TYPE__</u></td></tr>
+<tr><th id="211">211</th><td><u>#ifdef _WIN64</u></td></tr>
+<tr><th id="212">212</th><td><u>#define __SIZE_TYPE__ long long unsigned int</u></td></tr>
+<tr><th id="213">213</th><td><u>#else</u></td></tr>
+<tr><th id="214">214</th><td><u>#define __SIZE_TYPE__ long unsigned int</u></td></tr>
+<tr><th id="215">215</th><td><u>#endif</u></td></tr>
+<tr><th id="216">216</th><td><u>#endif</u></td></tr>
+<tr><th id="217">217</th><td><u>#if !(defined (__GNUG__) &amp;&amp; defined (size_t))</u></td></tr>
+<tr><th id="218">218</th><td>__MINGW_EXTENSION <b>typedef</b> __SIZE_TYPE__ size_t;</td></tr>
+<tr><th id="219">219</th><td><u>#ifdef __BEOS__</u></td></tr>
+<tr><th id="220">220</th><td><b>typedef</b> <em>long</em> ssize_t;</td></tr>
+<tr><th id="221">221</th><td><u>#endif /* __BEOS__ */</u></td></tr>
+<tr><th id="222">222</th><td><u>#endif /* !(defined (__GNUG__) &amp;&amp; defined (size_t)) */</u></td></tr>
+<tr><th id="223">223</th><td><u>#endif /* __size_t */</u></td></tr>
+<tr><th id="224">224</th><td><u>#endif /* _SIZET_ */</u></td></tr>
+<tr><th id="225">225</th><td><u>#endif /* _GCC_SIZE_T */</u></td></tr>
+<tr><th id="226">226</th><td><u>#endif /* ___int_size_t_h */</u></td></tr>
+<tr><th id="227">227</th><td><u>#endif /* _SIZE_T_DECLARED */</u></td></tr>
+<tr><th id="228">228</th><td><u>#endif /* _BSD_SIZE_T_DEFINED_ */</u></td></tr>
+<tr><th id="229">229</th><td><u>#<span data-ppcond="182">endif</span> /* _SIZE_T_DEFINED */</u></td></tr>
+<tr><th id="230">230</th><td><u>#<span data-ppcond="181">endif</span> /* _SIZE_T_DEFINED_ */</u></td></tr>
+<tr><th id="231">231</th><td><u>#<span data-ppcond="180">endif</span> /* _BSD_SIZE_T_ */</u></td></tr>
+<tr><th id="232">232</th><td><u>#<span data-ppcond="179">endif</span> /* _SIZE_T_ */</u></td></tr>
+<tr><th id="233">233</th><td><u>#<span data-ppcond="178">endif</span> /* __SIZE_T */</u></td></tr>
+<tr><th id="234">234</th><td><u>#<span data-ppcond="177">endif</span> /* _T_SIZE */</u></td></tr>
+<tr><th id="235">235</th><td><u>#<span data-ppcond="176">endif</span> /* _T_SIZE_ */</u></td></tr>
+<tr><th id="236">236</th><td><u>#<span data-ppcond="175">endif</span> /* _SYS_SIZE_T_H */</u></td></tr>
+<tr><th id="237">237</th><td><u>#<span data-ppcond="174">endif</span> /* _SIZE_T */</u></td></tr>
+<tr><th id="238">238</th><td><u>#<span data-ppcond="173">endif</span> /* __SIZE_T__ */</u></td></tr>
+<tr><th id="239">239</th><td><u>#<span data-ppcond="172">endif</span> /* __size_t__ */</u></td></tr>
+<tr><th id="240">240</th><td><u>#undef	<span class="macro" data-ref="_M/__need_size_t">__need_size_t</span></u></td></tr>
+<tr><th id="241">241</th><td><u>#<span data-ppcond="171">endif</span> /* _STDDEF_H or __need_size_t.  */</u></td></tr>
+<tr><th id="242">242</th><td></td></tr>
+<tr><th id="243">243</th><td></td></tr>
+<tr><th id="244">244</th><td><i>/* Wide character type.</i></td></tr>
+<tr><th id="245">245</th><td><i>   Locale-writers should change this as necessary to</i></td></tr>
+<tr><th id="246">246</th><td><i>   be big enough to hold unique values not between 0 and 127,</i></td></tr>
+<tr><th id="247">247</th><td><i>   and not (wchar_t) -1, for each defined multibyte character.  */</i></td></tr>
+<tr><th id="248">248</th><td></td></tr>
+<tr><th id="249">249</th><td><i>/* Define this type if we are doing the whole job,</i></td></tr>
+<tr><th id="250">250</th><td><i>   or if we want this type in particular.  */</i></td></tr>
+<tr><th id="251">251</th><td><u>#<span data-ppcond="251">if</span> defined (<a class="macro" href="#49" data-ref="_M/_STDDEF_H">_STDDEF_H</a>) || defined (<span class="macro" data-ref="_M/__need_wchar_t">__need_wchar_t</span>)</u></td></tr>
+<tr><th id="252">252</th><td><u>#<span data-ppcond="252">ifndef</span> <span class="macro" data-ref="_M/__wchar_t__">__wchar_t__</span>	/* BeOS */</u></td></tr>
+<tr><th id="253">253</th><td><u>#<span data-ppcond="253">ifndef</span> <span class="macro" data-ref="_M/__WCHAR_T__">__WCHAR_T__</span>	/* Cray Unicos/Mk */</u></td></tr>
+<tr><th id="254">254</th><td><u>#<span data-ppcond="254">ifndef</span> <span class="macro" data-ref="_M/_WCHAR_T">_WCHAR_T</span></u></td></tr>
+<tr><th id="255">255</th><td><u>#<span data-ppcond="255">ifndef</span> <span class="macro" data-ref="_M/_T_WCHAR_">_T_WCHAR_</span></u></td></tr>
+<tr><th id="256">256</th><td><u>#<span data-ppcond="256">ifndef</span> <span class="macro" data-ref="_M/_T_WCHAR">_T_WCHAR</span></u></td></tr>
+<tr><th id="257">257</th><td><u>#<span data-ppcond="257">ifndef</span> <span class="macro" data-ref="_M/__WCHAR_T">__WCHAR_T</span></u></td></tr>
+<tr><th id="258">258</th><td><u>#<span data-ppcond="258">ifndef</span> <span class="macro" data-ref="_M/_WCHAR_T_">_WCHAR_T_</span></u></td></tr>
+<tr><th id="259">259</th><td><u>#<span data-ppcond="259">ifndef</span> <span class="macro" data-ref="_M/_BSD_WCHAR_T_">_BSD_WCHAR_T_</span></u></td></tr>
+<tr><th id="260">260</th><td><u>#<span data-ppcond="260">ifndef</span> <span class="macro" data-ref="_M/_BSD_WCHAR_T_DEFINED_">_BSD_WCHAR_T_DEFINED_</span>    /* Darwin */</u></td></tr>
+<tr><th id="261">261</th><td><u>#<span data-ppcond="261">ifndef</span> <span class="macro" data-ref="_M/_BSD_RUNE_T_DEFINED_">_BSD_RUNE_T_DEFINED_</span>	/* Darwin */</u></td></tr>
+<tr><th id="262">262</th><td><u>#<span data-ppcond="262">ifndef</span> <span class="macro" data-ref="_M/_WCHAR_T_DECLARED">_WCHAR_T_DECLARED</span> /* FreeBSD 5 */</u></td></tr>
+<tr><th id="263">263</th><td><u>#<span data-ppcond="263">ifndef</span> <span class="macro" data-ref="_M/_WCHAR_T_DEFINED_">_WCHAR_T_DEFINED_</span></u></td></tr>
+<tr><th id="264">264</th><td><u>#<span data-ppcond="264">ifndef</span> <a class="macro" href="_mingw.h.html#433" data-ref="_M/_WCHAR_T_DEFINED">_WCHAR_T_DEFINED</a></u></td></tr>
+<tr><th id="265">265</th><td><u>#ifndef _WCHAR_T_H</u></td></tr>
+<tr><th id="266">266</th><td><u>#ifndef ___int_wchar_t_h</u></td></tr>
+<tr><th id="267">267</th><td><u>#ifndef __INT_WCHAR_T_H</u></td></tr>
+<tr><th id="268">268</th><td><u>#ifndef _GCC_WCHAR_T</u></td></tr>
+<tr><th id="269">269</th><td><u>#define __wchar_t__	/* BeOS */</u></td></tr>
+<tr><th id="270">270</th><td><u>#define __WCHAR_T__	/* Cray Unicos/Mk */</u></td></tr>
+<tr><th id="271">271</th><td><u>#define _WCHAR_T</u></td></tr>
+<tr><th id="272">272</th><td><u>#define _T_WCHAR_</u></td></tr>
+<tr><th id="273">273</th><td><u>#define _T_WCHAR</u></td></tr>
+<tr><th id="274">274</th><td><u>#define __WCHAR_T</u></td></tr>
+<tr><th id="275">275</th><td><u>#define _WCHAR_T_</u></td></tr>
+<tr><th id="276">276</th><td><u>#define _BSD_WCHAR_T_</u></td></tr>
+<tr><th id="277">277</th><td><u>#define _WCHAR_T_DEFINED_</u></td></tr>
+<tr><th id="278">278</th><td><u>#define _WCHAR_T_DEFINED</u></td></tr>
+<tr><th id="279">279</th><td><u>#define _WCHAR_T_H</u></td></tr>
+<tr><th id="280">280</th><td><u>#define ___int_wchar_t_h</u></td></tr>
+<tr><th id="281">281</th><td><u>#define __INT_WCHAR_T_H</u></td></tr>
+<tr><th id="282">282</th><td><u>#define _GCC_WCHAR_T</u></td></tr>
+<tr><th id="283">283</th><td><u>#define _WCHAR_T_DECLARED</u></td></tr>
+<tr><th id="284">284</th><td></td></tr>
+<tr><th id="285">285</th><td><i>/* On BSD/386 1.1, at least, machine/ansi.h defines _BSD_WCHAR_T_</i></td></tr>
+<tr><th id="286">286</th><td><i>   instead of _WCHAR_T_, and _BSD_RUNE_T_ (which, unlike the other</i></td></tr>
+<tr><th id="287">287</th><td><i>   symbols in the _FOO_T_ family, stays defined even after its</i></td></tr>
+<tr><th id="288">288</th><td><i>   corresponding type is defined).  If we define wchar_t, then we</i></td></tr>
+<tr><th id="289">289</th><td><i>   must undef _WCHAR_T_; for BSD/386 1.1 (and perhaps others), if</i></td></tr>
+<tr><th id="290">290</th><td><i>   we undef _WCHAR_T_, then we must also define rune_t, since </i></td></tr>
+<tr><th id="291">291</th><td><i>   headers like runetype.h assume that if machine/ansi.h is included,</i></td></tr>
+<tr><th id="292">292</th><td><i>   and _BSD_WCHAR_T_ is not defined, then rune_t is available.</i></td></tr>
+<tr><th id="293">293</th><td><i>   machine/ansi.h says, "Note that _WCHAR_T_ and _RUNE_T_ must be of</i></td></tr>
+<tr><th id="294">294</th><td><i>   the same type." */</i></td></tr>
+<tr><th id="295">295</th><td><u>#ifdef _BSD_WCHAR_T_</u></td></tr>
+<tr><th id="296">296</th><td><u>#undef _BSD_WCHAR_T_</u></td></tr>
+<tr><th id="297">297</th><td><u>#ifdef _BSD_RUNE_T_</u></td></tr>
+<tr><th id="298">298</th><td><u>#if !defined (_ANSI_SOURCE) &amp;&amp; !defined (_POSIX_SOURCE)</u></td></tr>
+<tr><th id="299">299</th><td><b>typedef</b> _BSD_RUNE_T_ rune_t;</td></tr>
+<tr><th id="300">300</th><td><u>#define _BSD_WCHAR_T_DEFINED_</u></td></tr>
+<tr><th id="301">301</th><td><u>#define _BSD_RUNE_T_DEFINED_	/* Darwin */</u></td></tr>
+<tr><th id="302">302</th><td><u>#if defined (__FreeBSD__) &amp;&amp; (__FreeBSD__ &lt; 5)</u></td></tr>
+<tr><th id="303">303</th><td><i>/* Why is this file so hard to maintain properly?  In contrast to</i></td></tr>
+<tr><th id="304">304</th><td><i>   the comment above regarding BSD/386 1.1, on FreeBSD for as long</i></td></tr>
+<tr><th id="305">305</th><td><i>   as the symbol has existed, _BSD_RUNE_T_ must not stay defined or</i></td></tr>
+<tr><th id="306">306</th><td><i>   redundant typedefs will occur when stdlib.h is included after this file. */</i></td></tr>
+<tr><th id="307">307</th><td><u>#undef _BSD_RUNE_T_</u></td></tr>
+<tr><th id="308">308</th><td><u>#endif</u></td></tr>
+<tr><th id="309">309</th><td><u>#endif</u></td></tr>
+<tr><th id="310">310</th><td><u>#endif</u></td></tr>
+<tr><th id="311">311</th><td><u>#endif</u></td></tr>
+<tr><th id="312">312</th><td></td></tr>
+<tr><th id="313">313</th><td><u>#ifndef __WCHAR_TYPE__</u></td></tr>
+<tr><th id="314">314</th><td><i>/* wchar_t is unsigned short for compatibility with MS runtime */</i></td></tr>
+<tr><th id="315">315</th><td><u>#define __WCHAR_TYPE__ unsigned short</u></td></tr>
+<tr><th id="316">316</th><td><u>#endif</u></td></tr>
+<tr><th id="317">317</th><td><u>#ifndef __cplusplus</u></td></tr>
+<tr><th id="318">318</th><td><b>typedef</b> __WCHAR_TYPE__ <em>wchar_t</em>;</td></tr>
+<tr><th id="319">319</th><td><u>#endif</u></td></tr>
+<tr><th id="320">320</th><td><u>#endif</u></td></tr>
+<tr><th id="321">321</th><td><u>#endif</u></td></tr>
+<tr><th id="322">322</th><td><u>#endif</u></td></tr>
+<tr><th id="323">323</th><td><u>#endif</u></td></tr>
+<tr><th id="324">324</th><td><u>#<span data-ppcond="264">endif</span></u></td></tr>
+<tr><th id="325">325</th><td><u>#<span data-ppcond="263">endif</span></u></td></tr>
+<tr><th id="326">326</th><td><u>#<span data-ppcond="262">endif</span> /* _WCHAR_T_DECLARED */</u></td></tr>
+<tr><th id="327">327</th><td><u>#<span data-ppcond="261">endif</span> /* _BSD_RUNE_T_DEFINED_ */</u></td></tr>
+<tr><th id="328">328</th><td><u>#<span data-ppcond="260">endif</span></u></td></tr>
+<tr><th id="329">329</th><td><u>#<span data-ppcond="259">endif</span></u></td></tr>
+<tr><th id="330">330</th><td><u>#<span data-ppcond="258">endif</span></u></td></tr>
+<tr><th id="331">331</th><td><u>#<span data-ppcond="257">endif</span></u></td></tr>
+<tr><th id="332">332</th><td><u>#<span data-ppcond="256">endif</span></u></td></tr>
+<tr><th id="333">333</th><td><u>#<span data-ppcond="255">endif</span></u></td></tr>
+<tr><th id="334">334</th><td><u>#<span data-ppcond="254">endif</span></u></td></tr>
+<tr><th id="335">335</th><td><u>#<span data-ppcond="253">endif</span> /* __WCHAR_T__ */</u></td></tr>
+<tr><th id="336">336</th><td><u>#<span data-ppcond="252">endif</span> /* __wchar_t__ */</u></td></tr>
+<tr><th id="337">337</th><td><u>#undef	<span class="macro" data-ref="_M/__need_wchar_t">__need_wchar_t</span></u></td></tr>
+<tr><th id="338">338</th><td><u>#<span data-ppcond="251">endif</span> /* _STDDEF_H or __need_wchar_t.  */</u></td></tr>
+<tr><th id="339">339</th><td></td></tr>
+<tr><th id="340">340</th><td><u>#<span data-ppcond="340">if</span> defined (<span class="macro" data-ref="_M/__need_wint_t">__need_wint_t</span>)</u></td></tr>
+<tr><th id="341">341</th><td><u>#ifndef _WINT_T</u></td></tr>
+<tr><th id="342">342</th><td><u>#define _WINT_T</u></td></tr>
+<tr><th id="343">343</th><td><u>#ifndef __WINT_TYPE__</u></td></tr>
+<tr><th id="344">344</th><td><i>/* wint_t is unsigned short for compatibility with MS runtime */</i></td></tr>
+<tr><th id="345">345</th><td><u>#define __WINT_TYPE__ unsigned short</u></td></tr>
+<tr><th id="346">346</th><td><u>#endif</u></td></tr>
+<tr><th id="347">347</th><td><u>#ifndef _WCTYPE_T_DEFINED</u></td></tr>
+<tr><th id="348">348</th><td><u>#define _WCTYPE_T_DEFINED</u></td></tr>
+<tr><th id="349">349</th><td>  <b>typedef</b> __WINT_TYPE__ wint_t;</td></tr>
+<tr><th id="350">350</th><td>  <b>typedef</b> <em>unsigned</em> <em>short</em> wctype_t;</td></tr>
+<tr><th id="351">351</th><td><u>#endif</u></td></tr>
+<tr><th id="352">352</th><td><u>#endif</u></td></tr>
+<tr><th id="353">353</th><td><u>#undef __need_wint_t</u></td></tr>
+<tr><th id="354">354</th><td><u>#<span data-ppcond="340">endif</span></u></td></tr>
+<tr><th id="355">355</th><td></td></tr>
+<tr><th id="356">356</th><td><i>/*  In 4.3bsd-net2, leave these undefined to indicate that size_t, etc.</i></td></tr>
+<tr><th id="357">357</th><td><i>    are already defined.  */</i></td></tr>
+<tr><th id="358">358</th><td><i>/*  BSD/OS 3.1 and FreeBSD [23].x require the MACHINE_ANSI_H check here.  */</i></td></tr>
+<tr><th id="359">359</th><td><u>#<span data-ppcond="359">if</span> defined(<span class="macro" data-ref="_M/_ANSI_H_">_ANSI_H_</span>) || defined(<span class="macro" data-ref="_M/_MACHINE_ANSI_H_">_MACHINE_ANSI_H_</span>)</u></td></tr>
+<tr><th id="360">360</th><td><i>/*  The references to _GCC_PTRDIFF_T_, _GCC_SIZE_T_, and _GCC_WCHAR_T_</i></td></tr>
+<tr><th id="361">361</th><td><i>    are probably typos and should be removed before 2.8 is released.  */</i></td></tr>
+<tr><th id="362">362</th><td><u>#ifdef _GCC_PTRDIFF_T_</u></td></tr>
+<tr><th id="363">363</th><td><u>#undef _PTRDIFF_T_</u></td></tr>
+<tr><th id="364">364</th><td><u>#undef _BSD_PTRDIFF_T_</u></td></tr>
+<tr><th id="365">365</th><td><u>#endif</u></td></tr>
+<tr><th id="366">366</th><td><u>#ifdef _GCC_SIZE_T_</u></td></tr>
+<tr><th id="367">367</th><td><u>#undef _SIZE_T_</u></td></tr>
+<tr><th id="368">368</th><td><u>#undef _BSD_SIZE_T_</u></td></tr>
+<tr><th id="369">369</th><td><u>#endif</u></td></tr>
+<tr><th id="370">370</th><td><u>#ifdef _GCC_WCHAR_T_</u></td></tr>
+<tr><th id="371">371</th><td><u>#undef _WCHAR_T_</u></td></tr>
+<tr><th id="372">372</th><td><u>#undef _BSD_WCHAR_T_</u></td></tr>
+<tr><th id="373">373</th><td><u>#endif</u></td></tr>
+<tr><th id="374">374</th><td><i>/*  The following ones are the real ones.  */</i></td></tr>
+<tr><th id="375">375</th><td><u>#ifdef _GCC_PTRDIFF_T</u></td></tr>
+<tr><th id="376">376</th><td><u>#undef _PTRDIFF_T_</u></td></tr>
+<tr><th id="377">377</th><td><u>#undef _BSD_PTRDIFF_T_</u></td></tr>
+<tr><th id="378">378</th><td><u>#endif</u></td></tr>
+<tr><th id="379">379</th><td><u>#ifdef _GCC_SIZE_T</u></td></tr>
+<tr><th id="380">380</th><td><u>#undef _SIZE_T_</u></td></tr>
+<tr><th id="381">381</th><td><u>#undef _BSD_SIZE_T_</u></td></tr>
+<tr><th id="382">382</th><td><u>#endif</u></td></tr>
+<tr><th id="383">383</th><td><u>#ifdef _GCC_WCHAR_T</u></td></tr>
+<tr><th id="384">384</th><td><u>#undef _WCHAR_T_</u></td></tr>
+<tr><th id="385">385</th><td><u>#undef _BSD_WCHAR_T_</u></td></tr>
+<tr><th id="386">386</th><td><u>#endif</u></td></tr>
+<tr><th id="387">387</th><td><u>#<span data-ppcond="359">endif</span> /* _ANSI_H_ || _MACHINE_ANSI_H_ */</u></td></tr>
+<tr><th id="388">388</th><td></td></tr>
+<tr><th id="389">389</th><td><u>#<span data-ppcond="57">endif</span> /* __sys_stdtypes_h */</u></td></tr>
+<tr><th id="390">390</th><td></td></tr>
+<tr><th id="391">391</th><td><i>/* A null pointer constant.  */</i></td></tr>
+<tr><th id="392">392</th><td></td></tr>
+<tr><th id="393">393</th><td><u>#<span data-ppcond="393">if</span> defined (<a class="macro" href="#49" data-ref="_M/_STDDEF_H">_STDDEF_H</a>) || defined (<span class="macro" data-ref="_M/__need_NULL">__need_NULL</span>)</u></td></tr>
+<tr><th id="394">394</th><td><u>#undef <a class="macro" href="string.h.html#23" data-ref="_M/NULL">NULL</a>		/* in case &lt;stdio.h&gt; has defined it. */</u></td></tr>
+<tr><th id="395">395</th><td><u>#<span data-ppcond="395">if</span> defined(<span class="macro" data-ref="_M/__GNUG__">__GNUG__</span>) &amp;&amp; <span class="macro" title="4" data-ref="_M/__GNUG__">__GNUG__</span> &gt;= 3</u></td></tr>
+<tr><th id="396">396</th><td><u>#define <dfn class="macro" id="_M/NULL" data-ref="_M/NULL">NULL</dfn> __null</u></td></tr>
+<tr><th id="397">397</th><td><u>#<span data-ppcond="395">else</span>   /* G++ */</u></td></tr>
+<tr><th id="398">398</th><td><u>#ifndef __cplusplus</u></td></tr>
+<tr><th id="399">399</th><td><u>#define NULL ((void *)0)</u></td></tr>
+<tr><th id="400">400</th><td><u>#else   /* C++ */</u></td></tr>
+<tr><th id="401">401</th><td><u>#ifndef _WIN64</u></td></tr>
+<tr><th id="402">402</th><td><u>#define NULL 0</u></td></tr>
+<tr><th id="403">403</th><td><u>#else</u></td></tr>
+<tr><th id="404">404</th><td><u>#define NULL 0LL</u></td></tr>
+<tr><th id="405">405</th><td><u>#endif  /* W64 */</u></td></tr>
+<tr><th id="406">406</th><td><u>#endif  /* C++ */</u></td></tr>
+<tr><th id="407">407</th><td><u>#<span data-ppcond="395">endif</span>  /* G++ */</u></td></tr>
+<tr><th id="408">408</th><td><u>#<span data-ppcond="393">endif</span>	/* NULL not defined and &lt;stddef.h&gt; or need NULL.  */</u></td></tr>
+<tr><th id="409">409</th><td><u>#undef	<span class="macro" data-ref="_M/__need_NULL">__need_NULL</span></u></td></tr>
+<tr><th id="410">410</th><td></td></tr>
+<tr><th id="411">411</th><td><u>#<span data-ppcond="411">ifdef</span> <a class="macro" href="#49" data-ref="_M/_STDDEF_H">_STDDEF_H</a></u></td></tr>
+<tr><th id="412">412</th><td></td></tr>
+<tr><th id="413">413</th><td><i>/* Offset of member MEMBER in a struct of type TYPE. */</i></td></tr>
+<tr><th id="414">414</th><td><u>#define <dfn class="macro" id="_M/offsetof" data-ref="_M/offsetof">offsetof</dfn>(TYPE, MEMBER) __builtin_offsetof (TYPE, MEMBER)</u></td></tr>
+<tr><th id="415">415</th><td></td></tr>
+<tr><th id="416">416</th><td><u>#<span data-ppcond="416">if</span> (defined (<span class="macro" data-ref="_M/__STDC_VERSION__">__STDC_VERSION__</span>) &amp;&amp; __STDC_VERSION__ &gt;= 201112L) \</u></td></tr>
+<tr><th id="417">417</th><td><u>  || (defined(<span class="macro" data-ref="_M/__cplusplus">__cplusplus</span>) &amp;&amp; <span class="macro" title="201103L" data-ref="_M/__cplusplus">__cplusplus</span> &gt;= 201103L)</u></td></tr>
+<tr><th id="418">418</th><td><u>#<span data-ppcond="418">ifndef</span> <span class="macro" data-ref="_M/_GCC_MAX_ALIGN_T">_GCC_MAX_ALIGN_T</span></u></td></tr>
+<tr><th id="419">419</th><td><u>#define <dfn class="macro" id="_M/_GCC_MAX_ALIGN_T" data-ref="_M/_GCC_MAX_ALIGN_T">_GCC_MAX_ALIGN_T</dfn></u></td></tr>
+<tr><th id="420">420</th><td><i>/* Type whose alignment is supported in every context and is at least</i></td></tr>
+<tr><th id="421">421</th><td><i>   as great as that of any standard type not using alignment</i></td></tr>
+<tr><th id="422">422</th><td><i>   specifiers.  */</i></td></tr>
+<tr><th id="423">423</th><td><b>typedef</b> <b>struct</b> {</td></tr>
+<tr><th id="424">424</th><td>  <em>long</em> <em>long</em> <dfn class="decl" id="(anonymous)::__max_align_ll" title='(anonymous struct)::__max_align_ll' data-ref="(anonymous)::__max_align_ll">__max_align_ll</dfn> <b>__attribute__</b>((__aligned__(<b>__alignof__</b>(<em>long</em> <em>long</em>))));</td></tr>
+<tr><th id="425">425</th><td>  <em>long</em> <em>double</em> <dfn class="decl" id="(anonymous)::__max_align_ld" title='(anonymous struct)::__max_align_ld' data-ref="(anonymous)::__max_align_ld">__max_align_ld</dfn> <b>__attribute__</b>((__aligned__(<b>__alignof__</b>(<em>long</em> <em>double</em>))));</td></tr>
+<tr><th id="426">426</th><td>} <dfn class="typedef" id="max_align_t" title='max_align_t' data-type='struct max_align_t' data-ref="max_align_t">max_align_t</dfn>;</td></tr>
+<tr><th id="427">427</th><td><u>#<span data-ppcond="418">endif</span></u></td></tr>
+<tr><th id="428">428</th><td><u>#<span data-ppcond="416">endif</span> /* C11 or C++11.  */</u></td></tr>
+<tr><th id="429">429</th><td></td></tr>
+<tr><th id="430">430</th><td><u>#<span data-ppcond="411">endif</span> /* _STDDEF_H was defined this time.  */</u></td></tr>
+<tr><th id="431">431</th><td></td></tr>
+<tr><th id="432">432</th><td><u>#<span data-ppcond="37">endif</span> /* !_STDDEF_H &amp;&amp; !_STDDEF_H_ &amp;&amp; !_ANSI_STDDEF_H &amp;&amp; !__STDDEF_H__</u></td></tr>
+<tr><th id="433">433</th><td><u>	  || __need_XXX was not defined before */</u></td></tr>
+<tr><th id="434">434</th><td></td></tr>
+<tr><th id="435">435</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

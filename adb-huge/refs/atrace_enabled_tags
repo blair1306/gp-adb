@@ -1,0 +1,8 @@
+<dec f='codebrowser/system/core/include/cutils/trace.h' l='126' type='uint64_t'/>
+<use f='codebrowser/system/core/include/cutils/trace.h' l='156' u='r' c='atrace_get_enabled_tags'/>
+<def f='codebrowser/system/core/libcutils/trace-host.c' l='25' type='uint64_t'/>
+<doc f='codebrowser/system/core/include/cutils/trace.h' l='121'>/**
+ * Set of ATRACE_TAG flags to trace for, initialized to ATRACE_TAG_NOT_READY.
+ * A value of zero indicates setup has failed.
+ * Any other nonzero value indicates setup has succeeded, and tracing is on.
+ */</doc>

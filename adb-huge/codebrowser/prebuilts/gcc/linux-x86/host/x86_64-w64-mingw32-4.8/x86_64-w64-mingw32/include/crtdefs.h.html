@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>crtdefs.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/crtdefs.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="localeinfo_struct,tagLC_ID,threadlocaleinfostruct "/>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/crtdefs.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='crtdefs.h.html'>crtdefs.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><u>#<span data-ppcond="7">ifndef</span> <span class="macro" data-ref="_M/_INC_CRTDEFS">_INC_CRTDEFS</span></u></td></tr>
+<tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/_INC_CRTDEFS" data-ref="_M/_INC_CRTDEFS">_INC_CRTDEFS</dfn></u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><u>#include <a href="_mingw.h.html">&lt;_mingw.h&gt;</a></u></td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td><u>#<span data-ppcond="12">ifdef</span> <span class="macro" data-ref="_M/__ERRCODE_DEFINED_MS">__ERRCODE_DEFINED_MS</span></u></td></tr>
+<tr><th id="13">13</th><td><i>/* #define __ERRCODE_DEFINED_MS */</i></td></tr>
+<tr><th id="14">14</th><td><b>typedef</b> <em>int</em> errcode;</td></tr>
+<tr><th id="15">15</th><td><u>#<span data-ppcond="12">endif</span></u></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#<span data-ppcond="17">ifndef</span> <span class="macro" data-ref="_M/_CRTNOALIAS">_CRTNOALIAS</span></u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/_CRTNOALIAS" data-ref="_M/_CRTNOALIAS">_CRTNOALIAS</dfn></u></td></tr>
+<tr><th id="19">19</th><td><u>#<span data-ppcond="17">endif</span></u></td></tr>
+<tr><th id="20">20</th><td></td></tr>
+<tr><th id="21">21</th><td><u>#<span data-ppcond="21">ifndef</span> <span class="macro" data-ref="_M/_CRTRESTRICT">_CRTRESTRICT</span></u></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/_CRTRESTRICT" data-ref="_M/_CRTRESTRICT">_CRTRESTRICT</dfn></u></td></tr>
+<tr><th id="23">23</th><td><u>#<span data-ppcond="21">endif</span></u></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/_RSIZE_T_DEFINED">_RSIZE_T_DEFINED</span></u></td></tr>
+<tr><th id="26">26</th><td><b>typedef</b> <a class="typedef" href="_mingw.h.html#size_t" title='size_t' data-type='unsigned int' data-ref="size_t">size_t</a> <dfn class="typedef" id="rsize_t" title='rsize_t' data-type='size_t' data-ref="rsize_t">rsize_t</dfn>;</td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/_RSIZE_T_DEFINED" data-ref="_M/_RSIZE_T_DEFINED">_RSIZE_T_DEFINED</dfn></u></td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="25">endif</span></u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#<span data-ppcond="30">if</span> defined(<span class="macro" data-ref="_M/__cplusplus">__cplusplus</span>) &amp;&amp; <a class="macro" href="_mingw_secapi.h.html#13" title="1" data-ref="_M/_CRT_SECURE_CPP_OVERLOAD_SECURE_NAMES">_CRT_SECURE_CPP_OVERLOAD_SECURE_NAMES</a></u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_0" data-ref="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_0">__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_0</dfn>(__ret,__func,__dsttype,__dst) \</u></td></tr>
+<tr><th id="33">33</th><td><u>  extern "C++" { \</u></td></tr>
+<tr><th id="34">34</th><td><u>    template &lt;size_t __size&gt; \</u></td></tr>
+<tr><th id="35">35</th><td><u>    inline __ret __cdecl __func(__dsttype (&amp;__dst)[__size]) { \</u></td></tr>
+<tr><th id="36">36</th><td><u>        return __func(__dst,__size); \</u></td></tr>
+<tr><th id="37">37</th><td><u>    } \</u></td></tr>
+<tr><th id="38">38</th><td><u>  }</u></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_1" data-ref="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_1">__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_1</dfn>(__ret,__func,__dsttype,__dst,__type1,__arg1) \</u></td></tr>
+<tr><th id="41">41</th><td><u>  extern "C++" {\</u></td></tr>
+<tr><th id="42">42</th><td><u>    template &lt;size_t __size&gt; \</u></td></tr>
+<tr><th id="43">43</th><td><u>    inline __ret __cdecl __func(__dsttype (&amp;__dst)[__size], __type1 __arg1) { \</u></td></tr>
+<tr><th id="44">44</th><td><u>        return __func(__dst,__size,__arg1);  \</u></td></tr>
+<tr><th id="45">45</th><td><u>    }\</u></td></tr>
+<tr><th id="46">46</th><td><u>  }</u></td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_2" data-ref="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_2">__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_2</dfn>(__ret,__func,__dsttype,__dst,__type1,__arg1,__type2,__arg2)\</u></td></tr>
+<tr><th id="49">49</th><td><u>  extern "C++" {\</u></td></tr>
+<tr><th id="50">50</th><td><u>    template &lt;size_t __size&gt; inline\</u></td></tr>
+<tr><th id="51">51</th><td><u>    __ret __cdecl __func(__dsttype (&amp;__dst)[__size], __type1 __arg1, __type2 __arg2) { \</u></td></tr>
+<tr><th id="52">52</th><td><u>        return __func(__dst,__size,__arg1,__arg2);  \</u></td></tr>
+<tr><th id="53">53</th><td><u>    }\</u></td></tr>
+<tr><th id="54">54</th><td><u>  }</u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><u>#define <dfn class="macro" id="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_3" data-ref="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_3">__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_3</dfn>(__ret,__func,__dsttype,__dst,__type1,__arg1,__type2,__arg2,__type3,__arg3) \</u></td></tr>
+<tr><th id="57">57</th><td><u>  extern "C++" { \</u></td></tr>
+<tr><th id="58">58</th><td><u>    template &lt;size_t __size&gt; inline \</u></td></tr>
+<tr><th id="59">59</th><td><u>    __ret __cdecl __func(__dsttype (&amp;__dst)[__size], __type1 __arg1, __type2 __arg2, __type3 __arg3) { \</u></td></tr>
+<tr><th id="60">60</th><td><u>        return __func(__dst,__size,__arg1,__arg2,__arg3); \</u></td></tr>
+<tr><th id="61">61</th><td><u>    }\</u></td></tr>
+<tr><th id="62">62</th><td><u>  }</u></td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_4" data-ref="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_4">__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_4</dfn>(__ret,__func,__dsttype,__dst,__type1,__arg1,__type2,__arg2,__type3,__arg3,__type4,__arg4) \</u></td></tr>
+<tr><th id="65">65</th><td><u>  extern "C++" { \</u></td></tr>
+<tr><th id="66">66</th><td><u>    template &lt;size_t __size&gt; inline \</u></td></tr>
+<tr><th id="67">67</th><td><u>    __ret __cdecl __func(__dsttype (&amp;__dst)[__size], __type1 __arg1, __type2 __arg2, __type3 __arg3, __type4 __arg4) { \</u></td></tr>
+<tr><th id="68">68</th><td><u>        return __func(__dst,__size,__arg1,__arg2,__arg3,__arg4); \</u></td></tr>
+<tr><th id="69">69</th><td><u>    }\</u></td></tr>
+<tr><th id="70">70</th><td><u>  }</u></td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_1_1" data-ref="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_1_1">__DEFINE_CPP_OVERLOAD_SECURE_FUNC_1_1</dfn>(__ret,__func,__type0,__arg0,__dsttype,__dst,__type1,__arg1) \</u></td></tr>
+<tr><th id="73">73</th><td><u>  extern "C++" { \</u></td></tr>
+<tr><th id="74">74</th><td><u>    template &lt;size_t __size&gt; inline \</u></td></tr>
+<tr><th id="75">75</th><td><u>      __ret __cdecl __func(__type0 __arg0, __dsttype (&amp;__dst)[__size], __type1 __arg1) { \</u></td></tr>
+<tr><th id="76">76</th><td><u>      return __func(__arg0, __dst, __size, __arg1); \</u></td></tr>
+<tr><th id="77">77</th><td><u>    } \</u></td></tr>
+<tr><th id="78">78</th><td><u>  }</u></td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td><u>#define <dfn class="macro" id="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_1_2" data-ref="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_1_2">__DEFINE_CPP_OVERLOAD_SECURE_FUNC_1_2</dfn>(__ret,__func,__type0,__arg0,__dsttype,__dst,__type1,__arg1,__type2,__arg2) \</u></td></tr>
+<tr><th id="81">81</th><td><u>  extern "C++" { \</u></td></tr>
+<tr><th id="82">82</th><td><u>    template &lt;size_t __size&gt; inline \</u></td></tr>
+<tr><th id="83">83</th><td><u>    __ret __cdecl __func(__type0 __arg0, __dsttype (&amp;__dst)[__size], __type1 __arg1, __type2 __arg2) { \</u></td></tr>
+<tr><th id="84">84</th><td><u>      return __func(__arg0, __dst, __size, __arg1, __arg2); \</u></td></tr>
+<tr><th id="85">85</th><td><u>    } \</u></td></tr>
+<tr><th id="86">86</th><td><u>  }</u></td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td><u>#define <dfn class="macro" id="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_1_3" data-ref="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_1_3">__DEFINE_CPP_OVERLOAD_SECURE_FUNC_1_3</dfn>(__ret,__func,__type0,__arg0,__dsttype,__dst,__type1,__arg1,__type2,__arg2,__type3,__arg3) \</u></td></tr>
+<tr><th id="89">89</th><td><u>  extern "C++" { \</u></td></tr>
+<tr><th id="90">90</th><td><u>    template &lt;size_t __size&gt; inline \</u></td></tr>
+<tr><th id="91">91</th><td><u>      __ret __cdecl __func(__type0 __arg0, __dsttype (&amp;__dst)[__size], __type1 __arg1, __type2 __arg2, __type3 __arg3) { \</u></td></tr>
+<tr><th id="92">92</th><td><u>      return __func(__arg0, __dst, __size, __arg1, __arg2, __arg3); \</u></td></tr>
+<tr><th id="93">93</th><td><u>    } \</u></td></tr>
+<tr><th id="94">94</th><td><u>  }</u></td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><u>#define <dfn class="macro" id="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_2_0" data-ref="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_2_0">__DEFINE_CPP_OVERLOAD_SECURE_FUNC_2_0</dfn>(__ret,__func,__type1,__arg1,__type2,__arg2,__dsttype,__dst) \</u></td></tr>
+<tr><th id="97">97</th><td><u>  extern "C++" { \</u></td></tr>
+<tr><th id="98">98</th><td><u>    template &lt;size_t __size&gt; inline \</u></td></tr>
+<tr><th id="99">99</th><td><u>    __ret __cdecl __func(__type1 __arg1, __type2 __arg2, __dsttype (&amp;__dst)[__size]) { \</u></td></tr>
+<tr><th id="100">100</th><td><u>      return __func(__arg1, __arg2, __dst, __size); \</u></td></tr>
+<tr><th id="101">101</th><td><u>    } \</u></td></tr>
+<tr><th id="102">102</th><td><u>  }</u></td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td><u>#define <dfn class="macro" id="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_1_ARGLIST" data-ref="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_1_ARGLIST">__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_1_ARGLIST</dfn>(__ret,__func,__vfunc,__dsttype,__dst,__type1,__arg1) \</u></td></tr>
+<tr><th id="105">105</th><td><u>  extern "C++" {\</u></td></tr>
+<tr><th id="106">106</th><td><u>    template &lt;size_t __size&gt; \</u></td></tr>
+<tr><th id="107">107</th><td><u>    inline __ret __cdecl __func(__dsttype (&amp;__dst)[__size], __type1 __arg1, ...) { \</u></td></tr>
+<tr><th id="108">108</th><td><u>      va_list __vaargs; \</u></td></tr>
+<tr><th id="109">109</th><td><u>      _crt_va_start(<span class='refarg'>__vaargs</span>, __arg1); \</u></td></tr>
+<tr><th id="110">110</th><td><u>      __ret __retval = __vfunc(__dst,__size,__arg1,__vaargs); \</u></td></tr>
+<tr><th id="111">111</th><td><u>      _crt_va_end(<span class='refarg'>__vaargs</span>); \</u></td></tr>
+<tr><th id="112">112</th><td><u>      return __retval; \</u></td></tr>
+<tr><th id="113">113</th><td><u>    }\</u></td></tr>
+<tr><th id="114">114</th><td><u>  }</u></td></tr>
+<tr><th id="115">115</th><td></td></tr>
+<tr><th id="116">116</th><td><u>#define <dfn class="macro" id="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_2_ARGLIST" data-ref="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_2_ARGLIST">__DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_2_ARGLIST</dfn>(__ret,__func,__vfunc,__dsttype,__dst,__type1,__arg1,__type2,__arg2) \</u></td></tr>
+<tr><th id="117">117</th><td><u>  extern "C++" {\</u></td></tr>
+<tr><th id="118">118</th><td><u>    template &lt;size_t __size&gt; \</u></td></tr>
+<tr><th id="119">119</th><td><u>    inline __ret __cdecl __func(__dsttype (&amp;__dst)[__size], __type1 __arg1, __type2 __arg2, ...) { \</u></td></tr>
+<tr><th id="120">120</th><td><u>      va_list __vaargs; \</u></td></tr>
+<tr><th id="121">121</th><td><u>      _crt_va_start(<span class='refarg'>__vaargs</span>, __arg2); \</u></td></tr>
+<tr><th id="122">122</th><td><u>      __ret __retval = __vfunc(__dst,__size,__arg1,__arg2,__vaargs); \</u></td></tr>
+<tr><th id="123">123</th><td><u>      _crt_va_end(<span class='refarg'>__vaargs</span>); \</u></td></tr>
+<tr><th id="124">124</th><td><u>      return __retval; \</u></td></tr>
+<tr><th id="125">125</th><td><u>    }\</u></td></tr>
+<tr><th id="126">126</th><td><u>  }</u></td></tr>
+<tr><th id="127">127</th><td></td></tr>
+<tr><th id="128">128</th><td><u>#define <dfn class="macro" id="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_SPLITPATH" data-ref="_M/__DEFINE_CPP_OVERLOAD_SECURE_FUNC_SPLITPATH">__DEFINE_CPP_OVERLOAD_SECURE_FUNC_SPLITPATH</dfn>(__ret,__func,__dsttype,__src) \</u></td></tr>
+<tr><th id="129">129</th><td><u>  extern "C++" { \</u></td></tr>
+<tr><th id="130">130</th><td><u>    template &lt;size_t __drive_size, size_t __dir_size, size_t __name_size, size_t __ext_size&gt; inline \</u></td></tr>
+<tr><th id="131">131</th><td><u>    __ret __cdecl __func(const __dsttype *__src, __dsttype (&amp;__drive)[__drive_size], __dsttype (&amp;__dir)[__dir_size], __dsttype (&amp;__name)[__name_size], __dsttype (&amp;__ext)[__ext_size]) { \</u></td></tr>
+<tr><th id="132">132</th><td><u>        return __func(__src, __drive, __drive_size, __dir, __dir_size, __name, __name_size, __ext, __ext_size); \</u></td></tr>
+<tr><th id="133">133</th><td><u>    } \</u></td></tr>
+<tr><th id="134">134</th><td><u>  }</u></td></tr>
+<tr><th id="135">135</th><td></td></tr>
+<tr><th id="136">136</th><td><u>#<span data-ppcond="30">else</span></u></td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td><u>#define __DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_0(__ret,__func,__dsttype,__dst)</u></td></tr>
+<tr><th id="139">139</th><td><u>#define __DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_1(__ret,__func,__dsttype,__dst,__type1,__arg1)</u></td></tr>
+<tr><th id="140">140</th><td><u>#define __DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_2(__ret,__func,__dsttype,__dst,__type1,__arg1,__type2,__arg2)</u></td></tr>
+<tr><th id="141">141</th><td><u>#define __DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_3(__ret,__func,__dsttype,__dst,__type1,__arg1,__type2,__arg2,__type3,__arg3)</u></td></tr>
+<tr><th id="142">142</th><td><u>#define __DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_4(__ret,__func,__dsttype,__dst,__type1,__arg1,__type2,__arg2,__type3,__arg3,__type4,__arg4)</u></td></tr>
+<tr><th id="143">143</th><td><u>#define __DEFINE_CPP_OVERLOAD_SECURE_FUNC_1_1(__ret,__func,__type0,__arg0,__dsttype,__dst,__type1,__arg1)</u></td></tr>
+<tr><th id="144">144</th><td><u>#define __DEFINE_CPP_OVERLOAD_SECURE_FUNC_1_2(__ret,__func,__type0,__arg0,__dsttype,__dst,__type1,__arg1,__type2,__arg2)</u></td></tr>
+<tr><th id="145">145</th><td><u>#define __DEFINE_CPP_OVERLOAD_SECURE_FUNC_1_3(__ret,__func,__type0,__arg0,__dsttype,__dst,__type1,__arg1,__type2,__arg2,__type3,__arg3)</u></td></tr>
+<tr><th id="146">146</th><td><u>#define __DEFINE_CPP_OVERLOAD_SECURE_FUNC_2_0(__ret,__func,__type1,__arg1,__type2,__arg2,__dsttype,__dst)</u></td></tr>
+<tr><th id="147">147</th><td><u>#define __DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_1_ARGLIST(__ret,__func,__vfunc,__dsttype,__dst,__type1,__arg1)</u></td></tr>
+<tr><th id="148">148</th><td><u>#define __DEFINE_CPP_OVERLOAD_SECURE_FUNC_0_2_ARGLIST(__ret,__func,__vfunc,__dsttype,__dst,__type1,__arg1,__type2,__arg2)</u></td></tr>
+<tr><th id="149">149</th><td><u>#define __DEFINE_CPP_OVERLOAD_SECURE_FUNC_SPLITPATH(__ret,__func,__dsttype,__src)</u></td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td><u>#<span data-ppcond="30">endif</span></u></td></tr>
+<tr><th id="152">152</th><td></td></tr>
+<tr><th id="153">153</th><td><b>struct</b> <a class="type" href="#threadlocaleinfostruct" title='threadlocaleinfostruct' data-ref="threadlocaleinfostruct">threadlocaleinfostruct</a>;</td></tr>
+<tr><th id="154">154</th><td><b>struct</b> <dfn class="type" id="threadmbcinfostruct" title='threadmbcinfostruct' data-ref="threadmbcinfostruct">threadmbcinfostruct</dfn>;</td></tr>
+<tr><th id="155">155</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#threadlocaleinfostruct" title='threadlocaleinfostruct' data-ref="threadlocaleinfostruct">threadlocaleinfostruct</a> *<dfn class="typedef" id="pthreadlocinfo" title='pthreadlocinfo' data-type='struct threadlocaleinfostruct *' data-ref="pthreadlocinfo">pthreadlocinfo</dfn>;</td></tr>
+<tr><th id="156">156</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#threadmbcinfostruct" title='threadmbcinfostruct' data-ref="threadmbcinfostruct">threadmbcinfostruct</a> *<dfn class="typedef" id="pthreadmbcinfo" title='pthreadmbcinfo' data-type='struct threadmbcinfostruct *' data-ref="pthreadmbcinfo">pthreadmbcinfo</dfn>;</td></tr>
+<tr><th id="157">157</th><td><b>struct</b> <dfn class="type" id="__lc_time_data" title='__lc_time_data' data-ref="__lc_time_data">__lc_time_data</dfn>;</td></tr>
+<tr><th id="158">158</th><td></td></tr>
+<tr><th id="159">159</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="localeinfo_struct" title='localeinfo_struct' data-ref="localeinfo_struct"><a class="type" href="#localeinfo_struct" title='localeinfo_struct' data-ref="localeinfo_struct"><a class="type" href="#localeinfo_struct" title='localeinfo_struct' data-ref="localeinfo_struct">localeinfo_struct</a></a></dfn> {</td></tr>
+<tr><th id="160">160</th><td>  <a class="typedef" href="#pthreadlocinfo" title='pthreadlocinfo' data-type='struct threadlocaleinfostruct *' data-ref="pthreadlocinfo">pthreadlocinfo</a> <dfn class="decl" id="localeinfo_struct::locinfo" title='localeinfo_struct::locinfo' data-ref="localeinfo_struct::locinfo">locinfo</dfn>;</td></tr>
+<tr><th id="161">161</th><td>  <a class="typedef" href="#pthreadmbcinfo" title='pthreadmbcinfo' data-type='struct threadmbcinfostruct *' data-ref="pthreadmbcinfo">pthreadmbcinfo</a> <dfn class="decl" id="localeinfo_struct::mbcinfo" title='localeinfo_struct::mbcinfo' data-ref="localeinfo_struct::mbcinfo">mbcinfo</dfn>;</td></tr>
+<tr><th id="162">162</th><td>} <dfn class="typedef" id="_locale_tstruct" title='_locale_tstruct' data-type='struct localeinfo_struct' data-ref="_locale_tstruct">_locale_tstruct</dfn>,*<dfn class="typedef" id="_locale_t" title='_locale_t' data-type='struct localeinfo_struct *' data-ref="_locale_t">_locale_t</dfn>;</td></tr>
+<tr><th id="163">163</th><td></td></tr>
+<tr><th id="164">164</th><td><u>#<span data-ppcond="164">ifndef</span> <span class="macro" data-ref="_M/_TAGLC_ID_DEFINED">_TAGLC_ID_DEFINED</span></u></td></tr>
+<tr><th id="165">165</th><td><u>#define <dfn class="macro" id="_M/_TAGLC_ID_DEFINED" data-ref="_M/_TAGLC_ID_DEFINED">_TAGLC_ID_DEFINED</dfn></u></td></tr>
+<tr><th id="166">166</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="tagLC_ID" title='tagLC_ID' data-ref="tagLC_ID"><a class="type" href="#tagLC_ID" title='tagLC_ID' data-ref="tagLC_ID"><a class="type" href="#tagLC_ID" title='tagLC_ID' data-ref="tagLC_ID">tagLC_ID</a></a></dfn> {</td></tr>
+<tr><th id="167">167</th><td>  <em>unsigned</em> <em>short</em> <dfn class="decl" id="tagLC_ID::wLanguage" title='tagLC_ID::wLanguage' data-ref="tagLC_ID::wLanguage">wLanguage</dfn>;</td></tr>
+<tr><th id="168">168</th><td>  <em>unsigned</em> <em>short</em> <dfn class="decl" id="tagLC_ID::wCountry" title='tagLC_ID::wCountry' data-ref="tagLC_ID::wCountry">wCountry</dfn>;</td></tr>
+<tr><th id="169">169</th><td>  <em>unsigned</em> <em>short</em> <dfn class="decl" id="tagLC_ID::wCodePage" title='tagLC_ID::wCodePage' data-ref="tagLC_ID::wCodePage">wCodePage</dfn>;</td></tr>
+<tr><th id="170">170</th><td>} <dfn class="typedef" id="LC_ID" title='LC_ID' data-type='struct tagLC_ID' data-ref="LC_ID">LC_ID</dfn>,*<dfn class="typedef" id="LPLC_ID" title='LPLC_ID' data-type='struct tagLC_ID *' data-ref="LPLC_ID">LPLC_ID</dfn>;</td></tr>
+<tr><th id="171">171</th><td><u>#<span data-ppcond="164">endif</span> /* _TAGLC_ID_DEFINED */</u></td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td><u>#<span data-ppcond="173">ifndef</span> <span class="macro" data-ref="_M/_THREADLOCALEINFO">_THREADLOCALEINFO</span></u></td></tr>
+<tr><th id="174">174</th><td><u>#define <dfn class="macro" id="_M/_THREADLOCALEINFO" data-ref="_M/_THREADLOCALEINFO">_THREADLOCALEINFO</dfn></u></td></tr>
+<tr><th id="175">175</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="threadlocaleinfostruct" title='threadlocaleinfostruct' data-ref="threadlocaleinfostruct"><a class="type" href="#threadlocaleinfostruct" title='threadlocaleinfostruct' data-ref="threadlocaleinfostruct">threadlocaleinfostruct</a></dfn> {</td></tr>
+<tr><th id="176">176</th><td>  <em>int</em> <dfn class="decl" id="threadlocaleinfostruct::refcount" title='threadlocaleinfostruct::refcount' data-ref="threadlocaleinfostruct::refcount">refcount</dfn>;</td></tr>
+<tr><th id="177">177</th><td>  <em>unsigned</em> <em>int</em> <dfn class="decl" id="threadlocaleinfostruct::lc_codepage" title='threadlocaleinfostruct::lc_codepage' data-ref="threadlocaleinfostruct::lc_codepage">lc_codepage</dfn>;</td></tr>
+<tr><th id="178">178</th><td>  <em>unsigned</em> <em>int</em> <dfn class="decl" id="threadlocaleinfostruct::lc_collate_cp" title='threadlocaleinfostruct::lc_collate_cp' data-ref="threadlocaleinfostruct::lc_collate_cp">lc_collate_cp</dfn>;</td></tr>
+<tr><th id="179">179</th><td>  <em>unsigned</em> <em>long</em> <dfn class="decl" id="threadlocaleinfostruct::lc_handle" title='threadlocaleinfostruct::lc_handle' data-ref="threadlocaleinfostruct::lc_handle">lc_handle</dfn>[<var>6</var>];</td></tr>
+<tr><th id="180">180</th><td>  <a class="typedef" href="#LC_ID" title='LC_ID' data-type='struct tagLC_ID' data-ref="LC_ID">LC_ID</a> <dfn class="decl" id="threadlocaleinfostruct::lc_id" title='threadlocaleinfostruct::lc_id' data-ref="threadlocaleinfostruct::lc_id">lc_id</dfn>[<var>6</var>];</td></tr>
+<tr><th id="181">181</th><td>  <b>struct</b> {</td></tr>
+<tr><th id="182">182</th><td>    <em>char</em> *<dfn class="decl" id="threadlocaleinfostruct::(anonymous)::locale" title='threadlocaleinfostruct::(anonymous struct)::locale' data-ref="threadlocaleinfostruct::(anonymous)::locale">locale</dfn>;</td></tr>
+<tr><th id="183">183</th><td>    <em>wchar_t</em> *<dfn class="decl" id="threadlocaleinfostruct::(anonymous)::wlocale" title='threadlocaleinfostruct::(anonymous struct)::wlocale' data-ref="threadlocaleinfostruct::(anonymous)::wlocale">wlocale</dfn>;</td></tr>
+<tr><th id="184">184</th><td>    <em>int</em> *<dfn class="decl" id="threadlocaleinfostruct::(anonymous)::refcount" title='threadlocaleinfostruct::(anonymous struct)::refcount' data-ref="threadlocaleinfostruct::(anonymous)::refcount">refcount</dfn>;</td></tr>
+<tr><th id="185">185</th><td>    <em>int</em> *<dfn class="decl" id="threadlocaleinfostruct::(anonymous)::wrefcount" title='threadlocaleinfostruct::(anonymous struct)::wrefcount' data-ref="threadlocaleinfostruct::(anonymous)::wrefcount">wrefcount</dfn>;</td></tr>
+<tr><th id="186">186</th><td>  } <dfn class="decl" id="threadlocaleinfostruct::lc_category" title='threadlocaleinfostruct::lc_category' data-ref="threadlocaleinfostruct::lc_category">lc_category</dfn>[<var>6</var>];</td></tr>
+<tr><th id="187">187</th><td>  <em>int</em> <dfn class="decl" id="threadlocaleinfostruct::lc_clike" title='threadlocaleinfostruct::lc_clike' data-ref="threadlocaleinfostruct::lc_clike">lc_clike</dfn>;</td></tr>
+<tr><th id="188">188</th><td>  <em>int</em> <dfn class="decl" id="threadlocaleinfostruct::mb_cur_max" title='threadlocaleinfostruct::mb_cur_max' data-ref="threadlocaleinfostruct::mb_cur_max">mb_cur_max</dfn>;</td></tr>
+<tr><th id="189">189</th><td>  <em>int</em> *<dfn class="decl" id="threadlocaleinfostruct::lconv_intl_refcount" title='threadlocaleinfostruct::lconv_intl_refcount' data-ref="threadlocaleinfostruct::lconv_intl_refcount">lconv_intl_refcount</dfn>;</td></tr>
+<tr><th id="190">190</th><td>  <em>int</em> *<dfn class="decl" id="threadlocaleinfostruct::lconv_num_refcount" title='threadlocaleinfostruct::lconv_num_refcount' data-ref="threadlocaleinfostruct::lconv_num_refcount">lconv_num_refcount</dfn>;</td></tr>
+<tr><th id="191">191</th><td>  <em>int</em> *<dfn class="decl" id="threadlocaleinfostruct::lconv_mon_refcount" title='threadlocaleinfostruct::lconv_mon_refcount' data-ref="threadlocaleinfostruct::lconv_mon_refcount">lconv_mon_refcount</dfn>;</td></tr>
+<tr><th id="192">192</th><td>  <b>struct</b> <dfn class="type" id="lconv" title='lconv' data-ref="lconv"><a class="type" href="#lconv" title='lconv' data-ref="lconv">lconv</a></dfn> *<dfn class="decl" id="threadlocaleinfostruct::lconv" title='threadlocaleinfostruct::lconv' data-ref="threadlocaleinfostruct::lconv">lconv</dfn>;</td></tr>
+<tr><th id="193">193</th><td>  <em>int</em> *<dfn class="decl" id="threadlocaleinfostruct::ctype1_refcount" title='threadlocaleinfostruct::ctype1_refcount' data-ref="threadlocaleinfostruct::ctype1_refcount">ctype1_refcount</dfn>;</td></tr>
+<tr><th id="194">194</th><td>  <em>unsigned</em> <em>short</em> *<dfn class="decl" id="threadlocaleinfostruct::ctype1" title='threadlocaleinfostruct::ctype1' data-ref="threadlocaleinfostruct::ctype1">ctype1</dfn>;</td></tr>
+<tr><th id="195">195</th><td>  <em>const</em> <em>unsigned</em> <em>short</em> *<dfn class="decl" id="threadlocaleinfostruct::pctype" title='threadlocaleinfostruct::pctype' data-ref="threadlocaleinfostruct::pctype">pctype</dfn>;</td></tr>
+<tr><th id="196">196</th><td>  <em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="decl" id="threadlocaleinfostruct::pclmap" title='threadlocaleinfostruct::pclmap' data-ref="threadlocaleinfostruct::pclmap">pclmap</dfn>;</td></tr>
+<tr><th id="197">197</th><td>  <em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="decl" id="threadlocaleinfostruct::pcumap" title='threadlocaleinfostruct::pcumap' data-ref="threadlocaleinfostruct::pcumap">pcumap</dfn>;</td></tr>
+<tr><th id="198">198</th><td>  <b>struct</b> <a class="type" href="#__lc_time_data" title='__lc_time_data' data-ref="__lc_time_data">__lc_time_data</a> *<dfn class="decl" id="threadlocaleinfostruct::lc_time_curr" title='threadlocaleinfostruct::lc_time_curr' data-ref="threadlocaleinfostruct::lc_time_curr">lc_time_curr</dfn>;</td></tr>
+<tr><th id="199">199</th><td>} <dfn class="typedef" id="threadlocinfo" title='threadlocinfo' data-type='struct threadlocaleinfostruct' data-ref="threadlocinfo">threadlocinfo</dfn>;</td></tr>
+<tr><th id="200">200</th><td><u>#<span data-ppcond="173">endif</span> /* _THREADLOCALEINFO */</u></td></tr>
+<tr><th id="201">201</th><td></td></tr>
+<tr><th id="202">202</th><td><u>#<span data-ppcond="202">ifndef</span> <span class="macro" data-ref="_M/__crt_typefix">__crt_typefix</span></u></td></tr>
+<tr><th id="203">203</th><td><u>#define <dfn class="macro" id="_M/__crt_typefix" data-ref="_M/__crt_typefix">__crt_typefix</dfn>(ctype)</u></td></tr>
+<tr><th id="204">204</th><td><u>#<span data-ppcond="202">endif</span></u></td></tr>
+<tr><th id="205">205</th><td></td></tr>
+<tr><th id="206">206</th><td><u>#<span data-ppcond="7">endif</span> /* _INC_CRTDEFS */</u></td></tr>
+<tr><th id="207">207</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

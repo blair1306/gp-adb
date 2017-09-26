@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5129' ll='5137'/>
+<size>52</size>
+<mbr r='tagCOMBOBOXINFO::cbSize' o='0' t='DWORD'/>
+<mbr r='tagCOMBOBOXINFO::rcItem' o='32' t='RECT'/>
+<mbr r='tagCOMBOBOXINFO::rcButton' o='160' t='RECT'/>
+<mbr r='tagCOMBOBOXINFO::stateButton' o='288' t='DWORD'/>
+<mbr r='tagCOMBOBOXINFO::hwndCombo' o='320' t='HWND'/>
+<mbr r='tagCOMBOBOXINFO::hwndItem' o='352' t='HWND'/>
+<mbr r='tagCOMBOBOXINFO::hwndList' o='384' t='HWND'/>

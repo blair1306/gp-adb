@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='2534' ll='2538'/>
+<size>480</size>
+<mbr r='tagHW_PROFILE_INFOW::dwDockInfo' o='0' t='DWORD'/>
+<mbr r='tagHW_PROFILE_INFOW::szHwProfileGuid' o='32' t='WCHAR [39]'/>
+<mbr r='tagHW_PROFILE_INFOW::szHwProfileName' o='1280' t='WCHAR [80]'/>

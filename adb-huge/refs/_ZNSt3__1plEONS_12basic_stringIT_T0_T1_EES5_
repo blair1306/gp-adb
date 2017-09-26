@@ -1,0 +1,2 @@
+<def f='codebrowser/external/libcxx/include/string' l='4027' ll='4032' type='basic_string&lt;_CharT, _Traits, _Allocator&gt; std::__1::operator+(basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp;&amp; __lhs, basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp;&amp; __rhs)'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='41' u='c' c='_Z11ElideMiddleRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEm'/>

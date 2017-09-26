@@ -1,0 +1,12 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/asm-generic/errno.h' l='6'/>
+<use f='codebrowser/external/libcxx/include/cerrno' l='373' u='a'/>
+<use f='codebrowser/external/libcxx/include/system_error' l='328' u='c'/>
+<use f='codebrowser/external/libcxx/include/__mutex_base' l='200' u='c'/>
+<use f='codebrowser/external/libcxx/include/__mutex_base' l='212' u='c'/>
+<use f='codebrowser/external/libcxx/include/__mutex_base' l='225' u='c'/>
+<use f='codebrowser/external/libcxx/include/__mutex_base' l='238' u='c'/>
+<use f='codebrowser/external/libcxx/include/shared_mutex' l='436' u='c'/>
+<use f='codebrowser/external/libcxx/include/shared_mutex' l='448' u='c'/>
+<use f='codebrowser/external/libcxx/include/shared_mutex' l='461' u='c'/>
+<use f='codebrowser/external/libcxx/include/shared_mutex' l='474' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/errno.h' l='55'/>

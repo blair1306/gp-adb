@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='134'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1940' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2006' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2175' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='689' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/stat.h' l='159'/>
+<use f='codebrowser/system/core/base/file.cpp' l='156' u='c'/>
+<use f='codebrowser/system/core/libcutils/ashmem-host.c' l='86' u='c'/>

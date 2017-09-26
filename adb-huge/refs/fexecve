@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='558' type='int fexecve(int __fd, char *const * __argv, char *const * __envp)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='556'>/* Execute the file FD refers to, overlaying the running program image.
+   ARGV and ENVP are passed to the new program, as for `execve&apos;.  */</doc>

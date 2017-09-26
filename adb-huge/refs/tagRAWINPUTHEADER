@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5181' ll='5186'/>
+<size>16</size>
+<mbr r='tagRAWINPUTHEADER::dwType' o='0' t='DWORD'/>
+<mbr r='tagRAWINPUTHEADER::dwSize' o='32' t='DWORD'/>
+<mbr r='tagRAWINPUTHEADER::hDevice' o='64' t='HANDLE'/>
+<mbr r='tagRAWINPUTHEADER::wParam' o='96' t='WPARAM'/>

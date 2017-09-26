@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='787' type='ldiv_t ldiv(long __numer, long __denom)'/>
+<use f='codebrowser/external/libcxx/include/cstdlib' l='172' u='c' c='_ZNSt3__13divEll'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='369' type='ldiv_t ldiv(long _Numerator, long _Denominator)'/>

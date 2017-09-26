@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='737' ll='743'/>
+<size>5</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='736'>/* USB_DT_BOS:  group of device-level capabilities */</doc>
+<mbr r='usb_bos_descriptor::bLength' o='0' t='__u8'/>
+<mbr r='usb_bos_descriptor::bDescriptorType' o='8' t='__u8'/>
+<mbr r='usb_bos_descriptor::wTotalLength' o='16' t='__le16'/>
+<mbr r='usb_bos_descriptor::bNumDeviceCaps' o='32' t='__u8'/>

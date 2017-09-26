@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>wnnc.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wnnc.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wnnc.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='wnnc.h.html'>wnnc.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER within this package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/_WNNC_">_WNNC_</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/_WNNC_" data-ref="_M/_WNNC_">_WNNC_</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="winapifamily.h.html">&lt;winapifamily.h&gt;</a></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#<span data-ppcond="11">if</span> <a class="macro" href="winapifamily.h.html#20" title="(((0x1 | 0x2) &amp; 0x1) == 0x1)" data-ref="_M/WINAPI_FAMILY_PARTITION">WINAPI_FAMILY_PARTITION</a>(<a class="macro" href="winapifamily.h.html#9" title="0x1" data-ref="_M/WINAPI_PARTITION_DESKTOP">WINAPI_PARTITION_DESKTOP</a>)</u></td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_MSNET" data-ref="_M/WNNC_NET_MSNET">WNNC_NET_MSNET</dfn>		0x00010000</u></td></tr>
+<tr><th id="14">14</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_LANMAN" data-ref="_M/WNNC_NET_LANMAN">WNNC_NET_LANMAN</dfn>		WNNC_NET_SMB</u></td></tr>
+<tr><th id="15">15</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_SMB" data-ref="_M/WNNC_NET_SMB">WNNC_NET_SMB</dfn>		0x00020000</u></td></tr>
+<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_NETWARE" data-ref="_M/WNNC_NET_NETWARE">WNNC_NET_NETWARE</dfn>	0x00030000</u></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_VINES" data-ref="_M/WNNC_NET_VINES">WNNC_NET_VINES</dfn>		0x00040000</u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_10NET" data-ref="_M/WNNC_NET_10NET">WNNC_NET_10NET</dfn>		0x00050000</u></td></tr>
+<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_LOCUS" data-ref="_M/WNNC_NET_LOCUS">WNNC_NET_LOCUS</dfn>		0x00060000</u></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_SUN_PC_NFS" data-ref="_M/WNNC_NET_SUN_PC_NFS">WNNC_NET_SUN_PC_NFS</dfn>	0x00070000</u></td></tr>
+<tr><th id="21">21</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_LANSTEP" data-ref="_M/WNNC_NET_LANSTEP">WNNC_NET_LANSTEP</dfn>	0x00080000</u></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_9TILES" data-ref="_M/WNNC_NET_9TILES">WNNC_NET_9TILES</dfn>		0x00090000</u></td></tr>
+<tr><th id="23">23</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_LANTASTIC" data-ref="_M/WNNC_NET_LANTASTIC">WNNC_NET_LANTASTIC</dfn>	0x000a0000</u></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_AS400" data-ref="_M/WNNC_NET_AS400">WNNC_NET_AS400</dfn>		0x000b0000</u></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_FTP_NFS" data-ref="_M/WNNC_NET_FTP_NFS">WNNC_NET_FTP_NFS</dfn>	0x000c0000</u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_PATHWORKS" data-ref="_M/WNNC_NET_PATHWORKS">WNNC_NET_PATHWORKS</dfn>	0x000d0000</u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_LIFENET" data-ref="_M/WNNC_NET_LIFENET">WNNC_NET_LIFENET</dfn>	0x000e0000</u></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_POWERLAN" data-ref="_M/WNNC_NET_POWERLAN">WNNC_NET_POWERLAN</dfn>	0x000f0000</u></td></tr>
+<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_BWNFS" data-ref="_M/WNNC_NET_BWNFS">WNNC_NET_BWNFS</dfn>		0x00100000</u></td></tr>
+<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_COGENT" data-ref="_M/WNNC_NET_COGENT">WNNC_NET_COGENT</dfn>		0x00110000</u></td></tr>
+<tr><th id="31">31</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_FARALLON" data-ref="_M/WNNC_NET_FARALLON">WNNC_NET_FARALLON</dfn>	0x00120000</u></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_APPLETALK" data-ref="_M/WNNC_NET_APPLETALK">WNNC_NET_APPLETALK</dfn>	0x00130000</u></td></tr>
+<tr><th id="33">33</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_INTERGRAPH" data-ref="_M/WNNC_NET_INTERGRAPH">WNNC_NET_INTERGRAPH</dfn>	0x00140000</u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_SYMFONET" data-ref="_M/WNNC_NET_SYMFONET">WNNC_NET_SYMFONET</dfn>	0x00150000</u></td></tr>
+<tr><th id="35">35</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_CLEARCASE" data-ref="_M/WNNC_NET_CLEARCASE">WNNC_NET_CLEARCASE</dfn>	0x00160000</u></td></tr>
+<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_FRONTIER" data-ref="_M/WNNC_NET_FRONTIER">WNNC_NET_FRONTIER</dfn>	0x00170000</u></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_BMC" data-ref="_M/WNNC_NET_BMC">WNNC_NET_BMC</dfn>		0x00180000</u></td></tr>
+<tr><th id="38">38</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_DCE" data-ref="_M/WNNC_NET_DCE">WNNC_NET_DCE</dfn>		0x00190000</u></td></tr>
+<tr><th id="39">39</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_AVID" data-ref="_M/WNNC_NET_AVID">WNNC_NET_AVID</dfn>		0x001a0000</u></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_DOCUSPACE" data-ref="_M/WNNC_NET_DOCUSPACE">WNNC_NET_DOCUSPACE</dfn>	0x001b0000</u></td></tr>
+<tr><th id="41">41</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_MANGOSOFT" data-ref="_M/WNNC_NET_MANGOSOFT">WNNC_NET_MANGOSOFT</dfn>	0x001c0000</u></td></tr>
+<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_SERNET" data-ref="_M/WNNC_NET_SERNET">WNNC_NET_SERNET</dfn>		0x001d0000</u></td></tr>
+<tr><th id="43">43</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_RIVERFRONT1" data-ref="_M/WNNC_NET_RIVERFRONT1">WNNC_NET_RIVERFRONT1</dfn>	0x001e0000</u></td></tr>
+<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_RIVERFRONT2" data-ref="_M/WNNC_NET_RIVERFRONT2">WNNC_NET_RIVERFRONT2</dfn>	0x001f0000</u></td></tr>
+<tr><th id="45">45</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_DECORB" data-ref="_M/WNNC_NET_DECORB">WNNC_NET_DECORB</dfn>		0x00200000</u></td></tr>
+<tr><th id="46">46</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_PROTSTOR" data-ref="_M/WNNC_NET_PROTSTOR">WNNC_NET_PROTSTOR</dfn>	0x00210000</u></td></tr>
+<tr><th id="47">47</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_FJ_REDIR" data-ref="_M/WNNC_NET_FJ_REDIR">WNNC_NET_FJ_REDIR</dfn>	0x00220000</u></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_DISTINCT" data-ref="_M/WNNC_NET_DISTINCT">WNNC_NET_DISTINCT</dfn>	0x00230000</u></td></tr>
+<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_TWINS" data-ref="_M/WNNC_NET_TWINS">WNNC_NET_TWINS</dfn>		0x00240000</u></td></tr>
+<tr><th id="50">50</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_RDR2SAMPLE" data-ref="_M/WNNC_NET_RDR2SAMPLE">WNNC_NET_RDR2SAMPLE</dfn>	0x00250000</u></td></tr>
+<tr><th id="51">51</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_CSC" data-ref="_M/WNNC_NET_CSC">WNNC_NET_CSC</dfn>		0x00260000</u></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_3IN1" data-ref="_M/WNNC_NET_3IN1">WNNC_NET_3IN1</dfn>		0x00270000</u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_EXTENDNET" data-ref="_M/WNNC_NET_EXTENDNET">WNNC_NET_EXTENDNET</dfn>	0x00290000</u></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_STAC" data-ref="_M/WNNC_NET_STAC">WNNC_NET_STAC</dfn>		0x002a0000</u></td></tr>
+<tr><th id="55">55</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_FOXBAT" data-ref="_M/WNNC_NET_FOXBAT">WNNC_NET_FOXBAT</dfn>		0x002b0000</u></td></tr>
+<tr><th id="56">56</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_YAHOO" data-ref="_M/WNNC_NET_YAHOO">WNNC_NET_YAHOO</dfn>		0x002c0000</u></td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_EXIFS" data-ref="_M/WNNC_NET_EXIFS">WNNC_NET_EXIFS</dfn>		0x002d0000</u></td></tr>
+<tr><th id="58">58</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_DAV" data-ref="_M/WNNC_NET_DAV">WNNC_NET_DAV</dfn>		0x002e0000</u></td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_KNOWARE" data-ref="_M/WNNC_NET_KNOWARE">WNNC_NET_KNOWARE</dfn>	0x002f0000</u></td></tr>
+<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_OBJECT_DIRE" data-ref="_M/WNNC_NET_OBJECT_DIRE">WNNC_NET_OBJECT_DIRE</dfn>	0x00300000</u></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_MASFAX" data-ref="_M/WNNC_NET_MASFAX">WNNC_NET_MASFAX</dfn>		0x00310000</u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_HOB_NFS" data-ref="_M/WNNC_NET_HOB_NFS">WNNC_NET_HOB_NFS</dfn>	0x00320000</u></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_SHIVA" data-ref="_M/WNNC_NET_SHIVA">WNNC_NET_SHIVA</dfn>		0x00330000</u></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_IBMAL" data-ref="_M/WNNC_NET_IBMAL">WNNC_NET_IBMAL</dfn>		0x00340000</u></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_LOCK" data-ref="_M/WNNC_NET_LOCK">WNNC_NET_LOCK</dfn>		0x00350000</u></td></tr>
+<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_TERMSRV" data-ref="_M/WNNC_NET_TERMSRV">WNNC_NET_TERMSRV</dfn>	0x00360000</u></td></tr>
+<tr><th id="67">67</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_SRT" data-ref="_M/WNNC_NET_SRT">WNNC_NET_SRT</dfn>		0x00370000</u></td></tr>
+<tr><th id="68">68</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_QUINCY" data-ref="_M/WNNC_NET_QUINCY">WNNC_NET_QUINCY</dfn>		0x00380000</u></td></tr>
+<tr><th id="69">69</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_OPENAFS" data-ref="_M/WNNC_NET_OPENAFS">WNNC_NET_OPENAFS</dfn>	0x00390000</u></td></tr>
+<tr><th id="70">70</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_AVID1" data-ref="_M/WNNC_NET_AVID1">WNNC_NET_AVID1</dfn>		0x003a0000</u></td></tr>
+<tr><th id="71">71</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_DFS" data-ref="_M/WNNC_NET_DFS">WNNC_NET_DFS</dfn>		0x003b0000</u></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_KWNP" data-ref="_M/WNNC_NET_KWNP">WNNC_NET_KWNP</dfn>		0x003c0000</u></td></tr>
+<tr><th id="73">73</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_ZENWORKS" data-ref="_M/WNNC_NET_ZENWORKS">WNNC_NET_ZENWORKS</dfn>	0x003d0000</u></td></tr>
+<tr><th id="74">74</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_DRIVEONWEB" data-ref="_M/WNNC_NET_DRIVEONWEB">WNNC_NET_DRIVEONWEB</dfn>	0x003e0000</u></td></tr>
+<tr><th id="75">75</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_VMWARE" data-ref="_M/WNNC_NET_VMWARE">WNNC_NET_VMWARE</dfn>		0x003f0000</u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_RSFX" data-ref="_M/WNNC_NET_RSFX">WNNC_NET_RSFX</dfn>		0x00400000</u></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_MFILES" data-ref="_M/WNNC_NET_MFILES">WNNC_NET_MFILES</dfn>		0x00410000</u></td></tr>
+<tr><th id="78">78</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_MS_NFS" data-ref="_M/WNNC_NET_MS_NFS">WNNC_NET_MS_NFS</dfn>		0x00420000</u></td></tr>
+<tr><th id="79">79</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_GOOGLE" data-ref="_M/WNNC_NET_GOOGLE">WNNC_NET_GOOGLE</dfn>		0x00430000</u></td></tr>
+<tr><th id="80">80</th><td><u>#define <dfn class="macro" id="_M/WNNC_NET_NDFS" data-ref="_M/WNNC_NET_NDFS">WNNC_NET_NDFS</dfn>		0x00440000</u></td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td><u>#define <dfn class="macro" id="_M/WNNC_CRED_MANAGER" data-ref="_M/WNNC_CRED_MANAGER">WNNC_CRED_MANAGER</dfn>   0xffff0000</u></td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><u>#<span data-ppcond="11">endif</span> /* WINAPI_PARTITION_DESKTOP.  */</u></td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><u>#<span data-ppcond="6">endif</span></u></td></tr>
+<tr><th id="87">87</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='550' ll='561'/>
+<size>328</size>
+<mbr r='tagLOGCOLORSPACEA::lcsSignature' o='0' t='DWORD'/>
+<mbr r='tagLOGCOLORSPACEA::lcsVersion' o='32' t='DWORD'/>
+<mbr r='tagLOGCOLORSPACEA::lcsSize' o='64' t='DWORD'/>
+<mbr r='tagLOGCOLORSPACEA::lcsCSType' o='96' t='LCSCSTYPE'/>
+<mbr r='tagLOGCOLORSPACEA::lcsIntent' o='128' t='LCSGAMUTMATCH'/>
+<mbr r='tagLOGCOLORSPACEA::lcsEndpoints' o='160' t='CIEXYZTRIPLE'/>
+<mbr r='tagLOGCOLORSPACEA::lcsGammaRed' o='448' t='DWORD'/>
+<mbr r='tagLOGCOLORSPACEA::lcsGammaGreen' o='480' t='DWORD'/>
+<mbr r='tagLOGCOLORSPACEA::lcsGammaBlue' o='512' t='DWORD'/>
+<mbr r='tagLOGCOLORSPACEA::lcsFilename' o='544' t='CHAR [260]'/>

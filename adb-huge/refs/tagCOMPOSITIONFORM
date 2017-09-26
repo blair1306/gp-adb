@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/imm.h' l='27' ll='31'/>
+<size>28</size>
+<mbr r='tagCOMPOSITIONFORM::dwStyle' o='0' t='DWORD'/>
+<mbr r='tagCOMPOSITIONFORM::ptCurrentPos' o='32' t='POINT'/>
+<mbr r='tagCOMPOSITIONFORM::rcArea' o='96' t='RECT'/>

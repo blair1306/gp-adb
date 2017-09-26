@@ -1,0 +1,9 @@
+<dec f='codebrowser/system/core/adb/adb_trace.h' l='37' type='9'/>
+<use f='codebrowser/system/core/adb/adb_trace.cpp' l='131' u='r' c='_ZL16setup_trace_maskv'/>
+<use f='codebrowser/system/core/adb/adb_trace.cpp' l='131' u='a' c='_ZL16setup_trace_maskv'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='17' u='r' c='_ZL21create_service_threadPFviPvES_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='17' u='r' c='_ZL21create_service_threadPFviPvES_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='17' u='r' c='_ZL14wait_for_stateiPv'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='17' u='r' c='_ZL14wait_for_stateiPv'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='17' u='r' c='_ZL14connect_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='17' u='r' c='_ZL14connect_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>

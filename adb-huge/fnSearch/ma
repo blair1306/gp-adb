@@ -1,0 +1,6 @@
+make_ti|make_ti
+make_tu|make_tu
+_ZSt18make_exception_ptrT_|std::make_exception_ptr
+_ZNSt12experimental15fundamentals_v113make_optionalEOT_|std::experimental::fundamentals_v1::make_optional
+_ZN7android4baseL18MakeEagerEvaluatorET_T0_|android::base::MakeEagerEvaluator
+_ZNK10atransport13MatchesTargetERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE|atransport::MatchesTarget

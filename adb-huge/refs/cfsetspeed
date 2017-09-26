@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/termios.h' l='62' type='int cfsetspeed(struct termios * __termios_p, speed_t __speed)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/termios.h' l='61'>/* Set both the input and output baud rates in *TERMIOS_OP to SPEED.  */</doc>

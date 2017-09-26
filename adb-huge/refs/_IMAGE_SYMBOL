@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4750' ll='4764'/>
+<size>18</size>
+<mbr r='_IMAGE_SYMBOL::N' o='0' t='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h:4751:7)'/>
+<mbr r='_IMAGE_SYMBOL::Value' o='64' t='DWORD'/>
+<mbr r='_IMAGE_SYMBOL::SectionNumber' o='96' t='SHORT'/>
+<mbr r='_IMAGE_SYMBOL::Type' o='112' t='WORD'/>
+<mbr r='_IMAGE_SYMBOL::StorageClass' o='128' t='BYTE'/>
+<mbr r='_IMAGE_SYMBOL::NumberOfAuxSymbols' o='136' t='BYTE'/>

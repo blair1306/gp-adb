@@ -1,0 +1,10 @@
+fstat|fstat
+fstatat|fstatat
+_Z6fscanfP6_iobufPKcz|fscanf
+fstat|fstat
+fs_mkdirs|fs_mkdirs
+fs_prepare_dir|fs_prepare_dir
+fs_read_atomic_int|fs_read_atomic_int
+fs_write_atomic_int|fs_write_atomic_int
+fs_config|fs_config
+fs_config_generate|fs_config_generate

@@ -1,0 +1,1 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='502' ll='511' type='int adb_write(int fd, const void * buf, int len)'/>

@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='554' ll='565'/>
+<size>40</size>
+<mbr r='_CREATE_PROCESS_DEBUG_INFO::hFile' o='0' t='HANDLE'/>
+<mbr r='_CREATE_PROCESS_DEBUG_INFO::hProcess' o='32' t='HANDLE'/>
+<mbr r='_CREATE_PROCESS_DEBUG_INFO::hThread' o='64' t='HANDLE'/>
+<mbr r='_CREATE_PROCESS_DEBUG_INFO::lpBaseOfImage' o='96' t='LPVOID'/>
+<mbr r='_CREATE_PROCESS_DEBUG_INFO::dwDebugInfoFileOffset' o='128' t='DWORD'/>
+<mbr r='_CREATE_PROCESS_DEBUG_INFO::nDebugInfoSize' o='160' t='DWORD'/>
+<mbr r='_CREATE_PROCESS_DEBUG_INFO::lpThreadLocalBase' o='192' t='LPVOID'/>
+<mbr r='_CREATE_PROCESS_DEBUG_INFO::lpStartAddress' o='224' t='LPTHREAD_START_ROUTINE'/>
+<mbr r='_CREATE_PROCESS_DEBUG_INFO::lpImageName' o='256' t='LPVOID'/>
+<mbr r='_CREATE_PROCESS_DEBUG_INFO::fUnicode' o='288' t='WORD'/>

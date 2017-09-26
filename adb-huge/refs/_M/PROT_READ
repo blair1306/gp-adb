@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/mman.h' l='34'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='90' u='c'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/mman.h' l='29'>/* Protections are chosen from these bits, OR&apos;d together.  The
+   implementation does not necessarily support PROT_EXEC or PROT_WRITE
+   without PROT_READ.  The only guarantees are that no writing will be
+   allowed without PROT_WRITE and no access will be allowed for PROT_NONE. */</doc>

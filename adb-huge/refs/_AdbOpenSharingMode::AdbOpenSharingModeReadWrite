@@ -1,0 +1,4 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='166' type='0'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='294' u='r' c='_Z11do_usb_openPKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='305' u='r' c='_Z11do_usb_openPKw'/>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='165'>/// Shares read and write.</doc>

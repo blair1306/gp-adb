@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='131' type='struct hostent * gethostent()'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='126'>/* Get next entry from host data base file.  Open data base if
+   necessary.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>

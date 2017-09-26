@@ -1,0 +1,16 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='184' type='long strtol(const char *restrict __nptr, char **restrict __endptr, int __base)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='286' u='c' c='atoi'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='291' u='c' c='atol'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='183'>/* Convert a string to a long integer.  */</doc>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='96' u='r' c='_ZNSt3__112_GLOBAL__N_110as_integerERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERKT0_Pmi'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='107' u='r' c='_ZNSt3__112_GLOBAL__N_110as_integerERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERKT0_Pmi'/>
+<use f='codebrowser/system/core/include/cutils/sockets.h' l='69' u='c' c='_Z26android_get_control_socketPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='914' u='c' c='_ZL17adb_sideload_hostPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1430' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1455' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1512' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2045' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='446' u='c' c='_Z16connect_emulatorRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='447' u='c' c='_Z16connect_emulatorRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='421' type='long strtol(const char *__restrict _Str, char **__restrict _EndPtr, int _Radix)'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='313' u='c' c='str_parms_get_int'/>

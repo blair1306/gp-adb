@@ -1,0 +1,13 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/in.h' l='225' ll='236'/>
+<size>16</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/in.h' l='224'>/* Structure describing an Internet socket address.  */</doc>
+<mbr r='sockaddr_in::sin_family' o='0' t='sa_family_t'/>
+<mbr r='sockaddr_in::sin_port' o='16' t='in_port_t'/>
+<mbr r='sockaddr_in::sin_addr' o='32' t='struct in_addr'/>
+<mbr r='sockaddr_in::sin_zero' o='64' t='unsigned char [8]'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h' l='75' ll='80'/>
+<size>16</size>
+<mbr r='sockaddr_in::sin_family' o='0' t='short'/>
+<mbr r='sockaddr_in::sin_port' o='16' t='u_short'/>
+<mbr r='sockaddr_in::sin_addr' o='32' t='struct in_addr'/>
+<mbr r='sockaddr_in::sin_zero' o='64' t='char [8]'/>

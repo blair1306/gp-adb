@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='255' type='int sigprocmask(int __how, const sigset_t *__restrict __set, sigset_t *__restrict __oset)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='254'>/* Get and/or change the set of blocked signals.  */</doc>

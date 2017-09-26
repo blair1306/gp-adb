@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/arpa/inet.h' l='54' type='char * inet_ntoa(struct in_addr __in)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/arpa/inet.h' l='52'>/* Convert Internet number in IN to ASCII representation.  The return value
+   is a pointer to an internal array containing the string.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='977' type='char * inet_ntoa(struct in_addr in)'/>

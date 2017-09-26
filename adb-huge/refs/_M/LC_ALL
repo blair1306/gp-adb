@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='42'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='583' u='c'/>

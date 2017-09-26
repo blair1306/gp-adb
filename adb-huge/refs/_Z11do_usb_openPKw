@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/usb_windows.cpp' l='106' type='usb_handle * do_usb_open(const wchar_t * interface_name)'/>
+<def f='codebrowser/system/core/adb/usb_windows.cpp' l='267' ll='350' type='usb_handle * do_usb_open(const wchar_t * interface_name)'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='600' u='c' c='_Z12find_devicesv'/>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='105'>/// Opens usb interface (device) by interface (device) name.</doc>

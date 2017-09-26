@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3326' ll='3337'/>
+<size>56</size>
+<mbr r='_TOKEN_STATISTICS::TokenId' o='0' t='LUID'/>
+<mbr r='_TOKEN_STATISTICS::AuthenticationId' o='64' t='LUID'/>
+<mbr r='_TOKEN_STATISTICS::ExpirationTime' o='128' t='LARGE_INTEGER'/>
+<mbr r='_TOKEN_STATISTICS::TokenType' o='192' t='TOKEN_TYPE'/>
+<mbr r='_TOKEN_STATISTICS::ImpersonationLevel' o='224' t='SECURITY_IMPERSONATION_LEVEL'/>
+<mbr r='_TOKEN_STATISTICS::DynamicCharged' o='256' t='DWORD'/>
+<mbr r='_TOKEN_STATISTICS::DynamicAvailable' o='288' t='DWORD'/>
+<mbr r='_TOKEN_STATISTICS::GroupCount' o='320' t='DWORD'/>
+<mbr r='_TOKEN_STATISTICS::PrivilegeCount' o='352' t='DWORD'/>
+<mbr r='_TOKEN_STATISTICS::ModifiedId' o='384' t='LUID'/>

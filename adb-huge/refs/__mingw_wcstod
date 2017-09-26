@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='467' type='double __mingw_wcstod(const wchar_t *__restrict _Str, wchar_t **__restrict _EndPtr)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='474' u='c' c='_Z6wcstodPKwPPw'/>

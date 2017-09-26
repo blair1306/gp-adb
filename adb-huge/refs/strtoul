@@ -1,0 +1,9 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='188' type='unsigned long strtoul(const char *restrict __nptr, char **restrict __endptr, int __base)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='187'>/* Convert a string to an unsigned long integer.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/a_strnid.c' l='102' u='c' c='ASN1_STRING_set_default_mask_asc'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/asn1_gen.c' l='412' u='c' c='parse_tagging'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/asn1_gen.c' l='858' u='c' c='bitstr_cb'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='115' u='r' c='_ZNSt3__112_GLOBAL__N_110as_integerERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERKT0_Pmi'/>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='50' u='c' c='_Z18ReadProtocolStringiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='423' type='unsigned long strtoul(const char *__restrict _Str, char **__restrict _EndPtr, int _Radix)'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='346' u='c' c='scanTagLine'/>

@@ -1,0 +1,10 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnetwk.h' l='53' ll='62'/>
+<size>32</size>
+<mbr r='_NETRESOURCEA::dwScope' o='0' t='DWORD'/>
+<mbr r='_NETRESOURCEA::dwType' o='32' t='DWORD'/>
+<mbr r='_NETRESOURCEA::dwDisplayType' o='64' t='DWORD'/>
+<mbr r='_NETRESOURCEA::dwUsage' o='96' t='DWORD'/>
+<mbr r='_NETRESOURCEA::lpLocalName' o='128' t='LPSTR'/>
+<mbr r='_NETRESOURCEA::lpRemoteName' o='160' t='LPSTR'/>
+<mbr r='_NETRESOURCEA::lpComment' o='192' t='LPSTR'/>
+<mbr r='_NETRESOURCEA::lpProvider' o='224' t='LPSTR'/>

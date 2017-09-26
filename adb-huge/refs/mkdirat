@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='330' type='int mkdirat(int __fd, const char * __path, __mode_t __mode)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='327'>/* Like mkdir, create a new directory with permission bits MODE.  But
+   interpret relative PATH names relative to the directory associated
+   with FD.  */</doc>
+<use f='codebrowser/system/core/libcutils/fs.c' l='186' u='c' c='fs_mkdirs'/>

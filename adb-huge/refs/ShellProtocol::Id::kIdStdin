@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/adb/shell_service.h' l='53' type='0'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='580' u='r' c='_ZL22stdin_read_thread_loopPv'/>

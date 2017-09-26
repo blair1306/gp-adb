@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sigcontext.h' l='28' ll='32'/>
+<size>10</size>
+<mbr r='_fpreg::significand' o='0' t='unsigned short [4]'/>
+<mbr r='_fpreg::exponent' o='64' t='unsigned short'/>

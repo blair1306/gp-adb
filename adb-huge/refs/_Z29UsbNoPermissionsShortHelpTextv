@@ -1,0 +1,7 @@
+<dec f='codebrowser/system/core/adb/diagnose_usb.h' l='24' type='std::string UsbNoPermissionsShortHelpText()'/>
+<def f='codebrowser/system/core/adb/diagnose_usb.cpp' l='61' ll='70' type='std::string UsbNoPermissionsShortHelpText()'/>
+<doc f='codebrowser/system/core/adb/diagnose_usb.cpp' l='59'>// Short help text must be a single line, and will look something like:
+//   no permissions (reason); see &lt;URL&gt;</doc>
+<doc f='codebrowser/system/core/adb/diagnose_usb.h' l='22'>// USB permission error help text. The short version will be one line, long may be multi-line.
+// Returns a string message to print, or an empty string if no problems could be found.</doc>
+<use f='codebrowser/system/core/adb/transport.cpp' l='754' u='c' c='_ZNK10atransport21connection_state_nameEv'/>

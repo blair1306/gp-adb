@@ -1,0 +1,23 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/timex.h' l='24' ll='53'/>
+<size>208</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/timex.h' l='22'>/* These definitions from linux/timex.h as of 2.6.30.  */</doc>
+<mbr r='timex::modes' o='0' t='unsigned int'/>
+<mbr r='timex::offset' o='64' t='long'/>
+<mbr r='timex::freq' o='128' t='long'/>
+<mbr r='timex::maxerror' o='192' t='long'/>
+<mbr r='timex::esterror' o='256' t='long'/>
+<mbr r='timex::status' o='320' t='int'/>
+<mbr r='timex::constant' o='384' t='long'/>
+<mbr r='timex::precision' o='448' t='long'/>
+<mbr r='timex::tolerance' o='512' t='long'/>
+<mbr r='timex::time' o='576' t='struct timeval'/>
+<mbr r='timex::tick' o='704' t='long'/>
+<mbr r='timex::ppsfreq' o='768' t='long'/>
+<mbr r='timex::jitter' o='832' t='long'/>
+<mbr r='timex::shift' o='896' t='int'/>
+<mbr r='timex::stabil' o='960' t='long'/>
+<mbr r='timex::jitcnt' o='1024' t='long'/>
+<mbr r='timex::calcnt' o='1088' t='long'/>
+<mbr r='timex::errcnt' o='1152' t='long'/>
+<mbr r='timex::stbcnt' o='1216' t='long'/>
+<mbr r='timex::tai' o='1280' t='int'/>

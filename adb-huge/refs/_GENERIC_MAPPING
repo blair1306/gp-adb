@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='2578' ll='2583'/>
+<size>16</size>
+<mbr r='_GENERIC_MAPPING::GenericRead' o='0' t='ACCESS_MASK'/>
+<mbr r='_GENERIC_MAPPING::GenericWrite' o='32' t='ACCESS_MASK'/>
+<mbr r='_GENERIC_MAPPING::GenericExecute' o='64' t='ACCESS_MASK'/>
+<mbr r='_GENERIC_MAPPING::GenericAll' o='96' t='ACCESS_MASK'/>

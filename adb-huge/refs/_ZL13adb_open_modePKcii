@@ -1,0 +1,3 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='541' ll='544' type='int adb_open_mode(const char * pathname, int options, int mode)'/>
+<doc f='codebrowser/system/core/adb/sysdeps.h' l='539'>// Similar to the two-argument adb_open(), but takes a mode parameter for file
+// creation. See adb_open() for more info.</doc>

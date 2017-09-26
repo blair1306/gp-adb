@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='143' type='int'/>
+<offset>256</offset>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4825' u='w' c='_ZNSt3__118__time_get_storage9__analyzeEcRKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4973' u='w' c='_ZNSt3__118__time_get_storage9__analyzeEcRKNS_5ctypeIT_EE'/>

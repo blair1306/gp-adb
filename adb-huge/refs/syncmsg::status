@@ -1,0 +1,14 @@
+<dec f='codebrowser/system/core/adb/file_sync_service.h' l='63' type='struct (anonymous struct at /home/jon/workspace/android/system/core/adb/file_sync_service.h:60:5)'/>
+<offset>0</offset>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='267' u='a' c='_ZN14SyncConnection8CopyDoneEPKcS1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='267' u='r' c='_ZN14SyncConnection8CopyDoneEPKcS1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='271' u='m' c='_ZN14SyncConnection8CopyDoneEPKcS1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='280' u='m' c='_ZN14SyncConnection8CopyDoneEPKcS1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='281' u='m' c='_ZN14SyncConnection8CopyDoneEPKcS1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='288' u='m' c='_ZN14SyncConnection17ReportCopyFailureEPKcS1_RK7syncmsg'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='289' u='m' c='_ZN14SyncConnection17ReportCopyFailureEPKcS1_RK7syncmsg'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='294' u='m' c='_ZN14SyncConnection17ReportCopyFailureEPKcS1_RK7syncmsg'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='411' u='a' c='_ZN14SyncConnection10WriteOrDieEPKcS1_PKvm'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='411' u='r' c='_ZN14SyncConnection10WriteOrDieEPKcS1_PKvm'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='413' u='m' c='_ZN14SyncConnection10WriteOrDieEPKcS1_PKvm'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='414' u='m' c='_ZN14SyncConnection10WriteOrDieEPKcS1_PKvm'/>

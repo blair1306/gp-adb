@@ -1,0 +1,10 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='536' type='int strcasecmp(const char * __s1, const char * __s2)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='535'>/* Compare S1 and S2, ignoring case.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/strings.h' l='114' type='int strcasecmp(const char * __s1, const char * __s2)'/>
+<use f='codebrowser/external/boringssl/src/crypto/mem.c' l='177' u='c' c='OPENSSL_strcasecmp'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/strings.h' l='113'>/* Compare S1 and S2, ignoring case.  */</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1939' u='c' c='_ZL11install_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2005' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2174' u='c' c='_ZL18install_app_legacy13TransportTypePKciPS1_'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='100' type='int strcasecmp(const char * , const char * )'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='103' macro='1' type='int strcasecmp(const char * __sz1, const char * __sz2)'/>

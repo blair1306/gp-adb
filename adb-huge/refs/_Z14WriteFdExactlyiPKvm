@@ -1,0 +1,15 @@
+<dec f='codebrowser/system/core/adb/adb_io.h' l='67' type='bool WriteFdExactly(int fd, const void * buf, size_t len)'/>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='61' u='c' c='_Z8SendOkayi'/>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='65' u='c' c='_Z8SendFailiRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<def f='codebrowser/system/core/adb/adb_io.cpp' l='95' ll='122' macro='1' type='bool WriteFdExactly(int fd, const void * buf, size_t len)'/>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='125' u='c' c='_Z14WriteFdExactlyiPKc'/>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='129' u='c' c='_Z14WriteFdExactlyiRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='584' u='c' c='_ZL22stdin_read_thread_loopPv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='821' u='c' c='_ZL19adb_download_bufferPKcS0_PKvjb'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='929' u='c' c='_ZL17adb_sideload_hostPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1107' u='c' c='_ZL8adb_rootPKc'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='160' u='c' c='_ZN14SyncConnection11SendRequestEiPKc'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='406' u='c' c='_ZN14SyncConnection10WriteOrDieEPKcS1_PKvm'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='566' u='c' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/shell_service_protocol.cpp' l='61' u='c' c='_ZN13ShellProtocol5WriteENS_2IdEm'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='80' u='c' c='_ZL12remote_writeP7apacketP10atransport'/>

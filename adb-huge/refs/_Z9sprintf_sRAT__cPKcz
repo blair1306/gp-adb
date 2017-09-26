@@ -1,0 +1,1 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/stdio_s.h' l='30' macro='1' type='int sprintf_s(char (&amp;)[__size] _DstBuf, const char * _Format)'/>

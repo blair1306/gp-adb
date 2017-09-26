@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/excpt.h' l='91' ll='94'/>
+<size>8</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/excpt.h' l='87'>/*
+  * This is not entirely necessary, but it is the structure installed by
+  * the __try1 primitive below.
+  */</doc>
+<mbr r='_EXCEPTION_REGISTRATION::prev' o='0' t='struct _EXCEPTION_REGISTRATION *'/>
+<mbr r='_EXCEPTION_REGISTRATION::handler' o='32' t='int (*)(struct _EXCEPTION_RECORD *, void *, struct _CONTEXT *, void *)'/>

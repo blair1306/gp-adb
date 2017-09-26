@@ -1,0 +1,18 @@
+<dec f='codebrowser/system/core/adb/adb_io.h' l='28' type='bool SendFail(int fd, const std::string &amp; reason)'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='937' u='c' c='_Z22handle_forward_requestPKc13TransportTypeS0_i'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='943' u='c' c='_Z22handle_forward_requestPKc13TransportTypeS0_i'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='951' u='c' c='_Z22handle_forward_requestPKc13TransportTypeS0_i'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='987' u='c' c='_Z22handle_forward_requestPKc13TransportTypeS0_i'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1043' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1066' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1084' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1089' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1108' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1117' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1126' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<def f='codebrowser/system/core/adb/adb_io.cpp' l='64' ll='66' macro='1' type='bool SendFail(int fd, const std::string &amp; reason)'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='380' u='c' c='_ZL14wait_for_stateiPv'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='390' u='c' c='_ZL14wait_for_stateiPv'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='592' u='c' c='_ZL25local_socket_close_notifyP7asocket'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='777' u='c' c='_ZL20smart_socket_enqueueP7asocketP7apacket'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='818' u='c' c='_ZL20smart_socket_enqueueP7asocketP7apacket'/>

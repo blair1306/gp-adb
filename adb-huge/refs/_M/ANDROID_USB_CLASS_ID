@@ -1,0 +1,4 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='91'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='67' u='c'/>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='89'>// {F72FE0D4-CBCB-407d-8814-9ED673D0DD6B}
+/// Our USB class id that driver uses to register our device.</doc>

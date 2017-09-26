@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>_wsadata.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="WSAData "/>
+<link rel="stylesheet" href="../../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h'; var root_path = '../../../../../../../../..'; var data_path = '../../../../../../../../../../data';</script>
+<script src='../../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../../..'>codebrowser</a>/<a href='../../../../../../..'>prebuilts</a>/<a href='../../../../../..'>gcc</a>/<a href='../../../../..'>linux-x86</a>/<a href='../../../..'>host</a>/<a href='../../..'>x86_64-w64-mingw32-4.8</a>/<a href='../..'>x86_64-w64-mingw32</a>/<a href='..'>include</a>/<a href='./'>psdk_inc</a>/<a href='_wsadata.h.html'>_wsadata.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><u>#<span data-ppcond="7">ifndef</span> <span class="macro" data-ref="_M/__MINGW_WSADATA_H">__MINGW_WSADATA_H</span></u></td></tr>
+<tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/__MINGW_WSADATA_H" data-ref="_M/__MINGW_WSADATA_H">__MINGW_WSADATA_H</dfn></u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><u>#define <dfn class="macro" id="_M/WSADESCRIPTION_LEN" data-ref="_M/WSADESCRIPTION_LEN">WSADESCRIPTION_LEN</dfn>	256</u></td></tr>
+<tr><th id="11">11</th><td><u>#define <dfn class="macro" id="_M/WSASYS_STATUS_LEN" data-ref="_M/WSASYS_STATUS_LEN">WSASYS_STATUS_LEN</dfn>	128</u></td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="WSAData" title='WSAData' data-ref="WSAData"><a class="type" href="#WSAData" title='WSAData' data-ref="WSAData"><a class="type" href="#WSAData" title='WSAData' data-ref="WSAData">WSAData</a></a></dfn> {</td></tr>
+<tr><th id="14">14</th><td>	<a class="typedef" href="../windef.h.html#WORD" title='WORD' data-type='unsigned short' data-ref="WORD">WORD</a>		<dfn class="decl" id="WSAData::wVersion" title='WSAData::wVersion' data-ref="WSAData::wVersion">wVersion</dfn>;</td></tr>
+<tr><th id="15">15</th><td>	<a class="typedef" href="../windef.h.html#WORD" title='WORD' data-type='unsigned short' data-ref="WORD">WORD</a>		<dfn class="decl" id="WSAData::wHighVersion" title='WSAData::wHighVersion' data-ref="WSAData::wHighVersion">wHighVersion</dfn>;</td></tr>
+<tr><th id="16">16</th><td><u>#<span data-ppcond="16">ifdef</span> <span class="macro" data-ref="_M/_WIN64">_WIN64</span></u></td></tr>
+<tr><th id="17">17</th><td>	<em>unsigned</em> <em>short</em>	iMaxSockets;</td></tr>
+<tr><th id="18">18</th><td>	<em>unsigned</em> <em>short</em>	iMaxUdpDg;</td></tr>
+<tr><th id="19">19</th><td>	<em>char</em>		*lpVendorInfo;</td></tr>
+<tr><th id="20">20</th><td>	<em>char</em>		szDescription[WSADESCRIPTION_LEN+<var>1</var>];</td></tr>
+<tr><th id="21">21</th><td>	<em>char</em>		szSystemStatus[WSASYS_STATUS_LEN+<var>1</var>];</td></tr>
+<tr><th id="22">22</th><td><u>#<span data-ppcond="16">else</span></u></td></tr>
+<tr><th id="23">23</th><td>	<em>char</em>		<dfn class="decl" id="WSAData::szDescription" title='WSAData::szDescription' data-ref="WSAData::szDescription">szDescription</dfn>[<a class="macro" href="#10" title="256" data-ref="_M/WSADESCRIPTION_LEN">WSADESCRIPTION_LEN</a>+<var>1</var>];</td></tr>
+<tr><th id="24">24</th><td>	<em>char</em>		<dfn class="decl" id="WSAData::szSystemStatus" title='WSAData::szSystemStatus' data-ref="WSAData::szSystemStatus">szSystemStatus</dfn>[<a class="macro" href="#11" title="128" data-ref="_M/WSASYS_STATUS_LEN">WSASYS_STATUS_LEN</a>+<var>1</var>];</td></tr>
+<tr><th id="25">25</th><td>	<em>unsigned</em> <em>short</em>	<dfn class="decl" id="WSAData::iMaxSockets" title='WSAData::iMaxSockets' data-ref="WSAData::iMaxSockets">iMaxSockets</dfn>;</td></tr>
+<tr><th id="26">26</th><td>	<em>unsigned</em> <em>short</em>	<dfn class="decl" id="WSAData::iMaxUdpDg" title='WSAData::iMaxUdpDg' data-ref="WSAData::iMaxUdpDg">iMaxUdpDg</dfn>;</td></tr>
+<tr><th id="27">27</th><td>	<em>char</em>		*<dfn class="decl" id="WSAData::lpVendorInfo" title='WSAData::lpVendorInfo' data-ref="WSAData::lpVendorInfo">lpVendorInfo</dfn>;</td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="16">endif</span></u></td></tr>
+<tr><th id="29">29</th><td>} <dfn class="typedef" id="WSADATA" title='WSADATA' data-type='struct WSAData' data-ref="WSADATA">WSADATA</dfn>, *<dfn class="typedef" id="LPWSADATA" title='LPWSADATA' data-type='struct WSAData *' data-ref="LPWSADATA">LPWSADATA</dfn>;</td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#<span data-ppcond="7">endif</span>	/* __MINGW_WSADATA_H */</u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

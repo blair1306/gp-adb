@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/wctype.h' l='248' type='int iswgraph_l(wint_t __wc, __locale_t __locale)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/wctype.h' l='246'>/* Test for any wide character for which `iswprint&apos; is true and
+   `iswspace&apos; is false.  */</doc>

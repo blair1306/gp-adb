@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='95' type='void * memchr(const void * __s, int __c, size_t __n)'/>
+<use f='codebrowser/external/boringssl/src/crypto/bytestring/cbs.c' l='79' u='c' c='CBS_contains_zero_byte'/>
+<use f='codebrowser/external/boringssl/src/crypto/pkcs8/pkcs8.c' l='1197' u='c' c='PKCS12_verify_mac'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x509_vpm.c' l='87' u='c' c='int_x509_param_set_hosts'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='990' u='c' c='X509_check_host'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='1000' u='c' c='X509_check_email'/>
+<use f='codebrowser/external/libcxx/include/string' l='642' u='c' c='_ZNSt3__111char_traitsIcE4findEPKcmRS2_'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='37' type='void * memchr(const void * _Buf, int _Val, size_t _MaxCount)'/>

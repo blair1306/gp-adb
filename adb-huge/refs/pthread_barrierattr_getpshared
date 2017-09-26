@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1075' type='int pthread_barrierattr_getpshared(const pthread_barrierattr_t *restrict __attr, int *restrict __pshared)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1074'>/* Get the process-shared flag of the barrier attribute ATTR.  */</doc>

@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='741' ll='745'/>
+<size>12</size>
+<mbr r='tagUSEROBJECTFLAGS::fInherit' o='0' t='WINBOOL'/>
+<mbr r='tagUSEROBJECTFLAGS::fReserved' o='32' t='WINBOOL'/>
+<mbr r='tagUSEROBJECTFLAGS::dwFlags' o='64' t='DWORD'/>

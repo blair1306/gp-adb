@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5537' ll='5543'/>
+<size>20</size>
+<mbr r='_IMAGE_ALPHA_RUNTIME_FUNCTION_ENTRY::BeginAddress' o='0' t='DWORD'/>
+<mbr r='_IMAGE_ALPHA_RUNTIME_FUNCTION_ENTRY::EndAddress' o='32' t='DWORD'/>
+<mbr r='_IMAGE_ALPHA_RUNTIME_FUNCTION_ENTRY::ExceptionHandler' o='64' t='DWORD'/>
+<mbr r='_IMAGE_ALPHA_RUNTIME_FUNCTION_ENTRY::HandlerData' o='96' t='DWORD'/>
+<mbr r='_IMAGE_ALPHA_RUNTIME_FUNCTION_ENTRY::PrologEndAddress' o='128' t='DWORD'/>

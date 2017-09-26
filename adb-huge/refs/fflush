@@ -1,0 +1,17 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='243' type='int fflush(FILE * __stream)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='239'>/* Flush STREAM, or all streams if STREAM is NULL.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/file.c' l='284' u='c' c='file_ctrl'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1005' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='334' u='c' c='_ZL13read_and_dumpib'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='403' u='c' c='_ZL12copy_to_fileii'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='832' u='c' c='_ZL19adb_download_bufferPKcS0_PKvjb'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='878' u='c' c='_ZL17adb_sideload_hostPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='946' u='c' c='_ZL17adb_sideload_hostPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1106' u='c' c='_ZL8adb_rootPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1238' u='c' c='_ZL6backupiPPKc'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='114' u='c' c='_ZN11LinePrinter5PrintENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS_8LineTypeE'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='437' type='int fflush(FILE * _File)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2532' u='c' c='_ZL19_console_write_utf8PKcjP6_iobufPv'/>

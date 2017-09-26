@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='2291' ll='2297'/>
+<size>16</size>
+<mbr r='tagKEYBDINPUT::wVk' o='0' t='WORD'/>
+<mbr r='tagKEYBDINPUT::wScan' o='16' t='WORD'/>
+<mbr r='tagKEYBDINPUT::dwFlags' o='32' t='DWORD'/>
+<mbr r='tagKEYBDINPUT::time' o='64' t='DWORD'/>
+<mbr r='tagKEYBDINPUT::dwExtraInfo' o='96' t='ULONG_PTR'/>

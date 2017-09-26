@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/termios.h' l='71' type='int tcsetattr(int __fd, int __optional_actions, const struct termios * __termios_p)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='276' u='c' c='_ZL14stdin_raw_initv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='280' u='c' c='_ZL17stdin_raw_restorev'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/termios.h' l='69'>/* Set the state of FD to *TERMIOS_P.
+   Values for OPTIONAL_ACTIONS (TCSA*) are in &lt;bits/termios.h&gt;.  */</doc>

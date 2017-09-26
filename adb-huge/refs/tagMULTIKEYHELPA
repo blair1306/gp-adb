@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='4145' ll='4149'/>
+<size>8</size>
+<mbr r='tagMULTIKEYHELPA::mkSize' o='0' t='DWORD'/>
+<mbr r='tagMULTIKEYHELPA::mkKeylist' o='32' t='CHAR'/>
+<mbr r='tagMULTIKEYHELPA::szKeyphrase' o='40' t='CHAR [1]'/>

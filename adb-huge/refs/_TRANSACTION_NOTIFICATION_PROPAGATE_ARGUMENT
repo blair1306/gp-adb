@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ktmtypes.h' l='127' ll='132'/>
+<size>40</size>
+<mbr r='_TRANSACTION_NOTIFICATION_PROPAGATE_ARGUMENT::PropagationCookie' o='0' t='ULONG'/>
+<mbr r='_TRANSACTION_NOTIFICATION_PROPAGATE_ARGUMENT::UOW' o='32' t='GUID'/>
+<mbr r='_TRANSACTION_NOTIFICATION_PROPAGATE_ARGUMENT::TmIdentity' o='160' t='GUID'/>
+<mbr r='_TRANSACTION_NOTIFICATION_PROPAGATE_ARGUMENT::BufferLength' o='288' t='ULONG'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/usb_linux.cpp' l='61' type='unsigned char'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='342' u='r' c='_ZL13usb_bulk_readP10usb_handlePvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='524' u='w' c='_ZL15register_devicePKcS0_hhiij'/>
+<offset>224</offset>

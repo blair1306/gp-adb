@@ -1,0 +1,7 @@
+<def f='codebrowser/system/core/adb/adb.h' l='31' type='const size_t'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='217' u='r' c='_Z12send_connectP10atransport'/>
+<use f='codebrowser/system/core/adb/adb_auth.cpp' l='78' u='r' c='_Z19send_auth_publickeyP10atransport'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='161' c='_ZL20write_public_keyfileP6rsa_stPKc'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='136' u='r' c='_Z12_adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/adb_io.cpp' l='32' u='r' c='_Z18SendProtocolStringiRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='709' u='r' c='_ZL20smart_socket_enqueueP7asocketP7apacket'/>

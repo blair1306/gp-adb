@@ -1,0 +1,6 @@
+<dec f='codebrowser/external/libcxx/include/__locale' l='633' type='static const int * std::__1::ctype&lt;char&gt;::__classic_lower_table()'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='846' u='c' c='_ZNKSt3__15ctypeIwE10do_tolowerEw'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='859' u='c' c='_ZNKSt3__15ctypeIwE10do_tolowerEPwPKw'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='963' u='c' c='_ZNKSt3__15ctypeIcE10do_tolowerEc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='978' u='c' c='_ZNKSt3__15ctypeIcE10do_tolowerEPcPKc'/>
+<def f='codebrowser/external/libcxx/src/locale.cpp' l='1139' ll='1143' type='static const int * std::__1::ctype&lt;char&gt;::__classic_lower_table()'/>

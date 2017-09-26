@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/adb/socket.h' l='105' type='void install_local_socket(asocket * s)'/>
+<def f='codebrowser/system/core/adb/sockets.cpp' l='92' ll='105' type='void install_local_socket(asocket * s)'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='426' u='c' c='_Z19create_local_socketi'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/poll.h' l='49'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='258' u='c'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='382' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='1143'/>

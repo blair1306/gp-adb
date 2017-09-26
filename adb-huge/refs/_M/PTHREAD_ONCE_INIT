@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='209'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='208'>/* Single execution handling.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/thread_pthread.c' l='111' u='c'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_exception_storage.cpp' l='58' u='c'/>

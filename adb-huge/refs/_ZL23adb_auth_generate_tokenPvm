@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/adb_auth.h' l='46' type='int adb_auth_generate_token(void * token, size_t token_size)'/>
+<use f='codebrowser/system/core/adb/adb_auth.cpp' l='39' u='c' c='_Z17send_auth_requestP10atransport'/>

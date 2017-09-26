@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/adb/usb_linux.cpp' l='78' type='bool'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='92' u='w' c='_ZL15is_known_devicePKc'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='103' u='r' c='_ZL25kick_disconnected_devicesv'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='106' u='w' c='_ZL25kick_disconnected_devicesv'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='529' u='w' c='_ZL15register_devicePKcS0_hhiij'/>
+<offset>1984</offset>

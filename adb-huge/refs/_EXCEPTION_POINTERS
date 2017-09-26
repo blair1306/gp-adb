@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='2476' ll='2479'/>
+<size>1</size>
+<mbr r='_EXCEPTION_POINTERS::ExceptionRecord' t='PEXCEPTION_RECORD'/>
+<mbr r='_EXCEPTION_POINTERS::ContextRecord' t='_CONTEXT'/>

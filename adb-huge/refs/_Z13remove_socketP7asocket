@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/socket.h' l='106' type='void remove_socket(asocket * s)'/>
+<def f='codebrowser/system/core/adb/sockets.cpp' l='107' ll='118' type='void remove_socket(asocket * s)'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='226' u='c' c='_ZL20local_socket_destroyP7asocket'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='273' u='c' c='_ZL25local_socket_close_lockedP7asocket'/>

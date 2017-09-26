@@ -1,0 +1,15 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5636' ll='5650'/>
+<size>48</size>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::Signature' o='0' t='WORD'/>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::Flags' o='16' t='WORD'/>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::Machine' o='32' t='WORD'/>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::Characteristics' o='48' t='WORD'/>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::TimeDateStamp' o='64' t='DWORD'/>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::CheckSum' o='96' t='DWORD'/>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::ImageBase' o='128' t='DWORD'/>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::SizeOfImage' o='160' t='DWORD'/>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::NumberOfSections' o='192' t='DWORD'/>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::ExportedNamesSize' o='224' t='DWORD'/>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::DebugDirectorySize' o='256' t='DWORD'/>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::SectionAlignment' o='288' t='DWORD'/>
+<mbr r='_IMAGE_SEPARATE_DEBUG_HEADER::Reserved' o='320' t='DWORD [2]'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='4034' ll='4039'/>
+<size>32</size>
+<mbr r='tagEMRGLSBOUNDEDRECORD::emr' o='0' t='EMR'/>
+<mbr r='tagEMRGLSBOUNDEDRECORD::rclBounds' o='64' t='RECTL'/>
+<mbr r='tagEMRGLSBOUNDEDRECORD::cbData' o='192' t='DWORD'/>
+<mbr r='tagEMRGLSBOUNDEDRECORD::Data' o='224' t='BYTE [1]'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsvc.h' l='214' ll='218'/>
+<size>12</size>
+<mbr r='_QUERY_SERVICE_LOCK_STATUSW::fIsLocked' o='0' t='DWORD'/>
+<mbr r='_QUERY_SERVICE_LOCK_STATUSW::lpLockOwner' o='32' t='LPWSTR'/>
+<mbr r='_QUERY_SERVICE_LOCK_STATUSW::dwLockDuration' o='64' t='DWORD'/>

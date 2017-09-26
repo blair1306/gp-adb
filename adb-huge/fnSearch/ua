@@ -1,0 +1,9 @@
+ua_CharUpperW|ua_CharUpperW
+ua_lstrcmpW|ua_lstrcmpW
+ua_lstrcmpiW|ua_lstrcmpiW
+ua_lstrlenW|ua_lstrlenW
+ua_wcschr|ua_wcschr
+ua_wcscpy|ua_wcscpy
+ua_wcsicmp|ua_wcsicmp
+ua_wcslen|ua_wcslen
+ua_wcsrchr|ua_wcsrchr

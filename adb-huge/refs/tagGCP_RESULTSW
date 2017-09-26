@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2560' ll='2570'/>
+<size>36</size>
+<mbr r='tagGCP_RESULTSW::lStructSize' o='0' t='DWORD'/>
+<mbr r='tagGCP_RESULTSW::lpOutString' o='32' t='LPWSTR'/>
+<mbr r='tagGCP_RESULTSW::lpOrder' o='64' t='UINT *'/>
+<mbr r='tagGCP_RESULTSW::lpDx' o='96' t='int *'/>
+<mbr r='tagGCP_RESULTSW::lpCaretPos' o='128' t='int *'/>
+<mbr r='tagGCP_RESULTSW::lpClass' o='160' t='LPSTR'/>
+<mbr r='tagGCP_RESULTSW::lpGlyphs' o='192' t='LPWSTR'/>
+<mbr r='tagGCP_RESULTSW::nGlyphs' o='224' t='UINT'/>
+<mbr r='tagGCP_RESULTSW::nMaxFit' o='256' t='int'/>

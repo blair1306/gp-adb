@@ -1,0 +1,9 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='843' type='void perror(const char * __s)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='839'>/* Print a message describing the meaning of the value of errno.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='990' u='c' c='_ZL3pppiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1016' u='c' c='_ZL3pppiPPKc'/>
+<use f='codebrowser/system/core/adb/diagnose_usb.cpp' l='41' u='c' c='_ZL14GetUdevProblemv'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='495' type='void perror(const char * _ErrMsg)'/>

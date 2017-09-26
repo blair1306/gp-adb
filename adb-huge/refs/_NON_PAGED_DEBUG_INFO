@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5652' ll='5663'/>
+<size>32</size>
+<mbr r='_NON_PAGED_DEBUG_INFO::Signature' o='0' t='WORD'/>
+<mbr r='_NON_PAGED_DEBUG_INFO::Flags' o='16' t='WORD'/>
+<mbr r='_NON_PAGED_DEBUG_INFO::Size' o='32' t='DWORD'/>
+<mbr r='_NON_PAGED_DEBUG_INFO::Machine' o='64' t='WORD'/>
+<mbr r='_NON_PAGED_DEBUG_INFO::Characteristics' o='80' t='WORD'/>
+<mbr r='_NON_PAGED_DEBUG_INFO::TimeDateStamp' o='96' t='DWORD'/>
+<mbr r='_NON_PAGED_DEBUG_INFO::CheckSum' o='128' t='DWORD'/>
+<mbr r='_NON_PAGED_DEBUG_INFO::SizeOfImage' o='160' t='DWORD'/>
+<mbr r='_NON_PAGED_DEBUG_INFO::ImageBase' o='192' t='ULONGLONG'/>

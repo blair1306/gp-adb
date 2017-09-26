@@ -1,0 +1,22 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/locale.h' l='40' type='11'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/langinfo.h' l='543' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='53' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='659' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='670' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='711' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='722' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1181' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1192' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1238' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1249' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1529' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4329' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4372' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4782' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4792' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5470' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5480' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5904' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5952' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6017' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6100' macro='1' u='r'/>

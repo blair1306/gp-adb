@@ -1,0 +1,5 @@
+<dec f='codebrowser/system/core/adb/transport.h' l='151' type='std::string list_transports(bool long_listing)'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1053' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='393' u='c' c='_ZL20device_tracker_readyP7asocket'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='420' u='c' c='_Z17update_transportsv'/>
+<def f='codebrowser/system/core/adb/transport.cpp' l='913' ll='921' type='std::string list_transports(bool long_listing)'/>

@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='2781' ll='2787'/>
+<size>20</size>
+<mbr r='tagDRAWTEXTPARAMS::cbSize' o='0' t='UINT'/>
+<mbr r='tagDRAWTEXTPARAMS::iTabLength' o='32' t='int'/>
+<mbr r='tagDRAWTEXTPARAMS::iLeftMargin' o='64' t='int'/>
+<mbr r='tagDRAWTEXTPARAMS::iRightMargin' o='96' t='int'/>
+<mbr r='tagDRAWTEXTPARAMS::uiLengthDrawn' o='128' t='UINT'/>

@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='1781' ll='1792'/>
+<size>1140</size>
+<mbr r='_WIN32_FIND_DATAW::dwFileAttributes' o='0' t='DWORD'/>
+<mbr r='_WIN32_FIND_DATAW::ftCreationTime' o='32' t='FILETIME'/>
+<mbr r='_WIN32_FIND_DATAW::ftLastAccessTime' o='96' t='FILETIME'/>
+<mbr r='_WIN32_FIND_DATAW::ftLastWriteTime' o='160' t='FILETIME'/>
+<mbr r='_WIN32_FIND_DATAW::nFileSizeHigh' o='224' t='DWORD'/>
+<mbr r='_WIN32_FIND_DATAW::nFileSizeLow' o='256' t='DWORD'/>
+<mbr r='_WIN32_FIND_DATAW::dwReserved0' o='288' t='DWORD'/>
+<mbr r='_WIN32_FIND_DATAW::dwReserved1' o='320' t='DWORD'/>
+<mbr r='_WIN32_FIND_DATAW::cFileName' o='352' t='WCHAR [260]'/>
+<mbr r='_WIN32_FIND_DATAW::cAlternateFileName' o='8672' t='WCHAR [14]'/>

@@ -1,0 +1,12 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='554' ll='561' type='int adb_open(const char * pathname, int options)'/>
+<doc f='codebrowser/system/core/adb/sysdeps.h' l='547'>// Open a file and return a file descriptor that may be used with adb_read(),
+// adb_write(), adb_close(), but not unix_read(), unix_write(), unix_close().
+//
+// On Unix, this is based on open(), but the Windows implementation (in
+// sysdeps_win32.cpp) uses Windows native file I/O and bypasses the C Runtime
+// and its CR/LF translation. The returned file descriptor should be used with
+// adb_read(), adb_write(), adb_close(), etc.</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1251' u='c' c='_ZL7restoreiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1952' u='c' c='_ZL11install_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2068' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='224' u='c' c='_ZN14SyncConnection13SendLargeFileEPKcS1_S1_j'/>

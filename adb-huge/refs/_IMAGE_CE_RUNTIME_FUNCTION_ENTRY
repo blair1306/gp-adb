@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5521' ll='5527'/>
+<size>8</size>
+<mbr r='_IMAGE_CE_RUNTIME_FUNCTION_ENTRY::FuncStart' o='0' t='DWORD'/>
+<mbr r='_IMAGE_CE_RUNTIME_FUNCTION_ENTRY::PrologLen' o='32' t='DWORD'/>
+<mbr r='_IMAGE_CE_RUNTIME_FUNCTION_ENTRY::FuncLen' o='40' t='DWORD'/>
+<mbr r='_IMAGE_CE_RUNTIME_FUNCTION_ENTRY::ThirtyTwoBit' o='62' t='DWORD'/>
+<mbr r='_IMAGE_CE_RUNTIME_FUNCTION_ENTRY::ExceptionFlag' o='63' t='DWORD'/>

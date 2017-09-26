@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='1121' type='char * __strpbrk_c2(const char * __s, int __accept1, int __accept2)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='1123' ll='1130' macro='1' type='char * __strpbrk_c2(const char * __s, int __accept1, int __accept2)'/>

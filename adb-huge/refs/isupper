@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='121' type='int isupper(int )'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='301' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_substitution'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='309' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_substitution'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ctype.h' l='104' type='int isupper(int _C)'/>

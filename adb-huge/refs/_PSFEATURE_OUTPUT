@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='391' ll='394'/>
+<size>8</size>
+<mbr r='_PSFEATURE_OUTPUT::bPageIndependent' o='0' t='WINBOOL'/>
+<mbr r='_PSFEATURE_OUTPUT::bSetPageDevice' o='32' t='WINBOOL'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/system/core/adb/transport.h' l='91' type='const std::string atransport::connection_state_name() const'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1124' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<def f='codebrowser/system/core/adb/transport.cpp' l='747' ll='759' type='const std::string atransport::connection_state_name() const'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='900' u='c' c='_ZL16append_transportPK10atransportPNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEb'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='903' u='c' c='_ZL16append_transportPK10atransportPNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEb'/>

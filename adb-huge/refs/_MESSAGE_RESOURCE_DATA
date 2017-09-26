@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5886' ll='5889'/>
+<size>16</size>
+<mbr r='_MESSAGE_RESOURCE_DATA::NumberOfBlocks' o='0' t='DWORD'/>
+<mbr r='_MESSAGE_RESOURCE_DATA::Blocks' o='32' t='MESSAGE_RESOURCE_BLOCK [1]'/>

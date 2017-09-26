@@ -1,0 +1,8 @@
+<dec f='codebrowser/system/core/include/log/log.h' l='678' type='int __android_log_is_loggable(int prio, const char * tag, int default_prio)'/>
+<doc f='codebrowser/system/core/include/log/log.h' l='672'>/*
+ * Use the per-tag properties &quot;log.tag.&lt;tagname&gt;&quot; to generate a runtime
+ * result of non-zero to expose a log. prio is ANDROID_LOG_VERBOSE to
+ * ANDROID_LOG_FATAL. default_prio if no property. Undefined behavior if
+ * any other value.
+ */</doc>
+<def f='codebrowser/system/core/liblog/fake_log_device.c' l='714' ll='720' macro='1' type='int __android_log_is_loggable(int prio, const char * tag, int def)'/>

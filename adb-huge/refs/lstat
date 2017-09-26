@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='265' type='int lstat(const char *restrict __file, struct stat *restrict __buf)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='461' ll='465' macro='1' type='int lstat(const char * __path, struct stat * __statbuf)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/stat.h' l='263'>/* Get file attributes about FILE and put them in BUF.
+   If FILE is a symbolic link, do not follow it.  */</doc>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='67' u='c' c='_Z16directory_existsRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='619' u='c' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/base/file.cpp' l='155' u='c' c='_ZN7android4base18RemoveFileIfExistsERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='43' u='c' c='fs_prepare_dir'/>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>inaddr.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/inaddr.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="in_addr "/>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/inaddr.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='inaddr.h.html'>inaddr.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><u>#<span data-ppcond="7">ifndef</span> <span class="macro" data-ref="_M/s_addr">s_addr</span></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#<span data-ppcond="9">ifdef</span> <span class="macro" data-ref="_M/__LP64__">__LP64__</span></u></td></tr>
+<tr><th id="10">10</th><td><u>#pragma push_macro("u_long")</u></td></tr>
+<tr><th id="11">11</th><td><u>#undef u_long</u></td></tr>
+<tr><th id="12">12</th><td><u>#define u_long __ms_u_long</u></td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="9">endif</span></u></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><u>#include <a href="_bsd_types.h.html">&lt;_bsd_types.h&gt;</a></u></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="in_addr" title='in_addr' data-ref="in_addr"><a class="type" href="#in_addr" title='in_addr' data-ref="in_addr"><a class="type" href="#in_addr" title='in_addr' data-ref="in_addr"><a class="type" href="#in_addr" title='in_addr' data-ref="in_addr">in_addr</a></a></a></dfn> {</td></tr>
+<tr><th id="18">18</th><td>  <b>union</b> {</td></tr>
+<tr><th id="19">19</th><td>    <b>struct</b> { <a class="typedef" href="_bsd_types.h.html#u_char" title='u_char' data-type='unsigned char' data-ref="u_char">u_char</a>  <dfn class="decl" id="in_addr::(anonymousunion)::(anonymous)::s_b1" title='in_addr::(anonymous union)::(anonymous struct)::s_b1' data-ref="in_addr::(anonymousunion)::(anonymous)::s_b1">s_b1</dfn>, <dfn class="decl" id="in_addr::(anonymousunion)::(anonymous)::s_b2" title='in_addr::(anonymous union)::(anonymous struct)::s_b2' data-ref="in_addr::(anonymousunion)::(anonymous)::s_b2">s_b2</dfn>, <dfn class="decl" id="in_addr::(anonymousunion)::(anonymous)::s_b3" title='in_addr::(anonymous union)::(anonymous struct)::s_b3' data-ref="in_addr::(anonymousunion)::(anonymous)::s_b3">s_b3</dfn>, <dfn class="decl" id="in_addr::(anonymousunion)::(anonymous)::s_b4" title='in_addr::(anonymous union)::(anonymous struct)::s_b4' data-ref="in_addr::(anonymousunion)::(anonymous)::s_b4">s_b4</dfn>; } <dfn class="decl" id="in_addr::(anonymous)::S_un_b" title='in_addr::(anonymous union)::S_un_b' data-ref="in_addr::(anonymous)::S_un_b">S_un_b</dfn>;</td></tr>
+<tr><th id="20">20</th><td>    <b>struct</b> { <a class="typedef" href="_bsd_types.h.html#u_short" title='u_short' data-type='unsigned short' data-ref="u_short">u_short</a> <dfn class="decl" id="in_addr::(anonymousunion)::(anonymous)::s_w1" title='in_addr::(anonymous union)::(anonymous struct)::s_w1' data-ref="in_addr::(anonymousunion)::(anonymous)::s_w1">s_w1</dfn>, <dfn class="decl" id="in_addr::(anonymousunion)::(anonymous)::s_w2" title='in_addr::(anonymous union)::(anonymous struct)::s_w2' data-ref="in_addr::(anonymousunion)::(anonymous)::s_w2">s_w2</dfn>; } <dfn class="decl" id="in_addr::(anonymous)::S_un_w" title='in_addr::(anonymous union)::S_un_w' data-ref="in_addr::(anonymous)::S_un_w">S_un_w</dfn>;</td></tr>
+<tr><th id="21">21</th><td>    <a class="typedef" href="_bsd_types.h.html#u_long" title='u_long' data-type='unsigned long' data-ref="u_long">u_long</a> <dfn class="decl" id="in_addr::(anonymous)::S_addr" title='in_addr::(anonymous union)::S_addr' data-ref="in_addr::(anonymous)::S_addr">S_addr</dfn>;</td></tr>
+<tr><th id="22">22</th><td>  } <dfn class="decl" id="in_addr::S_un" title='in_addr::S_un' data-ref="in_addr::S_un">S_un</dfn>;</td></tr>
+<tr><th id="23">23</th><td>} <dfn class="typedef" id="IN_ADDR" title='IN_ADDR' data-type='struct in_addr' data-ref="IN_ADDR">IN_ADDR</dfn>, *<dfn class="typedef" id="PIN_ADDR" title='PIN_ADDR' data-type='struct in_addr *' data-ref="PIN_ADDR">PIN_ADDR</dfn>, *<dfn class="typedef" id="LPIN_ADDR" title='LPIN_ADDR' data-type='struct in_addr *' data-ref="LPIN_ADDR">LPIN_ADDR</dfn>;</td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/s_addr" data-ref="_M/s_addr">s_addr</dfn>	S_un.S_addr</u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/s_host" data-ref="_M/s_host">s_host</dfn>	S_un.S_un_b.s_b2</u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/s_net" data-ref="_M/s_net">s_net</dfn>	S_un.S_un_b.s_b1</u></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/s_imp" data-ref="_M/s_imp">s_imp</dfn>	S_un.S_un_w.s_w2</u></td></tr>
+<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/s_impno" data-ref="_M/s_impno">s_impno</dfn>	S_un.S_un_b.s_b4</u></td></tr>
+<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/s_lh" data-ref="_M/s_lh">s_lh</dfn>	S_un.S_un_b.s_b3</u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><u>#<span data-ppcond="32">ifdef</span> <span class="macro" data-ref="_M/__LP64__">__LP64__</span></u></td></tr>
+<tr><th id="33">33</th><td><u>#pragma pop_macro("u_long")</u></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="32">endif</span></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#<span data-ppcond="7">endif</span> /* s_addr */</u></td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

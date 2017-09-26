@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5007' ll='5017'/>
+<size>48</size>
+<mbr r='tagGUITHREADINFO::cbSize' o='0' t='DWORD'/>
+<mbr r='tagGUITHREADINFO::flags' o='32' t='DWORD'/>
+<mbr r='tagGUITHREADINFO::hwndActive' o='64' t='HWND'/>
+<mbr r='tagGUITHREADINFO::hwndFocus' o='96' t='HWND'/>
+<mbr r='tagGUITHREADINFO::hwndCapture' o='128' t='HWND'/>
+<mbr r='tagGUITHREADINFO::hwndMenuOwner' o='160' t='HWND'/>
+<mbr r='tagGUITHREADINFO::hwndMoveSize' o='192' t='HWND'/>
+<mbr r='tagGUITHREADINFO::hwndCaret' o='224' t='HWND'/>
+<mbr r='tagGUITHREADINFO::rcCaret' o='256' t='RECT'/>

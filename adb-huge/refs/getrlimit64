@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/resource.h' l='62' type='int getrlimit64(__rlimit_resource_t __resource, struct rlimit64 * __rlimits)'/>

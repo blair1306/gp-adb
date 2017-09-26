@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>limits.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/limits.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/limits.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='limits.h.html'>limits.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="crtdefs.h.html">&lt;crtdefs.h&gt;</a></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><u>#<span data-ppcond="8">ifndef</span> <span class="macro" data-ref="_M/_INC_LIMITS">_INC_LIMITS</span></u></td></tr>
+<tr><th id="9">9</th><td><u>#define <dfn class="macro" id="_M/_INC_LIMITS" data-ref="_M/_INC_LIMITS">_INC_LIMITS</dfn></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><i>/*</i></td></tr>
+<tr><th id="12">12</th><td><i> * File system limits</i></td></tr>
+<tr><th id="13">13</th><td><i> *</i></td></tr>
+<tr><th id="14">14</th><td><i> * NOTE: Apparently the actual size of PATH_MAX is 260, but a space is</i></td></tr>
+<tr><th id="15">15</th><td><i> *       required for the NUL. TODO: Test?</i></td></tr>
+<tr><th id="16">16</th><td><i> * NOTE: PATH_MAX is the POSIX equivalent for Microsoft's MAX_PATH; the two</i></td></tr>
+<tr><th id="17">17</th><td><i> *       are semantically identical, with a limit of 259 characters for the</i></td></tr>
+<tr><th id="18">18</th><td><i> *       path name, plus one for a terminating NUL, for a total of 260.</i></td></tr>
+<tr><th id="19">19</th><td><i> */</i></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/PATH_MAX" data-ref="_M/PATH_MAX">PATH_MAX</dfn>	260</u></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/CHAR_BIT" data-ref="_M/CHAR_BIT">CHAR_BIT</dfn> 8</u></td></tr>
+<tr><th id="23">23</th><td><u>#define <dfn class="macro" id="_M/SCHAR_MIN" data-ref="_M/SCHAR_MIN">SCHAR_MIN</dfn> (-128)</u></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/SCHAR_MAX" data-ref="_M/SCHAR_MAX">SCHAR_MAX</dfn> 127</u></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/UCHAR_MAX" data-ref="_M/UCHAR_MAX">UCHAR_MAX</dfn> 0xff</u></td></tr>
+<tr><th id="26">26</th><td></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/CHAR_MIN" data-ref="_M/CHAR_MIN">CHAR_MIN</dfn> SCHAR_MIN</u></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/CHAR_MAX" data-ref="_M/CHAR_MAX">CHAR_MAX</dfn> SCHAR_MAX</u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/MB_LEN_MAX" data-ref="_M/MB_LEN_MAX">MB_LEN_MAX</dfn> 5</u></td></tr>
+<tr><th id="31">31</th><td><u>#define <dfn class="macro" id="_M/SHRT_MIN" data-ref="_M/SHRT_MIN">SHRT_MIN</dfn> (-32768)</u></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/SHRT_MAX" data-ref="_M/SHRT_MAX">SHRT_MAX</dfn> 32767</u></td></tr>
+<tr><th id="33">33</th><td><u>#define <dfn class="macro" id="_M/USHRT_MAX" data-ref="_M/USHRT_MAX">USHRT_MAX</dfn> 0xffffU</u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/INT_MIN" data-ref="_M/INT_MIN">INT_MIN</dfn> (-2147483647 - 1)</u></td></tr>
+<tr><th id="35">35</th><td><u>#define <dfn class="macro" id="_M/INT_MAX" data-ref="_M/INT_MAX">INT_MAX</dfn> 2147483647</u></td></tr>
+<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/UINT_MAX" data-ref="_M/UINT_MAX">UINT_MAX</dfn> 0xffffffffU</u></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/LONG_MIN" data-ref="_M/LONG_MIN">LONG_MIN</dfn> (-2147483647L - 1)</u></td></tr>
+<tr><th id="38">38</th><td><u>#define <dfn class="macro" id="_M/LONG_MAX" data-ref="_M/LONG_MAX">LONG_MAX</dfn> 2147483647L</u></td></tr>
+<tr><th id="39">39</th><td><u>#define <dfn class="macro" id="_M/ULONG_MAX" data-ref="_M/ULONG_MAX">ULONG_MAX</dfn> 0xffffffffUL</u></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/LLONG_MAX" data-ref="_M/LLONG_MAX">LLONG_MAX</dfn> 9223372036854775807ll</u></td></tr>
+<tr><th id="41">41</th><td><u>#define <dfn class="macro" id="_M/LLONG_MIN" data-ref="_M/LLONG_MIN">LLONG_MIN</dfn> (-9223372036854775807ll - 1)</u></td></tr>
+<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/ULLONG_MAX" data-ref="_M/ULLONG_MAX">ULLONG_MAX</dfn> 0xffffffffffffffffull</u></td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/_I8_MIN" data-ref="_M/_I8_MIN">_I8_MIN</dfn> (-127 - 1)</u></td></tr>
+<tr><th id="45">45</th><td><u>#define <dfn class="macro" id="_M/_I8_MAX" data-ref="_M/_I8_MAX">_I8_MAX</dfn> 127</u></td></tr>
+<tr><th id="46">46</th><td><u>#define <dfn class="macro" id="_M/_UI8_MAX" data-ref="_M/_UI8_MAX">_UI8_MAX</dfn> 0xffu</u></td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/_I16_MIN" data-ref="_M/_I16_MIN">_I16_MIN</dfn> (-32767 - 1)</u></td></tr>
+<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/_I16_MAX" data-ref="_M/_I16_MAX">_I16_MAX</dfn> 32767</u></td></tr>
+<tr><th id="50">50</th><td><u>#define <dfn class="macro" id="_M/_UI16_MAX" data-ref="_M/_UI16_MAX">_UI16_MAX</dfn> 0xffffu</u></td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/_I32_MIN" data-ref="_M/_I32_MIN">_I32_MIN</dfn> (-2147483647 - 1)</u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/_I32_MAX" data-ref="_M/_I32_MAX">_I32_MAX</dfn> 2147483647</u></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/_UI32_MAX" data-ref="_M/_UI32_MAX">_UI32_MAX</dfn> 0xffffffffu</u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><u>#<span data-ppcond="56">if</span> defined(<span class="macro" data-ref="_M/__GNUC__">__GNUC__</span>)</u></td></tr>
+<tr><th id="57">57</th><td><u>#undef <span class="macro" data-ref="_M/LONG_LONG_MAX">LONG_LONG_MAX</span></u></td></tr>
+<tr><th id="58">58</th><td><u>#define <dfn class="macro" id="_M/LONG_LONG_MAX" data-ref="_M/LONG_LONG_MAX">LONG_LONG_MAX</dfn> 9223372036854775807ll</u></td></tr>
+<tr><th id="59">59</th><td><u>#undef <span class="macro" data-ref="_M/LONG_LONG_MIN">LONG_LONG_MIN</span></u></td></tr>
+<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/LONG_LONG_MIN" data-ref="_M/LONG_LONG_MIN">LONG_LONG_MIN</dfn> (-LONG_LONG_MAX-1)</u></td></tr>
+<tr><th id="61">61</th><td><u>#undef <span class="macro" data-ref="_M/ULONG_LONG_MAX">ULONG_LONG_MAX</span></u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/ULONG_LONG_MAX" data-ref="_M/ULONG_LONG_MAX">ULONG_LONG_MAX</dfn> (2ull * LONG_LONG_MAX + 1ull)</u></td></tr>
+<tr><th id="63">63</th><td><u>#<span data-ppcond="56">endif</span></u></td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/_I64_MIN" data-ref="_M/_I64_MIN">_I64_MIN</dfn> (-9223372036854775807ll - 1)</u></td></tr>
+<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/_I64_MAX" data-ref="_M/_I64_MAX">_I64_MAX</dfn> 9223372036854775807ll</u></td></tr>
+<tr><th id="67">67</th><td><u>#define <dfn class="macro" id="_M/_UI64_MAX" data-ref="_M/_UI64_MAX">_UI64_MAX</dfn> 0xffffffffffffffffull</u></td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td><u>#<span data-ppcond="69">ifndef</span> <span class="macro" data-ref="_M/SIZE_MAX">SIZE_MAX</span></u></td></tr>
+<tr><th id="70">70</th><td><u>#<span data-ppcond="70">ifdef</span> <span class="macro" data-ref="_M/_WIN64">_WIN64</span></u></td></tr>
+<tr><th id="71">71</th><td><u>#define SIZE_MAX _UI64_MAX</u></td></tr>
+<tr><th id="72">72</th><td><u>#<span data-ppcond="70">else</span></u></td></tr>
+<tr><th id="73">73</th><td><u>#define <dfn class="macro" id="_M/SIZE_MAX" data-ref="_M/SIZE_MAX">SIZE_MAX</dfn> UINT_MAX</u></td></tr>
+<tr><th id="74">74</th><td><u>#<span data-ppcond="70">endif</span></u></td></tr>
+<tr><th id="75">75</th><td><u>#<span data-ppcond="69">endif</span></u></td></tr>
+<tr><th id="76">76</th><td></td></tr>
+<tr><th id="77">77</th><td><u>#<span data-ppcond="77">ifndef</span> <span class="macro" data-ref="_M/SSIZE_MAX">SSIZE_MAX</span></u></td></tr>
+<tr><th id="78">78</th><td><u>#<span data-ppcond="78">ifdef</span> <span class="macro" data-ref="_M/_WIN64">_WIN64</span></u></td></tr>
+<tr><th id="79">79</th><td><u>#define SSIZE_MAX _I64_MAX</u></td></tr>
+<tr><th id="80">80</th><td><u>#<span data-ppcond="78">else</span></u></td></tr>
+<tr><th id="81">81</th><td><u>#define <dfn class="macro" id="_M/SSIZE_MAX" data-ref="_M/SSIZE_MAX">SSIZE_MAX</dfn> INT_MAX</u></td></tr>
+<tr><th id="82">82</th><td><u>#<span data-ppcond="78">endif</span></u></td></tr>
+<tr><th id="83">83</th><td><u>#<span data-ppcond="77">endif</span></u></td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td><u>#<span data-ppcond="85">ifdef</span> <span class="macro" data-ref="_M/_POSIX_">_POSIX_</span></u></td></tr>
+<tr><th id="86">86</th><td><u>#define _POSIX_ARG_MAX 4096</u></td></tr>
+<tr><th id="87">87</th><td><u>#define _POSIX_CHILD_MAX 6</u></td></tr>
+<tr><th id="88">88</th><td><u>#define _POSIX_LINK_MAX 8</u></td></tr>
+<tr><th id="89">89</th><td><u>#define _POSIX_MAX_CANON 255</u></td></tr>
+<tr><th id="90">90</th><td><u>#define _POSIX_MAX_INPUT 255</u></td></tr>
+<tr><th id="91">91</th><td><u>#define _POSIX_NAME_MAX 14</u></td></tr>
+<tr><th id="92">92</th><td><u>#define _POSIX_NGROUPS_MAX 0</u></td></tr>
+<tr><th id="93">93</th><td><u>#define _POSIX_OPEN_MAX 16</u></td></tr>
+<tr><th id="94">94</th><td><u>#define _POSIX_PATH_MAX 255</u></td></tr>
+<tr><th id="95">95</th><td><u>#define _POSIX_PIPE_BUF 512</u></td></tr>
+<tr><th id="96">96</th><td><u>#define _POSIX_SSIZE_MAX 32767</u></td></tr>
+<tr><th id="97">97</th><td><u>#define _POSIX_STREAM_MAX 8</u></td></tr>
+<tr><th id="98">98</th><td><u>#define _POSIX_TZNAME_MAX 3</u></td></tr>
+<tr><th id="99">99</th><td><u>#define ARG_MAX 14500</u></td></tr>
+<tr><th id="100">100</th><td><u>#define LINK_MAX 1024</u></td></tr>
+<tr><th id="101">101</th><td><u>#define MAX_CANON _POSIX_MAX_CANON</u></td></tr>
+<tr><th id="102">102</th><td><u>#define MAX_INPUT _POSIX_MAX_INPUT</u></td></tr>
+<tr><th id="103">103</th><td><u>#define NAME_MAX 255</u></td></tr>
+<tr><th id="104">104</th><td><u>#define NGROUPS_MAX 16</u></td></tr>
+<tr><th id="105">105</th><td><u>#define OPEN_MAX 32</u></td></tr>
+<tr><th id="106">106</th><td><u>#undef PATH_MAX</u></td></tr>
+<tr><th id="107">107</th><td><u>#define PATH_MAX 512</u></td></tr>
+<tr><th id="108">108</th><td><u>#define PIPE_BUF _POSIX_PIPE_BUF</u></td></tr>
+<tr><th id="109">109</th><td><i>/*#define SSIZE_MAX _POSIX_SSIZE_MAX*/</i></td></tr>
+<tr><th id="110">110</th><td><u>#define STREAM_MAX 20</u></td></tr>
+<tr><th id="111">111</th><td><u>#define TZNAME_MAX 10</u></td></tr>
+<tr><th id="112">112</th><td><u>#<span data-ppcond="85">endif</span></u></td></tr>
+<tr><th id="113">113</th><td></td></tr>
+<tr><th id="114">114</th><td><u>#<span data-ppcond="8">endif</span> /* _INC_LIMITS */</u></td></tr>
+<tr><th id="115">115</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

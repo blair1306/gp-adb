@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/swab.h' l='229' ll='236' type='void __swab32s(__u32 * p)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/swab.h' l='225'>/**
+ * __swab32s - byteswap a 32-bit value in-place
+ * @p: pointer to a naturally-aligned 32-bit value
+ */</doc>

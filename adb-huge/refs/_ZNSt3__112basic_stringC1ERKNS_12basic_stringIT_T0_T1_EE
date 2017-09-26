@@ -1,0 +1,18 @@
+<dec f='codebrowser/external/libcxx/include/string' l='1333' type='void std::__1::basic_string::basic_string&lt;_CharT, _Traits, _Allocator&gt;(const basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp; __str)'/>
+<def f='codebrowser/external/libcxx/include/string' l='2046' ll='2057' type='void std::__1::basic_string::basic_string&lt;_CharT, _Traits, _Allocator&gt;(const basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp; __str)'/>
+<use f='codebrowser/external/libcxx/src/system_error.cpp' l='159' u='c' c='_ZNSt3__112system_errorC1ENS_10error_codeERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/external/libcxx/src/system_error.cpp' l='177' u='c' c='_ZNSt3__112system_errorC1EiRKNS_14error_categoryERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='71' u='c' c='_Z10escape_argRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='93' u='c' c='_Z12adb_basenameRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='116' u='c' c='_Z11adb_dirnameRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1294' u='c' c='_ZL21find_product_out_pathRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='87' u='c' c='_ZN8copyinfoC1ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_S8_j'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='87' u='c' c='_ZN8copyinfoC1ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_S8_j'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='346' u='c' c='_ZN14SyncConnection6PrintfEPKcz'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='357' u='c' c='_ZN14SyncConnection5ErrorEPKcz'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='368' u='c' c='_ZN14SyncConnection7WarningEPKcz'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='801' u='c' c='_ZL20remote_symlink_isdirR14SyncConnectionRKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='1043' u='c' c='_Z12do_sync_syncRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_b'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='1043' u='c' c='_Z12do_sync_syncRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_b'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='36' u='c' c='_Z11ElideMiddleRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEm'/>
+<use f='codebrowser/system/core/base/logging.cpp' l='262' u='c' c='_ZN7android4base11InitLoggingEPPc'/>

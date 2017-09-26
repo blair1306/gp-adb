@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/wctype.h' l='256' type='int iswprint_l(wint_t __wc, __locale_t __locale)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/wctype.h' l='255'>/* Test for any printing wide character.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1272' u='c' c='_ZNKSt3__112ctype_bynameIwE5do_isEtw'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1299' u='c' c='_ZNKSt3__112ctype_bynameIwE5do_isEPKwS3_Pt'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1340' u='c' c='_ZNKSt3__112ctype_bynameIwE10do_scan_isEtPKwS3_'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1365' u='c' c='_ZNKSt3__112ctype_bynameIwE11do_scan_notEtPKwS3_'/>

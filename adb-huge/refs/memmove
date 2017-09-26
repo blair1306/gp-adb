@@ -1,0 +1,25 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='49' type='void * memmove(void * __dest, const void * __src, size_t __n)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string3.h' l='55' ll='59' macro='1' type='void * memmove(void * __dest, const void * __src, size_t __len)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='47'>/* Copy N bytes of SRC to DEST, guaranteeing
+   correct behavior for overlapping strings.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/bio_mem.c' l='151' u='c' c='mem_read'/>
+<use f='codebrowser/external/boringssl/src/crypto/bytestring/cbb.c' l='242' u='c' c='CBB_flush'/>
+<use f='codebrowser/external/boringssl/src/crypto/cipher/e_aes.c' l='1346' u='c' c='aead_aes_key_wrap_seal'/>
+<use f='codebrowser/external/boringssl/src/crypto/cipher/e_aes.c' l='1431' u='c' c='aead_aes_key_wrap_open'/>
+<use f='codebrowser/external/boringssl/src/crypto/curve25519/curve25519.c' l='218' u='c' c='fe_copy'/>
+<use f='codebrowser/external/boringssl/src/crypto/curve25519/curve25519.c' l='4616' u='c' c='ED25519_keypair'/>
+<use f='codebrowser/external/boringssl/src/crypto/stack/stack.c' l='182' u='c' c='sk_insert'/>
+<use f='codebrowser/external/boringssl/src/crypto/stack/stack.c' l='203' u='c' c='sk_delete'/>
+<use f='codebrowser/external/libcxx/include/algorithm' l='1767' u='c' c='_ZNSt3__16__copyEPT_S1_PT0_'/>
+<use f='codebrowser/external/libcxx/include/algorithm' l='1805' u='c' c='_ZNSt3__115__copy_backwardEPT_S1_PT0_'/>
+<use f='codebrowser/external/libcxx/include/algorithm' l='1904' u='c' c='_ZNSt3__16__moveEPT_S1_PT0_'/>
+<use f='codebrowser/external/libcxx/include/algorithm' l='1942' u='c' c='_ZNSt3__115__move_backwardEPT_S1_PT0_'/>
+<use f='codebrowser/external/libcxx/include/__bit_reference' l='437' u='c' c='_ZNSt3__114__copy_alignedENS_14__bit_iteratorIT_XT0_EXLi0EEEES2_NS0_IS1_Lb0EXLi0EEEE'/>
+<use f='codebrowser/external/libcxx/include/__bit_reference' l='578' u='c' c='_ZNSt3__123__copy_backward_alignedENS_14__bit_iteratorIT_XT0_EXLi0EEEES2_NS0_IS1_Lb0EXLi0EEEE'/>
+<use f='codebrowser/external/libcxx/include/string' l='644' u='c' c='_ZNSt3__111char_traitsIcE4moveEPcPKcm'/>
+<use f='codebrowser/external/libcxx/include/__hash_table' l='1309' u='c' c='_ZNSt3__112__hash_table12__deallocateENS_16allocator_traitsINS_21__rebind_alloc_helperINS1_IT2_EENS_11__hash_nodeIT_NS4_12void_pointerEEEE4typeEE7pointerE'/>
+<use f='codebrowser/external/libcxx/include/__hash_table' l='2251' u='c' c='_ZNSt3__112__hash_table6removeENS_21__hash_const_iteratorINS_16allocator_traitsINS_21__rebind_alloc_helperINS2_IT2_EENS_11__hash_nodeIT_NS5_12void_poi628134'/>
+<use f='codebrowser/external/libcxx/src/debug.cpp' l='567' u='c' c='_ZNSt3__18__c_node8__removeEPNS_8__i_nodeE'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='56' type='void * memmove(void * _Dst, const void * _Src, size_t _Size)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1732' u='c' c='_Z14_escape_prefixPcj'/>
+<use f='codebrowser/system/core/libcutils/record_stream.c' l='159' u='c' c='record_stream_get_next'/>

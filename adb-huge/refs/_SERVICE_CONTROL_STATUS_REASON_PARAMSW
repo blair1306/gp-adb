@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsvc.h' l='347' ll='351'/>
+<size>44</size>
+<mbr r='_SERVICE_CONTROL_STATUS_REASON_PARAMSW::dwReason' o='0' t='DWORD'/>
+<mbr r='_SERVICE_CONTROL_STATUS_REASON_PARAMSW::pszComment' o='32' t='LPWSTR'/>
+<mbr r='_SERVICE_CONTROL_STATUS_REASON_PARAMSW::ServiceStatus' o='64' t='SERVICE_STATUS_PROCESS'/>

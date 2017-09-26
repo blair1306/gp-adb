@@ -1,0 +1,21 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4323' ll='4343'/>
+<size>64</size>
+<mbr r='_IMAGE_DOS_HEADER::e_magic' o='0' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_cblp' o='16' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_cp' o='32' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_crlc' o='48' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_cparhdr' o='64' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_minalloc' o='80' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_maxalloc' o='96' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_ss' o='112' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_sp' o='128' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_csum' o='144' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_ip' o='160' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_cs' o='176' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_lfarlc' o='192' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_ovno' o='208' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_res' o='224' t='WORD [4]'/>
+<mbr r='_IMAGE_DOS_HEADER::e_oemid' o='288' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_oeminfo' o='304' t='WORD'/>
+<mbr r='_IMAGE_DOS_HEADER::e_res2' o='320' t='WORD [10]'/>
+<mbr r='_IMAGE_DOS_HEADER::e_lfanew' o='480' t='LONG'/>

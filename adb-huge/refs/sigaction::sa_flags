@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sigaction.h' l='47' type='int'/>
+<offset>1088</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sigaction.h' l='46'>/* Special flags.  */</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='666' u='w' c='_ZL11RemoteShellbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEcS7_'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='589' u='w' c='_Z8usb_initv'/>

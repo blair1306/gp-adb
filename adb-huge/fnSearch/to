@@ -1,0 +1,3 @@
+tolower|tolower
+toupper|toupper
+_ZNK7android4base14LogMessageData8ToStringEv|android::base::LogMessageData::ToString

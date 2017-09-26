@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6732' ll='6742'/>
+<size>112</size>
+<mbr r='_WOW64_FLOATING_SAVE_AREA::ControlWord' o='0' t='DWORD'/>
+<mbr r='_WOW64_FLOATING_SAVE_AREA::StatusWord' o='32' t='DWORD'/>
+<mbr r='_WOW64_FLOATING_SAVE_AREA::TagWord' o='64' t='DWORD'/>
+<mbr r='_WOW64_FLOATING_SAVE_AREA::ErrorOffset' o='96' t='DWORD'/>
+<mbr r='_WOW64_FLOATING_SAVE_AREA::ErrorSelector' o='128' t='DWORD'/>
+<mbr r='_WOW64_FLOATING_SAVE_AREA::DataOffset' o='160' t='DWORD'/>
+<mbr r='_WOW64_FLOATING_SAVE_AREA::DataSelector' o='192' t='DWORD'/>
+<mbr r='_WOW64_FLOATING_SAVE_AREA::RegisterArea' o='224' t='BYTE [80]'/>
+<mbr r='_WOW64_FLOATING_SAVE_AREA::Cr0NpxState' o='864' t='DWORD'/>

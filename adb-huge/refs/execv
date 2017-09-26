@@ -1,0 +1,7 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='564' type='int execv(const char * __path, char *const * __argv)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='563'>/* Execute PATH with arguments ARGV and environment from `environ&apos;.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/process.h' l='165' type='int execv(const char * _Filename, char *const * _ArgList)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/process.h' l='161'>/* Those methods are predefined by gcc builtins to return int. So to prevent
+     stupid warnings, define them in POSIX way.  This is save, because those
+     methods do not return in success case, so that the return value is not
+     really dependent to its scalar width.  */</doc>

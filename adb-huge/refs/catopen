@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/nl_types.h' l='43' type='nl_catd catopen(const char * __cat_name, int __flag)'/>
+<use f='codebrowser/external/libcxx/include/locale' l='3684' u='c' c='_ZNKSt3__18messages7do_openERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERKNS_6localeE'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/nl_types.h' l='39'>/* Open message catalog for later use, returning descriptor.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>

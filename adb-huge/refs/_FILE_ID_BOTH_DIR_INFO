@@ -1,0 +1,17 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='3148' ll='3164'/>
+<size>132</size>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::NextEntryOffset' o='0' t='DWORD'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::FileIndex' o='32' t='DWORD'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::CreationTime' o='64' t='LARGE_INTEGER'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::LastAccessTime' o='128' t='LARGE_INTEGER'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::LastWriteTime' o='192' t='LARGE_INTEGER'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::ChangeTime' o='256' t='LARGE_INTEGER'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::EndOfFile' o='320' t='LARGE_INTEGER'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::AllocationSize' o='384' t='LARGE_INTEGER'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::FileAttributes' o='448' t='DWORD'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::FileNameLength' o='480' t='DWORD'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::EaSize' o='512' t='DWORD'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::ShortNameLength' o='544' t='CCHAR'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::ShortName' o='576' t='WCHAR [12]'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::FileId' o='960' t='LARGE_INTEGER'/>
+<mbr r='_FILE_ID_BOTH_DIR_INFO::FileName' o='1024' t='WCHAR [1]'/>

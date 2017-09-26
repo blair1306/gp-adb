@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>tvout.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/tvout.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/tvout.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='tvout.h.html'>tvout.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/__TVOUT__">__TVOUT__</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/__TVOUT__" data-ref="_M/__TVOUT__">__TVOUT__</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="guiddef.h.html">&lt;guiddef.h&gt;</a></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_VIDEOPARAMETERS" title='_VIDEOPARAMETERS' data-ref="_VIDEOPARAMETERS"><a class="type" href="#_VIDEOPARAMETERS" title='_VIDEOPARAMETERS' data-ref="_VIDEOPARAMETERS"><a class="type" href="#_VIDEOPARAMETERS" title='_VIDEOPARAMETERS' data-ref="_VIDEOPARAMETERS"><a class="type" href="#_VIDEOPARAMETERS" title='_VIDEOPARAMETERS' data-ref="_VIDEOPARAMETERS">_VIDEOPARAMETERS</a></a></a></dfn> {</td></tr>
+<tr><th id="12">12</th><td>  <a class="typedef" href="guiddef.h.html#GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</a> <dfn class="decl" id="_VIDEOPARAMETERS::Guid" title='_VIDEOPARAMETERS::Guid' data-ref="_VIDEOPARAMETERS::Guid">Guid</dfn>;</td></tr>
+<tr><th id="13">13</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwOffset" title='_VIDEOPARAMETERS::dwOffset' data-ref="_VIDEOPARAMETERS::dwOffset">dwOffset</dfn>;</td></tr>
+<tr><th id="14">14</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwCommand" title='_VIDEOPARAMETERS::dwCommand' data-ref="_VIDEOPARAMETERS::dwCommand">dwCommand</dfn>;</td></tr>
+<tr><th id="15">15</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwFlags" title='_VIDEOPARAMETERS::dwFlags' data-ref="_VIDEOPARAMETERS::dwFlags">dwFlags</dfn>;</td></tr>
+<tr><th id="16">16</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwMode" title='_VIDEOPARAMETERS::dwMode' data-ref="_VIDEOPARAMETERS::dwMode">dwMode</dfn>;</td></tr>
+<tr><th id="17">17</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwTVStandard" title='_VIDEOPARAMETERS::dwTVStandard' data-ref="_VIDEOPARAMETERS::dwTVStandard">dwTVStandard</dfn>;</td></tr>
+<tr><th id="18">18</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwAvailableModes" title='_VIDEOPARAMETERS::dwAvailableModes' data-ref="_VIDEOPARAMETERS::dwAvailableModes">dwAvailableModes</dfn>;</td></tr>
+<tr><th id="19">19</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwAvailableTVStandard" title='_VIDEOPARAMETERS::dwAvailableTVStandard' data-ref="_VIDEOPARAMETERS::dwAvailableTVStandard">dwAvailableTVStandard</dfn>;</td></tr>
+<tr><th id="20">20</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwFlickerFilter" title='_VIDEOPARAMETERS::dwFlickerFilter' data-ref="_VIDEOPARAMETERS::dwFlickerFilter">dwFlickerFilter</dfn>;</td></tr>
+<tr><th id="21">21</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwOverScanX" title='_VIDEOPARAMETERS::dwOverScanX' data-ref="_VIDEOPARAMETERS::dwOverScanX">dwOverScanX</dfn>;</td></tr>
+<tr><th id="22">22</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwOverScanY" title='_VIDEOPARAMETERS::dwOverScanY' data-ref="_VIDEOPARAMETERS::dwOverScanY">dwOverScanY</dfn>;</td></tr>
+<tr><th id="23">23</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwMaxUnscaledX" title='_VIDEOPARAMETERS::dwMaxUnscaledX' data-ref="_VIDEOPARAMETERS::dwMaxUnscaledX">dwMaxUnscaledX</dfn>;</td></tr>
+<tr><th id="24">24</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwMaxUnscaledY" title='_VIDEOPARAMETERS::dwMaxUnscaledY' data-ref="_VIDEOPARAMETERS::dwMaxUnscaledY">dwMaxUnscaledY</dfn>;</td></tr>
+<tr><th id="25">25</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwPositionX" title='_VIDEOPARAMETERS::dwPositionX' data-ref="_VIDEOPARAMETERS::dwPositionX">dwPositionX</dfn>;</td></tr>
+<tr><th id="26">26</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwPositionY" title='_VIDEOPARAMETERS::dwPositionY' data-ref="_VIDEOPARAMETERS::dwPositionY">dwPositionY</dfn>;</td></tr>
+<tr><th id="27">27</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwBrightness" title='_VIDEOPARAMETERS::dwBrightness' data-ref="_VIDEOPARAMETERS::dwBrightness">dwBrightness</dfn>;</td></tr>
+<tr><th id="28">28</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwContrast" title='_VIDEOPARAMETERS::dwContrast' data-ref="_VIDEOPARAMETERS::dwContrast">dwContrast</dfn>;</td></tr>
+<tr><th id="29">29</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwCPType" title='_VIDEOPARAMETERS::dwCPType' data-ref="_VIDEOPARAMETERS::dwCPType">dwCPType</dfn>;</td></tr>
+<tr><th id="30">30</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwCPCommand" title='_VIDEOPARAMETERS::dwCPCommand' data-ref="_VIDEOPARAMETERS::dwCPCommand">dwCPCommand</dfn>;</td></tr>
+<tr><th id="31">31</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwCPStandard" title='_VIDEOPARAMETERS::dwCPStandard' data-ref="_VIDEOPARAMETERS::dwCPStandard">dwCPStandard</dfn>;</td></tr>
+<tr><th id="32">32</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::dwCPKey" title='_VIDEOPARAMETERS::dwCPKey' data-ref="_VIDEOPARAMETERS::dwCPKey">dwCPKey</dfn>;</td></tr>
+<tr><th id="33">33</th><td>  <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_VIDEOPARAMETERS::bCP_APSTriggerBits" title='_VIDEOPARAMETERS::bCP_APSTriggerBits' data-ref="_VIDEOPARAMETERS::bCP_APSTriggerBits">bCP_APSTriggerBits</dfn>;</td></tr>
+<tr><th id="34">34</th><td>  <a class="typedef" href="windef.h.html#UCHAR" title='UCHAR' data-type='unsigned char' data-ref="UCHAR">UCHAR</a> <dfn class="decl" id="_VIDEOPARAMETERS::bOEMCopyProtection" title='_VIDEOPARAMETERS::bOEMCopyProtection' data-ref="_VIDEOPARAMETERS::bOEMCopyProtection">bOEMCopyProtection</dfn>[<var>256</var>];</td></tr>
+<tr><th id="35">35</th><td>} <dfn class="typedef" id="VIDEOPARAMETERS" title='VIDEOPARAMETERS' data-type='struct _VIDEOPARAMETERS' data-ref="VIDEOPARAMETERS">VIDEOPARAMETERS</dfn>,*<dfn class="typedef" id="PVIDEOPARAMETERS" title='PVIDEOPARAMETERS' data-type='struct _VIDEOPARAMETERS *' data-ref="PVIDEOPARAMETERS">PVIDEOPARAMETERS</dfn>,*<dfn class="typedef" id="LPVIDEOPARAMETERS" title='LPVIDEOPARAMETERS' data-type='struct _VIDEOPARAMETERS *' data-ref="LPVIDEOPARAMETERS">LPVIDEOPARAMETERS</dfn>;</td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/VP_COMMAND_GET" data-ref="_M/VP_COMMAND_GET">VP_COMMAND_GET</dfn> 0x0001</u></td></tr>
+<tr><th id="38">38</th><td><u>#define <dfn class="macro" id="_M/VP_COMMAND_SET" data-ref="_M/VP_COMMAND_SET">VP_COMMAND_SET</dfn> 0x0002</u></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/VP_FLAGS_TV_MODE" data-ref="_M/VP_FLAGS_TV_MODE">VP_FLAGS_TV_MODE</dfn> 0x0001</u></td></tr>
+<tr><th id="41">41</th><td><u>#define <dfn class="macro" id="_M/VP_FLAGS_TV_STANDARD" data-ref="_M/VP_FLAGS_TV_STANDARD">VP_FLAGS_TV_STANDARD</dfn> 0x0002</u></td></tr>
+<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/VP_FLAGS_FLICKER" data-ref="_M/VP_FLAGS_FLICKER">VP_FLAGS_FLICKER</dfn> 0x0004</u></td></tr>
+<tr><th id="43">43</th><td><u>#define <dfn class="macro" id="_M/VP_FLAGS_OVERSCAN" data-ref="_M/VP_FLAGS_OVERSCAN">VP_FLAGS_OVERSCAN</dfn> 0x0008</u></td></tr>
+<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/VP_FLAGS_MAX_UNSCALED" data-ref="_M/VP_FLAGS_MAX_UNSCALED">VP_FLAGS_MAX_UNSCALED</dfn> 0x0010</u></td></tr>
+<tr><th id="45">45</th><td><u>#define <dfn class="macro" id="_M/VP_FLAGS_POSITION" data-ref="_M/VP_FLAGS_POSITION">VP_FLAGS_POSITION</dfn> 0x0020</u></td></tr>
+<tr><th id="46">46</th><td><u>#define <dfn class="macro" id="_M/VP_FLAGS_BRIGHTNESS" data-ref="_M/VP_FLAGS_BRIGHTNESS">VP_FLAGS_BRIGHTNESS</dfn> 0x0040</u></td></tr>
+<tr><th id="47">47</th><td><u>#define <dfn class="macro" id="_M/VP_FLAGS_CONTRAST" data-ref="_M/VP_FLAGS_CONTRAST">VP_FLAGS_CONTRAST</dfn> 0x0080</u></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/VP_FLAGS_COPYPROTECT" data-ref="_M/VP_FLAGS_COPYPROTECT">VP_FLAGS_COPYPROTECT</dfn> 0x0100</u></td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><u>#define <dfn class="macro" id="_M/VP_MODE_WIN_GRAPHICS" data-ref="_M/VP_MODE_WIN_GRAPHICS">VP_MODE_WIN_GRAPHICS</dfn> 0x0001</u></td></tr>
+<tr><th id="51">51</th><td><u>#define <dfn class="macro" id="_M/VP_MODE_TV_PLAYBACK" data-ref="_M/VP_MODE_TV_PLAYBACK">VP_MODE_TV_PLAYBACK</dfn> 0x0002</u></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_NTSC_M" data-ref="_M/VP_TV_STANDARD_NTSC_M">VP_TV_STANDARD_NTSC_M</dfn> 0x0001</u></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_NTSC_M_J" data-ref="_M/VP_TV_STANDARD_NTSC_M_J">VP_TV_STANDARD_NTSC_M_J</dfn> 0x0002</u></td></tr>
+<tr><th id="55">55</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_PAL_B" data-ref="_M/VP_TV_STANDARD_PAL_B">VP_TV_STANDARD_PAL_B</dfn> 0x0004</u></td></tr>
+<tr><th id="56">56</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_PAL_D" data-ref="_M/VP_TV_STANDARD_PAL_D">VP_TV_STANDARD_PAL_D</dfn> 0x0008</u></td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_PAL_H" data-ref="_M/VP_TV_STANDARD_PAL_H">VP_TV_STANDARD_PAL_H</dfn> 0x0010</u></td></tr>
+<tr><th id="58">58</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_PAL_I" data-ref="_M/VP_TV_STANDARD_PAL_I">VP_TV_STANDARD_PAL_I</dfn> 0x0020</u></td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_PAL_M" data-ref="_M/VP_TV_STANDARD_PAL_M">VP_TV_STANDARD_PAL_M</dfn> 0x0040</u></td></tr>
+<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_PAL_N" data-ref="_M/VP_TV_STANDARD_PAL_N">VP_TV_STANDARD_PAL_N</dfn> 0x0080</u></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_SECAM_B" data-ref="_M/VP_TV_STANDARD_SECAM_B">VP_TV_STANDARD_SECAM_B</dfn> 0x0100</u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_SECAM_D" data-ref="_M/VP_TV_STANDARD_SECAM_D">VP_TV_STANDARD_SECAM_D</dfn> 0x0200</u></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_SECAM_G" data-ref="_M/VP_TV_STANDARD_SECAM_G">VP_TV_STANDARD_SECAM_G</dfn> 0x0400</u></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_SECAM_H" data-ref="_M/VP_TV_STANDARD_SECAM_H">VP_TV_STANDARD_SECAM_H</dfn> 0x0800</u></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_SECAM_K" data-ref="_M/VP_TV_STANDARD_SECAM_K">VP_TV_STANDARD_SECAM_K</dfn> 0x1000</u></td></tr>
+<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_SECAM_K1" data-ref="_M/VP_TV_STANDARD_SECAM_K1">VP_TV_STANDARD_SECAM_K1</dfn> 0x2000</u></td></tr>
+<tr><th id="67">67</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_SECAM_L" data-ref="_M/VP_TV_STANDARD_SECAM_L">VP_TV_STANDARD_SECAM_L</dfn> 0x4000</u></td></tr>
+<tr><th id="68">68</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_WIN_VGA" data-ref="_M/VP_TV_STANDARD_WIN_VGA">VP_TV_STANDARD_WIN_VGA</dfn> 0x8000</u></td></tr>
+<tr><th id="69">69</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_NTSC_433" data-ref="_M/VP_TV_STANDARD_NTSC_433">VP_TV_STANDARD_NTSC_433</dfn> 0x00010000</u></td></tr>
+<tr><th id="70">70</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_PAL_G" data-ref="_M/VP_TV_STANDARD_PAL_G">VP_TV_STANDARD_PAL_G</dfn> 0x00020000</u></td></tr>
+<tr><th id="71">71</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_PAL_60" data-ref="_M/VP_TV_STANDARD_PAL_60">VP_TV_STANDARD_PAL_60</dfn> 0x00040000</u></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/VP_TV_STANDARD_SECAM_L1" data-ref="_M/VP_TV_STANDARD_SECAM_L1">VP_TV_STANDARD_SECAM_L1</dfn> 0x00080000</u></td></tr>
+<tr><th id="73">73</th><td></td></tr>
+<tr><th id="74">74</th><td><u>#define <dfn class="macro" id="_M/VP_CP_TYPE_APS_TRIGGER" data-ref="_M/VP_CP_TYPE_APS_TRIGGER">VP_CP_TYPE_APS_TRIGGER</dfn> 0x0001</u></td></tr>
+<tr><th id="75">75</th><td><u>#define <dfn class="macro" id="_M/VP_CP_TYPE_MACROVISION" data-ref="_M/VP_CP_TYPE_MACROVISION">VP_CP_TYPE_MACROVISION</dfn> 0x0002</u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/VP_CP_CMD_ACTIVATE" data-ref="_M/VP_CP_CMD_ACTIVATE">VP_CP_CMD_ACTIVATE</dfn> 0x0001</u></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/VP_CP_CMD_DEACTIVATE" data-ref="_M/VP_CP_CMD_DEACTIVATE">VP_CP_CMD_DEACTIVATE</dfn> 0x0002</u></td></tr>
+<tr><th id="78">78</th><td><u>#define <dfn class="macro" id="_M/VP_CP_CMD_CHANGE" data-ref="_M/VP_CP_CMD_CHANGE">VP_CP_CMD_CHANGE</dfn> 0x0004</u></td></tr>
+<tr><th id="79">79</th><td><u>#<span data-ppcond="6">endif</span></u></td></tr>
+<tr><th id="80">80</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

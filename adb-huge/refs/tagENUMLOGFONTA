@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='1084' ll='1088'/>
+<size>156</size>
+<mbr r='tagENUMLOGFONTA::elfLogFont' o='0' t='LOGFONTA'/>
+<mbr r='tagENUMLOGFONTA::elfFullName' o='480' t='BYTE [64]'/>
+<mbr r='tagENUMLOGFONTA::elfStyle' o='992' t='BYTE [32]'/>

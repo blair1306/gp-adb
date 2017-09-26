@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='15' ll='18'/>
+<size>4</size>
+<mbr r='_COORD::X' o='0' t='SHORT'/>
+<mbr r='_COORD::Y' o='16' t='SHORT'/>

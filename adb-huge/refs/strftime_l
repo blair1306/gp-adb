@@ -1,0 +1,16 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='217' type='size_t strftime_l(char *restrict __s, size_t __maxsize, const char *restrict __format, const struct tm *restrict __tp, __locale_t __loc)'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4830' u='c' c='_ZNSt3__118__time_get_storage9__analyzeEcRKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4978' u='c' c='_ZNSt3__118__time_get_storage9__analyzeEcRKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5124' u='c' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5126' u='c' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5133' u='c' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5135' u='c' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5140' u='c' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5143' u='c' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5164' u='c' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5176' u='c' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5193' u='c' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5205' u='c' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5220' u='c' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5233' u='c' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5502' u='c' c='_ZNKSt3__110__time_put8__do_putEPcRS1_PK2tmcc'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='234'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='230'>/* Conventional codes for class-specific descriptors.  The convention is
+ * defined in the USB &quot;Common Class&quot; Spec (3.11).  Individual class specs
+ * are authoritative for their usage, not the &quot;common class&quot; writeup.
+ */</doc>

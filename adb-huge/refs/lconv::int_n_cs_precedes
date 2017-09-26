@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='102' type='char'/>
+<offset>720</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='101'>/* 1 if int_curr_symbol precedes a negative value, 0 if succeeds.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6007' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6190' u='r' c='_ZNSt3__117moneypunct_byname4initEPKc'/>

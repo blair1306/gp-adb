@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='57' type='void * memccpy(void *restrict __dest, const void *restrict __src, int __c, size_t __n)'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='45' type='void * memccpy(void * _Dst, const void * _Src, int _Val, size_t _Size)'/>

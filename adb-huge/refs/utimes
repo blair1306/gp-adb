@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/time.h' l='140' type='int utimes(const char * __file, const struct timeval * __tvp)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/time.h' l='137'>/* Change the access time of FILE to TVP[0] and the modification time of
+   FILE to TVP[1].  If TVP is a null pointer, use the current time instead.
+   Returns 0 on success, -1 on errors.  */</doc>

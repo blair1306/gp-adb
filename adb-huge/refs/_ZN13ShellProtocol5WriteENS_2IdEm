@@ -1,0 +1,5 @@
+<dec f='codebrowser/system/core/adb/shell_service.h' l='100' type='bool ShellProtocol::Write(ShellProtocol::Id id, size_t length)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='471' u='c' c='_ZL23send_window_size_changeiRNSt3__110unique_ptrI13ShellProtocolNS_14default_deleteIS1_EEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='543' u='c' c='_ZL22stdin_read_thread_loopPv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='580' u='c' c='_ZL22stdin_read_thread_loopPv'/>
+<def f='codebrowser/system/core/adb/shell_service_protocol.cpp' l='56' ll='62' type='bool ShellProtocol::Write(ShellProtocol::Id id, size_t length)'/>

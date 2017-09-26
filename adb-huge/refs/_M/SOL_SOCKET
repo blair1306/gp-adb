@@ -1,0 +1,15 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/asm-generic/socket.h' l='7'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/connect.c' l='222' u='c'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/asm-generic/socket.h' l='6'>/* For setsockopt(2) */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='109' u='c'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='44' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='809' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='898' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_unix.cpp' l='21' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='297'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='927' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_inaddr_any_server_unix.c' l='47' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_local_server_unix.c' l='80' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='49' u='c'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='104' u='c'/>
+<use f='codebrowser/system/core/libcutils/sockets_unix.cpp' l='59' u='c'/>

@@ -1,0 +1,1 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='473' type='bool AdbQueryInformationEndpoint(ADBAPIHANDLE adb_endpoint, AdbEndpointInformation * info)'/>

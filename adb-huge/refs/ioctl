@@ -1,0 +1,12 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/ioctl.h' l='42' type='int ioctl(int __fd, unsigned long __request)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='465' u='c' c='_ZL23send_window_size_changeiRNSt3__110unique_ptrI13ShellProtocolNS_14default_deleteIS1_EEEE'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/ioctl.h' l='39'>/* Perform the I/O control operation specified by REQUEST on FD.
+   One argument may follow; its presence and type depend on REQUEST.
+   Return value depends on REQUEST.  Usually -1 indicates error.  */</doc>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='109' u='c' c='_ZN11LinePrinter5PrintENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS_8LineTypeE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='313' u='c' c='_ZL14usb_bulk_writeP10usb_handlePKvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='352' u='c' c='_ZL13usb_bulk_readP10usb_handlePvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='365' u='c' c='_ZL13usb_bulk_readP10usb_handlePvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='477' u='c' c='_Z8usb_kickP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='478' u='c' c='_Z8usb_kickP10usb_handle'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='546' u='c' c='_ZL15register_devicePKcS0_hhiij'/>

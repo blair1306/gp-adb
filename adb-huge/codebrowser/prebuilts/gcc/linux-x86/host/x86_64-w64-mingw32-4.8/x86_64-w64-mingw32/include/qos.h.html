@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>qos.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/qos.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/qos.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='qos.h.html'>qos.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/__QOS_H_">__QOS_H_</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/__QOS_H_" data-ref="_M/__QOS_H_">__QOS_H_</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><b>typedef</b> <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="typedef" id="SERVICETYPE" title='SERVICETYPE' data-type='ULONG' data-ref="SERVICETYPE">SERVICETYPE</dfn>;</td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#define <dfn class="macro" id="_M/SERVICETYPE_NOTRAFFIC" data-ref="_M/SERVICETYPE_NOTRAFFIC">SERVICETYPE_NOTRAFFIC</dfn> 0x00000000</u></td></tr>
+<tr><th id="12">12</th><td><u>#define <dfn class="macro" id="_M/SERVICETYPE_BESTEFFORT" data-ref="_M/SERVICETYPE_BESTEFFORT">SERVICETYPE_BESTEFFORT</dfn> 0x00000001</u></td></tr>
+<tr><th id="13">13</th><td><u>#define <dfn class="macro" id="_M/SERVICETYPE_CONTROLLEDLOAD" data-ref="_M/SERVICETYPE_CONTROLLEDLOAD">SERVICETYPE_CONTROLLEDLOAD</dfn> 0x00000002</u></td></tr>
+<tr><th id="14">14</th><td><u>#define <dfn class="macro" id="_M/SERVICETYPE_GUARANTEED" data-ref="_M/SERVICETYPE_GUARANTEED">SERVICETYPE_GUARANTEED</dfn> 0x00000003</u></td></tr>
+<tr><th id="15">15</th><td></td></tr>
+<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/SERVICETYPE_NETWORK_UNAVAILABLE" data-ref="_M/SERVICETYPE_NETWORK_UNAVAILABLE">SERVICETYPE_NETWORK_UNAVAILABLE</dfn> 0x00000004</u></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/SERVICETYPE_GENERAL_INFORMATION" data-ref="_M/SERVICETYPE_GENERAL_INFORMATION">SERVICETYPE_GENERAL_INFORMATION</dfn> 0x00000005</u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/SERVICETYPE_NOCHANGE" data-ref="_M/SERVICETYPE_NOCHANGE">SERVICETYPE_NOCHANGE</dfn> 0x00000006</u></td></tr>
+<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/SERVICETYPE_NONCONFORMING" data-ref="_M/SERVICETYPE_NONCONFORMING">SERVICETYPE_NONCONFORMING</dfn> 0x00000009</u></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/SERVICETYPE_NETWORK_CONTROL" data-ref="_M/SERVICETYPE_NETWORK_CONTROL">SERVICETYPE_NETWORK_CONTROL</dfn> 0x0000000A</u></td></tr>
+<tr><th id="21">21</th><td><u>#define <dfn class="macro" id="_M/SERVICETYPE_QUALITATIVE" data-ref="_M/SERVICETYPE_QUALITATIVE">SERVICETYPE_QUALITATIVE</dfn> 0x0000000D</u></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><u>#define <dfn class="macro" id="_M/SERVICE_BESTEFFORT" data-ref="_M/SERVICE_BESTEFFORT">SERVICE_BESTEFFORT</dfn> 0x80010000</u></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/SERVICE_CONTROLLEDLOAD" data-ref="_M/SERVICE_CONTROLLEDLOAD">SERVICE_CONTROLLEDLOAD</dfn> 0x80020000</u></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/SERVICE_GUARANTEED" data-ref="_M/SERVICE_GUARANTEED">SERVICE_GUARANTEED</dfn> 0x80040000</u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SERVICE_QUALITATIVE" data-ref="_M/SERVICE_QUALITATIVE">SERVICE_QUALITATIVE</dfn> 0x80200000</u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/SERVICE_NO_TRAFFIC_CONTROL" data-ref="_M/SERVICE_NO_TRAFFIC_CONTROL">SERVICE_NO_TRAFFIC_CONTROL</dfn> 0x81000000</u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/SERVICE_NO_QOS_SIGNALING" data-ref="_M/SERVICE_NO_QOS_SIGNALING">SERVICE_NO_QOS_SIGNALING</dfn> 0x40000000</u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td>  <b>typedef</b> <b>struct</b> <dfn class="type def" id="_flowspec" title='_flowspec' data-ref="_flowspec"><a class="type" href="#_flowspec" title='_flowspec' data-ref="_flowspec"><a class="type" href="#_flowspec" title='_flowspec' data-ref="_flowspec"><a class="type" href="#_flowspec" title='_flowspec' data-ref="_flowspec">_flowspec</a></a></a></dfn> {</td></tr>
+<tr><th id="33">33</th><td>    <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_flowspec::TokenRate" title='_flowspec::TokenRate' data-ref="_flowspec::TokenRate">TokenRate</dfn>;</td></tr>
+<tr><th id="34">34</th><td>    <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_flowspec::TokenBucketSize" title='_flowspec::TokenBucketSize' data-ref="_flowspec::TokenBucketSize">TokenBucketSize</dfn>;</td></tr>
+<tr><th id="35">35</th><td>    <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_flowspec::PeakBandwidth" title='_flowspec::PeakBandwidth' data-ref="_flowspec::PeakBandwidth">PeakBandwidth</dfn>;</td></tr>
+<tr><th id="36">36</th><td>    <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_flowspec::Latency" title='_flowspec::Latency' data-ref="_flowspec::Latency">Latency</dfn>;</td></tr>
+<tr><th id="37">37</th><td>    <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_flowspec::DelayVariation" title='_flowspec::DelayVariation' data-ref="_flowspec::DelayVariation">DelayVariation</dfn>;</td></tr>
+<tr><th id="38">38</th><td>    <a class="typedef" href="#SERVICETYPE" title='SERVICETYPE' data-type='ULONG' data-ref="SERVICETYPE">SERVICETYPE</a> <dfn class="decl" id="_flowspec::ServiceType" title='_flowspec::ServiceType' data-ref="_flowspec::ServiceType">ServiceType</dfn>;</td></tr>
+<tr><th id="39">39</th><td>    <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_flowspec::MaxSduSize" title='_flowspec::MaxSduSize' data-ref="_flowspec::MaxSduSize">MaxSduSize</dfn>;</td></tr>
+<tr><th id="40">40</th><td>    <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_flowspec::MinimumPolicedSize" title='_flowspec::MinimumPolicedSize' data-ref="_flowspec::MinimumPolicedSize">MinimumPolicedSize</dfn>;</td></tr>
+<tr><th id="41">41</th><td>  } <dfn class="typedef" id="FLOWSPEC" title='FLOWSPEC' data-type='struct _flowspec' data-ref="FLOWSPEC">FLOWSPEC</dfn>,*<dfn class="typedef" id="PFLOWSPEC" title='PFLOWSPEC' data-type='struct _flowspec *' data-ref="PFLOWSPEC">PFLOWSPEC</dfn>,*<dfn class="typedef" id="LPFLOWSPEC" title='LPFLOWSPEC' data-type='struct _flowspec *' data-ref="LPFLOWSPEC">LPFLOWSPEC</dfn>;</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><u>#define <dfn class="macro" id="_M/QOS_NOT_SPECIFIED" data-ref="_M/QOS_NOT_SPECIFIED">QOS_NOT_SPECIFIED</dfn> 0xFFFFFFFF</u></td></tr>
+<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/POSITIVE_INFINITY_RATE" data-ref="_M/POSITIVE_INFINITY_RATE">POSITIVE_INFINITY_RATE</dfn> 0xFFFFFFFE</u></td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td>  <b>typedef</b> <b>struct</b> <dfn class="type def" id="_QOS_OBJECT_HDR" title='_QOS_OBJECT_HDR' data-ref="_QOS_OBJECT_HDR"><a class="type" href="#_QOS_OBJECT_HDR" title='_QOS_OBJECT_HDR' data-ref="_QOS_OBJECT_HDR"><a class="type" href="#_QOS_OBJECT_HDR" title='_QOS_OBJECT_HDR' data-ref="_QOS_OBJECT_HDR">_QOS_OBJECT_HDR</a></a></dfn> {</td></tr>
+<tr><th id="47">47</th><td>    <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_QOS_OBJECT_HDR::ObjectType" title='_QOS_OBJECT_HDR::ObjectType' data-ref="_QOS_OBJECT_HDR::ObjectType">ObjectType</dfn>;</td></tr>
+<tr><th id="48">48</th><td>    <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_QOS_OBJECT_HDR::ObjectLength" title='_QOS_OBJECT_HDR::ObjectLength' data-ref="_QOS_OBJECT_HDR::ObjectLength">ObjectLength</dfn>;</td></tr>
+<tr><th id="49">49</th><td>  } <dfn class="typedef" id="QOS_OBJECT_HDR" title='QOS_OBJECT_HDR' data-type='struct _QOS_OBJECT_HDR' data-ref="QOS_OBJECT_HDR">QOS_OBJECT_HDR</dfn>, *<dfn class="typedef" id="LPQOS_OBJECT_HDR" title='LPQOS_OBJECT_HDR' data-type='struct _QOS_OBJECT_HDR *' data-ref="LPQOS_OBJECT_HDR">LPQOS_OBJECT_HDR</dfn>;</td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#define <dfn class="macro" id="_M/QOS_GENERAL_ID_BASE" data-ref="_M/QOS_GENERAL_ID_BASE">QOS_GENERAL_ID_BASE</dfn> 2000</u></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/QOS_OBJECT_END_OF_LIST" data-ref="_M/QOS_OBJECT_END_OF_LIST">QOS_OBJECT_END_OF_LIST</dfn> (0x00000001 + QOS_GENERAL_ID_BASE)</u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/QOS_OBJECT_SD_MODE" data-ref="_M/QOS_OBJECT_SD_MODE">QOS_OBJECT_SD_MODE</dfn> (0x00000002 + QOS_GENERAL_ID_BASE)</u></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/QOS_OBJECT_SHAPING_RATE" data-ref="_M/QOS_OBJECT_SHAPING_RATE">QOS_OBJECT_SHAPING_RATE</dfn> (0x00000003 + QOS_GENERAL_ID_BASE)</u></td></tr>
+<tr><th id="55">55</th><td><u>#define <dfn class="macro" id="_M/QOS_OBJECT_DESTADDR" data-ref="_M/QOS_OBJECT_DESTADDR">QOS_OBJECT_DESTADDR</dfn> (0x00000004 + QOS_GENERAL_ID_BASE)</u></td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td>  <b>typedef</b> <b>struct</b> <dfn class="type def" id="_QOS_SD_MODE" title='_QOS_SD_MODE' data-ref="_QOS_SD_MODE"><a class="type" href="#_QOS_SD_MODE" title='_QOS_SD_MODE' data-ref="_QOS_SD_MODE"><a class="type" href="#_QOS_SD_MODE" title='_QOS_SD_MODE' data-ref="_QOS_SD_MODE">_QOS_SD_MODE</a></a></dfn> {</td></tr>
+<tr><th id="58">58</th><td>    <a class="typedef" href="#QOS_OBJECT_HDR" title='QOS_OBJECT_HDR' data-type='struct _QOS_OBJECT_HDR' data-ref="QOS_OBJECT_HDR">QOS_OBJECT_HDR</a> <dfn class="decl" id="_QOS_SD_MODE::ObjectHdr" title='_QOS_SD_MODE::ObjectHdr' data-ref="_QOS_SD_MODE::ObjectHdr">ObjectHdr</dfn>;</td></tr>
+<tr><th id="59">59</th><td>    <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_QOS_SD_MODE::ShapeDiscardMode" title='_QOS_SD_MODE::ShapeDiscardMode' data-ref="_QOS_SD_MODE::ShapeDiscardMode">ShapeDiscardMode</dfn>;</td></tr>
+<tr><th id="60">60</th><td>  } <dfn class="typedef" id="QOS_SD_MODE" title='QOS_SD_MODE' data-type='struct _QOS_SD_MODE' data-ref="QOS_SD_MODE">QOS_SD_MODE</dfn>, *<dfn class="typedef" id="LPQOS_SD_MODE" title='LPQOS_SD_MODE' data-type='struct _QOS_SD_MODE *' data-ref="LPQOS_SD_MODE">LPQOS_SD_MODE</dfn>;</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/TC_NONCONF_BORROW" data-ref="_M/TC_NONCONF_BORROW">TC_NONCONF_BORROW</dfn> 0</u></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/TC_NONCONF_SHAPE" data-ref="_M/TC_NONCONF_SHAPE">TC_NONCONF_SHAPE</dfn> 1</u></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/TC_NONCONF_DISCARD" data-ref="_M/TC_NONCONF_DISCARD">TC_NONCONF_DISCARD</dfn> 2</u></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/TC_NONCONF_BORROW_PLUS" data-ref="_M/TC_NONCONF_BORROW_PLUS">TC_NONCONF_BORROW_PLUS</dfn> 3</u></td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td>  <b>typedef</b> <b>struct</b> <dfn class="type def" id="_QOS_SHAPING_RATE" title='_QOS_SHAPING_RATE' data-ref="_QOS_SHAPING_RATE"><a class="type" href="#_QOS_SHAPING_RATE" title='_QOS_SHAPING_RATE' data-ref="_QOS_SHAPING_RATE"><a class="type" href="#_QOS_SHAPING_RATE" title='_QOS_SHAPING_RATE' data-ref="_QOS_SHAPING_RATE">_QOS_SHAPING_RATE</a></a></dfn> {</td></tr>
+<tr><th id="68">68</th><td>    <a class="typedef" href="#QOS_OBJECT_HDR" title='QOS_OBJECT_HDR' data-type='struct _QOS_OBJECT_HDR' data-ref="QOS_OBJECT_HDR">QOS_OBJECT_HDR</a> <dfn class="decl" id="_QOS_SHAPING_RATE::ObjectHdr" title='_QOS_SHAPING_RATE::ObjectHdr' data-ref="_QOS_SHAPING_RATE::ObjectHdr">ObjectHdr</dfn>;</td></tr>
+<tr><th id="69">69</th><td>    <a class="typedef" href="windef.h.html#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> <dfn class="decl" id="_QOS_SHAPING_RATE::ShapingRate" title='_QOS_SHAPING_RATE::ShapingRate' data-ref="_QOS_SHAPING_RATE::ShapingRate">ShapingRate</dfn>;</td></tr>
+<tr><th id="70">70</th><td>  } <dfn class="typedef" id="QOS_SHAPING_RATE" title='QOS_SHAPING_RATE' data-type='struct _QOS_SHAPING_RATE' data-ref="QOS_SHAPING_RATE">QOS_SHAPING_RATE</dfn>, *<dfn class="typedef" id="LPQOS_SHAPING_RATE" title='LPQOS_SHAPING_RATE' data-type='struct _QOS_SHAPING_RATE *' data-ref="LPQOS_SHAPING_RATE">LPQOS_SHAPING_RATE</dfn>;</td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td><u>#<span data-ppcond="6">endif</span></u></td></tr>
+<tr><th id="73">73</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

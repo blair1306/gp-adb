@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/_G_config.h' l='83'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/_G_config.h' l='82'>/* This is defined by &lt;bits/stat.h&gt; if `st_blksize&apos; exists.  */</doc>

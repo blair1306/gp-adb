@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='992' ll='996'/>
+<size>12</size>
+<mbr r='tagMDINEXTMENU::hmenuIn' o='0' t='HMENU'/>
+<mbr r='tagMDINEXTMENU::hmenuNext' o='32' t='HMENU'/>
+<mbr r='tagMDINEXTMENU::hwndNext' o='64' t='HWND'/>

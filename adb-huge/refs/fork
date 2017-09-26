@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='779' type='__pid_t fork()'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='776'>/* Clone the calling process, creating an exact copy.
+   Return -1 for errors, 0 to the new process,
+   and the process ID of the new process to the old process.  */</doc>
+<use f='codebrowser/system/core/adb/adb.cpp' l='851' u='c' c='_Z13launch_serveri'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='987' u='c' c='_ZL3pppiPPKc'/>

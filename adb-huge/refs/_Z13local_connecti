@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='214' type='void local_connect(int port)'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1133' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<def f='codebrowser/system/core/adb/transport_local.cpp' l='88' ll='91' type='void local_connect(int port)'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='133' u='c' c='_ZL20client_socket_threadPv'/>

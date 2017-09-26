@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/excpt.h' l='65' ll='69'/>
+<size>12</size>
+<mbr r='_XCPT_ACTION::XcptNum' o='0' t='unsigned long'/>
+<mbr r='_XCPT_ACTION::SigNum' o='32' t='int'/>
+<mbr r='_XCPT_ACTION::XcptAction' o='64' t='_PHNDLR'/>

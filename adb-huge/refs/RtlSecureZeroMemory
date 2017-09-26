@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5855' type='PVOID RtlSecureZeroMemory(PVOID ptr, SIZE_T cnt)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5857' ll='5869' macro='1' type='PVOID RtlSecureZeroMemory(PVOID ptr, SIZE_T cnt)'/>

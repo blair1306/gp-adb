@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='128'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='294' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='511' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1977' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2035' u='c'/>
+<use f='codebrowser/system/core/adb/console.cpp' l='114' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='19'/>
+<use f='codebrowser/system/core/base/file.cpp' l='41' u='c'/>

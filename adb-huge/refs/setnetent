@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='199' type='void setnetent(int __stay_open)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='194'>/* Open network data base files and mark them as staying open even
+   after a later search if STAY_OPEN is non-zero.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>

@@ -1,0 +1,7 @@
+<def f='codebrowser/external/libcxx/include/memory' l='2703' ll='2708' macro='1' type='pointer std::__1::unique_ptr::release()'/>
+<use f='codebrowser/external/libcxx/src/ios.cpp' l='355' u='c' c='_ZNSt3__18ios_base7copyfmtERKS0_'/>
+<use f='codebrowser/external/libcxx/src/ios.cpp' l='357' u='c' c='_ZNSt3__18ios_base7copyfmtERKS0_'/>
+<use f='codebrowser/external/libcxx/src/ios.cpp' l='368' u='c' c='_ZNSt3__18ios_base7copyfmtERKS0_'/>
+<use f='codebrowser/external/libcxx/src/ios.cpp' l='376' u='c' c='_ZNSt3__18ios_base7copyfmtERKS0_'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='541' u='c' c='_Z22host_service_to_socketPKcS0_'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='566' u='c' c='_ZL15register_devicePKcS0_hhiij'/>

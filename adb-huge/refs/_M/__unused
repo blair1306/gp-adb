@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/liblog/log_portability.h' l='67'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='629' u='c'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='715' u='c'/>
+<use f='codebrowser/system/core/liblog/fake_writer.c' l='65' u='c'/>

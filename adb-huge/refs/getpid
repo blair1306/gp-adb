@@ -1,0 +1,9 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='629' type='__pid_t getpid()'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='628'>/* Get the process ID of the calling process.  */</doc>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='89' u='c' c='_ZL20setup_daemon_loggingv'/>
+<use f='codebrowser/system/core/adb/get_my_path_linux.cpp' l='27' u='c' c='_Z11get_my_pathPcm'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/process.h' l='159' type='int getpid()'/>
+<use f='codebrowser/system/core/base/logging.cpp' l='194' u='c' c='_ZN7android4base12StderrLoggerENS0_5LogIdENS0_11LogSeverityEPKcS4_jS4_'/>
+<use f='codebrowser/system/core/libcutils/ashmem-host.c' l='44' u='c' c='ashmem_create_region'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='374' u='c' c='showLog'/>
+<use f='codebrowser/system/core/liblog/logger_lock.c' l='48' u='c' c='__android_log_pid'/>

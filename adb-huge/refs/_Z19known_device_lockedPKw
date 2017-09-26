@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/adb/usb_windows.cpp' l='83' type='int known_device_locked(const wchar_t * dev_name)'/>
+<def f='codebrowser/system/core/adb/usb_windows.cpp' l='123' ll='138' type='int known_device_locked(const wchar_t * dev_name)'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='145' u='c' c='_Z12known_devicePKw'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='159' u='c' c='_Z19register_new_deviceP10usb_handle'/>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='81'>/// Checks if there is opened usb handle in handle_list for this device.
+/// usb_lock mutex must be held before calling this routine.</doc>

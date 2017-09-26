@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='2865' ll='2871'/>
+<size>8</size>
+<mbr r='_ACL::AclRevision' o='0' t='BYTE'/>
+<mbr r='_ACL::Sbz1' o='8' t='BYTE'/>
+<mbr r='_ACL::AclSize' o='16' t='WORD'/>
+<mbr r='_ACL::AceCount' o='32' t='WORD'/>
+<mbr r='_ACL::Sbz2' o='48' t='WORD'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/adb_trace.h' l='36' type='8'/>
+<doc f='codebrowser/system/core/adb/adb_trace.h' l='36'>/* 0x100 */</doc>
+<use f='codebrowser/system/core/adb/adb_trace.cpp' l='130' u='r' c='_ZL16setup_trace_maskv'/>
+<use f='codebrowser/system/core/adb/adb_trace.cpp' l='130' u='a' c='_ZL16setup_trace_maskv'/>

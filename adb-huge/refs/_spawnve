@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/process.h' l='72' type='intptr_t _spawnve(int _Mode, const char * _Filename, const char *const * _ArgList, const char *const * _Env)'/>

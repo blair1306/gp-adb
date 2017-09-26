@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/liblog/fake_log_device.c' l='51' type='3'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='399' c='showLog'/>

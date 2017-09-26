@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsvc.h' l='260' ll='263'/>
+<size>8</size>
+<mbr r='_SERVICE_TABLE_ENTRYW::lpServiceName' o='0' t='LPWSTR'/>
+<mbr r='_SERVICE_TABLE_ENTRYW::lpServiceProc' o='32' t='LPSERVICE_MAIN_FUNCTIONW'/>

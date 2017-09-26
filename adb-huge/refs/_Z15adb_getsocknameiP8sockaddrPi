@@ -1,0 +1,1 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1111' ll='1129' type='int adb_getsockname(int fd, struct sockaddr * sockaddr, int * optlen)'/>

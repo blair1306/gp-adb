@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>basetsd.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/basetsd.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/basetsd.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='basetsd.h.html'>basetsd.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="_mingw.h.html">&lt;_mingw.h&gt;</a></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><u>#<span data-ppcond="8">ifndef</span> <span class="macro" data-ref="_M/_BASETSD_H_">_BASETSD_H_</span></u></td></tr>
+<tr><th id="9">9</th><td><u>#define <dfn class="macro" id="_M/_BASETSD_H_" data-ref="_M/_BASETSD_H_">_BASETSD_H_</dfn></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#<span data-ppcond="11">if</span> (defined(<span class="macro" data-ref="_M/__x86_64">__x86_64</span>) || defined(<span class="macro" data-ref="_M/__ia64__">__ia64__</span>)) &amp;&amp; !defined(<span class="macro" data-ref="_M/RC_INVOKED">RC_INVOKED</span>)</u></td></tr>
+<tr><th id="12">12</th><td>__MINGW_EXTENSION <b>typedef</b> <em>unsigned</em> __int64 POINTER_64_INT;</td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="11">else</span></u></td></tr>
+<tr><th id="14">14</th><td><b>typedef</b> <em>unsigned</em> <em>long</em> <dfn class="typedef" id="POINTER_64_INT" title='POINTER_64_INT' data-type='unsigned long' data-ref="POINTER_64_INT">POINTER_64_INT</dfn>;</td></tr>
+<tr><th id="15">15</th><td><u>#<span data-ppcond="11">endif</span></u></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/POINTER_32" data-ref="_M/POINTER_32">POINTER_32</dfn></u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/POINTER_64" data-ref="_M/POINTER_64">POINTER_64</dfn></u></td></tr>
+<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/FIRMWARE_PTR" data-ref="_M/FIRMWARE_PTR">FIRMWARE_PTR</dfn></u></td></tr>
+<tr><th id="20">20</th><td></td></tr>
+<tr><th id="21">21</th><td><u>#define <dfn class="macro" id="_M/POINTER_SIGNED" data-ref="_M/POINTER_SIGNED">POINTER_SIGNED</dfn></u></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/POINTER_UNSIGNED" data-ref="_M/POINTER_UNSIGNED">POINTER_UNSIGNED</dfn></u></td></tr>
+<tr><th id="23">23</th><td><u>#define <dfn class="macro" id="_M/SPOINTER_32" data-ref="_M/SPOINTER_32">SPOINTER_32</dfn> POINTER_SIGNED POINTER_32</u></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/UPOINTER_32" data-ref="_M/UPOINTER_32">UPOINTER_32</dfn> POINTER_UNSIGNED POINTER_32</u></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><u>#<span data-ppcond="26">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="27">27</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="26">endif</span></u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td>  <b>typedef</b> <em>signed</em> <em>char</em> <dfn class="typedef" id="INT8" title='INT8' data-type='signed char' data-ref="INT8">INT8</dfn>,*<dfn class="typedef" id="PINT8" title='PINT8' data-type='signed char *' data-ref="PINT8">PINT8</dfn>;</td></tr>
+<tr><th id="31">31</th><td>  <b>typedef</b> <em>signed</em> <em>short</em> <dfn class="typedef" id="INT16" title='INT16' data-type='short' data-ref="INT16">INT16</dfn>,*<dfn class="typedef" id="PINT16" title='PINT16' data-type='short *' data-ref="PINT16">PINT16</dfn>;</td></tr>
+<tr><th id="32">32</th><td>  <b>typedef</b> <em>signed</em> <em>int</em> <dfn class="typedef" id="INT32" title='INT32' data-type='int' data-ref="INT32">INT32</dfn>,*<dfn class="typedef" id="PINT32" title='PINT32' data-type='int *' data-ref="PINT32">PINT32</dfn>;</td></tr>
+<tr><th id="33">33</th><td>  <a class="macro" href="_mingw_mac.h.html#139" title="__extension__" data-ref="_M/__MINGW_EXTENSION">__MINGW_EXTENSION</a> <b>typedef</b> <em>signed</em> <a class="macro" href="_mingw.h.html#238" title="long long" data-ref="_M/__int64">__int64</a> <dfn class="typedef" id="INT64" title='INT64' data-type='long long' data-ref="INT64">INT64</dfn>,*<dfn class="typedef" id="PINT64" title='PINT64' data-type='long long *' data-ref="PINT64">PINT64</dfn>;</td></tr>
+<tr><th id="34">34</th><td>  <b>typedef</b> <em>unsigned</em> <em>char</em> <dfn class="typedef" id="UINT8" title='UINT8' data-type='unsigned char' data-ref="UINT8">UINT8</dfn>,*<dfn class="typedef" id="PUINT8" title='PUINT8' data-type='unsigned char *' data-ref="PUINT8">PUINT8</dfn>;</td></tr>
+<tr><th id="35">35</th><td>  <b>typedef</b> <em>unsigned</em> <em>short</em> <dfn class="typedef" id="UINT16" title='UINT16' data-type='unsigned short' data-ref="UINT16">UINT16</dfn>,*<dfn class="typedef" id="PUINT16" title='PUINT16' data-type='unsigned short *' data-ref="PUINT16">PUINT16</dfn>;</td></tr>
+<tr><th id="36">36</th><td>  <b>typedef</b> <em>unsigned</em> <em>int</em> <dfn class="typedef" id="UINT32" title='UINT32' data-type='unsigned int' data-ref="UINT32">UINT32</dfn>,*<dfn class="typedef" id="PUINT32" title='PUINT32' data-type='unsigned int *' data-ref="PUINT32">PUINT32</dfn>;</td></tr>
+<tr><th id="37">37</th><td>  <a class="macro" href="_mingw_mac.h.html#139" title="__extension__" data-ref="_M/__MINGW_EXTENSION">__MINGW_EXTENSION</a> <b>typedef</b> <em>unsigned</em> <a class="macro" href="_mingw.h.html#238" title="long long" data-ref="_M/__int64">__int64</a> <dfn class="typedef" id="UINT64" title='UINT64' data-type='unsigned long long' data-ref="UINT64">UINT64</dfn>,*<dfn class="typedef" id="PUINT64" title='PUINT64' data-type='unsigned long long *' data-ref="PUINT64">PUINT64</dfn>;</td></tr>
+<tr><th id="38">38</th><td>  <b>typedef</b> <em>signed</em> <em>int</em> <dfn class="typedef" id="LONG32" title='LONG32' data-type='int' data-ref="LONG32">LONG32</dfn>,*<dfn class="typedef" id="PLONG32" title='PLONG32' data-type='int *' data-ref="PLONG32">PLONG32</dfn>;</td></tr>
+<tr><th id="39">39</th><td>  <b>typedef</b> <em>unsigned</em> <em>int</em> <dfn class="typedef" id="ULONG32" title='ULONG32' data-type='unsigned int' data-ref="ULONG32">ULONG32</dfn>,*<dfn class="typedef" id="PULONG32" title='PULONG32' data-type='unsigned int *' data-ref="PULONG32">PULONG32</dfn>;</td></tr>
+<tr><th id="40">40</th><td>  <b>typedef</b> <em>unsigned</em> <em>int</em> <dfn class="typedef" id="DWORD32" title='DWORD32' data-type='unsigned int' data-ref="DWORD32">DWORD32</dfn>,*<dfn class="typedef" id="PDWORD32" title='PDWORD32' data-type='unsigned int *' data-ref="PDWORD32">PDWORD32</dfn>;</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><u>#<span data-ppcond="42">ifndef</span> <a class="macro" href="_mingw.h.html#299" data-ref="_M/_W64">_W64</a></u></td></tr>
+<tr><th id="43">43</th><td><u>#define _W64</u></td></tr>
+<tr><th id="44">44</th><td><u>#<span data-ppcond="42">endif</span></u></td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><u>#<span data-ppcond="46">ifdef</span> <span class="macro" data-ref="_M/_WIN64">_WIN64</span></u></td></tr>
+<tr><th id="47">47</th><td>  __MINGW_EXTENSION <b>typedef</b> __int64 INT_PTR,*PINT_PTR;</td></tr>
+<tr><th id="48">48</th><td>  __MINGW_EXTENSION <b>typedef</b> <em>unsigned</em> __int64 UINT_PTR,*PUINT_PTR;</td></tr>
+<tr><th id="49">49</th><td>  __MINGW_EXTENSION <b>typedef</b> __int64 LONG_PTR,*PLONG_PTR;</td></tr>
+<tr><th id="50">50</th><td>  __MINGW_EXTENSION <b>typedef</b> <em>unsigned</em> __int64 ULONG_PTR,*PULONG_PTR;</td></tr>
+<tr><th id="51">51</th><td><u>#define __int3264 __int64</u></td></tr>
+<tr><th id="52">52</th><td><u>#<span data-ppcond="46">else</span></u></td></tr>
+<tr><th id="53">53</th><td>  <b>typedef</b> <em>int</em> <dfn class="typedef" id="INT_PTR" title='INT_PTR' data-type='int' data-ref="INT_PTR">INT_PTR</dfn>,*<dfn class="typedef" id="PINT_PTR" title='PINT_PTR' data-type='int *' data-ref="PINT_PTR">PINT_PTR</dfn>;</td></tr>
+<tr><th id="54">54</th><td>  <b>typedef</b> <em>unsigned</em> <em>int</em> <dfn class="typedef" id="UINT_PTR" title='UINT_PTR' data-type='unsigned int' data-ref="UINT_PTR">UINT_PTR</dfn>,*<dfn class="typedef" id="PUINT_PTR" title='PUINT_PTR' data-type='unsigned int *' data-ref="PUINT_PTR">PUINT_PTR</dfn>;</td></tr>
+<tr><th id="55">55</th><td>  <b>typedef</b> <em>long</em> <dfn class="typedef" id="LONG_PTR" title='LONG_PTR' data-type='long' data-ref="LONG_PTR">LONG_PTR</dfn>,*<dfn class="typedef" id="PLONG_PTR" title='PLONG_PTR' data-type='long *' data-ref="PLONG_PTR">PLONG_PTR</dfn>;</td></tr>
+<tr><th id="56">56</th><td>  <b>typedef</b> <em>unsigned</em> <em>long</em> <dfn class="typedef" id="ULONG_PTR" title='ULONG_PTR' data-type='unsigned long' data-ref="ULONG_PTR">ULONG_PTR</dfn>,*<dfn class="typedef" id="PULONG_PTR" title='PULONG_PTR' data-type='unsigned long *' data-ref="PULONG_PTR">PULONG_PTR</dfn>;</td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/__int3264" data-ref="_M/__int3264">__int3264</dfn> __int32</u></td></tr>
+<tr><th id="58">58</th><td><u>#<span data-ppcond="46">endif</span></u></td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td><u>#<span data-ppcond="60">ifdef</span> <span class="macro" data-ref="_M/_WIN64">_WIN64</span></u></td></tr>
+<tr><th id="61">61</th><td><u>#define ADDRESS_TAG_BIT 0x40000000000ULL</u></td></tr>
+<tr><th id="62">62</th><td>  __MINGW_EXTENSION <b>typedef</b> __int64 SHANDLE_PTR;</td></tr>
+<tr><th id="63">63</th><td>  __MINGW_EXTENSION <b>typedef</b> <em>unsigned</em> __int64 HANDLE_PTR;</td></tr>
+<tr><th id="64">64</th><td>  <b>typedef</b> <em>unsigned</em> <em>int</em> UHALF_PTR,*PUHALF_PTR;</td></tr>
+<tr><th id="65">65</th><td>  <b>typedef</b> <em>int</em> HALF_PTR,*PHALF_PTR;</td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td><u>#ifndef __WIDL__</u></td></tr>
+<tr><th id="68">68</th><td>  <em>static</em> <b>__inline</b> <em>unsigned</em> __LONG32 HandleToULong(<em>const</em> <em>void</em> *h) { <b>return</b>((<em>unsigned</em> __LONG32) (ULONG_PTR) h); }</td></tr>
+<tr><th id="69">69</th><td>  <em>static</em> <b>__inline</b> __LONG32 HandleToLong(<em>const</em> <em>void</em> *h) { <b>return</b>((__LONG32) (LONG_PTR) h); }</td></tr>
+<tr><th id="70">70</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *ULongToHandle(<em>const</em> <em>unsigned</em> __LONG32 h) { <b>return</b>((<em>void</em> *) (UINT_PTR) h); }</td></tr>
+<tr><th id="71">71</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *LongToHandle(<em>const</em> __LONG32 h) { <b>return</b>((<em>void</em> *) (INT_PTR) h); }</td></tr>
+<tr><th id="72">72</th><td>  <em>static</em> <b>__inline</b> <em>unsigned</em> __LONG32 PtrToUlong(<em>const</em> <em>void</em> *p) { <b>return</b>((<em>unsigned</em> __LONG32) (ULONG_PTR) p); }</td></tr>
+<tr><th id="73">73</th><td>  <em>static</em> <b>__inline</b> <em>unsigned</em> <em>int</em> PtrToUint(<em>const</em> <em>void</em> *p) { <b>return</b>((<em>unsigned</em> <em>int</em>) (UINT_PTR) p); }</td></tr>
+<tr><th id="74">74</th><td>  <em>static</em> <b>__inline</b> <em>unsigned</em> <em>short</em> PtrToUshort(<em>const</em> <em>void</em> *p) { <b>return</b>((<em>unsigned</em> <em>short</em>) (<em>unsigned</em> __LONG32) (ULONG_PTR) p); }</td></tr>
+<tr><th id="75">75</th><td>  <em>static</em> <b>__inline</b> __LONG32 PtrToLong(<em>const</em> <em>void</em> *p) { <b>return</b>((__LONG32) (LONG_PTR) p); }</td></tr>
+<tr><th id="76">76</th><td>  <em>static</em> <b>__inline</b> <em>int</em> PtrToInt(<em>const</em> <em>void</em> *p) { <b>return</b>((<em>int</em>) (INT_PTR) p); }</td></tr>
+<tr><th id="77">77</th><td>  <em>static</em> <b>__inline</b> <em>short</em> PtrToShort(<em>const</em> <em>void</em> *p) { <b>return</b>((<em>short</em>) (__LONG32) (LONG_PTR) p); }</td></tr>
+<tr><th id="78">78</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *IntToPtr(<em>const</em> <em>int</em> i) { <b>return</b>((<em>void</em> *)(INT_PTR)i); }</td></tr>
+<tr><th id="79">79</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *UIntToPtr(<em>const</em> <em>unsigned</em> <em>int</em> ui) { <b>return</b>((<em>void</em> *)(UINT_PTR)ui); }</td></tr>
+<tr><th id="80">80</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *LongToPtr(<em>const</em> __LONG32 l) { <b>return</b>((<em>void</em> *)(LONG_PTR)l); }</td></tr>
+<tr><th id="81">81</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *ULongToPtr(<em>const</em> <em>unsigned</em> __LONG32 ul) { <b>return</b>((<em>void</em> *)(ULONG_PTR)ul); }</td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td><u>#define PtrToPtr64(p) ((void *) (ULONG_PTR) p)</u></td></tr>
+<tr><th id="84">84</th><td><u>#define Ptr64ToPtr(p) ((void *) (ULONG_PTR) p)</u></td></tr>
+<tr><th id="85">85</th><td><u>#define HandleToHandle64(h) (PtrToPtr64(h))</u></td></tr>
+<tr><th id="86">86</th><td><u>#define Handle64ToHandle(h) (Ptr64ToPtr(h))</u></td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *Ptr32ToPtr(<em>const</em> <em>void</em> *p) { <b>return</b> (<em>void</em> *) (ULONG_PTR) p; }</td></tr>
+<tr><th id="89">89</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *Handle32ToHandle(<em>const</em> <em>void</em> *h) { <b>return</b>((<em>void</em> *) (ULONG_PTR) h); }</td></tr>
+<tr><th id="90">90</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *PtrToPtr32(<em>const</em> <em>void</em> *p) { <b>return</b>((<em>void</em> *) (ULONG_PTR) p); }</td></tr>
+<tr><th id="91">91</th><td></td></tr>
+<tr><th id="92">92</th><td><u>#define HandleToHandle32(h) (PtrToPtr32(h))</u></td></tr>
+<tr><th id="93">93</th><td><u>#endif</u></td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td><u>#<span data-ppcond="60">else</span></u></td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td><u>#define <dfn class="macro" id="_M/ADDRESS_TAG_BIT" data-ref="_M/ADDRESS_TAG_BIT">ADDRESS_TAG_BIT</dfn> __MSABI_LONG(0x80000000U)</u></td></tr>
+<tr><th id="98">98</th><td></td></tr>
+<tr><th id="99">99</th><td>  <b>typedef</b> <em>unsigned</em> <em>short</em> <dfn class="typedef" id="UHALF_PTR" title='UHALF_PTR' data-type='unsigned short' data-ref="UHALF_PTR">UHALF_PTR</dfn>,*<dfn class="typedef" id="PUHALF_PTR" title='PUHALF_PTR' data-type='unsigned short *' data-ref="PUHALF_PTR">PUHALF_PTR</dfn>;</td></tr>
+<tr><th id="100">100</th><td>  <b>typedef</b> <em>short</em> <dfn class="typedef" id="HALF_PTR" title='HALF_PTR' data-type='short' data-ref="HALF_PTR">HALF_PTR</dfn>,*<dfn class="typedef" id="PHALF_PTR" title='PHALF_PTR' data-type='short *' data-ref="PHALF_PTR">PHALF_PTR</dfn>;</td></tr>
+<tr><th id="101">101</th><td>  <b>typedef</b> <em>long</em> <dfn class="typedef" id="SHANDLE_PTR" title='SHANDLE_PTR' data-type='long' data-ref="SHANDLE_PTR">SHANDLE_PTR</dfn>;</td></tr>
+<tr><th id="102">102</th><td>  <b>typedef</b> <em>unsigned</em> <em>long</em> <dfn class="typedef" id="HANDLE_PTR" title='HANDLE_PTR' data-type='unsigned long' data-ref="HANDLE_PTR">HANDLE_PTR</dfn>;</td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td><u>#<span data-ppcond="104">ifndef</span> <span class="macro" data-ref="_M/__WIDL__">__WIDL__</span></u></td></tr>
+<tr><th id="105">105</th><td><u>#define <dfn class="macro" id="_M/HandleToULong" data-ref="_M/HandleToULong">HandleToULong</dfn>(h) ((ULONG)(ULONG_PTR)(h))</u></td></tr>
+<tr><th id="106">106</th><td><u>#define <dfn class="macro" id="_M/HandleToLong" data-ref="_M/HandleToLong">HandleToLong</dfn>(h) ((LONG)(LONG_PTR) (h))</u></td></tr>
+<tr><th id="107">107</th><td><u>#define <dfn class="macro" id="_M/ULongToHandle" data-ref="_M/ULongToHandle">ULongToHandle</dfn>(ul) ((HANDLE)(ULONG_PTR) (ul))</u></td></tr>
+<tr><th id="108">108</th><td><u>#define <dfn class="macro" id="_M/LongToHandle" data-ref="_M/LongToHandle">LongToHandle</dfn>(h) ((HANDLE)(LONG_PTR) (h))</u></td></tr>
+<tr><th id="109">109</th><td><u>#define <dfn class="macro" id="_M/PtrToUlong" data-ref="_M/PtrToUlong">PtrToUlong</dfn>(p) ((ULONG)(ULONG_PTR) (p))</u></td></tr>
+<tr><th id="110">110</th><td><u>#define <dfn class="macro" id="_M/PtrToLong" data-ref="_M/PtrToLong">PtrToLong</dfn>(p) ((LONG)(LONG_PTR) (p))</u></td></tr>
+<tr><th id="111">111</th><td><u>#define <dfn class="macro" id="_M/PtrToUint" data-ref="_M/PtrToUint">PtrToUint</dfn>(p) ((UINT)(UINT_PTR) (p))</u></td></tr>
+<tr><th id="112">112</th><td><u>#define <dfn class="macro" id="_M/PtrToInt" data-ref="_M/PtrToInt">PtrToInt</dfn>(p) ((INT)(INT_PTR) (p))</u></td></tr>
+<tr><th id="113">113</th><td><u>#define <dfn class="macro" id="_M/PtrToUshort" data-ref="_M/PtrToUshort">PtrToUshort</dfn>(p) ((unsigned short)(ULONG_PTR)(p))</u></td></tr>
+<tr><th id="114">114</th><td><u>#define <dfn class="macro" id="_M/PtrToShort" data-ref="_M/PtrToShort">PtrToShort</dfn>(p) ((short)(LONG_PTR)(p))</u></td></tr>
+<tr><th id="115">115</th><td><u>#define <dfn class="macro" id="_M/IntToPtr" data-ref="_M/IntToPtr">IntToPtr</dfn>(i) ((VOID *)(INT_PTR)((int)i))</u></td></tr>
+<tr><th id="116">116</th><td><u>#define <dfn class="macro" id="_M/UIntToPtr" data-ref="_M/UIntToPtr">UIntToPtr</dfn>(ui) ((VOID *)(UINT_PTR)((unsigned int)ui))</u></td></tr>
+<tr><th id="117">117</th><td><u>#define <dfn class="macro" id="_M/LongToPtr" data-ref="_M/LongToPtr">LongToPtr</dfn>(l) ((VOID *)(LONG_PTR)((long)l))</u></td></tr>
+<tr><th id="118">118</th><td><u>#define <dfn class="macro" id="_M/ULongToPtr" data-ref="_M/ULongToPtr">ULongToPtr</dfn>(ul) ((VOID *)(ULONG_PTR)((unsigned long)ul))</u></td></tr>
+<tr><th id="119">119</th><td></td></tr>
+<tr><th id="120">120</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *<dfn class="decl def" id="_Z10PtrToPtr64PKv" title='PtrToPtr64' data-ref="_Z10PtrToPtr64PKv">PtrToPtr64</dfn>(<em>const</em> <em>void</em> *<dfn class="local col2 decl" id="2312p" title='p' data-type='const void *' data-ref="2312p">p</dfn>) { <b>return</b>((<em>void</em> *) (<a class="typedef" href="#ULONG_PTR" title='ULONG_PTR' data-type='unsigned long' data-ref="ULONG_PTR">ULONG_PTR</a>)<a class="local col2 ref" href="#2312p" title='p' data-ref="2312p">p</a>); }</td></tr>
+<tr><th id="121">121</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *<dfn class="decl def" id="_Z10Ptr64ToPtrPKv" title='Ptr64ToPtr' data-ref="_Z10Ptr64ToPtrPKv">Ptr64ToPtr</dfn>(<em>const</em> <em>void</em> *<dfn class="local col3 decl" id="2313p" title='p' data-type='const void *' data-ref="2313p">p</dfn>) { <b>return</b>((<em>void</em> *) (<a class="typedef" href="#ULONG_PTR" title='ULONG_PTR' data-type='unsigned long' data-ref="ULONG_PTR">ULONG_PTR</a>) <a class="local col3 ref" href="#2313p" title='p' data-ref="2313p">p</a>); }</td></tr>
+<tr><th id="122">122</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *<dfn class="decl def" id="_Z16HandleToHandle64PKv" title='HandleToHandle64' data-ref="_Z16HandleToHandle64PKv">HandleToHandle64</dfn>(<em>const</em> <em>void</em> *<dfn class="local col4 decl" id="2314h" title='h' data-type='const void *' data-ref="2314h">h</dfn>) { <b>return</b>((<em>void</em> *) (<a class="typedef" href="#ULONG_PTR" title='ULONG_PTR' data-type='unsigned long' data-ref="ULONG_PTR">ULONG_PTR</a>) <a class="local col4 ref" href="#2314h" title='h' data-ref="2314h">h</a>); }</td></tr>
+<tr><th id="123">123</th><td>  <em>static</em> <b>__inline</b> <em>void</em> *<dfn class="decl def" id="_Z16Handle64ToHandlePKv" title='Handle64ToHandle' data-ref="_Z16Handle64ToHandlePKv">Handle64ToHandle</dfn>(<em>const</em> <em>void</em> *<dfn class="local col5 decl" id="2315h" title='h' data-type='const void *' data-ref="2315h">h</dfn>) { <b>return</b>((<em>void</em> *) (<a class="typedef" href="#ULONG_PTR" title='ULONG_PTR' data-type='unsigned long' data-ref="ULONG_PTR">ULONG_PTR</a>) <a class="local col5 ref" href="#2315h" title='h' data-ref="2315h">h</a>); }</td></tr>
+<tr><th id="124">124</th><td></td></tr>
+<tr><th id="125">125</th><td><u>#define <dfn class="macro" id="_M/Ptr32ToPtr" data-ref="_M/Ptr32ToPtr">Ptr32ToPtr</dfn>(p) ((void *) (ULONG_PTR) p)</u></td></tr>
+<tr><th id="126">126</th><td><u>#define <dfn class="macro" id="_M/Handle32ToHandle" data-ref="_M/Handle32ToHandle">Handle32ToHandle</dfn>(h) (Ptr32ToPtr(h))</u></td></tr>
+<tr><th id="127">127</th><td><u>#define <dfn class="macro" id="_M/PtrToPtr32" data-ref="_M/PtrToPtr32">PtrToPtr32</dfn>(p) ((void *) (ULONG_PTR) p)</u></td></tr>
+<tr><th id="128">128</th><td><u>#define <dfn class="macro" id="_M/HandleToHandle32" data-ref="_M/HandleToHandle32">HandleToHandle32</dfn>(h) (PtrToPtr32(h))</u></td></tr>
+<tr><th id="129">129</th><td><u>#<span data-ppcond="104">endif</span></u></td></tr>
+<tr><th id="130">130</th><td><u>#<span data-ppcond="60">endif</span></u></td></tr>
+<tr><th id="131">131</th><td></td></tr>
+<tr><th id="132">132</th><td><u>#define <dfn class="macro" id="_M/HandleToUlong" data-ref="_M/HandleToUlong">HandleToUlong</dfn>(h) HandleToULong(h)</u></td></tr>
+<tr><th id="133">133</th><td><u>#define <dfn class="macro" id="_M/UlongToHandle" data-ref="_M/UlongToHandle">UlongToHandle</dfn>(ul) ULongToHandle(ul)</u></td></tr>
+<tr><th id="134">134</th><td><u>#define <dfn class="macro" id="_M/UlongToPtr" data-ref="_M/UlongToPtr">UlongToPtr</dfn>(ul) ULongToPtr(ul)</u></td></tr>
+<tr><th id="135">135</th><td><u>#define <dfn class="macro" id="_M/UintToPtr" data-ref="_M/UintToPtr">UintToPtr</dfn>(ui) UIntToPtr(ui)</u></td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td><u>#define <dfn class="macro" id="_M/MAXUINT_PTR" data-ref="_M/MAXUINT_PTR">MAXUINT_PTR</dfn> (~((UINT_PTR)0))</u></td></tr>
+<tr><th id="138">138</th><td><u>#define <dfn class="macro" id="_M/MAXINT_PTR" data-ref="_M/MAXINT_PTR">MAXINT_PTR</dfn> ((INT_PTR)(MAXUINT_PTR &gt;&gt; 1))</u></td></tr>
+<tr><th id="139">139</th><td><u>#define <dfn class="macro" id="_M/MININT_PTR" data-ref="_M/MININT_PTR">MININT_PTR</dfn> (~MAXINT_PTR)</u></td></tr>
+<tr><th id="140">140</th><td></td></tr>
+<tr><th id="141">141</th><td><u>#define <dfn class="macro" id="_M/MAXULONG_PTR" data-ref="_M/MAXULONG_PTR">MAXULONG_PTR</dfn> (~((ULONG_PTR)0))</u></td></tr>
+<tr><th id="142">142</th><td><u>#define <dfn class="macro" id="_M/MAXLONG_PTR" data-ref="_M/MAXLONG_PTR">MAXLONG_PTR</dfn> ((LONG_PTR)(MAXULONG_PTR &gt;&gt; 1))</u></td></tr>
+<tr><th id="143">143</th><td><u>#define <dfn class="macro" id="_M/MINLONG_PTR" data-ref="_M/MINLONG_PTR">MINLONG_PTR</dfn> (~MAXLONG_PTR)</u></td></tr>
+<tr><th id="144">144</th><td></td></tr>
+<tr><th id="145">145</th><td><u>#define <dfn class="macro" id="_M/MAXUHALF_PTR" data-ref="_M/MAXUHALF_PTR">MAXUHALF_PTR</dfn> ((UHALF_PTR)~0)</u></td></tr>
+<tr><th id="146">146</th><td><u>#define <dfn class="macro" id="_M/MAXHALF_PTR" data-ref="_M/MAXHALF_PTR">MAXHALF_PTR</dfn> ((HALF_PTR)(MAXUHALF_PTR &gt;&gt; 1))</u></td></tr>
+<tr><th id="147">147</th><td><u>#define <dfn class="macro" id="_M/MINHALF_PTR" data-ref="_M/MINHALF_PTR">MINHALF_PTR</dfn> (~MAXHALF_PTR)</u></td></tr>
+<tr><th id="148">148</th><td></td></tr>
+<tr><th id="149">149</th><td>  <a class="macro" href="_mingw_mac.h.html#139" title="__extension__" data-ref="_M/__MINGW_EXTENSION">__MINGW_EXTENSION</a> <b>typedef</b> <a class="typedef" href="#ULONG_PTR" title='ULONG_PTR' data-type='unsigned long' data-ref="ULONG_PTR">ULONG_PTR</a> <dfn class="typedef" id="SIZE_T" title='SIZE_T' data-type='ULONG_PTR' data-ref="SIZE_T">SIZE_T</dfn>,*<dfn class="typedef" id="PSIZE_T" title='PSIZE_T' data-type='ULONG_PTR *' data-ref="PSIZE_T">PSIZE_T</dfn>;</td></tr>
+<tr><th id="150">150</th><td>  <a class="macro" href="_mingw_mac.h.html#139" title="__extension__" data-ref="_M/__MINGW_EXTENSION">__MINGW_EXTENSION</a> <b>typedef</b> <a class="typedef" href="#LONG_PTR" title='LONG_PTR' data-type='long' data-ref="LONG_PTR">LONG_PTR</a> <dfn class="typedef" id="SSIZE_T" title='SSIZE_T' data-type='LONG_PTR' data-ref="SSIZE_T">SSIZE_T</dfn>,*<dfn class="typedef" id="PSSIZE_T" title='PSSIZE_T' data-type='LONG_PTR *' data-ref="PSSIZE_T">PSSIZE_T</dfn>;</td></tr>
+<tr><th id="151">151</th><td>  <a class="macro" href="_mingw_mac.h.html#139" title="__extension__" data-ref="_M/__MINGW_EXTENSION">__MINGW_EXTENSION</a> <b>typedef</b> <a class="typedef" href="#ULONG_PTR" title='ULONG_PTR' data-type='unsigned long' data-ref="ULONG_PTR">ULONG_PTR</a> <dfn class="typedef" id="DWORD_PTR" title='DWORD_PTR' data-type='ULONG_PTR' data-ref="DWORD_PTR">DWORD_PTR</dfn>,*<dfn class="typedef" id="PDWORD_PTR" title='PDWORD_PTR' data-type='ULONG_PTR *' data-ref="PDWORD_PTR">PDWORD_PTR</dfn>;</td></tr>
+<tr><th id="152">152</th><td>  <a class="macro" href="_mingw_mac.h.html#139" title="__extension__" data-ref="_M/__MINGW_EXTENSION">__MINGW_EXTENSION</a> <b>typedef</b> <a class="macro" href="_mingw.h.html#238" title="long long" data-ref="_M/__int64">__int64</a> <dfn class="typedef" id="LONG64" title='LONG64' data-type='long long' data-ref="LONG64">LONG64</dfn>,*<dfn class="typedef" id="PLONG64" title='PLONG64' data-type='long long *' data-ref="PLONG64">PLONG64</dfn>;</td></tr>
+<tr><th id="153">153</th><td>  <a class="macro" href="_mingw_mac.h.html#139" title="__extension__" data-ref="_M/__MINGW_EXTENSION">__MINGW_EXTENSION</a> <b>typedef</b> <em>unsigned</em> <a class="macro" href="_mingw.h.html#238" title="long long" data-ref="_M/__int64">__int64</a> <dfn class="typedef" id="ULONG64" title='ULONG64' data-type='unsigned long long' data-ref="ULONG64">ULONG64</dfn>,*<dfn class="typedef" id="PULONG64" title='PULONG64' data-type='unsigned long long *' data-ref="PULONG64">PULONG64</dfn>;</td></tr>
+<tr><th id="154">154</th><td>  <a class="macro" href="_mingw_mac.h.html#139" title="__extension__" data-ref="_M/__MINGW_EXTENSION">__MINGW_EXTENSION</a> <b>typedef</b> <em>unsigned</em> <a class="macro" href="_mingw.h.html#238" title="long long" data-ref="_M/__int64">__int64</a> <dfn class="typedef" id="DWORD64" title='DWORD64' data-type='unsigned long long' data-ref="DWORD64">DWORD64</dfn>,*<dfn class="typedef" id="PDWORD64" title='PDWORD64' data-type='unsigned long long *' data-ref="PDWORD64">PDWORD64</dfn>;</td></tr>
+<tr><th id="155">155</th><td>  <a class="macro" href="_mingw_mac.h.html#139" title="__extension__" data-ref="_M/__MINGW_EXTENSION">__MINGW_EXTENSION</a> <b>typedef</b> <a class="typedef" href="#ULONG_PTR" title='ULONG_PTR' data-type='unsigned long' data-ref="ULONG_PTR">ULONG_PTR</a> <dfn class="typedef" id="KAFFINITY" title='KAFFINITY' data-type='ULONG_PTR' data-ref="KAFFINITY">KAFFINITY</dfn>;</td></tr>
+<tr><th id="156">156</th><td>  <a class="macro" href="_mingw_mac.h.html#139" title="__extension__" data-ref="_M/__MINGW_EXTENSION">__MINGW_EXTENSION</a> <b>typedef</b> <a class="typedef" href="#KAFFINITY" title='KAFFINITY' data-type='ULONG_PTR' data-ref="KAFFINITY">KAFFINITY</a> *<dfn class="typedef" id="PKAFFINITY" title='PKAFFINITY' data-type='KAFFINITY *' data-ref="PKAFFINITY">PKAFFINITY</dfn>;</td></tr>
+<tr><th id="157">157</th><td></td></tr>
+<tr><th id="158">158</th><td><u>#<span data-ppcond="158">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="159">159</th><td>}</td></tr>
+<tr><th id="160">160</th><td><u>#<span data-ppcond="158">endif</span></u></td></tr>
+<tr><th id="161">161</th><td><u>#<span data-ppcond="8">endif</span></u></td></tr>
+<tr><th id="162">162</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

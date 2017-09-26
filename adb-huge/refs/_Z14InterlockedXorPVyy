@@ -1,0 +1,1 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='4120' ll='4122' macro='1' type='unsigned long long InterlockedXor(volatile unsigned long long * Destination, unsigned long long Value)'/>

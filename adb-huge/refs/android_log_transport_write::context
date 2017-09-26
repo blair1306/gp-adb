@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/liblog/logger.h' l='44' type='union android_log_context'/>
+<offset>256</offset>
+<doc f='codebrowser/system/core/liblog/logger.h' l='44'>/* Initialized by static allocation */</doc>
+<use f='codebrowser/system/core/liblog/fake_writer.c' l='37' u='w'/>

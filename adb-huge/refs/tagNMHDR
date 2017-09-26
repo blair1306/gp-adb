@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='1653' ll='1657'/>
+<size>12</size>
+<mbr r='tagNMHDR::hwndFrom' o='0' t='HWND'/>
+<mbr r='tagNMHDR::idFrom' o='32' t='UINT_PTR'/>
+<mbr r='tagNMHDR::code' o='64' t='UINT'/>

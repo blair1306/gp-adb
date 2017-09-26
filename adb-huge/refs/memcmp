@@ -1,0 +1,32 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='68' type='int memcmp(const void * __s1, const void * __s2, size_t __n)'/>
+<use f='codebrowser/external/boringssl/android_compat_keywrap.c' l='120' u='c' c='AES_unwrap_key'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='67'>/* Compare N bytes of S1 and S2.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/asn1_lib.c' l='486' u='c' c='ASN1_STRING_cmp'/>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/tasn_enc.c' l='430' u='c' c='der_cmp'/>
+<use f='codebrowser/external/boringssl/src/crypto/bytestring/ber.c' l='80' u='c' c='is_eoc'/>
+<use f='codebrowser/external/boringssl/src/crypto/dsa/dsa.c' l='731' u='c' c='DSA_check_signature'/>
+<use f='codebrowser/external/boringssl/src/crypto/ec/ec_asn1.c' l='216' u='c' c='ec_asn1_pkparameters2group'/>
+<use f='codebrowser/external/boringssl/src/crypto/ecdsa/ecdsa.c' l='95' u='c' c='ECDSA_verify'/>
+<use f='codebrowser/external/boringssl/src/crypto/evp/evp.c' l='316' u='c' c='EVP_PKEY_asn1_find_str'/>
+<use f='codebrowser/external/boringssl/src/crypto/evp/evp.c' l='318' u='c' c='EVP_PKEY_asn1_find_str'/>
+<use f='codebrowser/external/boringssl/src/crypto/evp/evp.c' l='320' u='c' c='EVP_PKEY_asn1_find_str'/>
+<use f='codebrowser/external/boringssl/src/crypto/obj/obj.c' l='167' u='c' c='OBJ_cmp'/>
+<use f='codebrowser/external/boringssl/src/crypto/obj/obj.c' l='183' u='c' c='obj_cmp'/>
+<use f='codebrowser/external/boringssl/src/crypto/obj/obj.c' l='570' u='c' c='cmp_data'/>
+<use f='codebrowser/external/boringssl/src/crypto/pem/pem_pkey.c' l='160' u='c' c='public_key_type_from_str'/>
+<use f='codebrowser/external/boringssl/src/crypto/pem/pem_pkey.c' l='162' u='c' c='public_key_type_from_str'/>
+<use f='codebrowser/external/boringssl/src/crypto/pem/pem_pkey.c' l='164' u='c' c='public_key_type_from_str'/>
+<use f='codebrowser/external/boringssl/src/crypto/rsa/padding.c' l='584' u='c' c='RSA_verify_PKCS1_PSS_mgf1'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x509_cmp.c' l='127' u='c' c='X509_CRL_match'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x509_cmp.c' l='181' u='c' c='X509_cmp'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x509_cmp.c' l='190' u='c' c='X509_cmp'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x509_cmp.c' l='222' u='c' c='X509_NAME_cmp'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_ncons.c' l='390' u='c' c='nc_dn'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='653' u='c' c='equal_case'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='874' u='c' c='do_check_string'/>
+<use f='codebrowser/external/libcxx/include/string' l='639' u='c' c='_ZNSt3__111char_traitsIcE7compareEPKcS3_m'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='120' u='c' c='_Z10adb_statusiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='124' u='c' c='_Z10adb_statusiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='161' u='c' c='_Z12_adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='40' type='int memcmp(const void * _Buf1, const void * _Buf2, size_t _Size)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/guiddef.h' l='146' u='c' c='IsEqualGUID'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/external/libcxx/include/functional' l='1519' type='void std::__1::function&lt;type-parameter-0-0 (type-parameter-0-1...)&gt;::function&lt;type-parameter-0-0 (type-parameter-0-1...)&gt;(_Fp , typename enable_if&lt;__callable&lt;_Fp&gt;::value &amp;&amp; !is_same&lt;_Fp, function&lt;type-parameter-0-0 (type-parameter-0-1...)&gt; &gt;::value&gt;::type *  = 0)'/>
+<def f='codebrowser/external/libcxx/include/functional' l='1647' ll='1675' type='void std::__1::function&lt;type-parameter-0-0 (type-parameter-0-1...)&gt;::function&lt;type-parameter-0-0 (type-parameter-0-1...)&gt;(_Fp __f, typename enable_if&lt;__callable&lt;_Fp&gt;::value &amp;&amp; !is_same&lt;_Fp, function&lt;type-parameter-0-0 (type-parameter-0-1...)&gt; &gt;::value&gt;::type *  = 0)'/>
+<use f='codebrowser/system/core/adb/adb_trace.cpp' l='166' u='c' c='_Z14adb_trace_initPPc'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='588' u='c' c='_Z10do_sync_lsPKc'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='841' u='c' c='_ZL17remote_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/base/logging.cpp' l='168' u='c'/>

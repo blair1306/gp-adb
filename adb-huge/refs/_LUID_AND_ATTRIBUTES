@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='2588' ll='2591'/>
+<size>12</size>
+<mbr r='_LUID_AND_ATTRIBUTES::Luid' o='0' t='LUID'/>
+<mbr r='_LUID_AND_ATTRIBUTES::Attributes' o='64' t='DWORD'/>

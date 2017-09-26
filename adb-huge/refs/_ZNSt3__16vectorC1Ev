@@ -1,0 +1,12 @@
+<def f='codebrowser/external/libcxx/include/vector' l='482' ll='488' macro='1' type='void std::__1::vector::vector&lt;_Tp, _Alloc&gt;()'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='182' u='c' c='_Z21get_connection_stringv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='595' u='c' c='_ZL18ShellServiceStringbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1754' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1763' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='236' u='c' c='_ZL15fdevent_processv'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='601' u='c' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='669' u='c' c='_ZL21copy_local_dir_remoteR14SyncConnectionNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES7_bb'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='812' u='c' c='_ZL17remote_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='813' u='c' c='_ZL17remote_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='887' u='c' c='_ZL21copy_remote_dir_localR14SyncConnectionNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES7_b'/>
+<use f='codebrowser/system/core/base/strings.cpp' l='35' u='c' c='_ZN7android4base5SplitERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_'/>

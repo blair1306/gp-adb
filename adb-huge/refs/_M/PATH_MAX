@@ -1,0 +1,23 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/limits.h' l='12'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='841' u='c'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='850' u='c'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='161' u='c'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='302' u='c'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='346' u='c'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='423' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='483' u='c'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='484' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/limits.h' l='20'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/limits.h' l='11'>/*
+ * File system limits
+ *
+ * NOTE: Apparently the actual size of PATH_MAX is 260, but a space is
+ *       required for the NUL. TODO: Test?
+ * NOTE: PATH_MAX is the POSIX equivalent for Microsoft&apos;s MAX_PATH; the two
+ *       are semantically identical, with a limit of 259 characters for the
+ *       path name, plus one for a terminating NUL, for a total of 260.
+ */</doc>
+<use f='codebrowser/system/core/libcutils/ashmem-host.c' l='43' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='110' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='111' u='c'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='111' u='c'/>

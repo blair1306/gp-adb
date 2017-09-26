@@ -1,0 +1,2 @@
+_ZNSt15underflow_errorD1Ev|std::underflow_error::~underflow_error
+_ZN10usb_handleD1Ev|usb_handle::~usb_handle

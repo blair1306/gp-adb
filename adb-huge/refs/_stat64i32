@@ -1,0 +1,15 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_stat64.h' l='63' ll='75'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/stat.h' l='99' type='int _stat64i32(const char * _Name, struct _stat64i32 * _Stat)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/stat.h' l='101' ll='121' macro='1' type='int _stat64i32(const char * _Name, struct _stat64i32 * _Stat)'/>
+<size>48</size>
+<mbr r='_stat64i32::st_dev' o='0' t='_dev_t'/>
+<mbr r='_stat64i32::st_ino' o='32' t='_ino_t'/>
+<mbr r='_stat64i32::st_mode' o='48' t='unsigned short'/>
+<mbr r='_stat64i32::st_nlink' o='64' t='short'/>
+<mbr r='_stat64i32::st_uid' o='80' t='short'/>
+<mbr r='_stat64i32::st_gid' o='96' t='short'/>
+<mbr r='_stat64i32::st_rdev' o='128' t='_dev_t'/>
+<mbr r='_stat64i32::st_size' o='160' t='_off_t'/>
+<mbr r='_stat64i32::st_atime' o='192' t='__time64_t'/>
+<mbr r='_stat64i32::st_mtime' o='256' t='__time64_t'/>
+<mbr r='_stat64i32::st_ctime' o='320' t='__time64_t'/>

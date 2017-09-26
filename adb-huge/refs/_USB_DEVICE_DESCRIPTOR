@@ -1,0 +1,16 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/usb100.h' l='110' ll='125'/>
+<size>18</size>
+<mbr r='_USB_DEVICE_DESCRIPTOR::bLength' o='0' t='UCHAR'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::bDescriptorType' o='8' t='UCHAR'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::bcdUSB' o='16' t='USHORT'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::bDeviceClass' o='32' t='UCHAR'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::bDeviceSubClass' o='40' t='UCHAR'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::bDeviceProtocol' o='48' t='UCHAR'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::bMaxPacketSize0' o='56' t='UCHAR'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::idVendor' o='64' t='USHORT'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::idProduct' o='80' t='USHORT'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::bcdDevice' o='96' t='USHORT'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::iManufacturer' o='112' t='UCHAR'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::iProduct' o='120' t='UCHAR'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::iSerialNumber' o='128' t='UCHAR'/>
+<mbr r='_USB_DEVICE_DESCRIPTOR::bNumConfigurations' o='136' t='UCHAR'/>

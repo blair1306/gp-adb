@@ -1,0 +1,35 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='387' type='int snprintf(char *restrict __s, size_t __maxlen, const char *restrict __format)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='386'>/* Maximum chars of output to write in MAXLEN.  */</doc>
+<use f='codebrowser/external/libcxx/include/locale' l='3520' u='c' c='_ZNKSt3__19money_put6do_putET0_bRNS_8ios_baseET_e'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='444' u='r' c='_ZNSt3__19to_stringEi'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='449' u='r' c='_ZNSt3__19to_stringEj'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='454' u='r' c='_ZNSt3__19to_stringEl'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='459' u='r' c='_ZNSt3__19to_stringEm'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='464' u='r' c='_ZNSt3__19to_stringEx'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='469' u='r' c='_ZNSt3__19to_stringEy'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='474' u='r' c='_ZNSt3__19to_stringEf'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='479' u='r' c='_ZNSt3__19to_stringEd'/>
+<use f='codebrowser/external/libcxx/src/string.cpp' l='484' u='r' c='_ZNSt3__19to_stringEe'/>
+<use f='codebrowser/system/core/include/cutils/sockets.h' l='61' u='c' c='_Z26android_get_control_socketPKc'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='860' u='c' c='_Z13launch_serveri'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='862' u='c' c='_Z13launch_serveri'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='152' u='c' c='_ZL13get_user_infoPcm'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='166' u='c' c='_ZL20write_public_keyfileP6rsa_stPKc'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='329' u='c' c='_ZL20get_user_keyfilepathPcm'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='340' u='c' c='_ZL20get_user_keyfilepathPcm'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='469' u='c' c='_ZL23send_window_size_changeiRNSt3__110unique_ptrI13ShellProtocolNS_14default_deleteIS1_EEEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='316' u='c' c='_ZN14SyncConnection14ReportProgressEPKcmm'/>
+<use f='codebrowser/system/core/adb/get_my_path_linux.cpp' l='27' u='c' c='_Z11get_my_pathPcm'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='69' u='c' c='_ZL11dump_packetPKcS0_P7apacket'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='73' u='c' c='_ZL11dump_packetPKcS0_P7apacket'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='75' u='c' c='_ZL11dump_packetPKcS0_P7apacket'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='78' u='c' c='_ZL11dump_packetPKcS0_P7apacket'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='80' u='c' c='_ZL11dump_packetPKcS0_P7apacket'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='93' u='c' c='_ZL11read_packetiPKcPP7apacket'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='118' u='c' c='_ZL12write_packetiPKcPP7apacket'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='379' u='c' c='_ZL19device_tracker_sendP14device_trackerRKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='941' u='c' c='_Z25register_socket_transportiPKcii'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='267' u='c' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='274' u='c' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/base/test_utils.cpp' l='87' u='c' c='_ZN13TemporaryFile4initERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/base/test_utils.cpp' l='101' u='c' c='_ZN12TemporaryDir4initERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE'/>

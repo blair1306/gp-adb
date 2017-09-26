@@ -1,0 +1,10 @@
+<dec f='codebrowser/system/core/adb/mutex_list.h' l='14' type='adb_mutex_t'/>
+<def f='codebrowser/system/core/adb/transport_local.cpp' l='46' macro='1' type='adb_mutex_t'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='324' u='a' c='_ZL11remote_kickP10atransport'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='331' u='a' c='_ZL11remote_kickP10atransport'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='360' u='a' c='_Z35find_emulator_transport_by_adb_porti'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='362' u='a' c='_Z35find_emulator_transport_by_adb_porti'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='380' u='a' c='_Z35get_available_local_transport_indexv'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='382' u='a' c='_Z35get_available_local_transport_indexv'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='403' u='a' c='_Z21init_socket_transportP10atransportiii'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='422' u='a' c='_Z21init_socket_transportP10atransportiii'/>

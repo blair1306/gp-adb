@@ -1,0 +1,13 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5304' ll='5316'/>
+<size>40</size>
+<mbr r='_IMAGE_EXPORT_DIRECTORY::Characteristics' o='0' t='DWORD'/>
+<mbr r='_IMAGE_EXPORT_DIRECTORY::TimeDateStamp' o='32' t='DWORD'/>
+<mbr r='_IMAGE_EXPORT_DIRECTORY::MajorVersion' o='64' t='WORD'/>
+<mbr r='_IMAGE_EXPORT_DIRECTORY::MinorVersion' o='80' t='WORD'/>
+<mbr r='_IMAGE_EXPORT_DIRECTORY::Name' o='96' t='DWORD'/>
+<mbr r='_IMAGE_EXPORT_DIRECTORY::Base' o='128' t='DWORD'/>
+<mbr r='_IMAGE_EXPORT_DIRECTORY::NumberOfFunctions' o='160' t='DWORD'/>
+<mbr r='_IMAGE_EXPORT_DIRECTORY::NumberOfNames' o='192' t='DWORD'/>
+<mbr r='_IMAGE_EXPORT_DIRECTORY::AddressOfFunctions' o='224' t='DWORD'/>
+<mbr r='_IMAGE_EXPORT_DIRECTORY::AddressOfNames' o='256' t='DWORD'/>
+<mbr r='_IMAGE_EXPORT_DIRECTORY::AddressOfNameOrdinals' o='288' t='DWORD'/>

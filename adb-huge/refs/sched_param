@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sched.h' l='74' ll='77'/>
+<size>4</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sched.h' l='73'>/* The official definition.  */</doc>
+<mbr r='sched_param::__sched_priority' o='0' t='int'/>

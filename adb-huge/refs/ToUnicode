@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='2253' type='int ToUnicode(UINT wVirtKey, UINT wScanCode, const BYTE * lpKeyState, LPWSTR pwszBuff, int cchBuff, UINT wFlags)'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='3118' ll='3121'/>
+<size>8</size>
+<mbr r='_FILE_ATTRIBUTE_TAG_INFO::FileAttributes' o='0' t='DWORD'/>
+<mbr r='_FILE_ATTRIBUTE_TAG_INFO::ReparseTag' o='32' t='DWORD'/>

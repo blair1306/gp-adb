@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='354' type='int siginterrupt(int __sig, int __interrupt)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='351'>/* If INTERRUPT is nonzero, make signal SIG interrupt system calls
+   (causing them to fail with EINTR); if INTERRUPT is zero, make system
+   calls be restarted after signal SIG.  */</doc>

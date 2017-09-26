@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/inttypes.h' l='79'/>
+<use f='codebrowser/external/boringssl/src/crypto/cpu-intel.c' l='130' u='c'/>

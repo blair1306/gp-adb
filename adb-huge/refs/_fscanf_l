@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='456' type='int _fscanf_l(FILE *__restrict _File, const char *__restrict _Format, _locale_t locale)'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/stdio_s.h' l='32' type='int _fscanf_l(FILE * _File, const char * _Format, _locale_t _Locale)'/>

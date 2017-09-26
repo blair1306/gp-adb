@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='3216' ll='3222'/>
+<size>28</size>
+<mbr r='_FILE_STANDARD_INFO::AllocationSize' o='0' t='LARGE_INTEGER'/>
+<mbr r='_FILE_STANDARD_INFO::EndOfFile' o='64' t='LARGE_INTEGER'/>
+<mbr r='_FILE_STANDARD_INFO::NumberOfLinks' o='128' t='DWORD'/>
+<mbr r='_FILE_STANDARD_INFO::DeletePending' o='160' t='WINBOOL'/>
+<mbr r='_FILE_STANDARD_INFO::Directory' o='192' t='WINBOOL'/>

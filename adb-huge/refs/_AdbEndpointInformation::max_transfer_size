@@ -1,0 +1,3 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='68' type='unsigned long'/>
+<offset>32</offset>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='67'>/// Maximum size of one transfer which should be sent to the host controller.</doc>

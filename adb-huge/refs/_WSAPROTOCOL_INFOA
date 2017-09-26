@@ -1,0 +1,22 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='418' ll='439'/>
+<size>372</size>
+<mbr r='_WSAPROTOCOL_INFOA::dwServiceFlags1' o='0' t='DWORD'/>
+<mbr r='_WSAPROTOCOL_INFOA::dwServiceFlags2' o='32' t='DWORD'/>
+<mbr r='_WSAPROTOCOL_INFOA::dwServiceFlags3' o='64' t='DWORD'/>
+<mbr r='_WSAPROTOCOL_INFOA::dwServiceFlags4' o='96' t='DWORD'/>
+<mbr r='_WSAPROTOCOL_INFOA::dwProviderFlags' o='128' t='DWORD'/>
+<mbr r='_WSAPROTOCOL_INFOA::ProviderId' o='160' t='GUID'/>
+<mbr r='_WSAPROTOCOL_INFOA::dwCatalogEntryId' o='288' t='DWORD'/>
+<mbr r='_WSAPROTOCOL_INFOA::ProtocolChain' o='320' t='WSAPROTOCOLCHAIN'/>
+<mbr r='_WSAPROTOCOL_INFOA::iVersion' o='576' t='int'/>
+<mbr r='_WSAPROTOCOL_INFOA::iAddressFamily' o='608' t='int'/>
+<mbr r='_WSAPROTOCOL_INFOA::iMaxSockAddr' o='640' t='int'/>
+<mbr r='_WSAPROTOCOL_INFOA::iMinSockAddr' o='672' t='int'/>
+<mbr r='_WSAPROTOCOL_INFOA::iSocketType' o='704' t='int'/>
+<mbr r='_WSAPROTOCOL_INFOA::iProtocol' o='736' t='int'/>
+<mbr r='_WSAPROTOCOL_INFOA::iProtocolMaxOffset' o='768' t='int'/>
+<mbr r='_WSAPROTOCOL_INFOA::iNetworkByteOrder' o='800' t='int'/>
+<mbr r='_WSAPROTOCOL_INFOA::iSecurityScheme' o='832' t='int'/>
+<mbr r='_WSAPROTOCOL_INFOA::dwMessageSize' o='864' t='DWORD'/>
+<mbr r='_WSAPROTOCOL_INFOA::dwProviderReserved' o='896' t='DWORD'/>
+<mbr r='_WSAPROTOCOL_INFOA::szProtocol' o='928' t='CHAR [256]'/>

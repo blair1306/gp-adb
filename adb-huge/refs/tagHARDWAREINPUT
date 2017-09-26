@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='2299' ll='2303'/>
+<size>8</size>
+<mbr r='tagHARDWAREINPUT::uMsg' o='0' t='DWORD'/>
+<mbr r='tagHARDWAREINPUT::wParamL' o='32' t='WORD'/>
+<mbr r='tagHARDWAREINPUT::wParamH' o='48' t='WORD'/>

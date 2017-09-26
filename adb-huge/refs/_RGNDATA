@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2323' ll='2326'/>
+<size>36</size>
+<mbr r='_RGNDATA::rdh' o='0' t='RGNDATAHEADER'/>
+<mbr r='_RGNDATA::Buffer' o='256' t='char [1]'/>

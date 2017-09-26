@@ -1,0 +1,11 @@
+<dec f='codebrowser/system/core/adb/usb_linux.cpp' l='59' type='std::string'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='90' u='r' c='_ZL15is_known_devicePKc'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='432' u='m' c='_Z8usb_readP10usb_handlePvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='434' u='m' c='_Z8usb_readP10usb_handlePvi'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='515' u='r' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='523' u='w' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='531' u='m' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='534' u='m' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='536' u='m' c='_ZL15register_devicePKcS0_hhiij'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='543' u='m' c='_ZL15register_devicePKcS0_hhiij'/>
+<offset>0</offset>

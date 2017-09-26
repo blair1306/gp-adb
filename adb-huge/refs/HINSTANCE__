@@ -1,0 +1,3 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windef.h' l='210' macro='1'/>
+<size>4</size>
+<mbr r='HINSTANCE__::unused' o='0' t='int'/>

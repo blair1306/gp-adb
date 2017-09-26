@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/usb100.h' l='127' ll='134'/>
+<size>7</size>
+<mbr r='_USB_ENDPOINT_DESCRIPTOR::bLength' o='0' t='UCHAR'/>
+<mbr r='_USB_ENDPOINT_DESCRIPTOR::bDescriptorType' o='8' t='UCHAR'/>
+<mbr r='_USB_ENDPOINT_DESCRIPTOR::bEndpointAddress' o='16' t='UCHAR'/>
+<mbr r='_USB_ENDPOINT_DESCRIPTOR::bmAttributes' o='24' t='UCHAR'/>
+<mbr r='_USB_ENDPOINT_DESCRIPTOR::wMaxPacketSize' o='32' t='USHORT'/>
+<mbr r='_USB_ENDPOINT_DESCRIPTOR::bInterval' o='48' t='UCHAR'/>

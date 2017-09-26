@@ -1,0 +1,14 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/usb100.h' l='204' ll='217'/>
+<size>15</size>
+<mbr r='_USB_INTERFACE_POWER_DESCRIPTOR::bLength' o='0' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_POWER_DESCRIPTOR::bDescriptorType' o='8' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_POWER_DESCRIPTOR::bmCapabilitiesFlags' o='16' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_POWER_DESCRIPTOR::bBusPowerSavingD1' o='24' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_POWER_DESCRIPTOR::bSelfPowerSavingD1' o='32' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_POWER_DESCRIPTOR::bBusPowerSavingD2' o='40' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_POWER_DESCRIPTOR::bSelfPowerSavingD2' o='48' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_POWER_DESCRIPTOR::bBusPowerSavingD3' o='56' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_POWER_DESCRIPTOR::bSelfPowerSavingD3' o='64' t='UCHAR'/>
+<mbr r='_USB_INTERFACE_POWER_DESCRIPTOR::TransitionTimeFromD1' o='72' t='USHORT'/>
+<mbr r='_USB_INTERFACE_POWER_DESCRIPTOR::TransitionTimeFromD2' o='88' t='USHORT'/>
+<mbr r='_USB_INTERFACE_POWER_DESCRIPTOR::TransitionTimeFromD3' o='104' t='USHORT'/>

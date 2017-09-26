@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='139' type='char * strncat(char *restrict __dest, const char *restrict __src, size_t __n)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string3.h' l='148' ll='153' macro='1' type='char * strncat(char *restrict __dest, const char *restrict __src, size_t __len)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='138'>/* Append no more than N characters from SRC onto DEST.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='75' type='char * strncat(char *__restrict _Dest, const char *__restrict _Source, size_t _Count)'/>

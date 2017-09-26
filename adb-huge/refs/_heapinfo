@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/malloc.h' l='46' ll='50'/>
+<size>12</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/malloc.h' l='45'>/* The structure used to walk through the heap with _heapwalk.  */</doc>
+<mbr r='_heapinfo::_pentry' o='0' t='int *'/>
+<mbr r='_heapinfo::_size' o='32' t='size_t'/>
+<mbr r='_heapinfo::_useflag' o='64' t='int'/>

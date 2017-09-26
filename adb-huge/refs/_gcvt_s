@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sec_api/stdlib_s.h' l='43' type='errno_t _gcvt_s(char * _DstBuf, size_t _Size, double _Val, int _NumOfDigits)'/>

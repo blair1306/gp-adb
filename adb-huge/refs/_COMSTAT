@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='338' ll='349'/>
+<size>12</size>
+<mbr r='_COMSTAT::fCtsHold' o='0' t='DWORD'/>
+<mbr r='_COMSTAT::fDsrHold' o='1' t='DWORD'/>
+<mbr r='_COMSTAT::fRlsdHold' o='2' t='DWORD'/>
+<mbr r='_COMSTAT::fXoffHold' o='3' t='DWORD'/>
+<mbr r='_COMSTAT::fXoffSent' o='4' t='DWORD'/>
+<mbr r='_COMSTAT::fEof' o='5' t='DWORD'/>
+<mbr r='_COMSTAT::fTxim' o='6' t='DWORD'/>
+<mbr r='_COMSTAT::fReserved' o='7' t='DWORD'/>
+<mbr r='_COMSTAT::cbInQue' o='32' t='DWORD'/>
+<mbr r='_COMSTAT::cbOutQue' o='64' t='DWORD'/>

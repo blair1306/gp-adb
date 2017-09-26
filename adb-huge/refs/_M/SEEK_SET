@@ -1,0 +1,10 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='141'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='139'>/* The possibilities for the third argument to `fseek&apos;.
+   These values should not be changed.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/fd.c' l='189' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/fcntl.h' l='100'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/unistd.h' l='16'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='57'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='355' u='c'/>
+<use f='codebrowser/system/core/libcutils/load_file.c' l='35' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='84' u='c'/>

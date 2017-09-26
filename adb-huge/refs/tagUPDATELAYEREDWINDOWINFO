@@ -1,0 +1,12 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='1950' ll='1961'/>
+<size>40</size>
+<mbr r='tagUPDATELAYEREDWINDOWINFO::cbSize' o='0' t='DWORD'/>
+<mbr r='tagUPDATELAYEREDWINDOWINFO::hdcDst' o='32' t='HDC'/>
+<mbr r='tagUPDATELAYEREDWINDOWINFO::pptDst' o='64' t='const POINT *'/>
+<mbr r='tagUPDATELAYEREDWINDOWINFO::psize' o='96' t='const SIZE *'/>
+<mbr r='tagUPDATELAYEREDWINDOWINFO::hdcSrc' o='128' t='HDC'/>
+<mbr r='tagUPDATELAYEREDWINDOWINFO::pptSrc' o='160' t='const POINT *'/>
+<mbr r='tagUPDATELAYEREDWINDOWINFO::crKey' o='192' t='COLORREF'/>
+<mbr r='tagUPDATELAYEREDWINDOWINFO::pblend' o='224' t='const BLENDFUNCTION *'/>
+<mbr r='tagUPDATELAYEREDWINDOWINFO::dwFlags' o='256' t='DWORD'/>
+<mbr r='tagUPDATELAYEREDWINDOWINFO::prcDirty' o='288' t='const RECT *'/>

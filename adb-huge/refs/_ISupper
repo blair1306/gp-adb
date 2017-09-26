@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='50' type='256'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='50'>/* UPPERCASE.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='420' macro='1' u='r'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='421' macro='1' u='r'/>
+<use f='codebrowser/external/libcxx/include/__locale' l='337'/>

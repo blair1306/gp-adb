@@ -1,0 +1,7 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='59' type='char *'/>
+<offset>64</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='59'>/* Thousands separator.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4342' u='r' c='_ZNSt3__115numpunct_bynameIcE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4343' u='r' c='_ZNSt3__115numpunct_bynameIcE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4385' u='r' c='_ZNSt3__115numpunct_bynameIwE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4386' u='r' c='_ZNSt3__115numpunct_bynameIwE6__initEPKc'/>

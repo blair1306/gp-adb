@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='5253' ll='5259'/>
+<size>6</size>
+<mbr r='_IMAGE_LINENUMBER::Type' o='0' t='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h:5254:7)'/>
+<mbr r='_IMAGE_LINENUMBER::Linenumber' o='32' t='WORD'/>

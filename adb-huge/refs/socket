@@ -1,0 +1,13 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='105' type='int socket(int __domain, int __type, int __protocol)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='102'>/* Create a new socket of type TYPE in domain DOMAIN, using
+   protocol PROTOCOL.  If PROTOCOL is zero, one is chosen automatically.
+   Returns a file descriptor for the new socket, or -1 for errors.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='69' u='c' c='bio_ip_and_port_to_socket_and_addr'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='992' type='SOCKET socket(int af, int type, int protocol)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='912' u='c' c='_ZL15_network_serveriimPi'/>
+<use f='codebrowser/system/core/libcutils/socket_inaddr_any_server_unix.c' l='43' u='c' c='socket_inaddr_any_server'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='157' u='c' c='socket_local_client'/>
+<use f='codebrowser/system/core/libcutils/socket_local_server_unix.c' l='102' u='c' c='socket_local_server'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_client_unix.c' l='46' u='c' c='socket_loopback_client'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='45' u='c' c='socket_loopback_server'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='72' u='c' c='socket_network_client_timeout'/>

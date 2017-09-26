@@ -1,0 +1,11 @@
+<def f='codebrowser/system/core/adb/line_printer.h' l='23' ll='48'/>
+<size>2</size>
+<doc f='codebrowser/system/core/adb/line_printer.h' l='21'>/// Prints lines of text, possibly overprinting previously printed lines
+/// if the terminal supports it.</doc>
+<fun r='_ZN11LinePrinterC1Ev'/>
+<fun r='_ZNK11LinePrinter17is_smart_terminalEv'/>
+<fun r='_ZN11LinePrinter18set_smart_terminalEb'/>
+<fun r='_ZN11LinePrinter5PrintENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS_8LineTypeE'/>
+<fun r='_ZN11LinePrinter12KeepInfoLineEv'/>
+<mbr r='LinePrinter::smart_terminal_' o='0' t='bool'/>
+<mbr r='LinePrinter::have_blank_line_' o='8' t='bool'/>

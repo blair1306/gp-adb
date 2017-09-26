@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3502' ll='3513'/>
+<size>56</size>
+<mbr r='_NT_TIB64::ExceptionList' o='0' t='DWORD64'/>
+<mbr r='_NT_TIB64::StackBase' o='64' t='DWORD64'/>
+<mbr r='_NT_TIB64::StackLimit' o='128' t='DWORD64'/>
+<mbr r='_NT_TIB64::SubSystemTib' o='192' t='DWORD64'/>
+<mbr r='_NT_TIB64::ArbitraryUserPointer' o='320' t='DWORD64'/>
+<mbr r='_NT_TIB64::Self' o='384' t='DWORD64'/>

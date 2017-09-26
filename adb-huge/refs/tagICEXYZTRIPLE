@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='539' ll='543'/>
+<size>36</size>
+<mbr r='tagICEXYZTRIPLE::ciexyzRed' o='0' t='CIEXYZ'/>
+<mbr r='tagICEXYZTRIPLE::ciexyzGreen' o='96' t='CIEXYZ'/>
+<mbr r='tagICEXYZTRIPLE::ciexyzBlue' o='192' t='CIEXYZ'/>

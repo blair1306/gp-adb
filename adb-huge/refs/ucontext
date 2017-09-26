@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/ucontext.h' l='135' ll='143'/>
+<size>936</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/ucontext.h' l='134'>/* Userlevel context.  */</doc>
+<mbr r='ucontext::uc_flags' o='0' t='unsigned long'/>
+<mbr r='ucontext::uc_link' o='64' t='struct ucontext *'/>
+<mbr r='ucontext::uc_stack' o='128' t='stack_t'/>
+<mbr r='ucontext::uc_mcontext' o='320' t='mcontext_t'/>
+<mbr r='ucontext::uc_sigmask' o='2368' t='__sigset_t'/>
+<mbr r='ucontext::__fpregs_mem' o='3392' t='struct _libc_fpstate'/>

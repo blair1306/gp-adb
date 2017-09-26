@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='960' type='int daemon(int __nochdir, int __noclose)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='957'>/* Put the program in the background, and dissociate from the controlling
+   terminal.  If NOCHDIR is zero, do `chdir (&quot;/&quot;)&apos;.  If NOCLOSE is zero,
+   redirects stdin, stdout, and stderr to /dev/null.  */</doc>

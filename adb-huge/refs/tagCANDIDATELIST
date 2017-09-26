@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/imm.h' l='40' ll='48'/>
+<size>28</size>
+<mbr r='tagCANDIDATELIST::dwSize' o='0' t='DWORD'/>
+<mbr r='tagCANDIDATELIST::dwStyle' o='32' t='DWORD'/>
+<mbr r='tagCANDIDATELIST::dwCount' o='64' t='DWORD'/>
+<mbr r='tagCANDIDATELIST::dwSelection' o='96' t='DWORD'/>
+<mbr r='tagCANDIDATELIST::dwPageStart' o='128' t='DWORD'/>
+<mbr r='tagCANDIDATELIST::dwPageSize' o='160' t='DWORD'/>
+<mbr r='tagCANDIDATELIST::dwOffset' o='192' t='DWORD [1]'/>

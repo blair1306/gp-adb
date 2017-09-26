@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winreg.h' l='93' ll='98'/>
+<size>16</size>
+<mbr r='value_entA::ve_valuename' o='0' t='LPSTR'/>
+<mbr r='value_entA::ve_valuelen' o='32' t='DWORD'/>
+<mbr r='value_entA::ve_valueptr' o='64' t='DWORD_PTR'/>
+<mbr r='value_entA::ve_type' o='96' t='DWORD'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/in.h' l='242' type='in_port_t'/>
+<offset>16</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/in.h' l='242'>/* Transport layer port # */</doc>
+<use f='codebrowser/system/core/libcutils/socket_inaddr_any_server_unix.c' l='40' u='w' c='socket_inaddr_any_server'/>

@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='459' ll='467'/>
+<size>24</size>
+<mbr r='tagBITMAP::bmType' o='0' t='LONG'/>
+<mbr r='tagBITMAP::bmWidth' o='32' t='LONG'/>
+<mbr r='tagBITMAP::bmHeight' o='64' t='LONG'/>
+<mbr r='tagBITMAP::bmWidthBytes' o='96' t='LONG'/>
+<mbr r='tagBITMAP::bmPlanes' o='128' t='WORD'/>
+<mbr r='tagBITMAP::bmBitsPixel' o='144' t='WORD'/>
+<mbr r='tagBITMAP::bmBits' o='160' t='LPVOID'/>

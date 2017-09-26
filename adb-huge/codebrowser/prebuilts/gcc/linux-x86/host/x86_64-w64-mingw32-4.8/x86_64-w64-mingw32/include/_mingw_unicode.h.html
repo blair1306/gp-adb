@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>_mingw_unicode.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_unicode.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_unicode.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='_mingw_unicode.h.html'>_mingw_unicode.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><u>#<span data-ppcond="7">if</span> !defined(<span class="macro" data-ref="_M/_INC_CRT_UNICODE_MACROS">_INC_CRT_UNICODE_MACROS</span>)</u></td></tr>
+<tr><th id="8">8</th><td><i>/* _INC_CRT_UNICODE_MACROS defined based on UNICODE flag */</i></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><u>#<span data-ppcond="10">if</span> defined(<span class="macro" data-ref="_M/UNICODE">UNICODE</span>)</u></td></tr>
+<tr><th id="11">11</th><td><u># define <dfn class="macro" id="_M/_INC_CRT_UNICODE_MACROS" data-ref="_M/_INC_CRT_UNICODE_MACROS">_INC_CRT_UNICODE_MACROS</dfn> 1</u></td></tr>
+<tr><th id="12">12</th><td><u># define <dfn class="macro" id="_M/__MINGW_NAME_AW" data-ref="_M/__MINGW_NAME_AW">__MINGW_NAME_AW</dfn>(func) func##W</u></td></tr>
+<tr><th id="13">13</th><td><u># define <dfn class="macro" id="_M/__MINGW_NAME_AW_EXT" data-ref="_M/__MINGW_NAME_AW_EXT">__MINGW_NAME_AW_EXT</dfn>(func,ext) func##W##ext</u></td></tr>
+<tr><th id="14">14</th><td><u># define <dfn class="macro" id="_M/__MINGW_NAME_UAW" data-ref="_M/__MINGW_NAME_UAW">__MINGW_NAME_UAW</dfn>(func) func##_W</u></td></tr>
+<tr><th id="15">15</th><td><u># define <dfn class="macro" id="_M/__MINGW_NAME_UAW_EXT" data-ref="_M/__MINGW_NAME_UAW_EXT">__MINGW_NAME_UAW_EXT</dfn>(func,ext) func##_W_##ext</u></td></tr>
+<tr><th id="16">16</th><td><u># define <dfn class="macro" id="_M/__MINGW_STRING_AW" data-ref="_M/__MINGW_STRING_AW">__MINGW_STRING_AW</dfn>(str) L##str	/* same as TEXT() from winnt.h */</u></td></tr>
+<tr><th id="17">17</th><td><u># define <dfn class="macro" id="_M/__MINGW_PROCNAMEEXT_AW" data-ref="_M/__MINGW_PROCNAMEEXT_AW">__MINGW_PROCNAMEEXT_AW</dfn> "W"</u></td></tr>
+<tr><th id="18">18</th><td><u>#<span data-ppcond="10">else</span></u></td></tr>
+<tr><th id="19">19</th><td><u># define _INC_CRT_UNICODE_MACROS 2</u></td></tr>
+<tr><th id="20">20</th><td><u># define __MINGW_NAME_AW(func) func##A</u></td></tr>
+<tr><th id="21">21</th><td><u># define __MINGW_NAME_AW_EXT(func,ext) func##A##ext</u></td></tr>
+<tr><th id="22">22</th><td><u># define __MINGW_NAME_UAW(func) func##_A</u></td></tr>
+<tr><th id="23">23</th><td><u># define __MINGW_NAME_UAW_EXT(func,ext) func##_A_##ext</u></td></tr>
+<tr><th id="24">24</th><td><u># define __MINGW_STRING_AW(str) str	/* same as TEXT() from winnt.h */</u></td></tr>
+<tr><th id="25">25</th><td><u># define __MINGW_PROCNAMEEXT_AW "A"</u></td></tr>
+<tr><th id="26">26</th><td><u>#<span data-ppcond="10">endif</span></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/__MINGW_TYPEDEF_AW" data-ref="_M/__MINGW_TYPEDEF_AW">__MINGW_TYPEDEF_AW</dfn>(type)	\</u></td></tr>
+<tr><th id="29">29</th><td><u>    typedef __MINGW_NAME_AW(type) type;</u></td></tr>
+<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/__MINGW_TYPEDEF_UAW" data-ref="_M/__MINGW_TYPEDEF_UAW">__MINGW_TYPEDEF_UAW</dfn>(type)	\</u></td></tr>
+<tr><th id="31">31</th><td><u>    typedef __MINGW_NAME_UAW(type) type;</u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="7">endif</span> /* !defined(_INC_CRT_UNICODE_MACROS) */</u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usbdevice_fs.h' l='56' ll='59'/>
+<size>8</size>
+<mbr r='usbdevfs_setinterface::interface' o='0' t='unsigned int'/>
+<mbr r='usbdevfs_setinterface::altsetting' o='32' t='unsigned int'/>

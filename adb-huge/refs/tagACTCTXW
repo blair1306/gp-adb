@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='2662' ll='2672'/>
+<size>32</size>
+<mbr r='tagACTCTXW::cbSize' o='0' t='ULONG'/>
+<mbr r='tagACTCTXW::dwFlags' o='32' t='DWORD'/>
+<mbr r='tagACTCTXW::lpSource' o='64' t='LPCWSTR'/>
+<mbr r='tagACTCTXW::wProcessorArchitecture' o='96' t='USHORT'/>
+<mbr r='tagACTCTXW::wLangId' o='112' t='LANGID'/>
+<mbr r='tagACTCTXW::lpAssemblyDirectory' o='128' t='LPCWSTR'/>
+<mbr r='tagACTCTXW::lpResourceName' o='160' t='LPCWSTR'/>
+<mbr r='tagACTCTXW::lpApplicationName' o='192' t='LPCWSTR'/>
+<mbr r='tagACTCTXW::hModule' o='224' t='HMODULE'/>

@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='1163' ll='1173'/>
+<size>64</size>
+<mbr r='_MEMORYSTATUSEX::dwLength' o='0' t='DWORD'/>
+<mbr r='_MEMORYSTATUSEX::dwMemoryLoad' o='32' t='DWORD'/>
+<mbr r='_MEMORYSTATUSEX::ullTotalPhys' o='64' t='DWORDLONG'/>
+<mbr r='_MEMORYSTATUSEX::ullAvailPhys' o='128' t='DWORDLONG'/>
+<mbr r='_MEMORYSTATUSEX::ullTotalPageFile' o='192' t='DWORDLONG'/>
+<mbr r='_MEMORYSTATUSEX::ullAvailPageFile' o='256' t='DWORDLONG'/>
+<mbr r='_MEMORYSTATUSEX::ullTotalVirtual' o='320' t='DWORDLONG'/>
+<mbr r='_MEMORYSTATUSEX::ullAvailVirtual' o='384' t='DWORDLONG'/>
+<mbr r='_MEMORYSTATUSEX::ullAvailExtendedVirtual' o='448' t='DWORDLONG'/>

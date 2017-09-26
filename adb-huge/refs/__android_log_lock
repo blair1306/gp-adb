@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/liblog/logger.h' l='154' type='void __android_log_lock()'/>
+<def f='codebrowser/system/core/liblog/logger_lock.c' l='57' ll='66' macro='1' type='void __android_log_lock()'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='325' u='c' c='__write_to_log_init'/>

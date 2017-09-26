@@ -1,0 +1,9 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/in.h' l='228' type='in_port_t'/>
+<offset>16</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/in.h' l='228'>/* Port number.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h' l='77' type='u_short'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='907' u='w' c='_ZL15_network_serveriimPi'/>
+<offset>16</offset>
+<use f='codebrowser/system/core/libcutils/socket_loopback_client_unix.c' l='43' u='w' c='socket_loopback_client'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='42' u='w' c='socket_loopback_server'/>
+<use f='codebrowser/system/core/libcutils/sockets.cpp' l='44' u='r' c='socket_get_local_port'/>

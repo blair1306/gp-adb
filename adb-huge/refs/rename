@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='181' type='int rename(const char * __old, const char * __new)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='180'>/* Rename file OLD to NEW.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='202' type='int rename(const char * _OldFilename, const char * _NewFilename)'/>
+<use f='codebrowser/system/core/libcutils/fs.c' l='137' u='c' c='fs_write_atomic_int'/>

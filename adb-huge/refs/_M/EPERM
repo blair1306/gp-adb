@@ -1,0 +1,16 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/asm-generic/errno-base.h' l='4'/>
+<use f='codebrowser/external/libcxx/include/cerrno' l='361' u='a'/>
+<use f='codebrowser/external/libcxx/include/system_error' l='320' u='c'/>
+<use f='codebrowser/external/libcxx/include/__mutex_base' l='198' u='c'/>
+<use f='codebrowser/external/libcxx/include/__mutex_base' l='210' u='c'/>
+<use f='codebrowser/external/libcxx/include/__mutex_base' l='223' u='c'/>
+<use f='codebrowser/external/libcxx/include/__mutex_base' l='236' u='c'/>
+<use f='codebrowser/external/libcxx/include/__mutex_base' l='248' u='c'/>
+<use f='codebrowser/external/libcxx/src/condition_variable.cpp' l='42' u='c'/>
+<use f='codebrowser/external/libcxx/src/condition_variable.cpp' l='55' u='c'/>
+<use f='codebrowser/external/libcxx/include/shared_mutex' l='434' u='c'/>
+<use f='codebrowser/external/libcxx/include/shared_mutex' l='446' u='c'/>
+<use f='codebrowser/external/libcxx/include/shared_mutex' l='459' u='c'/>
+<use f='codebrowser/external/libcxx/include/shared_mutex' l='472' u='c'/>
+<use f='codebrowser/external/libcxx/include/shared_mutex' l='484' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/errno.h' l='24'/>

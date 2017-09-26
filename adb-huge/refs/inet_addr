@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/arpa/inet.h' l='35' type='in_addr_t inet_addr(const char * __cp)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/arpa/inet.h' l='33'>/* Convert Internet host address from numbers-and-dots notation in CP
+   into binary data in network byte order.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='976' type='unsigned long inet_addr(const char * cp)'/>

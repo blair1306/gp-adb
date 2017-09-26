@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='453' ll='456'/>
+<size>16</size>
+<mbr r='LIST_ENTRY64::Flink' o='0' t='ULONGLONG'/>
+<mbr r='LIST_ENTRY64::Blink' o='64' t='ULONGLONG'/>

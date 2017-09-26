@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='489' type='int vsscanf(const char *restrict __s, const char *restrict __format, struct __va_list_tag * __arg)'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='508' type='int vsscanf(const char *restrict __s, const char *restrict __format, struct __va_list_tag * __arg)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='488'>/* Read formatted input from S into argument list ARG.  */</doc>
+<use f='codebrowser/external/libcxx/include/locale' l='407' u='c' c='_ZNSt3__110__sscanf_lEPKcP15__locale_structS1_z'/>

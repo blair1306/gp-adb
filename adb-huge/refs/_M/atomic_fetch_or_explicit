@@ -1,0 +1,2 @@
+<dec f='codebrowser/bionic/libc/include/stdatomic.h' l='417'/>
+<use f='codebrowser/system/core/include/cutils/atomic.h' l='114' u='c'/>

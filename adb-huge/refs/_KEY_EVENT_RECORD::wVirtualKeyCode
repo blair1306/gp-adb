@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='30' type='WORD'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1454' u='r' c='_ZL27_get_char_ignoring_modifierPcPK17_KEY_EVENT_RECORDmt'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1765' u='r' c='_ZL13_console_readPvS_j'/>
+<offset>48</offset>

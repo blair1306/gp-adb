@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4258' ll='4265'/>
+<size>24</size>
+<mbr r='_ADMINISTRATOR_POWER_POLICY::MinSleep' o='0' t='SYSTEM_POWER_STATE'/>
+<mbr r='_ADMINISTRATOR_POWER_POLICY::MaxSleep' o='32' t='SYSTEM_POWER_STATE'/>
+<mbr r='_ADMINISTRATOR_POWER_POLICY::MinVideoTimeout' o='64' t='DWORD'/>
+<mbr r='_ADMINISTRATOR_POWER_POLICY::MaxVideoTimeout' o='96' t='DWORD'/>
+<mbr r='_ADMINISTRATOR_POWER_POLICY::MinSpindownTimeout' o='128' t='DWORD'/>
+<mbr r='_ADMINISTRATOR_POWER_POLICY::MaxSpindownTimeout' o='160' t='DWORD'/>

@@ -1,0 +1,21 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='128' type='char * strcpy(char *restrict __dest, const char *restrict __src)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string3.h' l='102' ll='106' macro='1' type='char * strcpy(char *restrict __dest, const char *restrict __src)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='127'>/* Copy SRC to DEST.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/pem/pem_lib.c' l='829' u='c' c='PEM_def_callback'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='135' u='c' c='_ZL13get_user_infoPcm'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='150' u='c' c='_ZL13get_user_infoPcm'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='568' u='c' c='_Z17connect_to_remoteP7asocketPKc'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='51' type='char * strcpy(char *__restrict _Dest, const char *__restrict _Source)'/>
+<use f='codebrowser/system/core/libcutils/fs_config.c' l='285' u='c' c='fs_config_generate'/>
+<use f='codebrowser/system/core/libcutils/process_name.c' l='51' u='c' c='set_process_name'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='93' u='c' c='socket_make_sockaddr_un'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='105' u='c' c='socket_make_sockaddr_un'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='265' u='c' c='configureInitialState'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='402' u='c' c='showLog'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='413' u='c' c='showLog'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='417' u='c' c='showLog'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='422' u='c' c='showLog'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='427' u='c' c='showLog'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='433' u='c' c='showLog'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='438' u='c' c='showLog'/>
+<use f='codebrowser/system/core/liblog/logger_write.c' l='450' u='c' c='__android_log_assert'/>

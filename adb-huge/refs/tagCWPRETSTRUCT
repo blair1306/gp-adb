@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='555' ll='561'/>
+<size>20</size>
+<mbr r='tagCWPRETSTRUCT::lResult' o='0' t='LRESULT'/>
+<mbr r='tagCWPRETSTRUCT::lParam' o='32' t='LPARAM'/>
+<mbr r='tagCWPRETSTRUCT::wParam' o='64' t='WPARAM'/>
+<mbr r='tagCWPRETSTRUCT::message' o='96' t='UINT'/>
+<mbr r='tagCWPRETSTRUCT::hwnd' o='128' t='HWND'/>

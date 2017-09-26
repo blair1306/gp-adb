@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='4517' ll='4523'/>
+<size>20</size>
+<mbr r='tagMINIMIZEDMETRICS::cbSize' o='0' t='UINT'/>
+<mbr r='tagMINIMIZEDMETRICS::iWidth' o='32' t='int'/>
+<mbr r='tagMINIMIZEDMETRICS::iHorzGap' o='64' t='int'/>
+<mbr r='tagMINIMIZEDMETRICS::iVertGap' o='96' t='int'/>
+<mbr r='tagMINIMIZEDMETRICS::iArrange' o='128' t='int'/>

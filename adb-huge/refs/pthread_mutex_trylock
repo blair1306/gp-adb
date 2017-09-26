@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='742' type='int pthread_mutex_trylock(pthread_mutex_t * __mutex)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='741'>/* Try locking a mutex.  */</doc>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='40' u='c' c='_ZNSt3__15mutex8try_lockEv'/>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='108' u='c' c='_ZNSt3__115recursive_mutex8try_lockEv'/>
+<use f='codebrowser/system/core/liblog/logger_lock.c' l='71' u='c' c='__android_log_trylock'/>

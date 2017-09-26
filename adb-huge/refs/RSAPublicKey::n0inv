@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/include/mincrypt/rsa.h' l='42' type='uint32_t'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='98' u='w' c='_ZL19RSA_to_RSAPublicKeyP6rsa_stP12RSAPublicKey'/>
+<offset>32</offset>
+<doc f='codebrowser/system/core/include/mincrypt/rsa.h' l='42'>/* -1 / n[0] mod 2^32 */</doc>

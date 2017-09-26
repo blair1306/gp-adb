@@ -1,0 +1,9 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='252' type='ADBAPIHANDLE AdbCreateInterfaceByName(const wchar_t * interface_name)'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='283' u='c' c='_Z11do_usb_openPKw'/>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='245'>/** \brief Creates USB interface object
+
+  This routine creates an object that represents a USB interface.
+  @param[in] interface_name Name of the interface.
+  @return Handle to the interface object or NULL on failure. If NULL is
+          returned GetLastError() provides extended error information.
+*/</doc>

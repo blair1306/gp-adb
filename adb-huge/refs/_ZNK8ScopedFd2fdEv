@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/adb_utils.h' l='75' ll='77' type='int ScopedFd::fd() const'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1090' u='c' c='_ZL8adb_rootPKc'/>

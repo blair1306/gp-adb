@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3162' ll='3166'/>
+<size>20</size>
+<mbr r='_PRIVILEGE_SET::PrivilegeCount' o='0' t='DWORD'/>
+<mbr r='_PRIVILEGE_SET::Control' o='32' t='DWORD'/>
+<mbr r='_PRIVILEGE_SET::Privilege' o='64' t='LUID_AND_ATTRIBUTES [1]'/>

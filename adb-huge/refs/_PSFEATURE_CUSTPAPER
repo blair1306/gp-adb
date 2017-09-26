@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='396' ll='402'/>
+<size>20</size>
+<mbr r='_PSFEATURE_CUSTPAPER::lOrientation' o='0' t='LONG'/>
+<mbr r='_PSFEATURE_CUSTPAPER::lWidth' o='32' t='LONG'/>
+<mbr r='_PSFEATURE_CUSTPAPER::lHeight' o='64' t='LONG'/>
+<mbr r='_PSFEATURE_CUSTPAPER::lWidthOffset' o='96' t='LONG'/>
+<mbr r='_PSFEATURE_CUSTPAPER::lHeightOffset' o='128' t='LONG'/>

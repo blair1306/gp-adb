@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5251' ll='5255'/>
+<size>12</size>
+<mbr r='tagRAWHID::dwSizeHid' o='0' t='DWORD'/>
+<mbr r='tagRAWHID::dwCount' o='32' t='DWORD'/>
+<mbr r='tagRAWHID::bRawData' o='64' t='BYTE [1]'/>

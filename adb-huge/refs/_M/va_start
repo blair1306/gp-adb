@@ -1,0 +1,6 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdarg.h' l='52'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_stdarg.h' l='16' u='a'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2294' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2602' u='c'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2613' u='c'/>
+<use f='codebrowser/system/core/base/utf8.cpp' l='168' u='c'/>

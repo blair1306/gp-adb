@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='342' type='char * strstr(const char * __haystack, const char * __needle)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1108' u='c' c='_ZL8adb_rootPKc'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='86' type='char * strstr(const char * _Str, const char * _SubStr)'/>

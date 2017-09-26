@@ -1,0 +1,6 @@
+<def f='codebrowser/system/core/adb/shell_service.h' l='77' type='char * ShellProtocol::data()'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='302' u='c' c='_ZL13read_and_dumpib'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='318' u='c' c='_ZL13read_and_dumpib'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='469' u='c' c='_ZL23send_window_size_changeiRNSt3__110unique_ptrI13ShellProtocolNS_14default_deleteIS1_EEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='515' u='c' c='_ZL22stdin_read_thread_loopPv'/>
+<use f='codebrowser/system/core/adb/shell_service_protocol.cpp' l='46' u='c' c='_ZN13ShellProtocol4ReadEv'/>

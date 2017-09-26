@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3286' ll='3292'/>
+<size>20</size>
+<mbr r='_DOCINFOA::cbSize' o='0' t='int'/>
+<mbr r='_DOCINFOA::lpszDocName' o='32' t='LPCSTR'/>
+<mbr r='_DOCINFOA::lpszOutput' o='64' t='LPCSTR'/>
+<mbr r='_DOCINFOA::lpszDatatype' o='96' t='LPCSTR'/>
+<mbr r='_DOCINFOA::fwType' o='128' t='DWORD'/>

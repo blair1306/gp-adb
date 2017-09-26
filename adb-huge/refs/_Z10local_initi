@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='213' type='void local_init(int port)'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='115' u='c' c='_Z15adb_server_mainiii'/>
+<def f='codebrowser/system/core/adb/transport_local.cpp' l='286' ll='313' type='void local_init(int port)'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='1327' ll='1330'/>
+<size>52</size>
+<mbr r='tagNCCALCSIZE_PARAMS::rgrc' o='0' t='RECT [3]'/>
+<mbr r='tagNCCALCSIZE_PARAMS::lppos' o='384' t='PWINDOWPOS'/>

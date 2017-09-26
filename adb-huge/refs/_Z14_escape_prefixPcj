@@ -1,0 +1,6 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1725' ll='1735' type='size_t _escape_prefix(char *const buf, const size_t len)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1936' u='c' c='_ZL13_console_readPvS_j'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1958' u='c' c='_ZL13_console_readPvS_j'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1995' u='c' c='_ZL13_console_readPvS_j'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1723'>// Prefix the len bytes in buf with the escape character, and then return the
+// new buffer length.</doc>

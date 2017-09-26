@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='3232' ll='3237'/>
+<size>16</size>
+<mbr r='_OVERLAPPED_ENTRY::lpCompletionKey' o='0' t='ULONG_PTR'/>
+<mbr r='_OVERLAPPED_ENTRY::lpOverlapped' o='32' t='LPOVERLAPPED'/>
+<mbr r='_OVERLAPPED_ENTRY::Internal' o='64' t='ULONG_PTR'/>
+<mbr r='_OVERLAPPED_ENTRY::dwNumberOfBytesTransferred' o='96' t='DWORD'/>

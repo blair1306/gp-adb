@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='186' type='time_t time(time_t * __timer)'/>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/a_time.c' l='198' u='c' c='asn1_time_to_tm'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x509_vfy.c' l='1966' u='c' c='X509_time_adj_ex'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='373' u='c' c='showLog'/>

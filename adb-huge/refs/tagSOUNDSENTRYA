@@ -1,0 +1,14 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='4756' ll='4769'/>
+<size>48</size>
+<mbr r='tagSOUNDSENTRYA::cbSize' o='0' t='UINT'/>
+<mbr r='tagSOUNDSENTRYA::dwFlags' o='32' t='DWORD'/>
+<mbr r='tagSOUNDSENTRYA::iFSTextEffect' o='64' t='DWORD'/>
+<mbr r='tagSOUNDSENTRYA::iFSTextEffectMSec' o='96' t='DWORD'/>
+<mbr r='tagSOUNDSENTRYA::iFSTextEffectColorBits' o='128' t='DWORD'/>
+<mbr r='tagSOUNDSENTRYA::iFSGrafEffect' o='160' t='DWORD'/>
+<mbr r='tagSOUNDSENTRYA::iFSGrafEffectMSec' o='192' t='DWORD'/>
+<mbr r='tagSOUNDSENTRYA::iFSGrafEffectColor' o='224' t='DWORD'/>
+<mbr r='tagSOUNDSENTRYA::iWindowsEffect' o='256' t='DWORD'/>
+<mbr r='tagSOUNDSENTRYA::iWindowsEffectMSec' o='288' t='DWORD'/>
+<mbr r='tagSOUNDSENTRYA::lpszWindowsEffectDLL' o='320' t='LPSTR'/>
+<mbr r='tagSOUNDSENTRYA::iWindowsEffectOrdinal' o='352' t='DWORD'/>

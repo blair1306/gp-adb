@@ -1,0 +1,16 @@
+<dec f='codebrowser/system/core/adb/transport.h' l='145' type='atransport * acquire_one_transport(TransportType type, const char * serial, bool * is_ambiguous, std::string * error_out)'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='949' u='c' c='_Z22handle_forward_requestPKc13TransportTypeS0_i'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1038' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1062' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1104' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1113' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1122' u='c' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<doc f='codebrowser/system/core/adb/transport.h' l='138'>/*
+ * Obtain a transport from the available transports.
+ * If serial is non-null then only the device with that serial will be chosen.
+ * If multiple devices/emulators would match, *is_ambiguous (if non-null)
+ * is set to true and nullptr returned.
+ * If no suitable transport is found, error is set and nullptr returned.
+ */</doc>
+<use f='codebrowser/system/core/adb/services.cpp' l='372' u='c' c='_ZL14wait_for_stateiPv'/>
+<def f='codebrowser/system/core/adb/transport.cpp' l='658' ll='745' type='atransport * acquire_one_transport(TransportType type, const char * serial, bool * is_ambiguous, std::string * error_out)'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/adb/adb_client.h' l='62' type='std::string format_host_command(const char * _Nonnull command, TransportType type, const char * _Nullable serial)'/>
+<def f='codebrowser/system/core/adb/adb_client.cpp' l='308' ll='320' type='std::string format_host_command(const char * _Nonnull command, TransportType type, const char * _Nullable serial)'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='324' u='c' c='_Z19adb_get_feature_setPNSt3__113unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEEPS6_'/>
+<doc f='codebrowser/system/core/adb/adb_client.h' l='61'>// Create a host command corresponding to selected transport type/serial.</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1071' u='c' c='_ZL15wait_for_devicePKc13TransportTypeS0_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1852' u='c' c='_Z15adb_commandlineiPPKc'/>

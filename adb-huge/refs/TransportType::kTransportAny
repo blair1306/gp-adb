@@ -1,0 +1,13 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='101' type='2'/>
+<use f='codebrowser/system/core/adb/transport.h' l='72'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1024' u='r' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb.cpp' l='1031' u='r' c='_Z19handle_host_requestPKc13TransportTypeS0_iP7asocket'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='41'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='86' c='_ZL23switch_socket_transportiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1407' u='r' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1533' u='r' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='524' u='r' c='_Z22host_service_to_socketPKcS0_'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='682' u='r' c='_ZL20smart_socket_enqueueP7asocketP7apacket'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='745' u='r' c='_ZL20smart_socket_enqueueP7asocketP7apacket'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='666' u='r' c='_Z21acquire_one_transport13TransportTypePKcPbPNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='709' u='r' c='_Z21acquire_one_transport13TransportTypePKcPbPNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE'/>

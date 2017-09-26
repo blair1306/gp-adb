@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='136' type='char * strcat(char *restrict __dest, const char *restrict __src)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string3.h' l='141' ll='145' macro='1' type='char * strcat(char *restrict __dest, const char *restrict __src)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='135'>/* Append SRC onto DEST.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_alt.c' l='159' u='c' c='i2v_GENERAL_NAME'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_alt.c' l='161' u='c' c='i2v_GENERAL_NAME'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='429' u='c' c='_Z20adb_auth_get_userkeyPhm'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='52' type='char * strcat(char *__restrict _Dest, const char *__restrict _Source)'/>
+<use f='codebrowser/system/core/libcutils/socket_local_client_unix.c' l='94' u='c' c='socket_make_sockaddr_un'/>

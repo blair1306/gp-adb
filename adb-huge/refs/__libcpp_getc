@@ -1,0 +1,2 @@
+<def f='codebrowser/external/libcxx/include/cstdio' l='112' type='int __libcpp_getc(FILE * __stream)'/>
+<use f='codebrowser/external/libcxx/include/cstdio' l='114' u='c' c='getc'/>

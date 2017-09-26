@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/include/cutils/ashmem.h' l='21' type='int ashmem_pin_region(int fd, size_t offset, size_t len)'/>
+<def f='codebrowser/system/core/libcutils/ashmem-host.c' l='63' ll='66' type='int ashmem_pin_region(int fd, size_t offset, size_t len)'/>

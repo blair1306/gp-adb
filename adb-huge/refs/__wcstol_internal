@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/inttypes.h' l='351' type='long __wcstol_internal(const __gwchar_t *restrict __nptr, __gwchar_t **restrict __endptr, int __base, int __group)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/inttypes.h' l='360' u='c' c='wcstoimax'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='673' type='const char * gai_strerror(int __ecode)'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='55' u='c' c='bio_ip_and_port_to_socket_and_addr'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='672'>/* Convert error return from getaddrinfo() to a string.  */</doc>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='673' u='c' c='_Z15network_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiiiPS5_'/>

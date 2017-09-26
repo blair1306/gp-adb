@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='300' type='int sigqueue(__pid_t __pid, int __sig, const union sigval __val)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='298'>/* Send signal SIG to the process PID.  Associate data in VAL with the
+   signal.  */</doc>

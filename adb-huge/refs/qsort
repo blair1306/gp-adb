@@ -1,0 +1,7 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='761' type='void qsort(void * __base, size_t __nmemb, size_t __size, __compar_fn_t __compar)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='759'>/* Sort NMEMB elements of BASE, of SIZE bytes each,
+   using COMPAR to perform the comparisons.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/tasn_enc.c' l='487' u='c' c='asn1_set_seq_out'/>
+<use f='codebrowser/external/boringssl/src/crypto/stack/stack.c' l='338' u='c' c='sk_sort'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='353' type='void qsort(void * _Base, size_t _NumOfElements, size_t _SizeOfElements, int (*)(const void *, const void *) __attribute__((cdecl)) _PtFuncCompare)'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='412' u='c' c='sortTags'/>

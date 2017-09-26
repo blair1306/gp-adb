@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3396' ll='3401'/>
+<size>12</size>
+<mbr r='_SE_IMPERSONATION_STATE::Token' o='0' t='PACCESS_TOKEN'/>
+<mbr r='_SE_IMPERSONATION_STATE::CopyOnOpen' o='32' t='BOOLEAN'/>
+<mbr r='_SE_IMPERSONATION_STATE::EffectiveOnly' o='40' t='BOOLEAN'/>
+<mbr r='_SE_IMPERSONATION_STATE::Level' o='64' t='SECURITY_IMPERSONATION_LEVEL'/>

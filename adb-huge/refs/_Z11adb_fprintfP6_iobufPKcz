@@ -1,0 +1,5 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2600' ll='2607' type='int adb_fprintf(FILE * stream, const char * format)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2626' u='c' c='_Z9adb_fputsPKcP6_iobuf'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2632' u='c' c='_Z9adb_fputciP6_iobuf'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2598'>// Version of fprintf() that takes UTF-8 and can write Unicode to a
+// Windows console.</doc>

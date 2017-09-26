@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='417' ll='421'/>
+<size>8</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='416'>/* Structure used to manipulate the SO_LINGER option.  */</doc>
+<mbr r='linger::l_onoff' o='0' t='int'/>
+<mbr r='linger::l_linger' o='32' t='int'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h' l='63' ll='66'/>
+<size>4</size>
+<mbr r='linger::l_onoff' o='0' t='u_short'/>
+<mbr r='linger::l_linger' o='16' t='u_short'/>

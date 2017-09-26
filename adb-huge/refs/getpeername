@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='133' type='int getpeername(int __fd, struct sockaddr *restrict __addr, socklen_t *restrict __len)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='131'>/* Put the address of the peer connected to socket FD into *ADDR
+   (which is *LEN bytes long), and its actual length into *LEN.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='969' type='int getpeername(SOCKET s, struct sockaddr * name, int * namelen)'/>

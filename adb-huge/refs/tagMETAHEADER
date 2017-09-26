@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='751' ll='759'/>
+<size>18</size>
+<mbr r='tagMETAHEADER::mtType' o='0' t='WORD'/>
+<mbr r='tagMETAHEADER::mtHeaderSize' o='16' t='WORD'/>
+<mbr r='tagMETAHEADER::mtVersion' o='32' t='WORD'/>
+<mbr r='tagMETAHEADER::mtSize' o='48' t='DWORD'/>
+<mbr r='tagMETAHEADER::mtNoObjects' o='80' t='WORD'/>
+<mbr r='tagMETAHEADER::mtMaxRecord' o='96' t='DWORD'/>
+<mbr r='tagMETAHEADER::mtNoParameters' o='128' t='WORD'/>

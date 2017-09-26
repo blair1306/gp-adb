@@ -1,0 +1,5 @@
+<dec f='codebrowser/system/core/adb/adb_client.h' l='36' type='bool adb_query(const std::string &amp; service, std::string * _Nonnull result, std::string * _Nonnull error)'/>
+<def f='codebrowser/system/core/adb/adb_client.cpp' l='290' ll='306' macro='1' type='bool adb_query(const std::string &amp; service, std::string * _Nonnull result, std::string * _Nonnull error)'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='324' u='c' c='_Z19adb_get_feature_setPNSt3__113unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEEPS6_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1382' u='c' c='_ZL17adb_query_commandRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/console.cpp' l='44' u='c' c='_ZL29adb_get_emulator_console_portPKc'/>

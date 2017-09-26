@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ktmtypes.h' l='102' ll='107'/>
+<size>20</size>
+<mbr r='_TRANSACTION_NOTIFICATION::TransactionKey' o='0' t='PVOID'/>
+<mbr r='_TRANSACTION_NOTIFICATION::TransactionNotification' o='32' t='ULONG'/>
+<mbr r='_TRANSACTION_NOTIFICATION::TmVirtualClock' o='64' t='LARGE_INTEGER'/>
+<mbr r='_TRANSACTION_NOTIFICATION::ArgumentLength' o='128' t='ULONG'/>

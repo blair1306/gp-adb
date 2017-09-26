@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/utime.h' l='46' type='int utime(const char * __file, const struct utimbuf * __file_times)'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='869' u='c' c='_ZL17set_time_and_modeRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElj'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/utime.h' l='44'>/* Set the access and modification times of FILE to those given in
+   *FILE_TIMES.  If FILE_TIMES is NULL, set them to the current time.  */</doc>

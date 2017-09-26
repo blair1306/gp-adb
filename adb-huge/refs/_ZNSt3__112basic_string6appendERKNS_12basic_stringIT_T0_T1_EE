@@ -1,0 +1,6 @@
+<dec f='codebrowser/external/libcxx/include/string' l='1474' type='basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp; std::__1::basic_string::append(const basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp; __str)'/>
+<def f='codebrowser/external/libcxx/include/string' l='2656' ll='2662' type='basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp; std::__1::basic_string::append(const basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp; __str)'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='89' u='c' c='_ZN8copyinfoC1ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_S8_j'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='90' u='c' c='_ZN8copyinfoC1ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_S8_j'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='770' u='c' c='_Z12do_sync_pushRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='1004' u='c' c='_Z12do_sync_pullRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_b'/>

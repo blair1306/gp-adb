@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='881' type='int _snwscanf(const wchar_t *__restrict _Src, size_t _MaxCount, const wchar_t *__restrict _Format)'/>

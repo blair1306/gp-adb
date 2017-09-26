@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>posix_types_64.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/asm/posix_types_64.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/asm/posix_types_64.h'; var root_path = '../../../../../../../../../../..'; var data_path = '../../../../../../../../../../../../data';</script>
+<script src='../../../../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../../../../..'>codebrowser</a>/<a href='../../../../../../../../..'>prebuilts</a>/<a href='../../../../../../../..'>gcc</a>/<a href='../../../../../../..'>linux-x86</a>/<a href='../../../../../..'>host</a>/<a href='../../../../..'>x86_64-linux-glibc2.15-4.8</a>/<a href='../../../..'>sysroot</a>/<a href='../../..'>usr</a>/<a href='../..'>include</a>/<a href='..'>x86_64-linux-gnu</a>/<a href='./'>asm</a>/<a href='posix_types_64.h.html'>posix_types_64.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><u>#<span data-ppcond="1">ifndef</span> <span class="macro" data-ref="_M/_ASM_X86_POSIX_TYPES_64_H">_ASM_X86_POSIX_TYPES_64_H</span></u></td></tr>
+<tr><th id="2">2</th><td><u>#define <dfn class="macro" id="_M/_ASM_X86_POSIX_TYPES_64_H" data-ref="_M/_ASM_X86_POSIX_TYPES_64_H">_ASM_X86_POSIX_TYPES_64_H</dfn></u></td></tr>
+<tr><th id="3">3</th><td></td></tr>
+<tr><th id="4">4</th><td><i>/*</i></td></tr>
+<tr><th id="5">5</th><td><i> * This file is generally used by user-level software, so you need to</i></td></tr>
+<tr><th id="6">6</th><td><i> * be a little careful about namespace pollution etc.  Also, we cannot</i></td></tr>
+<tr><th id="7">7</th><td><i> * assume GCC is being used.</i></td></tr>
+<tr><th id="8">8</th><td><i> */</i></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><b>typedef</b> <em>unsigned</em> <em>long</em>	<dfn class="typedef" id="__kernel_ino_t" title='__kernel_ino_t' data-type='unsigned long' data-ref="__kernel_ino_t">__kernel_ino_t</dfn>;</td></tr>
+<tr><th id="11">11</th><td><b>typedef</b> <em>unsigned</em> <em>int</em>	<dfn class="typedef" id="__kernel_mode_t" title='__kernel_mode_t' data-type='unsigned int' data-ref="__kernel_mode_t">__kernel_mode_t</dfn>;</td></tr>
+<tr><th id="12">12</th><td><b>typedef</b> <em>unsigned</em> <em>long</em>	<dfn class="typedef" id="__kernel_nlink_t" title='__kernel_nlink_t' data-type='unsigned long' data-ref="__kernel_nlink_t">__kernel_nlink_t</dfn>;</td></tr>
+<tr><th id="13">13</th><td><b>typedef</b> <em>long</em>		<dfn class="typedef" id="__kernel_off_t" title='__kernel_off_t' data-type='long' data-ref="__kernel_off_t">__kernel_off_t</dfn>;</td></tr>
+<tr><th id="14">14</th><td><b>typedef</b> <em>int</em>		<dfn class="typedef" id="__kernel_pid_t" title='__kernel_pid_t' data-type='int' data-ref="__kernel_pid_t">__kernel_pid_t</dfn>;</td></tr>
+<tr><th id="15">15</th><td><b>typedef</b> <em>int</em>		<dfn class="typedef" id="__kernel_ipc_pid_t" title='__kernel_ipc_pid_t' data-type='int' data-ref="__kernel_ipc_pid_t">__kernel_ipc_pid_t</dfn>;</td></tr>
+<tr><th id="16">16</th><td><b>typedef</b> <em>unsigned</em> <em>int</em>	<dfn class="typedef" id="__kernel_uid_t" title='__kernel_uid_t' data-type='unsigned int' data-ref="__kernel_uid_t">__kernel_uid_t</dfn>;</td></tr>
+<tr><th id="17">17</th><td><b>typedef</b> <em>unsigned</em> <em>int</em>	<dfn class="typedef" id="__kernel_gid_t" title='__kernel_gid_t' data-type='unsigned int' data-ref="__kernel_gid_t">__kernel_gid_t</dfn>;</td></tr>
+<tr><th id="18">18</th><td><b>typedef</b> <em>unsigned</em> <em>long</em>	<dfn class="typedef" id="__kernel_size_t" title='__kernel_size_t' data-type='unsigned long' data-ref="__kernel_size_t">__kernel_size_t</dfn>;</td></tr>
+<tr><th id="19">19</th><td><b>typedef</b> <em>long</em>		<dfn class="typedef" id="__kernel_ssize_t" title='__kernel_ssize_t' data-type='long' data-ref="__kernel_ssize_t">__kernel_ssize_t</dfn>;</td></tr>
+<tr><th id="20">20</th><td><b>typedef</b> <em>long</em>		<dfn class="typedef" id="__kernel_ptrdiff_t" title='__kernel_ptrdiff_t' data-type='long' data-ref="__kernel_ptrdiff_t">__kernel_ptrdiff_t</dfn>;</td></tr>
+<tr><th id="21">21</th><td><b>typedef</b> <em>long</em>		<dfn class="typedef" id="__kernel_time_t" title='__kernel_time_t' data-type='long' data-ref="__kernel_time_t">__kernel_time_t</dfn>;</td></tr>
+<tr><th id="22">22</th><td><b>typedef</b> <em>long</em>		<dfn class="typedef" id="__kernel_suseconds_t" title='__kernel_suseconds_t' data-type='long' data-ref="__kernel_suseconds_t">__kernel_suseconds_t</dfn>;</td></tr>
+<tr><th id="23">23</th><td><b>typedef</b> <em>long</em>		<dfn class="typedef" id="__kernel_clock_t" title='__kernel_clock_t' data-type='long' data-ref="__kernel_clock_t">__kernel_clock_t</dfn>;</td></tr>
+<tr><th id="24">24</th><td><b>typedef</b> <em>int</em>		<dfn class="typedef" id="__kernel_timer_t" title='__kernel_timer_t' data-type='int' data-ref="__kernel_timer_t">__kernel_timer_t</dfn>;</td></tr>
+<tr><th id="25">25</th><td><b>typedef</b> <em>int</em>		<dfn class="typedef" id="__kernel_clockid_t" title='__kernel_clockid_t' data-type='int' data-ref="__kernel_clockid_t">__kernel_clockid_t</dfn>;</td></tr>
+<tr><th id="26">26</th><td><b>typedef</b> <em>int</em>		<dfn class="typedef" id="__kernel_daddr_t" title='__kernel_daddr_t' data-type='int' data-ref="__kernel_daddr_t">__kernel_daddr_t</dfn>;</td></tr>
+<tr><th id="27">27</th><td><b>typedef</b> <em>char</em> *		<dfn class="typedef" id="__kernel_caddr_t" title='__kernel_caddr_t' data-type='char *' data-ref="__kernel_caddr_t">__kernel_caddr_t</dfn>;</td></tr>
+<tr><th id="28">28</th><td><b>typedef</b> <em>unsigned</em> <em>short</em>	<dfn class="typedef" id="__kernel_uid16_t" title='__kernel_uid16_t' data-type='unsigned short' data-ref="__kernel_uid16_t">__kernel_uid16_t</dfn>;</td></tr>
+<tr><th id="29">29</th><td><b>typedef</b> <em>unsigned</em> <em>short</em>	<dfn class="typedef" id="__kernel_gid16_t" title='__kernel_gid16_t' data-type='unsigned short' data-ref="__kernel_gid16_t">__kernel_gid16_t</dfn>;</td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#<span data-ppcond="31">ifdef</span> <span class="macro" data-ref="_M/__GNUC__">__GNUC__</span></u></td></tr>
+<tr><th id="32">32</th><td><b>typedef</b> <em>long</em> <em>long</em>	<dfn class="typedef" id="__kernel_loff_t" title='__kernel_loff_t' data-type='long long' data-ref="__kernel_loff_t">__kernel_loff_t</dfn>;</td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="31">endif</span></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td><b>typedef</b> <b>struct</b> {</td></tr>
+<tr><th id="36">36</th><td>	<em>int</em>	<dfn class="decl" id="(anonymous)::val" title='(anonymous struct)::val' data-ref="(anonymous)::val">val</dfn>[<var>2</var>];</td></tr>
+<tr><th id="37">37</th><td>} <dfn class="typedef" id="__kernel_fsid_t" title='__kernel_fsid_t' data-type='struct __kernel_fsid_t' data-ref="__kernel_fsid_t">__kernel_fsid_t</dfn>;</td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><b>typedef</b> <em>unsigned</em> <em>short</em> <dfn class="typedef" id="__kernel_old_uid_t" title='__kernel_old_uid_t' data-type='unsigned short' data-ref="__kernel_old_uid_t">__kernel_old_uid_t</dfn>;</td></tr>
+<tr><th id="40">40</th><td><b>typedef</b> <em>unsigned</em> <em>short</em> <dfn class="typedef" id="__kernel_old_gid_t" title='__kernel_old_gid_t' data-type='unsigned short' data-ref="__kernel_old_gid_t">__kernel_old_gid_t</dfn>;</td></tr>
+<tr><th id="41">41</th><td><b>typedef</b> <a class="typedef" href="#__kernel_uid_t" title='__kernel_uid_t' data-type='unsigned int' data-ref="__kernel_uid_t">__kernel_uid_t</a> <dfn class="typedef" id="__kernel_uid32_t" title='__kernel_uid32_t' data-type='__kernel_uid_t' data-ref="__kernel_uid32_t">__kernel_uid32_t</dfn>;</td></tr>
+<tr><th id="42">42</th><td><b>typedef</b> <a class="typedef" href="#__kernel_gid_t" title='__kernel_gid_t' data-type='unsigned int' data-ref="__kernel_gid_t">__kernel_gid_t</a> <dfn class="typedef" id="__kernel_gid32_t" title='__kernel_gid32_t' data-type='__kernel_gid_t' data-ref="__kernel_gid32_t">__kernel_gid32_t</dfn>;</td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td><b>typedef</b> <em>unsigned</em> <em>long</em>	<dfn class="typedef" id="__kernel_old_dev_t" title='__kernel_old_dev_t' data-type='unsigned long' data-ref="__kernel_old_dev_t">__kernel_old_dev_t</dfn>;</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td></td></tr>
+<tr><th id="47">47</th><td><u>#<span data-ppcond="1">endif</span> /* _ASM_X86_POSIX_TYPES_64_H */</u></td></tr>
+<tr><th id="48">48</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../../../../system/core/adb/usb_linux.cpp.html'>codebrowser/system/core/adb/usb_linux.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

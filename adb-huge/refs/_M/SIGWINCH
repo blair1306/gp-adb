@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/signum.h' l='62'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='504' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='667' u='c'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='674' u='c'/>

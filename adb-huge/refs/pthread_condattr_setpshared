@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1006' type='int pthread_condattr_setpshared(pthread_condattr_t * __attr, int __pshared)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='1005'>/* Set the process-shared flag of the condition variable attribute ATTR.  */</doc>

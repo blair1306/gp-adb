@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usbdevice_fs.h' l='137'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='313' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='352' u='c'/>

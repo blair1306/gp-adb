@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/base/include/android-base/strings.h' l='36' type='std::string android::base::Trim(const std::string &amp; s)'/>
+<doc f='codebrowser/system/core/base/include/android-base/strings.h' l='35'>// Trims whitespace off both ends of the given string.</doc>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='563' u='c' c='_ZL15register_devicePKcS0_hhiij'/>
+<def f='codebrowser/system/core/base/strings.cpp' l='48' ll='80' type='std::string android::base::Trim(const std::string &amp; s)'/>

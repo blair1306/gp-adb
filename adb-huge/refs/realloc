@@ -1,0 +1,25 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='485' type='void * realloc(void * __ptr, size_t __size)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='482'>/* __attribute_malloc__ is not used, because if realloc returns
+   the same pointer that was passed to it, aliasing needs to be allowed
+   between objects pointed by the old and new pointers.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/a_enum.c' l='159' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/a_int.c' l='426' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/asn1_lib.c' l='421' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/f_enum.c' l='157' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/f_string.c' l='155' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/bio.c' l='518' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/buf/buf.c' l='125' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/bytestring/cbb.c' l='112' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/ec/ec_asn1.c' l='448' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/err/err.c' l='670' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/stack/stack.c' l='170' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/stack/stack.c' l='311' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_pci.c' l='143' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_pci.c' l='181' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_pci.c' l='205' macro='1' u='c'/>
+<use f='codebrowser/external/libcxx/src/ios.cpp' l='187' u='c' c='_ZNSt3__18ios_base5iwordEi'/>
+<use f='codebrowser/external/libcxx/src/ios.cpp' l='211' u='c' c='_ZNSt3__18ios_base5pwordEi'/>
+<use f='codebrowser/external/libcxx/src/ios.cpp' l='237' u='c' c='_ZNSt3__18ios_base17register_callbackEPFvNS0_5eventERS0_iEi'/>
+<use f='codebrowser/external/libcxx/src/ios.cpp' l='241' u='c' c='_ZNSt3__18ios_base17register_callbackEPFvNS0_5eventERS0_iEi'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='4942' u='c' c='__cxa_demangle'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='440' type='void * realloc(void * _Memory, size_t _NewSize)'/>

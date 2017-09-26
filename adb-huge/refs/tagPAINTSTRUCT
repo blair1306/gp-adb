@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='1597' ll='1604'/>
+<size>64</size>
+<mbr r='tagPAINTSTRUCT::hdc' o='0' t='HDC'/>
+<mbr r='tagPAINTSTRUCT::fErase' o='32' t='WINBOOL'/>
+<mbr r='tagPAINTSTRUCT::rcPaint' o='64' t='RECT'/>
+<mbr r='tagPAINTSTRUCT::fRestore' o='192' t='WINBOOL'/>
+<mbr r='tagPAINTSTRUCT::fIncUpdate' o='224' t='WINBOOL'/>
+<mbr r='tagPAINTSTRUCT::rgbReserved' o='256' t='BYTE [32]'/>

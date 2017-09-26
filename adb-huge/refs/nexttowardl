@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/mathcalls.h' l='286' macro='1' type='long double nexttowardl(long double __x, long double __y)'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='1494' u='c' c='_ZNSt3__110nexttowardEee'/>

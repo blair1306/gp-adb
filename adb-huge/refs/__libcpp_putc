@@ -1,0 +1,2 @@
+<def f='codebrowser/external/libcxx/include/cstdio' l='118' type='int __libcpp_putc(int __c, FILE * __stream)'/>
+<use f='codebrowser/external/libcxx/include/cstdio' l='120' u='c' c='putc'/>

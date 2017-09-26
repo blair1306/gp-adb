@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='646' type='wchar_t * ulltow(unsigned long long , wchar_t * , int )'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdlib.h' l='655' macro='1' type='wchar_t * ulltow(unsigned long long _n, wchar_t * _w, int _i)'/>

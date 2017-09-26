@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='2614' ll='2620'/>
+<size>20</size>
+<mbr r='tagMENUGETOBJECTINFO::dwFlags' o='0' t='DWORD'/>
+<mbr r='tagMENUGETOBJECTINFO::uPos' o='32' t='UINT'/>
+<mbr r='tagMENUGETOBJECTINFO::hmenu' o='64' t='HMENU'/>
+<mbr r='tagMENUGETOBJECTINFO::riid' o='96' t='PVOID'/>
+<mbr r='tagMENUGETOBJECTINFO::pvObj' o='128' t='PVOID'/>

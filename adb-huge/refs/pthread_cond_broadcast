@@ -1,0 +1,7 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='965' type='int pthread_cond_broadcast(pthread_cond_t * __cond)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='964'>/* Wake up all threads waiting for condition variables COND.  */</doc>
+<use f='codebrowser/external/libcxx/src/condition_variable.cpp' l='35' u='c' c='_ZNSt3__118condition_variable10notify_allEv'/>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='265' u='c' c='_ZNSt3__111__call_onceERVmPvPFvS2_E'/>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='273' u='c' c='_ZNSt3__111__call_onceERVmPvPFvS2_E'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_guard.cpp' l='238' u='c' c='__cxa_guard_release'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_guard.cpp' l='249' u='c' c='__cxa_guard_abort'/>

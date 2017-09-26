@@ -1,0 +1,5 @@
+_ZNSt12experimental15fundamentals_v13any5clearEv|std::experimental::fundamentals_v1::any::clear
+_ZL13close_on_execi|close_on_exec
+_Z11close_stdinv|close_stdin
+_Z17close_all_socketsP10atransport|close_all_sockets
+_Z17close_usb_devicesv|close_usb_devices

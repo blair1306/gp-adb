@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3206' type='HENHMETAFILE SetWinMetaFileBits(UINT nSize, const BYTE * lpMeta16Data, HDC hdcRef, const METAFILEPICT * lpMFP)'/>

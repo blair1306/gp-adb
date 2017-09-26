@@ -1,0 +1,9 @@
+<dec f='codebrowser/system/core/include/cutils/memory.h' l='35' type='size_t strlcpy(char * dst, const char * src, size_t size)'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='299' u='c' c='str_parms_get_str'/>
+<doc f='codebrowser/system/core/include/cutils/memory.h' l='34'>/* Declaration of strlcpy() for platforms that don&apos;t already have it. */</doc>
+<def f='codebrowser/system/core/libcutils/strlcpy.c' l='32' ll='56' type='size_t strlcpy(char * dst, const char * src, size_t siz)'/>
+<doc f='codebrowser/system/core/libcutils/strlcpy.c' l='27'>/*
+ * Copy src to string dst of size siz.  At most siz-1 characters
+ * will be copied.  Always NUL terminates (unless siz == 0).
+ * Returns strlen(src); if retval &gt;= siz, truncation occurred.
+ */</doc>

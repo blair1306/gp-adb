@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3772' ll='3779'/>
+<size>44</size>
+<mbr r='tagEMRPOLYPOLYLINE::emr' o='0' t='EMR'/>
+<mbr r='tagEMRPOLYPOLYLINE::rclBounds' o='64' t='RECTL'/>
+<mbr r='tagEMRPOLYPOLYLINE::nPolys' o='192' t='DWORD'/>
+<mbr r='tagEMRPOLYPOLYLINE::cptl' o='224' t='DWORD'/>
+<mbr r='tagEMRPOLYPOLYLINE::aPolyCounts' o='256' t='DWORD [1]'/>
+<mbr r='tagEMRPOLYPOLYLINE::aptl' o='288' t='POINTL [1]'/>

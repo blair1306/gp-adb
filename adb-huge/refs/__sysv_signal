@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='89' type='__sighandler_t __sysv_signal(int __sig, __sighandler_t __handler)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/signal.h' l='86'>/* The X/Open definition of `signal&apos; specifies the SVID semantic.  Use
+   the additional function `sysv_signal&apos; when X/Open compatibility is
+   requested.  */</doc>

@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4925' ll='4932'/>
+<size>10</size>
+<mbr r='_IMAGE_RELOCATION::SymbolTableIndex' o='32' t='DWORD'/>
+<mbr r='_IMAGE_RELOCATION::Type' o='64' t='WORD'/>

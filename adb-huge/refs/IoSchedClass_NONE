@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/include/cutils/iosched_policy.h' l='25' type='0'/>
+<use f='codebrowser/system/core/libcutils/iosched_policy.c' l='54' u='r' c='android_get_ioprio'/>

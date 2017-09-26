@@ -1,0 +1,14 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='2720' ll='2734'/>
+<size>64</size>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA::cbSize' o='0' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA::ulDataFormatVersion' o='32' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA::lpData' o='64' t='PVOID'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA::ulLength' o='96' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA::lpSectionGlobalData' o='128' t='PVOID'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA::ulSectionGlobalDataLength' o='160' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA::lpSectionBase' o='192' t='PVOID'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA::ulSectionTotalLength' o='224' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA::hActCtx' o='256' t='HANDLE'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA::ulAssemblyRosterIndex' o='288' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA::ulFlags' o='320' t='ULONG'/>
+<mbr r='tagACTCTX_SECTION_KEYED_DATA::AssemblyMetadata' o='352' t='ACTCTX_SECTION_KEYED_DATA_ASSEMBLY_METADATA'/>

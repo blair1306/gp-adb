@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/guiddef.h' l='12' ll='17'/>
+<size>16</size>
+<mbr r='_GUID::Data1' o='0' t='unsigned long'/>
+<mbr r='_GUID::Data2' o='32' t='unsigned short'/>
+<mbr r='_GUID::Data3' o='48' t='unsigned short'/>
+<mbr r='_GUID::Data4' o='64' t='unsigned char [8]'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='153' type='unsigned long strxfrm(char *restrict __dest, const char *restrict __src, size_t __n)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='152'>/* Put a transformation of SRC into no more than N bytes of DEST.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='90' type='size_t strxfrm(char *__restrict _Dst, const char *__restrict _Src, size_t _MaxCount)'/>

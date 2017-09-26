@@ -1,0 +1,8 @@
+<dec f='codebrowser/system/core/include/cutils/trace.h' l='119' type='atomic_bool'/>
+<use f='codebrowser/system/core/include/cutils/trace.h' l='142' u='a' c='atrace_init'/>
+<def f='codebrowser/system/core/libcutils/trace-host.c' l='23' type='atomic_bool'/>
+<doc f='codebrowser/system/core/include/cutils/trace.h' l='114'>/**
+ * Flag indicating whether setup has been completed, initialized to 0.
+ * Nonzero indicates setup has completed.
+ * Note: This does NOT indicate whether or not setup was successful.
+ */</doc>

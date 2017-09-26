@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6013' ll='6017'/>
+<size>12</size>
+<mbr r='_RTL_VERIFIER_THUNK_DESCRIPTOR::ThunkName' o='0' t='PCHAR'/>
+<mbr r='_RTL_VERIFIER_THUNK_DESCRIPTOR::ThunkOldAddress' o='32' t='PVOID'/>
+<mbr r='_RTL_VERIFIER_THUNK_DESCRIPTOR::ThunkNewAddress' o='64' t='PVOID'/>

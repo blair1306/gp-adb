@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/adb/sysdeps.h' l='636'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1311' u='w'/>

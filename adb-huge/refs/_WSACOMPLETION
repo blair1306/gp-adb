@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='554' ll='575'/>
+<size>16</size>
+<mbr r='_WSACOMPLETION::Type' o='0' t='WSACOMPLETIONTYPE'/>
+<mbr r='_WSACOMPLETION::Parameters' o='32' t='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h:556:5)'/>

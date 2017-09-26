@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/sysdeps.h' l='823' ll='825' type='void adb_sysdeps_init()'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='172' u='c' c='main'/>

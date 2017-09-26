@@ -1,0 +1,15 @@
+<dec f='codebrowser/development/host/windows/usb/api/adb_api.h' l='268' type='ADBAPIHANDLE AdbCreateInterface(GUID class_id, unsigned short vendor_id, unsigned short product_id, unsigned char interface_id)'/>
+<doc f='codebrowser/development/host/windows/usb/api/adb_api.h' l='254'>/** \brief Creates USB interface object based on vendor, product and
+  interface IDs.
+
+  This routine creates and object that represents a USB interface on our
+  device. It uses AdbCreateInterfaceByName to actually do the create.
+  @param[in] class_id Device class ID, assigned by the driver.
+  @param[in] vendor_id Device vendor ID
+  @param[in] product_id Device product ID
+  @param[in] interface_id Device interface ID. This parameter is optional.
+         Value 0xFF indicates that interface should be addressed by vendor
+         and product IDs only.
+  @return Handle to the interface object or NULL on failure. If NULL is
+          returned GetLastError() provides extended error information.
+*/</doc>

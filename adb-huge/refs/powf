@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/mathcalls.h' l='155' macro='1' type='float powf(float __x, float __y)'/>
+<use f='codebrowser/external/libcxx/include/cmath' l='953' u='c' c='_ZNSt3__13powEff'/>

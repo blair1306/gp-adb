@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='2730' ll='2737'/>
+<size>28</size>
+<mbr r='tagDROPSTRUCT::hwndSource' o='0' t='HWND'/>
+<mbr r='tagDROPSTRUCT::hwndSink' o='32' t='HWND'/>
+<mbr r='tagDROPSTRUCT::wFmt' o='64' t='DWORD'/>
+<mbr r='tagDROPSTRUCT::dwData' o='96' t='ULONG_PTR'/>
+<mbr r='tagDROPSTRUCT::ptDrop' o='128' t='POINT'/>
+<mbr r='tagDROPSTRUCT::dwControlData' o='192' t='DWORD'/>

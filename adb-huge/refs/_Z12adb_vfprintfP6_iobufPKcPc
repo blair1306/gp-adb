@@ -1,0 +1,6 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2576' ll='2591' type='int adb_vfprintf(FILE * stream, const char * format, va_list ap)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2595' u='c' c='_Z11adb_vprintfPKcPc'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2603' u='c' c='_Z11adb_fprintfP6_iobufPKcz'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2614' u='c' c='_Z10adb_printfPKcz'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2574'>// Version of vfprintf() that takes UTF-8 and can write Unicode to a
+// Windows console.</doc>

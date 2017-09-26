@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='164' type='atransport * find_emulator_transport_by_adb_port(int adb_port)'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='460' u='c' c='_Z16connect_emulatorRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='97' u='c' c='_Z29local_connect_arbitrary_portsiiPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<def f='codebrowser/system/core/adb/transport_local.cpp' l='358' ll='364' type='atransport * find_emulator_transport_by_adb_port(int adb_port)'/>

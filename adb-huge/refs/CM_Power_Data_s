@@ -1,0 +1,10 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4144' ll='4153'/>
+<size>56</size>
+<mbr r='CM_Power_Data_s::PD_Size' o='0' t='DWORD'/>
+<mbr r='CM_Power_Data_s::PD_MostRecentPowerState' o='32' t='DEVICE_POWER_STATE'/>
+<mbr r='CM_Power_Data_s::PD_Capabilities' o='64' t='DWORD'/>
+<mbr r='CM_Power_Data_s::PD_D1Latency' o='96' t='DWORD'/>
+<mbr r='CM_Power_Data_s::PD_D2Latency' o='128' t='DWORD'/>
+<mbr r='CM_Power_Data_s::PD_D3Latency' o='160' t='DWORD'/>
+<mbr r='CM_Power_Data_s::PD_PowerStateMapping' o='192' t='DEVICE_POWER_STATE [7]'/>
+<mbr r='CM_Power_Data_s::PD_DeepestSystemWake' o='416' t='SYSTEM_POWER_STATE'/>

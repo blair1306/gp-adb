@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='180' ll='184'/>
+<size>12</size>
+<mbr r='_SECURITY_ATTRIBUTES::nLength' o='0' t='DWORD'/>
+<mbr r='_SECURITY_ATTRIBUTES::lpSecurityDescriptor' o='32' t='LPVOID'/>
+<mbr r='_SECURITY_ATTRIBUTES::bInheritHandle' o='64' t='WINBOOL'/>

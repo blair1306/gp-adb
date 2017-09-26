@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='280' ll='292'/>
+<size>16</size>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='279'>/* Structure used for storage of ancillary data object information.  */</doc>
+<mbr r='cmsghdr::cmsg_len' o='0' t='size_t'/>
+<mbr r='cmsghdr::cmsg_level' o='64' t='int'/>
+<mbr r='cmsghdr::cmsg_type' o='96' t='int'/>
+<mbr r='cmsghdr::__cmsg_data' o='128' t='unsigned char []'/>

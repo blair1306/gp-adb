@@ -1,0 +1,4 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2611' ll='2618' type='int adb_printf(const char * format)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2650' u='c' c='_Z8adb_putsPKc'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2609'>// Version of printf() that takes UTF-8 and can write Unicode to a
+// Windows console.</doc>

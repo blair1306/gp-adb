@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='651' ll='656'/>
+<size>16</size>
+<mbr r='tagMOUSEMOVEPOINT::x' o='0' t='int'/>
+<mbr r='tagMOUSEMOVEPOINT::y' o='32' t='int'/>
+<mbr r='tagMOUSEMOVEPOINT::time' o='64' t='DWORD'/>
+<mbr r='tagMOUSEMOVEPOINT::dwExtraInfo' o='96' t='ULONG_PTR'/>

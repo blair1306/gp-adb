@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/grp.h' l='48' type='__gid_t'/>
+<use f='codebrowser/system/core/adb/diagnose_usb.cpp' l='49' u='r' c='_ZL14GetUdevProblemv'/>
+<use f='codebrowser/system/core/adb/diagnose_usb.cpp' l='49' u='r' c='_ZL14GetUdevProblemv'/>
+<offset>128</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/grp.h' l='48'>/* Group ID.	*/</doc>

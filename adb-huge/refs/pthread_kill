@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sigthread.h' l='36' type='int pthread_kill(pthread_t __threadid, int __signo)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/sigthread.h' l='35'>/* Send signal SIGNO to the given thread. */</doc>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='469' u='c' c='_Z8usb_kickP10usb_handle'/>

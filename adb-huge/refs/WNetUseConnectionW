@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnetwk.h' l='120' type='DWORD WNetUseConnectionW(HWND hwndOwner, LPNETRESOURCEW lpNetResource, LPCWSTR lpPassword, LPCWSTR lpUserID, DWORD dwFlags, LPWSTR lpAccessName, LPDWORD lpBufferSize, LPDWORD lpResult)'/>

@@ -1,0 +1,3 @@
+fputc_unlocked|fputc_unlocked
+_Z10fpclassifyT_|fpclassify
+_Z7fprintfP6_iobufPKcz|fprintf

@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/adb_utils.h' l='24' type='void close_stdin()'/>
+<def f='codebrowser/system/core/adb/adb_utils.cpp' l='46' ll='56' type='void close_stdin()'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='126' u='c' c='_Z15adb_server_mainiii'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='742' u='c' c='_ZL9adb_shelliPPKc'/>

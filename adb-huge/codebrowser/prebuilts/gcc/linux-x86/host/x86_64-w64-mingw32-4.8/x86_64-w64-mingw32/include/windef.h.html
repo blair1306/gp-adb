@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>windef.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windef.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windef.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='windef.h.html'>windef.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/_WINDEF_">_WINDEF_</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/_WINDEF_" data-ref="_M/_WINDEF_">_WINDEF_</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="_mingw.h.html">&lt;_mingw.h&gt;</a></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#<span data-ppcond="11">if</span> !defined (<span class="macro" data-ref="_M/STRICT">STRICT</span>) &amp;&amp; !defined (<span class="macro" data-ref="_M/NO_STRICT">NO_STRICT</span>)</u></td></tr>
+<tr><th id="12">12</th><td><u>#define <dfn class="macro" id="_M/STRICT" data-ref="_M/STRICT">STRICT</dfn> 1</u></td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="11">endif</span></u></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><u>#<span data-ppcond="15">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="16">16</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="17">17</th><td><u>#<span data-ppcond="15">endif</span></u></td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><u>#<span data-ppcond="19">ifndef</span> <span class="macro" data-ref="_M/WINVER">WINVER</span></u></td></tr>
+<tr><th id="20">20</th><td><u>#define WINVER 0x0502</u></td></tr>
+<tr><th id="21">21</th><td><u>#<span data-ppcond="19">endif</span></u></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><u>#<span data-ppcond="23">ifndef</span> <span class="macro" data-ref="_M/BASETYPES">BASETYPES</span></u></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/BASETYPES" data-ref="_M/BASETYPES">BASETYPES</dfn></u></td></tr>
+<tr><th id="25">25</th><td><b>typedef</b> <em>unsigned</em> <a class="macro" href="_mingw.h.html#26" title="long" data-ref="_M/__LONG32">__LONG32</a> <dfn class="typedef" id="ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</dfn>;</td></tr>
+<tr><th id="26">26</th><td><b>typedef</b> <a class="typedef" href="#ULONG" title='ULONG' data-type='unsigned long' data-ref="ULONG">ULONG</a> *<dfn class="typedef" id="PULONG" title='PULONG' data-type='ULONG *' data-ref="PULONG">PULONG</dfn>;</td></tr>
+<tr><th id="27">27</th><td><b>typedef</b> <em>unsigned</em> <em>short</em> <dfn class="typedef" id="USHORT" title='USHORT' data-type='unsigned short' data-ref="USHORT">USHORT</dfn>;</td></tr>
+<tr><th id="28">28</th><td><b>typedef</b> <a class="typedef" href="#USHORT" title='USHORT' data-type='unsigned short' data-ref="USHORT">USHORT</a> *<dfn class="typedef" id="PUSHORT" title='PUSHORT' data-type='USHORT *' data-ref="PUSHORT">PUSHORT</dfn>;</td></tr>
+<tr><th id="29">29</th><td><b>typedef</b> <em>unsigned</em> <em>char</em> <dfn class="typedef" id="UCHAR" title='UCHAR' data-type='unsigned char' data-ref="UCHAR">UCHAR</dfn>;</td></tr>
+<tr><th id="30">30</th><td><b>typedef</b> <a class="typedef" href="#UCHAR" title='UCHAR' data-type='unsigned char' data-ref="UCHAR">UCHAR</a> *<dfn class="typedef" id="PUCHAR" title='PUCHAR' data-type='UCHAR *' data-ref="PUCHAR">PUCHAR</dfn>;</td></tr>
+<tr><th id="31">31</th><td><b>typedef</b> <em>char</em> *<dfn class="typedef" id="PSZ" title='PSZ' data-type='char *' data-ref="PSZ">PSZ</dfn>;</td></tr>
+<tr><th id="32">32</th><td><u>#<span data-ppcond="23">endif</span></u></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/MAX_PATH" data-ref="_M/MAX_PATH">MAX_PATH</dfn> 260</u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#<span data-ppcond="36">ifndef</span> <a class="macro" href="string.h.html#23" data-ref="_M/NULL">NULL</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#ifdef __cplusplus</u></td></tr>
+<tr><th id="38">38</th><td><u>#ifndef _WIN64</u></td></tr>
+<tr><th id="39">39</th><td><u>#define NULL 0</u></td></tr>
+<tr><th id="40">40</th><td><u>#else</u></td></tr>
+<tr><th id="41">41</th><td><u>#define NULL 0LL</u></td></tr>
+<tr><th id="42">42</th><td><u>#endif  /* W64 */</u></td></tr>
+<tr><th id="43">43</th><td><u>#else</u></td></tr>
+<tr><th id="44">44</th><td><u>#define NULL ((void *)0)</u></td></tr>
+<tr><th id="45">45</th><td><u>#endif</u></td></tr>
+<tr><th id="46">46</th><td><u>#<span data-ppcond="36">endif</span></u></td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><u>#<span data-ppcond="48">ifndef</span> <span class="macro" data-ref="_M/FALSE">FALSE</span></u></td></tr>
+<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/FALSE" data-ref="_M/FALSE">FALSE</dfn> 0</u></td></tr>
+<tr><th id="50">50</th><td><u>#<span data-ppcond="48">endif</span></u></td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><u>#<span data-ppcond="52">ifndef</span> <span class="macro" data-ref="_M/TRUE">TRUE</span></u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/TRUE" data-ref="_M/TRUE">TRUE</dfn> 1</u></td></tr>
+<tr><th id="54">54</th><td><u>#<span data-ppcond="52">endif</span></u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><u>#<span data-ppcond="56">ifndef</span> <span class="macro" data-ref="_M/_NO_W32_PSEUDO_MODIFIERS">_NO_W32_PSEUDO_MODIFIERS</span></u></td></tr>
+<tr><th id="57">57</th><td><u>#<span data-ppcond="57">ifndef</span> <span class="macro" data-ref="_M/IN">IN</span></u></td></tr>
+<tr><th id="58">58</th><td><u>#define <dfn class="macro" id="_M/IN" data-ref="_M/IN">IN</dfn></u></td></tr>
+<tr><th id="59">59</th><td><u>#<span data-ppcond="57">endif</span></u></td></tr>
+<tr><th id="60">60</th><td><u>#<span data-ppcond="60">ifndef</span> <span class="macro" data-ref="_M/OUT">OUT</span></u></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/OUT" data-ref="_M/OUT">OUT</dfn></u></td></tr>
+<tr><th id="62">62</th><td><u>#<span data-ppcond="60">endif</span></u></td></tr>
+<tr><th id="63">63</th><td><u>#<span data-ppcond="63">ifndef</span> <span class="macro" data-ref="_M/OPTIONAL">OPTIONAL</span></u></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/OPTIONAL" data-ref="_M/OPTIONAL">OPTIONAL</dfn></u></td></tr>
+<tr><th id="65">65</th><td><u>#<span data-ppcond="63">endif</span></u></td></tr>
+<tr><th id="66">66</th><td><u>#<span data-ppcond="56">endif</span></u></td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td><u>#undef <span class="macro" data-ref="_M/far">far</span></u></td></tr>
+<tr><th id="69">69</th><td><u>#undef <span class="macro" data-ref="_M/near">near</span></u></td></tr>
+<tr><th id="70">70</th><td><u>#undef <span class="macro" data-ref="_M/pascal">pascal</span></u></td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/far" data-ref="_M/far">far</dfn></u></td></tr>
+<tr><th id="73">73</th><td><u>#define <dfn class="macro" id="_M/near" data-ref="_M/near">near</dfn></u></td></tr>
+<tr><th id="74">74</th><td><u>#define <dfn class="macro" id="_M/pascal" data-ref="_M/pascal">pascal</dfn> __stdcall</u></td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/cdecl" data-ref="_M/cdecl">cdecl</dfn></u></td></tr>
+<tr><th id="77">77</th><td><u>#<span data-ppcond="77">ifndef</span> <span class="macro" data-ref="_M/CDECL">CDECL</span></u></td></tr>
+<tr><th id="78">78</th><td><u>#define <dfn class="macro" id="_M/CDECL" data-ref="_M/CDECL">CDECL</dfn></u></td></tr>
+<tr><th id="79">79</th><td><u>#<span data-ppcond="77">endif</span></u></td></tr>
+<tr><th id="80">80</th><td><u>#<span data-ppcond="80">ifndef</span> <span class="macro" data-ref="_M/CALLBACK">CALLBACK</span></u></td></tr>
+<tr><th id="81">81</th><td><u>#define <dfn class="macro" id="_M/CALLBACK" data-ref="_M/CALLBACK">CALLBACK</dfn> __stdcall</u></td></tr>
+<tr><th id="82">82</th><td><u>#<span data-ppcond="80">endif</span></u></td></tr>
+<tr><th id="83">83</th><td><u>#<span data-ppcond="83">ifndef</span> <span class="macro" data-ref="_M/WINAPI">WINAPI</span></u></td></tr>
+<tr><th id="84">84</th><td><u>#define <dfn class="macro" id="_M/WINAPI" data-ref="_M/WINAPI">WINAPI</dfn> __stdcall</u></td></tr>
+<tr><th id="85">85</th><td><u>#<span data-ppcond="83">endif</span></u></td></tr>
+<tr><th id="86">86</th><td><u>#define <dfn class="macro" id="_M/WINAPIV" data-ref="_M/WINAPIV">WINAPIV</dfn> __cdecl</u></td></tr>
+<tr><th id="87">87</th><td><u>#define <dfn class="macro" id="_M/APIENTRY" data-ref="_M/APIENTRY">APIENTRY</dfn> WINAPI</u></td></tr>
+<tr><th id="88">88</th><td><u>#define <dfn class="macro" id="_M/APIPRIVATE" data-ref="_M/APIPRIVATE">APIPRIVATE</dfn> WINAPI</u></td></tr>
+<tr><th id="89">89</th><td><u>#define <dfn class="macro" id="_M/PASCAL" data-ref="_M/PASCAL">PASCAL</dfn> WINAPI</u></td></tr>
+<tr><th id="90">90</th><td><u>#define <dfn class="macro" id="_M/WINAPI_INLINE" data-ref="_M/WINAPI_INLINE">WINAPI_INLINE</dfn> WINAPI</u></td></tr>
+<tr><th id="91">91</th><td></td></tr>
+<tr><th id="92">92</th><td><u>#undef <span class="macro" data-ref="_M/FAR">FAR</span></u></td></tr>
+<tr><th id="93">93</th><td><u>#undef <span class="macro" data-ref="_M/NEAR">NEAR</span></u></td></tr>
+<tr><th id="94">94</th><td><u>#define <dfn class="macro" id="_M/FAR" data-ref="_M/FAR">FAR</dfn></u></td></tr>
+<tr><th id="95">95</th><td><u>#define <dfn class="macro" id="_M/NEAR" data-ref="_M/NEAR">NEAR</dfn></u></td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td><u>#<span data-ppcond="97">ifndef</span> <span class="macro" data-ref="_M/CONST">CONST</span></u></td></tr>
+<tr><th id="98">98</th><td><u>#define <dfn class="macro" id="_M/CONST" data-ref="_M/CONST">CONST</dfn> const</u></td></tr>
+<tr><th id="99">99</th><td><u>#<span data-ppcond="97">endif</span></u></td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td><u>#<span data-ppcond="101">ifndef</span> <span class="macro" data-ref="_M/_DEF_WINBOOL_">_DEF_WINBOOL_</span></u></td></tr>
+<tr><th id="102">102</th><td><u>#define <dfn class="macro" id="_M/_DEF_WINBOOL_" data-ref="_M/_DEF_WINBOOL_">_DEF_WINBOOL_</dfn></u></td></tr>
+<tr><th id="103">103</th><td><b>typedef</b> <em>int</em> <dfn class="typedef" id="WINBOOL" title='WINBOOL' data-type='int' data-ref="WINBOOL">WINBOOL</dfn>;</td></tr>
+<tr><th id="104">104</th><td><u>#pragma push_macro("BOOL")</u></td></tr>
+<tr><th id="105">105</th><td><u>#undef <span class="macro" data-ref="_M/BOOL">BOOL</span></u></td></tr>
+<tr><th id="106">106</th><td><u>#<span data-ppcond="106">if</span> !defined(<span class="macro" data-ref="_M/__OBJC__">__OBJC__</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/__OBJC_BOOL">__OBJC_BOOL</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/__objc_INCLUDE_GNU">__objc_INCLUDE_GNU</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/_NO_BOOL_TYPEDEF">_NO_BOOL_TYPEDEF</span>)</u></td></tr>
+<tr><th id="107">107</th><td><b>typedef</b> <em>int</em> <dfn class="typedef" id="BOOL" title='BOOL' data-type='int' data-ref="BOOL">BOOL</dfn>;</td></tr>
+<tr><th id="108">108</th><td><u>#<span data-ppcond="106">endif</span></u></td></tr>
+<tr><th id="109">109</th><td><u>#define <dfn class="macro" id="_M/BOOL" data-ref="_M/BOOL">BOOL</dfn> <a class="typedef" href="#WINBOOL" title='WINBOOL' data-type='int' data-ref="WINBOOL">WINBOOL</a></u></td></tr>
+<tr><th id="110">110</th><td><b>typedef</b> <a class="macro" href="#109" title="WINBOOL" data-ref="_M/BOOL">BOOL</a> *<dfn class="typedef" id="PBOOL" title='PBOOL' data-type='WINBOOL *' data-ref="PBOOL">PBOOL</dfn>;</td></tr>
+<tr><th id="111">111</th><td><b>typedef</b> <a class="macro" href="#109" title="WINBOOL" data-ref="_M/BOOL">BOOL</a> *<dfn class="typedef" id="LPBOOL" title='LPBOOL' data-type='WINBOOL *' data-ref="LPBOOL">LPBOOL</dfn>;</td></tr>
+<tr><th id="112">112</th><td><u>#pragma pop_macro("BOOL")</u></td></tr>
+<tr><th id="113">113</th><td><u>#<span data-ppcond="101">endif</span> /* _DEF_WINBOOL_ */</u></td></tr>
+<tr><th id="114">114</th><td></td></tr>
+<tr><th id="115">115</th><td><b>typedef</b> <em>unsigned</em> <em>char</em> <dfn class="typedef" id="BYTE" title='BYTE' data-type='unsigned char' data-ref="BYTE">BYTE</dfn>;</td></tr>
+<tr><th id="116">116</th><td><b>typedef</b> <em>unsigned</em> <em>short</em> <dfn class="typedef" id="WORD" title='WORD' data-type='unsigned short' data-ref="WORD">WORD</dfn>;</td></tr>
+<tr><th id="117">117</th><td><b>typedef</b> <em>unsigned</em> <a class="macro" href="_mingw.h.html#26" title="long" data-ref="_M/__LONG32">__LONG32</a> <dfn class="typedef" id="DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</dfn>;</td></tr>
+<tr><th id="118">118</th><td><b>typedef</b> <em>float</em> <dfn class="typedef" id="FLOAT" title='FLOAT' data-type='float' data-ref="FLOAT">FLOAT</dfn>;</td></tr>
+<tr><th id="119">119</th><td><b>typedef</b> <a class="typedef" href="#FLOAT" title='FLOAT' data-type='float' data-ref="FLOAT">FLOAT</a> *<dfn class="typedef" id="PFLOAT" title='PFLOAT' data-type='FLOAT *' data-ref="PFLOAT">PFLOAT</dfn>;</td></tr>
+<tr><th id="120">120</th><td><b>typedef</b> <a class="typedef" href="#BYTE" title='BYTE' data-type='unsigned char' data-ref="BYTE">BYTE</a> *<dfn class="typedef" id="PBYTE" title='PBYTE' data-type='BYTE *' data-ref="PBYTE">PBYTE</dfn>;</td></tr>
+<tr><th id="121">121</th><td><b>typedef</b> <a class="typedef" href="#BYTE" title='BYTE' data-type='unsigned char' data-ref="BYTE">BYTE</a> *<dfn class="typedef" id="LPBYTE" title='LPBYTE' data-type='BYTE *' data-ref="LPBYTE">LPBYTE</dfn>;</td></tr>
+<tr><th id="122">122</th><td><b>typedef</b> <em>int</em> *<dfn class="typedef" id="PINT" title='PINT' data-type='int *' data-ref="PINT">PINT</dfn>;</td></tr>
+<tr><th id="123">123</th><td><b>typedef</b> <em>int</em> *<dfn class="typedef" id="LPINT" title='LPINT' data-type='int *' data-ref="LPINT">LPINT</dfn>;</td></tr>
+<tr><th id="124">124</th><td><b>typedef</b> <a class="typedef" href="#WORD" title='WORD' data-type='unsigned short' data-ref="WORD">WORD</a> *<dfn class="typedef" id="PWORD" title='PWORD' data-type='WORD *' data-ref="PWORD">PWORD</dfn>;</td></tr>
+<tr><th id="125">125</th><td><b>typedef</b> <a class="typedef" href="#WORD" title='WORD' data-type='unsigned short' data-ref="WORD">WORD</a> *<dfn class="typedef" id="LPWORD" title='LPWORD' data-type='WORD *' data-ref="LPWORD">LPWORD</dfn>;</td></tr>
+<tr><th id="126">126</th><td><b>typedef</b> <a class="macro" href="_mingw.h.html#26" title="long" data-ref="_M/__LONG32">__LONG32</a> *<dfn class="typedef" id="LPLONG" title='LPLONG' data-type='long *' data-ref="LPLONG">LPLONG</dfn>;</td></tr>
+<tr><th id="127">127</th><td><b>typedef</b> <a class="typedef" href="#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> *<dfn class="typedef" id="PDWORD" title='PDWORD' data-type='DWORD *' data-ref="PDWORD">PDWORD</dfn>;</td></tr>
+<tr><th id="128">128</th><td><b>typedef</b> <a class="typedef" href="#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> *<dfn class="typedef" id="LPDWORD" title='LPDWORD' data-type='DWORD *' data-ref="LPDWORD">LPDWORD</dfn>;</td></tr>
+<tr><th id="129">129</th><td><b>typedef</b> <em>void</em> *<dfn class="typedef" id="LPVOID" title='LPVOID' data-type='void *' data-ref="LPVOID">LPVOID</dfn>;</td></tr>
+<tr><th id="130">130</th><td><u>#<span data-ppcond="130">ifndef</span> <span class="macro" data-ref="_M/_LPCVOID_DEFINED">_LPCVOID_DEFINED</span></u></td></tr>
+<tr><th id="131">131</th><td><u>#define <dfn class="macro" id="_M/_LPCVOID_DEFINED" data-ref="_M/_LPCVOID_DEFINED">_LPCVOID_DEFINED</dfn></u></td></tr>
+<tr><th id="132">132</th><td><b>typedef</b> <a class="macro" href="#98" title="const" data-ref="_M/CONST">CONST</a> <em>void</em> *<dfn class="typedef" id="LPCVOID" title='LPCVOID' data-type='const void *' data-ref="LPCVOID">LPCVOID</dfn>;</td></tr>
+<tr><th id="133">133</th><td><u>#<span data-ppcond="130">endif</span></u></td></tr>
+<tr><th id="134">134</th><td><b>typedef</b> <em>int</em> <dfn class="typedef" id="INT" title='INT' data-type='int' data-ref="INT">INT</dfn>;</td></tr>
+<tr><th id="135">135</th><td><b>typedef</b> <em>unsigned</em> <em>int</em> <dfn class="typedef" id="UINT" title='UINT' data-type='unsigned int' data-ref="UINT">UINT</dfn>;</td></tr>
+<tr><th id="136">136</th><td><b>typedef</b> <em>unsigned</em> <em>int</em> *<dfn class="typedef" id="PUINT" title='PUINT' data-type='unsigned int *' data-ref="PUINT">PUINT</dfn>;</td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td><u>#<span data-ppcond="138">ifndef</span> <span class="macro" data-ref="_M/NT_INCLUDED">NT_INCLUDED</span></u></td></tr>
+<tr><th id="139">139</th><td><u>#include <a href="winnt.h.html">&lt;winnt.h&gt;</a></u></td></tr>
+<tr><th id="140">140</th><td><u>#<span data-ppcond="138">endif</span></u></td></tr>
+<tr><th id="141">141</th><td></td></tr>
+<tr><th id="142">142</th><td><u>#include <a href="specstrings.h.html">&lt;specstrings.h&gt;</a></u></td></tr>
+<tr><th id="143">143</th><td></td></tr>
+<tr><th id="144">144</th><td><b>typedef</b> <a class="typedef" href="basetsd.h.html#UINT_PTR" title='UINT_PTR' data-type='unsigned int' data-ref="UINT_PTR">UINT_PTR</a> <dfn class="typedef" id="WPARAM" title='WPARAM' data-type='UINT_PTR' data-ref="WPARAM">WPARAM</dfn>;</td></tr>
+<tr><th id="145">145</th><td><b>typedef</b> <a class="typedef" href="basetsd.h.html#LONG_PTR" title='LONG_PTR' data-type='long' data-ref="LONG_PTR">LONG_PTR</a> <dfn class="typedef" id="LPARAM" title='LPARAM' data-type='LONG_PTR' data-ref="LPARAM">LPARAM</dfn>;</td></tr>
+<tr><th id="146">146</th><td><b>typedef</b> <a class="typedef" href="basetsd.h.html#LONG_PTR" title='LONG_PTR' data-type='long' data-ref="LONG_PTR">LONG_PTR</a> <dfn class="typedef" id="LRESULT" title='LRESULT' data-type='LONG_PTR' data-ref="LRESULT">LRESULT</dfn>;</td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td><u>#<span data-ppcond="148">ifndef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="149">149</th><td><u>#ifndef NOMINMAX</u></td></tr>
+<tr><th id="150">150</th><td><u>#ifndef max</u></td></tr>
+<tr><th id="151">151</th><td><u>#define max(a,b) (((a) &gt; (b)) ? (a) : (b))</u></td></tr>
+<tr><th id="152">152</th><td><u>#endif</u></td></tr>
+<tr><th id="153">153</th><td></td></tr>
+<tr><th id="154">154</th><td><u>#ifndef min</u></td></tr>
+<tr><th id="155">155</th><td><u>#define min(a,b) (((a) &lt; (b)) ? (a) : (b))</u></td></tr>
+<tr><th id="156">156</th><td><u>#endif</u></td></tr>
+<tr><th id="157">157</th><td><u>#endif</u></td></tr>
+<tr><th id="158">158</th><td><u>#<span data-ppcond="148">endif</span></u></td></tr>
+<tr><th id="159">159</th><td></td></tr>
+<tr><th id="160">160</th><td><u>#define <dfn class="macro" id="_M/MAKEWORD" data-ref="_M/MAKEWORD">MAKEWORD</dfn>(a,b) ((WORD)(((BYTE)((DWORD_PTR)(a) &amp; 0xff)) | ((WORD)((BYTE)((DWORD_PTR)(b) &amp; 0xff))) &lt;&lt; 8))</u></td></tr>
+<tr><th id="161">161</th><td><u>#define <dfn class="macro" id="_M/MAKELONG" data-ref="_M/MAKELONG">MAKELONG</dfn>(a,b) ((LONG)(((WORD)((DWORD_PTR)(a) &amp; 0xffff)) | ((DWORD)((WORD)((DWORD_PTR)(b) &amp; 0xffff))) &lt;&lt; 16))</u></td></tr>
+<tr><th id="162">162</th><td><u>#define <dfn class="macro" id="_M/LOWORD" data-ref="_M/LOWORD">LOWORD</dfn>(l) ((WORD)((DWORD_PTR)(l) &amp; 0xffff))</u></td></tr>
+<tr><th id="163">163</th><td><u>#define <dfn class="macro" id="_M/HIWORD" data-ref="_M/HIWORD">HIWORD</dfn>(l) ((WORD)((DWORD_PTR)(l) &gt;&gt; 16))</u></td></tr>
+<tr><th id="164">164</th><td><u>#define <dfn class="macro" id="_M/LOBYTE" data-ref="_M/LOBYTE">LOBYTE</dfn>(w) ((BYTE)((DWORD_PTR)(w) &amp; 0xff))</u></td></tr>
+<tr><th id="165">165</th><td><u>#define <dfn class="macro" id="_M/HIBYTE" data-ref="_M/HIBYTE">HIBYTE</dfn>(w) ((BYTE)((DWORD_PTR)(w) &gt;&gt; 8))</u></td></tr>
+<tr><th id="166">166</th><td></td></tr>
+<tr><th id="167">167</th><td><u>#<span data-ppcond="167">ifndef</span> <span class="macro" data-ref="_M/WIN_INTERNAL">WIN_INTERNAL</span></u></td></tr>
+<tr><th id="168">168</th><td><a class="macro" href="winnt.h.html#248" title="struct HWND__ { int unused; }; typedef struct HWND__ *HWND" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a> (<dfn class="typedef" id="HWND" title='HWND' data-type='struct HWND__ *' data-ref="HWND">HWND</dfn>);</td></tr>
+<tr><th id="169">169</th><td><a class="macro" href="winnt.h.html#248" title="struct HHOOK__ { int unused; }; typedef struct HHOOK__ *HHOOK" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a> (<dfn class="typedef" id="HHOOK" title='HHOOK' data-type='struct HHOOK__ *' data-ref="HHOOK">HHOOK</dfn>);</td></tr>
+<tr><th id="170">170</th><td><u>#<span data-ppcond="170">ifdef</span> <span class="macro" data-ref="_M/WINABLE">WINABLE</span></u></td></tr>
+<tr><th id="171">171</th><td>DECLARE_HANDLE (HEVENT);</td></tr>
+<tr><th id="172">172</th><td><u>#<span data-ppcond="170">endif</span></u></td></tr>
+<tr><th id="173">173</th><td><u>#<span data-ppcond="167">endif</span></u></td></tr>
+<tr><th id="174">174</th><td></td></tr>
+<tr><th id="175">175</th><td><b>typedef</b> <a class="typedef" href="#WORD" title='WORD' data-type='unsigned short' data-ref="WORD">WORD</a> <dfn class="typedef" id="ATOM" title='ATOM' data-type='WORD' data-ref="ATOM">ATOM</dfn>;</td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td><b>typedef</b> <a class="typedef" href="winnt.h.html#HANDLE" title='HANDLE' data-type='void *' data-ref="HANDLE">HANDLE</a> *<dfn class="typedef" id="SPHANDLE" title='SPHANDLE' data-type='HANDLE *' data-ref="SPHANDLE">SPHANDLE</dfn>;</td></tr>
+<tr><th id="178">178</th><td><b>typedef</b> <a class="typedef" href="winnt.h.html#HANDLE" title='HANDLE' data-type='void *' data-ref="HANDLE">HANDLE</a> *<dfn class="typedef" id="LPHANDLE" title='LPHANDLE' data-type='HANDLE *' data-ref="LPHANDLE">LPHANDLE</dfn>;</td></tr>
+<tr><th id="179">179</th><td><b>typedef</b> <a class="typedef" href="winnt.h.html#HANDLE" title='HANDLE' data-type='void *' data-ref="HANDLE">HANDLE</a> <dfn class="typedef" id="HGLOBAL" title='HGLOBAL' data-type='HANDLE' data-ref="HGLOBAL">HGLOBAL</dfn>;</td></tr>
+<tr><th id="180">180</th><td><b>typedef</b> <a class="typedef" href="winnt.h.html#HANDLE" title='HANDLE' data-type='void *' data-ref="HANDLE">HANDLE</a> <dfn class="typedef" id="HLOCAL" title='HLOCAL' data-type='HANDLE' data-ref="HLOCAL">HLOCAL</dfn>;</td></tr>
+<tr><th id="181">181</th><td><b>typedef</b> <a class="typedef" href="winnt.h.html#HANDLE" title='HANDLE' data-type='void *' data-ref="HANDLE">HANDLE</a> <dfn class="typedef" id="GLOBALHANDLE" title='GLOBALHANDLE' data-type='HANDLE' data-ref="GLOBALHANDLE">GLOBALHANDLE</dfn>;</td></tr>
+<tr><th id="182">182</th><td><b>typedef</b> <a class="typedef" href="winnt.h.html#HANDLE" title='HANDLE' data-type='void *' data-ref="HANDLE">HANDLE</a> <dfn class="typedef" id="LOCALHANDLE" title='LOCALHANDLE' data-type='HANDLE' data-ref="LOCALHANDLE">LOCALHANDLE</dfn>;</td></tr>
+<tr><th id="183">183</th><td><u>#<span data-ppcond="183">ifdef</span> <span class="macro" data-ref="_M/_WIN64">_WIN64</span></u></td></tr>
+<tr><th id="184">184</th><td><b>typedef</b> INT_PTR (WINAPI *FARPROC)();</td></tr>
+<tr><th id="185">185</th><td><b>typedef</b> INT_PTR (WINAPI *NEARPROC)();</td></tr>
+<tr><th id="186">186</th><td><b>typedef</b> INT_PTR (WINAPI *PROC)();</td></tr>
+<tr><th id="187">187</th><td><u>#<span data-ppcond="183">else</span></u></td></tr>
+<tr><th id="188">188</th><td><b>typedef</b> <em>int</em> (<a class="macro" href="#84" title="__stdcall" data-ref="_M/WINAPI">WINAPI</a> *<dfn class="typedef" id="FARPROC" title='FARPROC' data-type='int (*)() __attribute__((stdcall))' data-ref="FARPROC">FARPROC</dfn>)();</td></tr>
+<tr><th id="189">189</th><td><b>typedef</b> <em>int</em> (<a class="macro" href="#84" title="__stdcall" data-ref="_M/WINAPI">WINAPI</a> *<dfn class="typedef" id="NEARPROC" title='NEARPROC' data-type='int (*)() __attribute__((stdcall))' data-ref="NEARPROC">NEARPROC</dfn>)();</td></tr>
+<tr><th id="190">190</th><td><b>typedef</b> <em>int</em> (<a class="macro" href="#84" title="__stdcall" data-ref="_M/WINAPI">WINAPI</a> *<dfn class="typedef" id="PROC" title='PROC' data-type='int (*)() __attribute__((stdcall))' data-ref="PROC">PROC</dfn>)();</td></tr>
+<tr><th id="191">191</th><td><u>#<span data-ppcond="183">endif</span></u></td></tr>
+<tr><th id="192">192</th><td></td></tr>
+<tr><th id="193">193</th><td><b>typedef</b> <em>void</em> *<dfn class="typedef" id="HGDIOBJ" title='HGDIOBJ' data-type='void *' data-ref="HGDIOBJ">HGDIOBJ</dfn>;</td></tr>
+<tr><th id="194">194</th><td></td></tr>
+<tr><th id="195">195</th><td><a class="macro" href="winnt.h.html#248" title="struct HKEY__ { int unused; }; typedef struct HKEY__ *HKEY" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HKEY" title='HKEY' data-type='struct HKEY__ *' data-ref="HKEY">HKEY</dfn>);</td></tr>
+<tr><th id="196">196</th><td><b>typedef</b> <a class="typedef" href="#195" title='HKEY' data-type='struct HKEY__ *' data-ref="HKEY">HKEY</a> *<dfn class="typedef" id="PHKEY" title='PHKEY' data-type='HKEY *' data-ref="PHKEY">PHKEY</dfn>;</td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td><a class="macro" href="winnt.h.html#248" title="struct HACCEL__ { int unused; }; typedef struct HACCEL__ *HACCEL" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HACCEL" title='HACCEL' data-type='struct HACCEL__ *' data-ref="HACCEL">HACCEL</dfn>);</td></tr>
+<tr><th id="199">199</th><td><a class="macro" href="winnt.h.html#248" title="struct HBITMAP__ { int unused; }; typedef struct HBITMAP__ *HBITMAP" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HBITMAP" title='HBITMAP' data-type='struct HBITMAP__ *' data-ref="HBITMAP">HBITMAP</dfn>);</td></tr>
+<tr><th id="200">200</th><td><a class="macro" href="winnt.h.html#248" title="struct HBRUSH__ { int unused; }; typedef struct HBRUSH__ *HBRUSH" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HBRUSH" title='HBRUSH' data-type='struct HBRUSH__ *' data-ref="HBRUSH">HBRUSH</dfn>);</td></tr>
+<tr><th id="201">201</th><td><a class="macro" href="winnt.h.html#248" title="struct HCOLORSPACE__ { int unused; }; typedef struct HCOLORSPACE__ *HCOLORSPACE" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HCOLORSPACE" title='HCOLORSPACE' data-type='struct HCOLORSPACE__ *' data-ref="HCOLORSPACE">HCOLORSPACE</dfn>);</td></tr>
+<tr><th id="202">202</th><td><a class="macro" href="winnt.h.html#248" title="struct HDC__ { int unused; }; typedef struct HDC__ *HDC" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HDC" title='HDC' data-type='struct HDC__ *' data-ref="HDC">HDC</dfn>);</td></tr>
+<tr><th id="203">203</th><td><a class="macro" href="winnt.h.html#248" title="struct HGLRC__ { int unused; }; typedef struct HGLRC__ *HGLRC" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HGLRC" title='HGLRC' data-type='struct HGLRC__ *' data-ref="HGLRC">HGLRC</dfn>);</td></tr>
+<tr><th id="204">204</th><td><a class="macro" href="winnt.h.html#248" title="struct HDESK__ { int unused; }; typedef struct HDESK__ *HDESK" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HDESK" title='HDESK' data-type='struct HDESK__ *' data-ref="HDESK">HDESK</dfn>);</td></tr>
+<tr><th id="205">205</th><td><a class="macro" href="winnt.h.html#248" title="struct HENHMETAFILE__ { int unused; }; typedef struct HENHMETAFILE__ *HENHMETAFILE" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HENHMETAFILE" title='HENHMETAFILE' data-type='struct HENHMETAFILE__ *' data-ref="HENHMETAFILE">HENHMETAFILE</dfn>);</td></tr>
+<tr><th id="206">206</th><td><a class="macro" href="winnt.h.html#248" title="struct HFONT__ { int unused; }; typedef struct HFONT__ *HFONT" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HFONT" title='HFONT' data-type='struct HFONT__ *' data-ref="HFONT">HFONT</dfn>);</td></tr>
+<tr><th id="207">207</th><td><a class="macro" href="winnt.h.html#248" title="struct HICON__ { int unused; }; typedef struct HICON__ *HICON" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HICON" title='HICON' data-type='struct HICON__ *' data-ref="HICON">HICON</dfn>);</td></tr>
+<tr><th id="208">208</th><td><a class="macro" href="winnt.h.html#248" title="struct HMENU__ { int unused; }; typedef struct HMENU__ *HMENU" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HMENU" title='HMENU' data-type='struct HMENU__ *' data-ref="HMENU">HMENU</dfn>);</td></tr>
+<tr><th id="209">209</th><td><a class="macro" href="winnt.h.html#248" title="struct HMETAFILE__ { int unused; }; typedef struct HMETAFILE__ *HMETAFILE" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HMETAFILE" title='HMETAFILE' data-type='struct HMETAFILE__ *' data-ref="HMETAFILE">HMETAFILE</dfn>);</td></tr>
+<tr><th id="210">210</th><td><a class="macro" href="winnt.h.html#248" title="struct HINSTANCE__ { int unused; }; typedef struct HINSTANCE__ *HINSTANCE" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HINSTANCE" title='HINSTANCE' data-type='struct HINSTANCE__ *' data-ref="HINSTANCE">HINSTANCE</dfn>);</td></tr>
+<tr><th id="211">211</th><td><b>typedef</b> <a class="typedef" href="#210" title='HINSTANCE' data-type='struct HINSTANCE__ *' data-ref="HINSTANCE">HINSTANCE</a> <dfn class="typedef" id="HMODULE" title='HMODULE' data-type='HINSTANCE' data-ref="HMODULE">HMODULE</dfn>;</td></tr>
+<tr><th id="212">212</th><td><a class="macro" href="winnt.h.html#248" title="struct HPALETTE__ { int unused; }; typedef struct HPALETTE__ *HPALETTE" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HPALETTE" title='HPALETTE' data-type='struct HPALETTE__ *' data-ref="HPALETTE">HPALETTE</dfn>);</td></tr>
+<tr><th id="213">213</th><td><a class="macro" href="winnt.h.html#248" title="struct HPEN__ { int unused; }; typedef struct HPEN__ *HPEN" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HPEN" title='HPEN' data-type='struct HPEN__ *' data-ref="HPEN">HPEN</dfn>);</td></tr>
+<tr><th id="214">214</th><td><a class="macro" href="winnt.h.html#248" title="struct HRGN__ { int unused; }; typedef struct HRGN__ *HRGN" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HRGN" title='HRGN' data-type='struct HRGN__ *' data-ref="HRGN">HRGN</dfn>);</td></tr>
+<tr><th id="215">215</th><td><a class="macro" href="winnt.h.html#248" title="struct HRSRC__ { int unused; }; typedef struct HRSRC__ *HRSRC" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HRSRC" title='HRSRC' data-type='struct HRSRC__ *' data-ref="HRSRC">HRSRC</dfn>);</td></tr>
+<tr><th id="216">216</th><td><a class="macro" href="winnt.h.html#248" title="struct HSTR__ { int unused; }; typedef struct HSTR__ *HSTR" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HSTR" title='HSTR' data-type='struct HSTR__ *' data-ref="HSTR">HSTR</dfn>);</td></tr>
+<tr><th id="217">217</th><td><a class="macro" href="winnt.h.html#248" title="struct HTASK__ { int unused; }; typedef struct HTASK__ *HTASK" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HTASK" title='HTASK' data-type='struct HTASK__ *' data-ref="HTASK">HTASK</dfn>);</td></tr>
+<tr><th id="218">218</th><td><a class="macro" href="winnt.h.html#248" title="struct HWINSTA__ { int unused; }; typedef struct HWINSTA__ *HWINSTA" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HWINSTA" title='HWINSTA' data-type='struct HWINSTA__ *' data-ref="HWINSTA">HWINSTA</dfn>);</td></tr>
+<tr><th id="219">219</th><td><a class="macro" href="winnt.h.html#248" title="struct HKL__ { int unused; }; typedef struct HKL__ *HKL" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HKL" title='HKL' data-type='struct HKL__ *' data-ref="HKL">HKL</dfn>);</td></tr>
+<tr><th id="220">220</th><td><a class="macro" href="winnt.h.html#248" title="struct HMONITOR__ { int unused; }; typedef struct HMONITOR__ *HMONITOR" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HMONITOR" title='HMONITOR' data-type='struct HMONITOR__ *' data-ref="HMONITOR">HMONITOR</dfn>);</td></tr>
+<tr><th id="221">221</th><td><a class="macro" href="winnt.h.html#248" title="struct HWINEVENTHOOK__ { int unused; }; typedef struct HWINEVENTHOOK__ *HWINEVENTHOOK" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HWINEVENTHOOK" title='HWINEVENTHOOK' data-type='struct HWINEVENTHOOK__ *' data-ref="HWINEVENTHOOK">HWINEVENTHOOK</dfn>);</td></tr>
+<tr><th id="222">222</th><td><a class="macro" href="winnt.h.html#248" title="struct HUMPD__ { int unused; }; typedef struct HUMPD__ *HUMPD" data-ref="_M/DECLARE_HANDLE">DECLARE_HANDLE</a>(<dfn class="typedef" id="HUMPD" title='HUMPD' data-type='struct HUMPD__ *' data-ref="HUMPD">HUMPD</dfn>);</td></tr>
+<tr><th id="223">223</th><td></td></tr>
+<tr><th id="224">224</th><td><b>typedef</b> <em>int</em> <dfn class="typedef" id="HFILE" title='HFILE' data-type='int' data-ref="HFILE">HFILE</dfn>;</td></tr>
+<tr><th id="225">225</th><td><b>typedef</b> <a class="typedef" href="#207" title='HICON' data-type='struct HICON__ *' data-ref="HICON">HICON</a> <dfn class="typedef" id="HCURSOR" title='HCURSOR' data-type='HICON' data-ref="HCURSOR">HCURSOR</dfn>;</td></tr>
+<tr><th id="226">226</th><td><b>typedef</b> <a class="typedef" href="#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="typedef" id="COLORREF" title='COLORREF' data-type='DWORD' data-ref="COLORREF">COLORREF</dfn>;</td></tr>
+<tr><th id="227">227</th><td><b>typedef</b> <a class="typedef" href="#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> *<dfn class="typedef" id="LPCOLORREF" title='LPCOLORREF' data-type='DWORD *' data-ref="LPCOLORREF">LPCOLORREF</dfn>;</td></tr>
+<tr><th id="228">228</th><td></td></tr>
+<tr><th id="229">229</th><td><u>#define <dfn class="macro" id="_M/HFILE_ERROR" data-ref="_M/HFILE_ERROR">HFILE_ERROR</dfn> ((HFILE)-1)</u></td></tr>
+<tr><th id="230">230</th><td></td></tr>
+<tr><th id="231">231</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="tagRECT" title='tagRECT' data-ref="tagRECT"><a class="type" href="#tagRECT" title='tagRECT' data-ref="tagRECT"><a class="type" href="#tagRECT" title='tagRECT' data-ref="tagRECT"><a class="type" href="#tagRECT" title='tagRECT' data-ref="tagRECT"><a class="type" href="#tagRECT" title='tagRECT' data-ref="tagRECT">tagRECT</a></a></a></a></dfn> {</td></tr>
+<tr><th id="232">232</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="tagRECT::left" title='tagRECT::left' data-ref="tagRECT::left">left</dfn>;</td></tr>
+<tr><th id="233">233</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="tagRECT::top" title='tagRECT::top' data-ref="tagRECT::top">top</dfn>;</td></tr>
+<tr><th id="234">234</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="tagRECT::right" title='tagRECT::right' data-ref="tagRECT::right">right</dfn>;</td></tr>
+<tr><th id="235">235</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="tagRECT::bottom" title='tagRECT::bottom' data-ref="tagRECT::bottom">bottom</dfn>;</td></tr>
+<tr><th id="236">236</th><td>} <dfn class="typedef" id="RECT" title='RECT' data-type='struct tagRECT' data-ref="RECT">RECT</dfn>,*<dfn class="typedef" id="PRECT" title='PRECT' data-type='struct tagRECT *' data-ref="PRECT">PRECT</dfn>,*<dfn class="typedef" id="NPRECT" title='NPRECT' data-type='struct tagRECT *' data-ref="NPRECT">NPRECT</dfn>,*<dfn class="typedef" id="LPRECT" title='LPRECT' data-type='struct tagRECT *' data-ref="LPRECT">LPRECT</dfn>;</td></tr>
+<tr><th id="237">237</th><td></td></tr>
+<tr><th id="238">238</th><td><b>typedef</b> <em>const</em> <a class="typedef" href="#RECT" title='RECT' data-type='struct tagRECT' data-ref="RECT">RECT</a> *<dfn class="typedef" id="LPCRECT" title='LPCRECT' data-type='const RECT *' data-ref="LPCRECT">LPCRECT</dfn>;</td></tr>
+<tr><th id="239">239</th><td></td></tr>
+<tr><th id="240">240</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_RECTL" title='_RECTL' data-ref="_RECTL"><a class="type" href="#_RECTL" title='_RECTL' data-ref="_RECTL"><a class="type" href="#_RECTL" title='_RECTL' data-ref="_RECTL"><a class="type" href="#_RECTL" title='_RECTL' data-ref="_RECTL">_RECTL</a></a></a></dfn> {</td></tr>
+<tr><th id="241">241</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="_RECTL::left" title='_RECTL::left' data-ref="_RECTL::left">left</dfn>;</td></tr>
+<tr><th id="242">242</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="_RECTL::top" title='_RECTL::top' data-ref="_RECTL::top">top</dfn>;</td></tr>
+<tr><th id="243">243</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="_RECTL::right" title='_RECTL::right' data-ref="_RECTL::right">right</dfn>;</td></tr>
+<tr><th id="244">244</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="_RECTL::bottom" title='_RECTL::bottom' data-ref="_RECTL::bottom">bottom</dfn>;</td></tr>
+<tr><th id="245">245</th><td>} <dfn class="typedef" id="RECTL" title='RECTL' data-type='struct _RECTL' data-ref="RECTL">RECTL</dfn>,*<dfn class="typedef" id="PRECTL" title='PRECTL' data-type='struct _RECTL *' data-ref="PRECTL">PRECTL</dfn>,*<dfn class="typedef" id="LPRECTL" title='LPRECTL' data-type='struct _RECTL *' data-ref="LPRECTL">LPRECTL</dfn>;</td></tr>
+<tr><th id="246">246</th><td></td></tr>
+<tr><th id="247">247</th><td><b>typedef</b> <em>const</em> <a class="typedef" href="#RECTL" title='RECTL' data-type='struct _RECTL' data-ref="RECTL">RECTL</a> *<dfn class="typedef" id="LPCRECTL" title='LPCRECTL' data-type='const RECTL *' data-ref="LPCRECTL">LPCRECTL</dfn>;</td></tr>
+<tr><th id="248">248</th><td></td></tr>
+<tr><th id="249">249</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="tagPOINT" title='tagPOINT' data-ref="tagPOINT"><a class="type" href="#tagPOINT" title='tagPOINT' data-ref="tagPOINT"><a class="type" href="#tagPOINT" title='tagPOINT' data-ref="tagPOINT"><a class="type" href="#tagPOINT" title='tagPOINT' data-ref="tagPOINT"><a class="type" href="#tagPOINT" title='tagPOINT' data-ref="tagPOINT">tagPOINT</a></a></a></a></dfn> {</td></tr>
+<tr><th id="250">250</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="tagPOINT::x" title='tagPOINT::x' data-ref="tagPOINT::x">x</dfn>;</td></tr>
+<tr><th id="251">251</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="tagPOINT::y" title='tagPOINT::y' data-ref="tagPOINT::y">y</dfn>;</td></tr>
+<tr><th id="252">252</th><td>} <dfn class="typedef" id="POINT" title='POINT' data-type='struct tagPOINT' data-ref="POINT">POINT</dfn>,*<dfn class="typedef" id="PPOINT" title='PPOINT' data-type='struct tagPOINT *' data-ref="PPOINT">PPOINT</dfn>,*<dfn class="typedef" id="NPPOINT" title='NPPOINT' data-type='struct tagPOINT *' data-ref="NPPOINT">NPPOINT</dfn>,*<dfn class="typedef" id="LPPOINT" title='LPPOINT' data-type='struct tagPOINT *' data-ref="LPPOINT">LPPOINT</dfn>;</td></tr>
+<tr><th id="253">253</th><td></td></tr>
+<tr><th id="254">254</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_POINTL" title='_POINTL' data-ref="_POINTL"><a class="type" href="#_POINTL" title='_POINTL' data-ref="_POINTL"><a class="type" href="#_POINTL" title='_POINTL' data-ref="_POINTL">_POINTL</a></a></dfn> {</td></tr>
+<tr><th id="255">255</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="_POINTL::x" title='_POINTL::x' data-ref="_POINTL::x">x</dfn>;</td></tr>
+<tr><th id="256">256</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="_POINTL::y" title='_POINTL::y' data-ref="_POINTL::y">y</dfn>;</td></tr>
+<tr><th id="257">257</th><td>} <dfn class="typedef" id="POINTL" title='POINTL' data-type='struct _POINTL' data-ref="POINTL">POINTL</dfn>,*<dfn class="typedef" id="PPOINTL" title='PPOINTL' data-type='struct _POINTL *' data-ref="PPOINTL">PPOINTL</dfn>;</td></tr>
+<tr><th id="258">258</th><td></td></tr>
+<tr><th id="259">259</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="tagSIZE" title='tagSIZE' data-ref="tagSIZE"><a class="type" href="#tagSIZE" title='tagSIZE' data-ref="tagSIZE"><a class="type" href="#tagSIZE" title='tagSIZE' data-ref="tagSIZE"><a class="type" href="#tagSIZE" title='tagSIZE' data-ref="tagSIZE">tagSIZE</a></a></a></dfn> {</td></tr>
+<tr><th id="260">260</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="tagSIZE::cx" title='tagSIZE::cx' data-ref="tagSIZE::cx">cx</dfn>;</td></tr>
+<tr><th id="261">261</th><td>  <a class="typedef" href="winnt.h.html#LONG" title='LONG' data-type='long' data-ref="LONG">LONG</a> <dfn class="decl" id="tagSIZE::cy" title='tagSIZE::cy' data-ref="tagSIZE::cy">cy</dfn>;</td></tr>
+<tr><th id="262">262</th><td>} <dfn class="typedef" id="SIZE" title='SIZE' data-type='struct tagSIZE' data-ref="SIZE">SIZE</dfn>,*<dfn class="typedef" id="PSIZE" title='PSIZE' data-type='struct tagSIZE *' data-ref="PSIZE">PSIZE</dfn>,*<dfn class="typedef" id="LPSIZE" title='LPSIZE' data-type='struct tagSIZE *' data-ref="LPSIZE">LPSIZE</dfn>;</td></tr>
+<tr><th id="263">263</th><td></td></tr>
+<tr><th id="264">264</th><td><b>typedef</b> <a class="typedef" href="#SIZE" title='SIZE' data-type='struct tagSIZE' data-ref="SIZE">SIZE</a> <dfn class="typedef" id="SIZEL" title='SIZEL' data-type='SIZE' data-ref="SIZEL">SIZEL</dfn>;</td></tr>
+<tr><th id="265">265</th><td><b>typedef</b> <a class="typedef" href="#SIZE" title='SIZE' data-type='struct tagSIZE' data-ref="SIZE">SIZE</a> *<dfn class="typedef" id="PSIZEL" title='PSIZEL' data-type='SIZE *' data-ref="PSIZEL">PSIZEL</dfn>,*<dfn class="typedef" id="LPSIZEL" title='LPSIZEL' data-type='SIZE *' data-ref="LPSIZEL">LPSIZEL</dfn>;</td></tr>
+<tr><th id="266">266</th><td></td></tr>
+<tr><th id="267">267</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="tagPOINTS" title='tagPOINTS' data-ref="tagPOINTS"><a class="type" href="#tagPOINTS" title='tagPOINTS' data-ref="tagPOINTS"><a class="type" href="#tagPOINTS" title='tagPOINTS' data-ref="tagPOINTS"><a class="type" href="#tagPOINTS" title='tagPOINTS' data-ref="tagPOINTS">tagPOINTS</a></a></a></dfn> {</td></tr>
+<tr><th id="268">268</th><td>  <a class="typedef" href="winnt.h.html#SHORT" title='SHORT' data-type='short' data-ref="SHORT">SHORT</a> <dfn class="decl" id="tagPOINTS::x" title='tagPOINTS::x' data-ref="tagPOINTS::x">x</dfn>;</td></tr>
+<tr><th id="269">269</th><td>  <a class="typedef" href="winnt.h.html#SHORT" title='SHORT' data-type='short' data-ref="SHORT">SHORT</a> <dfn class="decl" id="tagPOINTS::y" title='tagPOINTS::y' data-ref="tagPOINTS::y">y</dfn>;</td></tr>
+<tr><th id="270">270</th><td>} <dfn class="typedef" id="POINTS" title='POINTS' data-type='struct tagPOINTS' data-ref="POINTS">POINTS</dfn>,*<dfn class="typedef" id="PPOINTS" title='PPOINTS' data-type='struct tagPOINTS *' data-ref="PPOINTS">PPOINTS</dfn>,*<dfn class="typedef" id="LPPOINTS" title='LPPOINTS' data-type='struct tagPOINTS *' data-ref="LPPOINTS">LPPOINTS</dfn>;</td></tr>
+<tr><th id="271">271</th><td></td></tr>
+<tr><th id="272">272</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_FILETIME" title='_FILETIME' data-ref="_FILETIME"><a class="type" href="#_FILETIME" title='_FILETIME' data-ref="_FILETIME"><a class="type" href="#_FILETIME" title='_FILETIME' data-ref="_FILETIME"><a class="type" href="#_FILETIME" title='_FILETIME' data-ref="_FILETIME">_FILETIME</a></a></a></dfn> {</td></tr>
+<tr><th id="273">273</th><td>  <a class="typedef" href="#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_FILETIME::dwLowDateTime" title='_FILETIME::dwLowDateTime' data-ref="_FILETIME::dwLowDateTime">dwLowDateTime</dfn>;</td></tr>
+<tr><th id="274">274</th><td>  <a class="typedef" href="#DWORD" title='DWORD' data-type='unsigned long' data-ref="DWORD">DWORD</a> <dfn class="decl" id="_FILETIME::dwHighDateTime" title='_FILETIME::dwHighDateTime' data-ref="_FILETIME::dwHighDateTime">dwHighDateTime</dfn>;</td></tr>
+<tr><th id="275">275</th><td>} <dfn class="typedef" id="FILETIME" title='FILETIME' data-type='struct _FILETIME' data-ref="FILETIME">FILETIME</dfn>,*<dfn class="typedef" id="PFILETIME" title='PFILETIME' data-type='struct _FILETIME *' data-ref="PFILETIME">PFILETIME</dfn>,*<dfn class="typedef" id="LPFILETIME" title='LPFILETIME' data-type='struct _FILETIME *' data-ref="LPFILETIME">LPFILETIME</dfn>;</td></tr>
+<tr><th id="276">276</th><td><u>#define <dfn class="macro" id="_M/_FILETIME_" data-ref="_M/_FILETIME_">_FILETIME_</dfn></u></td></tr>
+<tr><th id="277">277</th><td></td></tr>
+<tr><th id="278">278</th><td><u>#define <dfn class="macro" id="_M/DM_UPDATE" data-ref="_M/DM_UPDATE">DM_UPDATE</dfn> 1</u></td></tr>
+<tr><th id="279">279</th><td><u>#define <dfn class="macro" id="_M/DM_COPY" data-ref="_M/DM_COPY">DM_COPY</dfn> 2</u></td></tr>
+<tr><th id="280">280</th><td><u>#define <dfn class="macro" id="_M/DM_PROMPT" data-ref="_M/DM_PROMPT">DM_PROMPT</dfn> 4</u></td></tr>
+<tr><th id="281">281</th><td><u>#define <dfn class="macro" id="_M/DM_MODIFY" data-ref="_M/DM_MODIFY">DM_MODIFY</dfn> 8</u></td></tr>
+<tr><th id="282">282</th><td></td></tr>
+<tr><th id="283">283</th><td><u>#define <dfn class="macro" id="_M/DM_IN_BUFFER" data-ref="_M/DM_IN_BUFFER">DM_IN_BUFFER</dfn> DM_MODIFY</u></td></tr>
+<tr><th id="284">284</th><td><u>#define <dfn class="macro" id="_M/DM_IN_PROMPT" data-ref="_M/DM_IN_PROMPT">DM_IN_PROMPT</dfn> DM_PROMPT</u></td></tr>
+<tr><th id="285">285</th><td><u>#define <dfn class="macro" id="_M/DM_OUT_BUFFER" data-ref="_M/DM_OUT_BUFFER">DM_OUT_BUFFER</dfn> DM_COPY</u></td></tr>
+<tr><th id="286">286</th><td><u>#define <dfn class="macro" id="_M/DM_OUT_DEFAULT" data-ref="_M/DM_OUT_DEFAULT">DM_OUT_DEFAULT</dfn> DM_UPDATE</u></td></tr>
+<tr><th id="287">287</th><td></td></tr>
+<tr><th id="288">288</th><td><u>#define <dfn class="macro" id="_M/DC_FIELDS" data-ref="_M/DC_FIELDS">DC_FIELDS</dfn> 1</u></td></tr>
+<tr><th id="289">289</th><td><u>#define <dfn class="macro" id="_M/DC_PAPERS" data-ref="_M/DC_PAPERS">DC_PAPERS</dfn> 2</u></td></tr>
+<tr><th id="290">290</th><td><u>#define <dfn class="macro" id="_M/DC_PAPERSIZE" data-ref="_M/DC_PAPERSIZE">DC_PAPERSIZE</dfn> 3</u></td></tr>
+<tr><th id="291">291</th><td><u>#define <dfn class="macro" id="_M/DC_MINEXTENT" data-ref="_M/DC_MINEXTENT">DC_MINEXTENT</dfn> 4</u></td></tr>
+<tr><th id="292">292</th><td><u>#define <dfn class="macro" id="_M/DC_MAXEXTENT" data-ref="_M/DC_MAXEXTENT">DC_MAXEXTENT</dfn> 5</u></td></tr>
+<tr><th id="293">293</th><td><u>#define <dfn class="macro" id="_M/DC_BINS" data-ref="_M/DC_BINS">DC_BINS</dfn> 6</u></td></tr>
+<tr><th id="294">294</th><td><u>#define <dfn class="macro" id="_M/DC_DUPLEX" data-ref="_M/DC_DUPLEX">DC_DUPLEX</dfn> 7</u></td></tr>
+<tr><th id="295">295</th><td><u>#define <dfn class="macro" id="_M/DC_SIZE" data-ref="_M/DC_SIZE">DC_SIZE</dfn> 8</u></td></tr>
+<tr><th id="296">296</th><td><u>#define <dfn class="macro" id="_M/DC_EXTRA" data-ref="_M/DC_EXTRA">DC_EXTRA</dfn> 9</u></td></tr>
+<tr><th id="297">297</th><td><u>#define <dfn class="macro" id="_M/DC_VERSION" data-ref="_M/DC_VERSION">DC_VERSION</dfn> 10</u></td></tr>
+<tr><th id="298">298</th><td><u>#define <dfn class="macro" id="_M/DC_DRIVER" data-ref="_M/DC_DRIVER">DC_DRIVER</dfn> 11</u></td></tr>
+<tr><th id="299">299</th><td><u>#define <dfn class="macro" id="_M/DC_BINNAMES" data-ref="_M/DC_BINNAMES">DC_BINNAMES</dfn> 12</u></td></tr>
+<tr><th id="300">300</th><td><u>#define <dfn class="macro" id="_M/DC_ENUMRESOLUTIONS" data-ref="_M/DC_ENUMRESOLUTIONS">DC_ENUMRESOLUTIONS</dfn> 13</u></td></tr>
+<tr><th id="301">301</th><td><u>#define <dfn class="macro" id="_M/DC_FILEDEPENDENCIES" data-ref="_M/DC_FILEDEPENDENCIES">DC_FILEDEPENDENCIES</dfn> 14</u></td></tr>
+<tr><th id="302">302</th><td><u>#define <dfn class="macro" id="_M/DC_TRUETYPE" data-ref="_M/DC_TRUETYPE">DC_TRUETYPE</dfn> 15</u></td></tr>
+<tr><th id="303">303</th><td><u>#define <dfn class="macro" id="_M/DC_PAPERNAMES" data-ref="_M/DC_PAPERNAMES">DC_PAPERNAMES</dfn> 16</u></td></tr>
+<tr><th id="304">304</th><td><u>#define <dfn class="macro" id="_M/DC_ORIENTATION" data-ref="_M/DC_ORIENTATION">DC_ORIENTATION</dfn> 17</u></td></tr>
+<tr><th id="305">305</th><td><u>#define <dfn class="macro" id="_M/DC_COPIES" data-ref="_M/DC_COPIES">DC_COPIES</dfn> 18</u></td></tr>
+<tr><th id="306">306</th><td></td></tr>
+<tr><th id="307">307</th><td><u>#<span data-ppcond="307">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="308">308</th><td>}</td></tr>
+<tr><th id="309">309</th><td><u>#<span data-ppcond="307">endif</span></u></td></tr>
+<tr><th id="310">310</th><td></td></tr>
+<tr><th id="311">311</th><td><u>#<span data-ppcond="6">endif</span> /* _WINDEF_ */</u></td></tr>
+<tr><th id="312">312</th><td></td></tr>
+<tr><th id="313">313</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

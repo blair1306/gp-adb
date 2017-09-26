@@ -1,0 +1,3 @@
+<dec f='codebrowser/external/libcxx/include/__mutex_base' l='159' type='void std::__1::unique_lock::lock()'/>
+<def f='codebrowser/external/libcxx/include/__mutex_base' l='193' ll='203' type='void std::__1::unique_lock::lock()'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='368' u='c' c='_ZL13usb_bulk_readP10usb_handlePvi'/>

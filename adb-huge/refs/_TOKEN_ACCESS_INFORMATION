@@ -1,0 +1,10 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3372' ll='3381'/>
+<size>36</size>
+<mbr r='_TOKEN_ACCESS_INFORMATION::SidHash' o='0' t='PSID_AND_ATTRIBUTES_HASH'/>
+<mbr r='_TOKEN_ACCESS_INFORMATION::RestrictedSidHash' o='32' t='PSID_AND_ATTRIBUTES_HASH'/>
+<mbr r='_TOKEN_ACCESS_INFORMATION::Privileges' o='64' t='PTOKEN_PRIVILEGES'/>
+<mbr r='_TOKEN_ACCESS_INFORMATION::AuthenticationId' o='96' t='LUID'/>
+<mbr r='_TOKEN_ACCESS_INFORMATION::TokenType' o='160' t='TOKEN_TYPE'/>
+<mbr r='_TOKEN_ACCESS_INFORMATION::ImpersonationLevel' o='192' t='SECURITY_IMPERSONATION_LEVEL'/>
+<mbr r='_TOKEN_ACCESS_INFORMATION::MandatoryPolicy' o='224' t='TOKEN_MANDATORY_POLICY'/>
+<mbr r='_TOKEN_ACCESS_INFORMATION::Flags' o='256' t='DWORD'/>

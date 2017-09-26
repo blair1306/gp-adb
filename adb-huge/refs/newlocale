@@ -1,0 +1,25 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='152' type='__locale_t newlocale(int __category_mask, const char * __locale, __locale_t __base)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='148'>/* Return a reference to a data structure representing a set of locale
+   datasets.  Unlike for the CATEGORY parameter for `setlocale&apos; the
+   CATEGORY_MASK parameter here uses a single bit for each category,
+   made by OR&apos;ing together LC_*_MASK bits above.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='53' u='c' c='_ZNSt3__16__clocEv'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='659' u='c' c='_ZNSt3__114collate_bynameIcEC1EPKcm'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='670' u='c' c='_ZNSt3__114collate_bynameIcEC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEm'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='711' u='c' c='_ZNSt3__114collate_bynameIwEC1EPKcm'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='722' u='c' c='_ZNSt3__114collate_bynameIwEC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEm'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1181' u='c' c='_ZNSt3__112ctype_bynameIcEC1EPKcm'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1192' u='c' c='_ZNSt3__112ctype_bynameIcEC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEm'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1238' u='c' c='_ZNSt3__112ctype_bynameIwEC1EPKcm'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1249' u='c' c='_ZNSt3__112ctype_bynameIwEC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEm'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1529' u='c' c='_ZNSt3__17codecvtIwc11__mbstate_tEC1EPKcm'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4329' u='c' c='_ZNSt3__115numpunct_bynameIcE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4372' u='c' c='_ZNSt3__115numpunct_bynameIwE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4782' u='c' c='_ZNSt3__110__time_getC1EPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4792' u='c' c='_ZNSt3__110__time_getC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5470' u='c' c='_ZNSt3__110__time_putC1EPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5480' u='c' c='_ZNSt3__110__time_putC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5904' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5952' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6017' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6100' u='c' c='_ZNSt3__117moneypunct_byname4initEPKc'/>

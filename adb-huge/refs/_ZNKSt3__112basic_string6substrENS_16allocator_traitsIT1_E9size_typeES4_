@@ -1,0 +1,8 @@
+<dec f='codebrowser/external/libcxx/include/string' l='1603' type='basic_string&lt;_CharT, _Traits, _Allocator&gt; std::__1::basic_string::substr(size_type __pos = 0, size_type __n = npos) const'/>
+<def f='codebrowser/external/libcxx/include/string' l='3348' ll='3354' type='basic_string&lt;_CharT, _Traits, _Allocator&gt; std::__1::basic_string::substr(size_type __pos = 0, size_type __n = npos) const'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='39' u='c' c='_Z11ElideMiddleRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEm'/>
+<use f='codebrowser/system/core/adb/line_printer.cpp' l='41' u='c' c='_Z11ElideMiddleRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEm'/>
+<use f='codebrowser/system/core/base/parsenetaddress.cpp' l='42' u='c' c='_ZN7android4base15ParseNetAddressERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_PiSA_SA_'/>
+<use f='codebrowser/system/core/base/parsenetaddress.cpp' l='43' u='c' c='_ZN7android4base15ParseNetAddressERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPS7_PiSA_SA_'/>
+<use f='codebrowser/system/core/base/strings.cpp' l='41' u='c' c='_ZN7android4base5SplitERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_'/>
+<use f='codebrowser/system/core/base/strings.cpp' l='79' u='c' c='_ZN7android4base4TrimERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE'/>

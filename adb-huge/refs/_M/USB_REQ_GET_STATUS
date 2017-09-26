@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='80'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='73'>/*
+ * Standard requests, for the bRequest field of a SETUP packet.
+ *
+ * These are qualified by the bRequestType field, so that for example
+ * TYPE_CLASS or TYPE_VENDOR specific feature flags could be retrieved
+ * by a GET_STATUS request.
+ */</doc>

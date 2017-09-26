@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='858' type='int rmdir(const char * __path)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='857'>/* Remove the directory PATH.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='269' type='int rmdir(const char * )'/>
+<use f='codebrowser/system/core/base/test_utils.cpp' l='97' u='c' c='_ZN12TemporaryDirD1Ev'/>

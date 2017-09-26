@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/wctype.h' l='299' type='wint_t towlower_l(wint_t __wc, __locale_t __locale)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/wctype.h' l='298'>/* Converts an uppercase letter to the corresponding lowercase letter.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1397' u='c' c='_ZNKSt3__112ctype_bynameIwE10do_tolowerEw'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1404' u='c' c='_ZNKSt3__112ctype_bynameIwE10do_tolowerEPwPKw'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='238' type='int fclose(FILE * __stream)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdio.h' l='234'>/* Close STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/file.c' l='145' u='c' c='BIO_new_file'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/file.c' l='176' u='c' c='file_free'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='215' u='c' c='_ZL20write_public_keyfileP6rsa_stPKc'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='266' u='c' c='_ZL12generate_keyPKc'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='288' u='c' c='_ZL8read_keyPKcP8listnode'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='294' u='c' c='_ZL8read_keyPKcP8listnode'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='428' type='int fclose(FILE * _File)'/>

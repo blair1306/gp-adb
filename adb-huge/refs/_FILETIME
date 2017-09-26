@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/windef.h' l='272' ll='275'/>
+<size>8</size>
+<mbr r='_FILETIME::dwLowDateTime' o='0' t='DWORD'/>
+<mbr r='_FILETIME::dwHighDateTime' o='32' t='DWORD'/>

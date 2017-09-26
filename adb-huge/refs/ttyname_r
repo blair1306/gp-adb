@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='797' type='int ttyname_r(int __fd, char * __buf, size_t __buflen)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/unistd.h' l='291' ll='303' macro='1' type='int ttyname_r(int __fd, char * __buf, size_t __buflen)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='795'>/* Store at most BUFLEN characters of the pathname of the terminal FD is
+   open on in BUF.  Return 0 on success, otherwise an error number.  */</doc>

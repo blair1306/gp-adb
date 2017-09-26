@@ -1,0 +1,8 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='161' ll='165'/>
+<size>32</size>
+<mbr r='itimerspec::it_interval' o='0' t='struct timespec'/>
+<mbr r='itimerspec::it_value' o='128' t='struct timespec'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/types.h' l='94' ll='97'/>
+<size>24</size>
+<mbr r='itimerspec::it_interval' o='0' t='struct timespec'/>
+<mbr r='itimerspec::it_value' o='96' t='struct timespec'/>

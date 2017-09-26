@@ -1,0 +1,11 @@
+<dec f='codebrowser/system/core/adb/adb_utils.h' l='36' type='std::string escape_arg(const std::string &amp; s)'/>
+<def f='codebrowser/system/core/adb/adb_utils.cpp' l='70' ll='89' type='std::string escape_arg(const std::string &amp; s)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1170' u='c' c='_ZL6logcat13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1181' u='c' c='_ZL6logcat13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1225' u='c' c='_ZL6backupiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1628' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1927' u='c' c='_ZL13uninstall_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1963' u='c' c='_ZL11install_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2025' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2125' u='c' c='_ZL10pm_command13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2151' u='c' c='_ZL11delete_file13TransportTypePKcRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE'/>

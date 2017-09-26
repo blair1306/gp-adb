@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/liblog/fake_log_device.h' l='28' type='ssize_t fakeLogWritev(int fd, const struct iovec * vector, int count)'/>
+<def f='codebrowser/system/core/liblog/fake_log_device.c' l='707' ll='712' macro='1' type='ssize_t fakeLogWritev(int fd, const struct iovec * vector, int count)'/>
+<use f='codebrowser/system/core/liblog/fake_writer.c' l='76' u='c' c='fakeWrite'/>
+<use f='codebrowser/system/core/liblog/fake_writer.c' l='76' u='c' c='fakeWrite'/>

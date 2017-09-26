@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3000' ll='3005'/>
+<size>12</size>
+<mbr r='_ACCESS_ALLOWED_CALLBACK_ACE::Header' o='0' t='ACE_HEADER'/>
+<mbr r='_ACCESS_ALLOWED_CALLBACK_ACE::Mask' o='32' t='ACCESS_MASK'/>
+<mbr r='_ACCESS_ALLOWED_CALLBACK_ACE::SidStart' o='64' t='DWORD'/>

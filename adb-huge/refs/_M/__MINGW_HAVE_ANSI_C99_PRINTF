@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_mac.h' l='171'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/_mingw_mac.h' l='169'>/* MinGW-w64 has some additional C99 printf/scanf feature support.
+   So we add some helper macros to ease recognition of them.  */</doc>

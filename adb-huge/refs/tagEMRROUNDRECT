@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='3721' ll='3725'/>
+<size>32</size>
+<mbr r='tagEMRROUNDRECT::emr' o='0' t='EMR'/>
+<mbr r='tagEMRROUNDRECT::rclBox' o='64' t='RECTL'/>
+<mbr r='tagEMRROUNDRECT::szlCorner' o='192' t='SIZEL'/>

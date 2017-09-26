@@ -1,0 +1,8 @@
+_ZNSt9exceptionC1Ev|std::exception::exception
+_ZNSt13exception_ptrC1Ev|std::exception_ptr::exception_ptr
+_ZNKSt13exception_ptrcvbEv|std::exception_ptr::operator bool
+_ZNSt13exception_ptrC1ERKS_|std::exception_ptr::exception_ptr
+_ZNSt13exception_ptraSERKS_|std::exception_ptr::operator=
+_ZNSt13exception_ptrD1Ev|std::exception_ptr::~exception_ptr
+_ZNKSt9exception4whatEv|std::exception::what
+_ZNSt9exceptionD1Ev|std::exception::~exception

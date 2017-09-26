@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='1362' ll='1367'/>
+<size>16</size>
+<mbr r='tagTRACKMOUSEEVENT::cbSize' o='0' t='DWORD'/>
+<mbr r='tagTRACKMOUSEEVENT::dwFlags' o='32' t='DWORD'/>
+<mbr r='tagTRACKMOUSEEVENT::hwndTrack' o='64' t='HWND'/>
+<mbr r='tagTRACKMOUSEEVENT::dwHoverTime' o='96' t='DWORD'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='804' type='int pthread_mutexattr_setpshared(pthread_mutexattr_t * __attr, int __pshared)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='803'>/* Set the process-shared flag of the mutex attribute ATTR.  */</doc>

@@ -1,0 +1,4 @@
+<use f='codebrowser/external/libcxx/src/chrono.cpp' l='40' u='c' c='_ZNSt3__16chrono12system_clock3nowEv'/>
+<use f='codebrowser/external/libcxx/src/chrono.cpp' l='77' u='c' c='_ZNSt3__16chrono12steady_clock3nowEv'/>
+<use f='codebrowser/external/libcxx/src/condition_variable.cpp' l='60' u='c' c='_ZNSt3__118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILl1ELl1000000000EEEEEEE'/>
+<use f='codebrowser/external/libcxx/src/thread.cpp' l='114' u='c' c='_ZNSt3__111this_thread9sleep_forERKNS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE'/>

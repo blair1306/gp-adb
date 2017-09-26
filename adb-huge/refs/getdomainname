@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='920' type='int getdomainname(char * __name, size_t __len)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/unistd.h' l='373' ll='385' macro='1' type='int getdomainname(char * __buf, size_t __buflen)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='917'>/* Get and set the NIS (aka YP) domain name, if any.
+   Called just like `gethostname&apos; and `sethostname&apos;.
+   The NIS domain name is usually the empty string when not using NIS.  */</doc>

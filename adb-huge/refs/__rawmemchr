@@ -1,0 +1,19 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='394' type='void * __rawmemchr(const void * __s, int __c)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='399' u='c' c='__strsep_1c'/>
+<use f='codebrowser/external/boringssl/src/crypto/asn1/a_mbstr.c' l='388' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/connect.c' l='127' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/connect.c' l='139' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/connect.c' l='140' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/conf/conf.c' l='754' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/cpu-intel.c' l='255' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/err/err.c' l='402' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_alt.c' l='574' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_info.c' l='161' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_ncons.c' l='425' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_ncons.c' l='426' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_ncons.c' l='469' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_ncons.c' l='480' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_ncons.c' l='483' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='1060' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='1103' macro='1' u='c'/>
+<use f='codebrowser/system/core/libcutils/str_parms.c' l='166' macro='1' u='c'/>

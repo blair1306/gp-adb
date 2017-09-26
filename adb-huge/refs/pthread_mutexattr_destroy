@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='794' type='int pthread_mutexattr_destroy(pthread_mutexattr_t * __attr)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='793'>/* Destroy mutex attribute object ATTR.  */</doc>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='62' u='c' c='_ZNSt3__115recursive_mutexC1Ev'/>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='68' u='c' c='_ZNSt3__115recursive_mutexC1Ev'/>
+<use f='codebrowser/external/libcxx/src/mutex.cpp' l='71' u='c' c='_ZNSt3__115recursive_mutexC1Ev'/>

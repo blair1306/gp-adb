@@ -1,0 +1,11 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='148' type='ssize_t recv(int __fd, void * __buf, size_t __n, int __flags)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket2.h' l='34' ll='46' macro='1' type='ssize_t recv(int __fd, void * __buf, size_t __n, int __flags)'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/connect.c' l='368' u='c' c='conn_read'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='143'>/* Read N bytes into BUF from socket FD.
+   Returns the number read or -1 for errors.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket.c' l='113' u='c' c='sock_read'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='983' type='int recv(SOCKET s, char * buf, int len, int flags)'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='745' u='c' c='_ZL15_fh_socket_readP6FHRec_Pvi'/>

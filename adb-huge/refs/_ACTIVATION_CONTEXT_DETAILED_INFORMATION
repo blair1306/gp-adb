@@ -1,0 +1,14 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6243' ll='6256'/>
+<size>48</size>
+<mbr r='_ACTIVATION_CONTEXT_DETAILED_INFORMATION::dwFlags' o='0' t='DWORD'/>
+<mbr r='_ACTIVATION_CONTEXT_DETAILED_INFORMATION::ulFormatVersion' o='32' t='DWORD'/>
+<mbr r='_ACTIVATION_CONTEXT_DETAILED_INFORMATION::ulAssemblyCount' o='64' t='DWORD'/>
+<mbr r='_ACTIVATION_CONTEXT_DETAILED_INFORMATION::ulRootManifestPathType' o='96' t='DWORD'/>
+<mbr r='_ACTIVATION_CONTEXT_DETAILED_INFORMATION::ulRootManifestPathChars' o='128' t='DWORD'/>
+<mbr r='_ACTIVATION_CONTEXT_DETAILED_INFORMATION::ulRootConfigurationPathType' o='160' t='DWORD'/>
+<mbr r='_ACTIVATION_CONTEXT_DETAILED_INFORMATION::ulRootConfigurationPathChars' o='192' t='DWORD'/>
+<mbr r='_ACTIVATION_CONTEXT_DETAILED_INFORMATION::ulAppDirPathType' o='224' t='DWORD'/>
+<mbr r='_ACTIVATION_CONTEXT_DETAILED_INFORMATION::ulAppDirPathChars' o='256' t='DWORD'/>
+<mbr r='_ACTIVATION_CONTEXT_DETAILED_INFORMATION::lpRootManifestPath' o='288' t='PCWSTR'/>
+<mbr r='_ACTIVATION_CONTEXT_DETAILED_INFORMATION::lpRootConfigurationPath' o='320' t='PCWSTR'/>
+<mbr r='_ACTIVATION_CONTEXT_DETAILED_INFORMATION::lpAppDirPath' o='352' t='PCWSTR'/>

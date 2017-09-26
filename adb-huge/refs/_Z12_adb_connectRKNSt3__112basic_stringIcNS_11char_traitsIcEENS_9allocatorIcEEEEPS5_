@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/adb/adb_client.h' l='28' type='int _adb_connect(const std::string &amp; service, std::string * _Nonnull error)'/>
+<def f='codebrowser/system/core/adb/adb_client.cpp' l='134' ll='178' type='int _adb_connect(const std::string &amp; service, std::string * _Nonnull error)'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='182' u='c' c='_Z11adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='238' u='c' c='_Z11adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='259' u='c' c='_Z11adb_connectRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPS5_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1649' u='c' c='_Z15adb_commandlineiPPKc'/>

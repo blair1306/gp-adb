@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='122' type='int isxdigit(int )'/>
+<use f='codebrowser/external/boringssl/src/crypto/bn/convert.c' l='371' u='r' c='BN_hex2bn'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='189' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_floating_number'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ctype.h' l='110' type='int isxdigit(int _C)'/>

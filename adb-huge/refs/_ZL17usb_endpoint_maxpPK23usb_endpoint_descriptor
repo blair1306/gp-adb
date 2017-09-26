@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='590' ll='593' type='int usb_endpoint_maxp(const struct usb_endpoint_descriptor * epd)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/usb/ch9.h' l='584'>/**
+ * usb_endpoint_maxp - get endpoint&apos;s max packet size
+ * @epd: endpoint to be checked
+ *
+ * Returns @epd&apos;s max packet
+ */</doc>

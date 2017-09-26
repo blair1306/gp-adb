@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='979' type='size_t __strcspn_c2(const char * __s, int __reject1, int __reject2)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string2.h' l='981' ll='989' macro='1' type='size_t __strcspn_c2(const char * __s, int __reject1, int __reject2)'/>

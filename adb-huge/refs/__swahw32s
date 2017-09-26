@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/swab.h' l='257' ll='264' type='void __swahw32s(__u32 * p)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/swab.h' l='251'>/**
+ * __swahw32s - wordswap a 32-bit value in-place
+ * @p: pointer to a naturally-aligned 32-bit value
+ *
+ * See __swahw32() for details of wordswapping
+ */</doc>

@@ -1,0 +1,9 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3109' ll='3117'/>
+<size>20</size>
+<mbr r='_SECURITY_DESCRIPTOR_RELATIVE::Revision' o='0' t='BYTE'/>
+<mbr r='_SECURITY_DESCRIPTOR_RELATIVE::Sbz1' o='8' t='BYTE'/>
+<mbr r='_SECURITY_DESCRIPTOR_RELATIVE::Control' o='16' t='SECURITY_DESCRIPTOR_CONTROL'/>
+<mbr r='_SECURITY_DESCRIPTOR_RELATIVE::Owner' o='32' t='DWORD'/>
+<mbr r='_SECURITY_DESCRIPTOR_RELATIVE::Group' o='64' t='DWORD'/>
+<mbr r='_SECURITY_DESCRIPTOR_RELATIVE::Sacl' o='96' t='DWORD'/>
+<mbr r='_SECURITY_DESCRIPTOR_RELATIVE::Dacl' o='128' t='DWORD'/>

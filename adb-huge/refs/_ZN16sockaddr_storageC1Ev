@@ -1,0 +1,4 @@
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='37' u='c' c='_ZL22ss_listener_event_funcijPv'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='62' u='c' c='_ZL19listener_event_funcijPv'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1157' u='c' c='_ZL14adb_socketpairPi'/>
+<use f='codebrowser/system/core/libcutils/sockets.cpp' l='39' u='c' c='socket_get_local_port'/>

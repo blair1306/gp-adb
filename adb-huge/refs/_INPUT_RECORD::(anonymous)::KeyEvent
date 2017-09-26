@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='91' type='KEY_EVENT_RECORD'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1381' u='m' c='_ZL21_get_key_event_recordPvP13_INPUT_RECORD'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1382' u='m' c='_ZL21_get_key_event_recordPvP13_INPUT_RECORD'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1764' u='a' c='_ZL13_console_readPvS_j'/>
+<offset>0</offset>

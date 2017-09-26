@@ -1,0 +1,4 @@
+<dec f='codebrowser/external/libcxx/include/vector' l='690' type='void std::__1::vector::emplace_back(_Args &amp;&amp;... __args)'/>
+<def f='codebrowser/external/libcxx/include/vector' l='1630' ll='1647' type='void std::__1::vector::emplace_back(_Args &amp;&amp;... __args)'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='848' u='c' c='_ZL17remote_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='850' u='c' c='_ZL17remote_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>

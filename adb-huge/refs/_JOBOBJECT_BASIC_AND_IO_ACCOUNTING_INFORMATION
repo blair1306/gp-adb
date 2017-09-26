@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='3639' ll='3642'/>
+<size>96</size>
+<mbr r='_JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION::BasicInfo' o='0' t='JOBOBJECT_BASIC_ACCOUNTING_INFORMATION'/>
+<mbr r='_JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION::IoInfo' o='384' t='IO_COUNTERS'/>

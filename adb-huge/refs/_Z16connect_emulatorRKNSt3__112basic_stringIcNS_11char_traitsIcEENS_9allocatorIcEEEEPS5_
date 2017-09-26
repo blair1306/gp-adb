@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/services.cpp' l='438' ll='483' type='void connect_emulator(const std::string &amp; port_spec, std::string * response)'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='489' u='c' c='_ZL15connect_serviceiPv'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2502' ll='2506'/>
+<size>16</size>
+<mbr r='tagTTPOLYGONHEADER::cb' o='0' t='DWORD'/>
+<mbr r='tagTTPOLYGONHEADER::dwType' o='32' t='DWORD'/>
+<mbr r='tagTTPOLYGONHEADER::pfxStart' o='64' t='POINTFX'/>

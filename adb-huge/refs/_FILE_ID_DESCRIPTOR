@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='3166' ll='3173'/>
+<size>24</size>
+<mbr r='_FILE_ID_DESCRIPTOR::dwSize' o='0' t='DWORD'/>
+<mbr r='_FILE_ID_DESCRIPTOR::Type' o='32' t='FILE_ID_TYPE'/>

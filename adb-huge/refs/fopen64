@@ -1,0 +1,2 @@
+<use f='codebrowser/external/boringssl/src/crypto/bio/file.c' l='122' u='c' c='open_file'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='450' type='FILE * fopen64(const char *__restrict filename, const char *__restrict mode)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/adb_client.h' l='49' type='void adb_set_tcp_name(const char * _Nullable hostname)'/>
+<def f='codebrowser/system/core/adb/adb_client.cpp' l='67' ll='70' type='void adb_set_tcp_name(const char * _Nullable hostname)'/>
+<doc f='codebrowser/system/core/adb/adb_client.h' l='48'>// Set TCP Hostname of the transport to use.</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1500' u='c' c='_Z15adb_commandlineiPPKc'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netinet/tcp.h' l='43'/>
+<use f='codebrowser/system/core/adb/sysdeps_unix.cpp' l='30' u='a'/>
+<use f='codebrowser/system/core/adb/sysdeps_unix.cpp' l='31' u='c'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/system/core/adb/shell_service.h' l='89' type='bool ShellProtocol::Read()'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='307' u='c' c='_ZL13read_and_dumpib'/>
+<def f='codebrowser/system/core/adb/shell_service_protocol.cpp' l='32' ll='54' type='bool ShellProtocol::Read()'/>

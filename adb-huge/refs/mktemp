@@ -1,0 +1,7 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='606' type='char * mktemp(char * __template)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/stdlib.h' l='602'>/* Generate a unique temporary file name from TEMPLATE.
+   The last six characters of TEMPLATE must be &quot;XXXXXX&quot;;
+   they are replaced with a string that makes the file name unique.
+   Returns TEMPLATE, or a null pointer if it cannot get a unique file name.  */</doc>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='268' type='char * mktemp(char * )'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='322' type='char * mktemp(char * _TemplateName)'/>

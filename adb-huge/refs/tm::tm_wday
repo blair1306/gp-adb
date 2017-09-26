@@ -1,0 +1,9 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/time.h' l='141' type='int'/>
+<offset>192</offset>
+<use f='codebrowser/external/libcxx/include/locale' l='2364' u='a' c='_ZNKSt3__18time_get14do_get_weekdayET0_S1_RNS_8ios_baseERjP2tm'/>
+<use f='codebrowser/external/libcxx/include/locale' l='2405' u='a' c='_ZNKSt3__18time_get6do_getET0_S1_RNS_8ios_baseERjP2tmcc'/>
+<use f='codebrowser/external/libcxx/include/locale' l='2478' u='a' c='_ZNKSt3__18time_get6do_getET0_S1_RNS_8ios_baseERjP2tmcc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4823' u='w' c='_ZNSt3__118__time_get_storage9__analyzeEcRKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4971' u='w' c='_ZNSt3__118__time_get_storage9__analyzeEcRKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5123' u='w' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5163' u='w' c='_ZNSt3__118__time_get_storage4initERKNS_5ctypeIT_EE'/>

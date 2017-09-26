@@ -1,0 +1,11 @@
+<def f='codebrowser/external/libcxx/include/memory' l='2699' ll='2701' macro='1' type='bool std::__1::unique_ptr::operator bool() const'/>
+<use f='codebrowser/external/libcxx/src/ios.cpp' l='316' u='c' c='_ZNSt3__18ios_base7copyfmtERKS0_'/>
+<use f='codebrowser/external/libcxx/src/ios.cpp' l='323' u='c' c='_ZNSt3__18ios_base7copyfmtERKS0_'/>
+<use f='codebrowser/external/libcxx/src/ios.cpp' l='332' u='c' c='_ZNSt3__18ios_base7copyfmtERKS0_'/>
+<use f='codebrowser/external/libcxx/src/ios.cpp' l='341' u='c' c='_ZNSt3__18ios_base7copyfmtERKS0_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='298' u='c' c='_ZL13read_and_dumpib'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='542' u='c' c='_ZL22stdin_read_thread_loopPv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='579' u='c' c='_ZL22stdin_read_thread_loopPv'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='603' u='c' c='_ZL16local_build_listR14SyncConnectionPNSt3__16vectorI8copyinfoNS1_9allocatorIS3_EEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS4_IcEEEESE_'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='123' u='c' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='132' u='c' c='_ZL15find_usb_deviceRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFvPKcS9_hhiijE'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/system/core/adb/transport.h' l='43' type='const char *const'/>
+<doc f='codebrowser/system/core/adb/transport.h' l='42'>// The &apos;cmd&apos; command is available</doc>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1779' u='r' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1797' u='r' c='_Z15adb_commandlineiPPKc'/>
+<def f='codebrowser/system/core/adb/transport.cpp' l='49' type='const char *const'/>

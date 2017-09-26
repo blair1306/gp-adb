@@ -1,0 +1,4 @@
+<def f='codebrowser/system/core/adb/transport_local.cpp' l='347' ll='356' type='atransport * find_emulator_transport_by_adb_port_locked(int adb_port)'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='361' u='c' c='_Z35find_emulator_transport_by_adb_porti'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='407' u='c' c='_Z21init_socket_transportP10atransportiii'/>
+<doc f='codebrowser/system/core/adb/transport_local.cpp' l='346'>/* Only call this function if you already hold local_transports_lock. */</doc>

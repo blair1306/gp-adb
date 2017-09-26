@@ -1,0 +1,1 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/linux/byteorder/little_endian.h' l='55' ll='58' type='__u32 __le32_to_cpup(const __le32 * p)'/>

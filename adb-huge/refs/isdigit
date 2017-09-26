@@ -1,0 +1,30 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='115' type='int isdigit(int )'/>
+<use f='codebrowser/external/boringssl/src/crypto/bn/convert.c' l='445' u='r' c='BN_dec2bn'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='125' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_number'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='191' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_floating_number'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='194' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_floating_number'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='223' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_source_name'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='227' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_source_name'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='301' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_substitution'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='305' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_substitution'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='309' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_substitution'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='312' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_substitution'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='569' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_template_param'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='573' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_template_param'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='2607' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_operator_name'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='2819' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_expr_primary'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='2978' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_unnamed_type_name'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='2981' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_unnamed_type_name'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='3047' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_unnamed_type_name'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='3050' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_unnamed_type_name'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='4063' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_discriminator'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='4067' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_discriminator'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='4074' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_discriminator'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='4077' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_discriminator'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='4621' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_block_invoke'/>
+<use f='codebrowser/external/libcxxabi/src/cxa_demangle.cpp' l='4626' u='c' c='__cxxabiv1::(anonymousnamespace)::parse_block_invoke'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1476' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='659' u='c' c='_ZN8internal16skip_host_serialEPc'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='661' u='c' c='_ZN8internal16skip_host_serialEPc'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/ctype.h' l='108' type='int isdigit(int _C)'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='113' u='c' c='_ZL18contains_non_digitPKc'/>

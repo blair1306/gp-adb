@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/base/include/android-base/logging.h' l='190'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='775' u='c'/>
+<use f='codebrowser/system/core/base/utf8.cpp' l='76' u='c'/>
+<use f='codebrowser/system/core/base/utf8.cpp' l='121' u='c'/>

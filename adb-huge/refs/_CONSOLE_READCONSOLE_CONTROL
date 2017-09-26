@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='309' ll='314'/>
+<size>16</size>
+<mbr r='_CONSOLE_READCONSOLE_CONTROL::nLength' o='0' t='ULONG'/>
+<mbr r='_CONSOLE_READCONSOLE_CONTROL::nInitialChars' o='32' t='ULONG'/>
+<mbr r='_CONSOLE_READCONSOLE_CONTROL::dwCtrlWakeupMask' o='64' t='ULONG'/>
+<mbr r='_CONSOLE_READCONSOLE_CONTROL::dwControlKeyState' o='96' t='ULONG'/>

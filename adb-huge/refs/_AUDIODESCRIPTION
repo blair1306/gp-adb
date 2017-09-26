@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5403' ll='5407'/>
+<size>12</size>
+<mbr r='_AUDIODESCRIPTION::cbSize' o='0' t='UINT'/>
+<mbr r='_AUDIODESCRIPTION::Enabled' o='32' t='BOOL'/>
+<mbr r='_AUDIODESCRIPTION::Locale' o='64' t='LCID'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/errno.h' l='28'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/errno.h' l='27'>/* Linux has no ENOTSUP error code.  */</doc>
+<use f='codebrowser/external/libcxx/include/cerrno' l='179' u='a'/>
+<use f='codebrowser/external/libcxx/include/system_error' l='317' u='c'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/errno.h' l='76'/>

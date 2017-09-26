@@ -1,0 +1,5 @@
+<use f='codebrowser/external/libcxx/include/cwchar' l='174' u='c' c='_ZNSt3__16wcschrEPKww'/>
+<use f='codebrowser/external/libcxx/include/cwchar' l='175' u='c' c='_ZNSt3__16wcschrEPww'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='119' type='wchar_t * wcschr(const wchar_t * _Str, wchar_t _Ch)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stralign.h' l='116' u='c' c='ua_wcschr'/>
+<use f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2750' u='c' c='_ZL17_ensure_env_setupv'/>

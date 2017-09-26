@@ -1,0 +1,7 @@
+<def f='codebrowser/system/core/adb/transport.cpp' l='324' ll='328'/>
+<size>168</size>
+<doc f='codebrowser/system/core/adb/transport.cpp' l='319'>/* this adds support required by the &apos;track-devices&apos; service.
+ * this is used to send the content of &quot;list_transport&quot; to any
+ * number of client connections that want it through a single
+ * live TCP connection
+ */</doc>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/system/core/adb/shell_service.h' l='72' type='void ShellProtocol::ShellProtocol(int fd)'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='297' u='c' c='_ZL13read_and_dumpib'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='652' u='c' c='_ZL11RemoteShellbRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEcS7_'/>
+<doc f='codebrowser/system/core/adb/shell_service.h' l='68'>// ShellPackets will probably be too large to allocate on the stack so they
+    // should be dynamically allocated on the heap instead.
+    //
+    // |fd| is an open file descriptor to be used to send or receive packets.</doc>
+<def f='codebrowser/system/core/adb/shell_service_protocol.cpp' l='25' ll='27' type='void ShellProtocol::ShellProtocol(int fd)'/>

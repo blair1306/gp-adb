@@ -1,0 +1,3 @@
+_Z7sprintfPcPKcz|sprintf
+_Z9sprintf_sRAT__cPKcz|sprintf_s
+_ZN7android4base5SplitERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_|android::base::Split

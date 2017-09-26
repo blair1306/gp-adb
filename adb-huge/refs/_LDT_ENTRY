@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='2085' ll='2108'/>
+<size>8</size>
+<mbr r='_LDT_ENTRY::LimitLow' o='0' t='WORD'/>
+<mbr r='_LDT_ENTRY::BaseLow' o='16' t='WORD'/>
+<mbr r='_LDT_ENTRY::HighWord' o='32' t='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h:2088:7)'/>

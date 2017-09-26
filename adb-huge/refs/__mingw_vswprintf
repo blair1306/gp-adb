@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/stdio.h' l='615' type='int __mingw_vswprintf(wchar_t *__restrict , const wchar_t *__restrict , va_list )'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/swprintf.inl' l='50' u='c' c='_Z9vswprintfPwPKwPc'/>

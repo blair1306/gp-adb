@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/stat.h' l='73' type='int _fstat64i32(int _FileDes, struct _stat64i32 * _Stat)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/sys/stat.h' l='75' ll='95' macro='1' type='int _fstat64i32(int _FileDes, struct _stat64i32 * _Stat)'/>

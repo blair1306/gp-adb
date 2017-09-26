@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='769' type='int pthread_mutex_setprioceiling(pthread_mutex_t *restrict __mutex, int __prioceiling, int *restrict __old_ceiling)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='767'>/* Set the priority ceiling of MUTEX to PRIOCEILING, return old
+   priority ceiling value in *OLD_CEILING.  */</doc>

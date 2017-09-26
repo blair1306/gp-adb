@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/adb_utils.h' l='42' type='bool set_file_block_mode(int fd, bool block)'/>
+<def f='codebrowser/system/core/adb/adb_utils.cpp' l='219' ll='231' macro='1' type='bool set_file_block_mode(int fd, bool block)'/>
+<use f='codebrowser/system/core/adb/fdevent.cpp' l='144' u='c' c='_Z15fdevent_installP7fdeventiPFvijPvES1_'/>
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='1210' ll='1229' macro='1' type='bool set_file_block_mode(int fd, bool block)'/>

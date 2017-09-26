@@ -1,0 +1,17 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='191' type='void freelocale(__locale_t __dataset)'/>
+<use f='codebrowser/external/libcxx/include/locale' l='230' u='a'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/locale.h' l='189'>/* Free the data associated with a locale dataset previously returned
+   by a call to `setlocale_r&apos;.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='681' u='c' c='_ZNSt3__114collate_bynameIcED1Ev'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='733' u='c' c='_ZNSt3__114collate_bynameIwED1Ev'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1203' u='c' c='_ZNSt3__112ctype_bynameIcED1Ev'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1260' u='c' c='_ZNSt3__112ctype_bynameIwED1Ev'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='1541' u='c' c='_ZNSt3__17codecvtIwc11__mbstate_tED1Ev'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4329' u='a' c='_ZNSt3__115numpunct_bynameIcE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4372' u='a' c='_ZNSt3__115numpunct_bynameIwE6__initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='4803' u='c' c='_ZNSt3__110__time_getD1Ev'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5492' u='c' c='_ZNSt3__110__time_putD1Ev'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5904' u='a' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='5952' u='a' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6017' u='a' c='_ZNSt3__117moneypunct_byname4initEPKc'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='6100' u='a' c='_ZNSt3__117moneypunct_byname4initEPKc'/>

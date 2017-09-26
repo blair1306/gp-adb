@@ -1,0 +1,16 @@
+<def f='codebrowser/external/libcxx/include/string' l='1466' macro='1' type='basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp; std::__1::basic_string::operator+=(const basic_string&lt;_CharT, _Traits, _Allocator&gt; &amp; __str)'/>
+<use f='codebrowser/external/libcxx/src/system_error.cpp' l='153' u='c' c='_ZNSt3__112system_error6__initERKNS_10error_codeENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1181' u='c' c='_ZL6logcat13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1225' u='c' c='_ZL6backupiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1326' u='c' c='_ZL21find_product_out_pathRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1628' u='c' c='_Z15adb_commandlineiPPKc'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1927' u='c' c='_ZL13uninstall_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1963' u='c' c='_ZL11install_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1968' u='c' c='_ZL11install_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2025' u='c' c='_ZL20install_multiple_app13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='2125' u='c' c='_ZL10pm_command13TransportTypePKciPS1_'/>
+<use f='codebrowser/system/core/adb/diagnose_usb.cpp' l='66' u='c' c='_Z29UsbNoPermissionsShortHelpTextv'/>
+<use f='codebrowser/system/core/adb/diagnose_usb.cpp' l='78' u='c' c='_Z28UsbNoPermissionsLongHelpTextv'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='789' u='c' c='_Z12do_sync_pushRKNSt3__16vectorIPKcNS_9allocatorIS2_EEEES2_'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='84' u='c' c='_ZL11dump_packetPKcS0_P7apacket'/>
+<use f='codebrowser/system/core/adb/transport.cpp' l='900' u='c' c='_ZL16append_transportPK10atransportPNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEb'/>

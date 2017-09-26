@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='221' type='int usb_close(usb_handle * h)'/>
+<use f='codebrowser/system/core/adb/transport_usb.cpp' l='74' u='c' c='_ZL12remote_closeP10atransport'/>
+<def f='codebrowser/system/core/adb/usb_linux.cpp' l='490' ll='499' type='int usb_close(usb_handle * h)'/>
+<dec f='codebrowser/system/core/adb/usb_windows.cpp' l='121' type='int usb_close(usb_handle * handle)'/>
+<def f='codebrowser/system/core/adb/usb_windows.cpp' l='506' ll='528' type='int usb_close(usb_handle * handle)'/>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='120'>/// Closes opened usb handle</doc>

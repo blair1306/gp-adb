@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/siginfo.h' l='273' ll='293'/>
+<size>64</size>
+<mbr r='sigevent::sigev_value' o='0' t='sigval_t'/>
+<mbr r='sigevent::sigev_signo' o='64' t='int'/>
+<mbr r='sigevent::sigev_notify' o='96' t='int'/>
+<mbr r='sigevent::_sigev_un' o='128' t='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/siginfo.h:279:5)'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/system/core/adb/file_sync_service.h' l='46' type='uint32_t'/>
+<dec f='codebrowser/system/core/adb/file_sync_service.h' l='52' type='uint32_t'/>
+<dec f='codebrowser/system/core/adb/file_sync_service.h' l='58' type='uint32_t'/>
+<offset>32</offset>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='260' u='w' c='_ZN14SyncConnection13SendLargeFileEPKcS1_S1_j'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='453' u='r' c='_ZL7sync_lsR14SyncConnectionPKcNSt3__18functionIFvjjjS2_EEE'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='466' u='r' c='_ZL16sync_finish_statR14SyncConnectionPjS1_S1_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='552' u='r' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='553' u='r' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='560' u='r' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='566' u='r' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='573' u='r' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>
+<use f='codebrowser/system/core/adb/file_sync_client.cpp' l='575' u='r' c='_ZL9sync_recvR14SyncConnectionPKcS2_'/>

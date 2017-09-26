@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/fcntl.h' l='211' type='int posix_fadvise(int __fd, __off_t __offset, __off_t __len, int __advise)'/>

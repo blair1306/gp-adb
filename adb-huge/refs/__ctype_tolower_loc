@@ -1,0 +1,8 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='83' type='const __int32_t ** __ctype_tolower_loc()'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/ctype.h' l='219' u='c' c='tolower'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x_name.c' l='487' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x_name.c' l='487' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='420' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='420' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='421' macro='1' u='c'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_utl.c' l='421' macro='1' u='c'/>

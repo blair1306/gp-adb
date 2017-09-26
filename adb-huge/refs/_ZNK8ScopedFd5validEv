@@ -1,0 +1,3 @@
+<use f='codebrowser/system/core/adb/adb_utils.h' l='58' u='c' c='_ZN8ScopedFd5ResetEi'/>
+<def f='codebrowser/system/core/adb/adb_utils.h' l='71' ll='73' macro='1' type='bool ScopedFd::valid() const'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1080' u='c' c='_ZL8adb_rootPKc'/>

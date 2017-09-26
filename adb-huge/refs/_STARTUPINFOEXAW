@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='3746' ll='3749'/>
+<size>72</size>
+<mbr r='_STARTUPINFOEXAW::StartupInfo' o='0' t='STARTUPINFOW'/>
+<mbr r='_STARTUPINFOEXAW::lpAttributeList' o='544' t='PPROC_THREAD_ATTRIBUTE_LIST'/>

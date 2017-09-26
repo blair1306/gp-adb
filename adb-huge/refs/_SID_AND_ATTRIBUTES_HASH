@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='2637' ll='2641'/>
+<size>136</size>
+<mbr r='_SID_AND_ATTRIBUTES_HASH::SidCount' o='0' t='DWORD'/>
+<mbr r='_SID_AND_ATTRIBUTES_HASH::SidAttr' o='32' t='PSID_AND_ATTRIBUTES'/>
+<mbr r='_SID_AND_ATTRIBUTES_HASH::Hash' o='64' t='SID_HASH_ENTRY [32]'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='131' type='char * strncpy(char *restrict __dest, const char *restrict __src, size_t __n)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/string3.h' l='117' ll='122' macro='1' type='char * strncpy(char *restrict __dest, const char *restrict __src, size_t __len)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='130'>/* Copy no more than N characters of SRC to DEST.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/pkcs8/pkcs8.c' l='366' u='c' c='pbe_cipher_init'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/by_dir.c' l='255' u='c' c='add_cert_dir'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509/x509_obj.c' l='95' u='c' c='X509_NAME_oneline'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_alt.c' l='588' u='c' c='do_othername'/>
+<use f='codebrowser/external/boringssl/src/crypto/x509v3/v3_info.c' l='175' u='c' c='v2i_AUTHORITY_INFO_ACCESS'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='765' u='c' c='_ZL18adb_thread_setnameRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='125' u='c' c='_ZL13get_user_infoPcm'/>
+<use f='codebrowser/system/core/adb/adb_auth_host.cpp' l='140' u='c' c='_ZL13get_user_infoPcm'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/string.h' l='79' type='char * strncpy(char *__restrict _Dest, const char *__restrict _Source, size_t _Count)'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='235' u='c' c='_findfirst64i32'/>
+<use f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/io.h' l='256' u='c' c='_findnext64i32'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='187' u='c' c='configureInitialState'/>

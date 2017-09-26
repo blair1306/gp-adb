@@ -1,0 +1,7 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='575' type='socklen_t'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='62' u='r' c='bio_ip_and_port_to_socket_and_addr'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='66' u='r' c='bio_ip_and_port_to_socket_and_addr'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='67' u='r' c='bio_ip_and_port_to_socket_and_addr'/>
+<offset>128</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='575'>/* Length of socket address.  */</doc>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='65' u='r' c='socket_network_client_timeout'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/mman.h' l='112' type='int mlockall(int __flags)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/mman.h' l='109'>/* Cause all currently mapped pages of the process to be memory resident
+   until unlocked by a call to the `munlockall&apos;, until the process exits,
+   or until the process calls `execve&apos;.  */</doc>

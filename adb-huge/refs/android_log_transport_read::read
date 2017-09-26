@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/liblog/logger.h' l='70' type='int (*)(struct android_log_logger_list *, struct android_log_transport_context *, struct log_msg *)'/>
+<offset>384</offset>
+<doc f='codebrowser/system/core/liblog/logger.h' l='66'>/*
+   * Expect all to instantiate open on any call, so we do not have
+   * an expicit open call
+   */</doc>

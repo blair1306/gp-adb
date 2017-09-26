@@ -1,0 +1,5 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='574' type='int'/>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='69' u='r' c='bio_ip_and_port_to_socket_and_addr'/>
+<offset>96</offset>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/netdb.h' l='574'>/* Protocol for socket.  */</doc>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='64' u='r' c='socket_network_client_timeout'/>

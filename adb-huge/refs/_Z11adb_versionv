@@ -1,0 +1,6 @@
+<dec f='codebrowser/system/core/adb/adb.h' l='50' type='std::string adb_version()'/>
+<def f='codebrowser/system/core/adb/adb.cpp' l='57' ll='63' type='std::string adb_version()'/>
+<use f='codebrowser/system/core/adb/adb_trace.cpp' l='169' u='c' c='_Z14adb_trace_initPPc'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='90' u='c' c='_ZL20setup_daemon_loggingv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='80' u='c' c='_ZL4helpv'/>
+<use f='codebrowser/system/core/adb/commandline.cpp' l='1890' u='c' c='_Z15adb_commandlineiPPKc'/>

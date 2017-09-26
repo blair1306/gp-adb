@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/liblog/logger.h' l='63' type='void (*)(struct android_log_logger_list *, struct android_log_transport_context *)'/>
+<offset>320</offset>

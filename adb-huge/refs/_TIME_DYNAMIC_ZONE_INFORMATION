@@ -1,0 +1,11 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winbase.h' l='3102' ll='3112'/>
+<size>816</size>
+<mbr r='_TIME_DYNAMIC_ZONE_INFORMATION::Bias' o='0' t='LONG'/>
+<mbr r='_TIME_DYNAMIC_ZONE_INFORMATION::StandardName' o='32' t='WCHAR [32]'/>
+<mbr r='_TIME_DYNAMIC_ZONE_INFORMATION::StandardDate' o='1056' t='SYSTEMTIME'/>
+<mbr r='_TIME_DYNAMIC_ZONE_INFORMATION::StandardBias' o='1184' t='LONG'/>
+<mbr r='_TIME_DYNAMIC_ZONE_INFORMATION::DaylightName' o='1216' t='WCHAR [32]'/>
+<mbr r='_TIME_DYNAMIC_ZONE_INFORMATION::DaylightDate' o='2240' t='SYSTEMTIME'/>
+<mbr r='_TIME_DYNAMIC_ZONE_INFORMATION::DaylightBias' o='2368' t='LONG'/>
+<mbr r='_TIME_DYNAMIC_ZONE_INFORMATION::TimeZoneKeyName' o='2400' t='WCHAR [128]'/>
+<mbr r='_TIME_DYNAMIC_ZONE_INFORMATION::DynamicDaylightTimeDisabled' o='6496' t='BOOLEAN'/>

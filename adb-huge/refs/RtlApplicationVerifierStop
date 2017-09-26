@@ -1,0 +1,1 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='6145' type='void RtlApplicationVerifierStop(ULONG_PTR Code, PSTR Message, ULONG_PTR Param1, PSTR Description1, ULONG_PTR Param2, PSTR Description2, ULONG_PTR Param3, PSTR Description3, ULONG_PTR Param4, PSTR Description4)'/>

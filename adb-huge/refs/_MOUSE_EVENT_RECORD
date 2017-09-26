@@ -1,0 +1,6 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wincon.h' l='56' ll='61'/>
+<size>16</size>
+<mbr r='_MOUSE_EVENT_RECORD::dwMousePosition' o='0' t='COORD'/>
+<mbr r='_MOUSE_EVENT_RECORD::dwButtonState' o='32' t='DWORD'/>
+<mbr r='_MOUSE_EVENT_RECORD::dwControlKeyState' o='64' t='DWORD'/>
+<mbr r='_MOUSE_EVENT_RECORD::dwEventFlags' o='96' t='DWORD'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/base/include/android-base/file.h' l='41' type='bool android::base::ReadFully(int fd, void * data, size_t byte_count)'/>
+<def f='codebrowser/system/core/base/file.cpp' l='124' ll='134' type='bool android::base::ReadFully(int fd, void * data, size_t byte_count)'/>

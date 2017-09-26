@@ -1,0 +1,4 @@
+<dec f='codebrowser/system/core/adb/fdevent.h' l='70' type='void fdevent_add(fdevent * fde, unsigned int events)'/>
+<def f='codebrowser/system/core/adb/fdevent.cpp' l='210' ll='213' type='void fdevent_add(fdevent * fde, unsigned int events)'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='188' u='c' c='_ZL20local_socket_enqueueP7asocketP7apacket'/>
+<use f='codebrowser/system/core/adb/sockets.cpp' l='197' u='c' c='_ZL18local_socket_readyP7asocket'/>

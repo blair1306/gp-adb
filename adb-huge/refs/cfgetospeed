@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/termios.h' l='49' type='speed_t cfgetospeed(const struct termios * __termios_p)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/termios.h' l='48'>/* Return the output baud rate stored in *TERMIOS_P.  */</doc>

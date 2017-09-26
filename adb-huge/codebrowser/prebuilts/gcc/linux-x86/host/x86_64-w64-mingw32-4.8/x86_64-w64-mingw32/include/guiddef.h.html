@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>guiddef.h source code [codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/guiddef.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/guiddef.h'; var root_path = '../../../../../../../..'; var data_path = '../../../../../../../../../data';</script>
+<script src='../../../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../../..'>codebrowser</a>/<a href='../../../../../..'>prebuilts</a>/<a href='../../../../..'>gcc</a>/<a href='../../../..'>linux-x86</a>/<a href='../../..'>host</a>/<a href='../..'>x86_64-w64-mingw32-4.8</a>/<a href='..'>x86_64-w64-mingw32</a>/<a href='./'>include</a>/<a href='guiddef.h.html'>guiddef.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"> * This file has no copyright assigned and is placed in the Public Domain.</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * This file is part of the mingw-w64 runtime package.</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> * No warranty is given; refer to the file DISCLAIMER.PD within this package.</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><i>/* Make sure __LONG32 is defined.  */</i></td></tr>
+<tr><th id="8">8</th><td><u>#include <a href="_mingw.h.html">&lt;_mingw.h&gt;</a></u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><u>#<span data-ppcond="10">ifndef</span> <span class="macro" data-ref="_M/GUID_DEFINED">GUID_DEFINED</span></u></td></tr>
+<tr><th id="11">11</th><td><u>#define <dfn class="macro" id="_M/GUID_DEFINED" data-ref="_M/GUID_DEFINED">GUID_DEFINED</dfn></u></td></tr>
+<tr><th id="12">12</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_GUID" title='_GUID' data-ref="_GUID"><a class="type" href="#_GUID" title='_GUID' data-ref="_GUID">_GUID</a></dfn> {</td></tr>
+<tr><th id="13">13</th><td>  <em>unsigned</em> <a class="macro" href="_mingw.h.html#26" title="long" data-ref="_M/__LONG32">__LONG32</a> <dfn class="decl" id="_GUID::Data1" title='_GUID::Data1' data-ref="_GUID::Data1">Data1</dfn>;</td></tr>
+<tr><th id="14">14</th><td>  <em>unsigned</em> <em>short</em> <dfn class="decl" id="_GUID::Data2" title='_GUID::Data2' data-ref="_GUID::Data2">Data2</dfn>;</td></tr>
+<tr><th id="15">15</th><td>  <em>unsigned</em> <em>short</em> <dfn class="decl" id="_GUID::Data3" title='_GUID::Data3' data-ref="_GUID::Data3">Data3</dfn>;</td></tr>
+<tr><th id="16">16</th><td>  <em>unsigned</em> <em>char</em> <dfn class="decl" id="_GUID::Data4" title='_GUID::Data4' data-ref="_GUID::Data4">Data4</dfn>[<var>8</var> ];</td></tr>
+<tr><th id="17">17</th><td>} <dfn class="typedef" id="GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</dfn>;</td></tr>
+<tr><th id="18">18</th><td><u>#<span data-ppcond="10">endif</span></u></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><u>#<span data-ppcond="20">if</span> defined(<span class="macro" data-ref="_M/__cplusplus">__cplusplus</span>) &amp;&amp; (<a class="macro" href="_mingw.h.html#79" title="0" data-ref="_M/USE___UUIDOF">USE___UUIDOF</a> == 0)</u></td></tr>
+<tr><th id="21">21</th><td><b>extern</b> <q>"C++"</q> {</td></tr>
+<tr><th id="22">22</th><td><b>__extension__</b>    <b>template</b>&lt;<b>typename</b> T&gt; <em>const</em> <a class="typedef" href="#GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</a> &amp;<dfn class="decl" id="__mingw_uuidof" title='__mingw_uuidof' data-ref="__mingw_uuidof">__mingw_uuidof</dfn>();</td></tr>
+<tr><th id="23">23</th><td>}</td></tr>
+<tr><th id="24">24</th><td><u>#<span data-ppcond="20">endif</span></u></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><u>#<span data-ppcond="26">ifndef</span> <a class="macro" href="windef.h.html#94" data-ref="_M/FAR">FAR</a></u></td></tr>
+<tr><th id="27">27</th><td><u>#define FAR</u></td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="26">endif</span></u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#<span data-ppcond="30">ifndef</span> <a class="macro" href="winnt.h.html#134" data-ref="_M/DECLSPEC_SELECTANY">DECLSPEC_SELECTANY</a></u></td></tr>
+<tr><th id="31">31</th><td><u>#define DECLSPEC_SELECTANY __declspec(selectany)</u></td></tr>
+<tr><th id="32">32</th><td><u>#<span data-ppcond="30">endif</span></u></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="34">ifndef</span> <a class="macro" href="winnt.h.html#261" data-ref="_M/EXTERN_C">EXTERN_C</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#ifdef __cplusplus</u></td></tr>
+<tr><th id="36">36</th><td><u>#define EXTERN_C extern "C"</u></td></tr>
+<tr><th id="37">37</th><td><u>#else</u></td></tr>
+<tr><th id="38">38</th><td><u>#define EXTERN_C extern</u></td></tr>
+<tr><th id="39">39</th><td><u>#endif</u></td></tr>
+<tr><th id="40">40</th><td><u>#<span data-ppcond="34">endif</span></u></td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><u>#<span data-ppcond="42">ifdef</span> <span class="macro" data-ref="_M/DEFINE_GUID">DEFINE_GUID</span></u></td></tr>
+<tr><th id="43">43</th><td><u>#undef DEFINE_GUID</u></td></tr>
+<tr><th id="44">44</th><td><u>#<span data-ppcond="42">endif</span></u></td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><u>#<span data-ppcond="46">ifdef</span> <span class="macro" data-ref="_M/INITGUID">INITGUID</span></u></td></tr>
+<tr><th id="47">47</th><td><u>#ifdef __cplusplus</u></td></tr>
+<tr><th id="48">48</th><td><u>#define DEFINE_GUID(name,l,w1,w2,b1,b2,b3,b4,b5,b6,b7,b8) EXTERN_C const GUID DECLSPEC_SELECTANY name = { l,w1,w2,{ b1,b2,b3,b4,b5,b6,b7,b8 } }</u></td></tr>
+<tr><th id="49">49</th><td><u>#else</u></td></tr>
+<tr><th id="50">50</th><td><u>#define DEFINE_GUID(name,l,w1,w2,b1,b2,b3,b4,b5,b6,b7,b8) const GUID DECLSPEC_SELECTANY name = { l,w1,w2,{ b1,b2,b3,b4,b5,b6,b7,b8 } }</u></td></tr>
+<tr><th id="51">51</th><td><u>#endif</u></td></tr>
+<tr><th id="52">52</th><td><u>#<span data-ppcond="46">else</span></u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/DEFINE_GUID" data-ref="_M/DEFINE_GUID">DEFINE_GUID</dfn>(name,l,w1,w2,b1,b2,b3,b4,b5,b6,b7,b8) EXTERN_C const GUID name</u></td></tr>
+<tr><th id="54">54</th><td><u>#<span data-ppcond="46">endif</span></u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><u>#define <dfn class="macro" id="_M/DEFINE_OLEGUID" data-ref="_M/DEFINE_OLEGUID">DEFINE_OLEGUID</dfn>(name,l,w1,w2) DEFINE_GUID(name,l,w1,w2,0xC0,0,0,0,0,0,0,0x46)</u></td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td><u>#<span data-ppcond="58">ifndef</span> <span class="macro" data-ref="_M/_GUIDDEF_H_">_GUIDDEF_H_</span></u></td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/_GUIDDEF_H_" data-ref="_M/_GUIDDEF_H_">_GUIDDEF_H_</dfn></u></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><u>#<span data-ppcond="61">ifndef</span> <span class="macro" data-ref="_M/__LPGUID_DEFINED__">__LPGUID_DEFINED__</span></u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/__LPGUID_DEFINED__" data-ref="_M/__LPGUID_DEFINED__">__LPGUID_DEFINED__</dfn></u></td></tr>
+<tr><th id="63">63</th><td><b>typedef</b> <a class="typedef" href="#GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</a> *<dfn class="typedef" id="LPGUID" title='LPGUID' data-type='GUID *' data-ref="LPGUID">LPGUID</dfn>;</td></tr>
+<tr><th id="64">64</th><td><u>#<span data-ppcond="61">endif</span></u></td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td><u>#<span data-ppcond="66">ifndef</span> <span class="macro" data-ref="_M/__LPCGUID_DEFINED__">__LPCGUID_DEFINED__</span></u></td></tr>
+<tr><th id="67">67</th><td><u>#define <dfn class="macro" id="_M/__LPCGUID_DEFINED__" data-ref="_M/__LPCGUID_DEFINED__">__LPCGUID_DEFINED__</dfn></u></td></tr>
+<tr><th id="68">68</th><td><b>typedef</b> <em>const</em> <a class="typedef" href="#GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</a> *<dfn class="typedef" id="LPCGUID" title='LPCGUID' data-type='const GUID *' data-ref="LPCGUID">LPCGUID</dfn>;</td></tr>
+<tr><th id="69">69</th><td><u>#<span data-ppcond="66">endif</span></u></td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><u>#<span data-ppcond="71">ifndef</span> <span class="macro" data-ref="_M/__IID_DEFINED__">__IID_DEFINED__</span></u></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/__IID_DEFINED__" data-ref="_M/__IID_DEFINED__">__IID_DEFINED__</dfn></u></td></tr>
+<tr><th id="73">73</th><td></td></tr>
+<tr><th id="74">74</th><td><b>typedef</b> <a class="typedef" href="#GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</a> <dfn class="typedef" id="IID" title='IID' data-type='GUID' data-ref="IID">IID</dfn>;</td></tr>
+<tr><th id="75">75</th><td><b>typedef</b> <a class="typedef" href="#IID" title='IID' data-type='GUID' data-ref="IID">IID</a> *<dfn class="typedef" id="LPIID" title='LPIID' data-type='IID *' data-ref="LPIID">LPIID</dfn>;</td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/IID_NULL" data-ref="_M/IID_NULL">IID_NULL</dfn> GUID_NULL</u></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/IsEqualIID" data-ref="_M/IsEqualIID">IsEqualIID</dfn>(riid1,riid2) IsEqualGUID(riid1,riid2)</u></td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td><u>#<span data-ppcond="79">ifndef</span> <span class="macro" data-ref="_M/CLSID_DEFINED">CLSID_DEFINED</span></u></td></tr>
+<tr><th id="80">80</th><td><u>#define <dfn class="macro" id="_M/CLSID_DEFINED" data-ref="_M/CLSID_DEFINED">CLSID_DEFINED</dfn></u></td></tr>
+<tr><th id="81">81</th><td><b>typedef</b> <a class="typedef" href="#GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</a> <dfn class="typedef" id="CLSID" title='CLSID' data-type='GUID' data-ref="CLSID">CLSID</dfn>;</td></tr>
+<tr><th id="82">82</th><td><u>#<span data-ppcond="79">endif</span></u></td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><b>typedef</b> <a class="typedef" href="#CLSID" title='CLSID' data-type='GUID' data-ref="CLSID">CLSID</a> *<dfn class="typedef" id="LPCLSID" title='LPCLSID' data-type='CLSID *' data-ref="LPCLSID">LPCLSID</dfn>;</td></tr>
+<tr><th id="85">85</th><td><u>#define <dfn class="macro" id="_M/CLSID_NULL" data-ref="_M/CLSID_NULL">CLSID_NULL</dfn> GUID_NULL</u></td></tr>
+<tr><th id="86">86</th><td><u>#define <dfn class="macro" id="_M/IsEqualCLSID" data-ref="_M/IsEqualCLSID">IsEqualCLSID</dfn>(rclsid1,rclsid2) IsEqualGUID(rclsid1,rclsid2)</u></td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td><b>typedef</b> <a class="typedef" href="#GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</a> <dfn class="typedef" id="FMTID" title='FMTID' data-type='GUID' data-ref="FMTID">FMTID</dfn>;</td></tr>
+<tr><th id="89">89</th><td><b>typedef</b> <a class="typedef" href="#FMTID" title='FMTID' data-type='GUID' data-ref="FMTID">FMTID</a> *<dfn class="typedef" id="LPFMTID" title='LPFMTID' data-type='FMTID *' data-ref="LPFMTID">LPFMTID</dfn>;</td></tr>
+<tr><th id="90">90</th><td><u>#define <dfn class="macro" id="_M/FMTID_NULL" data-ref="_M/FMTID_NULL">FMTID_NULL</dfn> GUID_NULL</u></td></tr>
+<tr><th id="91">91</th><td><u>#define <dfn class="macro" id="_M/IsEqualFMTID" data-ref="_M/IsEqualFMTID">IsEqualFMTID</dfn>(rfmtid1,rfmtid2) IsEqualGUID(rfmtid1,rfmtid2)</u></td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td><u>#<span data-ppcond="93">ifdef</span> <span class="macro" data-ref="_M/__midl_proxy">__midl_proxy</span></u></td></tr>
+<tr><th id="94">94</th><td><u>#define __MIDL_CONST</u></td></tr>
+<tr><th id="95">95</th><td><u>#<span data-ppcond="93">else</span></u></td></tr>
+<tr><th id="96">96</th><td><u>#define <dfn class="macro" id="_M/__MIDL_CONST" data-ref="_M/__MIDL_CONST">__MIDL_CONST</dfn> const</u></td></tr>
+<tr><th id="97">97</th><td><u>#<span data-ppcond="93">endif</span></u></td></tr>
+<tr><th id="98">98</th><td></td></tr>
+<tr><th id="99">99</th><td><u>#<span data-ppcond="99">ifndef</span> <span class="macro" data-ref="_M/_REFGUID_DEFINED">_REFGUID_DEFINED</span></u></td></tr>
+<tr><th id="100">100</th><td><u>#define <dfn class="macro" id="_M/_REFGUID_DEFINED" data-ref="_M/_REFGUID_DEFINED">_REFGUID_DEFINED</dfn></u></td></tr>
+<tr><th id="101">101</th><td><u>#<span data-ppcond="101">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="102">102</th><td><u>#define <dfn class="macro" id="_M/REFGUID" data-ref="_M/REFGUID">REFGUID</dfn> const <a class="typedef" href="#GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</a> &amp;</u></td></tr>
+<tr><th id="103">103</th><td><u>#<span data-ppcond="101">else</span></u></td></tr>
+<tr><th id="104">104</th><td><u>#define REFGUID const GUID *__MIDL_CONST</u></td></tr>
+<tr><th id="105">105</th><td><u>#<span data-ppcond="101">endif</span></u></td></tr>
+<tr><th id="106">106</th><td><u>#<span data-ppcond="99">endif</span></u></td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td><u>#<span data-ppcond="108">ifndef</span> <span class="macro" data-ref="_M/_REFIID_DEFINED">_REFIID_DEFINED</span></u></td></tr>
+<tr><th id="109">109</th><td><u>#define <dfn class="macro" id="_M/_REFIID_DEFINED" data-ref="_M/_REFIID_DEFINED">_REFIID_DEFINED</dfn></u></td></tr>
+<tr><th id="110">110</th><td><u>#<span data-ppcond="110">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="111">111</th><td><u>#define <dfn class="macro" id="_M/REFIID" data-ref="_M/REFIID">REFIID</dfn> const IID &amp;</u></td></tr>
+<tr><th id="112">112</th><td><u>#<span data-ppcond="110">else</span></u></td></tr>
+<tr><th id="113">113</th><td><u>#define REFIID const IID *__MIDL_CONST</u></td></tr>
+<tr><th id="114">114</th><td><u>#<span data-ppcond="110">endif</span></u></td></tr>
+<tr><th id="115">115</th><td><u>#<span data-ppcond="108">endif</span></u></td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td><u>#<span data-ppcond="117">ifndef</span> <span class="macro" data-ref="_M/_REFCLSID_DEFINED">_REFCLSID_DEFINED</span></u></td></tr>
+<tr><th id="118">118</th><td><u>#define <dfn class="macro" id="_M/_REFCLSID_DEFINED" data-ref="_M/_REFCLSID_DEFINED">_REFCLSID_DEFINED</dfn></u></td></tr>
+<tr><th id="119">119</th><td><u>#<span data-ppcond="119">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="120">120</th><td><u>#define <dfn class="macro" id="_M/REFCLSID" data-ref="_M/REFCLSID">REFCLSID</dfn> const IID &amp;</u></td></tr>
+<tr><th id="121">121</th><td><u>#<span data-ppcond="119">else</span></u></td></tr>
+<tr><th id="122">122</th><td><u>#define REFCLSID const IID *__MIDL_CONST</u></td></tr>
+<tr><th id="123">123</th><td><u>#<span data-ppcond="119">endif</span></u></td></tr>
+<tr><th id="124">124</th><td><u>#<span data-ppcond="117">endif</span></u></td></tr>
+<tr><th id="125">125</th><td></td></tr>
+<tr><th id="126">126</th><td><u>#<span data-ppcond="126">ifndef</span> <span class="macro" data-ref="_M/_REFFMTID_DEFINED">_REFFMTID_DEFINED</span></u></td></tr>
+<tr><th id="127">127</th><td><u>#define <dfn class="macro" id="_M/_REFFMTID_DEFINED" data-ref="_M/_REFFMTID_DEFINED">_REFFMTID_DEFINED</dfn></u></td></tr>
+<tr><th id="128">128</th><td><u>#<span data-ppcond="128">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="129">129</th><td><u>#define <dfn class="macro" id="_M/REFFMTID" data-ref="_M/REFFMTID">REFFMTID</dfn> const IID &amp;</u></td></tr>
+<tr><th id="130">130</th><td><u>#<span data-ppcond="128">else</span></u></td></tr>
+<tr><th id="131">131</th><td><u>#define REFFMTID const IID *__MIDL_CONST</u></td></tr>
+<tr><th id="132">132</th><td><u>#<span data-ppcond="128">endif</span></u></td></tr>
+<tr><th id="133">133</th><td><u>#<span data-ppcond="126">endif</span></u></td></tr>
+<tr><th id="134">134</th><td><u>#<span data-ppcond="71">endif</span></u></td></tr>
+<tr><th id="135">135</th><td></td></tr>
+<tr><th id="136">136</th><td><u>#<span data-ppcond="136">ifndef</span> <span class="macro" data-ref="_M/__WIDL__">__WIDL__</span></u></td></tr>
+<tr><th id="137">137</th><td><u>#<span data-ppcond="137">ifndef</span> <span class="macro" data-ref="_M/_SYS_GUID_OPERATORS_">_SYS_GUID_OPERATORS_</span></u></td></tr>
+<tr><th id="138">138</th><td><u>#define <dfn class="macro" id="_M/_SYS_GUID_OPERATORS_" data-ref="_M/_SYS_GUID_OPERATORS_">_SYS_GUID_OPERATORS_</dfn></u></td></tr>
+<tr><th id="139">139</th><td><u>#include <a href="string.h.html">&lt;string.h&gt;</a></u></td></tr>
+<tr><th id="140">140</th><td></td></tr>
+<tr><th id="141">141</th><td><u>#<span data-ppcond="141">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="142">142</th><td><b>__inline</b> <em>int</em> <dfn class="decl def" id="InlineIsEqualGUID" title='InlineIsEqualGUID' data-ref="InlineIsEqualGUID">InlineIsEqualGUID</dfn>(<a class="macro" href="#102" title="const GUID &amp;" data-ref="_M/REFGUID">REFGUID</a> <dfn class="local col4 decl" id="2324rguid1" title='rguid1' data-type='const GUID &amp;' data-ref="2324rguid1">rguid1</dfn>,<a class="macro" href="#102" title="const GUID &amp;" data-ref="_M/REFGUID">REFGUID</a> <dfn class="local col5 decl" id="2325rguid2" title='rguid2' data-type='const GUID &amp;' data-ref="2325rguid2">rguid2</dfn>) {</td></tr>
+<tr><th id="143">143</th><td>  <b>return</b> (((<em>unsigned</em> <a class="macro" href="_mingw.h.html#26" title="long" data-ref="_M/__LONG32">__LONG32</a> *) &amp;<a class="local col4 ref" href="#2324rguid1" title='rguid1' data-ref="2324rguid1">rguid1</a>)[<var>0</var>]==((<em>unsigned</em> <a class="macro" href="_mingw.h.html#26" title="long" data-ref="_M/__LONG32">__LONG32</a> *) &amp;<a class="local col5 ref" href="#2325rguid2" title='rguid2' data-ref="2325rguid2">rguid2</a>)[<var>0</var>] &amp;&amp; ((<em>unsigned</em> <a class="macro" href="_mingw.h.html#26" title="long" data-ref="_M/__LONG32">__LONG32</a> *) &amp;<a class="local col4 ref" href="#2324rguid1" title='rguid1' data-ref="2324rguid1">rguid1</a>)[<var>1</var>]==((<em>unsigned</em> <a class="macro" href="_mingw.h.html#26" title="long" data-ref="_M/__LONG32">__LONG32</a> *) &amp;<a class="local col5 ref" href="#2325rguid2" title='rguid2' data-ref="2325rguid2">rguid2</a>)[<var>1</var>] &amp;&amp;</td></tr>
+<tr><th id="144">144</th><td>    ((<em>unsigned</em> <a class="macro" href="_mingw.h.html#26" title="long" data-ref="_M/__LONG32">__LONG32</a> *) &amp;<a class="local col4 ref" href="#2324rguid1" title='rguid1' data-ref="2324rguid1">rguid1</a>)[<var>2</var>]==((<em>unsigned</em> <a class="macro" href="_mingw.h.html#26" title="long" data-ref="_M/__LONG32">__LONG32</a> *) &amp;<a class="local col5 ref" href="#2325rguid2" title='rguid2' data-ref="2325rguid2">rguid2</a>)[<var>2</var>] &amp;&amp; ((<em>unsigned</em> <a class="macro" href="_mingw.h.html#26" title="long" data-ref="_M/__LONG32">__LONG32</a> *) &amp;<a class="local col4 ref" href="#2324rguid1" title='rguid1' data-ref="2324rguid1">rguid1</a>)[<var>3</var>]==((<em>unsigned</em> <a class="macro" href="_mingw.h.html#26" title="long" data-ref="_M/__LONG32">__LONG32</a> *) &amp;<a class="local col5 ref" href="#2325rguid2" title='rguid2' data-ref="2325rguid2">rguid2</a>)[<var>3</var>]);</td></tr>
+<tr><th id="145">145</th><td>}</td></tr>
+<tr><th id="146">146</th><td><b>__inline</b> <em>int</em> <dfn class="decl def" id="IsEqualGUID" title='IsEqualGUID' data-ref="IsEqualGUID">IsEqualGUID</dfn>(<a class="macro" href="#102" title="const GUID &amp;" data-ref="_M/REFGUID">REFGUID</a> <dfn class="local col6 decl" id="2326rguid1" title='rguid1' data-type='const GUID &amp;' data-ref="2326rguid1">rguid1</dfn>,<a class="macro" href="#102" title="const GUID &amp;" data-ref="_M/REFGUID">REFGUID</a> <dfn class="local col7 decl" id="2327rguid2" title='rguid2' data-type='const GUID &amp;' data-ref="2327rguid2">rguid2</dfn>) { <b>return</b> !<a class="ref" href="string.h.html#memcmp" title='memcmp' data-ref="memcmp">memcmp</a>(&amp;<a class="local col6 ref" href="#2326rguid1" title='rguid1' data-ref="2326rguid1">rguid1</a>,&amp;<a class="local col7 ref" href="#2327rguid2" title='rguid2' data-ref="2327rguid2">rguid2</a>,<b>sizeof</b>(<a class="typedef" href="#GUID" title='GUID' data-type='struct _GUID' data-ref="GUID">GUID</a>)); }</td></tr>
+<tr><th id="147">147</th><td><u>#<span data-ppcond="141">else</span></u></td></tr>
+<tr><th id="148">148</th><td><u>#define InlineIsEqualGUID(rguid1,rguid2) (((unsigned __LONG32 *) rguid1)[0]==((unsigned __LONG32 *) rguid2)[0] &amp;&amp; ((unsigned __LONG32 *) rguid1)[1]==((unsigned __LONG32 *) rguid2)[1] &amp;&amp; ((unsigned __LONG32 *) rguid1)[2]==((unsigned __LONG32 *) rguid2)[2] &amp;&amp; ((unsigned __LONG32 *) rguid1)[3]==((unsigned __LONG32 *) rguid2)[3])</u></td></tr>
+<tr><th id="149">149</th><td><u>#define IsEqualGUID(rguid1,rguid2) (!memcmp(rguid1,rguid2,sizeof(GUID)))</u></td></tr>
+<tr><th id="150">150</th><td><u>#<span data-ppcond="141">endif</span></u></td></tr>
+<tr><th id="151">151</th><td></td></tr>
+<tr><th id="152">152</th><td><u>#<span data-ppcond="152">ifdef</span> <span class="macro" data-ref="_M/__INLINE_ISEQUAL_GUID">__INLINE_ISEQUAL_GUID</span></u></td></tr>
+<tr><th id="153">153</th><td><u>#undef IsEqualGUID</u></td></tr>
+<tr><th id="154">154</th><td><u>#define IsEqualGUID(rguid1,rguid2) InlineIsEqualGUID(rguid1,rguid2)</u></td></tr>
+<tr><th id="155">155</th><td><u>#<span data-ppcond="152">endif</span></u></td></tr>
+<tr><th id="156">156</th><td></td></tr>
+<tr><th id="157">157</th><td><u>#define <dfn class="macro" id="_M/IsEqualIID" data-ref="_M/IsEqualIID">IsEqualIID</dfn>(riid1,riid2) IsEqualGUID(riid1,riid2)</u></td></tr>
+<tr><th id="158">158</th><td><u>#define <dfn class="macro" id="_M/IsEqualCLSID" data-ref="_M/IsEqualCLSID">IsEqualCLSID</dfn>(rclsid1,rclsid2) IsEqualGUID(rclsid1,rclsid2)</u></td></tr>
+<tr><th id="159">159</th><td></td></tr>
+<tr><th id="160">160</th><td><u>#<span data-ppcond="160">if</span> !defined <span class="macro" data-ref="_M/_SYS_GUID_OPERATOR_EQ_">_SYS_GUID_OPERATOR_EQ_</span> &amp;&amp; !defined <span class="macro" data-ref="_M/_NO_SYS_GUID_OPERATOR_EQ_">_NO_SYS_GUID_OPERATOR_EQ_</span></u></td></tr>
+<tr><th id="161">161</th><td><u>#define <dfn class="macro" id="_M/_SYS_GUID_OPERATOR_EQ_" data-ref="_M/_SYS_GUID_OPERATOR_EQ_">_SYS_GUID_OPERATOR_EQ_</dfn></u></td></tr>
+<tr><th id="162">162</th><td><u>#<span data-ppcond="162">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="163">163</th><td><b>__inline</b> <em>int</em> <dfn class="decl def" id="_ZeqRK5_GUIDS1_" title='operator==' data-ref="_ZeqRK5_GUIDS1_"><b>operator</b>==</dfn>(<a class="macro" href="#102" title="const GUID &amp;" data-ref="_M/REFGUID">REFGUID</a> <dfn class="local col8 decl" id="2328guidOne" title='guidOne' data-type='const GUID &amp;' data-ref="2328guidOne">guidOne</dfn>,<a class="macro" href="#102" title="const GUID &amp;" data-ref="_M/REFGUID">REFGUID</a> <dfn class="local col9 decl" id="2329guidOther" title='guidOther' data-type='const GUID &amp;' data-ref="2329guidOther">guidOther</dfn>) { <b>return</b> <a class="ref" href="#IsEqualGUID" title='IsEqualGUID' data-ref="IsEqualGUID">IsEqualGUID</a>(<a class="local col8 ref" href="#2328guidOne" title='guidOne' data-ref="2328guidOne">guidOne</a>,<a class="local col9 ref" href="#2329guidOther" title='guidOther' data-ref="2329guidOther">guidOther</a>); }</td></tr>
+<tr><th id="164">164</th><td><b>__inline</b> <em>int</em> <dfn class="decl def" id="_ZneRK5_GUIDS1_" title='operator!=' data-ref="_ZneRK5_GUIDS1_"><b>operator</b>!=</dfn>(<a class="macro" href="#102" title="const GUID &amp;" data-ref="_M/REFGUID">REFGUID</a> <dfn class="local col0 decl" id="2330guidOne" title='guidOne' data-type='const GUID &amp;' data-ref="2330guidOne">guidOne</dfn>,<a class="macro" href="#102" title="const GUID &amp;" data-ref="_M/REFGUID">REFGUID</a> <dfn class="local col1 decl" id="2331guidOther" title='guidOther' data-type='const GUID &amp;' data-ref="2331guidOther">guidOther</dfn>) { <b>return</b> !(<a class="local col0 ref" href="#2330guidOne" title='guidOne' data-ref="2330guidOne">guidOne</a><a class="ref" href="#_ZeqRK5_GUIDS1_" title='operator==' data-ref="_ZeqRK5_GUIDS1_">==</a><a class="local col1 ref" href="#2331guidOther" title='guidOther' data-ref="2331guidOther">guidOther</a>); }</td></tr>
+<tr><th id="165">165</th><td><u>#<span data-ppcond="162">endif</span></u></td></tr>
+<tr><th id="166">166</th><td><u>#<span data-ppcond="160">endif</span></u></td></tr>
+<tr><th id="167">167</th><td><u>#<span data-ppcond="137">endif</span></u></td></tr>
+<tr><th id="168">168</th><td><u>#<span data-ppcond="136">endif</span></u></td></tr>
+<tr><th id="169">169</th><td><u>#<span data-ppcond="58">endif</span></u></td></tr>
+<tr><th id="170">170</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../../../../system/core/adb/sysdeps_win32.cpp.html'>codebrowser/system/core/adb/sysdeps_win32.cpp</a><br/>Generated on <em>2017-Sep-01</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

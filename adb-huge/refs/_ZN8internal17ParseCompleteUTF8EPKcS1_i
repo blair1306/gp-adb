@@ -1,0 +1,4 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2442' ll='2478' type='size_t internal::ParseCompleteUTF8(const char *const first, const char *const last, int )'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2439'>// Given a sequence of UTF-8 bytes (denoted by the range [first, last)), return the number of bytes
+// (from the beginning) that are complete UTF-8 sequences and append the remaining bytes to
+// remaining_bytes.</doc>

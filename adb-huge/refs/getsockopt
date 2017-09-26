@@ -1,0 +1,7 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='190' type='int getsockopt(int __fd, int __level, int __optname, void *restrict __optval, socklen_t *restrict __optlen)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/sys/socket.h' l='187'>/* Put the current value for socket FD&apos;s option OPTNAME at protocol level LEVEL
+   into OPTVAL (which is *OPTLEN bytes long), and set *OPTLEN to the value&apos;s
+   actual length.  Returns 0 on success, -1 for errors.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='109' u='c' c='bio_sock_error'/>
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='971' type='int getsockopt(SOCKET s, int level, int optname, char * optval, int * optlen)'/>
+<use f='codebrowser/system/core/libcutils/socket_network_client_unix.c' l='104' u='c' c='socket_network_client_timeout'/>

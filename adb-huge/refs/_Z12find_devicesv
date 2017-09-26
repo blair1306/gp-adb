@@ -1,0 +1,5 @@
+<dec f='codebrowser/system/core/adb/usb_windows.cpp' l='93' type='void find_devices()'/>
+<use f='codebrowser/system/core/adb/usb_windows.cpp' l='180' u='c' c='_ZL18device_poll_threadPv'/>
+<def f='codebrowser/system/core/adb/usb_windows.cpp' l='580' ll='649' type='void find_devices()'/>
+<doc f='codebrowser/system/core/adb/usb_windows.cpp' l='91'>/// Enumerates present and available interfaces (devices), opens new ones and
+/// registers usb transport for them.</doc>

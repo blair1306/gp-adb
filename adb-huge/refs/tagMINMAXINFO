@@ -1,0 +1,7 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='944' ll='950'/>
+<size>40</size>
+<mbr r='tagMINMAXINFO::ptReserved' o='0' t='POINT'/>
+<mbr r='tagMINMAXINFO::ptMaxSize' o='64' t='POINT'/>
+<mbr r='tagMINMAXINFO::ptMaxPosition' o='128' t='POINT'/>
+<mbr r='tagMINMAXINFO::ptMinTrackSize' o='192' t='POINT'/>
+<mbr r='tagMINMAXINFO::ptMaxTrackSize' o='256' t='POINT'/>

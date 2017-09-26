@@ -1,0 +1,30 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4205' ll='4234'/>
+<size>232</size>
+<mbr r='_SYSTEM_POWER_POLICY::Revision' o='0' t='DWORD'/>
+<mbr r='_SYSTEM_POWER_POLICY::PowerButton' o='32' t='POWER_ACTION_POLICY'/>
+<mbr r='_SYSTEM_POWER_POLICY::SleepButton' o='128' t='POWER_ACTION_POLICY'/>
+<mbr r='_SYSTEM_POWER_POLICY::LidClose' o='224' t='POWER_ACTION_POLICY'/>
+<mbr r='_SYSTEM_POWER_POLICY::LidOpenWake' o='320' t='SYSTEM_POWER_STATE'/>
+<mbr r='_SYSTEM_POWER_POLICY::Reserved' o='352' t='DWORD'/>
+<mbr r='_SYSTEM_POWER_POLICY::Idle' o='384' t='POWER_ACTION_POLICY'/>
+<mbr r='_SYSTEM_POWER_POLICY::IdleTimeout' o='480' t='DWORD'/>
+<mbr r='_SYSTEM_POWER_POLICY::IdleSensitivity' o='512' t='BYTE'/>
+<mbr r='_SYSTEM_POWER_POLICY::DynamicThrottle' o='520' t='BYTE'/>
+<mbr r='_SYSTEM_POWER_POLICY::Spare2' o='528' t='BYTE [2]'/>
+<mbr r='_SYSTEM_POWER_POLICY::MinSleep' o='544' t='SYSTEM_POWER_STATE'/>
+<mbr r='_SYSTEM_POWER_POLICY::MaxSleep' o='576' t='SYSTEM_POWER_STATE'/>
+<mbr r='_SYSTEM_POWER_POLICY::ReducedLatencySleep' o='608' t='SYSTEM_POWER_STATE'/>
+<mbr r='_SYSTEM_POWER_POLICY::WinLogonFlags' o='640' t='DWORD'/>
+<mbr r='_SYSTEM_POWER_POLICY::Spare3' o='672' t='DWORD'/>
+<mbr r='_SYSTEM_POWER_POLICY::DozeS4Timeout' o='704' t='DWORD'/>
+<mbr r='_SYSTEM_POWER_POLICY::BroadcastCapacityResolution' o='736' t='DWORD'/>
+<mbr r='_SYSTEM_POWER_POLICY::DischargePolicy' o='768' t='SYSTEM_POWER_LEVEL [4]'/>
+<mbr r='_SYSTEM_POWER_POLICY::VideoTimeout' o='1536' t='DWORD'/>
+<mbr r='_SYSTEM_POWER_POLICY::VideoDimDisplay' o='1568' t='BOOLEAN'/>
+<mbr r='_SYSTEM_POWER_POLICY::VideoReserved' o='1600' t='DWORD [3]'/>
+<mbr r='_SYSTEM_POWER_POLICY::SpindownTimeout' o='1696' t='DWORD'/>
+<mbr r='_SYSTEM_POWER_POLICY::OptimizeForPower' o='1728' t='BOOLEAN'/>
+<mbr r='_SYSTEM_POWER_POLICY::FanThrottleTolerance' o='1736' t='BYTE'/>
+<mbr r='_SYSTEM_POWER_POLICY::ForcedThrottle' o='1744' t='BYTE'/>
+<mbr r='_SYSTEM_POWER_POLICY::MinThrottle' o='1752' t='BYTE'/>
+<mbr r='_SYSTEM_POWER_POLICY::OverThrottled' o='1760' t='POWER_ACTION_POLICY'/>

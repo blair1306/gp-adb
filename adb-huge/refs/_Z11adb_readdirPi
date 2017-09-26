@@ -1,0 +1,2 @@
+<def f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2339' ll='2373' type='struct dirent * adb_readdir(int * dir)'/>
+<doc f='codebrowser/system/core/adb/sysdeps_win32.cpp' l='2338'>// Version of readdir() that returns UTF-8 paths.</doc>

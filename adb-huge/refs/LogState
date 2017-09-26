@@ -1,0 +1,5 @@
+<def f='codebrowser/system/core/liblog/fake_log_device.c' l='63' ll='84'/>
+<size>356</size>
+<doc f='codebrowser/system/core/liblog/fake_log_device.c' l='60'>/*
+ * Log driver state.
+ */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='834' type='int pthread_mutexattr_getprioceiling(const pthread_mutexattr_t *restrict __attr, int *restrict __prioceiling)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/pthread.h' l='833'>/* Return in *PRIOCEILING the mutex prioceiling attribute in *ATTR.  */</doc>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/stdio2.h' l='86' type='int __fprintf_chk(FILE *restrict __stream, int __flag, const char *restrict __format)'/>
+<use f='codebrowser/external/boringssl/src/crypto/thread_pthread.c' l='79' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='78' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='86' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='93' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='205' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='274' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='293' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='305' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='317' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='349' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='357' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='380' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/event_tag_map.c' l='416' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='535' macro='1' u='c'/>
+<use f='codebrowser/system/core/liblog/fake_log_device.c' l='539' macro='1' u='c'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/system/core/liblog/logger.h' l='153' type='pid_t __android_log_pid()'/>
+<def f='codebrowser/system/core/liblog/logger_lock.c' l='43' ll='51' macro='1' type='pid_t __android_log_pid()'/>

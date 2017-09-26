@@ -1,0 +1,5 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/wingdi.h' l='2937' ll='2941'/>
+<size>72</size>
+<mbr r='tagDESIGNVECTOR::dvReserved' o='0' t='DWORD'/>
+<mbr r='tagDESIGNVECTOR::dvNumAxes' o='32' t='DWORD'/>
+<mbr r='tagDESIGNVECTOR::dvValues' o='64' t='LONG [16]'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/system/core/adb/sysdeps.h' l='704'/>
+<use f='codebrowser/system/core/adb/adb_utils.cpp' l='55' u='c'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='87' u='c'/>
+<use f='codebrowser/system/core/adb/client/main.cpp' l='161' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='56' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='163' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='171' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='184' u='c'/>
+<use f='codebrowser/system/core/adb/usb_linux.cpp' l='291' u='c'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winsock2.h' l='682' ll='685'/>
+<size>8</size>
+<mbr r='_WSAVersion::dwVersion' o='0' t='DWORD'/>
+<mbr r='_WSAVersion::ecHow' o='32' t='WSAECOMPARATOR'/>

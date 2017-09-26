@@ -1,0 +1,25 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='42' type='1'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/socket.h' l='42'>/* Sequenced, reliable, connection-based
+				   byte streams.  */</doc>
+<use f='codebrowser/external/boringssl/src/crypto/bio/socket_helper.c' l='50' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/sysdeps.h' l='791' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='145' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/adb_client.cpp' l='153' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='117' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='119' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='126' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='129' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/adb_listeners.cpp' l='132' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/console.cpp' l='76' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='279' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='285' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='293' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='296' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='299' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='302' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/services.cpp' l='413' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='103' macro='1' u='r'/>
+<use f='codebrowser/system/core/adb/transport_local.cpp' l='107' macro='1' u='r'/>
+<use f='codebrowser/system/core/libcutils/socket_inaddr_any_server_unix.c' l='54' macro='1' u='r'/>
+<use f='codebrowser/system/core/libcutils/socket_local_server_unix.c' l='112' macro='1' u='r'/>
+<use f='codebrowser/system/core/libcutils/socket_loopback_server_unix.c' l='56' macro='1' u='r'/>

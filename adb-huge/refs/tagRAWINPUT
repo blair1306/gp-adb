@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h' l='5257' ll='5264'/>
+<size>40</size>
+<mbr r='tagRAWINPUT::header' o='0' t='RAWINPUTHEADER'/>
+<mbr r='tagRAWINPUT::data' o='128' t='union (anonymous union at /home/jon/workspace/android/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winuser.h:5259:5)'/>

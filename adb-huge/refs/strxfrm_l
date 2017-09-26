@@ -1,0 +1,4 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='168' type='size_t strxfrm_l(char * __dest, const char * __src, size_t __n, __locale_t __l)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/string.h' l='167'>/* Put a transformation of SRC into no more than N bytes of DEST.  */</doc>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='702' u='c' c='_ZNKSt3__114collate_bynameIcE12do_transformEPKcS3_'/>
+<use f='codebrowser/external/libcxx/src/locale.cpp' l='703' u='c' c='_ZNKSt3__114collate_bynameIcE12do_transformEPKcS3_'/>

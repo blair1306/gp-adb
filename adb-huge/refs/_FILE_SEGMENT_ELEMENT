@@ -1,0 +1,4 @@
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/x86_64-w64-mingw32/include/winnt.h' l='4037' ll='4040'/>
+<size>8</size>
+<mbr r='_FILE_SEGMENT_ELEMENT::Buffer' o='0' t='PVOID64'/>
+<mbr r='_FILE_SEGMENT_ELEMENT::Alignment' o='0' t='ULONGLONG'/>

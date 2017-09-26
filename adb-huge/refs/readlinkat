@@ -1,0 +1,3 @@
+<dec f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='843' type='ssize_t readlinkat(int __fd, const char *restrict __path, char *restrict __buf, size_t __len)'/>
+<def f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/x86_64-linux-gnu/bits/unistd.h' l='173' ll='187' macro='1' type='ssize_t readlinkat(int __fd, const char *restrict __path, char *restrict __buf, size_t __len)'/>
+<doc f='codebrowser/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot/usr/include/unistd.h' l='842'>/* Like readlink but a relative PATH is interpreted relative to FD.  */</doc>
